@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SCREEN_LABORATOIRE</key>
+	<dict>
+		<key>NAV_TITLE</key>
+		<string>LABORATOIRE</string>
+	</dict>
+	<key>SCREEN_DOCUMENTS</key>
+	<dict>
+		<key>NAV_TITLE</key>
+		<string>DOCUMENTS</string>
+	</dict>
+	<key>SCREEN_ADMISSION</key>
+	<dict>
+		<key>NAV_TITLE</key>
+		<string>ADMISSION</string>
+	</dict>
+	<key>SCREEN_FEED</key>
+	<dict>
+		<key>NAV_TITLE</key>
+		<string>Living</string>
+	</dict>
+	<key>SCREEN_MENU</key>
+	<dict>
+		<key>CELL_ROW0</key>
+		<string>Cardiovasculaire</string>
+		<key>CELL_ROW1</key>
+		<string>Respiratoire</string>
+		<key>CELL_ROW2</key>
+		<string>Neurologie</string>
+		<key>CELL_ROW3</key>
+		<string>Osteoarticulaire</string>
+		<key>CELL_ROW4</key>
+		<string>Urinaire</string>
+		<key>CELL_ROW5</key>
+		<string>Digestif</string>
+		<key>CELL_ROW6</key>
+		<string>Psychiatrie</string>
+		<key>CELL_ROW7</key>
+		<string>Pediatrie</string>
+		<key>CELL_ROW8</key>
+		<string>Pharmacologie</string>
+	</dict>
+	<key>SCREEN_SEARCH</key>
+	<dict>
+		<key>NAV_TITLE</key>
+		<string>Search</string>
+	</dict>
+	<key>SCREEN_SETTING</key>
+	<dict>
+		<key>NAV_TITLE</key>
+		<string>Setting</string>
+	</dict>
+	<key>SCREEN_ADD</key>
+	<dict>
+		<key>NAV_TITLE</key>
+		<string>Add</string>
+	</dict>
+	<key>SCREEN_ELEMENT</key>
+	<dict>
+		<key>NAV_TITLE</key>
+		<string>Elements</string>
+	</dict>
+</dict>
+</plist>

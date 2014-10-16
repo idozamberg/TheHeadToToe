@@ -1,0 +1,10 @@
+PODS:
+  - ReaderFramework (1.0.0)
+
+DEPENDENCIES:
+  - ReaderFramework (~> 1.0)
+
+SPEC CHECKSUMS:
+  ReaderFramework: e6d9fcf41ce8ceae5e7a1343d61843b5e5016588
+
+COCOAPODS: 0.33.1

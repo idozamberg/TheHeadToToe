@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Cardiovasculaire</key>
+	<array>
+		<dict>
+			<key>Name</key>
+			<string>CCDC - Cahier.pdf</string>
+			<key>Description</key>
+			<string>Cahier de l&apos;unité CC/DC UIDC</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Katz-AVQ.pdf</string>
+			<key>Description</key>
+			<string>Katz - évaluation des AVQ</string>
+		</dict>
+	</array>
+	<key>Urinaire</key>
+	<string></string>
+</dict>
+</plist>

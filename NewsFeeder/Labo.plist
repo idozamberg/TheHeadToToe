@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Chimie</key>
+	<dict>
+		<key>Albumine</key>
+		<string>4.0 - 6.0 g/dL</string>
+		<key>Ferritine</key>
+		<string>20 - 300 ng/mL</string>
+		<key>Gamma-GT</key>
+		<string>0 - 30 U/L</string>
+		<key>Créatinine</key>
+		<string>50-110 µmol/L</string>
+		<key>Glycémie (à jeun)</key>
+		<string>3.9 - 5.6 mmol/L</string>
+		<key>Lactate</key>
+		<string>0.5 - 2.0 mmol/L</string>
+		<key>LDL</key>
+		<string>&lt; 160 mg/dL</string>
+		<key>HDL</key>
+		<string>30 - 70 mg/dL</string>
+	</dict>
+	<key>Hématologie</key>
+	<dict>
+		<key>VS</key>
+		<string>H: 0-20 mm/h , F : 0-30 mm/h</string>
+		<key>Thrombocytes</key>
+		<string>130-400 10^3/mm3</string>
+		<key>MCHC</key>
+		<string>330-370 g/L</string>
+		<key>MCV</key>
+		<string>76-100 µm/mm3</string>
+		<key>Hb</key>
+		<string>H: 13.6 - 17.2 g/dL, F : 12.0-15.0 g/dL</string>
+		<key>GR</key>
+		<string>H: 3.5-5.0 10^6/mm3 , F : 4.3-5.9 10^6/mm3</string>
+		<key>Leucocytes</key>
+		<string>3.2 - 9.8 G/L</string>
+	</dict>
+</dict>
+</plist>

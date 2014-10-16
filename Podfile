@@ -1,0 +1,1 @@
+pod 'ReaderFramework', '~> 1.0'

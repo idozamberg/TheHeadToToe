@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Anamnèse General</key>
+	<dict>
+		<key>Antécédents personnels</key>
+		<array>
+			<string>Maladies</string>
+			<string>Interventions chirurgicales</string>
+			<string>Traumatismes</string>
+			<string>Hospitalisations</string>
+			<string>ATCD psychiatriques</string>
+			<string>Autres ATCD</string>
+		</array>
+		<key>Anamnèse actuelle</key>
+		<array>
+			<string>Que-est que vous améne aujourdhui ?</string>
+		</array>
+		<key>Anamnèse psychosociale</key>
+		<array>
+			<string>Transferts</string>
+			<string>Marche</string>
+			<string>AVQ/AVI</string>
+			<string>Aide à domicile</string>
+		</array>
+		<key>Habitudes</key>
+		<array>
+			<string>Tabac</string>
+			<string>Alcool</string>
+			<string>Drogues</string>
+			<string>Alimentation</string>
+			<string>Exercice</string>
+			<string>Allergies</string>
+		</array>
+		<key>FRCV</key>
+		<array>
+			<string>HTA</string>
+			<string>Tabac</string>
+			<string>Diabète</string>
+			<string>Hypercholestérolémie</string>
+			<string>Dyslipidémie</string>
+		</array>
+	</dict>
+	<key>Anamnèse par sytème</key>
+	<dict>
+		<key>Général</key>
+		<array>
+			<string>Fièvre</string>
+			<string>Frissons</string>
+			<string>Sudations nocturnes</string>
+			<string>Perte d&apos;appétit</string>
+			<string>Perte de poids</string>
+			<string>Asthénie</string>
+			<string>Troubles du sommeil</string>
+		</array>
+		<key>Peau</key>
+		<array>
+			<string>Eruptions cutanées</string>
+			<string>Hématomes</string>
+			<string>Lésions</string>
+		</array>
+		<key>Cardiovasculaire</key>
+		<array>
+			<string>Douleurs thoraciques</string>
+			<string>Dyspnée d&apos;effort</string>
+			<string>Orthopnée</string>
+			<string>Dyspnée paroxystique nocturne</string>
+			<string>Nycturie</string>
+			<string>Oedèmes des MI</string>
+			<string>Palpitations</string>
+			<string>Syncope</string>
+			<string>Claudication intermittente</string>
+		</array>
+		<key>Respiratoire</key>
+		<array>
+			<string>Toux</string>
+			<string>Expectorations</string>
+			<string>Dyspnée</string>
+			<string>Douleurs thoraciques</string>
+			<string>Douleurs respiro-dépendantes</string>
+			<string>Hémoptysie</string>
+			<string>Respiration sifflante</string>
+		</array>
+		<key>Digestif</key>
+		<array>
+			<string>Transit normal</string>
+			<string>Diarrhées</string>
+			<string>Melena</string>
+			<string>Douleurs abdominales</string>
+			<string>Nausées</string>
+			<string>Vomissements</string>
+			<string>Appétit</string>
+			<string>Dyspepsie</string>
+			<string>Pyrosis</string>
+			<string>Régurgitations</string>
+			<string>Ictère/prurit</string>
+			<string></string>
+		</array>
+		<key>Uro-génital</key>
+		<array>
+			<string>Dysurie</string>
+			<string>Algurie/Brûlure</string>
+			<string>Nycturie</string>
+			<string>Polyurie</string>
+			<string>Oligurie</string>
+			<string>Pollakiurie</string>
+			<string>Hématurie</string>
+			<string>Incontinence urinaire</string>
+			<string>Urgence mictionnelle</string>
+			<string>Prostatisme</string>
+			<string>Trouble de l&apos;érection</string>
+		</array>
+		<key>Gynécologique</key>
+		<array>
+			<string>Grossesse</string>
+			<string>Durée des menstruations</string>
+			<string>Périodicité</string>
+			<string>Dysménorrhée</string>
+			<string>Ménorrhagie</string>
+			<string>Date des dernières règles</string>
+			<string>Dyspareunie</string>
+			<string>Pertes vaginales</string>
+			<string>Ménarches</string>
+			<string>Ménopause</string>
+		</array>
+		<key>Neurologique</key>
+		<array>
+			<string>Céphalées</string>
+			<string>Troubles du sommeil</string>
+			<string>Vertiges</string>
+			<string>Faiblesse musculaire</string>
+			<string>Convulsions</string>
+			<string>Perte de connaissance</string>
+			<string>Syncope</string>
+			<string>Acuité visuelle</string>
+			<string>Perte d&apos;audition, acouphènes</string>
+			<string>Paresthésies</string>
+			<string>Perte de mémoire</string>
+			<string>Changement de personnalité</string>
+			<string>Anxiété</string>
+			<string>Dépression</string>
+		</array>
+		<key>Musculo-squelettique</key>
+		<array>
+			<string>Douleurs articulaires</string>
+			<string>Tuméfaction</string>
+			<string>Raideur (muscles, articulations, dos)</string>
+			<string>Capacité de se laver, s&apos;habiller sans difficulté</string>
+			<string>Capable de monter et descendre les escaliers</string>
+		</array>
+	</dict>
+</dict>
+</plist>
