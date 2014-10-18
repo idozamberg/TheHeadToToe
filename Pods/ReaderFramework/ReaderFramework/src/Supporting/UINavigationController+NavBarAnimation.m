@@ -17,17 +17,17 @@
             [UIView animateWithDuration:0.3 animations:^{
                 [self.navigationBar setAlpha:0.0f];
             } completion:^(BOOL finished) {
-               // [[UIApplication sharedApplication] setStatusBarHidden:YES withAnimation:UIStatusBarAnimationFade];
+                [[UIApplication sharedApplication] setStatusBarHidden:YES withAnimation:UIStatusBarAnimationFade];
                 [self setNavigationBarHidden:YES animated:NO];
             }];
         } else {
-           // [[UIApplication sharedApplication] setStatusBarHidden:YES withAnimation:UIStatusBarAnimationNone];
+            [[UIApplication sharedApplication] setStatusBarHidden:YES withAnimation:UIStatusBarAnimationNone];
             [self setNavigationBarHidden:YES];
         }
     } else {
         if (animation == ReaderNavigationBarAnimationFade) {
             
-          //  [[UIApplication sharedApplication] setStatusBarHidden:NO withAnimation:UIStatusBarAnimationFade];
+            [[UIApplication sharedApplication] setStatusBarHidden:NO withAnimation:UIStatusBarAnimationFade];
 
             dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(0.005 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
                 dispatch_async(dispatch_get_main_queue(), ^{
@@ -40,7 +40,7 @@
                 });
             });
         } else {
-           // [[UIApplication sharedApplication] setStatusBarHidden:NO withAnimation:UIStatusBarAnimationNone];
+            [[UIApplication sharedApplication] setStatusBarHidden:NO withAnimation:UIStatusBarAnimationNone];
             [self setNavigationBarHidden:NO];
         }
     }

@@ -8,8 +8,9 @@
 
 #import <UIKit/UIKit.h>
 #import "AdmissionQuestion.h"
+#import "YIPopupTextView.H"
 
-@interface QuestionCell : UITableViewCell
+@interface QuestionCell : UITableViewCell <YIPopupTextViewDelegate>
 @property (weak, nonatomic) IBOutlet UILabel *lblQuestion;
 @property (weak, nonatomic) IBOutlet UITextField *txtComment;
 @property (weak, nonatomic) IBOutlet UIButton *btnCheck;
@@ -19,5 +20,7 @@
 
 - (IBAction)checkClicked:(id)sender;
 - (void) setIsChecked:(BOOL)isChecked;
+- (IBAction)commentClicked:(id)sender;
+@property (weak, nonatomic) IBOutlet UIButton *btnComment;
 
 @end

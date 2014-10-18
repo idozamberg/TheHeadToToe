@@ -10,6 +10,8 @@
 
 #import "SuperViewController.h"
 #import "CustomNavigationBarView.h"
+#import "ReaderViewController.h"
+
 
 @interface CustomNavViewController : SuperViewController<CustomNavBarViewDelegate> {
 	CustomNavigationBarView * navBarView;
@@ -18,6 +20,9 @@
 }
 
 @property (nonatomic, retain) CustomNavigationBarView * navBarView;
+@property (nonatomic, strong) ReaderViewController* readerController;
+@property (nonatomic)         BOOL isShowingPdfView;
+
 
 - (void) insertNavBarWithScreenName:(NSString *)screen;
 - (void) setContentWithDicName:(NSString *)dicName;
@@ -25,5 +30,8 @@
 - (void) resetElementsForMode:(BOOL)isPortrait;
 
 - (void) moveToMainView;
+
+-(void)ShowPDFReaderWithName : (NSString*) name;
+
 
 @end

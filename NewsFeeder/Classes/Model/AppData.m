@@ -13,7 +13,7 @@
 #import "LabValue.h"
 
 @implementation AppData
-@synthesize questionsList = _questionsList;
+@synthesize questionsList = _questionsList,currNavigationController;
 
 static AppData* shareData;
 

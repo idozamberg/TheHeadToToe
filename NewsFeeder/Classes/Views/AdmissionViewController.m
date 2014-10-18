@@ -11,8 +11,10 @@
 #import "AppData.h"
 #import "QuestionsHeader.h"
 #import "UIView+Framing.h"
+#import "PDFManager.h"
+#import "CustomNavViewController+PdfViewer.h"
 
-#define DEFAULT_CELL_SIZE 71
+#define DEFAULT_CELL_SIZE 45
 #define SECTION_AG 0
 #define SECTION_APS 1
 #define SECTION_EX 2
@@ -73,10 +75,37 @@
     return YES; // do whatever u want here
 }
 
+- (void) didClickNavBarRightButton
+{
+    if (!self.isShowingPdfView)
+    {
+        NSString* path = [[PDFManager sharedInstance] createPdfFromDictionary:self.dataSource];
+        
+        [self ShowPDFReaderWithName:path];
+    }
+    else
+    {
+        [self.readerController pushActionBar];
+    }
+}
+
+
 - (void) didClickNavBarLeftButton
 {
-    [[NSNotificationCenter defaultCenter] postNotificationName:@"LeftSideBarButtonClicked" object:Nil];
+    
+    if (self.isShowingPdfView)
+    {
+        [self.navigationController popViewControllerAnimated:YES];
+        self.isShowingPdfView = NO;
+    }
+    else
+    {
+   
+        
+        [[NSNotificationCenter defaultCenter] postNotificationName:@"LeftSideBarButtonClicked" object:Nil];
+    }
 }
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
@@ -160,6 +189,31 @@
 {
 }
 
+- (void) calculateAndSetTableHeight
+{
+    NSInteger totalHeight = 0;
+    
+    // Going through all sections and calculating size
+    for (NSInteger sectionCounter=0;sectionCounter < [self.dataSource allKeys].count;sectionCounter++)
+    {
+        NSMutableDictionary* currentDictionary;
+        
+        if (sectionCounter == SECTION_AG)
+        {
+            currentDictionary = [self.dataSource objectForKey:@"Anamnèse General"];
+        }
+        else if (sectionCounter == SECTION_APS)
+        {
+            currentDictionary = [self.dataSource objectForKey:@"Anamnèse par sytème"];
+        }
+        
+        // Calculating current section size
+        totalHeight += [self calculateCellSizeForSection:currentDictionary andSection:sectionCounter];
+    }
+    
+    //[self.tblAdmission setHeight:totalHeight];
+}
+
 
 - (NSInteger) calculateCellSizeForSection : (NSMutableDictionary*) sectionDictionary andSection :(NSInteger) section
 {
@@ -186,7 +240,7 @@
         
         sectionCounter += 1;
         
-        cellSize += 56;
+        cellSize += 45;
     }
     
     return cellSize;
@@ -230,7 +284,7 @@
 
 - (CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section
 {
-    return 56;
+    return 45;
 }
 
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
@@ -267,6 +321,7 @@
     [rowsForSection replaceObjectAtIndex:section withObject:[NSNumber numberWithInteger:rows]];
     currentSectionToReload = section;
     [self.tblAdmission reloadSections:[NSIndexSet indexSetWithIndex:section] withRowAnimation:UITableViewRowAnimationNone];
+    [self calculateAndSetTableHeight];
 }
 
 
@@ -274,6 +329,7 @@
     NSInteger section = [[[notification userInfo] valueForKey:@"section"] integerValue];
     
     [self.tblAdmission reloadSections:[NSIndexSet indexSetWithIndex:section] withRowAnimation:UITableViewRowAnimationNone];
+    [self calculateAndSetTableHeight];
 
 }
 

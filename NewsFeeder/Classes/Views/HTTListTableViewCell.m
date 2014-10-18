@@ -132,12 +132,12 @@
 
 - (CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section
 {
-    return 56;
+    return 45;
 }
 
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    return 71;
+    return 45;
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
@@ -165,7 +165,7 @@
     if (rows > 0)
     {
         [self.tblQuestions scrollToRowAtIndexPath:[NSIndexPath indexPathForRow:0 inSection:section]
-                                    atScrollPosition:UITableViewScrollPositionTop animated:YES];
+                                   atScrollPosition:UITableViewScrollPositionTop animated:YES];
     }
     
     NSDictionary* dict = [NSDictionary dictionaryWithObject:

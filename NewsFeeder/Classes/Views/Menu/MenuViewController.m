@@ -77,6 +77,7 @@
     }
     else if ([sender isEqual:btnAdd]) {
         currentController = (SuperViewController *)[[UICustomNavigationController alloc] initWithRootViewController:[[AdmissionViewController alloc] viewFromStoryboard]];
+        [AppData sharedInstance].currNavigationController = (UICustomNavigationController*)currentController;
         [self showCurrentController];
     }
     else if ([sender isEqual:self.btnLabo])

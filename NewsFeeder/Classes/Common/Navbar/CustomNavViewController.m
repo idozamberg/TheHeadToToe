@@ -11,7 +11,8 @@
 
 @implementation CustomNavViewController
 
-@synthesize navBarView;
+
+@synthesize navBarView,readerController,isShowingPdfView;
 
 
 
@@ -21,6 +22,8 @@
 	
 	self.navBarView = [CustomNavigationBarView viewFromStoryboard];
 	[self.navBarView setFrame:CGRectMake( 0, 0, 320, 64 )];
+    
+    isShowingPdfView = NO;
 }
 
 
@@ -126,7 +129,7 @@
         [self.navBarView.lblTitle setText:[gAppDelegate getStringInScreen:SCREEN_ADMISSION
                                                                     strID:STR_NAVTITLE]];
         [self.navBarView.rightButton setHidden:NO];
-        [self.navBarView.rightButton setImage:[UIImage imageNamed:@"Mail envelope"]
+        [self.navBarView.rightButton setImage:[UIImage imageNamed:@"checkmark-32"]
                                      forState:UIControlStateNormal];
     }
 
@@ -178,5 +181,46 @@
     
     [UIView commitAnimations];
 }
+
+-(void)ShowPDFReaderWithName : (NSString*) name
+{
+    // Setting up file name
+    NSString *phrase = nil; // Document password (for unlocking most encrypted PDF files)
+    NSFileManager *fileManager = [NSFileManager new];
+    NSURL *pathURL = [fileManager URLForDirectory:NSDocumentDirectory inDomain:NSUserDomainMask appropriateForURL:nil create:YES error:NULL];
+    
+    NSString *documentsPath = [pathURL path];
+    NSArray *fileList = [fileManager contentsOfDirectoryAtPath:documentsPath error:NULL];
+    NSString *fileName = [fileList firstObject]; // Presume that the first file is a PDF
+    NSString *filePath = [documentsPath stringByAppendingPathComponent:name];
+    
+    // Configuring screen
+    ReaderDocument *document = [ReaderDocument withDocumentFilePath:filePath password:phrase];
+    readerController = [[ReaderViewController alloc] initWithReaderDocument:document];
+    CustomNavigationBarView* navigation = [CustomNavigationBarView viewFromStoryboard];
+    
+    [navigation setFrame:CGRectMake( 0, 0, 320, 50 )];
+    [navigation setBackgroundColor:THEME_COLOR_RED];
+    [navigation showRightButton:YES];
+    [navigation.lblTitle setText:@""];
+    [navigation.leftButton setImage:[UIImage imageNamed:@"navbar_back"]
+                           forState:UIControlStateNormal];
+    
+    [navigation.rightButton setImage:[UIImage imageNamed:@"Arrow up"]
+                            forState:UIControlStateNormal];
+    
+    
+    navigation.delegate = self;
+    
+    [readerController.view addSubview:navigation];
+    
+    isShowingPdfView = YES;
+    
+    //[self.navigationController presentViewController:readerViewController animated:YES completion:Nil];
+    
+    [self.navigationController pushViewController:readerController animated:YES];
+    
+}
+
 
 @end

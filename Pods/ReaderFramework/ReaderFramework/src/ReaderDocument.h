@@ -25,7 +25,6 @@
 
 #import <Foundation/Foundation.h>
 
-
 @interface ReaderDocument : NSObject <NSObject, NSCoding>
 
 @property (nonatomic, strong, readonly) NSString *guid;
@@ -36,6 +35,7 @@
 @property (nonatomic, strong, readwrite) NSNumber *pageNumber;
 @property (nonatomic, strong, readonly) NSMutableIndexSet *bookmarks;
 @property (nonatomic, strong, readonly) NSString *fileName;
+@property (nonatomic, strong, readonly) NSString *filePath;
 @property (nonatomic, strong, readonly) NSString *password;
 @property (nonatomic, strong, readonly) NSURL *fileURL;
 

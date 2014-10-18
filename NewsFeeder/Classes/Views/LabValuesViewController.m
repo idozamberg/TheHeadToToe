@@ -128,7 +128,7 @@
 }
 - (CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section
 {
-    return 56;
+    return 45;
 }
 
 - (void) moreButtonClickedWithSection : (NSInteger) section

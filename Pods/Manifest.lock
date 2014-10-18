@@ -1,10 +1,27 @@
 PODS:
-  - ReaderFramework (1.0.0)
+  - DTCoreText (1.6.14):
+    - DTFoundation/Core (~> 1.7.1)
+    - DTFoundation/DTAnimatedGIF (~> 1.7.1)
+    - DTFoundation/DTHTMLParser (~> 1.7.1)
+    - DTFoundation/UIKit (~> 1.7.1)
+  - DTFoundation/Core (1.7.3)
+  - DTFoundation/DTAnimatedGIF (1.7.3)
+  - DTFoundation/DTHTMLParser (1.7.3):
+    - DTFoundation/Core
+  - DTFoundation/UIKit (1.7.3):
+    - DTFoundation/Core
+  - ReaderFramework (1.1.4)
+  - YIPopupTextView (1.1.1)
 
 DEPENDENCIES:
+  - DTCoreText
   - ReaderFramework (~> 1.0)
+  - YIPopupTextView
 
 SPEC CHECKSUMS:
-  ReaderFramework: e6d9fcf41ce8ceae5e7a1343d61843b5e5016588
+  DTCoreText: 1fc0aadfa238d14c6cc56035af4e2b76b958e3b1
+  DTFoundation: 360bc65ab44f588611f47324b8cfb0f18e04b263
+  ReaderFramework: 5e42afecb53ebf43fb2f993d234ee6d4010d1099
+  YIPopupTextView: 608b1f61349a1838e6c11e773fdd4c5104db6b37
 
-COCOAPODS: 0.33.1
+COCOAPODS: 0.34.2

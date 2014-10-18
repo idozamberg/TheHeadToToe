@@ -8,6 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import "UIHelper.h"
+#import "UICustomNavigationController.h"
 
 
 @interface AppData : NSObject
@@ -18,6 +19,7 @@
 @property (strong,nonatomic) NSMutableDictionary* filesList;
 @property (strong,nonatomic) NSMutableDictionary* questionsList;
 @property (strong,nonatomic) NSMutableDictionary* labValues;
+@property (strong,nonatomic) UICustomNavigationController* currNavigationController;
 
 // Methods & Functions
 - (void) performStartupOperations;

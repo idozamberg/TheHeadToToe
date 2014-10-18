@@ -4,7 +4,22 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>Pods-DTCoreText.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-DTFoundation.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-ReaderFramework.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-YIPopupTextView.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -17,12 +32,27 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>8BEA5AAD0D5147CDB471F7C3</key>
+		<key>B4421F558649C0DC042BF6C0</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>D0ABF091278D4F6384E884DE</key>
+		<key>C526F80CAF5AB57E5E042DB1</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C89857FA58D8BE2E77D969B3</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DE50C1CDA645DEBCE491D418</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F219D75A2851AC358CE6992E</key>
 		<dict>
 			<key>primary</key>
 			<true/>
