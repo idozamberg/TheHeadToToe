@@ -211,7 +211,7 @@
         totalHeight += [self calculateCellSizeForSection:currentDictionary andSection:sectionCounter];
     }
     
-    //[self.tblAdmission setHeight:totalHeight];
+   // [self.tblAdmission setHeight:totalHeight];
 }
 
 
@@ -229,7 +229,7 @@
                 if ([[sectionDictionary objectForKey:key] isKindOfClass:[NSArray class]])
                 {
                     NSArray* category = [sectionDictionary objectForKey:key];
-                    cellSize = +DEFAULT_CELL_SIZE * category.count;
+                    cellSize += DEFAULT_CELL_SIZE * category.count;
                 }
                 else
                 {
@@ -321,7 +321,7 @@
     [rowsForSection replaceObjectAtIndex:section withObject:[NSNumber numberWithInteger:rows]];
     currentSectionToReload = section;
     [self.tblAdmission reloadSections:[NSIndexSet indexSetWithIndex:section] withRowAnimation:UITableViewRowAnimationNone];
-    [self calculateAndSetTableHeight];
+    //[self calculateAndSetTableHeight];
 }
 
 

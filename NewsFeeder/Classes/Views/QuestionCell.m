@@ -52,7 +52,7 @@
 
 - (IBAction)commentClicked:(id)sender {
     
-    YIPopupTextView* popupTextView = [[YIPopupTextView alloc] initWithPlaceHolder:@"input here" maxCount:100 buttonStyle:YIPopupTextViewButtonStyleRightDone];
+    YIPopupTextView* popupTextView = [[YIPopupTextView alloc] initWithPlaceHolder:@"Tapez vos commentaires ici" maxCount:100 buttonStyle:YIPopupTextViewButtonStyleRightDone];
     popupTextView.delegate = self;
     popupTextView.caretShiftGestureEnabled = YES;   // default = NO
     //popupTextView.editable = NO;                  // set editable=NO to show without keyboard

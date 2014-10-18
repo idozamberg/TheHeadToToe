@@ -161,7 +161,7 @@
     // Reloading table
     [rowsForSection replaceObjectAtIndex:section withObject:[NSNumber numberWithInteger:rows]];
     [self.tblQuestions reloadSections:[NSIndexSet indexSetWithIndex:section] withRowAnimation:UITableViewRowAnimationFade];
-    
+  //  [self.tblQuestions reloadData];
     if (rows > 0)
     {
         [self.tblQuestions scrollToRowAtIndexPath:[NSIndexPath indexPathForRow:0 inSection:section]
