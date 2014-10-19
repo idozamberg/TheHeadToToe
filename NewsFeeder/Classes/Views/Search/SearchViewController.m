@@ -159,7 +159,7 @@
 {
     HTTFile* currentFile = [filteredArray objectAtIndex:indexPath.row];
     
-    [self pushShowPDFReaderWithName:currentFile.name];
+    [self ShowPDFReaderWithName:currentFile.name];
 }
 
 -(void)pushShowPDFReaderWithName : (NSString*) name
@@ -193,7 +193,7 @@
     [navigation.leftButton setImage:[UIImage imageNamed:@"navbar_back"]
                            forState:UIControlStateNormal];
     
-    [navigation.rightButton setImage:[UIImage imageNamed:@"external-50"]
+    [navigation.rightButton setImage:[UIImage imageNamed:@"Arrow up"]
                             forState:UIControlStateNormal];
     
     

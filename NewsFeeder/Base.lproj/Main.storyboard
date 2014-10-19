@@ -49,11 +49,22 @@
                                         <rect key="frame" x="0.0" y="68" width="320" height="47"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <subviews>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="checklist-50.png" id="YbX-V7-BcI">
+                                                <rect key="frame" x="9" y="15" width="20" height="20"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Admission" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="fF0-fG-ddi">
+                                                <rect key="frame" x="37" y="11" width="277" height="24"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="20"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="sSE-ww-qEp">
                                                 <rect key="frame" x="8" y="0.0" width="175" height="50"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="20"/>
-                                                <state key="normal" title="  Admission" image="menu_icon_plus.png">
+                                                <state key="normal">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
@@ -173,7 +184,7 @@
                                         </connections>
                                     </button>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="test_tube-50.png" id="GtE-G4-vL5">
-                                        <rect key="frame" x="7" y="10" width="26" height="26"/>
+                                        <rect key="frame" x="7" y="13" width="22" height="22"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Laboratoire" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="cKr-BA-6Jg">
@@ -194,7 +205,7 @@
                                         <rect key="frame" x="9" y="1" width="310" height="46"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="20"/>
-                                        <state key="normal" title="  " image="navbar_menu.png">
+                                        <state key="normal" title="  ">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
@@ -202,6 +213,10 @@
                                             <action selector="button_click:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="CsD-NR-dsn"/>
                                         </connections>
                                     </button>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="lungs-50.png" id="Hh2-cj-4NW">
+                                        <rect key="frame" x="7" y="13" width="22" height="22"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Systems" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="cRx-T4-xVJ">
                                         <rect key="frame" x="37" y="11" width="277" height="24"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -263,6 +278,7 @@
                         <outlet property="btnLabo" destination="E3J-3z-QJD" id="Ysw-nP-32h"/>
                         <outlet property="btnSetting" destination="oin-xV-VeL" id="YWd-1s-OdO"/>
                         <outlet property="btnSystems" destination="NoF-BB-XVp" id="bex-Rh-w88"/>
+                        <outlet property="imgSystemsIcon" destination="Hh2-cj-4NW" id="Gas-aY-05R"/>
                         <outlet property="imgvwPhoto" destination="ODG-l3-3FF" id="ga7-iQ-G1m"/>
                         <outlet property="lblEmail" destination="MtZ-26-Ypq" id="Ln3-Xu-lYF"/>
                         <outlet property="lblName" destination="mbk-CC-b45" id="hQL-ZQ-XMa"/>
@@ -595,8 +611,8 @@
                                             <rect key="frame" x="0.0" y="0.0" width="320" height="71"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pdfIcon.png" id="YOn-vi-I0N">
-                                                    <rect key="frame" x="20" y="11" width="50" height="50"/>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pdf.png" id="YOn-vi-I0N">
+                                                    <rect key="frame" x="20" y="14" width="42" height="45"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 </imageView>
                                                 <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="7yR-Yg-Bjy">
@@ -896,10 +912,6 @@
                                             <rect key="frame" x="0.0" y="0.0" width="320" height="71"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pdfIcon.png" id="J21-pj-AHz">
-                                                    <rect key="frame" x="20" y="11" width="50" height="50"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                </imageView>
                                                 <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="JTW-Bo-Egd">
                                                     <rect key="frame" x="83" y="18" width="212" height="21"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -914,6 +926,10 @@
                                                 </label>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="menu_cell_separator.png" id="SQH-bO-bBN">
                                                     <rect key="frame" x="0.0" y="70" width="320" height="1"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pdf.png" id="J21-pj-AHz">
+                                                    <rect key="frame" x="20" y="14" width="42" height="45"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 </imageView>
                                             </subviews>
@@ -1065,6 +1081,17 @@
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="II0-53-xkN">
+                                <rect key="frame" x="251" y="32" width="25" height="25"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" image="navbar_search.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="navbarButton_Click:" destination="AeB-q6-gfO" eventType="touchUpInside" id="GuI-OQ-N1D"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <connections>
@@ -1079,7 +1106,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eQp-W0-Krx" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1053" y="614"/>
+            <point key="canvasLocation" x="978" y="599"/>
         </scene>
         <!--Invite View Controller-->
         <scene sceneID="ILG-of-hCA">
@@ -1334,6 +1361,13 @@
                                     <action selector="moreClicked:" destination="65I-oJ-07p" eventType="touchUpInside" id="ipC-HT-X9g"/>
                                 </connections>
                             </button>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="kqZ-gE-FZx">
+                                <rect key="frame" x="286" y="3" width="24" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="switch_on-48.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <connections>
@@ -1347,13 +1381,14 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BIF-Ht-Pe3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1348" y="-188"/>
+            <point key="canvasLocation" x="1348" y="-188.5"/>
         </scene>
     </scenes>
     <resources>
         <image name="Minus.png" width="60" height="60"/>
         <image name="Minus_black.png" width="60" height="60"/>
         <image name="check-off.png" width="29" height="28"/>
+        <image name="checklist-50.png" width="50" height="50"/>
         <image name="feed_comment_bg.png" width="320" height="53"/>
         <image name="feed_example1.png" width="322" height="332"/>
         <image name="feed_option_bg.png" width="320" height="244"/>
@@ -1363,10 +1398,10 @@
         <image name="invite_refresh.png" width="18" height="19"/>
         <image name="invite_twitter.png" width="128" height="50"/>
         <image name="invite_vbar.png" width="10" height="568"/>
+        <image name="lungs-50.png" width="50" height="50"/>
         <image name="menu_cell_separator.png" width="312" height="1"/>
         <image name="menu_color_selected.png" width="23" height="23"/>
         <image name="menu_example1.png" width="47" height="49"/>
-        <image name="menu_icon_plus.png" width="21" height="21"/>
         <image name="menu_layout_pen.png" width="23" height="22"/>
         <image name="menu_setting.png" width="23" height="23"/>
         <image name="menu_vbar.png" width="14" height="568"/>
@@ -1375,9 +1410,10 @@
         <image name="navbar_search.png" width="24" height="24"/>
         <image name="navbar_uparrow.png" width="9" height="5"/>
         <image name="note-48.png" width="48" height="48"/>
-        <image name="pdfIcon.png" width="256" height="256"/>
+        <image name="pdf.png" width="128" height="128"/>
         <image name="search_close.png" width="17" height="17"/>
         <image name="setting_cell_indicator.png" width="8" height="13"/>
+        <image name="switch_on-48.png" width="48" height="48"/>
         <image name="test_tube-50.png" width="50" height="50"/>
         <image name="unige_logo.gif" width="1751" height="631"/>
     </resources>

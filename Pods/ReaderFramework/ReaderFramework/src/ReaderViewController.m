@@ -450,6 +450,10 @@ NSString * const  ReaderActionSheetItemTitleUnbookmark = @"Unbookmark";
     [interactionController dismissPreviewAnimated:NO];
     
 	lastAppearSize = self.view.bounds.size; // Track view size
+    
+    // Added to fix nav bar from disappearing
+    [self.remoteNavigationController setNavigationBarHidden:YES animation:ReaderNavigationBarAnimationFade];
+
 
 #if (READER_DISABLE_IDLE == TRUE) // Option
 

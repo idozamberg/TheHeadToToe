@@ -57,42 +57,16 @@
 
 - (void) didClickNavBarLeftButton
 {
-
-    if (isShowingFile)
-    {
-        [self.navigationController popViewControllerAnimated:YES];
-        isShowingFile = NO;
-    }
-    else
-    {
-        /*CGRect frm = self.navigationController.view.frame;
-        frm.origin.x = 254;
-        [UIView beginAnimations:nil context:NULL];
-        [UIView setAnimationDuration:0.3f];
-        [UIView setAnimationDelegate:self];
-        
-        [self.navigationController.view setFrame:frm];
-        //[self setEnable:NO];
-        
-        [UIView commitAnimations];*/
-        
-        [[NSNotificationCenter defaultCenter] postNotificationName:@"LeftSideBarButtonClicked" object:Nil];
-    }
-
+    [[NSNotificationCenter defaultCenter] postNotificationName:@"LeftSideBarButtonClicked" object:Nil];
 }
 
 - (void) didClickNavBarRightButton
 {
-    if (isShowingFile)
-    {
-        [readerViewController pushActionBar];
-    }
-    else
-    {
-        SearchViewController * searchController = (SearchViewController *)[[SearchViewController alloc] viewFromStoryboard];
-        searchController.dataSourceArray = _filesList;
-        [self.navigationController pushViewController:searchController animated:YES];
-    }
+
+    SearchViewController * searchController = (SearchViewController *)[[SearchViewController alloc] viewFromStoryboard];
+    searchController.dataSourceArray = _filesList;
+    [self.navigationController pushViewController:searchController animated:YES];
+
 }
 
 
@@ -128,10 +102,14 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
+    // Deselecting row
+    [tableView deselectRowAtIndexPath:indexPath animated:NO];
+  
     HTTFile* currentFile = [_filesList objectAtIndex:indexPath.row];
     
-    [self pushShowPDFReaderWithName:currentFile.name];
+    [self ShowPDFReaderWithName:currentFile.name];
     
+   // [self pushShowPDFReaderWithName:currentFile.name];
 }
 
 -(void)pushShowPDFReaderWithName : (NSString*) name
@@ -149,10 +127,10 @@
     // Configuring screen
     ReaderDocument *document = [ReaderDocument withDocumentFilePath:filePath password:phrase];
     readerViewController = [[ReaderViewController alloc] initWithReaderDocument:document];
-    CustomNavigationBarView* navigation = [CustomNavigationBarView viewFromStoryboard];
+    /*CustomNavigationBarView* navigation = [CustomNavigationBarView viewFromStoryboard];
     
     [navigation setFrame:CGRectMake( 0, 0, 320, 50 )];
-    [navigation setBackgroundColor:THEME_COLOR_RED];
+    [navigation setBackgroundColor:gThemeColor];
     [navigation showRightButton:YES];
     [navigation.lblTitle setText:@""];
     [navigation.leftButton setImage:[UIImage imageNamed:@"navbar_back"]
@@ -162,9 +140,9 @@
                             forState:UIControlStateNormal];
     
     
-    navigation.delegate = self;
+    navigation.delegate = self;*/
     
-    [readerViewController.view addSubview:navigation];
+   // [readerViewController.view addSubview:navigation];
 
     //[self.navigationController presentViewController:readerViewController animated:YES completion:Nil];
     

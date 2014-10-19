@@ -77,33 +77,17 @@
 
 - (void) didClickNavBarRightButton
 {
-    if (!self.isShowingPdfView)
-    {
-        NSString* path = [[PDFManager sharedInstance] createPdfFromDictionary:self.dataSource];
-        
-        [self ShowPDFReaderWithName:path];
-    }
-    else
-    {
-        [self.readerController pushActionBar];
-    }
+    // Creating and getting file's path
+    NSString* path = [[PDFManager sharedInstance] createPdfFromDictionary:self.dataSource];
+
+    // Showing file
+    [self ShowPDFReaderWithName:path];
 }
 
 
 - (void) didClickNavBarLeftButton
 {
-    
-    if (self.isShowingPdfView)
-    {
-        [self.navigationController popViewControllerAnimated:YES];
-        self.isShowingPdfView = NO;
-    }
-    else
-    {
-   
-        
-        [[NSNotificationCenter defaultCenter] postNotificationName:@"LeftSideBarButtonClicked" object:Nil];
-    }
+    [[NSNotificationCenter defaultCenter] postNotificationName:@"LeftSideBarButtonClicked" object:Nil];
 }
 
 

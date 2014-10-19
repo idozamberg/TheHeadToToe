@@ -182,7 +182,7 @@
     [UIView commitAnimations];
 }
 
--(void)ShowPDFReaderWithName : (NSString*) name
+/*-(void)ShowPDFReaderWithName : (NSString*) name
 {
     // Setting up file name
     NSString *phrase = nil; // Document password (for unlocking most encrypted PDF files)
@@ -200,7 +200,7 @@
     CustomNavigationBarView* navigation = [CustomNavigationBarView viewFromStoryboard];
     
     [navigation setFrame:CGRectMake( 0, 0, 320, 50 )];
-    [navigation setBackgroundColor:THEME_COLOR_RED];
+    [navigation setBackgroundColor:gThemeColor];
     [navigation showRightButton:YES];
     [navigation.lblTitle setText:@""];
     [navigation.leftButton setImage:[UIImage imageNamed:@"navbar_back"]
@@ -220,7 +220,31 @@
     
     [self.navigationController pushViewController:readerController animated:YES];
     
+}*/
+
+-(void)ShowPDFReaderWithName : (NSString*) name
+{
+    // Setting up file name
+    NSString *phrase = nil; // Document password (for unlocking most encrypted PDF files)
+    NSFileManager *fileManager = [NSFileManager new];
+    NSURL *pathURL = [fileManager URLForDirectory:NSDocumentDirectory inDomain:NSUserDomainMask appropriateForURL:nil create:YES error:NULL];
+    
+    NSString *documentsPath = [pathURL path];
+    NSArray *fileList = [fileManager contentsOfDirectoryAtPath:documentsPath error:NULL];
+    NSString *fileName = [fileList firstObject]; // Presume that the first file is a PDF
+    NSString *filePath = [documentsPath stringByAppendingPathComponent:name];
+    
+    // Configuring screen
+    ReaderDocument *document = [ReaderDocument withDocumentFilePath:filePath password:phrase];
+    readerController = [[ReaderViewController alloc] initWithReaderDocument:document];
+    
+    isShowingPdfView = YES;
+    
+    //[self.navigationController presentViewController:readerViewController animated:YES completion:Nil];
+    
+    [self.navigationController pushViewController:readerController animated:YES];
 }
+
 
 
 @end

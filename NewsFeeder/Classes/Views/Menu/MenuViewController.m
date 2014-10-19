@@ -22,6 +22,9 @@
 @end
 
 @implementation MenuViewController
+{
+    NSString* currentSystem;
+}
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -36,6 +39,8 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
+    
+    currentSystem = @"";
     
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(slideSideMenu) name:@"LeftSideBarButtonClicked" object:Nil];
     
@@ -101,7 +106,7 @@
             NSString* title = @"Systems";
             
             // Setting image background
-            [self.btnSystems setImage:[UIImage imageNamed:@"navbar_menu.png"] forState:UIControlStateNormal];
+            [self.imgSystemsIcon setImage:[UIImage imageNamed:@"lungs-50.png"]];
             self.lblSystemsHeader.text = title;
             
             [tblMenu reloadSections:[NSIndexSet indexSetWithIndex:0] withRowAnimation:UITableViewRowAnimationFade];
@@ -165,7 +170,11 @@
     {
         if (indexPath.row == 0)
         {
-            [cell setCellContentWithLabel:@"Documents" andImageName:@"menu_cell_icon_pager"];
+            // Getting files list
+            NSMutableArray* files = [[AppData sharedInstance].filesList objectForKey:currentSystem];
+            
+            // Setting cell name and number of entities
+            [cell setCellContentWithLabel:[NSString stringWithFormat: @"Documents (%li)",files.count] andImageName:@"menu_cell_icon_pager"];
         }
         else
         {
@@ -188,33 +197,21 @@
         currentController = nil;
     }
     
+    
+    // Submenu  handeling
     if (currentMenuMode == menuModeSubMenu)
     {
-        if (cellRow == 0) {
-            
-            SuperViewController* vcList = [[FileListViewController alloc] viewFromStoryboard];
-            
-            currentController = (SuperViewController *)[[UICustomNavigationController alloc] initWithRootViewController:vcList];
-            
-            NSMutableArray* files = [[AppData sharedInstance].filesList objectForKey:[gAppDelegate getStringInScreen:SCREEN_MENU
-                                                                                                               strID:[NSString stringWithFormat:@"CELL_ROW%li", indexPath.row]]];
-            
-            [((FileListViewController*)vcList) setFilesList:files];
-            
-            
-        }
-        else if (cellRow == 1) {
-            //currentController = [[FeedViewController alloc] viewFromStoryboard];
-        }
-        else if (cellRow == 2) {
-            ;
-        }
-        else if (cellRow == 3) {
-            ;
-        }
-        else if (cellRow == 4) {
-            ;
-        }
+        // Creating view controller
+        SuperViewController* vcList = [[FileListViewController alloc] viewFromStoryboard];
+        
+        // Setting current ciew controller
+        currentController = (SuperViewController *)[[UICustomNavigationController alloc] initWithRootViewController:vcList];
+        
+        // Getting files list
+        NSMutableArray* files = [[AppData sharedInstance].filesList objectForKey:currentSystem];
+        
+        // Setting file's list
+        [((FileListViewController*)vcList) setFilesList:files];
         
         [self showCurrentController];
 
@@ -227,9 +224,12 @@
                                                     strID:[NSString stringWithFormat:@"CELL_ROW%li", indexPath.row] ];
         
          // Setting image background
-         [self.btnSystems setImage:[UIImage imageNamed:@"navbar_back.png"] forState:UIControlStateNormal];
+        [self.imgSystemsIcon setImage:[UIImage imageNamed:@"navbar_back.png"]];
+        // [self.btnSystems setImage: forState:UIControlStateNormal];
          self.lblSystemsHeader.text = title;
 
+        // Saving current system
+        currentSystem = title;
         
         [UIView commitAnimations];
 

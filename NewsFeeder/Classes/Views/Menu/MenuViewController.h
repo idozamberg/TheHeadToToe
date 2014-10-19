@@ -36,6 +36,7 @@ typedef enum
 @property (weak, nonatomic) IBOutlet UIButton *btnSystems;
 @property (weak, nonatomic) IBOutlet UIButton *btnLabo;
 @property (weak, nonatomic) IBOutlet UILabel *lblSystemsHeader;
+@property (weak, nonatomic) IBOutlet UIImageView *imgSystemsIcon;
 
 - (IBAction) button_click:(id)sender;
 

@@ -31,7 +31,7 @@
 		<key>CELL_ROW2</key>
 		<string>Neurologie</string>
 		<key>CELL_ROW3</key>
-		<string>Osteoarticulaire</string>
+		<string>Ostéoarticulaire</string>
 		<key>CELL_ROW4</key>
 		<string>Urinaire</string>
 		<key>CELL_ROW5</key>
@@ -39,7 +39,7 @@
 		<key>CELL_ROW6</key>
 		<string>Psychiatrie</string>
 		<key>CELL_ROW7</key>
-		<string>Pediatrie</string>
+		<string>Pédiatrie</string>
 		<key>CELL_ROW8</key>
 		<string>Pharmacologie</string>
 	</dict>

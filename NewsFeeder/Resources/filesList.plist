@@ -2,22 +2,86 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>Ostéoarticulaire</key>
+	<array>
+		<dict>
+			<key>Name</key>
+			<string>Coude.pdf</string>
+			<key>Description</key>
+			<string>Anatomie du Coude</string>
+		</dict>
+	</array>
+	<key>Pharmacologie</key>
+	<array>
+		<dict>
+			<key>Name</key>
+			<string>Polycopié de pharmacologie 2014.pdf</string>
+			<key>Description</key>
+			<string>Polycopié de pharmacologie</string>
+		</dict>
+	</array>
+	<key>Neurologie</key>
+	<array>
+		<dict>
+			<key>Name</key>
+			<string>vascularisationSNC2013.pdf</string>
+			<key>Description</key>
+			<string>Vascularisation de SNC</string>
+		</dict>
+	</array>
 	<key>Cardiovasculaire</key>
 	<array>
 		<dict>
 			<key>Name</key>
-			<string>CCDC - Cahier.pdf</string>
+			<string>Cahier TP Lymph.pdf</string>
 			<key>Description</key>
-			<string>Cahier de l&apos;unité CC/DC UIDC</string>
+			<string>Cahier TP - Système Lymphatique</string>
 		</dict>
 		<dict>
 			<key>Name</key>
-			<string>Katz-AVQ.pdf</string>
+			<string>Cahier TP Cardio.pdf</string>
 			<key>Description</key>
-			<string>Katz - évaluation des AVQ</string>
+			<string>Cahier TP - Cardiovasculaire</string>
+		</dict>
+	</array>
+	<key>Digestif</key>
+	<array>
+		<dict>
+			<key>Name</key>
+			<string>Cahier TP Digestif.pdf</string>
+			<key>Description</key>
+			<string>Cahier TP - Système Digestif </string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Semiologie1.pdf</string>
+			<key>Description</key>
+			<string>Semiologie Digestif #1</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Semiologie3.pdf</string>
+			<key>Description</key>
+			<string>Semiologie Digestif #3</string>
+		</dict>
+	</array>
+	<key>Respiratoire</key>
+	<array>
+		<dict>
+			<key>Name</key>
+			<string>Sémiologie.pdf</string>
+			<key>Description</key>
+			<string>Sémiologie Respiratoire</string>
 		</dict>
 	</array>
 	<key>Urinaire</key>
-	<string></string>
+	<array>
+		<dict>
+			<key>Name</key>
+			<string>Cahier TP genitaux.pdf</string>
+			<key>Description</key>
+			<string>Cahier TP - Organes Genitaux</string>
+		</dict>
+	</array>
 </dict>
 </plist>
