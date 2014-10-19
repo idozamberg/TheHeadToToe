@@ -28,6 +28,7 @@
     NSInteger currentSectionToReload;
     NSMutableArray* rowsForSection;
     NSMutableArray* innerRowsForSection;
+    BOOL            isInFilterMode;
 }
 
 - (void)viewDidLoad {
@@ -36,6 +37,8 @@
     
     self.dataSource = [AppData sharedInstance].questionsList;
     [self.tblAdmission reloadData];
+    
+    isInFilterMode = NO;
     
     // Setting exapndable table
     currentSectionToReload = -1;
@@ -78,7 +81,7 @@
 - (void) didClickNavBarRightButton
 {
     // Creating and getting file's path
-    NSString* path = [[PDFManager sharedInstance] createPdfFromDictionary:self.dataSource];
+    NSString* path = [[PDFManager sharedInstance] createPdfFromDictionary:self.dataSource andShouldFilter:isInFilterMode];
 
     // Showing file
     [self ShowPDFReaderWithName:path];
@@ -315,6 +318,23 @@
     [self.tblAdmission reloadSections:[NSIndexSet indexSetWithIndex:section] withRowAnimation:UITableViewRowAnimationNone];
     [self calculateAndSetTableHeight];
 
+}
+
+- (void) didClickNavBarMiddleButton
+{
+    if (isInFilterMode)
+    {
+        [self.navBarView.middleButton setImage:[UIImage imageNamed:@"filter.png"]
+                                      forState:UIControlStateNormal];
+    }
+    else
+    {
+        [self.navBarView.middleButton setImage:[UIImage imageNamed:@"filter_filled.png"]
+                                      forState:UIControlStateNormal];
+    }
+    
+    isInFilterMode = !isInFilterMode;
+    
 }
 
 /*

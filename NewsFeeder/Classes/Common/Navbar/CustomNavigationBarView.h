@@ -25,13 +25,16 @@
 @property (nonatomic, retain) IBOutlet UILabel * lblTitle;
 @property (nonatomic, retain) IBOutlet UIButton * rightButton;
 @property (nonatomic, retain) IBOutlet UIButton * leftButton;
+@property (weak, nonatomic) IBOutlet UIButton *middleButton;
 
 - (IBAction) navbarButton_Click:(id)sender;
+- (IBAction) middleButtonClicked:(id)sender;
 
 + (id)viewFromStoryboard;
 
 - (void) showRightButton:(BOOL)bShow;
 - (void) showLeftButton:(BOOL)bShow;
+- (void) showMiddleButton:(BOOL)bShow;
 
 @end
 
@@ -41,5 +44,6 @@
 
 - (void) didClickNavBarRightButton;
 - (void) didClickNavBarLeftButton;
+- (void) didClickNavBarMiddleButton;
 
 @end

@@ -35,7 +35,7 @@
                                         <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="oin-xV-VeL">
+                                    <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="oin-xV-VeL">
                                         <rect key="frame" x="207" y="23" width="23" height="23"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="normal" image="menu_setting.png">
@@ -75,8 +75,8 @@
                                         </subviews>
                                         <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                     </view>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="unige_logo.gif" id="TJQ-fB-I92">
-                                        <rect key="frame" x="63" y="11" width="110" height="47"/>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="medecine50.jpg" id="TJQ-fB-I92">
+                                        <rect key="frame" x="43" y="0.0" width="152" height="58"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                     </imageView>
                                 </subviews>
@@ -1081,15 +1081,15 @@
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="II0-53-xkN">
-                                <rect key="frame" x="251" y="32" width="25" height="25"/>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="II0-53-xkN">
+                                <rect key="frame" x="251" y="34" width="22" height="22"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" image="navbar_search.png">
+                                <state key="normal" image="filter.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="navbarButton_Click:" destination="AeB-q6-gfO" eventType="touchUpInside" id="GuI-OQ-N1D"/>
+                                    <action selector="middleButtonClicked:" destination="AeB-q6-gfO" eventType="touchUpInside" id="QNL-35-fZ9"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -1097,6 +1097,7 @@
                         <connections>
                             <outlet property="lblTitle" destination="nVX-te-hCj" id="qzf-HV-ger"/>
                             <outlet property="leftButton" destination="eef-bS-afc" id="9nM-h0-yWK"/>
+                            <outlet property="middleButton" destination="II0-53-xkN" id="KJ3-1F-GjI"/>
                             <outlet property="rightButton" destination="xJw-cz-OuH" id="Ujn-56-hhX"/>
                         </connections>
                     </view>
@@ -1392,6 +1393,7 @@
         <image name="feed_comment_bg.png" width="320" height="53"/>
         <image name="feed_example1.png" width="322" height="332"/>
         <image name="feed_option_bg.png" width="320" height="244"/>
+        <image name="filter.png" width="25" height="25"/>
         <image name="invite_fb.png" width="128" height="50"/>
         <image name="invite_fb_cursor.png" width="15" height="10"/>
         <image name="invite_plus.png" width="14" height="14"/>
@@ -1399,6 +1401,7 @@
         <image name="invite_twitter.png" width="128" height="50"/>
         <image name="invite_vbar.png" width="10" height="568"/>
         <image name="lungs-50.png" width="50" height="50"/>
+        <image name="medecine50.jpg" width="581" height="278"/>
         <image name="menu_cell_separator.png" width="312" height="1"/>
         <image name="menu_color_selected.png" width="23" height="23"/>
         <image name="menu_example1.png" width="47" height="49"/>
@@ -1415,7 +1418,6 @@
         <image name="setting_cell_indicator.png" width="8" height="13"/>
         <image name="switch_on-48.png" width="48" height="48"/>
         <image name="test_tube-50.png" width="50" height="50"/>
-        <image name="unige_logo.gif" width="1751" height="631"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>

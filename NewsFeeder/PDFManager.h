@@ -12,7 +12,7 @@
 
 + (PDFManager*) sharedInstance;
 
-- (NSString*) createStringFromDictionaryForPdf : (NSMutableDictionary*) dict;
-- (NSString*) createPdfFromDictionary : (NSMutableDictionary*) dict;
+- (NSString*) createStringFromDictionaryForPdf : (NSMutableDictionary*) dict andShouldFilter : (BOOL) shouldFilter;
+- (NSString*) createPdfFromDictionary : (NSMutableDictionary*) dict andShouldFilter : (BOOL) shouldFilter;
 
 @end

@@ -131,6 +131,10 @@
         [self.navBarView.rightButton setHidden:NO];
         [self.navBarView.rightButton setImage:[UIImage imageNamed:@"checkmark-32"]
                                      forState:UIControlStateNormal];
+        [self.navBarView.middleButton setHidden:NO];
+        [self.navBarView.middleButton setImage:[UIImage imageNamed:@"filter.png"]
+                                     forState:UIControlStateNormal];
+        
     }
 
     

@@ -50,7 +50,7 @@
 - (void) filterArrayByText :(NSString*) text
 {
     NSPredicate *sPredicate =
-    [NSPredicate predicateWithFormat:@"SELF.name contains[cd] %@",text];
+    [NSPredicate predicateWithFormat:@"(SELF.name contains[cd] %@) OR (SELF.fileDescription contains[cd] %@)",text,text];
     
     // Filtering the array
     filteredArray = [_dataSourceArray filteredArrayUsingPredicate:sPredicate];

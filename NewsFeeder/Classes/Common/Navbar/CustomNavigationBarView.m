@@ -32,6 +32,11 @@
     [_rightButton setHidden:!bShow];
 }
 
+- (void) showMiddleButton:(BOOL)bShow;
+{
+    [_middleButton setHidden:!bShow];
+}
+
 - (IBAction) navbarButton_Click:(id)sender
 {
     if ([sender isEqual:_leftButton]) {
@@ -49,6 +54,14 @@
         }
     }
     
+}
+
+- (IBAction)middleButtonClicked:(id)sender {
+    if(self.delegate){
+        if ([self.delegate respondsToSelector:@selector(didClickNavBarRightButton)]) {
+            [self.delegate didClickNavBarMiddleButton];
+        }
+    }
 }
 
 @end
