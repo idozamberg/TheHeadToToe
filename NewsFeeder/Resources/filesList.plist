@@ -2,8 +2,71 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>Gestes Téchniques</key>
+	<array>
+		<dict>
+			<key>Name</key>
+			<string>Transfusion sanguine.pdf</string>
+			<key>Description</key>
+			<string>La technique de transfusion sanguine</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Pansement.pdf</string>
+			<key>Description</key>
+			<string>Techinques de pansement</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Injections.pdf</string>
+			<key>Description</key>
+			<string>Generalités Injections</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Injection IM et IV.pdf</string>
+			<key>Description</key>
+			<string>Séminaire Injection IM et IV</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Introduction.pdf</string>
+			<key>Description</key>
+			<string>Introduction aux gestes techniques</string>
+		</dict>
+	</array>
 	<key>Ostéoarticulaire</key>
 	<array>
+		<dict>
+			<key>Name</key>
+			<string>Loco3.pdf</string>
+			<key>Description</key>
+			<string>ECC locomoteur</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Loco2.pdf</string>
+			<key>Description</key>
+			<string>ECC locomoteur</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Loco1.pdf</string>
+			<key>Description</key>
+			<string>ECC locomoteur</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Système ostéo-articulaire.pdf</string>
+			<key>Description</key>
+			<string>Cahier du système ostéo-articulaire</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Genou.pdf</string>
+			<key>Description</key>
+			<string>Anatomie du Genou</string>
+		</dict>
 		<dict>
 			<key>Name</key>
 			<string>Coude.pdf</string>
@@ -24,6 +87,24 @@
 	<array>
 		<dict>
 			<key>Name</key>
+			<string>Neuro2.pdf</string>
+			<key>Description</key>
+			<string>ECC Neurologie</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Neuro3.pdf</string>
+			<key>Description</key>
+			<string>ECC Neurologie</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Neuro1.pdf</string>
+			<key>Description</key>
+			<string>ECC Neurologie</string>
+		</dict>
+		<dict>
+			<key>Name</key>
 			<string>vascularisationSNC2013.pdf</string>
 			<key>Description</key>
 			<string>Vascularisation de SNC</string>
@@ -31,6 +112,24 @@
 	</array>
 	<key>Cardiovasculaire</key>
 	<array>
+		<dict>
+			<key>Name</key>
+			<string>Vasculaire.pdf</string>
+			<key>Description</key>
+			<string>Cahier TP - Vasculaire</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Cardio.pdf</string>
+			<key>Description</key>
+			<string>ECC Cardio</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Cardio.pdf</string>
+			<key>Description</key>
+			<string>ECC Cardio</string>
+		</dict>
 		<dict>
 			<key>Name</key>
 			<string>Cahier TP Lymph.pdf</string>
@@ -46,6 +145,18 @@
 	</array>
 	<key>Digestif</key>
 	<array>
+		<dict>
+			<key>Name</key>
+			<string>Digestif2.pdf</string>
+			<key>Description</key>
+			<string>ECC digestif</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Digestif1.pdf</string>
+			<key>Description</key>
+			<string>ECC digestif</string>
+		</dict>
 		<dict>
 			<key>Name</key>
 			<string>Cahier TP Digestif.pdf</string>
@@ -76,6 +187,12 @@
 	</array>
 	<key>Urinaire</key>
 	<array>
+		<dict>
+			<key>Name</key>
+			<string>Uro.pdf</string>
+			<key>Description</key>
+			<string>ECC - Urologie</string>
+		</dict>
 		<dict>
 			<key>Name</key>
 			<string>Cahier TP genitaux.pdf</string>
