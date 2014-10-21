@@ -157,11 +157,17 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
+    [tableView deselectRowAtIndexPath:indexPath animated:NO];
+    
     HTTFile* currentFile = [filteredArray objectAtIndex:indexPath.row];
     
     [self ShowPDFReaderWithName:currentFile.name];
 }
 
+- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    return 71;
+}
 -(void)pushShowPDFReaderWithName : (NSString*) name
 {
     NSString *phrase = nil; // Document password (for unlocking most encrypted PDF files)
@@ -200,8 +206,6 @@
     navigation.delegate = self;
     
     [readerViewController.view addSubview:navigation];
-    
-    //[self.navigationController presentViewController:readerViewController animated:YES completion:Nil];
     
     [self.navigationController pushViewController:readerViewController animated:YES];
     
