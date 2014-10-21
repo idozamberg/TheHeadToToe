@@ -106,11 +106,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NewsFeeder/AppDelegate.m"
-            timestampString = "434676110.005546"
+            timestampString = "435480595.333945"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "238"
-            endingLineNumber = "238"
+            startingLineNumber = "249"
+            endingLineNumber = "249"
             landmarkName = "-getStringInScreen:strID:"
             landmarkType = "5">
          </BreakpointContent>

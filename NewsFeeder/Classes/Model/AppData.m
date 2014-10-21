@@ -174,4 +174,18 @@ static AppData* shareData;
     // Loading list and saving to memory
 }
 
+- (NSMutableArray*) flattenedFilesArray
+{
+    NSMutableArray* flatArray = [NSMutableArray new];
+    
+    // Going through all systems
+    for (NSArray* system in [self.filesList allValues])
+    {
+        // Add array to flattend array
+        [flatArray addObjectsFromArray:system];
+    }
+    
+    return flatArray;
+}
+
 @end

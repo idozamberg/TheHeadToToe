@@ -126,12 +126,6 @@
 		</dict>
 		<dict>
 			<key>Name</key>
-			<string>Cardio.pdf</string>
-			<key>Description</key>
-			<string>ECC Cardio</string>
-		</dict>
-		<dict>
-			<key>Name</key>
 			<string>Cahier TP Lymph.pdf</string>
 			<key>Description</key>
 			<string>Cahier TP - Système Lymphatique</string>

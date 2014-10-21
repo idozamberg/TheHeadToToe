@@ -15,6 +15,7 @@
 #import "CustomNavViewController+PdfViewer.h"
 
 #define DEFAULT_CELL_SIZE 45
+#define HEADER_HEIGHT 45
 #define SECTION_AG 0
 #define SECTION_APS 1
 #define SECTION_EX 2
@@ -206,15 +207,19 @@
 {
     NSInteger cellSize = 0;
     NSInteger sectionCounter = 0;
-    // Going through
+    
+    // Going through all seciontion
     for (NSString* key in [sectionDictionary allKeys])
     {
+        // If sections is open
         if (innerRowsForSection.count > section)
         {
+            // If sections is open
             if ([[[innerRowsForSection objectAtIndex:section] objectAtIndex:sectionCounter]boolValue])
             {
                 if ([[sectionDictionary objectForKey:key] isKindOfClass:[NSArray class]])
                 {
+                    // Calculating current category size
                     NSArray* category = [sectionDictionary objectForKey:key];
                     cellSize += DEFAULT_CELL_SIZE * category.count;
                 }
@@ -227,7 +232,8 @@
         
         sectionCounter += 1;
         
-        cellSize += 45;
+        // Adding header size
+        cellSize += HEADER_HEIGHT;
     }
     
     return cellSize;

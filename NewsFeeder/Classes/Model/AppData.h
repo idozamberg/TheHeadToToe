@@ -23,7 +23,7 @@
 
 // Methods & Functions
 - (void) performStartupOperations;
-
+- (NSMutableArray*) flattenedFilesArray;
 
 
 

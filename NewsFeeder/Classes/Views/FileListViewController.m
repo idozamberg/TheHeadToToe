@@ -64,7 +64,7 @@
 {
 
     SearchViewController * searchController = (SearchViewController *)[[SearchViewController alloc] viewFromStoryboard];
-    searchController.dataSourceArray = _filesList;
+    searchController.dataSourceArray = [[AppData sharedInstance] flattenedFilesArray];
     [self.navigationController pushViewController:searchController animated:YES];
 
 }

@@ -58,6 +58,17 @@
     
     [[AppData sharedInstance] performStartupOperations];
     
+    
+    
+    NSString * resourcePath = [[NSBundle mainBundle] resourcePath];
+    
+    
+    NSString * documentsPath = [resourcePath stringByAppendingPathComponent:@"Resources/PDF/UDREM/Anatomie/"];
+    
+    
+    NSError * error;
+    NSArray * directoryContents = [[NSFileManager defaultManager] contentsOfDirectoryAtPath:documentsPath error:&error];
+    
     return YES;
 }
 							
