@@ -19,6 +19,8 @@
 @property (strong,nonatomic) NSMutableDictionary* filesList;
 @property (strong,nonatomic) NSMutableDictionary* questionsList;
 @property (strong,nonatomic) NSMutableDictionary* labValues;
+@property (strong,nonatomic) NSMutableDictionary* youTubeFilesList;
+
 @property (strong,nonatomic) UICustomNavigationController* currNavigationController;
 
 // Methods & Functions

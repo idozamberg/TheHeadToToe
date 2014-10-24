@@ -22,6 +22,10 @@
 		7506808C19EDC6BC00EA0040 /* LabValuesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7506808B19EDC6BC00EA0040 /* LabValuesViewController.m */; };
 		7506808E19EDC6C600EA0040 /* Labo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7506808D19EDC6C600EA0040 /* Labo.plist */; };
 		7506809119EDC6F600EA0040 /* LabValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 7506809019EDC6F600EA0040 /* LabValue.m */; };
+		751771A519F793D2009BF487 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 751771A419F793D2009BF487 /* MediaPlayer.framework */; };
+		751771A819F79D10009BF487 /* HTTVideoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 751771A719F79D10009BF487 /* HTTVideoTableViewCell.m */; };
+		751771AA19F7A36F009BF487 /* Videos.plist in Resources */ = {isa = PBXBuildFile; fileRef = 751771A919F7A36F009BF487 /* Videos.plist */; };
+		751771AD19F7A4C3009BF487 /* YouTubeVideoFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 751771AC19F7A4C3009BF487 /* YouTubeVideoFile.m */; };
 		7523CCC719F25F1F00914EAF /* lungs-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 7523CCC619F25F1F00914EAF /* lungs-50.png */; };
 		7524A44B19E89099006607C1 /* FileListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7524A44A19E89099006607C1 /* FileListViewController.m */; };
 		7524A44E19E890BE006607C1 /* FileCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7524A44D19E890BE006607C1 /* FileCell.m */; };
@@ -42,6 +46,8 @@
 		75932D9319F1B41F00D24223 /* note-48.png in Resources */ = {isa = PBXBuildFile; fileRef = 75932D9219F1B41F00D24223 /* note-48.png */; };
 		75932D9519F2432B00D24223 /* ok-32.png in Resources */ = {isa = PBXBuildFile; fileRef = 75932D9419F2432B00D24223 /* ok-32.png */; };
 		75932D9719F2437A00D24223 /* checkmark-32.png in Resources */ = {isa = PBXBuildFile; fileRef = 75932D9619F2437A00D24223 /* checkmark-32.png */; };
+		759EAFBB19F7AD06008348F7 /* play-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 759EAFBA19F7AD06008348F7 /* play-50.png */; };
+		759EAFC019F8EB06008348F7 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 759EAFBF19F8EB06008348F7 /* AVFoundation.framework */; };
 		75C9231D19EA90100005CA31 /* HTTListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 75C9231C19EA90100005CA31 /* HTTListTableViewCell.m */; };
 		75C9231F19EA90DF0005CA31 /* entree.plist in Resources */ = {isa = PBXBuildFile; fileRef = 75C9231E19EA90DF0005CA31 /* entree.plist */; };
 		75C9232419EA94810005CA31 /* check-off.png in Resources */ = {isa = PBXBuildFile; fileRef = 75C9232219EA94810005CA31 /* check-off.png */; };
@@ -96,6 +102,14 @@
 		75CE290119F41882002FF80F /* filter.png in Resources */ = {isa = PBXBuildFile; fileRef = 75CE290019F41882002FF80F /* filter.png */; };
 		75CE290519F41AD9002FF80F /* filter_filled.png in Resources */ = {isa = PBXBuildFile; fileRef = 75CE290419F41AD9002FF80F /* filter_filled.png */; };
 		75CE290719F42EC3002FF80F /* medecine50.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 75CE290619F42EC3002FF80F /* medecine50.jpg */; };
+		75D869A319F8F6E300F53AF1 /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75D869A219F8F6E300F53AF1 /* AVKit.framework */; };
+		75D869A619F905EE00F53AF1 /* filter_filled-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 75D869A419F905EE00F53AF1 /* filter_filled-50.png */; };
+		75D869A719F905EE00F53AF1 /* filter-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 75D869A519F905EE00F53AF1 /* filter-50.png */; };
+		75D869A919F9067C00F53AF1 /* search-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 75D869A819F9067C00F53AF1 /* search-50.png */; };
+		75D869AB19F9073400F53AF1 /* checkmark-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 75D869AA19F9073400F53AF1 /* checkmark-50.png */; };
+		75D869AD19F9077900F53AF1 /* menu-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 75D869AC19F9077900F53AF1 /* menu-50.png */; };
+		75DF4A8A19F78DA6000F2F90 /* HTTVideoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 75DF4A8919F78DA6000F2F90 /* HTTVideoCell.m */; };
+		75DF4A8D19F78E7C000F2F90 /* HTTVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75DF4A8C19F78E7C000F2F90 /* HTTVideoViewController.m */; };
 		75E3851619EF1CF2006C60FF /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 75E3851519EF1CF2006C60FF /* libxml2.dylib */; };
 		75E3851719EF1D20006C60FF /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 75E3851519EF1CF2006C60FF /* libxml2.dylib */; };
 		75E3858F19EFCC94006C60FF /* amalloc.c in Sources */ = {isa = PBXBuildFile; fileRef = 75E3851A19EFCC94006C60FF /* amalloc.c */; };
@@ -119,7 +133,6 @@
 		75E385CC19EFCC94006C60FF /* test2.md in Sources */ = {isa = PBXBuildFile; fileRef = 75E3858D19EFCC94006C60FF /* test2.md */; };
 		75E385CD19EFCC94006C60FF /* xml.c in Sources */ = {isa = PBXBuildFile; fileRef = 75E3858E19EFCC94006C60FF /* xml.c */; };
 		75E385D019EFCD60006C60FF /* PDFManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 75E385CF19EFCD60006C60FF /* PDFManager.m */; };
-		75E385D619EFD6AF006C60FF /* CustomNavViewController+PdfViewer.m in Sources */ = {isa = PBXBuildFile; fileRef = 75E385D519EFD6AF006C60FF /* CustomNavViewController+PdfViewer.m */; };
 		75E385D819F1B236006C60FF /* test_tube-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 75E385D719F1B236006C60FF /* test_tube-50.png */; };
 		935B281761234892BEC53B5C /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 75D8DD545A0B46D281168E47 /* libPods.a */; };
 		C3080DE417FE86B8008AE8CC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3080DE317FE86B8008AE8CC /* Foundation.framework */; };
@@ -267,6 +280,12 @@
 		7506808D19EDC6C600EA0040 /* Labo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Labo.plist; sourceTree = "<group>"; };
 		7506808F19EDC6F600EA0040 /* LabValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LabValue.h; sourceTree = "<group>"; };
 		7506809019EDC6F600EA0040 /* LabValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LabValue.m; sourceTree = "<group>"; };
+		751771A419F793D2009BF487 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		751771A619F79D10009BF487 /* HTTVideoTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HTTVideoTableViewCell.h; path = ../../HTTVideoTableViewCell.h; sourceTree = "<group>"; };
+		751771A719F79D10009BF487 /* HTTVideoTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HTTVideoTableViewCell.m; path = ../../HTTVideoTableViewCell.m; sourceTree = "<group>"; };
+		751771A919F7A36F009BF487 /* Videos.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Videos.plist; sourceTree = "<group>"; };
+		751771AB19F7A4C3009BF487 /* YouTubeVideoFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YouTubeVideoFile.h; sourceTree = "<group>"; };
+		751771AC19F7A4C3009BF487 /* YouTubeVideoFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YouTubeVideoFile.m; sourceTree = "<group>"; };
 		7523CCC619F25F1F00914EAF /* lungs-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "lungs-50.png"; sourceTree = "<group>"; };
 		7524A44919E89099006607C1 /* FileListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileListViewController.h; sourceTree = "<group>"; };
 		7524A44A19E89099006607C1 /* FileListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileListViewController.m; sourceTree = "<group>"; };
@@ -292,6 +311,8 @@
 		75932D9219F1B41F00D24223 /* note-48.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "note-48.png"; sourceTree = "<group>"; };
 		75932D9419F2432B00D24223 /* ok-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ok-32.png"; sourceTree = "<group>"; };
 		75932D9619F2437A00D24223 /* checkmark-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "checkmark-32.png"; sourceTree = "<group>"; };
+		759EAFBA19F7AD06008348F7 /* play-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "play-50.png"; sourceTree = "<group>"; };
+		759EAFBF19F8EB06008348F7 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		75C9231B19EA90100005CA31 /* HTTListTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTListTableViewCell.h; sourceTree = "<group>"; };
 		75C9231C19EA90100005CA31 /* HTTListTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTTListTableViewCell.m; sourceTree = "<group>"; };
 		75C9231E19EA90DF0005CA31 /* entree.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = entree.plist; sourceTree = "<group>"; };
@@ -350,7 +371,17 @@
 		75CE290019F41882002FF80F /* filter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = filter.png; sourceTree = "<group>"; };
 		75CE290419F41AD9002FF80F /* filter_filled.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = filter_filled.png; sourceTree = "<group>"; };
 		75CE290619F42EC3002FF80F /* medecine50.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = medecine50.jpg; sourceTree = "<group>"; };
+		75D869A219F8F6E300F53AF1 /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
+		75D869A419F905EE00F53AF1 /* filter_filled-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "filter_filled-50.png"; sourceTree = "<group>"; };
+		75D869A519F905EE00F53AF1 /* filter-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "filter-50.png"; sourceTree = "<group>"; };
+		75D869A819F9067C00F53AF1 /* search-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "search-50.png"; sourceTree = "<group>"; };
+		75D869AA19F9073400F53AF1 /* checkmark-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "checkmark-50.png"; sourceTree = "<group>"; };
+		75D869AC19F9077900F53AF1 /* menu-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu-50.png"; sourceTree = "<group>"; };
 		75D8DD545A0B46D281168E47 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		75DF4A8819F78DA6000F2F90 /* HTTVideoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTVideoCell.h; sourceTree = "<group>"; };
+		75DF4A8919F78DA6000F2F90 /* HTTVideoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTTVideoCell.m; sourceTree = "<group>"; };
+		75DF4A8B19F78E7C000F2F90 /* HTTVideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTVideoViewController.h; sourceTree = "<group>"; };
+		75DF4A8C19F78E7C000F2F90 /* HTTVideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTTVideoViewController.m; sourceTree = "<group>"; };
 		75E3851519EF1CF2006C60FF /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libxml2.dylib; sourceTree = "<group>"; };
 		75E3851A19EFCC94006C60FF /* amalloc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = amalloc.c; sourceTree = "<group>"; };
 		75E3851B19EFCC94006C60FF /* amalloc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = amalloc.h; sourceTree = "<group>"; };
@@ -544,6 +575,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75D869A319F8F6E300F53AF1 /* AVKit.framework in Frameworks */,
+				759EAFC019F8EB06008348F7 /* AVFoundation.framework in Frameworks */,
+				751771A519F793D2009BF487 /* MediaPlayer.framework in Frameworks */,
 				7524A46719E8AD8E006607C1 /* MessageUI.framework in Frameworks */,
 				75E3851619EF1CF2006C60FF /* libxml2.dylib in Frameworks */,
 				7524A46519E8AD77006607C1 /* ImageIO.framework in Frameworks */,
@@ -608,6 +642,7 @@
 				75CE288A19F394AC002FF80F /* UDREM */,
 				7524A45719E89338006607C1 /* CV */,
 				7524A45819E89360006607C1 /* filesList.plist */,
+				751771A919F7A36F009BF487 /* Videos.plist */,
 			);
 			name = PDF;
 			sourceTree = "<group>";
@@ -626,6 +661,8 @@
 			children = (
 				7524A45E19E89632006607C1 /* HTTFile.h */,
 				7524A45F19E89632006607C1 /* HTTFile.m */,
+				751771AB19F7A4C3009BF487 /* YouTubeVideoFile.h */,
+				751771AC19F7A4C3009BF487 /* YouTubeVideoFile.m */,
 			);
 			name = Files;
 			sourceTree = "<group>";
@@ -875,6 +912,20 @@
 			path = Vaccinologie;
 			sourceTree = "<group>";
 		};
+		75DF4A8719F78D89000F2F90 /* Video */ = {
+			isa = PBXGroup;
+			children = (
+				759EAFBA19F7AD06008348F7 /* play-50.png */,
+				751771A619F79D10009BF487 /* HTTVideoTableViewCell.h */,
+				751771A719F79D10009BF487 /* HTTVideoTableViewCell.m */,
+				75DF4A8819F78DA6000F2F90 /* HTTVideoCell.h */,
+				75DF4A8919F78DA6000F2F90 /* HTTVideoCell.m */,
+				75DF4A8B19F78E7C000F2F90 /* HTTVideoViewController.h */,
+				75DF4A8C19F78E7C000F2F90 /* HTTVideoViewController.m */,
+			);
+			name = Video;
+			sourceTree = "<group>";
+		};
 		75E3851819EFCC68006C60FF /* PdfManager */ = {
 			isa = PBXGroup;
 			children = (
@@ -949,6 +1000,9 @@
 		C3080DE217FE86B8008AE8CC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				75D869A219F8F6E300F53AF1 /* AVKit.framework */,
+				759EAFBF19F8EB06008348F7 /* AVFoundation.framework */,
+				751771A419F793D2009BF487 /* MediaPlayer.framework */,
 				7524A46619E8AD8E006607C1 /* MessageUI.framework */,
 				7524A46419E8AD77006607C1 /* ImageIO.framework */,
 				C3080E6A17FE8BF3008AE8CC /* QuartzCore.framework */,
@@ -963,6 +1017,11 @@
 		C3080DE917FE86B8008AE8CC /* NewsFeeder */ = {
 			isa = PBXGroup;
 			children = (
+				75D869AC19F9077900F53AF1 /* menu-50.png */,
+				75D869AA19F9073400F53AF1 /* checkmark-50.png */,
+				75D869A419F905EE00F53AF1 /* filter_filled-50.png */,
+				75D869A819F9067C00F53AF1 /* search-50.png */,
+				75D869A519F905EE00F53AF1 /* filter-50.png */,
 				75E3851819EFCC68006C60FF /* PdfManager */,
 				7506807319EB136000EA0040 /* UIView+Framing.h */,
 				7506807419EB136000EA0040 /* UIView+Framing.m */,
@@ -1087,6 +1146,7 @@
 		C3080E2E17FE8827008AE8CC /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				75DF4A8719F78D89000F2F90 /* Video */,
 				7506808419EDC24A00EA0040 /* Laboratory */,
 				75C9231719EA8F070005CA31 /* Admission */,
 				7524A44819E89040006607C1 /* Files */,
@@ -1463,6 +1523,8 @@
 				C3080F0A17FEEDF8008AE8CC /* invite_twitter@2x.png in Resources */,
 				C3080EB617FEC341008AE8CC /* setting_cell_order.png in Resources */,
 				C3080E8B17FEA685008AE8CC /* feed_comment_bg.png in Resources */,
+				75D869A719F905EE00F53AF1 /* filter-50.png in Resources */,
+				759EAFBB19F7AD06008348F7 /* play-50.png in Resources */,
 				75CE28D519F394AC002FF80F /* Loco2.pdf in Resources */,
 				75CE28E619F394AC002FF80F /* Dépression.pdf in Resources */,
 				75CE28CB19F394AC002FF80F /* Coude.pdf in Resources */,
@@ -1473,10 +1535,12 @@
 				C3080EFE17FEEDF8008AE8CC /* invite_example1.png in Resources */,
 				C3080DEE17FE86B8008AE8CC /* InfoPlist.strings in Resources */,
 				C3080F0717FEEDF8008AE8CC /* invite_tw_cursor.png in Resources */,
+				75D869A619F905EE00F53AF1 /* filter_filled-50.png in Resources */,
 				75E385BB19EFCC94006C60FF /* InfoPlist.strings in Resources */,
 				75CE28EB19F394AC002FF80F /* Forum vaccins.pdf in Resources */,
 				C3080E5317FE8827008AE8CC /* menu_example1@2x.png in Resources */,
 				75CE28C619F394AC002FF80F /* Cahier TP Cardio.pdf in Resources */,
+				75D869A919F9067C00F53AF1 /* search-50.png in Resources */,
 				75CE28FD19F417B7002FF80F /* empty_filter-26.png in Resources */,
 				7506807A19EB245200EA0040 /* Arrow up.png in Resources */,
 				75E385CB19EFCC94006C60FF /* test.html in Resources */,
@@ -1499,6 +1563,7 @@
 				7524A47B19E9A682006607C1 /* Launch Screen.xib in Resources */,
 				75C9232519EA94810005CA31 /* check-on.png in Resources */,
 				C3080E5717FE8827008AE8CC /* menu_setting@2x.png in Resources */,
+				75D869AD19F9077900F53AF1 /* menu-50.png in Resources */,
 				75CE28E519F394AC002FF80F /* Anxiété.pdf in Resources */,
 				C3080F0517FEEDF8008AE8CC /* invite_refresh.png in Resources */,
 				C3080F0217FEEDF8008AE8CC /* invite_fb_cursor@2x.png in Resources */,
@@ -1573,6 +1638,7 @@
 				C3080EA817FEC08D008AE8CC /* search_close.png in Resources */,
 				C3080E8317FEA622008AE8CC /* navbar_menu@2x.png in Resources */,
 				C3080F0617FEEDF8008AE8CC /* invite_refresh@2x.png in Resources */,
+				751771AA19F7A36F009BF487 /* Videos.plist in Resources */,
 				75CE28CC19F394AC002FF80F /* Genou.pdf in Resources */,
 				75CE28D619F394AC002FF80F /* Loco3.pdf in Resources */,
 				7524A45919E89360006607C1 /* filesList.plist in Resources */,
@@ -1582,6 +1648,7 @@
 				7524A47519E9501D006607C1 /* unige_logo.gif in Resources */,
 				C3080E7817FE9E5B008AE8CC /* menu_icon_plus.png in Resources */,
 				C36FBE55181D59A3007AE52A /* feed_option_bg.png in Resources */,
+				75D869AB19F9073400F53AF1 /* checkmark-50.png in Resources */,
 				C3080E8517FEA622008AE8CC /* navbar_search@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1635,6 +1702,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C3080E4A17FE8827008AE8CC /* SuperView.m in Sources */,
+				751771AD19F7A4C3009BF487 /* YouTubeVideoFile.m in Sources */,
 				75E385BA19EFCC94006C60FF /* emmatch.c in Sources */,
 				7524A44E19E890BE006607C1 /* FileCell.m in Sources */,
 				75C9232F19EA9E340005CA31 /* AdmissionQuestion.m in Sources */,
@@ -1656,6 +1724,7 @@
 				7524A45C19E8959B006607C1 /* UIHelper.m in Sources */,
 				C3080DF017FE86B8008AE8CC /* main.m in Sources */,
 				7506809119EDC6F600EA0040 /* LabValue.m in Sources */,
+				751771A819F79D10009BF487 /* HTTVideoTableViewCell.m in Sources */,
 				75E385C819EFCC94006C60FF /* resource.c in Sources */,
 				75E385C919EFCC94006C60FF /* setup.c in Sources */,
 				75E385BF19EFCC94006C60FF /* html5.c in Sources */,
@@ -1665,6 +1734,7 @@
 				75E385CD19EFCC94006C60FF /* xml.c in Sources */,
 				C3080F0F17FEEE0C008AE8CC /* InviteViewController.m in Sources */,
 				75E3858F19EFCC94006C60FF /* amalloc.c in Sources */,
+				75DF4A8D19F78E7C000F2F90 /* HTTVideoViewController.m in Sources */,
 				C36FBE52181D58A0007AE52A /* FeedListMenuView.m in Sources */,
 				75C9232819EA99690005CA31 /* QuestionCell.m in Sources */,
 				C3080E6E17FE8DC4008AE8CC /* MenuItemCell.m in Sources */,
@@ -1686,9 +1756,9 @@
 				75C9231D19EA90100005CA31 /* HTTListTableViewCell.m in Sources */,
 				75E3859119EFCC94006C60FF /* Csio.c in Sources */,
 				C3080E4B17FE8827008AE8CC /* SuperViewController.m in Sources */,
-				75E385D619EFD6AF006C60FF /* CustomNavViewController+PdfViewer.m in Sources */,
 				C3080E6417FE89F5008AE8CC /* MenuColorSelectView.m in Sources */,
 				C3080E9917FEB2A5008AE8CC /* FeedItemLargeCell.m in Sources */,
+				75DF4A8A19F78DA6000F2F90 /* HTTVideoCell.m in Sources */,
 				7524A46319E896D9006607C1 /* AppData.m in Sources */,
 				75E385C119EFCC94006C60FF /* markdown.c in Sources */,
 				C3080EBD17FEC5C5008AE8CC /* SettingHeaderView.m in Sources */,
@@ -1834,6 +1904,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "NewsFeeder/HeadToToe-Prefix.pch";
 				INFOPLIST_FILE = "NewsFeeder/HeadToToe-Info.plist";
@@ -1843,7 +1914,8 @@
 				);
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = HeadToToe;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -1855,6 +1927,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "NewsFeeder/HeadToToe-Prefix.pch";
 				INFOPLIST_FILE = "NewsFeeder/HeadToToe-Info.plist";
@@ -1864,7 +1937,8 @@
 				);
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = HeadToToe;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

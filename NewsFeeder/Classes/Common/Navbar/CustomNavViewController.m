@@ -21,7 +21,7 @@
     [super viewDidLoad];
 	
 	self.navBarView = [CustomNavigationBarView viewFromStoryboard];
-	[self.navBarView setFrame:CGRectMake( 0, 0, 320, 64 )];
+	[self.navBarView setFrame:CGRectMake( 0, 0, [UIScreen mainScreen].bounds.size.width, 64 )];
     
     isShowingPdfView = NO;
 }
@@ -124,15 +124,22 @@
         [self.navBarView.rightButton setHidden:YES];
 
     }
+    else if ([dicName isEqualToString:SCREEN_VIDEOS])
+    {
+        [self.navBarView.lblTitle setText:[gAppDelegate getStringInScreen:SCREEN_VIDEOS
+                                                                    strID:STR_NAVTITLE]];
+        [self.navBarView.rightButton setHidden:YES];
+        
+    }
     else if ([dicName isEqualToString:SCREEN_ADMISSION])
     {
         [self.navBarView.lblTitle setText:[gAppDelegate getStringInScreen:SCREEN_ADMISSION
                                                                     strID:STR_NAVTITLE]];
         [self.navBarView.rightButton setHidden:NO];
-        [self.navBarView.rightButton setImage:[UIImage imageNamed:@"checkmark-32"]
+        [self.navBarView.rightButton setImage:[UIImage imageNamed:@"checkmark-50"]
                                      forState:UIControlStateNormal];
         [self.navBarView.middleButton setHidden:NO];
-        [self.navBarView.middleButton setImage:[UIImage imageNamed:@"filter.png"]
+        [self.navBarView.middleButton setImage:[UIImage imageNamed:@"filter-50.png"]
                                      forState:UIControlStateNormal];
         
     }

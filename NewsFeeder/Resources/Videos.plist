@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Respiratoire</key>
+	<array>
+		<dict>
+			<key>Name</key>
+			<string>8rWjz8Xt-FI</string>
+			<key>Description</key>
+			<string>Thorax et Poumons - Introduction</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>BUL_OXZyeKg</string>
+			<key>Description</key>
+			<string>Thorax et Poumons - Inspection</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>w54K514x_I4</string>
+			<key>Description</key>
+			<string>Thorax et Poumons - palpation</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Pvj_qTxThlo</string>
+			<key>Description</key>
+			<string>Thorax et Poumons - percussion</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>AEgdLq1EcLY</string>
+			<key>Description</key>
+			<string>Thorax et Poumons - Auscultation</string>
+		</dict>
+	</array>
+</dict>
+</plist>

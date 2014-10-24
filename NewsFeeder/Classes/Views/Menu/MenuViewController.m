@@ -15,6 +15,7 @@
 #import "FileListViewController.h"
 #import "AdmissionViewController.h"
 #import "LabValuesViewController.h"
+#import "HTTVideoViewController.h"
 
 
 @interface MenuViewController ()
@@ -164,6 +165,7 @@
     
     if (currentMenuMode == menuModeMain)
     {
+        // Setting cell content
         [cell setCellContentWith:cellRow];
     }
     else
@@ -178,7 +180,11 @@
         }
         else
         {
-            [cell setCellContentWithLabel:@"Videos" andImageName:@"menu_cell_icon_pager"];
+            // Getting files list
+            NSMutableArray* files = [[AppData sharedInstance].youTubeFilesList objectForKey:currentSystem];
+            
+            // Setting cell name and number of entities
+            [cell setCellContentWithLabel:[NSString stringWithFormat: @"Videos (%li)",files.count]andImageName:@"menu_cell_icon_pager"];
         }
     }
     
@@ -188,6 +194,7 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
+    // Deselecting row
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
     
     NSInteger cellRow = [indexPath row];
@@ -201,19 +208,41 @@
     // Submenu  handeling
     if (currentMenuMode == menuModeSubMenu)
     {
-        // Creating view controller
-        SuperViewController* vcList = [[FileListViewController alloc] viewFromStoryboard];
-        
-        // Setting current ciew controller
-        currentController = (SuperViewController *)[[UICustomNavigationController alloc] initWithRootViewController:vcList];
-        
-        // Getting files list
-        NSMutableArray* files = [[AppData sharedInstance].filesList objectForKey:currentSystem];
-        
-        // Setting file's list
-        [((FileListViewController*)vcList) setFilesList:files];
-        
-        [self showCurrentController];
+        if (indexPath.row == 0)
+        {
+            // Creating view controller
+            SuperViewController* vcList = [[FileListViewController alloc] viewFromStoryboard];
+            
+            // Setting current ciew controller
+            currentController = (SuperViewController *)[[UICustomNavigationController alloc] initWithRootViewController:vcList];
+            
+            // Getting files list
+            NSMutableArray* files = [[AppData sharedInstance].filesList objectForKey:currentSystem];
+            
+            // Setting file's list
+            [((FileListViewController*)vcList) setFilesList:files];
+            
+            [self showCurrentController];
+        }
+        else
+        {
+            // Creating view controller
+            SuperViewController* vcList = [[HTTVideoViewController alloc] viewFromStoryboard];
+            
+            // Setting current ciew controller
+            currentController = (SuperViewController *)[[UICustomNavigationController alloc] initWithRootViewController:vcList];
+            
+            // Getting files list
+            NSMutableArray* files = [[AppData sharedInstance].youTubeFilesList objectForKey:currentSystem];
+            
+            // Setting system name
+            ((HTTVideoViewController*)vcList).system = currentSystem;
+         
+            // Setting file's list
+            [((HTTVideoViewController*)vcList) setFilesList:files];
+            
+            [self showCurrentController];
+        }
 
     }
     else

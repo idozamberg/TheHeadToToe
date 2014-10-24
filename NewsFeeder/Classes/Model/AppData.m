@@ -11,9 +11,10 @@
 #import "AdmissionQuestion.h"
 #import "ReaderDocument.h"
 #import "LabValue.h"
+#import "YouTubeVideoFile.h"
 
 @implementation AppData
-@synthesize questionsList = _questionsList,currNavigationController;
+@synthesize questionsList = _questionsList,currNavigationController,youTubeFilesList = _youTubeFilesList;
 
 static AppData* shareData;
 
@@ -49,6 +50,7 @@ static AppData* shareData;
     [self loadFilesList];
     [self loadQuestions];
     [self loadLabValues];
+    [self loadYouTubeFileList];
 }
 
 - (void) loadFilesList
@@ -173,6 +175,47 @@ static AppData* shareData;
     
     // Loading list and saving to memory
 }
+
+- (void) loadYouTubeFileList
+{
+    self.youTubeFilesList = [NSMutableDictionary new];
+    
+    NSMutableDictionary* files = [UIHelper dictionaryFromPlistWithName:@"Videos"];
+    
+    // Convert dictionary to native object
+    for (NSString* system in [files allKeys])
+    {
+        if ([[files valueForKey:system] isKindOfClass:[NSArray class]])
+        {
+            // Going through all files
+            for (NSDictionary* currentFileDict in [files valueForKey:system])
+            {
+                // Setting new file
+                YouTubeVideoFile* newFile = [YouTubeVideoFile new];
+                newFile.name = [currentFileDict valueForKey:@"Name"];
+                newFile.fileDescription = [currentFileDict valueForKey:@"Description"];
+                
+                
+                // if it's the first file
+                if (![_youTubeFilesList objectForKey:system])
+                {
+                    // Adding file while creating and array
+                    [_youTubeFilesList setObject:[NSMutableArray arrayWithObject:newFile] forKey:system];
+                }
+                else
+                {
+                    // just add the file
+                    [[_youTubeFilesList objectForKey:system] addObject:newFile];
+                }
+            }
+        }
+    }
+    
+    // Loading list and saving to memory
+}
+
+
+
 
 - (NSMutableArray*) flattenedFilesArray
 {

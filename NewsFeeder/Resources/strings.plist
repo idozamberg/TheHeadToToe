@@ -12,6 +12,11 @@
 		<key>NAV_TITLE</key>
 		<string>DOCUMENTS</string>
 	</dict>
+	<key>SCREEN_VIDEOS</key>
+	<dict>
+		<key>NAV_TITLE</key>
+		<string>VIDEOS</string>
+	</dict>
 	<key>SCREEN_ADMISSION</key>
 	<dict>
 		<key>NAV_TITLE</key>

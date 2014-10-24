@@ -12,7 +12,6 @@
 #import "QuestionsHeader.h"
 #import "UIView+Framing.h"
 #import "PDFManager.h"
-#import "CustomNavViewController+PdfViewer.h"
 
 #define DEFAULT_CELL_SIZE 45
 #define HEADER_HEIGHT 45
@@ -36,25 +35,62 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
-    self.dataSource = [AppData sharedInstance].questionsList;
-    [self.tblAdmission reloadData];
-    
     isInFilterMode = NO;
+    self.dataSource = [AppData sharedInstance].questionsList;
     
     // Setting exapndable table
     currentSectionToReload = -1;
     rowsForSection  = [NSMutableArray new];
+    innerRowsForSection = [NSMutableArray new];
+    
+    NSInteger sectionCounter = 0;
+    
+    // Going throught all section and making sure they are closed
     for (NSString* key in [self.dataSource allKeys])
     {
+        // Closing current section
         [rowsForSection addObject:[NSNumber numberWithInt:0]];
+        
+        NSMutableDictionary* currentDictionary;
+        
+        if (sectionCounter == SECTION_AG)
+        {
+            currentDictionary = [self.dataSource objectForKey:@"Anamnèse General"];
+        }
+        else if (sectionCounter == SECTION_APS)
+        {
+            currentDictionary = [self.dataSource objectForKey:@"Anamnèse par sytème"];
+        }
+        else
+        {
+            currentDictionary = [self.dataSource objectForKey:@"Examen Physique"];
+        }
+        
+        NSMutableArray* currentRowsForSection = [NSMutableArray new];
+        
+        // Going through all inner sections and setting number of rows
+        for (NSString* currKey in [currentDictionary allKeys])
+        {
+            [currentRowsForSection addObject:[NSNumber numberWithInt:0]];
+        }
+        
+        // Setting opening state of orws for section
+        [innerRowsForSection setObject:currentRowsForSection atIndexedSubscript:sectionCounter];
+        
+        sectionCounter += 1;
+
     }
     
     // Opening first section
     [rowsForSection setObject:[NSNumber numberWithInt:1] atIndexedSubscript:0];
     
+    // Setting table variables
+    self.tblAdmission.allowsSelection = NO;
+    [self.tblAdmission reloadData];
+    
     // Define navigation bar
     [self insertNavBarWithScreenName:SCREEN_ADMISSION];
-    self.tblAdmission.allowsSelection = NO;
+
     
     UITapGestureRecognizer *tgr = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(viewTapped:)];
     tgr.delegate = self;
@@ -62,7 +98,7 @@
     
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(heightChangedEvent:) name:@"PlusClickedInInnerTable" object:Nil];
     
-    innerRowsForSection = [NSMutableArray new];
+
 }
 
 - (void)viewTapped:(UITapGestureRecognizer *)tgr
@@ -107,7 +143,8 @@
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {
-    return 2;//[self.dataSource allKeys].count;
+    //return 2;
+    return [self.dataSource allKeys].count;
 }
 
 // Row display. Implementers should *always* try to reuse cells by setting each cell's reuseIdentifier and querying for available reusable cells with dequeueReusableCellWithIdentifier:
@@ -134,33 +171,33 @@
     {
         currentDictionary = [self.dataSource objectForKey:@"Anamnèse par sytème"];
     }
+    else
+    {
+        currentDictionary = [self.dataSource objectForKey:@"Examen Physique"];
+    }
     
     // Setting cell
     cell.rowsForSection = [NSMutableArray new];
-    
-    // Keeping track of cells size
-   // if (![innerRowsForSection containsObject:cell.rowsForSection])
-    //{
-       // [innerRowsForSection addObject:cell.rowsForSection];
-    
-        if (innerRowsForSection.count > indexPath.section)
-        {
-            cell.rowsForSection = [innerRowsForSection objectAtIndex:indexPath.section];
-        }
-        else
-        {
-            [innerRowsForSection setObject:cell.rowsForSection atIndexedSubscript:indexPath.section];
-            
-            for (NSString* key in [currentDictionary allKeys])
-            {
-                [cell.rowsForSection addObject:[NSNumber numberWithInt:0]];
-            }
 
+    
+    if (innerRowsForSection.count > indexPath.section)
+    {
+        cell.rowsForSection = [innerRowsForSection objectAtIndex:indexPath.section];
+    }
+    else
+    {
+        [innerRowsForSection setObject:cell.rowsForSection atIndexedSubscript:indexPath.section];
+        
+        for (NSString* key in [currentDictionary allKeys])
+        {
+            [cell.rowsForSection addObject:[NSNumber numberWithInt:0]];
         }
+    }
     
-  //  }
-    
+    // Setting question list for cell
     [cell setQuestionList:currentDictionary];
+    
+    // Setting tag for cell
     cell.tag = indexPath.section;
     
     [cell.tblQuestions setHeight:[self calculateCellSizeForSection:currentDictionary andSection:indexPath.section]];
@@ -193,6 +230,10 @@
         else if (sectionCounter == SECTION_APS)
         {
             currentDictionary = [self.dataSource objectForKey:@"Anamnèse par sytème"];
+        }
+        else
+        {
+            currentDictionary = [self.dataSource objectForKey:@"Examen Physique"];
         }
         
         // Calculating current section size
@@ -251,6 +292,10 @@
     {
         title = @"Anamnèse par sytème";
     }
+    else
+    {
+        title = @"Examen Physique";
+    }
     
     // Setting header properties
     QuestionsHeader * headerView = nil;
@@ -292,6 +337,10 @@
     {
         currentDictionary = [self.dataSource objectForKey:@"Anamnèse par sytème"];
     }
+    else
+    {
+        currentDictionary = [self.dataSource objectForKey:@"Examen Physique"];
+    }
     
     return [self calculateCellSizeForSection:currentDictionary andSection:indexPath.section];
 }
@@ -330,12 +379,12 @@
 {
     if (isInFilterMode)
     {
-        [self.navBarView.middleButton setImage:[UIImage imageNamed:@"filter.png"]
+        [self.navBarView.middleButton setImage:[UIImage imageNamed:@"filter-50.png"]
                                       forState:UIControlStateNormal];
     }
     else
     {
-        [self.navBarView.middleButton setImage:[UIImage imageNamed:@"filter_filled.png"]
+        [self.navBarView.middleButton setImage:[UIImage imageNamed:@"filter_filled-50.png"]
                                       forState:UIControlStateNormal];
     }
     
