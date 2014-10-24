@@ -256,6 +256,11 @@
     [self.navigationController pushViewController:readerController animated:YES];
 }
 
+- (BOOL) shouldAutorotate
+{
+    return NO;
+}
+
 
 
 @end

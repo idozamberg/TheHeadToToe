@@ -12,17 +12,17 @@
 
 @implementation PDFManager
 
-static PDFManager* shareData;
+static PDFManager* sharePDF;
 
 
 + (PDFManager*) sharedInstance
 {
-    if (!shareData)
+    if (!sharePDF)
     {
-        shareData = [PDFManager new];
+        sharePDF = [PDFManager new];
     }
     
-    return shareData;
+    return sharePDF;
 }
 
 - (NSString*) createPdfFromDictionary : (NSMutableDictionary*) dict andShouldFilter : (BOOL) shouldFilter

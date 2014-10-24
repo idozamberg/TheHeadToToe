@@ -8,7 +8,7 @@
 
 #import "HTTVideoTableViewCell.h"
 #import "XCDYouTubeVideo.h"
-
+#import "AppData.h"
 
 @implementation HTTVideoTableViewCell
 
@@ -62,7 +62,9 @@
     self.imgThumb.hidden = YES;
     self.btnPlay.hidden = YES;
     
-    [self.videoPlayerViewController presentInView:self.vwFrame];
+  //  [self.videoPlayerViewController presentInView:self.vwFrame];
+   [[AppData sharedInstance].currNavigationController presentMoviePlayerViewControllerAnimated:_videoPlayerViewController];
+
     [self.videoPlayerViewController.moviePlayer play];
 }
 
@@ -75,7 +77,10 @@
     
     NSURL *thumbnailURL = video.mediumThumbnailURL ?: video.smallThumbnailURL;
     [NSURLConnection sendAsynchronousRequest:[NSURLRequest requestWithURL:thumbnailURL] queue:[NSOperationQueue mainQueue] completionHandler:^(NSURLResponse *response, NSData *data, NSError *error) {
-        self.imgThumb.image = [UIImage imageWithData:data];
+        
+        [self.imgThumb performSelectorInBackground:@selector(setImage:) withObject:[UIImage imageWithData:data]];
+                                                                                                               
+       // self.imgThumb.image =
        
     }];
 }

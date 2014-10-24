@@ -193,4 +193,9 @@ NSString *const XCDYouTubeVideoUserInfoKey = @"Video";
 	[self.videoOperation cancel];
 }
 
+- (BOOL) shouldAutorotate
+{
+    return YES;
+}
+
 @end

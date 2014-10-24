@@ -216,6 +216,7 @@
             // Setting current ciew controller
             currentController = (SuperViewController *)[[UICustomNavigationController alloc] initWithRootViewController:vcList];
             
+            
             // Getting files list
             NSMutableArray* files = [[AppData sharedInstance].filesList objectForKey:currentSystem];
             
@@ -275,7 +276,9 @@
         return;
     }
     
-    
+    if ([currentController isKindOfClass:[UINavigationController class]]) {
+        [AppData sharedInstance].currNavigationController = (UICustomNavigationController*)currentController;
+    }
     
     CGRect frm = self.view.frame;
     frm.origin.x = 254;
@@ -342,5 +345,8 @@
     }
 }
 
-
+- (BOOL) shouldAutorotate
+{
+    return NO;
+}
 @end

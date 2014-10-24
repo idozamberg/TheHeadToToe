@@ -64,4 +64,9 @@
     }
 }
 
+- (BOOL) shouldAutoRotate
+{
+    return NO;
+}
+
 @end
