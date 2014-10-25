@@ -85,10 +85,12 @@
     UIViewController* viewController = [[self.navigationController viewControllers] objectAtIndex:0];
 
 
-    self.navigationController.delegate = viewController;
+    self.navigationController.delegate = Nil;
     
     SearchViewController * searchController = (SearchViewController *)[[SearchViewController alloc] viewFromStoryboard];
     searchController.dataSourceArray = [[AppData sharedInstance] flattenedSearchArray];
+    
+    searchController.currentViewMode = viewModeInNavigation;
     [self.navigationController pushViewController:searchController animated:YES];
 
 }

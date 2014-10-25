@@ -17,7 +17,7 @@
 #import "LabValuesViewController.h"
 #import "HTTVideoViewController.h"
 #import "SystemsViewController.h"
-
+#import "SearchViewController.h"
 
 @interface MenuViewController ()
 
@@ -72,6 +72,22 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (IBAction)searchClicked:(id)sender {
+    
+    
+    SearchViewController * searchController = (SearchViewController *)[[SearchViewController alloc] viewFromStoryboard];
+    
+    // Setting standalone mode
+    searchController.currentViewMode = viewModeStandAlone;
+    
+    // Setting current ciew controller
+    currentController = (SuperViewController *)[[UICustomNavigationController alloc] initWithRootViewController:searchController];
+    
+    searchController.dataSourceArray = [[AppData sharedInstance] flattenedSearchArray];
+    
+    [self showCurrentController];
 }
 
 - (IBAction) button_click:(id)sender

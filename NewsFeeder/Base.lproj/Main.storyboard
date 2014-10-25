@@ -82,11 +82,11 @@
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" id="kuc-OI-bsn">
                                         <rect key="frame" x="175" y="22" width="23" height="23"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <state key="normal" image="home-50.png">
+                                        <state key="normal" image="searchB-50.png">
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
-                                            <action selector="homeClicked:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="GL4-Pe-WvQ"/>
+                                            <action selector="searchClicked:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="bfU-pq-leu"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" id="Nf8-zM-3Q4">
@@ -95,6 +95,16 @@
                                         <state key="normal" image="info-50.png">
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" id="eOe-4z-EWe">
+                                        <rect key="frame" x="144" y="22" width="23" height="23"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" image="home-50.png">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="homeClicked:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="0lt-5q-nBN"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -1315,7 +1325,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="64"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="eef-bS-afc">
+                            <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="eef-bS-afc">
                                 <rect key="frame" x="14" y="31" width="28" height="28"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="18"/>
@@ -1681,6 +1691,7 @@
         <image name="pdf.png" width="128" height="128"/>
         <image name="play-50.png" width="50" height="50"/>
         <image name="search-50.png" width="50" height="50"/>
+        <image name="searchB-50.png" width="50" height="50"/>
         <image name="search_close.png" width="17" height="17"/>
         <image name="setting_cell_indicator.png" width="8" height="13"/>
         <image name="switch_on-48.png" width="48" height="48"/>

@@ -100,6 +100,7 @@
     
     SearchViewController * searchController = (SearchViewController *)[[SearchViewController alloc] viewFromStoryboard];
     searchController.dataSourceArray = [[AppData sharedInstance] flattenedSearchArray];
+    searchController.currentViewMode = viewModeFromHomeScreen;
     
     self.navigationController.delegate = self;
     self.transitionClassName = @"ATCAnimatedTransitioningFloat";

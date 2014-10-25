@@ -470,11 +470,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NewsFeeder/Classes/Views/Menu/MenuViewController.m"
-            timestampString = "435881013.284186"
+            timestampString = "435929293.4812"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "136"
-            endingLineNumber = "136"
+            startingLineNumber = "152"
+            endingLineNumber = "152"
             landmarkName = "-tableView:numberOfRowsInSection:"
             landmarkType = "5">
          </BreakpointContent>
@@ -486,11 +486,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NewsFeeder/Classes/Views/Menu/MenuViewController.m"
-            timestampString = "435881013.284186"
+            timestampString = "435929293.4812"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "159"
-            endingLineNumber = "159"
+            startingLineNumber = "175"
+            endingLineNumber = "175"
             landmarkName = "-tableView:cellForRowAtIndexPath:"
             landmarkType = "5">
          </BreakpointContent>
@@ -502,11 +502,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NewsFeeder/Classes/Views/Menu/MenuViewController.m"
-            timestampString = "435881013.284186"
+            timestampString = "435929293.4812"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "101"
-            endingLineNumber = "101"
+            startingLineNumber = "117"
+            endingLineNumber = "117"
             landmarkName = "-button_click:"
             landmarkType = "5">
          </BreakpointContent>
@@ -518,11 +518,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NewsFeeder/Classes/Views/Search/SearchViewController.m"
-            timestampString = "435926327.939214"
+            timestampString = "435929906.583581"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "156"
-            endingLineNumber = "156"
+            startingLineNumber = "180"
+            endingLineNumber = "180"
             landmarkName = "-handleSearch:"
             landmarkType = "5">
          </BreakpointContent>
@@ -534,11 +534,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NewsFeeder/Classes/Views/Search/SearchViewController.m"
-            timestampString = "435926327.939214"
+            timestampString = "435929906.583581"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "66"
-            endingLineNumber = "66"
+            startingLineNumber = "81"
+            endingLineNumber = "81"
             landmarkName = "-filterArrayByText:"
             landmarkType = "5">
          </BreakpointContent>
@@ -550,11 +550,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NewsFeeder/Classes/Views/Search/SearchViewController.m"
-            timestampString = "435926327.939214"
+            timestampString = "435929906.583581"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "158"
-            endingLineNumber = "158"
+            startingLineNumber = "182"
+            endingLineNumber = "182"
             landmarkName = "-handleSearch:"
             landmarkType = "5">
          </BreakpointContent>
@@ -566,11 +566,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NewsFeeder/Classes/Views/Search/SearchViewController.m"
-            timestampString = "435926327.939214"
+            timestampString = "435929906.583581"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "172"
-            endingLineNumber = "172"
+            startingLineNumber = "196"
+            endingLineNumber = "196"
             landmarkName = "-tableView:numberOfRowsInSection:"
             landmarkType = "5">
          </BreakpointContent>
@@ -582,11 +582,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NewsFeeder/Classes/Views/Menu/MenuViewController.m"
-            timestampString = "435881013.284186"
+            timestampString = "435929293.4812"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "99"
-            endingLineNumber = "99"
+            startingLineNumber = "115"
+            endingLineNumber = "115"
             landmarkName = "-button_click:"
             landmarkType = "5">
          </BreakpointContent>
@@ -598,11 +598,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NewsFeeder/Classes/Views/Menu/MenuViewController.m"
-            timestampString = "435921220.024949"
+            timestampString = "435929293.4812"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "310"
-            endingLineNumber = "310"
+            startingLineNumber = "326"
+            endingLineNumber = "326"
             landmarkName = "-slideSideMenu"
             landmarkType = "5">
          </BreakpointContent>
@@ -614,11 +614,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NewsFeeder/Classes/Views/Menu/MenuViewController.m"
-            timestampString = "435921220.024949"
+            timestampString = "435929293.4812"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "315"
-            endingLineNumber = "315"
+            startingLineNumber = "331"
+            endingLineNumber = "331"
             landmarkName = "-slideSideMenu"
             landmarkType = "5">
          </BreakpointContent>
@@ -918,11 +918,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NewsFeeder/Classes/Views/Menu/MenuViewController.m"
-            timestampString = "435881013.284186"
+            timestampString = "435929293.4812"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "93"
-            endingLineNumber = "93"
+            startingLineNumber = "109"
+            endingLineNumber = "109"
             landmarkName = "-button_click:"
             landmarkType = "5">
          </BreakpointContent>
@@ -934,11 +934,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NewsFeeder/Classes/Views/Menu/MenuViewController.m"
-            timestampString = "435881013.284186"
+            timestampString = "435929293.4812"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "94"
-            endingLineNumber = "94"
+            startingLineNumber = "110"
+            endingLineNumber = "110"
             landmarkName = "-button_click:"
             landmarkType = "5">
          </BreakpointContent>
@@ -1174,11 +1174,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NewsFeeder/Classes/Views/Menu/MenuViewController.m"
-            timestampString = "435881013.284186"
+            timestampString = "435929293.4812"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "206"
-            endingLineNumber = "206"
+            startingLineNumber = "222"
+            endingLineNumber = "222"
             landmarkName = "-tableView:didSelectRowAtIndexPath:"
             landmarkType = "5">
          </BreakpointContent>
@@ -1510,11 +1510,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NewsFeeder/Classes/Views/Menu/MenuViewController.m"
-            timestampString = "435921220.024949"
+            timestampString = "435929293.4812"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "290"
-            endingLineNumber = "290"
+            startingLineNumber = "306"
+            endingLineNumber = "306"
             landmarkName = "-showCurrentController"
             landmarkType = "5">
          </BreakpointContent>
@@ -1542,11 +1542,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NewsFeeder/Classes/Views/SystemsViewController.m"
-            timestampString = "435926032.425961"
+            timestampString = "435929383.423932"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "171"
-            endingLineNumber = "171"
+            startingLineNumber = "172"
+            endingLineNumber = "172"
             landmarkName = "-tableView:didSelectRowAtIndexPath:"
             landmarkType = "5">
          </BreakpointContent>
@@ -1558,11 +1558,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NewsFeeder/Classes/Views/SystemsViewController.m"
-            timestampString = "435926032.425961"
+            timestampString = "435929383.423932"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "185"
-            endingLineNumber = "185"
+            startingLineNumber = "186"
+            endingLineNumber = "186"
             landmarkName = "-tableView:didSelectRowAtIndexPath:"
             landmarkType = "5">
          </BreakpointContent>
@@ -1590,11 +1590,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NewsFeeder/Classes/Views/FileListViewController.m"
-            timestampString = "435927940.161532"
+            timestampString = "435929383.423932"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "92"
-            endingLineNumber = "92"
+            startingLineNumber = "94"
+            endingLineNumber = "94"
             landmarkName = "-didClickNavBarRightButton"
             landmarkType = "5">
          </BreakpointContent>
@@ -1606,11 +1606,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NewsFeeder/Classes/Views/FileListViewController.m"
-            timestampString = "435927940.161532"
+            timestampString = "435929383.423932"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "91"
-            endingLineNumber = "91"
+            startingLineNumber = "92"
+            endingLineNumber = "92"
             landmarkName = "-didClickNavBarRightButton"
             landmarkType = "5">
          </BreakpointContent>
@@ -1670,11 +1670,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NewsFeeder/Classes/Views/Search/SearchViewController.m"
-            timestampString = "435926327.939214"
+            timestampString = "435929906.583581"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "222"
-            endingLineNumber = "222"
+            startingLineNumber = "246"
+            endingLineNumber = "246"
             landmarkName = "-tableView:cellForRowAtIndexPath:"
             landmarkType = "5">
          </BreakpointContent>

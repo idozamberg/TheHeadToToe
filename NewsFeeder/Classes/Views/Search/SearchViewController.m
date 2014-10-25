@@ -45,15 +45,30 @@
 	// Do any additional setup after loading the view.
     
     [self insertNavBarWithScreenName:SCREEN_SEARCH];
-    
 }
 
 - (void) viewWillAppear:(BOOL)animated
 {
     [super viewWillAppear:animated];
     
-    [self.navBarView.leftButton setImage:[UIImage imageNamed:@"navbar_back"]
-                                forState:UIControlStateNormal];
+    if (self.currentViewMode == viewModeStandAlone)
+    {
+        // Changing left button
+        [self.navBarView.leftButton setImage:[UIImage imageNamed:@"menu-50"]
+                                    forState:UIControlStateNormal];
+    }
+    else if (self.currentViewMode == viewModeFromHomeScreen)
+    {
+        // Changing left button
+        [self.navBarView.leftButton setImage:[UIImage imageNamed:@"cancel-48"]
+                                    forState:UIControlStateNormal];
+    }
+    else
+    {
+        // Changing left button
+        [self.navBarView.leftButton setImage:[UIImage imageNamed:@"navbar_back"]
+                                    forState:UIControlStateNormal];
+    }
     
     self.navigationController.delegate = Nil;
 }
@@ -108,9 +123,18 @@
 
 - (void) didClickNavBarLeftButton
 {
-    self.navigationController.delegate = [[self.navigationController viewControllers] objectAtIndex:0];
+
+    if (self.currentViewMode == viewModeStandAlone)
+    {
+        self.navigationController.delegate = Nil;
+        [[NSNotificationCenter defaultCenter] postNotificationName:@"LeftSideBarButtonClicked" object:Nil];
+    }
+    else
+    {
+        self.navigationController.delegate = [[self.navigationController viewControllers] objectAtIndex:[self.navigationController viewControllers].count-2];
+        [self.navigationController popViewControllerAnimated:YES];
+    }
     
-    [self.navigationController popViewControllerAnimated:YES];
 }
 
 

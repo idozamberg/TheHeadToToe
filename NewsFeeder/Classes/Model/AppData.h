@@ -20,7 +20,8 @@ typedef enum
 typedef enum
 {
     viewModeStandAlone,
-    viewModeInNavigation
+    viewModeInNavigation,
+    viewModeFromHomeScreen
 }viewMode;
 
 

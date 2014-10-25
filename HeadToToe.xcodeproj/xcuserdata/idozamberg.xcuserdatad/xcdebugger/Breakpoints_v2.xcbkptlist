@@ -74,11 +74,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NewsFeeder/Classes/Views/FileListViewController.m"
-            timestampString = "435927940.161532"
+            timestampString = "435929383.423932"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "102"
-            endingLineNumber = "102"
+            startingLineNumber = "104"
+            endingLineNumber = "104"
             landmarkName = "-tableView:numberOfRowsInSection:"
             landmarkType = "5">
          </BreakpointContent>
@@ -122,11 +122,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NewsFeeder/Classes/Views/FileListViewController.m"
-            timestampString = "435927940.161532"
+            timestampString = "435929383.423932"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "110"
-            endingLineNumber = "110"
+            startingLineNumber = "112"
+            endingLineNumber = "112"
             landmarkName = "-tableView:cellForRowAtIndexPath:"
             landmarkType = "5">
          </BreakpointContent>
