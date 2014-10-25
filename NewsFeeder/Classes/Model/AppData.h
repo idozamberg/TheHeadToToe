@@ -10,6 +10,12 @@
 #import "UIHelper.h"
 #import "UICustomNavigationController.h"
 
+typedef enum
+{
+    menuModeMain,
+    menuModeSubMenu,
+    menuModeClosed
+}menuMode;
 
 @interface AppData : NSObject
 

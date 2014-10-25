@@ -48,6 +48,8 @@
 		75932D9719F2437A00D24223 /* checkmark-32.png in Resources */ = {isa = PBXBuildFile; fileRef = 75932D9619F2437A00D24223 /* checkmark-32.png */; };
 		759EAFBB19F7AD06008348F7 /* play-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 759EAFBA19F7AD06008348F7 /* play-50.png */; };
 		759EAFC019F8EB06008348F7 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 759EAFBF19F8EB06008348F7 /* AVFoundation.framework */; };
+		75C50B8319FAF5080011698B /* SystemsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75C50B8219FAF5080011698B /* SystemsViewController.m */; };
+		75C50B8519FAF6330011698B /* more_then-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 75C50B8419FAF6330011698B /* more_then-50.png */; };
 		75C9231D19EA90100005CA31 /* HTTListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 75C9231C19EA90100005CA31 /* HTTListTableViewCell.m */; };
 		75C9231F19EA90DF0005CA31 /* entree.plist in Resources */ = {isa = PBXBuildFile; fileRef = 75C9231E19EA90DF0005CA31 /* entree.plist */; };
 		75C9232419EA94810005CA31 /* check-off.png in Resources */ = {isa = PBXBuildFile; fileRef = 75C9232219EA94810005CA31 /* check-off.png */; };
@@ -313,6 +315,9 @@
 		75932D9619F2437A00D24223 /* checkmark-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "checkmark-32.png"; sourceTree = "<group>"; };
 		759EAFBA19F7AD06008348F7 /* play-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "play-50.png"; sourceTree = "<group>"; };
 		759EAFBF19F8EB06008348F7 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		75C50B8119FAF5080011698B /* SystemsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SystemsViewController.h; sourceTree = "<group>"; };
+		75C50B8219FAF5080011698B /* SystemsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SystemsViewController.m; sourceTree = "<group>"; };
+		75C50B8419FAF6330011698B /* more_then-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "more_then-50.png"; sourceTree = "<group>"; };
 		75C9231B19EA90100005CA31 /* HTTListTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTListTableViewCell.h; sourceTree = "<group>"; };
 		75C9231C19EA90100005CA31 /* HTTListTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTTListTableViewCell.m; sourceTree = "<group>"; };
 		75C9231E19EA90DF0005CA31 /* entree.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = entree.plist; sourceTree = "<group>"; };
@@ -667,6 +672,15 @@
 			name = Files;
 			sourceTree = "<group>";
 		};
+		75C50B8019FAF4DC0011698B /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				75C50B8119FAF5080011698B /* SystemsViewController.h */,
+				75C50B8219FAF5080011698B /* SystemsViewController.m */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
 		75C9231719EA8F070005CA31 /* Admission */ = {
 			isa = PBXGroup;
 			children = (
@@ -1017,6 +1031,7 @@
 		C3080DE917FE86B8008AE8CC /* NewsFeeder */ = {
 			isa = PBXGroup;
 			children = (
+				75C50B8419FAF6330011698B /* more_then-50.png */,
 				75D869AC19F9077900F53AF1 /* menu-50.png */,
 				75D869AA19F9073400F53AF1 /* checkmark-50.png */,
 				75D869A419F905EE00F53AF1 /* filter_filled-50.png */,
@@ -1146,6 +1161,7 @@
 		C3080E2E17FE8827008AE8CC /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				75C50B8019FAF4DC0011698B /* Main */,
 				75DF4A8719F78D89000F2F90 /* Video */,
 				7506808419EDC24A00EA0040 /* Laboratory */,
 				75C9231719EA8F070005CA31 /* Admission */,
@@ -1501,6 +1517,7 @@
 				C3080F0117FEEDF8008AE8CC /* invite_fb_cursor.png in Resources */,
 				75CE28EA19F394AC002FF80F /* Secondary survey.pdf in Resources */,
 				75CE28D719F394AC002FF80F /* Neuro1.pdf in Resources */,
+				75C50B8519FAF6330011698B /* more_then-50.png in Resources */,
 				75CE290519F41AD9002FF80F /* filter_filled.png in Resources */,
 				75932D9719F2437A00D24223 /* checkmark-32.png in Resources */,
 				C3080E8D17FEA685008AE8CC /* feed_example1.png in Resources */,
@@ -1730,6 +1747,7 @@
 				75E385BF19EFCC94006C60FF /* html5.c in Sources */,
 				C3080EBA17FEC349008AE8CC /* SettingViewController.m in Sources */,
 				75E385BE19EFCC94006C60FF /* GHMarkdownParser.m in Sources */,
+				75C50B8319FAF5080011698B /* SystemsViewController.m in Sources */,
 				7506808C19EDC6BC00EA0040 /* LabValuesViewController.m in Sources */,
 				75E385CD19EFCC94006C60FF /* xml.c in Sources */,
 				C3080F0F17FEEE0C008AE8CC /* InviteViewController.m in Sources */,

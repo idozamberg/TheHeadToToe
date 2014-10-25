@@ -39,6 +39,13 @@
     [imgvwPhoto setImage:[UIImage imageNamed: @"menu_cell_icon_pager"]];
 }
 
+- (void) setCellContentWith:(int)type andImageName : (NSString*) name
+{
+    [lblTitle setText:[gAppDelegate getStringInScreen:SCREEN_MENU
+                                                strID:[NSString stringWithFormat:@"CELL_ROW%d", type]]];
+    [imgvwPhoto setImage:[UIImage imageNamed: name]];
+}
+
 
 - (void) setCellContentWithLabel : (NSString*) text andImageName : (NSString*) name
 {

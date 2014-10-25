@@ -15,5 +15,5 @@
 
 - (void) setCellContentWith:(int)type;
 - (void) setCellContentWithLabel : (NSString*) text andImageName : (NSString*) name;
-
+- (void) setCellContentWith:(int)type andImageName : (NSString*) name;
 @end

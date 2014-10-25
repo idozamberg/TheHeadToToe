@@ -9,12 +9,7 @@
 #import "SuperViewController.h"
 #import "MenuColorSelectView.h"
 
-typedef enum
-{
-    menuModeMain,
-    menuModeSubMenu,
-    menuModeClosed
-}menuMode;
+
 
 @interface MenuViewController : SuperViewController<MenuColorSelectViewDelegate> {
     IBOutlet UIView * viewTop;
