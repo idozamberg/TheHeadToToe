@@ -10,7 +10,7 @@
 
 
 @implementation SuperViewController
-
+@synthesize currentViewMode = _currentViewMode;
 
 - (SuperViewController *) viewFromStoryboard
 {

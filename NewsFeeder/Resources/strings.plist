@@ -2,6 +2,11 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>SCREEN_HTT</key>
+	<dict>
+		<key>NAV_TITLE</key>
+		<string>Head To Toe</string>
+	</dict>
 	<key>SCREEN_LABORATOIRE</key>
 	<dict>
 		<key>NAV_TITLE</key>

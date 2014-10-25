@@ -28,6 +28,7 @@
     menuMode currentMenuMode;
 }
 
+- (IBAction)homeClicked:(id)sender;
 @property (weak, nonatomic) IBOutlet UIButton *btnSystems;
 @property (weak, nonatomic) IBOutlet UIButton *btnLabo;
 @property (weak, nonatomic) IBOutlet UILabel *lblSystemsHeader;

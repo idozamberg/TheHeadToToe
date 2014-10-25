@@ -10,6 +10,7 @@
 
 #import "AppDelegate.h"
 #import "Global.h"
+#import "AppData.h"
 
 @interface SuperViewController : UIViewController<UIAlertViewDelegate> {
     ;
@@ -22,5 +23,7 @@
 - (void) setEnable:(BOOL)enable;
 
 - (void) resize;
+
+@property (nonatomic)        viewMode        currentViewMode;
 
 @end

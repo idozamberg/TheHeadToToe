@@ -9,6 +9,14 @@
 #import "CustomNavViewController.h"
 #import "HTTFile.h"
 #import "FileCell.h"
+#import "HTTVideoTableViewCell.h"
+#import "LabValueCell.h"
+#import "LabValue.h"
+#import "YouTubeVideoFile.h"
+
+#define FILES_SECTION 0
+#define LAB_SECTION 1
+#define VIDEOS_SECTION 2
 
 @interface SearchViewController : CustomNavViewController <UITableViewDataSource,UITableViewDelegate>
 {
@@ -17,6 +25,9 @@
     IBOutlet UIButton * btnCancel;
     
     NSMutableArray* filteredArray;
+    NSMutableArray* filteredArrayFiles;
+    NSMutableArray* filteredArrayLab;
+    NSMutableArray* filteredArrayVideos;
 }
 
 @property (strong,nonatomic) NSMutableArray* dataSourceArray;

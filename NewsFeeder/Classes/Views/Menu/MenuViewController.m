@@ -217,6 +217,9 @@
             // Creating view controller
             SuperViewController* vcList = [[FileListViewController alloc] viewFromStoryboard];
             
+            // Setting standalone mode
+            ((FileListViewController*)vcList).currentViewMode = viewModeStandAlone;
+            
             // Setting current ciew controller
             currentController = (SuperViewController *)[[UICustomNavigationController alloc] initWithRootViewController:vcList];
             
@@ -233,6 +236,9 @@
         {
             // Creating view controller
             SuperViewController* vcList = [[HTTVideoViewController alloc] viewFromStoryboard];
+            
+            // Setting standalone mode
+            ((FileListViewController*)vcList).currentViewMode = viewModeStandAlone;
             
             // Setting current ciew controller
             currentController = (SuperViewController *)[[UICustomNavigationController alloc] initWithRootViewController:vcList];
@@ -352,5 +358,12 @@
 - (BOOL) shouldAutorotate
 {
     return NO;
+}
+- (IBAction)homeClicked:(id)sender {
+
+    currentController = (SuperViewController *)[[UICustomNavigationController alloc] initWithRootViewController:[[SystemsViewController alloc] viewFromStoryboard]];
+    [AppData sharedInstance].currNavigationController = (UICustomNavigationController*)currentController;
+    
+    [self showCurrentController];
 }
 @end

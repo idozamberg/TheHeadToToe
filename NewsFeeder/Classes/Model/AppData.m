@@ -231,4 +231,39 @@ static AppData* shareData;
     return flatArray;
 }
 
+- (NSMutableArray*) flattenedVideosArray
+{
+    NSMutableArray* flatArray = [NSMutableArray new];
+    
+    // Going through all systems
+    for (NSArray* system in [self.youTubeFilesList allValues])
+    {
+        // Add array to flattend array
+        [flatArray addObjectsFromArray:system];
+    }
+    
+    return flatArray;
+}
+
+- (NSMutableArray*) flattenedLabArray
+{
+    NSMutableArray* flatArray = [NSMutableArray new];
+    
+    // Going through all systems
+    for (NSArray* system in [self.labValues allValues])
+    {
+        // Add array to flattend array
+        [flatArray addObjectsFromArray:system];
+    }
+    
+    return flatArray;
+}
+
+- (NSMutableArray*) flattenedSearchArray
+{
+    NSMutableArray* flatArray = [NSMutableArray arrayWithObjects:[self flattenedFilesArray],[self flattenedLabArray],[self flattenedVideosArray] ,nil];
+    
+    return flatArray;
+}
+
 @end

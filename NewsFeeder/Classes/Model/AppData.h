@@ -17,6 +17,13 @@ typedef enum
     menuModeClosed
 }menuMode;
 
+typedef enum
+{
+    viewModeStandAlone,
+    viewModeInNavigation
+}viewMode;
+
+
 @interface AppData : NSObject
 
 + (AppData*) sharedInstance;
@@ -32,7 +39,9 @@ typedef enum
 // Methods & Functions
 - (void) performStartupOperations;
 - (NSMutableArray*) flattenedFilesArray;
-
+- (NSMutableArray*) flattenedVideosArray;
+- (NSMutableArray*) flattenedLabArray;
+- (NSMutableArray*) flattenedSearchArray;
 
 
 @end

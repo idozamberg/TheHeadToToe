@@ -13,7 +13,7 @@
 #import "ReaderViewController.h"
 
 
-@interface CustomNavViewController : SuperViewController<CustomNavBarViewDelegate> {
+@interface CustomNavViewController : SuperViewController<CustomNavBarViewDelegate,UINavigationControllerDelegate> {
 	CustomNavigationBarView * navBarView;
     
     NSString *navBGFile;
@@ -22,6 +22,9 @@
 @property (nonatomic, retain) CustomNavigationBarView * navBarView;
 @property (nonatomic, strong) ReaderViewController* readerController;
 @property (nonatomic)         BOOL isShowingPdfView;
+@property (nonatomic, strong) NSString *transitionClassName;
+@property (nonatomic, strong) id animator;
+
 
 
 - (void) insertNavBarWithScreenName:(NSString *)screen;

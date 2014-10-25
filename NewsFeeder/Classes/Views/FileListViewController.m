@@ -12,6 +12,7 @@
 #import "ReaderViewController.h"
 #import "SearchViewController.h"
 
+
 @interface FileListViewController ()
 {
     BOOL isShowingFile;
@@ -22,8 +23,10 @@
 
 @implementation FileListViewController
 
+
 @synthesize tblFileList = _tblFileList;
 @synthesize filesList   = _filesList;
+@synthesize currentViewMode = _currentViewMode;
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -42,6 +45,14 @@
     isShowingFile = NO;
 }
 
+- (void) viewWillAppear:(BOOL)animated
+{
+    [super viewWillAppear:animated];
+    
+    self.navigationController.delegate = Nil;
+
+}
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
@@ -57,14 +68,27 @@
 
 - (void) didClickNavBarLeftButton
 {
-    [[NSNotificationCenter defaultCenter] postNotificationName:@"LeftSideBarButtonClicked" object:Nil];
+    if (self.currentViewMode == viewModeInNavigation)
+    {
+        [self.navigationController popToRootViewControllerAnimated:YES];
+    }
+    else
+    {
+        [[NSNotificationCenter defaultCenter] postNotificationName:@"LeftSideBarButtonClicked" object:Nil];
+    }
 }
 
 - (void) didClickNavBarRightButton
 {
 
+    // Getting first view controller
+    UIViewController* viewController = [[self.navigationController viewControllers] objectAtIndex:0];
+
+
+    self.navigationController.delegate = viewController;
+    
     SearchViewController * searchController = (SearchViewController *)[[SearchViewController alloc] viewFromStoryboard];
-    searchController.dataSourceArray = [[AppData sharedInstance] flattenedFilesArray];
+    searchController.dataSourceArray = [[AppData sharedInstance] flattenedSearchArray];
     [self.navigationController pushViewController:searchController animated:YES];
 
 }
@@ -109,47 +133,8 @@
     
     [self ShowPDFReaderWithName:currentFile.name];
     
-   // [self pushShowPDFReaderWithName:currentFile.name];
 }
 
--(void)pushShowPDFReaderWithName : (NSString*) name
-{
-    // Setting up file name
-    NSString *phrase = nil; // Document password (for unlocking most encrypted PDF files)
-    NSFileManager *fileManager = [NSFileManager new];
-    NSURL *pathURL = [fileManager URLForDirectory:NSDocumentDirectory inDomain:NSUserDomainMask appropriateForURL:nil create:YES error:NULL];
-
-    NSString *documentsPath = [pathURL path];
-    NSArray *fileList = [fileManager contentsOfDirectoryAtPath:documentsPath error:NULL];
-    NSString *fileName = [fileList firstObject]; // Presume that the first file is a PDF
-    NSString *filePath = [documentsPath stringByAppendingPathComponent:name];
-    
-    // Configuring screen
-    ReaderDocument *document = [ReaderDocument withDocumentFilePath:filePath password:phrase];
-    readerViewController = [[ReaderViewController alloc] initWithReaderDocument:document];
-    /*CustomNavigationBarView* navigation = [CustomNavigationBarView viewFromStoryboard];
-    
-    [navigation setFrame:CGRectMake( 0, 0, 320, 50 )];
-    [navigation setBackgroundColor:gThemeColor];
-    [navigation showRightButton:YES];
-    [navigation.lblTitle setText:@""];
-    [navigation.leftButton setImage:[UIImage imageNamed:@"navbar_back"]
-                                forState:UIControlStateNormal];
-    
-    [navigation.rightButton setImage:[UIImage imageNamed:@"Arrow up"]
-                            forState:UIControlStateNormal];
-    
-    
-    navigation.delegate = self;*/
-    
-   // [readerViewController.view addSubview:navigation];
-
-    //[self.navigationController presentViewController:readerViewController animated:YES completion:Nil];
-    
-    [self.navigationController pushViewController:readerViewController animated:YES];
-    
-    isShowingFile = YES;
-}
 
 
 

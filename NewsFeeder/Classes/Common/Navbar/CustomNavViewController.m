@@ -7,12 +7,12 @@
 //
 
 #import "CustomNavViewController.h"
-
+#import "ATCAnimatedTransitioning.h"
 
 @implementation CustomNavViewController
 
 
-@synthesize navBarView,readerController,isShowingPdfView;
+@synthesize navBarView,readerController,isShowingPdfView,animator,transitionClassName;
 
 
 
@@ -24,6 +24,8 @@
 	[self.navBarView setFrame:CGRectMake( 0, 0, [UIScreen mainScreen].bounds.size.width, 64 )];
     
     isShowingPdfView = NO;
+    
+   // self.navigationController.delegate = self;
 }
 
 
@@ -44,6 +46,19 @@
     [super viewWillAppear:animated];
     
     [self.navBarView setBackgroundColor:gThemeColor];
+
+    if (self.currentViewMode == viewModeStandAlone)
+    {
+        // Changing left button
+        [self.navBarView.leftButton setImage:[UIImage imageNamed:@"menu-50"]
+                                    forState:UIControlStateNormal];
+    }
+    else
+    {
+        // Changing left button
+        [self.navBarView.leftButton setImage:[UIImage imageNamed:@"navbar_back"]
+                                    forState:UIControlStateNormal];
+    }
 }
 
 
@@ -116,6 +131,12 @@
             [self.navBarView.lblTitle setText:[gAppDelegate getStringInScreen:SCREEN_DOCUMENTS
                                                                         strID:STR_NAVTITLE]];
             [self.navBarView.rightButton setHidden:NO];
+    }
+    else if ([dicName isEqualToString:SCREEN_HTT])
+    {
+        [self.navBarView.lblTitle setText:[gAppDelegate getStringInScreen:SCREEN_HTT
+                                                                    strID:STR_NAVTITLE]];
+        [self.navBarView.rightButton setHidden:NO];
     }
     else if ([dicName isEqualToString:SCREEN_LABORATOIRE])
     {
@@ -260,6 +281,8 @@
 {
     return NO;
 }
+
+
 
 
 

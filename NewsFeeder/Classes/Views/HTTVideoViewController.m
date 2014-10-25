@@ -48,7 +48,14 @@
 
 - (void) didClickNavBarLeftButton
 {
-    [[NSNotificationCenter defaultCenter] postNotificationName:@"LeftSideBarButtonClicked" object:Nil];
+    if (self.currentViewMode == viewModeInNavigation)
+    {
+        [self.navigationController popToRootViewControllerAnimated:YES];
+    }
+    else
+    {
+        [[NSNotificationCenter defaultCenter] postNotificationName:@"LeftSideBarButtonClicked" object:Nil];
+    }
 }
 
 

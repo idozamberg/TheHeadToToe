@@ -8,6 +8,7 @@
 
 #import "SearchViewController.h"
 #import "ReaderViewController.h"
+#import "QuestionsHeader.h"
 @interface SearchViewController ()
 {
     ReaderViewController* readerViewController;
@@ -47,14 +48,43 @@
     
 }
 
+- (void) viewWillAppear:(BOOL)animated
+{
+    [super viewWillAppear:animated];
+    
+    [self.navBarView.leftButton setImage:[UIImage imageNamed:@"navbar_back"]
+                                forState:UIControlStateNormal];
+    
+    self.navigationController.delegate = Nil;
+}
+
 - (void) filterArrayByText :(NSString*) text
 {
-    NSPredicate *sPredicate =
+    filteredArray = [NSMutableArray new];
+    
+    // Creating predicate for files and videos
+    NSPredicate *filePredicate =
     [NSPredicate predicateWithFormat:@"(SELF.name contains[cd] %@) OR (SELF.fileDescription contains[cd] %@)",text,text];
     
-    // Filtering the array
-    filteredArray = [_dataSourceArray filteredArrayUsingPredicate:sPredicate];
+    // Creating predicate for lab values
+    NSPredicate *labPredicate =
+    [NSPredicate predicateWithFormat:@"(SELF.name contains[cd] %@) OR (SELF.value contains[cd] %@)",text,text];
     
+    
+    // Filtering the array
+    filteredArrayFiles = [[_dataSourceArray objectAtIndex:0] filteredArrayUsingPredicate:filePredicate];
+    filteredArrayVideos = [[_dataSourceArray objectAtIndex:2] filteredArrayUsingPredicate:filePredicate];
+    filteredArrayLab = [[_dataSourceArray objectAtIndex:1] filteredArrayUsingPredicate:labPredicate];
+    
+    
+    // Adding only if we have search results!
+
+    [filteredArray addObject:filteredArrayFiles];
+    [filteredArray addObject:filteredArrayLab];
+    [filteredArray addObject:filteredArrayVideos];
+
+
+
 }
 - (void)didReceiveMemoryWarning
 {
@@ -78,6 +108,8 @@
 
 - (void) didClickNavBarLeftButton
 {
+    self.navigationController.delegate = [[self.navigationController viewControllers] objectAtIndex:0];
+    
     [self.navigationController popViewControllerAnimated:YES];
 }
 
@@ -128,9 +160,16 @@
 
 #pragma mark tableview
 
-- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
+- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {
     return filteredArray.count;
+}
+
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
+{
+    NSMutableArray* array = [filteredArray objectAtIndex:section];
+    
+    return (array.count);
 }
 
 // Row display. Implementers should *always* try to reuse cells by setting each cell's reuseIdentifier and querying for available reusable cells with dequeueReusableCellWithIdentifier:
@@ -138,78 +177,127 @@
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    FileCell * cell = nil;
-    HTTFile* currentFile = [filteredArray objectAtIndex:indexPath.row];
     
-    cell = [tableView dequeueReusableCellWithIdentifier:@"FileCell"];
+    NSMutableArray* currentArray = [filteredArray objectAtIndex:indexPath.section];
     
-    if ( cell == nil )
+    if(indexPath.section == FILES_SECTION)
     {
-        cell = [[FileCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"FileCell"];
+        FileCell * cell = nil;
+        HTTFile* currentFile = [currentArray objectAtIndex:indexPath.row];
+        
+        cell = [tableView dequeueReusableCellWithIdentifier:@"FileCell"];
+        
+        if ( cell == nil )
+        {
+            cell = [[FileCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"FileCell"];
+        }
+        
+        // Setting cell's properties
+        cell.lblFileName.text        = currentFile.name;
+        cell.lblFileDescription.text = currentFile.fileDescription;
+        
+        return cell;
+    }
+    else if(indexPath.section == LAB_SECTION)
+    {
+        LabValueCell * cell = nil;
+        LabValue* currentValue = [currentArray objectAtIndex:indexPath.row];
+        
+        cell = [tableView dequeueReusableCellWithIdentifier:@"LabCell"];
+        
+        if ( cell == nil )
+        {
+            cell = [[LabValueCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"LabCell"];
+        }
+        
+        // Setting cell's properties
+        cell.lblName.text        = currentValue.name;
+        cell.lblValue.text = currentValue.value;
+        
+        return cell;
+    }
+    else
+    {
+        HTTVideoTableViewCell* cell = nil;
+        YouTubeVideoFile* currentFile = [currentArray objectAtIndex:indexPath.row];
+        
+        cell = [tableView dequeueReusableCellWithIdentifier:@"VideoCell"];
+        
+        if ( cell == nil )
+        {
+            cell = [[HTTVideoTableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"VideoCell"];
+        }
+        else
+        {
+            [cell.videoPlayerViewController.moviePlayer stop];
+            cell.lblTitle.text = @"";
+            cell.lblDescription.text = @"";
+            cell.imgThumb.image = Nil;
+        }
+       
+        // Setting cell's properties
+        [cell loadThumbnailWithIdentifier:currentFile.name];
+        // Setting cell's properties
+        cell.lblDescription.text = currentFile.fileDescription;
+        
+        return cell;
     }
     
-    // Setting cell's properties
-    cell.lblFileName.text        = currentFile.name;
-    cell.lblFileDescription.text = currentFile.fileDescription;
-    
-    return cell;
+    return Nil;
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
     [tableView deselectRowAtIndexPath:indexPath animated:NO];
     
-    HTTFile* currentFile = [filteredArray objectAtIndex:indexPath.row];
-    
-    [self ShowPDFReaderWithName:currentFile.name];
+    if (indexPath.section == FILES_SECTION)
+    {
+        // Showing pdf file
+        HTTFile* currentFile = [[filteredArray objectAtIndex:FILES_SECTION] objectAtIndex:indexPath.row];
+        [self ShowPDFReaderWithName:currentFile.name];
+    }
 }
 
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
 {
+    if (indexPath.section == LAB_SECTION) {
+        return 50;
+    }
+    
     return 71;
 }
--(void)pushShowPDFReaderWithName : (NSString*) name
+
+- (CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section
 {
-    NSString *phrase = nil; // Document password (for unlocking most encrypted PDF files)
+    return 45;
+}
+
+- (UIView *)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section
+{
+    NSString* title;
     
-    NSFileManager *fileManager = [NSFileManager new];
+    if(section == FILES_SECTION)
+    {
+        title = @"Documents";
+    }
+    else if(section == LAB_SECTION)
+    {
+        title = @"Laboratoire";
+    }
+    else
+    {
+        title = @"Videos";
+    }
     
-    NSURL *pathURL = [fileManager URLForDirectory:NSDocumentDirectory inDomain:NSUserDomainMask appropriateForURL:nil create:YES error:NULL];
+    // Setting header properties
+    QuestionsHeader * headerView = nil;
+    headerView = (QuestionsHeader *)[[QuestionsHeader alloc] viewFromStoryboard];
+    [headerView setTitle:title];
+    headerView.backgroundColor = gThemeColor;
+    headerView.lblTitle.textColor = [UIColor whiteColor];
+    headerView.imgIcon.hidden = YES;
     
-    NSString *documentsPath = [pathURL path];
-    
-    NSArray *fileList = [fileManager contentsOfDirectoryAtPath:documentsPath error:NULL];
-    
-    NSString *fileName = [fileList firstObject]; // Presume that the first file is a PDF
-    
-    NSString *filePath = [documentsPath stringByAppendingPathComponent:name];
-    
-    // NSString *filePath = [[NSBundle mainBundle] pathForResource:name ofType:@"pdf"];
-    ReaderDocument *document = [ReaderDocument withDocumentFilePath:filePath password:phrase];
-    
-    readerViewController = [[ReaderViewController alloc] initWithReaderDocument:document];
-    //readerViewController.delegate = self;
-    
-    CustomNavigationBarView* navigation = [CustomNavigationBarView viewFromStoryboard];
-    
-    [navigation setFrame:CGRectMake( 0, 0, 320, 50 )];
-    [navigation setBackgroundColor:THEME_COLOR_RED];
-    [navigation showRightButton:YES];
-    [navigation.lblTitle setText:@""];
-    [navigation.leftButton setImage:[UIImage imageNamed:@"navbar_back"]
-                           forState:UIControlStateNormal];
-    
-    [navigation.rightButton setImage:[UIImage imageNamed:@"Arrow up"]
-                            forState:UIControlStateNormal];
-    
-    
-    navigation.delegate = self;
-    
-    [readerViewController.view addSubview:navigation];
-    
-    [self.navigationController pushViewController:readerViewController animated:YES];
-    
-   // isShowingFile = YES;
+    return headerView;
 }
 
 - (void) didClickNavBarRightButton

@@ -11,7 +11,8 @@
 #import "FileListViewController.h"
 #import "AppData.h"
 #import "HTTVideoViewController.h"
-
+#import "ATCAnimatedTransitioning.h"
+#import "SearchViewController.h"
 @interface SystemsViewController ()
 
 @end
@@ -29,10 +30,30 @@
     currentMenuMode = menuModeMain;
     
     // Insert Navigation Bar
-    [self insertNavBarWithScreenName:SCREEN_DOCUMENTS];
+    [self insertNavBarWithScreenName:SCREEN_HTT];
     
     [_tblSystem reloadData];
     // Do any additional setup after loading the view.
+}
+
+- (void) viewWillAppear:(BOOL)animated
+{
+    [super viewWillAppear:animated];
+    
+    if (currentMenuMode == menuModeMain)
+    {
+        // Changing left button
+        [self.navBarView.leftButton setImage:[UIImage imageNamed:@"menu-50"]
+                                    forState:UIControlStateNormal];
+    }
+    else
+    {
+        // Changing left button
+        [self.navBarView.leftButton setImage:[UIImage imageNamed:@"navbar_back"]
+                                    forState:UIControlStateNormal];
+    }
+    
+    self.navigationController.delegate = Nil;
 }
 
 - (void)didReceiveMemoryWarning {
@@ -58,15 +79,32 @@
 
 - (void) didClickNavBarLeftButton
 {
-    [[NSNotificationCenter defaultCenter] postNotificationName:@"LeftSideBarButtonClicked" object:Nil];
+    if (currentMenuMode == menuModeSubMenu)
+    {
+        // Reloading table
+        currentMenuMode = menuModeMain;
+        [_tblSystem reloadData];
+        
+        // Changing left button
+        [self.navBarView.leftButton setImage:[UIImage imageNamed:@"menu-50.png"]
+                                    forState:UIControlStateNormal];
+    }
+    else
+    {
+        [[NSNotificationCenter defaultCenter] postNotificationName:@"LeftSideBarButtonClicked" object:Nil];
+    }
 }
 
 - (void) didClickNavBarRightButton
 {
     
-   // SearchViewController * searchController = (SearchViewController *)[[SearchViewController alloc] viewFromStoryboard];
-   // searchController.dataSourceArray = [[AppData sharedInstance] flattenedFilesArray];
-    //[self.navigationController pushViewController:searchController animated:YES];
+    SearchViewController * searchController = (SearchViewController *)[[SearchViewController alloc] viewFromStoryboard];
+    searchController.dataSourceArray = [[AppData sharedInstance] flattenedSearchArray];
+    
+    self.navigationController.delegate = self;
+    self.transitionClassName = @"ATCAnimatedTransitioningFloat";
+
+    [self.navigationController pushViewController:searchController animated:YES];
     
 }
 
@@ -126,7 +164,6 @@
     
     NSInteger cellRow = [indexPath row];
     
-
     
     // Submenu  handeling
     if (currentMenuMode == menuModeSubMenu)
@@ -136,9 +173,8 @@
             // Creating view controller
             SuperViewController* vcList = [[FileListViewController alloc] viewFromStoryboard];
             
-            // Setting current ciew controller
-         //   currentController = (SuperViewController *)[[UICustomNavigationController alloc] initWithRootViewController:vcList];
-            
+            // Setting view mode
+            vcList.currentViewMode = viewModeInNavigation;
             
             // Getting files list
             NSMutableArray* files = [[AppData sharedInstance].filesList objectForKey:currentSystem];
@@ -146,7 +182,7 @@
             // Setting file's list
             [((FileListViewController*)vcList) setFilesList:files];
             
-            [[AppData sharedInstance].currNavigationController pushViewController:vcList animated:YES];
+            [self.navigationController pushViewController:vcList animated:YES];
 
         }
         else
@@ -154,9 +190,9 @@
             // Creating view controller
             SuperViewController* vcList = [[HTTVideoViewController alloc] viewFromStoryboard];
             
-            // Setting current ciew controller
-            //currentController = (SuperViewController *)[[UICustomNavigationController alloc] initWithRootViewController:vcList];
-            
+            // Setting view mode
+            vcList.currentViewMode = viewModeInNavigation;
+
             // Getting files list
             NSMutableArray* files = [[AppData sharedInstance].youTubeFilesList objectForKey:currentSystem];
             
@@ -166,7 +202,7 @@
             // Setting file's list
             [((HTTVideoViewController*)vcList) setFilesList:files];
             
-            [[AppData sharedInstance].currNavigationController pushViewController:vcList animated:YES];
+           [self.navigationController pushViewController:vcList animated:YES];
             
         }
         
@@ -181,8 +217,9 @@
         // Saving current system
         currentSystem = title;
         
-        [UIView commitAnimations];
-        
+        // Changing left button
+        [self.navBarView.leftButton setImage:[UIImage imageNamed:@"navbar_back"]
+                                    forState:UIControlStateNormal];
         
         [tableView reloadSections:[NSIndexSet indexSetWithIndex:0] withRowAnimation:UITableViewRowAnimationFade];
     }
@@ -199,5 +236,54 @@
     // Pass the selected object to the new view controller.
 }
 */
+
+- (id<UIViewControllerAnimatedTransitioning>)navigationController:(UINavigationController *)navigationController
+                                  animationControllerForOperation:(UINavigationControllerOperation)operation
+                                               fromViewController:(UIViewController *)fromVC
+                                                 toViewController:(UIViewController *)toVC
+{
+    self.animator = nil;
+    
+    if (NSClassFromString(self.transitionClassName)) {
+        
+        Class aClass = NSClassFromString(self.transitionClassName);
+        self.animator = [[aClass alloc] init];
+    }
+    // only for KWTransition
+    
+    if (self.animator) {
+        
+        [self setupAnimatorForOperation:operation];
+    }
+    
+    return self.animator;
+}
+
+
+// =============================================================================
+#pragma mark - Private
+
+// setup for each OSS
+- (void)setupAnimatorForOperation:(UINavigationControllerOperation)operation
+{
+    // HUAnimator
+    if ([self.animator isKindOfClass:[ATCAnimatedTransitioning class]]) {
+        
+        [self.animator setIsPush:YES];
+        [self.animator setDuration:0.4];
+        [self.animator setDismissal:(operation == UINavigationControllerOperationPop)];
+        
+        if (operation == UINavigationControllerOperationPush) {
+            
+            [(ATCAnimatedTransitioning *)self.animator setDirection:ATCTransitionAnimationDirectionRight];
+        }
+        else {
+            [(ATCAnimatedTransitioning *)self.animator setDirection:ATCTransitionAnimationDirectionLeft];
+        }
+    }
+    // ADTransition
+    
+}
+
 
 @end
