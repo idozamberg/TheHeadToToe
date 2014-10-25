@@ -16,6 +16,7 @@
 #import "AdmissionViewController.h"
 #import "LabValuesViewController.h"
 #import "HTTVideoViewController.h"
+#import "SystemsViewController.h"
 
 
 @interface MenuViewController ()
@@ -47,9 +48,12 @@
     
     currentMenuMode = menuModeMain;
     
-    currentController = [[FeedViewController alloc] viewFromStoryboard];
+    // Setting current view
+    currentController = (SuperViewController *)[[UICustomNavigationController alloc] initWithRootViewController:[[SystemsViewController alloc] viewFromStoryboard]];
+    [AppData sharedInstance].currNavigationController = (UICustomNavigationController*)currentController;
+    
     CGRect frm = self.view.frame;
-    frm.origin.x = 254;
+    frm.origin.x = 0;
     [currentController.view setFrame:frm];
     [self.view addSubview:currentController.view];
     
