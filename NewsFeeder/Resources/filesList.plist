@@ -73,6 +73,60 @@
 			<key>Description</key>
 			<string>Anatomie du Coude</string>
 		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Main-innervation.pdf</string>
+			<key>Description</key>
+			<string>Innervation de la main</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Myologie dos.pdf</string>
+			<key>Description</key>
+			<string>Myologie du dos</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Myologie MI.pdf</string>
+			<key>Description</key>
+			<string>Myologie des MI</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Myologie MS.pdf</string>
+			<key>Description</key>
+			<string>Myologie des MS</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Rachis.pdf</string>
+			<key>Description</key>
+			<string>Anatomie du Rachis</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Hanche.pdf</string>
+			<key>Description</key>
+			<string>Anatomie de la Hanche</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Pied.pdf</string>
+			<key>Description</key>
+			<string>Anatomie du Pied</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Main.pdf</string>
+			<key>Description</key>
+			<string>Anatomie de la Main</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Epaule.pdf</string>
+			<key>Description</key>
+			<string>Anatomie de l&apos;Epaule</string>
+		</dict>
 	</array>
 	<key>Pharmacologie</key>
 	<array>

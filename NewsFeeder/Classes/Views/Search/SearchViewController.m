@@ -80,6 +80,13 @@
     self.navigationController.delegate = Nil;
 }
 
+- (void) viewWillDisappear:(BOOL)animated
+{
+    [super viewWillDisappear:animated];
+    
+    [txtfldKeyword resignFirstResponder];
+}
+
 - (void) filterArrayByText :(NSString*) text
 {
     filteredArray = [NSMutableArray new];
@@ -91,7 +98,6 @@
     // Creating predicate for lab values
     NSPredicate *labPredicate =
     [NSPredicate predicateWithFormat:@"(SELF.name contains[cd] %@) OR (SELF.value contains[cd] %@)",text,text];
-    
     
     // Filtering the array
     filteredArrayFiles = [[_dataSourceArray objectAtIndex:0] filteredArrayUsingPredicate:filePredicate];
@@ -130,6 +136,8 @@
 
 - (void) didClickNavBarLeftButton
 {
+    
+    [txtfldKeyword resignFirstResponder];
 
     if (self.currentViewMode == viewModeStandAlone)
     {

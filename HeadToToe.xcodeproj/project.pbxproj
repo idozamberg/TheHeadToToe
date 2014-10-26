@@ -22,6 +22,15 @@
 		7506808C19EDC6BC00EA0040 /* LabValuesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7506808B19EDC6BC00EA0040 /* LabValuesViewController.m */; };
 		7506808E19EDC6C600EA0040 /* Labo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7506808D19EDC6C600EA0040 /* Labo.plist */; };
 		7506809119EDC6F600EA0040 /* LabValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 7506809019EDC6F600EA0040 /* LabValue.m */; };
+		75103A7E19FD635100BD458D /* Main-innervation.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 75103A7519FD635100BD458D /* Main-innervation.pdf */; };
+		75103A7F19FD635100BD458D /* Myologie dos.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 75103A7619FD635100BD458D /* Myologie dos.pdf */; };
+		75103A8019FD635100BD458D /* Myologie MI.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 75103A7719FD635100BD458D /* Myologie MI.pdf */; };
+		75103A8119FD635100BD458D /* Myologie MS.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 75103A7819FD635100BD458D /* Myologie MS.pdf */; };
+		75103A8219FD635100BD458D /* Rachis.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 75103A7919FD635100BD458D /* Rachis.pdf */; };
+		75103A8319FD635100BD458D /* Pied.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 75103A7A19FD635100BD458D /* Pied.pdf */; };
+		75103A8419FD635100BD458D /* Hanche.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 75103A7B19FD635100BD458D /* Hanche.pdf */; };
+		75103A8519FD635100BD458D /* Main.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 75103A7C19FD635100BD458D /* Main.pdf */; };
+		75103A8619FD635100BD458D /* Epaule.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 75103A7D19FD635100BD458D /* Epaule.pdf */; };
 		751771A519F793D2009BF487 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 751771A419F793D2009BF487 /* MediaPlayer.framework */; };
 		751771A819F79D10009BF487 /* HTTVideoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 751771A719F79D10009BF487 /* HTTVideoTableViewCell.m */; };
 		751771AA19F7A36F009BF487 /* Videos.plist in Resources */ = {isa = PBXBuildFile; fileRef = 751771A919F7A36F009BF487 /* Videos.plist */; };
@@ -297,6 +306,15 @@
 		7506808D19EDC6C600EA0040 /* Labo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Labo.plist; path = ../Labo.plist; sourceTree = "<group>"; };
 		7506808F19EDC6F600EA0040 /* LabValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LabValue.h; sourceTree = "<group>"; };
 		7506809019EDC6F600EA0040 /* LabValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LabValue.m; sourceTree = "<group>"; };
+		75103A7519FD635100BD458D /* Main-innervation.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Main-innervation.pdf"; sourceTree = "<group>"; };
+		75103A7619FD635100BD458D /* Myologie dos.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Myologie dos.pdf"; sourceTree = "<group>"; };
+		75103A7719FD635100BD458D /* Myologie MI.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Myologie MI.pdf"; sourceTree = "<group>"; };
+		75103A7819FD635100BD458D /* Myologie MS.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Myologie MS.pdf"; sourceTree = "<group>"; };
+		75103A7919FD635100BD458D /* Rachis.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Rachis.pdf; sourceTree = "<group>"; };
+		75103A7A19FD635100BD458D /* Pied.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Pied.pdf; sourceTree = "<group>"; };
+		75103A7B19FD635100BD458D /* Hanche.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Hanche.pdf; sourceTree = "<group>"; };
+		75103A7C19FD635100BD458D /* Main.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Main.pdf; sourceTree = "<group>"; };
+		75103A7D19FD635100BD458D /* Epaule.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Epaule.pdf; sourceTree = "<group>"; };
 		751771A419F793D2009BF487 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
 		751771A619F79D10009BF487 /* HTTVideoTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HTTVideoTableViewCell.h; path = ../../HTTVideoTableViewCell.h; sourceTree = "<group>"; };
 		751771A719F79D10009BF487 /* HTTVideoTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HTTVideoTableViewCell.m; path = ../../HTTVideoTableViewCell.m; sourceTree = "<group>"; };
@@ -794,6 +812,15 @@
 		75CE288B19F394AC002FF80F /* Anatomie */ = {
 			isa = PBXGroup;
 			children = (
+				75103A7519FD635100BD458D /* Main-innervation.pdf */,
+				75103A7619FD635100BD458D /* Myologie dos.pdf */,
+				75103A7719FD635100BD458D /* Myologie MI.pdf */,
+				75103A7819FD635100BD458D /* Myologie MS.pdf */,
+				75103A7919FD635100BD458D /* Rachis.pdf */,
+				75103A7A19FD635100BD458D /* Pied.pdf */,
+				75103A7B19FD635100BD458D /* Hanche.pdf */,
+				75103A7C19FD635100BD458D /* Main.pdf */,
+				75103A7D19FD635100BD458D /* Epaule.pdf */,
 				75CE288C19F394AC002FF80F /* Cardiovasculaire */,
 				75CE288E19F394AC002FF80F /* Digestif */,
 				75CE289019F394AC002FF80F /* Lymphatique */,
@@ -1610,14 +1637,18 @@
 				C3080EB617FEC341008AE8CC /* setting_cell_order.png in Resources */,
 				C3080E8B17FEA685008AE8CC /* feed_comment_bg.png in Resources */,
 				75D869A719F905EE00F53AF1 /* filter-50.png in Resources */,
+				75103A8219FD635100BD458D /* Rachis.pdf in Resources */,
 				759EAFBB19F7AD06008348F7 /* play-50.png in Resources */,
 				75CE28D519F394AC002FF80F /* Loco2.pdf in Resources */,
+				75103A8319FD635100BD458D /* Pied.pdf in Resources */,
 				75CE28E619F394AC002FF80F /* Dépression.pdf in Resources */,
 				75CE28CB19F394AC002FF80F /* Coude.pdf in Resources */,
 				75CE28E919F394AC002FF80F /* Neuroanat3-MC.pdf in Resources */,
 				C3080F0917FEEDF8008AE8CC /* invite_twitter.png in Resources */,
 				75CE28E419F394AC002FF80F /* Polycopié de pharmacologie 2014.pdf in Resources */,
 				75CE28C919F394AC002FF80F /* vascularisationSNC2013.pdf in Resources */,
+				75103A8619FD635100BD458D /* Epaule.pdf in Resources */,
+				75103A8019FD635100BD458D /* Myologie MI.pdf in Resources */,
 				C3080EFE17FEEDF8008AE8CC /* invite_example1.png in Resources */,
 				C3080DEE17FE86B8008AE8CC /* InfoPlist.strings in Resources */,
 				C3080F0717FEEDF8008AE8CC /* invite_tw_cursor.png in Resources */,
@@ -1666,16 +1697,20 @@
 				75CE28F919F3B6D9002FF80F /* switch_on-48.png in Resources */,
 				C3080EB717FEC341008AE8CC /* setting_cell_order@2x.png in Resources */,
 				75CE28E819F394AC002FF80F /* Sémiologie.pdf in Resources */,
+				75103A7F19FD635100BD458D /* Myologie dos.pdf in Resources */,
 				C3080E8217FEA622008AE8CC /* navbar_menu.png in Resources */,
 				758BDA8719FBC1F1000EBC90 /* cancel-32.png in Resources */,
 				7524A47D19EA5FD1006607C1 /* external-50.png in Resources */,
 				75CE28D319F394AC002FF80F /* Digestif2.pdf in Resources */,
+				75103A8519FD635100BD458D /* Main.pdf in Resources */,
 				C3080EB517FEC341008AE8CC /* setting_cell_indicator@2x.png in Resources */,
 				75CE28F519F3B486002FF80F /* checklist-32.png in Resources */,
 				C3080E5517FE8827008AE8CC /* menu_layout_pen@2x.png in Resources */,
 				75CE28DB19F394AC002FF80F /* Urgences.pdf in Resources */,
 				7524A47919E98A27006607C1 /* Share icon.png in Resources */,
+				75103A8419FD635100BD458D /* Hanche.pdf in Resources */,
 				C3080E4E17FE8827008AE8CC /* menu_cell_icon_pager.png in Resources */,
+				75103A8119FD635100BD458D /* Myologie MS.pdf in Resources */,
 				7524A45119E8920F006607C1 /* pdfIcon.png in Resources */,
 				C3080EDF17FED422008AE8CC /* add_news4@2x.png in Resources */,
 				75CE28D419F394AC002FF80F /* Loco1.pdf in Resources */,
@@ -1729,6 +1764,7 @@
 				C3080E8317FEA622008AE8CC /* navbar_menu@2x.png in Resources */,
 				C3080F0617FEEDF8008AE8CC /* invite_refresh@2x.png in Resources */,
 				751771AA19F7A36F009BF487 /* Videos.plist in Resources */,
+				75103A7E19FD635100BD458D /* Main-innervation.pdf in Resources */,
 				75CE28CC19F394AC002FF80F /* Genou.pdf in Resources */,
 				75CE28D619F394AC002FF80F /* Loco3.pdf in Resources */,
 				7524A45919E89360006607C1 /* filesList.plist in Resources */,
