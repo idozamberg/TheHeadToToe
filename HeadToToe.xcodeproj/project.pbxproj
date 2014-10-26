@@ -64,6 +64,7 @@
 		759EAFC019F8EB06008348F7 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 759EAFBF19F8EB06008348F7 /* AVFoundation.framework */; };
 		75C50B8319FAF5080011698B /* SystemsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75C50B8219FAF5080011698B /* SystemsViewController.m */; };
 		75C50B8519FAF6330011698B /* more_then-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 75C50B8419FAF6330011698B /* more_then-50.png */; };
+		75C50B8719FCF3960011698B /* erase-48.png in Resources */ = {isa = PBXBuildFile; fileRef = 75C50B8619FCF3960011698B /* erase-48.png */; };
 		75C9231D19EA90100005CA31 /* HTTListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 75C9231C19EA90100005CA31 /* HTTListTableViewCell.m */; };
 		75C9231F19EA90DF0005CA31 /* entree.plist in Resources */ = {isa = PBXBuildFile; fileRef = 75C9231E19EA90DF0005CA31 /* entree.plist */; };
 		75C9232419EA94810005CA31 /* check-off.png in Resources */ = {isa = PBXBuildFile; fileRef = 75C9232219EA94810005CA31 /* check-off.png */; };
@@ -352,6 +353,7 @@
 		75C50B8119FAF5080011698B /* SystemsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SystemsViewController.h; sourceTree = "<group>"; };
 		75C50B8219FAF5080011698B /* SystemsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SystemsViewController.m; sourceTree = "<group>"; };
 		75C50B8419FAF6330011698B /* more_then-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "more_then-50.png"; sourceTree = "<group>"; };
+		75C50B8619FCF3960011698B /* erase-48.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "erase-48.png"; sourceTree = "<group>"; };
 		75C9231B19EA90100005CA31 /* HTTListTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTListTableViewCell.h; sourceTree = "<group>"; };
 		75C9231C19EA90100005CA31 /* HTTListTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTTListTableViewCell.m; sourceTree = "<group>"; };
 		75C9231E19EA90DF0005CA31 /* entree.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = entree.plist; path = ../entree.plist; sourceTree = "<group>"; };
@@ -1100,6 +1102,7 @@
 				75D869A519F905EE00F53AF1 /* filter-50.png */,
 				758BDA7A19FBB734000EBC90 /* homeg-50.png */,
 				758BDA8619FBC1F1000EBC90 /* cancel-32.png */,
+				75C50B8619FCF3960011698B /* erase-48.png */,
 				75E3851819EFCC68006C60FF /* PdfManager */,
 				7506807319EB136000EA0040 /* UIView+Framing.h */,
 				7506807419EB136000EA0040 /* UIView+Framing.m */,
@@ -1599,6 +1602,7 @@
 				75E3859019EFCC94006C60FF /* blocktags in Resources */,
 				C3080F0817FEEDF8008AE8CC /* invite_tw_cursor@2x.png in Resources */,
 				C3080E4F17FE8827008AE8CC /* menu_cell_icon_pager@2x.png in Resources */,
+				75C50B8719FCF3960011698B /* erase-48.png in Resources */,
 				758BDA7919FBB664000EBC90 /* home-50.png in Resources */,
 				C3080E5217FE8827008AE8CC /* menu_example1.png in Resources */,
 				C3080F0A17FEEDF8008AE8CC /* invite_twitter@2x.png in Resources */,

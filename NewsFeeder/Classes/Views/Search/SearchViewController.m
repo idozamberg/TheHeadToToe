@@ -86,7 +86,7 @@
     
     // Creating predicate for files and videos
     NSPredicate *filePredicate =
-    [NSPredicate predicateWithFormat:@"(SELF.name contains[cd] %@) OR (SELF.fileDescription contains[cd] %@)",text,text];
+    [NSPredicate predicateWithFormat:@"(SELF.name contains[cd] %@) OR (SELF.fileDescription contains[cd] %@) OR (SELF.system contains[cd] %@)" ,text,text,text];
     
     // Creating predicate for lab values
     NSPredicate *labPredicate =
@@ -270,6 +270,7 @@
         [cell loadThumbnailWithIdentifier:currentFile.name];
         // Setting cell's properties
         cell.lblDescription.text = currentFile.fileDescription;
+        cell.lblTitle.text = currentFile.system;
         
         return cell;
     }
@@ -300,7 +301,12 @@
 
 - (CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section
 {
-    return 45;
+    if ([[filteredArray objectAtIndex:section] count] > 0)
+    {
+        return 45;
+    }
+    
+    return 0;
 }
 
 - (UIView *)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section

@@ -37,6 +37,11 @@
     [_middleButton setHidden:!bShow];
 }
 
+- (void) showfarLeftMiddleButton:(BOOL)bShow
+{
+    [_farLeftMiddleButton setHidden:bShow];
+}
+
 - (IBAction) navbarButton_Click:(id)sender
 {
     if ([sender isEqual:_leftButton]) {
@@ -60,6 +65,15 @@
     if(self.delegate){
         if ([self.delegate respondsToSelector:@selector(didClickNavBarRightButton)]) {
             [self.delegate didClickNavBarMiddleButton];
+        }
+    }
+}
+
+- (IBAction)farLeftMiddleButtonClicked:(id)sender {
+    
+    if(self.delegate){
+        if ([self.delegate respondsToSelector:@selector(didClickNavBarFarLeftMiddleButton)]) {
+            [self.delegate didClickNavBarFarLeftMiddleButton];
         }
     }
 }

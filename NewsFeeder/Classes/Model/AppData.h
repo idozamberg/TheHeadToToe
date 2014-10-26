@@ -43,6 +43,6 @@ typedef enum
 - (NSMutableArray*) flattenedVideosArray;
 - (NSMutableArray*) flattenedLabArray;
 - (NSMutableArray*) flattenedSearchArray;
-
+- (NSMutableDictionary*) clearQuestions;
 
 @end
