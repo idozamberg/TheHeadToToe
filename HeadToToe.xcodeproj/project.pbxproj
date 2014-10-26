@@ -31,6 +31,7 @@
 		75103A8419FD635100BD458D /* Hanche.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 75103A7B19FD635100BD458D /* Hanche.pdf */; };
 		75103A8519FD635100BD458D /* Main.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 75103A7C19FD635100BD458D /* Main.pdf */; };
 		75103A8619FD635100BD458D /* Epaule.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 75103A7D19FD635100BD458D /* Epaule.pdf */; };
+		75103A8919FD997600BD458D /* AnalyticsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 75103A8819FD997600BD458D /* AnalyticsManager.m */; };
 		751771A519F793D2009BF487 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 751771A419F793D2009BF487 /* MediaPlayer.framework */; };
 		751771A819F79D10009BF487 /* HTTVideoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 751771A719F79D10009BF487 /* HTTVideoTableViewCell.m */; };
 		751771AA19F7A36F009BF487 /* Videos.plist in Resources */ = {isa = PBXBuildFile; fileRef = 751771A919F7A36F009BF487 /* Videos.plist */; };
@@ -315,6 +316,8 @@
 		75103A7B19FD635100BD458D /* Hanche.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Hanche.pdf; sourceTree = "<group>"; };
 		75103A7C19FD635100BD458D /* Main.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Main.pdf; sourceTree = "<group>"; };
 		75103A7D19FD635100BD458D /* Epaule.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Epaule.pdf; sourceTree = "<group>"; };
+		75103A8719FD997600BD458D /* AnalyticsManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnalyticsManager.h; sourceTree = "<group>"; };
+		75103A8819FD997600BD458D /* AnalyticsManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnalyticsManager.m; sourceTree = "<group>"; };
 		751771A419F793D2009BF487 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
 		751771A619F79D10009BF487 /* HTTVideoTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HTTVideoTableViewCell.h; path = ../../HTTVideoTableViewCell.h; sourceTree = "<group>"; };
 		751771A719F79D10009BF487 /* HTTVideoTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HTTVideoTableViewCell.m; path = ../../HTTVideoTableViewCell.m; sourceTree = "<group>"; };
@@ -1342,6 +1345,8 @@
 		C3080E5A17FE8875008AE8CC /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				75103A8719FD997600BD458D /* AnalyticsManager.h */,
+				75103A8819FD997600BD458D /* AnalyticsManager.m */,
 				758BDA6219FBA4A5000EBC90 /* Transition Gallery */,
 				C3080E5B17FE8875008AE8CC /* More */,
 				7524A45A19E8959B006607C1 /* UIHelper.h */,
@@ -1870,6 +1875,7 @@
 				758BDA7419FBA510000EBC90 /* ATCAnimatedTransitioningFade.m in Sources */,
 				758BDA7219FBA510000EBC90 /* ATCAnimatedTransitioning.m in Sources */,
 				758BDA7719FBA510000EBC90 /* ATCTransitioningDelegate.m in Sources */,
+				75103A8919FD997600BD458D /* AnalyticsManager.m in Sources */,
 				C3080E6E17FE8DC4008AE8CC /* MenuItemCell.m in Sources */,
 				C3080F1517FEF047008AE8CC /* InviteItemData.m in Sources */,
 				C3080EE617FED430008AE8CC /* AddViewController.m in Sources */,

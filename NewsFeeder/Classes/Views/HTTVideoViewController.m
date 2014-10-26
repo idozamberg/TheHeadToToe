@@ -84,6 +84,7 @@
     [cell loadThumbnailWithIdentifier:currFile.name];
     cell.lblTitle.text = [NSString stringWithFormat:@"System %@",_system];
     cell.lblDescription.text = currFile.fileDescription;
+    cell.cellModel = currFile;
     
     return cell;
 }
@@ -102,22 +103,6 @@
     return 268;
 }
 
-- (void)tableView:(UITableView *)tableView didEndDisplayingCell:(UITableViewCell *)cell forRowAtIndexPath:(NSIndexPath *)indexPath
-{
-    if ([tableView.indexPathsForVisibleRows indexOfObject:indexPath] == NSNotFound)
-    {
-        // This indeed is an indexPath no longer visible
-        // Do something to this non-visible cell...
-        
-        HTTVideoTableViewCell* theCell = cell;
-        
-        NSNotificationCenter *defaultCenter = [NSNotificationCenter defaultCenter];
-
-        //[defaultCenter removeObserver:theCell name:XCDYouTubeVideoPlayerViewControllerDidReceiveVideoNotification object:theCell];
-        
-        //[defaultCenter removeObserver:theCell name:MPMoviePlayerPlaybackDidFinishNotification object:theCell.videoPlayerViewController.moviePlayer];
-    }
-}
 /*
 #pragma mark - Navigation
 

@@ -11,6 +11,7 @@
 #import "HTTFile.h"
 #import "ReaderViewController.h"
 #import "SearchViewController.h"
+#import "AnalyticsManager.h"
 
 
 @interface FileListViewController ()
@@ -84,15 +85,20 @@
     // Getting first view controller
     UIViewController* viewController = [[self.navigationController viewControllers] objectAtIndex:0];
 
-
+    // Disabling animation transition
     self.navigationController.delegate = Nil;
     
+    // Sending analytics
+    [AnalyticsManager sharedInstance].sendToFlurry = YES;
+    [[AnalyticsManager sharedInstance] sendEventWithName:@"Search view showed" Category:@"Views" Label:@"FilesListView"];
+    
+    // Showing search screen
     SearchViewController * searchController = (SearchViewController *)[[SearchViewController alloc] viewFromStoryboard];
     searchController.dataSourceArray = [[AppData sharedInstance] flattenedSearchArray];
     
+    // Setting navigation mode and showing screen
     searchController.currentViewMode = viewModeInNavigation;
     [self.navigationController pushViewController:searchController animated:YES];
-
 }
 
 
@@ -133,6 +139,11 @@
   
     HTTFile* currentFile = [_filesList objectAtIndex:indexPath.row];
     
+    // Sending analytics
+    [AnalyticsManager sharedInstance].sendToFlurry = YES;
+    [[AnalyticsManager sharedInstance] sendEventWithName:@"PDF File opended" Category:@"Files" Label:[NSString stringWithFormat:@"%@ - %@",currentFile.system,currentFile.name]];
+    
+    // Showing file
     [self ShowPDFReaderWithName:currentFile.name];
     
 }

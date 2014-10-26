@@ -97,7 +97,11 @@
 
 - (void) didClickNavBarRightButton
 {
+    // Sending analytics
+    [AnalyticsManager sharedInstance].sendToFlurry = YES;
+    [[AnalyticsManager sharedInstance] sendEventWithName:@"Search view showed" Category:@"Views" Label:@"Home"];
     
+    // Showing search view
     SearchViewController * searchController = (SearchViewController *)[[SearchViewController alloc] viewFromStoryboard];
     searchController.dataSourceArray = [[AppData sharedInstance] flattenedSearchArray];
     searchController.currentViewMode = viewModeFromHomeScreen;
@@ -170,6 +174,10 @@
     {
         if (indexPath.row == 0)
         {
+            // Sending analytics
+            [AnalyticsManager sharedInstance].sendToFlurry = YES;
+            [[AnalyticsManager sharedInstance] sendEventWithName:@"Files view showed" Category:@"Views" Label:@"Home"];
+            
             // Creating view controller
             SuperViewController* vcList = [[FileListViewController alloc] viewFromStoryboard];
             
@@ -187,6 +195,10 @@
         }
         else
         {
+            // Sending analytics
+            [AnalyticsManager sharedInstance].sendToFlurry = YES;
+            [[AnalyticsManager sharedInstance] sendEventWithName:@"Videos view showed" Category:@"Views" Label:@"Home"];
+            
             // Creating view controller
             SuperViewController* vcList = [[HTTVideoViewController alloc] viewFromStoryboard];
             

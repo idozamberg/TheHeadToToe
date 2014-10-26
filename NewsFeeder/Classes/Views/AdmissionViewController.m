@@ -118,6 +118,12 @@
 
 - (void) didClickNavBarRightButton
 {
+    NSString* typeOfPdf = isInFilterMode ? @"Filtered":@"Full";
+    
+    // Sending analytics
+    [AnalyticsManager sharedInstance].sendToFlurry = YES;
+    [[AnalyticsManager sharedInstance] sendEventWithName:@"Admission PDF Created" Category:@"Admission" Label:typeOfPdf];
+    
     // Creating and getting file's path
     NSString* path = [[PDFManager sharedInstance] createPdfFromDictionary:self.dataSource andShouldFilter:isInFilterMode];
 

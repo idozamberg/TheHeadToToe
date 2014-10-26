@@ -74,14 +74,17 @@
     else
     {
         self.cellModel.wasChecked = YES;
-         self.imgCheck.image = [UIImage imageNamed:@"check-on"];
+        self.imgCheck.image = [UIImage imageNamed:@"check-on"];
+        
+        // Sending analytics
+        [AnalyticsManager sharedInstance].sendToFlurry = YES;
+        [[AnalyticsManager sharedInstance] sendEventWithName:@"Question check" Category:@"Questions" Label:self.cellModel.text];
     }
-    
-    [self.txtComment resignFirstResponder];
-    
+
+    // Hiding/Showing comment
     self.btnComment.hidden = !self.cellModel.wasChecked;
     
-    
+    // Notifiying view was clicked
     [[NSNotificationCenter defaultCenter] postNotificationName:@"ViewTappedFromInside" object:Nil];
 }
 

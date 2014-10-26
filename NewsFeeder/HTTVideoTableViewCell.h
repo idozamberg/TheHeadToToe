@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import "XCDYouTubeVideoPlayerViewController.h"
+#import "YouTubeVideoFile.h"
 
 
 @interface HTTVideoTableViewCell : UITableViewCell
@@ -17,6 +18,7 @@
 @property (weak, nonatomic) IBOutlet UILabel *lblDescription;
 @property (weak, nonatomic) IBOutlet UIView *vwFrame;
 @property (weak, nonatomic) IBOutlet UIImageView *imgThumb;
+@property (strong,nonatomic) YouTubeVideoFile* cellModel;
 
 - (void) loadMovieWithIdetifier : (NSString*) identifier;
 - (void) loadThumbnailWithIdentifier  : (NSString*) identifier;

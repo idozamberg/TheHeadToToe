@@ -76,6 +76,9 @@
 
 - (IBAction)searchClicked:(id)sender {
     
+    // Sending analytics
+    [AnalyticsManager sharedInstance].sendToFlurry = YES;
+    [[AnalyticsManager sharedInstance] sendEventWithName:@"Search view showed" Category:@"Views" Label:@"Menu"];
     
     SearchViewController * searchController = (SearchViewController *)[[SearchViewController alloc] viewFromStoryboard];
     
@@ -102,12 +105,23 @@
          ];
     }
     else if ([sender isEqual:btnAdd]) {
+        
+        // Sending analytics
+        [AnalyticsManager sharedInstance].sendToFlurry = YES;
+        [[AnalyticsManager sharedInstance] sendEventWithName:@"View selected from menu" Category:@"Views" Label:@"Admission"];
+        
+        // Showing admission
         currentController = (SuperViewController *)[[UICustomNavigationController alloc] initWithRootViewController:[[AdmissionViewController alloc] viewFromStoryboard]];
         [AppData sharedInstance].currNavigationController = (UICustomNavigationController*)currentController;
         [self showCurrentController];
     }
     else if ([sender isEqual:self.btnLabo])
     {
+        // Sending analytics
+        [AnalyticsManager sharedInstance].sendToFlurry = YES;
+        [[AnalyticsManager sharedInstance] sendEventWithName:@"View selected from menu" Category:@"Views" Label:@"Laboratoire"];
+        
+        // Sowing labo screen
         currentController = (SuperViewController *)[[UICustomNavigationController alloc] initWithRootViewController:[[LabValuesViewController alloc] viewFromStoryboard]];
         [self showCurrentController];
 
@@ -230,6 +244,10 @@
     {
         if (indexPath.row == 0)
         {
+            // Sending analytics
+            [AnalyticsManager sharedInstance].sendToFlurry = YES;
+            [[AnalyticsManager sharedInstance] sendEventWithName:@"Files view showed" Category:@"Views" Label:@"Menu"];
+            
             // Creating view controller
             SuperViewController* vcList = [[FileListViewController alloc] viewFromStoryboard];
             
@@ -250,6 +268,11 @@
         }
         else
         {
+            // Sending analytics
+            [AnalyticsManager sharedInstance].sendToFlurry = YES;
+            [[AnalyticsManager sharedInstance] sendEventWithName:@"Videos view showed" Category:@"Views" Label:@"Menu"];
+
+            
             // Creating view controller
             SuperViewController* vcList = [[HTTVideoViewController alloc] viewFromStoryboard];
             

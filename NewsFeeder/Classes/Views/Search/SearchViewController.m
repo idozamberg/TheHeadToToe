@@ -10,6 +10,7 @@
 #import "ReaderViewController.h"
 #import "QuestionsHeader.h"
 #import "UIView+Framing.h"
+#import "AnalyticsManager.h"
 @interface SearchViewController ()
 {
     ReaderViewController* readerViewController;
@@ -279,7 +280,8 @@
         // Setting cell's properties
         cell.lblDescription.text = currentFile.fileDescription;
         cell.lblTitle.text = currentFile.system;
-        
+        cell.cellModel = currentFile;
+
         return cell;
     }
     
@@ -292,8 +294,14 @@
     
     if (indexPath.section == FILES_SECTION)
     {
-        // Showing pdf file
+        // Getting current file
         HTTFile* currentFile = [[filteredArray objectAtIndex:FILES_SECTION] objectAtIndex:indexPath.row];
+        
+        // Sending analytics
+        [AnalyticsManager sharedInstance].sendToFlurry = YES;
+        [[AnalyticsManager sharedInstance] sendEventWithName:@"PDF File opended" Category:@"Files" Label:[NSString stringWithFormat:@"%@ - %@",currentFile.system,currentFile.name]];
+        
+        // Showing file
         [self ShowPDFReaderWithName:currentFile.name];
     }
 }

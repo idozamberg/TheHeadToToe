@@ -11,6 +11,8 @@
 #import "AppDelegate.h"
 #import "Global.h"
 #import "AppData.h"
+#import "AnalyticsManager.h"
+
 
 @interface SuperViewController : UIViewController<UIAlertViewDelegate> {
     ;

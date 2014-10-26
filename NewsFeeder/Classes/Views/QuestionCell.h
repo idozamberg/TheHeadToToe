@@ -9,6 +9,7 @@
 #import <UIKit/UIKit.h>
 #import "AdmissionQuestion.h"
 #import "YIPopupTextView.H"
+#import "AnalyticsManager.h"
 
 @interface QuestionCell : UITableViewCell <YIPopupTextViewDelegate>
 @property (weak, nonatomic) IBOutlet UILabel *lblQuestion;

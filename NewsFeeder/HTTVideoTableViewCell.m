@@ -9,8 +9,11 @@
 #import "HTTVideoTableViewCell.h"
 #import "XCDYouTubeVideo.h"
 #import "AppData.h"
+#import "AnalyticsManager.h"
 
 @implementation HTTVideoTableViewCell
+
+@synthesize cellModel;
 
 - (void)awakeFromNib {
     // Initialization code
@@ -39,6 +42,11 @@
 }
 
 - (IBAction)playClick:(id)sender {
+    
+    // Sending analytics
+    [AnalyticsManager sharedInstance].sendToFlurry = YES;
+    [[AnalyticsManager sharedInstance] sendEventWithName:@"Video was played" Category:@"Videos" Label:[NSString stringWithFormat:@"%@ - %@",cellModel.system,cellModel.name]];
+    
     [self playMovie];
 }
 
