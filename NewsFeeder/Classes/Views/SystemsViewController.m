@@ -103,7 +103,6 @@
     searchController.currentViewMode = viewModeFromHomeScreen;
     
     self.navigationController.delegate = self;
-    self.transitionClassName = @"ATCAnimatedTransitioningFloat";
 
     [self.navigationController pushViewController:searchController animated:YES];
     
@@ -244,6 +243,9 @@
                                                  toViewController:(UIViewController *)toVC
 {
     self.animator = nil;
+    
+    self.transitionClassName = @"ATCAnimatedTransitioningFloat";
+
     
     if (NSClassFromString(self.transitionClassName)) {
         

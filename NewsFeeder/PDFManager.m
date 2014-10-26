@@ -64,10 +64,8 @@ static PDFManager* sharePDF;
         if ([self doesHaveCheckedSections:currentExamPart] || !shouldFilter)
         {
                 // Setting part title
-
                 for (NSString* bodyPart in [currentExamPart allKeys])
                 {
-                    
                     // Getting current question array
                     NSMutableArray* currentQuestionsArray = [currentExamPart valueForKey:bodyPart];
                     

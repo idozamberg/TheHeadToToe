@@ -9,6 +9,7 @@
 #import "SearchViewController.h"
 #import "ReaderViewController.h"
 #import "QuestionsHeader.h"
+#import "UIView+Framing.h"
 @interface SearchViewController ()
 {
     ReaderViewController* readerViewController;
@@ -51,17 +52,23 @@
 {
     [super viewWillAppear:animated];
     
+    [self.navBarView.leftButton setHeight:28];
+    [self.navBarView.leftButton setWidth:28];
+    
     if (self.currentViewMode == viewModeStandAlone)
     {
         // Changing left button
         [self.navBarView.leftButton setImage:[UIImage imageNamed:@"menu-50"]
                                     forState:UIControlStateNormal];
+
     }
     else if (self.currentViewMode == viewModeFromHomeScreen)
     {
         // Changing left button
         [self.navBarView.leftButton setImage:[UIImage imageNamed:@"cancel-48"]
                                     forState:UIControlStateNormal];
+        [self.navBarView.leftButton setHeight:20];
+        [self.navBarView.leftButton setWidth:20];
     }
     else
     {
