@@ -36,7 +36,8 @@
     // Do any additional setup after loading the view.
     
     isInFilterMode = NO;
-    self.dataSource = [AppData sharedInstance].questionsList;
+    self.dataSource = [AppData sharedInstance].questionsList
+                                             ;
     
     // Setting exapndable table
     currentSectionToReload = -1;
@@ -390,6 +391,13 @@
     
     isInFilterMode = !isInFilterMode;
     
+}
+
+- (void) didClickNavBarFarLeftMiddleButton
+{
+    self.dataSource = [[AppData sharedInstance] clearQuestions];
+                       
+    [_tblAdmission reloadData];
 }
 
 /*

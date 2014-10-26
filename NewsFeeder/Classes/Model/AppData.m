@@ -71,7 +71,7 @@ static AppData* shareData;
                 HTTFile* newFile = [HTTFile new];
                 newFile.name = [currentFileDict valueForKey:@"Name"];
                 newFile.fileDescription = [currentFileDict valueForKey:@"Description"];
-
+                newFile.system = system;
                 
                 // if it's the first file
                 if (![_filesList objectForKey:system])
@@ -117,6 +117,8 @@ static AppData* shareData;
                         // Setting new question
                         AdmissionQuestion* newQuestion = [AdmissionQuestion new];
                         newQuestion.text               = currentQuestion;
+                        newQuestion.comment = @"";
+                        newQuestion.wasChecked = NO;
                     
                         // if it's the first question
                         if (![questionsDictionary objectForKey:currentArrayKey])
@@ -143,6 +145,13 @@ static AppData* shareData;
         }
     }
 
+}
+
+- (NSMutableDictionary*) clearQuestions
+{
+    [self loadQuestions];
+    
+    return _questionsList;
 }
 
 - (void) loadLabValues
@@ -194,7 +203,7 @@ static AppData* shareData;
                 YouTubeVideoFile* newFile = [YouTubeVideoFile new];
                 newFile.name = [currentFileDict valueForKey:@"Name"];
                 newFile.fileDescription = [currentFileDict valueForKey:@"Description"];
-                
+                newFile.system = system;
                 
                 // if it's the first file
                 if (![_youTubeFilesList objectForKey:system])

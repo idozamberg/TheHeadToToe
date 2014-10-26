@@ -162,7 +162,7 @@
         [self.navBarView.middleButton setHidden:NO];
         [self.navBarView.middleButton setImage:[UIImage imageNamed:@"filter-50.png"]
                                      forState:UIControlStateNormal];
-        
+        [self.navBarView.farLeftMiddleButton setHidden:NO];
     }
 
     

@@ -12,5 +12,6 @@
 
 @property (nonatomic,strong) NSString* name;
 @property (nonatomic,strong) NSString* fileDescription;
+@property (nonatomic,strong) NSString* system;
 
 @end

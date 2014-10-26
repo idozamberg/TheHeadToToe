@@ -8,31 +8,70 @@
 			<key>Name</key>
 			<string>8rWjz8Xt-FI</string>
 			<key>Description</key>
-			<string>Thorax et Poumons - Introduction</string>
+			<string>Introduction</string>
 		</dict>
 		<dict>
 			<key>Name</key>
 			<string>BUL_OXZyeKg</string>
 			<key>Description</key>
-			<string>Thorax et Poumons - Inspection</string>
+			<string>Inspection</string>
 		</dict>
 		<dict>
 			<key>Name</key>
 			<string>w54K514x_I4</string>
 			<key>Description</key>
-			<string>Thorax et Poumons - palpation</string>
+			<string>Palpation</string>
 		</dict>
 		<dict>
 			<key>Name</key>
 			<string>Pvj_qTxThlo</string>
 			<key>Description</key>
-			<string>Thorax et Poumons - percussion</string>
+			<string>Percussion</string>
 		</dict>
 		<dict>
 			<key>Name</key>
 			<string>AEgdLq1EcLY</string>
 			<key>Description</key>
-			<string>Thorax et Poumons - Auscultation</string>
+			<string>Auscultation</string>
+		</dict>
+	</array>
+	<key>Cardiovasculaire</key>
+	<array>
+		<dict>
+			<key>Name</key>
+			<string>Hrzlky-Nt1I</string>
+			<key>Description</key>
+			<string>Inspection</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>9z48vDNuiPE</string>
+			<key>Description</key>
+			<string>Palpation et percussion</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>SFfRhP8nu8w</string>
+			<key>Description</key>
+			<string>Auscultation - Bruits Normales</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>FTsOl5-X7-k</string>
+			<key>Description</key>
+			<string>Auscultation - 1</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Hjk01LmNujM</string>
+			<key>Description</key>
+			<string>Auscultation - 2</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>mEAUiLYpdIA</string>
+			<key>Description</key>
+			<string>Souffles Cardiaques</string>
 		</dict>
 	</array>
 </dict>

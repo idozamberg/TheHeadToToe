@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface AdmissionQuestion : NSObject
+@interface AdmissionQuestion : NSObject <NSCopying>
 
 @property (nonatomic,strong) NSString* text;
 @property (nonatomic)        BOOL      wasChecked;

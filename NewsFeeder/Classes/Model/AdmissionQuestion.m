@@ -10,4 +10,16 @@
 
 @implementation AdmissionQuestion
 
+@synthesize text,comment,wasChecked;
+
+- (id)copyWithZone:(NSZone *)zone
+{
+    AdmissionQuestion* newQuestion = [AdmissionQuestion new];
+    newQuestion.text = [self.text copyWithZone:zone];
+    newQuestion.comment = [self.text copyWithZone:zone];
+    newQuestion.wasChecked = NO;
+    
+    return newQuestion;
+}
+
 @end
