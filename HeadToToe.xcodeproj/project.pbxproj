@@ -274,6 +274,46 @@
 		C36FBE59181D5CCF007AE52A /* navbar_uparrow.png in Resources */ = {isa = PBXBuildFile; fileRef = C36FBE57181D5CCF007AE52A /* navbar_uparrow.png */; };
 		C36FBE5A181D5CCF007AE52A /* navbar_uparrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C36FBE58181D5CCF007AE52A /* navbar_uparrow@2x.png */; };
 		C3F3D7C518024E1A0064E1DD /* FeedItemData.m in Sources */ = {isa = PBXBuildFile; fileRef = C3F3D7C418024E1A0064E1DD /* FeedItemData.m */; };
+		FCB847B719FE90880047D902 /* Cardiologie - Fibrilation auriculaire.pdf in Resources */ = {isa = PBXBuildFile; fileRef = FCB8478F19FE90880047D902 /* Cardiologie - Fibrilation auriculaire.pdf */; };
+		FCB847B819FE90880047D902 /* Cardiologie - Hypertension artérielle.pdf in Resources */ = {isa = PBXBuildFile; fileRef = FCB8479019FE90880047D902 /* Cardiologie - Hypertension artérielle.pdf */; };
+		FCB847B919FE90880047D902 /* Cardiovasculaire - IC chronique.pdf in Resources */ = {isa = PBXBuildFile; fileRef = FCB8479119FE90880047D902 /* Cardiovasculaire - IC chronique.pdf */; };
+		FCB847BA19FE90880047D902 /* Cardiovasculaire - Syncope.pdf in Resources */ = {isa = PBXBuildFile; fileRef = FCB8479219FE90880047D902 /* Cardiovasculaire - Syncope.pdf */; };
+		FCB847BB19FE90880047D902 /* Cardiovasculaire - Thrombose veineuse.pdf in Resources */ = {isa = PBXBuildFile; fileRef = FCB8479319FE90880047D902 /* Cardiovasculaire - Thrombose veineuse.pdf */; };
+		FCB847BC19FE90880047D902 /* Communication - Approches de la consultation.pdf in Resources */ = {isa = PBXBuildFile; fileRef = FCB8479419FE90880047D902 /* Communication - Approches de la consultation.pdf */; };
+		FCB847BD19FE90880047D902 /* Dermatologie - Acnée- verrues-mycoses.pdf in Resources */ = {isa = PBXBuildFile; fileRef = FCB8479519FE90880047D902 /* Dermatologie - Acnée- verrues-mycoses.pdf */; };
+		FCB847BE19FE90880047D902 /* Fibrillation auriculaire 2013.pdf in Resources */ = {isa = PBXBuildFile; fileRef = FCB8479619FE90880047D902 /* Fibrillation auriculaire 2013.pdf */; };
+		FCB847BF19FE90880047D902 /* Gastro-intestinal - Diarrhée aigues.pdf in Resources */ = {isa = PBXBuildFile; fileRef = FCB8479719FE90880047D902 /* Gastro-intestinal - Diarrhée aigues.pdf */; };
+		FCB847C019FE90880047D902 /* Gastro-intestinal - Douleur abdo chronique et intestin irritiable.pdf in Resources */ = {isa = PBXBuildFile; fileRef = FCB8479819FE90880047D902 /* Gastro-intestinal - Douleur abdo chronique et intestin irritiable.pdf */; };
+		FCB847C119FE90880047D902 /* Gastro-intestinal - Dyspepsie.pdf in Resources */ = {isa = PBXBuildFile; fileRef = FCB8479919FE90880047D902 /* Gastro-intestinal - Dyspepsie.pdf */; };
+		FCB847C219FE90880047D902 /* Gastro-intestinal - Elévation des tests hépatiques.pdf in Resources */ = {isa = PBXBuildFile; fileRef = FCB8479A19FE90880047D902 /* Gastro-intestinal - Elévation des tests hépatiques.pdf */; };
+		FCB847C319FE90880047D902 /* Hématologie - Anémie.pdf in Resources */ = {isa = PBXBuildFile; fileRef = FCB8479B19FE90880047D902 /* Hématologie - Anémie.pdf */; };
+		FCB847C419FE90880047D902 /* Hématologie - Déficit B12.pdf in Resources */ = {isa = PBXBuildFile; fileRef = FCB8479C19FE90880047D902 /* Hématologie - Déficit B12.pdf */; };
+		FCB847C519FE90880047D902 /* Immuno-allergologique - Rhinite allergique.pdf in Resources */ = {isa = PBXBuildFile; fileRef = FCB8479D19FE90880047D902 /* Immuno-allergologique - Rhinite allergique.pdf */; };
+		FCB847C619FE90880047D902 /* Immuno-allergologique - Urticaire et angio-oedème.pdf in Resources */ = {isa = PBXBuildFile; fileRef = FCB8479E19FE90880047D902 /* Immuno-allergologique - Urticaire et angio-oedème.pdf */; };
+		FCB847C719FE90880047D902 /* Infectieux - Fièvre au retour de voyage.pdf in Resources */ = {isa = PBXBuildFile; fileRef = FCB8479F19FE90880047D902 /* Infectieux - Fièvre au retour de voyage.pdf */; };
+		FCB847C819FE90880047D902 /* Métabolique - Diabète type 2.pdf in Resources */ = {isa = PBXBuildFile; fileRef = FCB847A019FE90880047D902 /* Métabolique - Diabète type 2.pdf */; };
+		FCB847C919FE90880047D902 /* Neurologique - Céphalées.pdf in Resources */ = {isa = PBXBuildFile; fileRef = FCB847A119FE90880047D902 /* Neurologique - Céphalées.pdf */; };
+		FCB847CA19FE90880047D902 /* Neurologique - Vertiges.pdf in Resources */ = {isa = PBXBuildFile; fileRef = FCB847A219FE90880047D902 /* Neurologique - Vertiges.pdf */; };
+		FCB847CB19FE90880047D902 /* Ophtalmologique - Oeil rouge.pdf in Resources */ = {isa = PBXBuildFile; fileRef = FCB847A319FE90880047D902 /* Ophtalmologique - Oeil rouge.pdf */; };
+		FCB847CC19FE90880047D902 /* ORL-Pneumo - Asthme.pdf in Resources */ = {isa = PBXBuildFile; fileRef = FCB847A419FE90880047D902 /* ORL-Pneumo - Asthme.pdf */; };
+		FCB847CD19FE90880047D902 /* ORL-Pneumo - BPCO.pdf in Resources */ = {isa = PBXBuildFile; fileRef = FCB847A519FE90880047D902 /* ORL-Pneumo - BPCO.pdf */; };
+		FCB847CE19FE90880047D902 /* ORL-Pneumo - IVRS.pdf in Resources */ = {isa = PBXBuildFile; fileRef = FCB847A619FE90880047D902 /* ORL-Pneumo - IVRS.pdf */; };
+		FCB847CF19FE90880047D902 /* ORL-Pneumo - PAC.pdf in Resources */ = {isa = PBXBuildFile; fileRef = FCB847A719FE90880047D902 /* ORL-Pneumo - PAC.pdf */; };
+		FCB847D019FE90880047D902 /* ORL-Pneumo - Toux chronique.pdf in Resources */ = {isa = PBXBuildFile; fileRef = FCB847A819FE90880047D902 /* ORL-Pneumo - Toux chronique.pdf */; };
+		FCB847D119FE90880047D902 /* Ostéoarticulaire - Douleur mono ou pauciarticulaire.pdf in Resources */ = {isa = PBXBuildFile; fileRef = FCB847A919FE90880047D902 /* Ostéoarticulaire - Douleur mono ou pauciarticulaire.pdf */; };
+		FCB847D219FE90880047D902 /* Ostéoarticulaire - Lombalgie aigue.pdf in Resources */ = {isa = PBXBuildFile; fileRef = FCB847AA19FE90880047D902 /* Ostéoarticulaire - Lombalgie aigue.pdf */; };
+		FCB847D319FE90880047D902 /* Pharmacologique - Douleur aigue.pdf in Resources */ = {isa = PBXBuildFile; fileRef = FCB847AB19FE90880047D902 /* Pharmacologique - Douleur aigue.pdf */; };
+		FCB847D419FE90880047D902 /* Prévention - Dépistage.pdf in Resources */ = {isa = PBXBuildFile; fileRef = FCB847AC19FE90880047D902 /* Prévention - Dépistage.pdf */; };
+		FCB847D519FE90880047D902 /* Prévention - Vaccination.pdf in Resources */ = {isa = PBXBuildFile; fileRef = FCB847AD19FE90880047D902 /* Prévention - Vaccination.pdf */; };
+		FCB847D619FE90880047D902 /* Profil de patients - Evaluations gériatrique.pdf in Resources */ = {isa = PBXBuildFile; fileRef = FCB847AE19FE90880047D902 /* Profil de patients - Evaluations gériatrique.pdf */; };
+		FCB847D719FE90880047D902 /* Profil de patients - Patient alcoolique.pdf in Resources */ = {isa = PBXBuildFile; fileRef = FCB847AF19FE90880047D902 /* Profil de patients - Patient alcoolique.pdf */; };
+		FCB847D819FE90880047D902 /* Psychiatrique - Dépression.pdf in Resources */ = {isa = PBXBuildFile; fileRef = FCB847B019FE90880047D902 /* Psychiatrique - Dépression.pdf */; };
+		FCB847D919FE90880047D902 /* Uro-génital - Colique néphrétique.pdf in Resources */ = {isa = PBXBuildFile; fileRef = FCB847B119FE90880047D902 /* Uro-génital - Colique néphrétique.pdf */; };
+		FCB847DA19FE90880047D902 /* Uro-génital - Hématurie microscopique.pdf in Resources */ = {isa = PBXBuildFile; fileRef = FCB847B219FE90880047D902 /* Uro-génital - Hématurie microscopique.pdf */; };
+		FCB847DB19FE90880047D902 /* Uro-génital - Infections urinaires.pdf in Resources */ = {isa = PBXBuildFile; fileRef = FCB847B319FE90880047D902 /* Uro-génital - Infections urinaires.pdf */; };
+		FCB847DC19FE90880047D902 /* Uro-génital - Lithiase urinaire.pdf in Resources */ = {isa = PBXBuildFile; fileRef = FCB847B419FE90880047D902 /* Uro-génital - Lithiase urinaire.pdf */; };
+		FCB847DD19FE90880047D902 /* Uro-génital - Recommandations IST.pdf in Resources */ = {isa = PBXBuildFile; fileRef = FCB847B519FE90880047D902 /* Uro-génital - Recommandations IST.pdf */; };
+		FCB847DE19FE90880047D902 /* Uro-génital - Urétrites.pdf in Resources */ = {isa = PBXBuildFile; fileRef = FCB847B619FE90880047D902 /* Uro-génital - Urétrites.pdf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -630,6 +670,46 @@
 		C36FBE58181D5CCF007AE52A /* navbar_uparrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "navbar_uparrow@2x.png"; sourceTree = "<group>"; };
 		C3F3D7C318024E1A0064E1DD /* FeedItemData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeedItemData.h; sourceTree = "<group>"; };
 		C3F3D7C418024E1A0064E1DD /* FeedItemData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeedItemData.m; sourceTree = "<group>"; };
+		FCB8478F19FE90880047D902 /* Cardiologie - Fibrilation auriculaire.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Cardiologie - Fibrilation auriculaire.pdf"; sourceTree = "<group>"; };
+		FCB8479019FE90880047D902 /* Cardiologie - Hypertension artérielle.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Cardiologie - Hypertension artérielle.pdf"; sourceTree = "<group>"; };
+		FCB8479119FE90880047D902 /* Cardiovasculaire - IC chronique.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Cardiovasculaire - IC chronique.pdf"; sourceTree = "<group>"; };
+		FCB8479219FE90880047D902 /* Cardiovasculaire - Syncope.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Cardiovasculaire - Syncope.pdf"; sourceTree = "<group>"; };
+		FCB8479319FE90880047D902 /* Cardiovasculaire - Thrombose veineuse.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Cardiovasculaire - Thrombose veineuse.pdf"; sourceTree = "<group>"; };
+		FCB8479419FE90880047D902 /* Communication - Approches de la consultation.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Communication - Approches de la consultation.pdf"; sourceTree = "<group>"; };
+		FCB8479519FE90880047D902 /* Dermatologie - Acnée- verrues-mycoses.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Dermatologie - Acnée- verrues-mycoses.pdf"; sourceTree = "<group>"; };
+		FCB8479619FE90880047D902 /* Fibrillation auriculaire 2013.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Fibrillation auriculaire 2013.pdf"; sourceTree = "<group>"; };
+		FCB8479719FE90880047D902 /* Gastro-intestinal - Diarrhée aigues.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Gastro-intestinal - Diarrhée aigues.pdf"; sourceTree = "<group>"; };
+		FCB8479819FE90880047D902 /* Gastro-intestinal - Douleur abdo chronique et intestin irritiable.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Gastro-intestinal - Douleur abdo chronique et intestin irritiable.pdf"; sourceTree = "<group>"; };
+		FCB8479919FE90880047D902 /* Gastro-intestinal - Dyspepsie.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Gastro-intestinal - Dyspepsie.pdf"; sourceTree = "<group>"; };
+		FCB8479A19FE90880047D902 /* Gastro-intestinal - Elévation des tests hépatiques.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Gastro-intestinal - Elévation des tests hépatiques.pdf"; sourceTree = "<group>"; };
+		FCB8479B19FE90880047D902 /* Hématologie - Anémie.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Hématologie - Anémie.pdf"; sourceTree = "<group>"; };
+		FCB8479C19FE90880047D902 /* Hématologie - Déficit B12.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Hématologie - Déficit B12.pdf"; sourceTree = "<group>"; };
+		FCB8479D19FE90880047D902 /* Immuno-allergologique - Rhinite allergique.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Immuno-allergologique - Rhinite allergique.pdf"; sourceTree = "<group>"; };
+		FCB8479E19FE90880047D902 /* Immuno-allergologique - Urticaire et angio-oedème.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Immuno-allergologique - Urticaire et angio-oedème.pdf"; sourceTree = "<group>"; };
+		FCB8479F19FE90880047D902 /* Infectieux - Fièvre au retour de voyage.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Infectieux - Fièvre au retour de voyage.pdf"; sourceTree = "<group>"; };
+		FCB847A019FE90880047D902 /* Métabolique - Diabète type 2.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Métabolique - Diabète type 2.pdf"; sourceTree = "<group>"; };
+		FCB847A119FE90880047D902 /* Neurologique - Céphalées.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Neurologique - Céphalées.pdf"; sourceTree = "<group>"; };
+		FCB847A219FE90880047D902 /* Neurologique - Vertiges.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Neurologique - Vertiges.pdf"; sourceTree = "<group>"; };
+		FCB847A319FE90880047D902 /* Ophtalmologique - Oeil rouge.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Ophtalmologique - Oeil rouge.pdf"; sourceTree = "<group>"; };
+		FCB847A419FE90880047D902 /* ORL-Pneumo - Asthme.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "ORL-Pneumo - Asthme.pdf"; sourceTree = "<group>"; };
+		FCB847A519FE90880047D902 /* ORL-Pneumo - BPCO.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "ORL-Pneumo - BPCO.pdf"; sourceTree = "<group>"; };
+		FCB847A619FE90880047D902 /* ORL-Pneumo - IVRS.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "ORL-Pneumo - IVRS.pdf"; sourceTree = "<group>"; };
+		FCB847A719FE90880047D902 /* ORL-Pneumo - PAC.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "ORL-Pneumo - PAC.pdf"; sourceTree = "<group>"; };
+		FCB847A819FE90880047D902 /* ORL-Pneumo - Toux chronique.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "ORL-Pneumo - Toux chronique.pdf"; sourceTree = "<group>"; };
+		FCB847A919FE90880047D902 /* Ostéoarticulaire - Douleur mono ou pauciarticulaire.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Ostéoarticulaire - Douleur mono ou pauciarticulaire.pdf"; sourceTree = "<group>"; };
+		FCB847AA19FE90880047D902 /* Ostéoarticulaire - Lombalgie aigue.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Ostéoarticulaire - Lombalgie aigue.pdf"; sourceTree = "<group>"; };
+		FCB847AB19FE90880047D902 /* Pharmacologique - Douleur aigue.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Pharmacologique - Douleur aigue.pdf"; sourceTree = "<group>"; };
+		FCB847AC19FE90880047D902 /* Prévention - Dépistage.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Prévention - Dépistage.pdf"; sourceTree = "<group>"; };
+		FCB847AD19FE90880047D902 /* Prévention - Vaccination.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Prévention - Vaccination.pdf"; sourceTree = "<group>"; };
+		FCB847AE19FE90880047D902 /* Profil de patients - Evaluations gériatrique.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Profil de patients - Evaluations gériatrique.pdf"; sourceTree = "<group>"; };
+		FCB847AF19FE90880047D902 /* Profil de patients - Patient alcoolique.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Profil de patients - Patient alcoolique.pdf"; sourceTree = "<group>"; };
+		FCB847B019FE90880047D902 /* Psychiatrique - Dépression.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Psychiatrique - Dépression.pdf"; sourceTree = "<group>"; };
+		FCB847B119FE90880047D902 /* Uro-génital - Colique néphrétique.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Uro-génital - Colique néphrétique.pdf"; sourceTree = "<group>"; };
+		FCB847B219FE90880047D902 /* Uro-génital - Hématurie microscopique.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Uro-génital - Hématurie microscopique.pdf"; sourceTree = "<group>"; };
+		FCB847B319FE90880047D902 /* Uro-génital - Infections urinaires.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Uro-génital - Infections urinaires.pdf"; sourceTree = "<group>"; };
+		FCB847B419FE90880047D902 /* Uro-génital - Lithiase urinaire.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Uro-génital - Lithiase urinaire.pdf"; sourceTree = "<group>"; };
+		FCB847B519FE90880047D902 /* Uro-génital - Recommandations IST.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Uro-génital - Recommandations IST.pdf"; sourceTree = "<group>"; };
+		FCB847B619FE90880047D902 /* Uro-génital - Urétrites.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Uro-génital - Urétrites.pdf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -796,6 +876,7 @@
 		75CE288A19F394AC002FF80F /* UDREM */ = {
 			isa = PBXGroup;
 			children = (
+				FCB8478E19FE90880047D902 /* Médecine interne */,
 				75CE288B19F394AC002FF80F /* Anatomie */,
 				75CE289C19F394AC002FF80F /* Cardiovasculaire */,
 				75CE289D19F394AC002FF80F /* Digestif */,
@@ -1525,6 +1606,53 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		FCB8478E19FE90880047D902 /* Médecine interne */ = {
+			isa = PBXGroup;
+			children = (
+				FCB8478F19FE90880047D902 /* Cardiologie - Fibrilation auriculaire.pdf */,
+				FCB8479019FE90880047D902 /* Cardiologie - Hypertension artérielle.pdf */,
+				FCB8479119FE90880047D902 /* Cardiovasculaire - IC chronique.pdf */,
+				FCB8479219FE90880047D902 /* Cardiovasculaire - Syncope.pdf */,
+				FCB8479319FE90880047D902 /* Cardiovasculaire - Thrombose veineuse.pdf */,
+				FCB8479419FE90880047D902 /* Communication - Approches de la consultation.pdf */,
+				FCB8479519FE90880047D902 /* Dermatologie - Acnée- verrues-mycoses.pdf */,
+				FCB8479619FE90880047D902 /* Fibrillation auriculaire 2013.pdf */,
+				FCB8479719FE90880047D902 /* Gastro-intestinal - Diarrhée aigues.pdf */,
+				FCB8479819FE90880047D902 /* Gastro-intestinal - Douleur abdo chronique et intestin irritiable.pdf */,
+				FCB8479919FE90880047D902 /* Gastro-intestinal - Dyspepsie.pdf */,
+				FCB8479A19FE90880047D902 /* Gastro-intestinal - Elévation des tests hépatiques.pdf */,
+				FCB8479B19FE90880047D902 /* Hématologie - Anémie.pdf */,
+				FCB8479C19FE90880047D902 /* Hématologie - Déficit B12.pdf */,
+				FCB8479D19FE90880047D902 /* Immuno-allergologique - Rhinite allergique.pdf */,
+				FCB8479E19FE90880047D902 /* Immuno-allergologique - Urticaire et angio-oedème.pdf */,
+				FCB8479F19FE90880047D902 /* Infectieux - Fièvre au retour de voyage.pdf */,
+				FCB847A019FE90880047D902 /* Métabolique - Diabète type 2.pdf */,
+				FCB847A119FE90880047D902 /* Neurologique - Céphalées.pdf */,
+				FCB847A219FE90880047D902 /* Neurologique - Vertiges.pdf */,
+				FCB847A319FE90880047D902 /* Ophtalmologique - Oeil rouge.pdf */,
+				FCB847A419FE90880047D902 /* ORL-Pneumo - Asthme.pdf */,
+				FCB847A519FE90880047D902 /* ORL-Pneumo - BPCO.pdf */,
+				FCB847A619FE90880047D902 /* ORL-Pneumo - IVRS.pdf */,
+				FCB847A719FE90880047D902 /* ORL-Pneumo - PAC.pdf */,
+				FCB847A819FE90880047D902 /* ORL-Pneumo - Toux chronique.pdf */,
+				FCB847A919FE90880047D902 /* Ostéoarticulaire - Douleur mono ou pauciarticulaire.pdf */,
+				FCB847AA19FE90880047D902 /* Ostéoarticulaire - Lombalgie aigue.pdf */,
+				FCB847AB19FE90880047D902 /* Pharmacologique - Douleur aigue.pdf */,
+				FCB847AC19FE90880047D902 /* Prévention - Dépistage.pdf */,
+				FCB847AD19FE90880047D902 /* Prévention - Vaccination.pdf */,
+				FCB847AE19FE90880047D902 /* Profil de patients - Evaluations gériatrique.pdf */,
+				FCB847AF19FE90880047D902 /* Profil de patients - Patient alcoolique.pdf */,
+				FCB847B019FE90880047D902 /* Psychiatrique - Dépression.pdf */,
+				FCB847B119FE90880047D902 /* Uro-génital - Colique néphrétique.pdf */,
+				FCB847B219FE90880047D902 /* Uro-génital - Hématurie microscopique.pdf */,
+				FCB847B319FE90880047D902 /* Uro-génital - Infections urinaires.pdf */,
+				FCB847B419FE90880047D902 /* Uro-génital - Lithiase urinaire.pdf */,
+				FCB847B519FE90880047D902 /* Uro-génital - Recommandations IST.pdf */,
+				FCB847B619FE90880047D902 /* Uro-génital - Urétrites.pdf */,
+			);
+			path = "Médecine interne";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1608,9 +1736,12 @@
 			files = (
 				7506807F19EB300100EA0040 /* Minus.png in Resources */,
 				758BDA7B19FBB734000EBC90 /* homeg-50.png in Resources */,
+				FCB847DE19FE90880047D902 /* Uro-génital - Urétrites.pdf in Resources */,
 				75CE28D919F394AC002FF80F /* Neuro3.pdf in Resources */,
+				FCB847D119FE90880047D902 /* Ostéoarticulaire - Douleur mono ou pauciarticulaire.pdf in Resources */,
 				C3080EDC17FED422008AE8CC /* add_news3.png in Resources */,
 				C36FBE59181D5CCF007AE52A /* navbar_uparrow.png in Resources */,
+				FCB847D819FE90880047D902 /* Psychiatrique - Dépression.pdf in Resources */,
 				75CE28C819F394AC002FF80F /* Cahier TP Lymph.pdf in Resources */,
 				C3080F0117FEEDF8008AE8CC /* invite_fb_cursor.png in Resources */,
 				75CE28EA19F394AC002FF80F /* Secondary survey.pdf in Resources */,
@@ -1620,7 +1751,12 @@
 				75932D9719F2437A00D24223 /* checkmark-32.png in Resources */,
 				C3080E8D17FEA685008AE8CC /* feed_example1.png in Resources */,
 				C3080EE317FED422008AE8CC /* add_recommend2@2x.png in Resources */,
+				FCB847DA19FE90880047D902 /* Uro-génital - Hématurie microscopique.pdf in Resources */,
+				FCB847D519FE90880047D902 /* Prévention - Vaccination.pdf in Resources */,
+				FCB847D919FE90880047D902 /* Uro-génital - Colique néphrétique.pdf in Resources */,
+				FCB847C519FE90880047D902 /* Immuno-allergologique - Rhinite allergique.pdf in Resources */,
 				7506808319EC661000EA0040 /* Minus_black.png in Resources */,
+				FCB847B819FE90880047D902 /* Cardiologie - Hypertension artérielle.pdf in Resources */,
 				C3080EB317FEC341008AE8CC /* setting_cell_checkmark@2x.png in Resources */,
 				C3080DFC17FE86B8008AE8CC /* Images.xcassets in Resources */,
 				C3080E7417FE9B79008AE8CC /* menu_color_selected.png in Resources */,
@@ -1628,6 +1764,7 @@
 				75CE28DE19F394AC002FF80F /* Injection IM et IV.pdf in Resources */,
 				75E385D819F1B236006C60FF /* test_tube-50.png in Resources */,
 				C3080E5017FE8827008AE8CC /* menu_cell_separator.png in Resources */,
+				FCB847C919FE90880047D902 /* Neurologique - Céphalées.pdf in Resources */,
 				75932D9319F1B41F00D24223 /* note-48.png in Resources */,
 				75CE28F319F3AC96002FF80F /* pdf.png in Resources */,
 				C3080E4C17FE8827008AE8CC /* menu_cell_icon_favor.png in Resources */,
@@ -1637,32 +1774,46 @@
 				75C50B8719FCF3960011698B /* erase-48.png in Resources */,
 				758BDA7919FBB664000EBC90 /* home-50.png in Resources */,
 				C3080E5217FE8827008AE8CC /* menu_example1.png in Resources */,
+				FCB847DC19FE90880047D902 /* Uro-génital - Lithiase urinaire.pdf in Resources */,
 				C3080F0A17FEEDF8008AE8CC /* invite_twitter@2x.png in Resources */,
 				758BDA8519FBBEDB000EBC90 /* searchB-50.png in Resources */,
 				C3080EB617FEC341008AE8CC /* setting_cell_order.png in Resources */,
 				C3080E8B17FEA685008AE8CC /* feed_comment_bg.png in Resources */,
+				FCB847D419FE90880047D902 /* Prévention - Dépistage.pdf in Resources */,
 				75D869A719F905EE00F53AF1 /* filter-50.png in Resources */,
 				75103A8219FD635100BD458D /* Rachis.pdf in Resources */,
 				759EAFBB19F7AD06008348F7 /* play-50.png in Resources */,
 				75CE28D519F394AC002FF80F /* Loco2.pdf in Resources */,
+				FCB847DB19FE90880047D902 /* Uro-génital - Infections urinaires.pdf in Resources */,
 				75103A8319FD635100BD458D /* Pied.pdf in Resources */,
 				75CE28E619F394AC002FF80F /* Dépression.pdf in Resources */,
 				75CE28CB19F394AC002FF80F /* Coude.pdf in Resources */,
+				FCB847BD19FE90880047D902 /* Dermatologie - Acnée- verrues-mycoses.pdf in Resources */,
 				75CE28E919F394AC002FF80F /* Neuroanat3-MC.pdf in Resources */,
 				C3080F0917FEEDF8008AE8CC /* invite_twitter.png in Resources */,
+				FCB847CC19FE90880047D902 /* ORL-Pneumo - Asthme.pdf in Resources */,
 				75CE28E419F394AC002FF80F /* Polycopié de pharmacologie 2014.pdf in Resources */,
 				75CE28C919F394AC002FF80F /* vascularisationSNC2013.pdf in Resources */,
 				75103A8619FD635100BD458D /* Epaule.pdf in Resources */,
+				FCB847C719FE90880047D902 /* Infectieux - Fièvre au retour de voyage.pdf in Resources */,
 				75103A8019FD635100BD458D /* Myologie MI.pdf in Resources */,
 				C3080EFE17FEEDF8008AE8CC /* invite_example1.png in Resources */,
+				FCB847C619FE90880047D902 /* Immuno-allergologique - Urticaire et angio-oedème.pdf in Resources */,
+				FCB847B919FE90880047D902 /* Cardiovasculaire - IC chronique.pdf in Resources */,
 				C3080DEE17FE86B8008AE8CC /* InfoPlist.strings in Resources */,
 				C3080F0717FEEDF8008AE8CC /* invite_tw_cursor.png in Resources */,
 				75D869A619F905EE00F53AF1 /* filter_filled-50.png in Resources */,
+				FCB847B719FE90880047D902 /* Cardiologie - Fibrilation auriculaire.pdf in Resources */,
 				75E385BB19EFCC94006C60FF /* InfoPlist.strings in Resources */,
 				75CE28EB19F394AC002FF80F /* Forum vaccins.pdf in Resources */,
 				C3080E5317FE8827008AE8CC /* menu_example1@2x.png in Resources */,
 				75CE28C619F394AC002FF80F /* Cahier TP Cardio.pdf in Resources */,
+				FCB847CA19FE90880047D902 /* Neurologique - Vertiges.pdf in Resources */,
+				FCB847D219FE90880047D902 /* Ostéoarticulaire - Lombalgie aigue.pdf in Resources */,
 				75D869A919F9067C00F53AF1 /* search-50.png in Resources */,
+				FCB847CF19FE90880047D902 /* ORL-Pneumo - PAC.pdf in Resources */,
+				FCB847D719FE90880047D902 /* Profil de patients - Patient alcoolique.pdf in Resources */,
+				FCB847D019FE90880047D902 /* ORL-Pneumo - Toux chronique.pdf in Resources */,
 				75CE28FD19F417B7002FF80F /* empty_filter-26.png in Resources */,
 				7506807A19EB245200EA0040 /* Arrow up.png in Resources */,
 				75E385CB19EFCC94006C60FF /* test.html in Resources */,
@@ -1672,6 +1823,7 @@
 				7524A45519E8932C006607C1 /* CCDC - Cahier.pdf in Resources */,
 				75CE28E219F394AC002FF80F /* Transfusion sanguine.pdf in Resources */,
 				C3080E8417FEA622008AE8CC /* navbar_search.png in Resources */,
+				FCB847CD19FE90880047D902 /* ORL-Pneumo - BPCO.pdf in Resources */,
 				C3080F0317FEEDF8008AE8CC /* invite_plus.png in Resources */,
 				C3080EA417FEBE55008AE8CC /* navbar_back.png in Resources */,
 				C3080E5817FE8827008AE8CC /* menu_vbar.png in Resources */,
@@ -1688,6 +1840,7 @@
 				C3080E5717FE8827008AE8CC /* menu_setting@2x.png in Resources */,
 				75D869AD19F9077900F53AF1 /* menu-50.png in Resources */,
 				75CE28E519F394AC002FF80F /* Anxiété.pdf in Resources */,
+				FCB847C219FE90880047D902 /* Gastro-intestinal - Elévation des tests hépatiques.pdf in Resources */,
 				C3080F0517FEEDF8008AE8CC /* invite_refresh.png in Resources */,
 				C3080F0217FEEDF8008AE8CC /* invite_fb_cursor@2x.png in Resources */,
 				C3080E5617FE8827008AE8CC /* menu_setting.png in Resources */,
@@ -1704,26 +1857,34 @@
 				75CE28E819F394AC002FF80F /* Sémiologie.pdf in Resources */,
 				75103A7F19FD635100BD458D /* Myologie dos.pdf in Resources */,
 				C3080E8217FEA622008AE8CC /* navbar_menu.png in Resources */,
+				FCB847C819FE90880047D902 /* Métabolique - Diabète type 2.pdf in Resources */,
 				758BDA8719FBC1F1000EBC90 /* cancel-32.png in Resources */,
 				7524A47D19EA5FD1006607C1 /* external-50.png in Resources */,
 				75CE28D319F394AC002FF80F /* Digestif2.pdf in Resources */,
 				75103A8519FD635100BD458D /* Main.pdf in Resources */,
+				FCB847C019FE90880047D902 /* Gastro-intestinal - Douleur abdo chronique et intestin irritiable.pdf in Resources */,
 				C3080EB517FEC341008AE8CC /* setting_cell_indicator@2x.png in Resources */,
 				75CE28F519F3B486002FF80F /* checklist-32.png in Resources */,
+				FCB847D319FE90880047D902 /* Pharmacologique - Douleur aigue.pdf in Resources */,
 				C3080E5517FE8827008AE8CC /* menu_layout_pen@2x.png in Resources */,
 				75CE28DB19F394AC002FF80F /* Urgences.pdf in Resources */,
 				7524A47919E98A27006607C1 /* Share icon.png in Resources */,
 				75103A8419FD635100BD458D /* Hanche.pdf in Resources */,
+				FCB847D619FE90880047D902 /* Profil de patients - Evaluations gériatrique.pdf in Resources */,
 				C3080E4E17FE8827008AE8CC /* menu_cell_icon_pager.png in Resources */,
 				75103A8119FD635100BD458D /* Myologie MS.pdf in Resources */,
 				7524A45119E8920F006607C1 /* pdfIcon.png in Resources */,
 				C3080EDF17FED422008AE8CC /* add_news4@2x.png in Resources */,
 				75CE28D419F394AC002FF80F /* Loco1.pdf in Resources */,
+				FCB847BF19FE90880047D902 /* Gastro-intestinal - Diarrhée aigues.pdf in Resources */,
 				C3080ED817FED422008AE8CC /* add_news1.png in Resources */,
 				C3080EB217FEC341008AE8CC /* setting_cell_checkmark.png in Resources */,
 				C3080F0B17FEEDF8008AE8CC /* invite_vbar.png in Resources */,
+				FCB847BC19FE90880047D902 /* Communication - Approches de la consultation.pdf in Resources */,
 				758BDA8119FBB88B000EBC90 /* info-50.png in Resources */,
 				75CE28E019F394AC002FF80F /* Introduction.pdf in Resources */,
+				FCB847BA19FE90880047D902 /* Cardiovasculaire - Syncope.pdf in Resources */,
+				FCB847BE19FE90880047D902 /* Fibrillation auriculaire 2013.pdf in Resources */,
 				7524A47719E964E5006607C1 /* default.png in Resources */,
 				75CE28DD19F394AC002FF80F /* Vasculaire.pdf in Resources */,
 				C3080E8117FEA622008AE8CC /* navbar_downarrow@2x.png in Resources */,
@@ -1731,11 +1892,14 @@
 				C3080E7017FE9397008AE8CC /* strings.plist in Resources */,
 				C3080ED917FED422008AE8CC /* add_news1@2x.png in Resources */,
 				75CE28DA19F394AC002FF80F /* Respiratoire.pdf in Resources */,
+				FCB847C419FE90880047D902 /* Hématologie - Déficit B12.pdf in Resources */,
 				7506808E19EDC6C600EA0040 /* Labo.plist in Resources */,
+				FCB847DD19FE90880047D902 /* Uro-génital - Recommandations IST.pdf in Resources */,
 				75CE290719F42EC3002FF80F /* medecine50.jpg in Resources */,
 				75CE28D119F394AC002FF80F /* Cardio.pdf in Resources */,
 				C3080F0417FEEDF8008AE8CC /* invite_plus@2x.png in Resources */,
 				C3080EA917FEC08D008AE8CC /* search_close@2x.png in Resources */,
+				FCB847C319FE90880047D902 /* Hématologie - Anémie.pdf in Resources */,
 				C3080EFF17FEEDF8008AE8CC /* invite_fb.png in Resources */,
 				75CE28ED19F3995D002FF80F /* pdf-50.png in Resources */,
 				C3080EE217FED422008AE8CC /* add_recommend2.png in Resources */,
@@ -1756,8 +1920,10 @@
 				C36FBE56181D59A3007AE52A /* feed_option_bg@2x.png in Resources */,
 				7506807D19EB295B00EA0040 /* Plus.png in Resources */,
 				C3080EDD17FED422008AE8CC /* add_news3@2x.png in Resources */,
+				FCB847C119FE90880047D902 /* Gastro-intestinal - Dyspepsie.pdf in Resources */,
 				75CE28E719F394AC002FF80F /* Sémiologie générale.pdf in Resources */,
 				C3080DF717FE86B8008AE8CC /* Main.storyboard in Resources */,
+				FCB847CB19FE90880047D902 /* Ophtalmologique - Oeil rouge.pdf in Resources */,
 				75C9231F19EA90DF0005CA31 /* entree.plist in Resources */,
 				C3080EDE17FED422008AE8CC /* add_news4.png in Resources */,
 				7524A45419E8932C006607C1 /* Katz-AVQ.pdf in Resources */,
@@ -1780,7 +1946,9 @@
 				7524A47519E9501D006607C1 /* unige_logo.gif in Resources */,
 				C3080E7817FE9E5B008AE8CC /* menu_icon_plus.png in Resources */,
 				C36FBE55181D59A3007AE52A /* feed_option_bg.png in Resources */,
+				FCB847CE19FE90880047D902 /* ORL-Pneumo - IVRS.pdf in Resources */,
 				75D869AB19F9073400F53AF1 /* checkmark-50.png in Resources */,
+				FCB847BB19FE90880047D902 /* Cardiovasculaire - Thrombose veineuse.pdf in Resources */,
 				C3080E8517FEA622008AE8CC /* navbar_search@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
