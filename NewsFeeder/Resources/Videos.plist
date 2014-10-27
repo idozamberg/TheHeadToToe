@@ -74,5 +74,44 @@
 			<string>Souffles Cardiaques</string>
 		</dict>
 	</array>
+	<key>Neurologie</key>
+	<array>
+		<dict>
+			<key>Name</key>
+			<string>PcZuTEwHSrw</string>
+			<key>Description</key>
+			<string>Examen moteur - 1 </string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>9z48vDNuiPE</string>
+			<key>Description</key>
+			<string>Palpation et percussion</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>SFfRhP8nu8w</string>
+			<key>Description</key>
+			<string>Auscultation - Bruits Normales</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>FTsOl5-X7-k</string>
+			<key>Description</key>
+			<string>Auscultation - 1</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Hjk01LmNujM</string>
+			<key>Description</key>
+			<string>Auscultation - 2</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>mEAUiLYpdIA</string>
+			<key>Description</key>
+			<string>Souffles Cardiaques</string>
+		</dict>
+	</array>
 </dict>
 </plist>
