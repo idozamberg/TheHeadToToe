@@ -11,12 +11,15 @@
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate> {
     // For Strings of interfaces
-	NSMutableDictionary * stringDicData;
 }
 
 @property (strong, nonatomic) UIWindow *window;
+@property (strong, nonatomic) NSMutableDictionary * stringDicData;
+
 
 - (void) getAllStrings;
+- (NSInteger) getAllNumberOfSystems;
+
 - (NSString *) getStringInScreen:(NSString *)screenName strID:(NSString *)strID;
 
 - (NSString *) getResourcePathWithFilename:(NSString *) filename withExt:(NSString *)ext;
