@@ -907,7 +907,7 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "155"
             endingLineNumber = "155"
-            landmarkName = "-loadLabValues"
+            landmarkName = "-clearQuestions"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
@@ -1627,7 +1627,7 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "250"
             endingLineNumber = "250"
-            landmarkName = "-flattenedLabArray"
+            landmarkName = "-flattenedVideosArray"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
