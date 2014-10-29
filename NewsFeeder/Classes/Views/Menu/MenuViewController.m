@@ -175,7 +175,7 @@
 {
     if (currentMenuMode == menuModeMain)
     {
-        return 9;
+        return [gAppDelegate getAllNumberOfSystems];
     }
     else if (currentMenuMode == menuModeSubMenu)
     {

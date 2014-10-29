@@ -56,7 +56,7 @@
         
         if (sectionCounter == SECTION_AG)
         {
-            currentDictionary = [self.dataSource objectForKey:@"Anamnèse General"];
+            currentDictionary = [self.dataSource objectForKey:@"Anamnèse Generale"];
         }
         else if (sectionCounter == SECTION_APS)
         {
@@ -175,7 +175,7 @@
     
     if (indexPath.section == SECTION_AG)
     {
-        currentDictionary = [self.dataSource objectForKey:@"Anamnèse General"];
+        currentDictionary = [self.dataSource objectForKey:@"Anamnèse Generale"];
     }
     else if (indexPath.section == SECTION_APS)
     {
@@ -235,7 +235,7 @@
         
         if (sectionCounter == SECTION_AG)
         {
-            currentDictionary = [self.dataSource objectForKey:@"Anamnèse General"];
+            currentDictionary = [self.dataSource objectForKey:@"Anamnèse Generale"];
         }
         else if (sectionCounter == SECTION_APS)
         {
@@ -296,7 +296,7 @@
     
     if (section == SECTION_AG)
     {
-        title = @"Anamnèse General";
+        title = @"Anamnèse Generale";
     }
     else if (section == SECTION_APS)
     {
@@ -341,7 +341,7 @@
     
     if (indexPath.section == SECTION_AG)
     {
-        currentDictionary = [self.dataSource objectForKey:@"Anamnèse General"];
+        currentDictionary = [self.dataSource objectForKey:@"Anamnèse Generale"];
     }
     else if (indexPath.section == SECTION_APS)
     {

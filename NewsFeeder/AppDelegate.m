@@ -10,6 +10,7 @@
 #import "Global.h"
 
 @implementation AppDelegate
+@synthesize stringDicData;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
@@ -70,6 +71,11 @@
     NSArray * directoryContents = [[NSFileManager defaultManager] contentsOfDirectoryAtPath:documentsPath error:&error];
     
     return YES;
+}
+
+- (NSInteger) getAllNumberOfSystems
+{
+    return [[stringDicData objectForKey:SCREEN_MENU] allKeys].count;
 }
 							
 - (void)applicationWillResignActive:(UIApplication *)application

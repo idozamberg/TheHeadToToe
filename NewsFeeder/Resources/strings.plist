@@ -49,9 +49,11 @@
 		<key>CELL_ROW6</key>
 		<string>Psychiatrie</string>
 		<key>CELL_ROW7</key>
-		<string>Gestes Téchniques</string>
+		<string>Gestes Techniques</string>
 		<key>CELL_ROW8</key>
 		<string>Pharmacologie</string>
+		<key>CELL_ROW9</key>
+		<string>Médecine interne</string>
 	</dict>
 	<key>SCREEN_SEARCH</key>
 	<dict>

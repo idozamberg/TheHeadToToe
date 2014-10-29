@@ -2,7 +2,34 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>Gestes Téchniques</key>
+	<key>Médecine interne</key>
+	<array>
+		<dict>
+			<key>Name</key>
+			<string>Cardiologie - Fibrilation auriculaire.pdf</string>
+			<key>Description</key>
+			<string>Stratégie FA</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Transfusion sanguine.pdf</string>
+			<key>Description</key>
+			<string>La technique de transfusion sanguine</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Transfusion sanguine.pdf</string>
+			<key>Description</key>
+			<string>La technique de transfusion sanguine</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Transfusion sanguine.pdf</string>
+			<key>Description</key>
+			<string>La technique de transfusion sanguine</string>
+		</dict>
+	</array>
+	<key>Gestes Techniques</key>
 	<array>
 		<dict>
 			<key>Name</key>
