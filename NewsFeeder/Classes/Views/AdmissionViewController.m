@@ -120,6 +120,9 @@
 {
     NSString* typeOfPdf = isInFilterMode ? @"Filtered":@"Full";
     
+    // Setting parameteres
+    [AnalyticsManager sharedInstance].flurryParameters = [NSDictionary dictionaryWithObjectsAndKeys:typeOfPdf,@"Type Of PDF", nil];
+    
     // Sending analytics
     [AnalyticsManager sharedInstance].sendToFlurry = YES;
     [[AnalyticsManager sharedInstance] sendEventWithName:@"Admission PDF Created" Category:@"Admission" Label:typeOfPdf];

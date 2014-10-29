@@ -88,6 +88,9 @@
     // Disabling animation transition
     self.navigationController.delegate = Nil;
     
+    // Setting parameters
+    [AnalyticsManager sharedInstance].flurryParameters = [NSDictionary dictionaryWithObjectsAndKeys:@"FilesListView",@"Father View", nil];
+
     // Sending analytics
     [AnalyticsManager sharedInstance].sendToFlurry = YES;
     [[AnalyticsManager sharedInstance] sendEventWithName:@"Search view showed" Category:@"Views" Label:@"FilesListView"];
@@ -138,6 +141,9 @@
     [tableView deselectRowAtIndexPath:indexPath animated:NO];
   
     HTTFile* currentFile = [_filesList objectAtIndex:indexPath.row];
+    
+    // Setting parameters
+    [AnalyticsManager sharedInstance].flurryParameters = [NSDictionary dictionaryWithObjectsAndKeys:[NSString stringWithFormat:@"%@ - %@",currentFile.system,currentFile.name],@"File Name", nil];
     
     // Sending analytics
     [AnalyticsManager sharedInstance].sendToFlurry = YES;

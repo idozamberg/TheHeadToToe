@@ -297,6 +297,9 @@
         // Getting current file
         HTTFile* currentFile = [[filteredArray objectAtIndex:FILES_SECTION] objectAtIndex:indexPath.row];
         
+        // Setting parameters
+        [AnalyticsManager sharedInstance].flurryParameters = [NSDictionary dictionaryWithObjectsAndKeys:[NSString stringWithFormat:@"%@ - %@",currentFile.system,currentFile.name],@"File Name", nil];
+        
         // Sending analytics
         [AnalyticsManager sharedInstance].sendToFlurry = YES;
         [[AnalyticsManager sharedInstance] sendEventWithName:@"PDF File opended" Category:@"Files" Label:[NSString stringWithFormat:@"%@ - %@",currentFile.system,currentFile.name]];

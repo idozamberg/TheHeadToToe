@@ -76,6 +76,9 @@
         self.cellModel.wasChecked = YES;
         self.imgCheck.image = [UIImage imageNamed:@"check-on"];
         
+        // Setting parameters
+        [AnalyticsManager sharedInstance].flurryParameters = [NSDictionary dictionaryWithObjectsAndKeys:self.cellModel.text,@"Question Text", nil];
+        
         // Sending analytics
         [AnalyticsManager sharedInstance].sendToFlurry = YES;
         [[AnalyticsManager sharedInstance] sendEventWithName:@"Question check" Category:@"Questions" Label:self.cellModel.text];
@@ -90,6 +93,16 @@
 
 - (void)popupTextView:(YIPopupTextView*)textView willDismissWithText:(NSString*)text cancelled:(BOOL)cancelled
 {
+    if (![text isEqualToString:@""])
+    {
+        // Setting parameters
+        [AnalyticsManager sharedInstance].flurryParameters = [NSDictionary dictionaryWithObjectsAndKeys:self.cellModel.text,@"Question Text", nil];
+        
+        // Sending analytics
+        [AnalyticsManager sharedInstance].sendToFlurry = YES;
+        [[AnalyticsManager sharedInstance] sendEventWithName:@"Comment added to question" Category:@"Questions" Label:self.cellModel.text];
+    }
+    
     self.cellModel.comment = text;
 }
 @end
