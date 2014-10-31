@@ -76,6 +76,9 @@
 
 - (IBAction)searchClicked:(id)sender {
     
+    // Setting parameters
+    [AnalyticsManager sharedInstance].flurryParameters = [NSDictionary dictionaryWithObjectsAndKeys:@"Menu",@"Father View", nil];
+    
     // Sending analytics
     [AnalyticsManager sharedInstance].sendToFlurry = YES;
     [[AnalyticsManager sharedInstance] sendEventWithName:@"Search view showed" Category:@"Views" Label:@"Menu"];
@@ -106,6 +109,9 @@
     }
     else if ([sender isEqual:btnAdd]) {
         
+        // Setting parameters
+        [AnalyticsManager sharedInstance].flurryParameters = [NSDictionary dictionaryWithObjectsAndKeys:@"Admission",@"View Name", nil];
+        
         // Sending analytics
         [AnalyticsManager sharedInstance].sendToFlurry = YES;
         [[AnalyticsManager sharedInstance] sendEventWithName:@"View selected from menu" Category:@"Views" Label:@"Admission"];
@@ -117,6 +123,10 @@
     }
     else if ([sender isEqual:self.btnLabo])
     {
+        // Setting parameters
+        [AnalyticsManager sharedInstance].flurryParameters = [NSDictionary dictionaryWithObjectsAndKeys:@"Laboratoire",@"View Name", nil];
+        
+        
         // Sending analytics
         [AnalyticsManager sharedInstance].sendToFlurry = YES;
         [[AnalyticsManager sharedInstance] sendEventWithName:@"View selected from menu" Category:@"Views" Label:@"Laboratoire"];
@@ -244,6 +254,10 @@
     {
         if (indexPath.row == 0)
         {
+            // Setting parameters
+            [AnalyticsManager sharedInstance].flurryParameters = [NSDictionary dictionaryWithObjectsAndKeys:@"Menu",@"Father View", nil];
+            
+            
             // Sending analytics
             [AnalyticsManager sharedInstance].sendToFlurry = YES;
             [[AnalyticsManager sharedInstance] sendEventWithName:@"Files view showed" Category:@"Views" Label:@"Menu"];
@@ -268,6 +282,9 @@
         }
         else
         {
+            // Setting parameters
+            [AnalyticsManager sharedInstance].flurryParameters = [NSDictionary dictionaryWithObjectsAndKeys:@"Menu",@"Father View", nil];
+            
             // Sending analytics
             [AnalyticsManager sharedInstance].sendToFlurry = YES;
             [[AnalyticsManager sharedInstance] sendEventWithName:@"Videos view showed" Category:@"Views" Label:@"Menu"];
@@ -312,8 +329,14 @@
         
         [UIView commitAnimations];
 
-    
         [tableView reloadSections:[NSIndexSet indexSetWithIndex:0] withRowAnimation:UITableViewRowAnimationFade];
+        
+        // Setting parameters
+        [AnalyticsManager sharedInstance].flurryParameters = [NSDictionary dictionaryWithObjectsAndKeys:currentSystem,@"System Name", nil];
+        
+        // Sending analytics
+        [AnalyticsManager sharedInstance].sendToFlurry = YES;
+        [[AnalyticsManager sharedInstance] sendEventWithName:@"System chosen" Category:@"Systems" Label:currentSystem];
     }
     
 }

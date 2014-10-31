@@ -236,7 +236,7 @@ typedef enum {
         self.keyboardAppearance = UIKeyboardAppearanceAlert;
         self.autocorrectionType = UITextAutocorrectionTypeNo;
         self.autocapitalizationType = UITextAutocapitalizationTypeNone;
-        self.layer.cornerRadius = 10;
+        self.layer.cornerRadius = 0;
         self.backgroundColor = [UIColor whiteColor];
         [_popupView addSubview:self];
         
@@ -394,7 +394,7 @@ typedef enum {
         frame = view.bounds;
     }
     
-    CGRect rect = CGRectMake(40, 40, 260, 350);
+    CGRect rect = CGRectMake((frame.size.width - 260) / 2, 40, 260, 350);
     
     _backgroundView.alpha = 0;
     _backgroundView.frame = rect;

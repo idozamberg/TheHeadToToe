@@ -43,6 +43,9 @@
 
 - (IBAction)playClick:(id)sender {
     
+    // Setting parameters
+    [AnalyticsManager sharedInstance].flurryParameters = [NSDictionary dictionaryWithObjectsAndKeys:[NSString stringWithFormat:@"%@ - %@",cellModel.system,cellModel.name],@"Video Name", nil];
+    
     // Sending analytics
     [AnalyticsManager sharedInstance].sendToFlurry = YES;
     [[AnalyticsManager sharedInstance] sendEventWithName:@"Video was played" Category:@"Videos" Label:[NSString stringWithFormat:@"%@ - %@",cellModel.system,cellModel.name]];

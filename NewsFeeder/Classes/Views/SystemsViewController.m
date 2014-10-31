@@ -97,6 +97,9 @@
 
 - (void) didClickNavBarRightButton
 {
+    // Setting parameters
+    [AnalyticsManager sharedInstance].flurryParameters = [NSDictionary dictionaryWithObjectsAndKeys:@"Home",@"Father View", nil];
+    
     // Sending analytics
     [AnalyticsManager sharedInstance].sendToFlurry = YES;
     [[AnalyticsManager sharedInstance] sendEventWithName:@"Search view showed" Category:@"Views" Label:@"Home"];
@@ -174,6 +177,10 @@
     {
         if (indexPath.row == 0)
         {
+            
+            // Setting parameters
+            [AnalyticsManager sharedInstance].flurryParameters = [NSDictionary dictionaryWithObjectsAndKeys:@"Home",@"Father View", nil];
+            
             // Sending analytics
             [AnalyticsManager sharedInstance].sendToFlurry = YES;
             [[AnalyticsManager sharedInstance] sendEventWithName:@"Files view showed" Category:@"Views" Label:@"Home"];
@@ -195,6 +202,9 @@
         }
         else
         {
+            // Setting parameters
+            [AnalyticsManager sharedInstance].flurryParameters = [NSDictionary dictionaryWithObjectsAndKeys:@"Home",@"Father View", nil];
+            
             // Sending analytics
             [AnalyticsManager sharedInstance].sendToFlurry = YES;
             [[AnalyticsManager sharedInstance] sendEventWithName:@"Videos view showed" Category:@"Views" Label:@"Home"];
@@ -234,6 +244,13 @@
                                     forState:UIControlStateNormal];
         
         [tableView reloadSections:[NSIndexSet indexSetWithIndex:0] withRowAnimation:UITableViewRowAnimationFade];
+        
+        // Setting parameters
+        [AnalyticsManager sharedInstance].flurryParameters = [NSDictionary dictionaryWithObjectsAndKeys:currentSystem,@"System Name", nil];
+        
+        // Sending analytics
+        [AnalyticsManager sharedInstance].sendToFlurry = YES;
+        [[AnalyticsManager sharedInstance] sendEventWithName:@"System chosen" Category:@"Systems" Label:currentSystem];
     }
     
 }
