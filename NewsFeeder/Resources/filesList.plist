@@ -254,6 +254,15 @@
 			<string>Polycopié de pharmacologie</string>
 		</dict>
 	</array>
+	<key>Compétences médicales</key>
+	<array>
+		<dict>
+			<key>Name</key>
+			<string>Consultation.pdf</string>
+			<key>Description</key>
+			<string>Guide de la consultation</string>
+		</dict>
+	</array>
 	<key>Neurologie</key>
 	<array>
 		<dict>

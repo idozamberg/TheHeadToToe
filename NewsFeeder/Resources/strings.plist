@@ -37,24 +37,26 @@
 		<key>CELL_ROW0</key>
 		<string>Cardiovasculaire</string>
 		<key>CELL_ROW1</key>
-		<string>Respiratoire</string>
-		<key>CELL_ROW2</key>
-		<string>Neurologie</string>
-		<key>CELL_ROW3</key>
-		<string>Ostéoarticulaire</string>
-		<key>CELL_ROW4</key>
-		<string>Urinaire</string>
-		<key>CELL_ROW5</key>
 		<string>Digestif</string>
-		<key>CELL_ROW6</key>
-		<string>Psychiatrie</string>
-		<key>CELL_ROW7</key>
-		<string>Gestes Techniques</string>
-		<key>CELL_ROW8</key>
-		<string>Pharmacologie</string>
-		<key>CELL_ROW9</key>
+		<key>CELL_ROW2</key>
 		<string>Médecine interne</string>
+		<key>CELL_ROW3</key>
+		<string>Neurologie</string>
+		<key>CELL_ROW4</key>
+		<string>Ostéoarticulaire</string>
+		<key>CELL_ROW5</key>
+		<string>Psychiatrie</string>
+		<key>CELL_ROW6</key>
+		<string>Respiratoire</string>
+		<key>CELL_ROW7</key>
+		<string>Urinaire</string>
+		<key>CELL_ROW8</key>
+		<string>Compétences médicales</string>
+		<key>CELL_ROW9</key>
+		<string>Gestes Techniques</string>
 		<key>CELL_ROW10</key>
+		<string>Pharmacologie</string>
+		<key>CELL_ROW11</key>
 		<string>Urgences</string>
 	</dict>
 	<key>SCREEN_SEARCH</key>

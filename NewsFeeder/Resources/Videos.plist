@@ -34,6 +34,39 @@
 			<key>Description</key>
 			<string>Auscultation</string>
 		</dict>
+		<dict>
+			<key>Name</key>
+			<string>L19PVsD--KA</string>
+			<key>Description</key>
+			<string>Examen respiratoire OSCE</string>
+		</dict>
+	</array>
+	<key>Urgences</key>
+	<array>
+		<dict>
+			<key>Name</key>
+			<string>hLuC0T7RsKI</string>
+			<key>Description</key>
+			<string>Examen d&apos;un patient traumatisé</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>n5DUC1Lit08</string>
+			<key>Description</key>
+			<string>Dysfonction multisystémique</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>PzyTXXQp2j8</string>
+			<key>Description</key>
+			<string>Dysfonction multisystémique 2</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>hHHy1mc7sqY</string>
+			<key>Description</key>
+			<string>Pose d&apos;un collier cervical</string>
+		</dict>
 	</array>
 	<key>Cardiovasculaire</key>
 	<array>
@@ -53,25 +86,37 @@
 			<key>Name</key>
 			<string>SFfRhP8nu8w</string>
 			<key>Description</key>
-			<string>Auscultation - Bruits Normales</string>
+			<string>Auscultation normale</string>
 		</dict>
 		<dict>
 			<key>Name</key>
 			<string>FTsOl5-X7-k</string>
 			<key>Description</key>
-			<string>Auscultation - 1</string>
+			<string>Auscultation pathologique</string>
 		</dict>
 		<dict>
 			<key>Name</key>
 			<string>Hjk01LmNujM</string>
 			<key>Description</key>
-			<string>Auscultation - 2</string>
+			<string>Auscultation pathologique 2</string>
 		</dict>
 		<dict>
 			<key>Name</key>
 			<string>mEAUiLYpdIA</string>
 			<key>Description</key>
 			<string>Souffles Cardiaques</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>SJ3UwKkLyy0</string>
+			<key>Description</key>
+			<string>Examen cardiovasculaire OSCE</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>KoNts7ArgkM</string>
+			<key>Description</key>
+			<string>Examen vasculaire OSCE</string>
 		</dict>
 	</array>
 	<key>Neurologie</key>
@@ -84,33 +129,135 @@
 		</dict>
 		<dict>
 			<key>Name</key>
-			<string>9z48vDNuiPE</string>
+			<string>arwGZ44C7xM</string>
 			<key>Description</key>
-			<string>Palpation et percussion</string>
+			<string>Nerfs crâniens OSCE</string>
 		</dict>
 		<dict>
 			<key>Name</key>
-			<string>SFfRhP8nu8w</string>
+			<string>Jz_sE4A0nWA</string>
 			<key>Description</key>
-			<string>Auscultation - Bruits Normales</string>
+			<string>Examen neuro des MI OSCE</string>
 		</dict>
 		<dict>
 			<key>Name</key>
-			<string>FTsOl5-X7-k</string>
+			<string>S7H1pqRlVqc</string>
 			<key>Description</key>
-			<string>Auscultation - 1</string>
+			<string>Examen neuro des MS OSCE</string>
 		</dict>
 		<dict>
 			<key>Name</key>
-			<string>Hjk01LmNujM</string>
+			<string>erfHBi-ybQ0</string>
 			<key>Description</key>
-			<string>Auscultation - 2</string>
+			<string>Examen cérébelleux OSCE</string>
+		</dict>
+	</array>
+	<key>Compétences médicales</key>
+	<array>
+		<dict>
+			<key>Name</key>
+			<string>jGf8NvqoTNs</string>
+			<key>Description</key>
+			<string>Tête-pied 1</string>
 		</dict>
 		<dict>
 			<key>Name</key>
-			<string>mEAUiLYpdIA</string>
+			<string>Ucor4aie6E4</string>
 			<key>Description</key>
-			<string>Souffles Cardiaques</string>
+			<string>Tête-pied 2</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>WOZzx5SmY8</string>
+			<key>Description</key>
+			<string>Tête-pied 3</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>7KJ7o1lUyP8</string>
+			<key>Description</key>
+			<string>Tête-pied 4</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>0es_6zWDMOQ</string>
+			<key>Description</key>
+			<string>Tête-pied 5</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>rlWRaxmi39g</string>
+			<key>Description</key>
+			<string>Tête-pied 6</string>
+		</dict>
+	</array>
+	<key>Digestif</key>
+	<array>
+		<dict>
+			<key>Name</key>
+			<string>ux607iZi8-k</string>
+			<key>Description</key>
+			<string>Examen digestif complet Bates</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>QO8r_xqamyc</string>
+			<key>Description</key>
+			<string>Examen digestif OSCE</string>
+		</dict>
+	</array>
+	<key>Ostéoarticulaire</key>
+	<array>
+		<dict>
+			<key>Name</key>
+			<string>x_ryfIlqR0k</string>
+			<key>Description</key>
+			<string>Examen de l&apos;épaule OSCE</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>urA0CkfCG4g</string>
+			<key>Description</key>
+			<string>Examen de la colonne vertébrale OSCE</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>pT1ZHVbpsuw</string>
+			<key>Description</key>
+			<string>Examen du genou OSCE</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>xKNBfIxRlCs</string>
+			<key>Description</key>
+			<string>Examen des mains OSCE</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>g8-dMuzWal4</string>
+			<key>Description</key>
+			<string>Recherche de déformation</string>
+		</dict>
+	</array>
+	<key>Gestes Techniques</key>
+	<array>
+		<dict>
+			<key>Name</key>
+			<string>e58lLJ-2gBI</string>
+			<key>Description</key>
+			<string>Prise de sang</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>h8DlRtqgh8c</string>
+			<key>Description</key>
+			<string>Voie veineuse périphérique</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>k1jvywxyBt0</string>
+			<key>Description</key>
+			<string>Injections IM et SC</string>
 		</dict>
 	</array>
 </dict>
