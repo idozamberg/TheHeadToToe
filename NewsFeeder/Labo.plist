@@ -2,41 +2,55 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>Chimie</key>
+	<key>Formule sanguine complète</key>
+	<dict>
+		<key>Erythrocytes</key>
+		<string>4,4 - 6.0 (H) 3.8-5.2 (F) T/L</string>
+		<key>Hématocrite</key>
+		<string>40-52 % (H), 37-47% (F)</string>
+		<key>Hémoglobine</key>
+		<string>140-180 (H), 120-160(F) g/l </string>
+		<key>MCV</key>
+		<string>80-94 </string>
+		<key>MCH</key>
+		<string>26-34 pg</string>
+		<key>MCHC</key>
+		<string>320-360 g/L</string>
+		<key>Leucocytes</key>
+		<string>4-11 G/L</string>
+		<key>Thrombocytes</key>
+		<string>150-350 G/L</string>
+	</dict>
+	<key>Chimie sanguine</key>
 	<dict>
 		<key>Albumine</key>
 		<string>4.0 - 6.0 g/dL</string>
-		<key>Ferritine</key>
-		<string>20 - 300 ng/mL</string>
+		<key>Phosphatase alcaline</key>
+		<string></string>
+		<key>ALAT</key>
+		<string></string>
+		<key>ASAT</key>
+		<string></string>
 		<key>Gamma-GT</key>
 		<string>0 - 30 U/L</string>
+		<key>Bilirubine</key>
+		<string></string>
+		<key>Ferritine</key>
+		<string>20 - 300 ng/mL</string>
 		<key>Créatinine</key>
 		<string>50-110 µmol/L</string>
+		<key>Urée</key>
+		<string></string>
 		<key>Glycémie (à jeun)</key>
 		<string>3.9 - 5.6 mmol/L</string>
+		<key>Cholestérol total</key>
+		<string></string>
 		<key>Lactate</key>
 		<string>0.5 - 2.0 mmol/L</string>
 		<key>LDL</key>
 		<string>&lt; 160 mg/dL</string>
 		<key>HDL</key>
 		<string>30 - 70 mg/dL</string>
-	</dict>
-	<key>Hématologie</key>
-	<dict>
-		<key>VS</key>
-		<string>H: 0-20 mm/h , F : 0-30 mm/h</string>
-		<key>Thrombocytes</key>
-		<string>130-400 10^3/mm3</string>
-		<key>MCHC</key>
-		<string>330-370 g/L</string>
-		<key>MCV</key>
-		<string>76-100 µm/mm3</string>
-		<key>Hb</key>
-		<string>H: 13.6 - 17.2 g/dL, F : 12.0-15.0 g/dL</string>
-		<key>GR</key>
-		<string>H: 3.5-5.0 10^6/mm3 , F : 4.3-5.9 10^6/mm3</string>
-		<key>Leucocytes</key>
-		<string>3.2 - 9.8 G/L</string>
 	</dict>
 </dict>
 </plist>

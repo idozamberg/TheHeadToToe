@@ -101,19 +101,16 @@
 		75CE28DA19F394AC002FF80F /* Respiratoire.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 75CE28AC19F394AC002FF80F /* Respiratoire.pdf */; };
 		75CE28DB19F394AC002FF80F /* Urgences.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 75CE28AD19F394AC002FF80F /* Urgences.pdf */; };
 		75CE28DC19F394AC002FF80F /* Uro.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 75CE28AE19F394AC002FF80F /* Uro.pdf */; };
-		75CE28DD19F394AC002FF80F /* Vasculaire.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 75CE28AF19F394AC002FF80F /* Vasculaire.pdf */; };
 		75CE28DE19F394AC002FF80F /* Injection IM et IV.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 75CE28B119F394AC002FF80F /* Injection IM et IV.pdf */; };
 		75CE28DF19F394AC002FF80F /* Injections.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 75CE28B219F394AC002FF80F /* Injections.pdf */; };
-		75CE28E019F394AC002FF80F /* Introduction.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 75CE28B319F394AC002FF80F /* Introduction.pdf */; };
 		75CE28E119F394AC002FF80F /* Pansement.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 75CE28B419F394AC002FF80F /* Pansement.pdf */; };
 		75CE28E219F394AC002FF80F /* Transfusion sanguine.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 75CE28B519F394AC002FF80F /* Transfusion sanguine.pdf */; };
 		75CE28E319F394AC002FF80F /* Système ostéo-articulaire.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 75CE28B719F394AC002FF80F /* Système ostéo-articulaire.pdf */; };
 		75CE28E419F394AC002FF80F /* Polycopié de pharmacologie 2014.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 75CE28B919F394AC002FF80F /* Polycopié de pharmacologie 2014.pdf */; };
-		75CE28E519F394AC002FF80F /* Anxiété.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 75CE28BB19F394AC002FF80F /* Anxiété.pdf */; };
-		75CE28E619F394AC002FF80F /* Dépression.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 75CE28BC19F394AC002FF80F /* Dépression.pdf */; };
-		75CE28E719F394AC002FF80F /* Sémiologie générale.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 75CE28BD19F394AC002FF80F /* Sémiologie générale.pdf */; };
+		75CE28E519F394AC002FF80F /* Anxiete.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 75CE28BB19F394AC002FF80F /* Anxiete.pdf */; };
+		75CE28E619F394AC002FF80F /* Depression.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 75CE28BC19F394AC002FF80F /* Depression.pdf */; };
+		75CE28E719F394AC002FF80F /* Semiologie generale.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 75CE28BD19F394AC002FF80F /* Semiologie generale.pdf */; };
 		75CE28E819F394AC002FF80F /* Sémiologie.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 75CE28BF19F394AC002FF80F /* Sémiologie.pdf */; };
-		75CE28E919F394AC002FF80F /* Neuroanat3-MC.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 75CE28C119F394AC002FF80F /* Neuroanat3-MC.pdf */; };
 		75CE28EA19F394AC002FF80F /* Secondary survey.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 75CE28C319F394AC002FF80F /* Secondary survey.pdf */; };
 		75CE28EB19F394AC002FF80F /* Forum vaccins.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 75CE28C519F394AC002FF80F /* Forum vaccins.pdf */; };
 		75CE28ED19F3995D002FF80F /* pdf-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 75CE28EC19F3995D002FF80F /* pdf-50.png */; };
@@ -314,6 +311,23 @@
 		FCB847DC19FE90880047D902 /* Uro-génital - Lithiase urinaire.pdf in Resources */ = {isa = PBXBuildFile; fileRef = FCB847B419FE90880047D902 /* Uro-génital - Lithiase urinaire.pdf */; };
 		FCB847DD19FE90880047D902 /* Uro-génital - Recommandations IST.pdf in Resources */ = {isa = PBXBuildFile; fileRef = FCB847B519FE90880047D902 /* Uro-génital - Recommandations IST.pdf */; };
 		FCB847DE19FE90880047D902 /* Uro-génital - Urétrites.pdf in Resources */ = {isa = PBXBuildFile; fileRef = FCB847B619FE90880047D902 /* Uro-génital - Urétrites.pdf */; };
+		FCF6C3DF1A0632FD00500E60 /* Troubles psychotiques.pdf in Resources */ = {isa = PBXBuildFile; fileRef = FCF6C3DE1A0632FD00500E60 /* Troubles psychotiques.pdf */; };
+		FCF6C3E11A0633A900500E60 /* Cahier TP.pdf in Resources */ = {isa = PBXBuildFile; fileRef = FCF6C3E01A0633A900500E60 /* Cahier TP.pdf */; };
+		FCF6C3E31A0633E100500E60 /* Semiologie2.pdf in Resources */ = {isa = PBXBuildFile; fileRef = FCF6C3E21A0633E100500E60 /* Semiologie2.pdf */; };
+		FCF6C3E51A06343D00500E60 /* Vasculaire.pdf in Resources */ = {isa = PBXBuildFile; fileRef = FCF6C3E41A06343D00500E60 /* Vasculaire.pdf */; };
+		FCF6C3E71A06361C00500E60 /* Consultation.pdf in Resources */ = {isa = PBXBuildFile; fileRef = FCF6C3E61A06361C00500E60 /* Consultation.pdf */; };
+		FCF6C3E91A06365300500E60 /* Genou.pdf in Resources */ = {isa = PBXBuildFile; fileRef = FCF6C3E81A06365300500E60 /* Genou.pdf */; };
+		FCF6C3EB1A06366B00500E60 /* Coude.pdf in Resources */ = {isa = PBXBuildFile; fileRef = FCF6C3EA1A06366B00500E60 /* Coude.pdf */; };
+		FCF6C3ED1A06372600500E60 /* Bassin.pdf in Resources */ = {isa = PBXBuildFile; fileRef = FCF6C3EC1A06372600500E60 /* Bassin.pdf */; };
+		FCF6C3F51A06375600500E60 /* Rachis2.pdf in Resources */ = {isa = PBXBuildFile; fileRef = FCF6C3F41A06375600500E60 /* Rachis2.pdf */; };
+		FCF6C3F91A06412F00500E60 /* Autopiqueur.pdf in Resources */ = {isa = PBXBuildFile; fileRef = FCF6C3F81A06412F00500E60 /* Autopiqueur.pdf */; };
+		FCF6C3FB1A06417B00500E60 /* Peridurale.pdf in Resources */ = {isa = PBXBuildFile; fileRef = FCF6C3FA1A06417B00500E60 /* Peridurale.pdf */; };
+		FCF6C3FD1A0641D400500E60 /* PDS-vacutainer.pdf in Resources */ = {isa = PBXBuildFile; fileRef = FCF6C3FC1A0641D400500E60 /* PDS-vacutainer.pdf */; };
+		FCF6C4011A06421F00500E60 /* Sondage-vesical.pdf in Resources */ = {isa = PBXBuildFile; fileRef = FCF6C4001A06421F00500E60 /* Sondage-vesical.pdf */; };
+		FCF6C4031A06423C00500E60 /* VVP.pdf in Resources */ = {isa = PBXBuildFile; fileRef = FCF6C4021A06423C00500E60 /* VVP.pdf */; };
+		FCF6C4061A0643EC00500E60 /* BLS.pdf in Resources */ = {isa = PBXBuildFile; fileRef = FCF6C4041A0643EC00500E60 /* BLS.pdf */; };
+		FCF6C4071A0643EC00500E60 /* Primary survey.pdf in Resources */ = {isa = PBXBuildFile; fileRef = FCF6C4051A0643EC00500E60 /* Primary survey.pdf */; };
+		FCF6C4091A0643F100500E60 /* Spine.pdf in Resources */ = {isa = PBXBuildFile; fileRef = FCF6C4081A0643F100500E60 /* Spine.pdf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -347,15 +361,15 @@
 		7506808D19EDC6C600EA0040 /* Labo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Labo.plist; path = ../Labo.plist; sourceTree = "<group>"; };
 		7506808F19EDC6F600EA0040 /* LabValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LabValue.h; sourceTree = "<group>"; };
 		7506809019EDC6F600EA0040 /* LabValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LabValue.m; sourceTree = "<group>"; };
-		75103A7519FD635100BD458D /* Main-innervation.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Main-innervation.pdf"; sourceTree = "<group>"; };
-		75103A7619FD635100BD458D /* Myologie dos.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Myologie dos.pdf"; sourceTree = "<group>"; };
-		75103A7719FD635100BD458D /* Myologie MI.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Myologie MI.pdf"; sourceTree = "<group>"; };
-		75103A7819FD635100BD458D /* Myologie MS.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Myologie MS.pdf"; sourceTree = "<group>"; };
-		75103A7919FD635100BD458D /* Rachis.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Rachis.pdf; sourceTree = "<group>"; };
-		75103A7A19FD635100BD458D /* Pied.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Pied.pdf; sourceTree = "<group>"; };
-		75103A7B19FD635100BD458D /* Hanche.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Hanche.pdf; sourceTree = "<group>"; };
-		75103A7C19FD635100BD458D /* Main.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Main.pdf; sourceTree = "<group>"; };
-		75103A7D19FD635100BD458D /* Epaule.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Epaule.pdf; sourceTree = "<group>"; };
+		75103A7519FD635100BD458D /* Main-innervation.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Main-innervation.pdf"; path = "../Main-innervation.pdf"; sourceTree = "<group>"; };
+		75103A7619FD635100BD458D /* Myologie dos.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Myologie dos.pdf"; path = "../Myologie dos.pdf"; sourceTree = "<group>"; };
+		75103A7719FD635100BD458D /* Myologie MI.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Myologie MI.pdf"; path = "../Myologie MI.pdf"; sourceTree = "<group>"; };
+		75103A7819FD635100BD458D /* Myologie MS.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Myologie MS.pdf"; path = "../Myologie MS.pdf"; sourceTree = "<group>"; };
+		75103A7919FD635100BD458D /* Rachis.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = Rachis.pdf; path = ../Rachis.pdf; sourceTree = "<group>"; };
+		75103A7A19FD635100BD458D /* Pied.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = Pied.pdf; path = ../Pied.pdf; sourceTree = "<group>"; };
+		75103A7B19FD635100BD458D /* Hanche.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = Hanche.pdf; path = ../Hanche.pdf; sourceTree = "<group>"; };
+		75103A7C19FD635100BD458D /* Main.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = Main.pdf; path = ../Main.pdf; sourceTree = "<group>"; };
+		75103A7D19FD635100BD458D /* Epaule.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = Epaule.pdf; path = ../Epaule.pdf; sourceTree = "<group>"; };
 		75103A8719FD997600BD458D /* AnalyticsManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnalyticsManager.h; sourceTree = "<group>"; };
 		75103A8819FD997600BD458D /* AnalyticsManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnalyticsManager.m; sourceTree = "<group>"; };
 		751771A419F793D2009BF487 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
@@ -431,33 +445,30 @@
 		75CE289119F394AC002FF80F /* Cahier TP Lymph.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Cahier TP Lymph.pdf"; sourceTree = "<group>"; };
 		75CE289319F394AC002FF80F /* vascularisationSNC2013.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = vascularisationSNC2013.pdf; sourceTree = "<group>"; };
 		75CE289519F394AC002FF80F /* Cahier TP genitaux.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Cahier TP genitaux.pdf"; sourceTree = "<group>"; };
-		75CE289819F394AC002FF80F /* Coude.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Coude.pdf; sourceTree = "<group>"; };
-		75CE289919F394AC002FF80F /* Genou.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Genou.pdf; sourceTree = "<group>"; };
+		75CE289819F394AC002FF80F /* Coude.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = Coude.pdf; path = "Muscles et articulation/Coude.pdf"; sourceTree = "<group>"; };
+		75CE289919F394AC002FF80F /* Genou.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = Genou.pdf; path = "Muscles et articulation/Genou.pdf"; sourceTree = "<group>"; };
 		75CE28A319F394AC002FF80F /* Cardio.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Cardio.pdf; sourceTree = "<group>"; };
-		75CE28A419F394AC002FF80F /* Digestif1.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Digestif1.pdf; sourceTree = "<group>"; };
-		75CE28A519F394AC002FF80F /* Digestif2.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Digestif2.pdf; sourceTree = "<group>"; };
-		75CE28A619F394AC002FF80F /* Loco1.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Loco1.pdf; sourceTree = "<group>"; };
-		75CE28A719F394AC002FF80F /* Loco2.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Loco2.pdf; sourceTree = "<group>"; };
-		75CE28A819F394AC002FF80F /* Loco3.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Loco3.pdf; sourceTree = "<group>"; };
+		75CE28A419F394AC002FF80F /* Digestif1.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = Digestif1.pdf; path = ../ECC/Digestif1.pdf; sourceTree = "<group>"; };
+		75CE28A519F394AC002FF80F /* Digestif2.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = Digestif2.pdf; path = ../ECC/Digestif2.pdf; sourceTree = "<group>"; };
+		75CE28A619F394AC002FF80F /* Loco1.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = Loco1.pdf; path = ../ECC/Loco1.pdf; sourceTree = "<group>"; };
+		75CE28A719F394AC002FF80F /* Loco2.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = Loco2.pdf; path = ../ECC/Loco2.pdf; sourceTree = "<group>"; };
+		75CE28A819F394AC002FF80F /* Loco3.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = Loco3.pdf; path = ../ECC/Loco3.pdf; sourceTree = "<group>"; };
 		75CE28A919F394AC002FF80F /* Neuro1.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Neuro1.pdf; sourceTree = "<group>"; };
 		75CE28AA19F394AC002FF80F /* Neuro2.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Neuro2.pdf; sourceTree = "<group>"; };
 		75CE28AB19F394AC002FF80F /* Neuro3.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Neuro3.pdf; sourceTree = "<group>"; };
-		75CE28AC19F394AC002FF80F /* Respiratoire.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Respiratoire.pdf; sourceTree = "<group>"; };
+		75CE28AC19F394AC002FF80F /* Respiratoire.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = Respiratoire.pdf; path = ../ECC/Respiratoire.pdf; sourceTree = "<group>"; };
 		75CE28AD19F394AC002FF80F /* Urgences.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Urgences.pdf; sourceTree = "<group>"; };
 		75CE28AE19F394AC002FF80F /* Uro.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Uro.pdf; sourceTree = "<group>"; };
-		75CE28AF19F394AC002FF80F /* Vasculaire.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Vasculaire.pdf; sourceTree = "<group>"; };
 		75CE28B119F394AC002FF80F /* Injection IM et IV.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Injection IM et IV.pdf"; sourceTree = "<group>"; };
 		75CE28B219F394AC002FF80F /* Injections.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Injections.pdf; sourceTree = "<group>"; };
-		75CE28B319F394AC002FF80F /* Introduction.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Introduction.pdf; sourceTree = "<group>"; };
 		75CE28B419F394AC002FF80F /* Pansement.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Pansement.pdf; sourceTree = "<group>"; };
 		75CE28B519F394AC002FF80F /* Transfusion sanguine.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Transfusion sanguine.pdf"; sourceTree = "<group>"; };
 		75CE28B719F394AC002FF80F /* Système ostéo-articulaire.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Système ostéo-articulaire.pdf"; sourceTree = "<group>"; };
 		75CE28B919F394AC002FF80F /* Polycopié de pharmacologie 2014.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Polycopié de pharmacologie 2014.pdf"; sourceTree = "<group>"; };
-		75CE28BB19F394AC002FF80F /* Anxiété.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Anxiété.pdf"; sourceTree = "<group>"; };
-		75CE28BC19F394AC002FF80F /* Dépression.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Dépression.pdf"; sourceTree = "<group>"; };
-		75CE28BD19F394AC002FF80F /* Sémiologie générale.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Sémiologie générale.pdf"; sourceTree = "<group>"; };
+		75CE28BB19F394AC002FF80F /* Anxiete.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Anxiete.pdf; sourceTree = "<group>"; };
+		75CE28BC19F394AC002FF80F /* Depression.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Depression.pdf; sourceTree = "<group>"; };
+		75CE28BD19F394AC002FF80F /* Semiologie generale.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Semiologie generale.pdf"; sourceTree = "<group>"; };
 		75CE28BF19F394AC002FF80F /* Sémiologie.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Sémiologie.pdf"; sourceTree = "<group>"; };
-		75CE28C119F394AC002FF80F /* Neuroanat3-MC.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Neuroanat3-MC.pdf"; sourceTree = "<group>"; };
 		75CE28C319F394AC002FF80F /* Secondary survey.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Secondary survey.pdf"; sourceTree = "<group>"; };
 		75CE28C519F394AC002FF80F /* Forum vaccins.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Forum vaccins.pdf"; sourceTree = "<group>"; };
 		75CE28EC19F3995D002FF80F /* pdf-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pdf-50.png"; sourceTree = "<group>"; };
@@ -710,6 +721,23 @@
 		FCB847B419FE90880047D902 /* Uro-génital - Lithiase urinaire.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Uro-génital - Lithiase urinaire.pdf"; sourceTree = "<group>"; };
 		FCB847B519FE90880047D902 /* Uro-génital - Recommandations IST.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Uro-génital - Recommandations IST.pdf"; sourceTree = "<group>"; };
 		FCB847B619FE90880047D902 /* Uro-génital - Urétrites.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Uro-génital - Urétrites.pdf"; sourceTree = "<group>"; };
+		FCF6C3DE1A0632FD00500E60 /* Troubles psychotiques.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Troubles psychotiques.pdf"; sourceTree = "<group>"; };
+		FCF6C3E01A0633A900500E60 /* Cahier TP.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Cahier TP.pdf"; sourceTree = "<group>"; };
+		FCF6C3E21A0633E100500E60 /* Semiologie2.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Semiologie2.pdf; sourceTree = "<group>"; };
+		FCF6C3E41A06343D00500E60 /* Vasculaire.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = Vasculaire.pdf; path = ../../../../../Documents/UDREM/ECC/Vasculaire.pdf; sourceTree = "<group>"; };
+		FCF6C3E61A06361C00500E60 /* Consultation.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Consultation.pdf; sourceTree = "<group>"; };
+		FCF6C3E81A06365300500E60 /* Genou.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = Genou.pdf; path = ../Genou.pdf; sourceTree = "<group>"; };
+		FCF6C3EA1A06366B00500E60 /* Coude.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = Coude.pdf; path = ../Coude.pdf; sourceTree = "<group>"; };
+		FCF6C3EC1A06372600500E60 /* Bassin.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Bassin.pdf; sourceTree = "<group>"; };
+		FCF6C3F41A06375600500E60 /* Rachis2.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Rachis2.pdf; sourceTree = "<group>"; };
+		FCF6C3F81A06412F00500E60 /* Autopiqueur.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Autopiqueur.pdf; sourceTree = "<group>"; };
+		FCF6C3FA1A06417B00500E60 /* Peridurale.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Peridurale.pdf; sourceTree = "<group>"; };
+		FCF6C3FC1A0641D400500E60 /* PDS-vacutainer.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "PDS-vacutainer.pdf"; sourceTree = "<group>"; };
+		FCF6C4001A06421F00500E60 /* Sondage-vesical.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Sondage-vesical.pdf"; sourceTree = "<group>"; };
+		FCF6C4021A06423C00500E60 /* VVP.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = VVP.pdf; sourceTree = "<group>"; };
+		FCF6C4041A0643EC00500E60 /* BLS.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = BLS.pdf; sourceTree = "<group>"; };
+		FCF6C4051A0643EC00500E60 /* Primary survey.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Primary survey.pdf"; sourceTree = "<group>"; };
+		FCF6C4081A0643F100500E60 /* Spine.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Spine.pdf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -886,7 +914,6 @@
 				75CE28B819F394AC002FF80F /* Pharmacologie */,
 				75CE28BA19F394AC002FF80F /* Psychiatrie */,
 				75CE28BE19F394AC002FF80F /* Respiration */,
-				75CE28C019F394AC002FF80F /* Résumés d'étudiants */,
 				75CE28C219F394AC002FF80F /* Urgences */,
 				75CE28C419F394AC002FF80F /* Vaccinologie */,
 			);
@@ -896,15 +923,6 @@
 		75CE288B19F394AC002FF80F /* Anatomie */ = {
 			isa = PBXGroup;
 			children = (
-				75103A7519FD635100BD458D /* Main-innervation.pdf */,
-				75103A7619FD635100BD458D /* Myologie dos.pdf */,
-				75103A7719FD635100BD458D /* Myologie MI.pdf */,
-				75103A7819FD635100BD458D /* Myologie MS.pdf */,
-				75103A7919FD635100BD458D /* Rachis.pdf */,
-				75103A7A19FD635100BD458D /* Pied.pdf */,
-				75103A7B19FD635100BD458D /* Hanche.pdf */,
-				75103A7C19FD635100BD458D /* Main.pdf */,
-				75103A7D19FD635100BD458D /* Epaule.pdf */,
 				75CE288C19F394AC002FF80F /* Cardiovasculaire */,
 				75CE288E19F394AC002FF80F /* Digestif */,
 				75CE289019F394AC002FF80F /* Lymphatique */,
@@ -959,26 +977,23 @@
 		75CE289619F394AC002FF80F /* Ostéo-articulaire */ = {
 			isa = PBXGroup;
 			children = (
-				75CE289719F394AC002FF80F /* Muscles et articulation */,
-				75CE289A19F394AC002FF80F /* Ostéologie */,
-			);
-			path = "Ostéo-articulaire";
-			sourceTree = "<group>";
-		};
-		75CE289719F394AC002FF80F /* Muscles et articulation */ = {
-			isa = PBXGroup;
-			children = (
+				FCF6C3EA1A06366B00500E60 /* Coude.pdf */,
+				FCF6C3E81A06365300500E60 /* Genou.pdf */,
+				75103A7519FD635100BD458D /* Main-innervation.pdf */,
+				75103A7619FD635100BD458D /* Myologie dos.pdf */,
+				FCF6C3EC1A06372600500E60 /* Bassin.pdf */,
+				75103A7719FD635100BD458D /* Myologie MI.pdf */,
+				75103A7819FD635100BD458D /* Myologie MS.pdf */,
+				75103A7919FD635100BD458D /* Rachis.pdf */,
+				75103A7A19FD635100BD458D /* Pied.pdf */,
+				FCF6C3F41A06375600500E60 /* Rachis2.pdf */,
+				75103A7B19FD635100BD458D /* Hanche.pdf */,
+				75103A7C19FD635100BD458D /* Main.pdf */,
 				75CE289819F394AC002FF80F /* Coude.pdf */,
 				75CE289919F394AC002FF80F /* Genou.pdf */,
+				75103A7D19FD635100BD458D /* Epaule.pdf */,
 			);
-			path = "Muscles et articulation";
-			sourceTree = "<group>";
-		};
-		75CE289A19F394AC002FF80F /* Ostéologie */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "Ostéologie";
+			path = "Ostéo-articulaire";
 			sourceTree = "<group>";
 		};
 		75CE289B19F394AC002FF80F /* Urologique */ = {
@@ -999,7 +1014,11 @@
 			isa = PBXGroup;
 			children = (
 				75CE28EE19F3AB82002FF80F /* Semiologie1.pdf */,
+				FCF6C3E21A0633E100500E60 /* Semiologie2.pdf */,
 				75CE28EF19F3AB82002FF80F /* Semiologie3.pdf */,
+				FCF6C3E01A0633A900500E60 /* Cahier TP.pdf */,
+				75CE28A419F394AC002FF80F /* Digestif1.pdf */,
+				75CE28A519F394AC002FF80F /* Digestif2.pdf */,
 			);
 			path = Digestif;
 			sourceTree = "<group>";
@@ -1008,18 +1027,12 @@
 			isa = PBXGroup;
 			children = (
 				75CE28A319F394AC002FF80F /* Cardio.pdf */,
-				75CE28A419F394AC002FF80F /* Digestif1.pdf */,
-				75CE28A519F394AC002FF80F /* Digestif2.pdf */,
-				75CE28A619F394AC002FF80F /* Loco1.pdf */,
-				75CE28A719F394AC002FF80F /* Loco2.pdf */,
-				75CE28A819F394AC002FF80F /* Loco3.pdf */,
 				75CE28A919F394AC002FF80F /* Neuro1.pdf */,
 				75CE28AA19F394AC002FF80F /* Neuro2.pdf */,
 				75CE28AB19F394AC002FF80F /* Neuro3.pdf */,
-				75CE28AC19F394AC002FF80F /* Respiratoire.pdf */,
 				75CE28AD19F394AC002FF80F /* Urgences.pdf */,
 				75CE28AE19F394AC002FF80F /* Uro.pdf */,
-				75CE28AF19F394AC002FF80F /* Vasculaire.pdf */,
+				FCF6C3E41A06343D00500E60 /* Vasculaire.pdf */,
 			);
 			path = ECC;
 			sourceTree = "<group>";
@@ -1027,9 +1040,13 @@
 		75CE28B019F394AC002FF80F /* Gestes techniques */ = {
 			isa = PBXGroup;
 			children = (
+				FCF6C4021A06423C00500E60 /* VVP.pdf */,
+				FCF6C3FA1A06417B00500E60 /* Peridurale.pdf */,
+				FCF6C3F81A06412F00500E60 /* Autopiqueur.pdf */,
 				75CE28B119F394AC002FF80F /* Injection IM et IV.pdf */,
 				75CE28B219F394AC002FF80F /* Injections.pdf */,
-				75CE28B319F394AC002FF80F /* Introduction.pdf */,
+				FCF6C4001A06421F00500E60 /* Sondage-vesical.pdf */,
+				FCF6C3FC1A0641D400500E60 /* PDS-vacutainer.pdf */,
 				75CE28B419F394AC002FF80F /* Pansement.pdf */,
 				75CE28B519F394AC002FF80F /* Transfusion sanguine.pdf */,
 			);
@@ -1039,6 +1056,9 @@
 		75CE28B619F394AC002FF80F /* Ostéo-articulaire */ = {
 			isa = PBXGroup;
 			children = (
+				75CE28A619F394AC002FF80F /* Loco1.pdf */,
+				75CE28A719F394AC002FF80F /* Loco2.pdf */,
+				75CE28A819F394AC002FF80F /* Loco3.pdf */,
 				75CE28B719F394AC002FF80F /* Système ostéo-articulaire.pdf */,
 			);
 			path = "Ostéo-articulaire";
@@ -1055,9 +1075,10 @@
 		75CE28BA19F394AC002FF80F /* Psychiatrie */ = {
 			isa = PBXGroup;
 			children = (
-				75CE28BB19F394AC002FF80F /* Anxiété.pdf */,
-				75CE28BC19F394AC002FF80F /* Dépression.pdf */,
-				75CE28BD19F394AC002FF80F /* Sémiologie générale.pdf */,
+				75CE28BB19F394AC002FF80F /* Anxiete.pdf */,
+				75CE28BC19F394AC002FF80F /* Depression.pdf */,
+				FCF6C3DE1A0632FD00500E60 /* Troubles psychotiques.pdf */,
+				75CE28BD19F394AC002FF80F /* Semiologie generale.pdf */,
 			);
 			path = Psychiatrie;
 			sourceTree = "<group>";
@@ -1065,22 +1086,18 @@
 		75CE28BE19F394AC002FF80F /* Respiration */ = {
 			isa = PBXGroup;
 			children = (
+				75CE28AC19F394AC002FF80F /* Respiratoire.pdf */,
 				75CE28BF19F394AC002FF80F /* Sémiologie.pdf */,
 			);
 			path = Respiration;
 			sourceTree = "<group>";
 		};
-		75CE28C019F394AC002FF80F /* Résumés d'étudiants */ = {
-			isa = PBXGroup;
-			children = (
-				75CE28C119F394AC002FF80F /* Neuroanat3-MC.pdf */,
-			);
-			path = "Résumés d'étudiants";
-			sourceTree = "<group>";
-		};
 		75CE28C219F394AC002FF80F /* Urgences */ = {
 			isa = PBXGroup;
 			children = (
+				FCF6C4081A0643F100500E60 /* Spine.pdf */,
+				FCF6C4041A0643EC00500E60 /* BLS.pdf */,
+				FCF6C4051A0643EC00500E60 /* Primary survey.pdf */,
 				75CE28C319F394AC002FF80F /* Secondary survey.pdf */,
 			);
 			path = Urgences;
@@ -1609,6 +1626,7 @@
 		FCB8478E19FE90880047D902 /* Médecine interne */ = {
 			isa = PBXGroup;
 			children = (
+				FCF6C3E61A06361C00500E60 /* Consultation.pdf */,
 				FCB8478F19FE90880047D902 /* Cardiologie - Fibrilation auriculaire.pdf */,
 				FCB8479019FE90880047D902 /* Cardiologie - Hypertension artérielle.pdf */,
 				FCB8479119FE90880047D902 /* Cardiovasculaire - IC chronique.pdf */,
@@ -1738,6 +1756,7 @@
 				758BDA7B19FBB734000EBC90 /* homeg-50.png in Resources */,
 				FCB847DE19FE90880047D902 /* Uro-génital - Urétrites.pdf in Resources */,
 				75CE28D919F394AC002FF80F /* Neuro3.pdf in Resources */,
+				FCF6C3FD1A0641D400500E60 /* PDS-vacutainer.pdf in Resources */,
 				FCB847D119FE90880047D902 /* Ostéoarticulaire - Douleur mono ou pauciarticulaire.pdf in Resources */,
 				C3080EDC17FED422008AE8CC /* add_news3.png in Resources */,
 				C36FBE59181D5CCF007AE52A /* navbar_uparrow.png in Resources */,
@@ -1786,10 +1805,9 @@
 				75CE28D519F394AC002FF80F /* Loco2.pdf in Resources */,
 				FCB847DB19FE90880047D902 /* Uro-génital - Infections urinaires.pdf in Resources */,
 				75103A8319FD635100BD458D /* Pied.pdf in Resources */,
-				75CE28E619F394AC002FF80F /* Dépression.pdf in Resources */,
+				75CE28E619F394AC002FF80F /* Depression.pdf in Resources */,
 				75CE28CB19F394AC002FF80F /* Coude.pdf in Resources */,
 				FCB847BD19FE90880047D902 /* Dermatologie - Acnée- verrues-mycoses.pdf in Resources */,
-				75CE28E919F394AC002FF80F /* Neuroanat3-MC.pdf in Resources */,
 				C3080F0917FEEDF8008AE8CC /* invite_twitter.png in Resources */,
 				FCB847CC19FE90880047D902 /* ORL-Pneumo - Asthme.pdf in Resources */,
 				75CE28E419F394AC002FF80F /* Polycopié de pharmacologie 2014.pdf in Resources */,
@@ -1817,7 +1835,9 @@
 				75CE28FD19F417B7002FF80F /* empty_filter-26.png in Resources */,
 				7506807A19EB245200EA0040 /* Arrow up.png in Resources */,
 				75E385CB19EFCC94006C60FF /* test.html in Resources */,
+				FCF6C3E51A06343D00500E60 /* Vasculaire.pdf in Resources */,
 				75CE28E319F394AC002FF80F /* Système ostéo-articulaire.pdf in Resources */,
+				FCF6C3EB1A06366B00500E60 /* Coude.pdf in Resources */,
 				C3080EDB17FED422008AE8CC /* add_news2@2x.png in Resources */,
 				75E385C519EFCC94006C60FF /* OCPDFGen-Info.plist in Resources */,
 				7524A45519E8932C006607C1 /* CCDC - Cahier.pdf in Resources */,
@@ -1837,9 +1857,10 @@
 				C3080EE017FED422008AE8CC /* add_recommend1.png in Resources */,
 				7524A47B19E9A682006607C1 /* Launch Screen.xib in Resources */,
 				75C9232519EA94810005CA31 /* check-on.png in Resources */,
+				FCF6C3DF1A0632FD00500E60 /* Troubles psychotiques.pdf in Resources */,
 				C3080E5717FE8827008AE8CC /* menu_setting@2x.png in Resources */,
 				75D869AD19F9077900F53AF1 /* menu-50.png in Resources */,
-				75CE28E519F394AC002FF80F /* Anxiété.pdf in Resources */,
+				75CE28E519F394AC002FF80F /* Anxiete.pdf in Resources */,
 				FCB847C219FE90880047D902 /* Gastro-intestinal - Elévation des tests hépatiques.pdf in Resources */,
 				C3080F0517FEEDF8008AE8CC /* invite_refresh.png in Resources */,
 				C3080F0217FEEDF8008AE8CC /* invite_fb_cursor@2x.png in Resources */,
@@ -1850,6 +1871,7 @@
 				C3080EA517FEBE55008AE8CC /* navbar_back@2x.png in Resources */,
 				C3080EDA17FED422008AE8CC /* add_news2.png in Resources */,
 				C3080E7917FE9E5B008AE8CC /* menu_icon_plus@2x.png in Resources */,
+				FCF6C3ED1A06372600500E60 /* Bassin.pdf in Resources */,
 				75CE28F719F3B513002FF80F /* checklist-50.png in Resources */,
 				C3080E8C17FEA685008AE8CC /* feed_comment_bg@2x.png in Resources */,
 				75CE28F919F3B6D9002FF80F /* switch_on-48.png in Resources */,
@@ -1865,6 +1887,7 @@
 				FCB847C019FE90880047D902 /* Gastro-intestinal - Douleur abdo chronique et intestin irritiable.pdf in Resources */,
 				C3080EB517FEC341008AE8CC /* setting_cell_indicator@2x.png in Resources */,
 				75CE28F519F3B486002FF80F /* checklist-32.png in Resources */,
+				FCF6C4061A0643EC00500E60 /* BLS.pdf in Resources */,
 				FCB847D319FE90880047D902 /* Pharmacologique - Douleur aigue.pdf in Resources */,
 				C3080E5517FE8827008AE8CC /* menu_layout_pen@2x.png in Resources */,
 				75CE28DB19F394AC002FF80F /* Urgences.pdf in Resources */,
@@ -1875,6 +1898,7 @@
 				75103A8119FD635100BD458D /* Myologie MS.pdf in Resources */,
 				7524A45119E8920F006607C1 /* pdfIcon.png in Resources */,
 				C3080EDF17FED422008AE8CC /* add_news4@2x.png in Resources */,
+				FCF6C3E71A06361C00500E60 /* Consultation.pdf in Resources */,
 				75CE28D419F394AC002FF80F /* Loco1.pdf in Resources */,
 				FCB847BF19FE90880047D902 /* Gastro-intestinal - Diarrhée aigues.pdf in Resources */,
 				C3080ED817FED422008AE8CC /* add_news1.png in Resources */,
@@ -1882,14 +1906,16 @@
 				C3080F0B17FEEDF8008AE8CC /* invite_vbar.png in Resources */,
 				FCB847BC19FE90880047D902 /* Communication - Approches de la consultation.pdf in Resources */,
 				758BDA8119FBB88B000EBC90 /* info-50.png in Resources */,
-				75CE28E019F394AC002FF80F /* Introduction.pdf in Resources */,
 				FCB847BA19FE90880047D902 /* Cardiovasculaire - Syncope.pdf in Resources */,
 				FCB847BE19FE90880047D902 /* Fibrillation auriculaire 2013.pdf in Resources */,
 				7524A47719E964E5006607C1 /* default.png in Resources */,
-				75CE28DD19F394AC002FF80F /* Vasculaire.pdf in Resources */,
+				FCF6C4071A0643EC00500E60 /* Primary survey.pdf in Resources */,
 				C3080E8117FEA622008AE8CC /* navbar_downarrow@2x.png in Resources */,
+				FCF6C3E31A0633E100500E60 /* Semiologie2.pdf in Resources */,
+				FCF6C4031A06423C00500E60 /* VVP.pdf in Resources */,
 				75CE28C719F394AC002FF80F /* Cahier TP Digestif.pdf in Resources */,
 				C3080E7017FE9397008AE8CC /* strings.plist in Resources */,
+				FCF6C3E11A0633A900500E60 /* Cahier TP.pdf in Resources */,
 				C3080ED917FED422008AE8CC /* add_news1@2x.png in Resources */,
 				75CE28DA19F394AC002FF80F /* Respiratoire.pdf in Resources */,
 				FCB847C419FE90880047D902 /* Hématologie - Déficit B12.pdf in Resources */,
@@ -1900,6 +1926,7 @@
 				C3080F0417FEEDF8008AE8CC /* invite_plus@2x.png in Resources */,
 				C3080EA917FEC08D008AE8CC /* search_close@2x.png in Resources */,
 				FCB847C319FE90880047D902 /* Hématologie - Anémie.pdf in Resources */,
+				FCF6C3E91A06365300500E60 /* Genou.pdf in Resources */,
 				C3080EFF17FEEDF8008AE8CC /* invite_fb.png in Resources */,
 				75CE28ED19F3995D002FF80F /* pdf-50.png in Resources */,
 				C3080EE217FED422008AE8CC /* add_recommend2.png in Resources */,
@@ -1913,6 +1940,7 @@
 				C3080EE117FED422008AE8CC /* add_recommend1@2x.png in Resources */,
 				C3080E4D17FE8827008AE8CC /* menu_cell_icon_favor@2x.png in Resources */,
 				C3080E7517FE9B79008AE8CC /* menu_color_selected@2x.png in Resources */,
+				FCF6C3F91A06412F00500E60 /* Autopiqueur.pdf in Resources */,
 				7506807219EAFB7900EA0040 /* QuestionsHeader.xib in Resources */,
 				7506807B19EB245200EA0040 /* Mail envelope.png in Resources */,
 				7506808219EC661000EA0040 /* Plus_black.png in Resources */,
@@ -1921,15 +1949,17 @@
 				7506807D19EB295B00EA0040 /* Plus.png in Resources */,
 				C3080EDD17FED422008AE8CC /* add_news3@2x.png in Resources */,
 				FCB847C119FE90880047D902 /* Gastro-intestinal - Dyspepsie.pdf in Resources */,
-				75CE28E719F394AC002FF80F /* Sémiologie générale.pdf in Resources */,
+				75CE28E719F394AC002FF80F /* Semiologie generale.pdf in Resources */,
 				C3080DF717FE86B8008AE8CC /* Main.storyboard in Resources */,
 				FCB847CB19FE90880047D902 /* Ophtalmologique - Oeil rouge.pdf in Resources */,
 				75C9231F19EA90DF0005CA31 /* entree.plist in Resources */,
+				FCF6C3FB1A06417B00500E60 /* Peridurale.pdf in Resources */,
 				C3080EDE17FED422008AE8CC /* add_news4.png in Resources */,
 				7524A45419E8932C006607C1 /* Katz-AVQ.pdf in Resources */,
 				7506807719EB1DDE00EA0040 /* checkmark_icon48.png in Resources */,
 				C3080EB417FEC341008AE8CC /* setting_cell_indicator.png in Resources */,
 				75CE28CA19F394AC002FF80F /* Cahier TP genitaux.pdf in Resources */,
+				FCF6C4011A06421F00500E60 /* Sondage-vesical.pdf in Resources */,
 				C3080E5417FE8827008AE8CC /* menu_layout_pen.png in Resources */,
 				C3080EA817FEC08D008AE8CC /* search_close.png in Resources */,
 				C3080E8317FEA622008AE8CC /* navbar_menu@2x.png in Resources */,
@@ -1941,9 +1971,11 @@
 				7524A45919E89360006607C1 /* filesList.plist in Resources */,
 				758BDA8319FBBC28000EBC90 /* cancel-48.png in Resources */,
 				75932D9519F2432B00D24223 /* ok-32.png in Resources */,
+				FCF6C3F51A06375600500E60 /* Rachis2.pdf in Resources */,
 				75CE28D819F394AC002FF80F /* Neuro2.pdf in Resources */,
 				75CE28FB19F3B783002FF80F /* switch_off-48.png in Resources */,
 				7524A47519E9501D006607C1 /* unige_logo.gif in Resources */,
+				FCF6C4091A0643F100500E60 /* Spine.pdf in Resources */,
 				C3080E7817FE9E5B008AE8CC /* menu_icon_plus.png in Resources */,
 				C36FBE55181D59A3007AE52A /* feed_option_bg.png in Resources */,
 				FCB847CE19FE90880047D902 /* ORL-Pneumo - IVRS.pdf in Resources */,

@@ -29,6 +29,60 @@
 			<string>La technique de transfusion sanguine</string>
 		</dict>
 	</array>
+	<key>Urgences</key>
+	<array>
+		<dict>
+			<key>Name</key>
+			<string>BLS.pdf</string>
+			<key>Description</key>
+			<string>Algorithme réanimation</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Primary survey.pdf</string>
+			<key>Description</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string></string>
+			<key>Description</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string></string>
+			<key>Description</key>
+			<string></string>
+		</dict>
+	</array>
+	<key>Psychiatrie</key>
+	<array>
+		<dict>
+			<key>Name</key>
+			<string>Semiologie generale.pdf</string>
+			<key>Description</key>
+			<string>Cours de sémiologie</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Anxiete.pdf</string>
+			<key>Description</key>
+			<string>Cours sur l&apos;anxiété</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Depression.pdf</string>
+			<key>Description</key>
+			<string>Cours sur la dépression</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Troubles psychotiques.pdf</string>
+			<key>Description</key>
+			<string>Cours sur les troubles psychotiques</string>
+		</dict>
+	</array>
 	<key>Gestes Techniques</key>
 	<array>
 		<dict>
@@ -41,13 +95,13 @@
 			<key>Name</key>
 			<string>Pansement.pdf</string>
 			<key>Description</key>
-			<string>Techinques de pansement</string>
+			<string>Techniques de pansement</string>
 		</dict>
 		<dict>
 			<key>Name</key>
 			<string>Injections.pdf</string>
 			<key>Description</key>
-			<string>Generalités Injections</string>
+			<string>Généralités Injections</string>
 		</dict>
 		<dict>
 			<key>Name</key>
@@ -57,16 +111,40 @@
 		</dict>
 		<dict>
 			<key>Name</key>
-			<string>Introduction.pdf</string>
+			<string>Autopiqueur.pdf</string>
 			<key>Description</key>
-			<string>Introduction aux gestes techniques</string>
+			<string>Utilisation du glucolet</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Peridurale.pdf</string>
+			<key>Description</key>
+			<string>Informations péridurale</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>PDS-vacutainer.pdf</string>
+			<key>Description</key>
+			<string>Méthode prise de sang</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Sondage-vesical.pdf</string>
+			<key>Description</key>
+			<string>Méthode du sondage vésical</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>VVP.pdf</string>
+			<key>Description</key>
+			<string>Voie veineuse périphérique</string>
 		</dict>
 	</array>
 	<key>Ostéoarticulaire</key>
 	<array>
 		<dict>
 			<key>Name</key>
-			<string>Loco3.pdf</string>
+			<string>Loco1.pdf</string>
 			<key>Description</key>
 			<string>ECC locomoteur</string>
 		</dict>
@@ -78,7 +156,7 @@
 		</dict>
 		<dict>
 			<key>Name</key>
-			<string>Loco1.pdf</string>
+			<string>Loco3.pdf</string>
 			<key>Description</key>
 			<string>ECC locomoteur</string>
 		</dict>
@@ -90,69 +168,81 @@
 		</dict>
 		<dict>
 			<key>Name</key>
+			<string>Bassin.pdf</string>
+			<key>Description</key>
+			<string>Anatomie - Ostéologie</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Hanche.pdf</string>
+			<key>Description</key>
+			<string>Anatomie - Ostéologie</string>
+		</dict>
+		<dict>
+			<key>Name</key>
 			<string>Genou.pdf</string>
 			<key>Description</key>
-			<string>Anatomie du Genou</string>
+			<string>Anatomie - Ostéologie</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Pied.pdf</string>
+			<key>Description</key>
+			<string>Anatomie - Ostéologie</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Epaule.pdf</string>
+			<key>Description</key>
+			<string>Anatomie - Ostéologie</string>
 		</dict>
 		<dict>
 			<key>Name</key>
 			<string>Coude.pdf</string>
 			<key>Description</key>
-			<string>Anatomie du Coude</string>
+			<string>Anatomie - Ostéologie</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Main.pdf</string>
+			<key>Description</key>
+			<string>Anatomie - Ostéologie</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Myologie MI.pdf</string>
+			<key>Description</key>
+			<string>Myologie</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Myologie MS.pdf</string>
+			<key>Description</key>
+			<string>Myologie</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Rachis2.pdf</string>
+			<key>Description</key>
+			<string>Anatomie - Ostéologie</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Rachis.pdf</string>
+			<key>Description</key>
+			<string>Anatomie - Arthrologie</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Myologie dos.pdf</string>
+			<key>Description</key>
+			<string>Myologie</string>
 		</dict>
 		<dict>
 			<key>Name</key>
 			<string>Main-innervation.pdf</string>
 			<key>Description</key>
 			<string>Innervation de la main</string>
-		</dict>
-		<dict>
-			<key>Name</key>
-			<string>Myologie dos.pdf</string>
-			<key>Description</key>
-			<string>Myologie du dos</string>
-		</dict>
-		<dict>
-			<key>Name</key>
-			<string>Myologie MI.pdf</string>
-			<key>Description</key>
-			<string>Myologie des MI</string>
-		</dict>
-		<dict>
-			<key>Name</key>
-			<string>Myologie MS.pdf</string>
-			<key>Description</key>
-			<string>Myologie des MS</string>
-		</dict>
-		<dict>
-			<key>Name</key>
-			<string>Rachis.pdf</string>
-			<key>Description</key>
-			<string>Anatomie du Rachis</string>
-		</dict>
-		<dict>
-			<key>Name</key>
-			<string>Hanche.pdf</string>
-			<key>Description</key>
-			<string>Anatomie de la Hanche</string>
-		</dict>
-		<dict>
-			<key>Name</key>
-			<string>Pied.pdf</string>
-			<key>Description</key>
-			<string>Anatomie du Pied</string>
-		</dict>
-		<dict>
-			<key>Name</key>
-			<string>Main.pdf</string>
-			<key>Description</key>
-			<string>Anatomie de la Main</string>
-		</dict>
-		<dict>
-			<key>Name</key>
-			<string>Epaule.pdf</string>
-			<key>Description</key>
-			<string>Anatomie de l&apos;Epaule</string>
 		</dict>
 	</array>
 	<key>Pharmacologie</key>
@@ -168,6 +258,12 @@
 	<array>
 		<dict>
 			<key>Name</key>
+			<string>Neuro1.pdf</string>
+			<key>Description</key>
+			<string>ECC Neurologie</string>
+		</dict>
+		<dict>
+			<key>Name</key>
 			<string>Neuro2.pdf</string>
 			<key>Description</key>
 			<string>ECC Neurologie</string>
@@ -180,15 +276,9 @@
 		</dict>
 		<dict>
 			<key>Name</key>
-			<string>Neuro1.pdf</string>
-			<key>Description</key>
-			<string>ECC Neurologie</string>
-		</dict>
-		<dict>
-			<key>Name</key>
 			<string>vascularisationSNC2013.pdf</string>
 			<key>Description</key>
-			<string>Vascularisation de SNC</string>
+			<string>Neuroanatomie - Vascularisation</string>
 		</dict>
 	</array>
 	<key>Cardiovasculaire</key>
@@ -197,7 +287,7 @@
 			<key>Name</key>
 			<string>Vasculaire.pdf</string>
 			<key>Description</key>
-			<string>Cahier TP - Vasculaire</string>
+			<string>ECC Vasculaire</string>
 		</dict>
 		<dict>
 			<key>Name</key>
@@ -209,23 +299,17 @@
 			<key>Name</key>
 			<string>Cahier TP Lymph.pdf</string>
 			<key>Description</key>
-			<string>Cahier TP - Système Lymphatique</string>
+			<string>Anatomie - Lymphatique</string>
 		</dict>
 		<dict>
 			<key>Name</key>
 			<string>Cahier TP Cardio.pdf</string>
 			<key>Description</key>
-			<string>Cahier TP - Cardiovasculaire</string>
+			<string>Anatomie - Cardio</string>
 		</dict>
 	</array>
 	<key>Digestif</key>
 	<array>
-		<dict>
-			<key>Name</key>
-			<string>Digestif2.pdf</string>
-			<key>Description</key>
-			<string>ECC digestif</string>
-		</dict>
 		<dict>
 			<key>Name</key>
 			<string>Digestif1.pdf</string>
@@ -234,21 +318,33 @@
 		</dict>
 		<dict>
 			<key>Name</key>
+			<string>Digestif2.pdf</string>
+			<key>Description</key>
+			<string>ECC digestif</string>
+		</dict>
+		<dict>
+			<key>Name</key>
 			<string>Cahier TP Digestif.pdf</string>
 			<key>Description</key>
-			<string>Cahier TP - Système Digestif </string>
+			<string>Anatomie - Digestif</string>
 		</dict>
 		<dict>
 			<key>Name</key>
 			<string>Semiologie1.pdf</string>
 			<key>Description</key>
-			<string>Semiologie Digestif #1</string>
+			<string>Sémiologie digestive</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Semiologie2.pdf</string>
+			<key>Description</key>
+			<string>Sémiologie digestive</string>
 		</dict>
 		<dict>
 			<key>Name</key>
 			<string>Semiologie3.pdf</string>
 			<key>Description</key>
-			<string>Semiologie Digestif #3</string>
+			<string>Sémiologie digestive</string>
 		</dict>
 	</array>
 	<key>Respiratoire</key>
@@ -258,6 +354,12 @@
 			<string>Sémiologie.pdf</string>
 			<key>Description</key>
 			<string>Sémiologie Respiratoire</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Respiratoire.pdf</string>
+			<key>Description</key>
+			<string>ECC Respiratoire</string>
 		</dict>
 	</array>
 	<key>Urinaire</key>
@@ -272,7 +374,7 @@
 			<key>Name</key>
 			<string>Cahier TP genitaux.pdf</string>
 			<key>Description</key>
-			<string>Cahier TP - Organes Genitaux</string>
+			<string>Anatomie - Organes Genitaux</string>
 		</dict>
 	</array>
 </dict>
