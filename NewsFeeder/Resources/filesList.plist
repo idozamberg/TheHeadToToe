@@ -8,25 +8,223 @@
 			<key>Name</key>
 			<string>Cardiologie - Fibrilation auriculaire.pdf</string>
 			<key>Description</key>
-			<string>Stratégie FA</string>
+			<string>Stratégie MPR</string>
 		</dict>
 		<dict>
 			<key>Name</key>
-			<string>Transfusion sanguine.pdf</string>
+			<string>Cardiologie - Hypertension artérielle.pdf</string>
 			<key>Description</key>
-			<string>La technique de transfusion sanguine</string>
+			<string>Stratégie MPR</string>
 		</dict>
 		<dict>
 			<key>Name</key>
-			<string>Transfusion sanguine.pdf</string>
+			<string>Cardiovasculaire - IC chronique.pdf</string>
 			<key>Description</key>
-			<string>La technique de transfusion sanguine</string>
+			<string>Stratégie MPR</string>
 		</dict>
 		<dict>
 			<key>Name</key>
-			<string>Transfusion sanguine.pdf</string>
+			<string>Cardiovasculaire - Syncope.pdf</string>
 			<key>Description</key>
-			<string>La technique de transfusion sanguine</string>
+			<string>Stratégie MPR</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Cardiovasculaire - Thrombose veineuse.pdf</string>
+			<key>Description</key>
+			<string>Stratégie MPR</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Gastro-intestinal - Diarrhée aigues.pdf</string>
+			<key>Description</key>
+			<string>Stratégie MPR</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Gastro-intestinal - Douleur abdo chronique et intestin irritiable.pdf</string>
+			<key>Description</key>
+			<string>Stratégie MPR</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Gastro-intestinal - Dyspepsie.pdf</string>
+			<key>Description</key>
+			<string>Stratégie MPR</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Gastro-intestinal - Elévation des tests hépatiques.pdf</string>
+			<key>Description</key>
+			<string>Stratégie MPR</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Hématologie - Anémie.pdf</string>
+			<key>Description</key>
+			<string>Stratégie MPR</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Hématologie - Déficit B12.pdf</string>
+			<key>Description</key>
+			<string>Stratégie MPR</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Immuno-allergologique - Rhinite allergique.pdf</string>
+			<key>Description</key>
+			<string>Stratégie MPR</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Immuno-allergologique - Urticaire et angio-oedème.pdf</string>
+			<key>Description</key>
+			<string>Stratégie MPR</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Infectieux - Fièvre au retour de voyage.pdf</string>
+			<key>Description</key>
+			<string>Stratégie MPR</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Métabolique - Diabète type 2.pdf</string>
+			<key>Description</key>
+			<string>Stratégie MPR</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Neurologique - Céphalées.pdf</string>
+			<key>Description</key>
+			<string>Stratégie MPR</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Neurologique - Vertiges.pdf</string>
+			<key>Description</key>
+			<string>Stratégie MPR</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Ophtalmologique - Oeil rouge.pdf</string>
+			<key>Description</key>
+			<string>Stratégie MPR</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>ORL-Pneumo - Asthme.pdf</string>
+			<key>Description</key>
+			<string>Stratégie MPR</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>ORL-Pneumo - BPCO.pdf</string>
+			<key>Description</key>
+			<string>Stratégie MPR</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>ORL-Pneumo - IVRS.pdf</string>
+			<key>Description</key>
+			<string>Stratégie MPR</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>ORL-Pneumo - PAC.pdf</string>
+			<key>Description</key>
+			<string>Stratégie MPR</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>ORL-Pneumo - Toux chronique.pdf</string>
+			<key>Description</key>
+			<string>Stratégie MPR</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Ostéoarticulaire - Douleur mono ou pauciarticulaire.pdf</string>
+			<key>Description</key>
+			<string>Stratégie MPR</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Ostéoarticulaire - Lombalgie aigue.pdf</string>
+			<key>Description</key>
+			<string>Stratégie MPR</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Pharmacologique - Douleur aigue.pdf</string>
+			<key>Description</key>
+			<string>Stratégie MPR</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Prévention - Dépistage.pdf</string>
+			<key>Description</key>
+			<string>Stratégie MPR</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Prévention - Vaccination.pdf</string>
+			<key>Description</key>
+			<string>Stratégie MPR</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Profil de patients - Evaluations gériatrique.pdf</string>
+			<key>Description</key>
+			<string>Stratégie MPR</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Profil de patients - Patient alcoolique.pdf</string>
+			<key>Description</key>
+			<string>Stratégie MPR</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Psychiatrique - Dépression.pdf</string>
+			<key>Description</key>
+			<string>Stratégie MPR</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Uro-génital - Colique néphrétique.pdf</string>
+			<key>Description</key>
+			<string>Stratégie MPR</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Uro-génital - Hématurie microscopique.pdf</string>
+			<key>Description</key>
+			<string>Stratégie MPR</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Uro-génital - Infections urinaires.pdf</string>
+			<key>Description</key>
+			<string>Stratégie MPR</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Uro-génital - Lithiase urinaire.pdf</string>
+			<key>Description</key>
+			<string>Stratégie MPR</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Uro-génital - Recommandations IST.pdf</string>
+			<key>Description</key>
+			<string>Stratégie MPR</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Uro-génital - Urétrites.pdf</string>
+			<key>Description</key>
+			<string>Stratégie MPR</string>
 		</dict>
 	</array>
 	<key>Urgences</key>
@@ -261,6 +459,12 @@
 			<string>Consultation.pdf</string>
 			<key>Description</key>
 			<string>Guide de la consultation</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Plan-de-vaccination-2014.pdf</string>
+			<key>Description</key>
+			<string>Résumé</string>
 		</dict>
 	</array>
 	<key>Neurologie</key>

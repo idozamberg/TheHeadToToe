@@ -328,6 +328,7 @@
 		FCF6C4061A0643EC00500E60 /* BLS.pdf in Resources */ = {isa = PBXBuildFile; fileRef = FCF6C4041A0643EC00500E60 /* BLS.pdf */; };
 		FCF6C4071A0643EC00500E60 /* Primary survey.pdf in Resources */ = {isa = PBXBuildFile; fileRef = FCF6C4051A0643EC00500E60 /* Primary survey.pdf */; };
 		FCF6C4091A0643F100500E60 /* Spine.pdf in Resources */ = {isa = PBXBuildFile; fileRef = FCF6C4081A0643F100500E60 /* Spine.pdf */; };
+		FCF6C40B1A06594A00500E60 /* Plan-de-vaccination-2014.pdf in Resources */ = {isa = PBXBuildFile; fileRef = FCF6C40A1A06594A00500E60 /* Plan-de-vaccination-2014.pdf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -738,6 +739,7 @@
 		FCF6C4041A0643EC00500E60 /* BLS.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = BLS.pdf; sourceTree = "<group>"; };
 		FCF6C4051A0643EC00500E60 /* Primary survey.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Primary survey.pdf"; sourceTree = "<group>"; };
 		FCF6C4081A0643F100500E60 /* Spine.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Spine.pdf; sourceTree = "<group>"; };
+		FCF6C40A1A06594A00500E60 /* Plan-de-vaccination-2014.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Plan-de-vaccination-2014.pdf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1627,6 +1629,7 @@
 			isa = PBXGroup;
 			children = (
 				FCF6C3E61A06361C00500E60 /* Consultation.pdf */,
+				FCF6C40A1A06594A00500E60 /* Plan-de-vaccination-2014.pdf */,
 				FCB8478F19FE90880047D902 /* Cardiologie - Fibrilation auriculaire.pdf */,
 				FCB8479019FE90880047D902 /* Cardiologie - Hypertension artérielle.pdf */,
 				FCB8479119FE90880047D902 /* Cardiovasculaire - IC chronique.pdf */,
@@ -1839,6 +1842,7 @@
 				75CE28E319F394AC002FF80F /* Système ostéo-articulaire.pdf in Resources */,
 				FCF6C3EB1A06366B00500E60 /* Coude.pdf in Resources */,
 				C3080EDB17FED422008AE8CC /* add_news2@2x.png in Resources */,
+				FCF6C40B1A06594A00500E60 /* Plan-de-vaccination-2014.pdf in Resources */,
 				75E385C519EFCC94006C60FF /* OCPDFGen-Info.plist in Resources */,
 				7524A45519E8932C006607C1 /* CCDC - Cahier.pdf in Resources */,
 				75CE28E219F394AC002FF80F /* Transfusion sanguine.pdf in Resources */,
