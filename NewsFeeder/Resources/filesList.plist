@@ -41,19 +41,19 @@
 			<key>Name</key>
 			<string>Primary survey.pdf</string>
 			<key>Description</key>
-			<string></string>
+			<string>Référence première partie</string>
 		</dict>
 		<dict>
 			<key>Name</key>
-			<string></string>
+			<string>Secondary survey.pdf</string>
 			<key>Description</key>
-			<string></string>
+			<string>Référence seconde partie</string>
 		</dict>
 		<dict>
 			<key>Name</key>
-			<string></string>
+			<string>Spine.pdf</string>
 			<key>Description</key>
-			<string></string>
+			<string>Urgences d&apos;un trauma spinal</string>
 		</dict>
 	</array>
 	<key>Psychiatrie</key>

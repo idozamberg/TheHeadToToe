@@ -54,6 +54,8 @@
 		<string>Pharmacologie</string>
 		<key>CELL_ROW9</key>
 		<string>Médecine interne</string>
+		<key>CELL_ROW10</key>
+		<string>Urgences</string>
 	</dict>
 	<key>SCREEN_SEARCH</key>
 	<dict>
