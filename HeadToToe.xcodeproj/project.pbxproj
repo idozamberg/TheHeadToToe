@@ -314,7 +314,6 @@
 		FCF6C3DF1A0632FD00500E60 /* Troubles psychotiques.pdf in Resources */ = {isa = PBXBuildFile; fileRef = FCF6C3DE1A0632FD00500E60 /* Troubles psychotiques.pdf */; };
 		FCF6C3E11A0633A900500E60 /* Cahier TP.pdf in Resources */ = {isa = PBXBuildFile; fileRef = FCF6C3E01A0633A900500E60 /* Cahier TP.pdf */; };
 		FCF6C3E31A0633E100500E60 /* Semiologie2.pdf in Resources */ = {isa = PBXBuildFile; fileRef = FCF6C3E21A0633E100500E60 /* Semiologie2.pdf */; };
-		FCF6C3E51A06343D00500E60 /* Vasculaire.pdf in Resources */ = {isa = PBXBuildFile; fileRef = FCF6C3E41A06343D00500E60 /* Vasculaire.pdf */; };
 		FCF6C3E71A06361C00500E60 /* Consultation.pdf in Resources */ = {isa = PBXBuildFile; fileRef = FCF6C3E61A06361C00500E60 /* Consultation.pdf */; };
 		FCF6C3E91A06365300500E60 /* Genou.pdf in Resources */ = {isa = PBXBuildFile; fileRef = FCF6C3E81A06365300500E60 /* Genou.pdf */; };
 		FCF6C3EB1A06366B00500E60 /* Coude.pdf in Resources */ = {isa = PBXBuildFile; fileRef = FCF6C3EA1A06366B00500E60 /* Coude.pdf */; };
@@ -1838,7 +1837,6 @@
 				75CE28FD19F417B7002FF80F /* empty_filter-26.png in Resources */,
 				7506807A19EB245200EA0040 /* Arrow up.png in Resources */,
 				75E385CB19EFCC94006C60FF /* test.html in Resources */,
-				FCF6C3E51A06343D00500E60 /* Vasculaire.pdf in Resources */,
 				75CE28E319F394AC002FF80F /* Système ostéo-articulaire.pdf in Resources */,
 				FCF6C3EB1A06366B00500E60 /* Coude.pdf in Resources */,
 				C3080EDB17FED422008AE8CC /* add_news2@2x.png in Resources */,
