@@ -9,8 +9,11 @@
 #import "PDFManager.h"
 #import "AdmissionQuestion.h"
 #import "OCPDFGenerator.h"
+#import "Scanner.h"
+#import "HTTFile.h"
 
 @implementation PDFManager
+@synthesize documentsUrls = _documentsUrls;
 
 static PDFManager* sharePDF;
 
@@ -23,6 +26,18 @@ static PDFManager* sharePDF;
     }
     
     return sharePDF;
+}
+
+- (id) init
+{
+    self = [super init];
+    
+    if (self)
+    {
+        //[self loadDocumentsUrl];
+    }
+    
+    return self;
 }
 
 - (NSString*) createPdfFromDictionary : (NSMutableDictionary*) dict andShouldFilter : (BOOL) shouldFilter
@@ -139,4 +154,100 @@ static PDFManager* sharePDF;
 
     return NO;
 }
+
+# pragma mark PDF Scanner
+- (void) loadDocumentsUrl
+{
+    NSArray *userDocuments = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
+    NSURL *docementsURL = [NSURL fileURLWithPath:[userDocuments lastObject]];
+    NSLog(@"%@", docementsURL);
+    NSArray *documentsURLs = [[NSFileManager defaultManager] contentsOfDirectoryAtURL:docementsURL
+                                                           includingPropertiesForKeys:nil
+                                                                              options:NSDirectoryEnumerationSkipsHiddenFiles
+                                                                                error:nil];
+    
+    NSMutableArray *names = [NSMutableArray array];
+    NSMutableDictionary *urls = [NSMutableDictionary dictionary];
+    
+    NSArray *bundledResources = [[NSBundle mainBundle] URLsForResourcesWithExtension:@"pdf" subdirectory:nil];
+    documentsURLs = [documentsURLs arrayByAddingObjectsFromArray:bundledResources];
+    
+    for (NSURL *docURL in documentsURLs)
+    {
+        NSString *title = [[docURL lastPathComponent] stringByDeletingPathExtension];
+        [names addObject:title];
+        [urls setObject:docURL forKey:title];
+    }
+    
+    _documentsUrls = [[NSDictionary alloc] initWithDictionary:urls];
+}
+
+- (NSMutableArray*) findStringInPdfLibrary : (NSString*) searchPhrase
+{
+    NSArray* filesList = [[AppData sharedInstance] flattenedFilesArray];
+    NSMutableArray* listOfFilesWithSearchString = [NSMutableArray new];
+    
+    // Going through all files
+    for (HTTFile* currFile in filesList)
+    {
+        // Getting Current Url
+        NSURL* currUrl = [NSURL fileURLWithPath:[self getFileFullPath:currFile.name]];
+        
+        // Checking if file has string
+        if ([self hasStringInFileWithName:currUrl andString:searchPhrase])
+        {
+            // Adding file to list
+            [listOfFilesWithSearchString addObject:currFile];
+        }
+    }
+    
+    return listOfFilesWithSearchString;
+}
+
+- (NSString*) getFileFullPath : (NSString*) name
+{
+    // Setting up file name
+    NSString *phrase = nil; // Document password (for unlocking most encrypted PDF files)
+    NSFileManager *fileManager = [NSFileManager new];
+    NSURL *pathURL = [fileManager URLForDirectory:NSDocumentDirectory inDomain:NSUserDomainMask appropriateForURL:nil create:YES error:NULL];
+    
+    NSString *documentsPath = [pathURL path];
+    NSArray *fileList = [fileManager contentsOfDirectoryAtPath:documentsPath error:NULL];
+    NSString *fileName = [fileList firstObject]; // Presume that the first file is a PDF
+    NSString *filePath = [documentsPath stringByAppendingPathComponent:name];
+    
+    return filePath;
+}
+
+- (BOOL) hasStringInFileWithName :(NSURL*) fileUrl andString : (NSString*) searchString
+{
+    CGPDFDocumentRef document;
+    
+    // Creating document
+    document = CGPDFDocumentCreateWithURL((CFURLRef)fileUrl);
+    
+    // Getting the number of pages
+    size_t numberOfpages = CGPDFDocumentGetNumberOfPages(document);
+    
+    // Going through all pages
+    for (int pageNumber = 1; pageNumber <= numberOfpages; pageNumber++)
+    {
+        // Scan current page
+        CGPDFPageRef page = CGPDFDocumentGetPage(document, pageNumber);
+        Scanner *scanner = [Scanner scannerWithPage:page];
+        
+        // Getting results
+        NSArray *selections = [scanner select:searchString];
+        
+        // Check if we have results
+        if (selections.count > 0)
+        {
+            return YES;
+        }
+    }
+    
+    return NO;
+}
+
+
 @end

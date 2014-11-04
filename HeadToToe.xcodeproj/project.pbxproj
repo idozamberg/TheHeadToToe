@@ -53,31 +53,27 @@
 		7524A47919E98A27006607C1 /* Share icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 7524A47819E98A27006607C1 /* Share icon.png */; };
 		7524A47B19E9A682006607C1 /* Launch Screen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7524A47A19E9A682006607C1 /* Launch Screen.xib */; };
 		7524A47D19EA5FD1006607C1 /* external-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 7524A47C19EA5FD1006607C1 /* external-50.png */; };
-		75470BC21A07E0D400563414 /* CIDFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 75470B8F1A07E0D400563414 /* CIDFont.m */; };
-		75470BC31A07E0D400563414 /* CIDType0Font.m in Sources */ = {isa = PBXBuildFile; fileRef = 75470B911A07E0D400563414 /* CIDType0Font.m */; };
-		75470BC41A07E0D400563414 /* CIDType2Font.m in Sources */ = {isa = PBXBuildFile; fileRef = 75470B931A07E0D400563414 /* CIDType2Font.m */; };
-		75470BC51A07E0D400563414 /* CMap.m in Sources */ = {isa = PBXBuildFile; fileRef = 75470B951A07E0D400563414 /* CMap.m */; };
-		75470BC61A07E0D400563414 /* CompositeFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 75470B971A07E0D400563414 /* CompositeFont.m */; };
-		75470BC81A07E0D400563414 /* Font.m in Sources */ = {isa = PBXBuildFile; fileRef = 75470B9B1A07E0D400563414 /* Font.m */; };
+		75470BC21A07E0D400563414 /* CIDFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 75470B8F1A07E0D400563414 /* CIDFont.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		75470BC31A07E0D400563414 /* CIDType0Font.m in Sources */ = {isa = PBXBuildFile; fileRef = 75470B911A07E0D400563414 /* CIDType0Font.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		75470BC41A07E0D400563414 /* CIDType2Font.m in Sources */ = {isa = PBXBuildFile; fileRef = 75470B931A07E0D400563414 /* CIDType2Font.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		75470BC51A07E0D400563414 /* CMap.m in Sources */ = {isa = PBXBuildFile; fileRef = 75470B951A07E0D400563414 /* CMap.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		75470BC61A07E0D400563414 /* CompositeFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 75470B971A07E0D400563414 /* CompositeFont.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		75470BC81A07E0D400563414 /* Font.m in Sources */ = {isa = PBXBuildFile; fileRef = 75470B9B1A07E0D400563414 /* Font.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		75470BC91A07E0D400563414 /* FontCollection.m in Sources */ = {isa = PBXBuildFile; fileRef = 75470B9D1A07E0D400563414 /* FontCollection.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		75470BCA1A07E0D400563414 /* FontDescriptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 75470B9F1A07E0D400563414 /* FontDescriptor.m */; };
-		75470BCB1A07E0D400563414 /* FontFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 75470BA11A07E0D400563414 /* FontFile.m */; };
-		75470BCC1A07E0D400563414 /* MMType1Font.m in Sources */ = {isa = PBXBuildFile; fileRef = 75470BA31A07E0D400563414 /* MMType1Font.m */; };
-		75470BCD1A07E0D400563414 /* Page.m in Sources */ = {isa = PBXBuildFile; fileRef = 75470BA51A07E0D400563414 /* Page.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		75470BCE1A07E0D400563414 /* PageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 75470BA71A07E0D400563414 /* PageView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		75470BCF1A07E0D400563414 /* PDFPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 75470BA91A07E0D400563414 /* PDFPage.m */; };
-		75470BD01A07E0D400563414 /* PDFPageDetailsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 75470BAB1A07E0D400563414 /* PDFPageDetailsView.m */; };
+		75470BCA1A07E0D400563414 /* FontDescriptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 75470B9F1A07E0D400563414 /* FontDescriptor.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		75470BCB1A07E0D400563414 /* FontFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 75470BA11A07E0D400563414 /* FontFile.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		75470BCC1A07E0D400563414 /* MMType1Font.m in Sources */ = {isa = PBXBuildFile; fileRef = 75470BA31A07E0D400563414 /* MMType1Font.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		75470BD11A07E0D400563414 /* pdfScannerCallbacks.mm in Sources */ = {isa = PBXBuildFile; fileRef = 75470BAC1A07E0D400563414 /* pdfScannerCallbacks.mm */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		75470BD21A07E0D400563414 /* RenderingState.m in Sources */ = {isa = PBXBuildFile; fileRef = 75470BAE1A07E0D400563414 /* RenderingState.m */; };
-		75470BD31A07E0D400563414 /* RenderingStateStack.m in Sources */ = {isa = PBXBuildFile; fileRef = 75470BB01A07E0D400563414 /* RenderingStateStack.m */; };
+		75470BD21A07E0D400563414 /* RenderingState.m in Sources */ = {isa = PBXBuildFile; fileRef = 75470BAE1A07E0D400563414 /* RenderingState.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		75470BD31A07E0D400563414 /* RenderingStateStack.m in Sources */ = {isa = PBXBuildFile; fileRef = 75470BB01A07E0D400563414 /* RenderingStateStack.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		75470BD41A07E0D400563414 /* Scanner.m in Sources */ = {isa = PBXBuildFile; fileRef = 75470BB21A07E0D400563414 /* Scanner.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		75470BD51A07E0D400563414 /* Selection.m in Sources */ = {isa = PBXBuildFile; fileRef = 75470BB41A07E0D400563414 /* Selection.m */; };
-		75470BD61A07E0D400563414 /* SimpleFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 75470BB61A07E0D400563414 /* SimpleFont.m */; };
-		75470BD71A07E0D400563414 /* StringDetector.m in Sources */ = {isa = PBXBuildFile; fileRef = 75470BB81A07E0D400563414 /* StringDetector.m */; };
-		75470BD81A07E0D400563414 /* TrueTypeFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 75470BBB1A07E0D400563414 /* TrueTypeFont.m */; };
-		75470BD91A07E0D400563414 /* Type0Font.m in Sources */ = {isa = PBXBuildFile; fileRef = 75470BBD1A07E0D400563414 /* Type0Font.m */; };
-		75470BDA1A07E0D400563414 /* Type1Font.m in Sources */ = {isa = PBXBuildFile; fileRef = 75470BBF1A07E0D400563414 /* Type1Font.m */; };
-		75470BDB1A07E0D400563414 /* Type3Font.m in Sources */ = {isa = PBXBuildFile; fileRef = 75470BC11A07E0D400563414 /* Type3Font.m */; };
+		75470BD51A07E0D400563414 /* Selection.m in Sources */ = {isa = PBXBuildFile; fileRef = 75470BB41A07E0D400563414 /* Selection.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		75470BD61A07E0D400563414 /* SimpleFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 75470BB61A07E0D400563414 /* SimpleFont.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		75470BD71A07E0D400563414 /* StringDetector.m in Sources */ = {isa = PBXBuildFile; fileRef = 75470BB81A07E0D400563414 /* StringDetector.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		75470BD81A07E0D400563414 /* TrueTypeFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 75470BBB1A07E0D400563414 /* TrueTypeFont.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		75470BD91A07E0D400563414 /* Type0Font.m in Sources */ = {isa = PBXBuildFile; fileRef = 75470BBD1A07E0D400563414 /* Type0Font.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		75470BDA1A07E0D400563414 /* Type1Font.m in Sources */ = {isa = PBXBuildFile; fileRef = 75470BBF1A07E0D400563414 /* Type1Font.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		75470BDB1A07E0D400563414 /* Type3Font.m in Sources */ = {isa = PBXBuildFile; fileRef = 75470BC11A07E0D400563414 /* Type3Font.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		758BDA7219FBA510000EBC90 /* ATCAnimatedTransitioning.m in Sources */ = {isa = PBXBuildFile; fileRef = 758BDA6719FBA510000EBC90 /* ATCAnimatedTransitioning.m */; };
 		758BDA7319FBA510000EBC90 /* ATCAnimatedTransitioningBounce.m in Sources */ = {isa = PBXBuildFile; fileRef = 758BDA6919FBA510000EBC90 /* ATCAnimatedTransitioningBounce.m */; };
 		758BDA7419FBA510000EBC90 /* ATCAnimatedTransitioningFade.m in Sources */ = {isa = PBXBuildFile; fileRef = 758BDA6B19FBA510000EBC90 /* ATCAnimatedTransitioningFade.m */; };
@@ -445,14 +441,6 @@
 		75470BA11A07E0D400563414 /* FontFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FontFile.m; sourceTree = "<group>"; };
 		75470BA21A07E0D400563414 /* MMType1Font.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMType1Font.h; sourceTree = "<group>"; };
 		75470BA31A07E0D400563414 /* MMType1Font.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMType1Font.m; sourceTree = "<group>"; };
-		75470BA41A07E0D400563414 /* Page.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Page.h; sourceTree = "<group>"; };
-		75470BA51A07E0D400563414 /* Page.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Page.m; sourceTree = "<group>"; };
-		75470BA61A07E0D400563414 /* PageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageView.h; sourceTree = "<group>"; };
-		75470BA71A07E0D400563414 /* PageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageView.m; sourceTree = "<group>"; };
-		75470BA81A07E0D400563414 /* PDFPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDFPage.h; sourceTree = "<group>"; };
-		75470BA91A07E0D400563414 /* PDFPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDFPage.m; sourceTree = "<group>"; };
-		75470BAA1A07E0D400563414 /* PDFPageDetailsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDFPageDetailsView.h; sourceTree = "<group>"; };
-		75470BAB1A07E0D400563414 /* PDFPageDetailsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDFPageDetailsView.m; sourceTree = "<group>"; };
 		75470BAC1A07E0D400563414 /* pdfScannerCallbacks.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = pdfScannerCallbacks.mm; sourceTree = "<group>"; };
 		75470BAD1A07E0D400563414 /* RenderingState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RenderingState.h; sourceTree = "<group>"; };
 		75470BAE1A07E0D400563414 /* RenderingState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RenderingState.m; sourceTree = "<group>"; };
@@ -938,14 +926,6 @@
 				75470BA11A07E0D400563414 /* FontFile.m */,
 				75470BA21A07E0D400563414 /* MMType1Font.h */,
 				75470BA31A07E0D400563414 /* MMType1Font.m */,
-				75470BA41A07E0D400563414 /* Page.h */,
-				75470BA51A07E0D400563414 /* Page.m */,
-				75470BA61A07E0D400563414 /* PageView.h */,
-				75470BA71A07E0D400563414 /* PageView.m */,
-				75470BA81A07E0D400563414 /* PDFPage.h */,
-				75470BA91A07E0D400563414 /* PDFPage.m */,
-				75470BAA1A07E0D400563414 /* PDFPageDetailsView.h */,
-				75470BAB1A07E0D400563414 /* PDFPageDetailsView.m */,
 				75470BAC1A07E0D400563414 /* pdfScannerCallbacks.mm */,
 				75470BAD1A07E0D400563414 /* RenderingState.h */,
 				75470BAE1A07E0D400563414 /* RenderingState.m */,
@@ -2179,7 +2159,6 @@
 				75470BD61A07E0D400563414 /* SimpleFont.m in Sources */,
 				75470BDB1A07E0D400563414 /* Type3Font.m in Sources */,
 				7506808919EDC6A700EA0040 /* LabValueCell.m in Sources */,
-				75470BCD1A07E0D400563414 /* Page.m in Sources */,
 				758BDA7619FBA510000EBC90 /* ATCAnimatedTransitioningSquish.m in Sources */,
 				7524A44B19E89099006607C1 /* FileListViewController.m in Sources */,
 				75470BC81A07E0D400563414 /* Font.m in Sources */,
@@ -2201,7 +2180,6 @@
 				C3080DF017FE86B8008AE8CC /* main.m in Sources */,
 				7506809119EDC6F600EA0040 /* LabValue.m in Sources */,
 				75470BDA1A07E0D400563414 /* Type1Font.m in Sources */,
-				75470BCE1A07E0D400563414 /* PageView.m in Sources */,
 				751771A819F79D10009BF487 /* HTTVideoTableViewCell.m in Sources */,
 				75E385C819EFCC94006C60FF /* resource.c in Sources */,
 				75E385C919EFCC94006C60FF /* setup.c in Sources */,
@@ -2233,7 +2211,6 @@
 				C3080EE617FED430008AE8CC /* AddViewController.m in Sources */,
 				C3080E9317FEAA0E008AE8CC /* FeedItemView.m in Sources */,
 				75E385C219EFCC94006C60FF /* mkdio.c in Sources */,
-				75470BCF1A07E0D400563414 /* PDFPage.m in Sources */,
 				C3080EC317FEC64C008AE8CC /* SettingOptionCell.m in Sources */,
 				75E385C719EFCC94006C60FF /* OCViewController.m in Sources */,
 				758BDA7319FBA510000EBC90 /* ATCAnimatedTransitioningBounce.m in Sources */,
@@ -2245,7 +2222,6 @@
 				75C9232B19EA9A160005CA31 /* AdmissionViewController.m in Sources */,
 				C3080E4917FE8827008AE8CC /* SuperTableCell.m in Sources */,
 				C3080EC017FEC63F008AE8CC /* SettingPersonCell.m in Sources */,
-				75470BD01A07E0D400563414 /* PDFPageDetailsView.m in Sources */,
 				C3080EC917FECE1C008AE8CC /* NewsItemData.m in Sources */,
 				75470BCB1A07E0D400563414 /* FontFile.m in Sources */,
 				75C9231D19EA90100005CA31 /* HTTListTableViewCell.m in Sources */,

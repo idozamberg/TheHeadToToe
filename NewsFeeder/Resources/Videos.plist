@@ -201,6 +201,48 @@
 		</dict>
 		<dict>
 			<key>Name</key>
+			<string>w0KoH1pn2qY</string>
+			<key>Description</key>
+			<string>Inspection</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>ZoXbHvFhbi0</string>
+			<key>Description</key>
+			<string>Auscultation</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>SttVJb4FhGg</string>
+			<key>Description</key>
+			<string>Percussion</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>FZymEb1Nmb4</string>
+			<key>Description</key>
+			<string>Palpation</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>W8uI15AbH7s</string>
+			<key>Description</key>
+			<string>Palpation du Foie</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>fH9H7dX9cRI</string>
+			<key>Description</key>
+			<string>Palpation de la Rate</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Jo11Ev0u-Zk</string>
+			<key>Description</key>
+			<string>Palpation - Aorte et LR</string>
+		</dict>
+		<dict>
+			<key>Name</key>
 			<string>QO8r_xqamyc</string>
 			<key>Description</key>
 			<string>Examen digestif OSCE</string>

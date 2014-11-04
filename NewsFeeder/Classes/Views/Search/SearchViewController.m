@@ -11,6 +11,7 @@
 #import "QuestionsHeader.h"
 #import "UIView+Framing.h"
 #import "AnalyticsManager.h"
+#import "PDFManager.h"
 @interface SearchViewController ()
 {
     ReaderViewController* readerViewController;
@@ -90,6 +91,7 @@
 
 - (void) filterArrayByText :(NSString*) text
 {
+
     filteredArray = [NSMutableArray new];
     
     // Creating predicate for files and videos
@@ -101,18 +103,21 @@
     [NSPredicate predicateWithFormat:@"(SELF.name contains[cd] %@) OR (SELF.value contains[cd] %@)",text,text];
     
     // Filtering the array
-    filteredArrayFiles = [[_dataSourceArray objectAtIndex:0] filteredArrayUsingPredicate:filePredicate];
-    filteredArrayVideos = [[_dataSourceArray objectAtIndex:2] filteredArrayUsingPredicate:filePredicate];
-    filteredArrayLab = [[_dataSourceArray objectAtIndex:1] filteredArrayUsingPredicate:labPredicate];
+    filteredArrayFiles = [[NSMutableArray alloc] initWithArray:
+    [[_dataSourceArray objectAtIndex:0] filteredArrayUsingPredicate:filePredicate]];
     
+    filteredArrayVideos = (NSMutableArray*)[[_dataSourceArray objectAtIndex:2] filteredArrayUsingPredicate:filePredicate];
+    filteredArrayLab = (NSMutableArray*)[[_dataSourceArray objectAtIndex:1] filteredArrayUsingPredicate:labPredicate];
     
-    // Adding only if we have search results!
-
+    /*
+    // Scanning pdf files
+    NSMutableArray* scanResults = [[PDFManager sharedInstance] findStringInPdfLibrary:text];
+    // Adding result from files scanner
+    [filteredArrayFiles addObjectsFromArray:scanResults];*/
+    
     [filteredArray addObject:filteredArrayFiles];
     [filteredArray addObject:filteredArrayLab];
     [filteredArray addObject:filteredArrayVideos];
-
-
 
 }
 - (void)didReceiveMemoryWarning
