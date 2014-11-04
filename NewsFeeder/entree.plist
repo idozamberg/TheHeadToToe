@@ -2,83 +2,44 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>Examen Physique</key>
+	<key>Anamnèse Generale</key>
 	<dict>
-		<key>Général</key>
+		<key>Antécédents personnels</key>
 		<array>
-			<string>TA</string>
-			<string>Pouls</string>
-			<string>T°</string>
-			<string>Poids</string>
-			<string>Saturation O2%</string>
-			<string>Asthénie</string>
-			<string>Cyanose</string>
-			<string>Ictère</string>
+			<string>Maladies</string>
+			<string>Interventions chirurgicales</string>
+			<string>Traumatismes</string>
+			<string>Hospitalisations</string>
+			<string>ATCD psychiatriques</string>
+			<string>Autres ATCD</string>
 		</array>
-		<key>Cardiovasculaire</key>
+		<key>Anamnèse actuelle</key>
 		<array>
-			<string>B1-B2 bien frappé</string>
-			<string>Souffle Cardiaque</string>
-			<string>TJ</string>
-			<string>RHJ</string>
-			<string>Souffle Carotidien</string>
-			<string>Oedèmes des MI</string>
-			<string>Pouls Pédieux</string>
+			<string>Que-est que vous améne aujourdhui ?</string>
 		</array>
-		<key>Respiratoire</key>
+		<key>Anamnèse psychosociale</key>
 		<array>
-			<string>MVS</string>
-			<string>Râles crepitants</string>
-			<string>Sifflement </string>
-			<string>Hypoventilation</string>
-			<string>Matité à la percussion</string>
+			<string>Transferts</string>
+			<string>Marche</string>
+			<string>AVQ/AVI</string>
+			<string>Aide à domicile</string>
 		</array>
-		<key>Digestif</key>
+		<key>Habitudes</key>
 		<array>
-			<string>Bruits Fréquence Normale</string>
-			<string>Bruits Tonalité Normale</string>
-			<string>ASI</string>
-			<string>HSM</string>
-			<string>Détente</string>
-			<string>Défense</string>
-			<string>Signe de Murphy</string>
-			<string>Douleur au McBurney</string>
-			<string>Pyrosis</string>
-			<string>Régurgitations</string>
-			<string>Ictère/prurit</string>
+			<string>Tabac</string>
+			<string>Alcool</string>
+			<string>Drogues</string>
+			<string>Alimentation</string>
+			<string>Exercice</string>
+			<string>Allergies</string>
 		</array>
-		<key>Uro-génital</key>
+		<key>FRCV</key>
 		<array>
-			<string>LRSI</string>
-			<string>Globe</string>
-		</array>
-		<key>Neurologique</key>
-		<array>
-			<string>Orienté dans l&apos;espace</string>
-			<string>Orienté dans le temps</string>
-			<string>Hallucinations</string>
-			<string>Délire</string>
-			<string>Trouble de l&apos;humeur</string>
-			<string>Examen de NC</string>
-			<string>Pupilles Isocore</string>
-			<string>Pupilles Isoréactive</string>
-			<string>Signes méningisme</string>
-			<string>Force</string>
-			<string>Sesibilité</string>
-			<string>Coordination</string>
-			<string>ROT</string>
-			<string>Mingazzini</string>
-			<string>Trouble de la parole </string>
-		</array>
-		<key>Musculo-squelettique</key>
-		<array>
-			<string>Scoliose</string>
-			<string>Déformation</string>
-			<string>Douleurs articulaires</string>
-			<string>Douleur percussion rachis</string>
-			<string>Douleur à la mobilisation</string>
-			<string>Tuméfaction</string>
-			<string>Chaleur</string>
+			<string>HTA</string>
+			<string>Tabac</string>
+			<string>Diabète</string>
+			<string>Hypercholestérolémie</string>
+			<string>ATCD Familiale </string>
 		</array>
 	</dict>
 	<key>Anamnèse par sytème</key>
@@ -188,44 +149,83 @@
 			<string>Capable de monter et descendre les escaliers</string>
 		</array>
 	</dict>
-	<key>Anamnèse Generale</key>
+	<key>Examen Physique</key>
 	<dict>
-		<key>Antécédents personnels</key>
+		<key>Général</key>
 		<array>
-			<string>Maladies</string>
-			<string>Interventions chirurgicales</string>
-			<string>Traumatismes</string>
-			<string>Hospitalisations</string>
-			<string>ATCD psychiatriques</string>
-			<string>Autres ATCD</string>
+			<string>TA</string>
+			<string>Pouls</string>
+			<string>T°</string>
+			<string>Poids</string>
+			<string>Saturation O2%</string>
+			<string>Asthénie</string>
+			<string>Cyanose</string>
+			<string>Ictère</string>
 		</array>
-		<key>Anamnèse actuelle</key>
+		<key>Cardiovasculaire</key>
 		<array>
-			<string>Que-est que vous améne aujourdhui ?</string>
+			<string>B1-B2 bien frappé</string>
+			<string>Souffle Cardiaque</string>
+			<string>TJ</string>
+			<string>RHJ</string>
+			<string>Souffle Carotidien</string>
+			<string>Oedèmes des MI</string>
+			<string>Pouls Pédieux</string>
 		</array>
-		<key>Anamnèse psychosociale</key>
+		<key>Respiratoire</key>
 		<array>
-			<string>Transferts</string>
-			<string>Marche</string>
-			<string>AVQ/AVI</string>
-			<string>Aide à domicile</string>
+			<string>MVS</string>
+			<string>Râles crepitants</string>
+			<string>Sifflement </string>
+			<string>Hypoventilation</string>
+			<string>Matité à la percussion</string>
 		</array>
-		<key>Habitudes</key>
+		<key>Digestif</key>
 		<array>
-			<string>Tabac</string>
-			<string>Alcool</string>
-			<string>Drogues</string>
-			<string>Alimentation</string>
-			<string>Exercice</string>
-			<string>Allergies</string>
+			<string>Bruits Fréquence Normale</string>
+			<string>Bruits Tonalité Normale</string>
+			<string>ASI</string>
+			<string>HSM</string>
+			<string>Détente</string>
+			<string>Défense</string>
+			<string>Signe de Murphy</string>
+			<string>Douleur au McBurney</string>
+			<string>Pyrosis</string>
+			<string>Régurgitations</string>
+			<string>Ictère/prurit</string>
 		</array>
-		<key>FRCV</key>
+		<key>Uro-génital</key>
 		<array>
-			<string>HTA</string>
-			<string>Tabac</string>
-			<string>Diabète</string>
-			<string>Hypercholestérolémie</string>
-			<string>Dyslipidémie</string>
+			<string>LRSI</string>
+			<string>Globe</string>
+		</array>
+		<key>Neurologique</key>
+		<array>
+			<string>Orienté dans l&apos;espace</string>
+			<string>Orienté dans le temps</string>
+			<string>Hallucinations</string>
+			<string>Délire</string>
+			<string>Trouble de l&apos;humeur</string>
+			<string>Examen de NC</string>
+			<string>Pupilles Isocore</string>
+			<string>Pupilles Isoréactive</string>
+			<string>Signes méningisme</string>
+			<string>Force</string>
+			<string>Sesibilité</string>
+			<string>Coordination</string>
+			<string>ROT</string>
+			<string>Mingazzini</string>
+			<string>Trouble de la parole </string>
+		</array>
+		<key>Musculo-squelettique</key>
+		<array>
+			<string>Scoliose</string>
+			<string>Déformation</string>
+			<string>Douleurs articulaires</string>
+			<string>Douleur percussion rachis</string>
+			<string>Douleur à la mobilisation</string>
+			<string>Tuméfaction</string>
+			<string>Chaleur</string>
 		</array>
 	</dict>
 </dict>

@@ -80,6 +80,7 @@
         cell.lblDescription.text = @"";
         cell.imgThumb.image = Nil;
     }
+   
     // Setting cell's properties
     [cell loadThumbnailWithIdentifier:currFile.name];
     cell.lblTitle.text = [NSString stringWithFormat:@"System %@",_system];

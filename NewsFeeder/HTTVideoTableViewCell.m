@@ -44,11 +44,11 @@
 - (IBAction)playClick:(id)sender {
     
     // Setting parameters
-    [AnalyticsManager sharedInstance].flurryParameters = [NSDictionary dictionaryWithObjectsAndKeys:[NSString stringWithFormat:@"%@ - %@",cellModel.system,cellModel.name],@"Video Name", nil];
+    [AnalyticsManager sharedInstance].flurryParameters = [NSDictionary dictionaryWithObjectsAndKeys:[NSString stringWithFormat:@"%@ - %@",cellModel.system,cellModel.fileDescription],@"Video Name", nil];
     
     // Sending analytics
     [AnalyticsManager sharedInstance].sendToFlurry = YES;
-    [[AnalyticsManager sharedInstance] sendEventWithName:@"Video was played" Category:@"Videos" Label:[NSString stringWithFormat:@"%@ - %@",cellModel.system,cellModel.name]];
+    [[AnalyticsManager sharedInstance] sendEventWithName:@"Video was played" Category:@"Videos" Label:[NSString stringWithFormat:@"%@ - %@",cellModel.system,cellModel.fileDescription]];
     
     [self playMovie];
 }
@@ -58,12 +58,11 @@
     [self.vwFrame.subviews makeObjectsPerformSelector:@selector(removeFromSuperview)];
     self.imgThumb.image = Nil;
     
+    // Initiating video player
     self.videoPlayerViewController = [[XCDYouTubeVideoPlayerViewController alloc] initWithVideoIdentifier:identifier];
-
-    //_videoPlayerViewController.moviePlayer.backgroundPlaybackEnabled = NO;
     
+    // Setting notifications
     NSNotificationCenter *defaultCenter = [NSNotificationCenter defaultCenter];
-  
     [defaultCenter addObserver:self selector:@selector(videoPlayerViewControllerDidReceiveVideo:) name:XCDYouTubeVideoPlayerViewControllerDidReceiveVideoNotification object:self.videoPlayerViewController];
     [defaultCenter addObserver:self selector:@selector(moviePlayerPlaybackDidFinish:) name:MPMoviePlayerPlaybackDidFinishNotification object:self.videoPlayerViewController.moviePlayer];
 }
