@@ -10,7 +10,9 @@
 #import "Global.h"
 
 @implementation AppDelegate
-@synthesize stringDicData;
+@synthesize stringDicData,intIOS7,intiPhone5,strOrientation;
+#import "NavigationControllerIOS6.h"
+
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
@@ -59,8 +61,6 @@
     
     [[AppData sharedInstance] performStartupOperations];
     
-    
-    
     NSString * resourcePath = [[NSBundle mainBundle] resourcePath];
     
     
@@ -69,6 +69,12 @@
     
     NSError * error;
     NSArray * directoryContents = [[NSFileManager defaultManager] contentsOfDirectoryAtPath:documentsPath error:&error];
+    
+    self.intiPhone5=88;
+    self.intIOS7=20;
+    
+    appDelObj.strOrientation = @"Portrait";
+    appDelObj = (AppDelegate*)[[UIApplication sharedApplication] delegate];
     
     return YES;
 }

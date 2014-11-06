@@ -9,8 +9,9 @@
 #import "PDFManager.h"
 #import "AdmissionQuestion.h"
 #import "OCPDFGenerator.h"
-#import "Scanner.h"
+//#import "Scanner.h"
 #import "HTTFile.h"
+#import "INDAPVDocument.h"
 
 @implementation PDFManager
 @synthesize documentsUrls = _documentsUrls;
@@ -182,6 +183,9 @@ static PDFManager* sharePDF;
     _documentsUrls = [[NSDictionary alloc] initWithDictionary:urls];
 }
 
+/*
+
+
 - (NSMutableArray*) findStringInPdfLibrary : (NSString*) searchPhrase
 {
     NSArray* filesList = [[AppData sharedInstance] flattenedFilesArray];
@@ -203,6 +207,7 @@ static PDFManager* sharePDF;
     
     return listOfFilesWithSearchString;
 }
+
 
 - (NSString*) getFileFullPath : (NSString*) name
 {
@@ -249,5 +254,6 @@ static PDFManager* sharePDF;
     return NO;
 }
 
+*/
 
 @end

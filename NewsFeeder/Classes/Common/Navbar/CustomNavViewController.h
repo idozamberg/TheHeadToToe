@@ -10,17 +10,23 @@
 
 #import "SuperViewController.h"
 #import "CustomNavigationBarView.h"
-#import "ReaderViewController.h"
+//#import "ReaderViewController.h"
+#import "INDAPVViewController.h"
 
 
-@interface CustomNavViewController : SuperViewController<CustomNavBarViewDelegate,UINavigationControllerDelegate> {
+@interface CustomNavViewController : SuperViewController<CustomNavBarViewDelegate,UINavigationControllerDelegate, INDAPVViewControllerDelegate> {
 	CustomNavigationBarView * navBarView;
     
     NSString *navBGFile;
+
+    BOOL boolPrinterShow;
 }
 
+-(void)ShowPrinter:(BOOL)aBool;
+
+
 @property (nonatomic, retain) CustomNavigationBarView * navBarView;
-@property (nonatomic, strong) ReaderViewController* readerController;
+//@property (nonatomic, strong) ReaderViewController* readerController;
 @property (nonatomic)         BOOL isShowingPdfView;
 @property (nonatomic, strong) NSString *transitionClassName;
 @property (nonatomic, strong) id animator;

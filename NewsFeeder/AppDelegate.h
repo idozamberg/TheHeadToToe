@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import "AppData.h"
+#import "NavigationControllerIOS6.h"
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate> {
     // For Strings of interfaces
@@ -52,6 +53,14 @@
 - (float) getRealHeightFrom:(float)width content:(NSString *)content
                        font:(UIFont *)font
               lineBreakMode:(NSLineBreakMode)lineBreakMode;
+
+@property (strong, nonatomic) NavigationControllerIOS6* NavigationControllerObj;
+
+@property (nonatomic, retain) NSString *strOrientation;
+
+@property (nonatomic, readwrite) int intiPhone5;
+
+@property (nonatomic, readwrite) int intIOS7;
 
 
 @end

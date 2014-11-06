@@ -7,14 +7,14 @@
 //
 
 #import "SearchViewController.h"
-#import "ReaderViewController.h"
+//#import "ReaderViewController.h"
 #import "QuestionsHeader.h"
 #import "UIView+Framing.h"
 #import "AnalyticsManager.h"
 #import "PDFManager.h"
 @interface SearchViewController ()
 {
-    ReaderViewController* readerViewController;
+   // ReaderViewController* readerViewController;
 }
 
 @end
@@ -363,7 +363,7 @@
 
 - (void) didClickNavBarRightButton
 {
-    [readerViewController pushActionBar];
+    //[readerViewController pushActionBar];
 }
 
 

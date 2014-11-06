@@ -48,12 +48,6 @@
 #define COCOAPODS_VERSION_MINOR_FlurrySDK_FlurrySDK 4
 #define COCOAPODS_VERSION_PATCH_FlurrySDK_FlurrySDK 0
 
-// ReaderFramework
-#define COCOAPODS_POD_AVAILABLE_ReaderFramework
-#define COCOAPODS_VERSION_MAJOR_ReaderFramework 1
-#define COCOAPODS_VERSION_MINOR_ReaderFramework 1
-#define COCOAPODS_VERSION_PATCH_ReaderFramework 4
-
 // XCDYouTubeKit
 #define COCOAPODS_POD_AVAILABLE_XCDYouTubeKit
 #define COCOAPODS_VERSION_MAJOR_XCDYouTubeKit 2

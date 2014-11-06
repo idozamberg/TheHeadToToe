@@ -9,7 +9,7 @@
 #import "FileListViewController.h"
 #import "FileCell.h"
 #import "HTTFile.h"
-#import "ReaderViewController.h"
+//#import "ReaderViewController.h"
 #import "SearchViewController.h"
 #import "AnalyticsManager.h"
 
@@ -17,7 +17,7 @@
 @interface FileListViewController ()
 {
     BOOL isShowingFile;
-    ReaderViewController *readerViewController;
+   // ReaderViewController *readerViewController;
 }
 
 @end

@@ -8,11 +8,13 @@
 
 #import "CustomNavViewController.h"
 #import "ATCAnimatedTransitioning.h"
+#import "INDAPVDocument.h"
+#import "INDAPVViewController.h"
 
 @implementation CustomNavViewController
 
 
-@synthesize navBarView,readerController,isShowingPdfView,animator,transitionClassName;
+@synthesize navBarView,isShowingPdfView,animator,transitionClassName;
 
 
 
@@ -267,23 +269,125 @@
     NSString *filePath = [documentsPath stringByAppendingPathComponent:name];
     
     // Configuring screen
-    ReaderDocument *document = [ReaderDocument withDocumentFilePath:filePath password:phrase];
+    /*ReaderDocument *document = [ReaderDocument withDocumentFilePath:filePath password:phrase];
     readerController = [[ReaderViewController alloc] initWithReaderDocument:document];
     
     isShowingPdfView = YES;
     
     //[self.navigationController presentViewController:readerViewController animated:YES completion:Nil];
     
-    [self.navigationController pushViewController:readerController animated:YES];
+    [self.navigationController pushViewController:readerController animated:YES];*/
+    [self openPdf:filePath];
 }
+
+
 
 - (BOOL) shouldAutorotate
 {
     return NO;
 }
 
+-(void)openPdf:(NSString *) filePath
 
+{
+    NSString *password = @"";
+    
+    INDAPVDocument* document = [INDAPVDocument withDocumentFilePath:filePath password:password];
+    
+    if (document != nil)
+        
+    {
+        [[NSUserDefaults standardUserDefaults] setObject:@"" forKey:@"SearchKeyWord"];
+        
+        [[NSUserDefaults standardUserDefaults] synchronize];
+        
+       INDAPVViewController*  aINDAPVViewController = [[INDAPVViewController alloc] initWithPath:filePath andPassword:password];
+        
+        aINDAPVViewController.delegate = self;
+        
+        [[UIApplication sharedApplication] setStatusBarHidden:YES withAnimation:UIStatusBarAnimationSlide];
+        
+        self.navigationController.navigationBarHidden=TRUE;
+        [self.navigationController pushViewController:aINDAPVViewController animated:YES];
+        
+    }
+    
+    else
+        
+    {
+        
+        NSLog(@"Fix file path");
+        
+    }
+    
+}
 
+/*
+-(NSUInteger)supportedInterfaceOrientations
+{
+    UIDeviceOrientation aInterfaceOrientationObj = [[UIDevice currentDevice] orientation];
+    if (aInterfaceOrientationObj == UIInterfaceOrientationLandscapeLeft)
+    {
+        appDelObj.strOrientation = @"Landscape";
+    }
+    else if(aInterfaceOrientationObj == UIInterfaceOrientationLandscapeRight)
+    {
+        appDelObj.strOrientation = @"LandscapeRight";
+    }
+    else if(aInterfaceOrientationObj == UIInterfaceOrientationPortrait)
+    {
+        appDelObj.strOrientation = @"Portrait";
+    }
+    else if(aInterfaceOrientationObj == UIInterfaceOrientationPortraitUpsideDown)
+    {
+        appDelObj.strOrientation = @"PortraitUpsideDown";
+    }
+    
+    if(boolPrinterShow==YES)
+    {
+        return UIInterfaceOrientationMaskAllButUpsideDown;
+    }
+    else
+        return UIInterfaceOrientationMaskPortrait;
+    
+}
 
+#pragma mark -- Before IOS6 Orientation Methods
+
+- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
+{
+    if (interfaceOrientation == UIInterfaceOrientationLandscapeLeft)
+    {
+        appDelObj.strOrientation = @"Landscape";
+    }
+    else if(interfaceOrientation == UIInterfaceOrientationLandscapeRight)
+    {
+        appDelObj.strOrientation = @"LandscapeRight";
+    }
+    else if(interfaceOrientation == UIInterfaceOrientationPortrait)
+    {
+        appDelObj.strOrientation = @"Portrait";
+    }
+    else if(interfaceOrientation == UIInterfaceOrientationPortraitUpsideDown)
+    {
+        appDelObj.strOrientation = @"PortraitUpsideDown";
+    }
+    
+    
+    if(boolPrinterShow==YES){
+        if([appDelObj.strOrientation isEqualToString:@"PortraitUpsideDown"])
+            return NO;
+        else
+            return NO;
+    }
+    else
+        return NO;
+}
+*/
+
+-(void)ShowPrinter:(BOOL)aBool
+{
+    boolPrinterShow=aBool;
+}
 
 @end

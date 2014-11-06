@@ -53,27 +53,90 @@
 		7524A47919E98A27006607C1 /* Share icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 7524A47819E98A27006607C1 /* Share icon.png */; };
 		7524A47B19E9A682006607C1 /* Launch Screen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7524A47A19E9A682006607C1 /* Launch Screen.xib */; };
 		7524A47D19EA5FD1006607C1 /* external-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 7524A47C19EA5FD1006607C1 /* external-50.png */; };
-		75470BC21A07E0D400563414 /* CIDFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 75470B8F1A07E0D400563414 /* CIDFont.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		75470BC31A07E0D400563414 /* CIDType0Font.m in Sources */ = {isa = PBXBuildFile; fileRef = 75470B911A07E0D400563414 /* CIDType0Font.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		75470BC41A07E0D400563414 /* CIDType2Font.m in Sources */ = {isa = PBXBuildFile; fileRef = 75470B931A07E0D400563414 /* CIDType2Font.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		75470BC51A07E0D400563414 /* CMap.m in Sources */ = {isa = PBXBuildFile; fileRef = 75470B951A07E0D400563414 /* CMap.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		75470BC61A07E0D400563414 /* CompositeFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 75470B971A07E0D400563414 /* CompositeFont.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		75470BC81A07E0D400563414 /* Font.m in Sources */ = {isa = PBXBuildFile; fileRef = 75470B9B1A07E0D400563414 /* Font.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		75470BC91A07E0D400563414 /* FontCollection.m in Sources */ = {isa = PBXBuildFile; fileRef = 75470B9D1A07E0D400563414 /* FontCollection.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		75470BCA1A07E0D400563414 /* FontDescriptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 75470B9F1A07E0D400563414 /* FontDescriptor.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		75470BCB1A07E0D400563414 /* FontFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 75470BA11A07E0D400563414 /* FontFile.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		75470BCC1A07E0D400563414 /* MMType1Font.m in Sources */ = {isa = PBXBuildFile; fileRef = 75470BA31A07E0D400563414 /* MMType1Font.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		75470BD11A07E0D400563414 /* pdfScannerCallbacks.mm in Sources */ = {isa = PBXBuildFile; fileRef = 75470BAC1A07E0D400563414 /* pdfScannerCallbacks.mm */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		75470BD21A07E0D400563414 /* RenderingState.m in Sources */ = {isa = PBXBuildFile; fileRef = 75470BAE1A07E0D400563414 /* RenderingState.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		75470BD31A07E0D400563414 /* RenderingStateStack.m in Sources */ = {isa = PBXBuildFile; fileRef = 75470BB01A07E0D400563414 /* RenderingStateStack.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		75470BD41A07E0D400563414 /* Scanner.m in Sources */ = {isa = PBXBuildFile; fileRef = 75470BB21A07E0D400563414 /* Scanner.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		75470BD51A07E0D400563414 /* Selection.m in Sources */ = {isa = PBXBuildFile; fileRef = 75470BB41A07E0D400563414 /* Selection.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		75470BD61A07E0D400563414 /* SimpleFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 75470BB61A07E0D400563414 /* SimpleFont.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		75470BD71A07E0D400563414 /* StringDetector.m in Sources */ = {isa = PBXBuildFile; fileRef = 75470BB81A07E0D400563414 /* StringDetector.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		75470BD81A07E0D400563414 /* TrueTypeFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 75470BBB1A07E0D400563414 /* TrueTypeFont.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		75470BD91A07E0D400563414 /* Type0Font.m in Sources */ = {isa = PBXBuildFile; fileRef = 75470BBD1A07E0D400563414 /* Type0Font.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		75470BDA1A07E0D400563414 /* Type1Font.m in Sources */ = {isa = PBXBuildFile; fileRef = 75470BBF1A07E0D400563414 /* Type1Font.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		75470BDB1A07E0D400563414 /* Type3Font.m in Sources */ = {isa = PBXBuildFile; fileRef = 75470BC11A07E0D400563414 /* Type3Font.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		75470D251A09895600563414 /* Back_Selected_Black.png in Resources */ = {isa = PBXBuildFile; fileRef = 75470CA91A09895500563414 /* Back_Selected_Black.png */; };
+		75470D261A09895600563414 /* BookCover_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 75470CAA1A09895500563414 /* BookCover_2.png */; };
+		75470D271A09895600563414 /* Bookmark_Gray.png in Resources */ = {isa = PBXBuildFile; fileRef = 75470CAB1A09895500563414 /* Bookmark_Gray.png */; };
+		75470D281A09895600563414 /* Bookmark_Gray_S.png in Resources */ = {isa = PBXBuildFile; fileRef = 75470CAC1A09895500563414 /* Bookmark_Gray_S.png */; };
+		75470D291A09895600563414 /* Brightness.png in Resources */ = {isa = PBXBuildFile; fileRef = 75470CAD1A09895500563414 /* Brightness.png */; };
+		75470D2A1A09895600563414 /* Camera.png in Resources */ = {isa = PBXBuildFile; fileRef = 75470CAE1A09895500563414 /* Camera.png */; };
+		75470D2B1A09895600563414 /* Color_BlackTransparent.png in Resources */ = {isa = PBXBuildFile; fileRef = 75470CAF1A09895500563414 /* Color_BlackTransparent.png */; };
+		75470D2C1A09895600563414 /* Color_Blue.png in Resources */ = {isa = PBXBuildFile; fileRef = 75470CB01A09895500563414 /* Color_Blue.png */; };
+		75470D2D1A09895600563414 /* Color_Green.png in Resources */ = {isa = PBXBuildFile; fileRef = 75470CB11A09895500563414 /* Color_Green.png */; };
+		75470D2E1A09895600563414 /* Color_Orange.png in Resources */ = {isa = PBXBuildFile; fileRef = 75470CB21A09895500563414 /* Color_Orange.png */; };
+		75470D2F1A09895600563414 /* Color_Pink.png in Resources */ = {isa = PBXBuildFile; fileRef = 75470CB31A09895500563414 /* Color_Pink.png */; };
+		75470D301A09895600563414 /* Color_Purple.png in Resources */ = {isa = PBXBuildFile; fileRef = 75470CB41A09895500563414 /* Color_Purple.png */; };
+		75470D311A09895600563414 /* Color_Red.png in Resources */ = {isa = PBXBuildFile; fileRef = 75470CB51A09895500563414 /* Color_Red.png */; };
+		75470D321A09895600563414 /* Color_SkyBlue.png in Resources */ = {isa = PBXBuildFile; fileRef = 75470CB61A09895500563414 /* Color_SkyBlue.png */; };
+		75470D331A09895600563414 /* Color_White.png in Resources */ = {isa = PBXBuildFile; fileRef = 75470CB71A09895500563414 /* Color_White.png */; };
+		75470D341A09895600563414 /* Color_Yellow.png in Resources */ = {isa = PBXBuildFile; fileRef = 75470CB81A09895500563414 /* Color_Yellow.png */; };
+		75470D351A09895600563414 /* Done_PGreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 75470CB91A09895500563414 /* Done_PGreen.png */; };
+		75470D361A09895600563414 /* Mark_Bookmark.png in Resources */ = {isa = PBXBuildFile; fileRef = 75470CBA1A09895500563414 /* Mark_Bookmark.png */; };
+		75470D371A09895600563414 /* Mark_Bookmark_S.png in Resources */ = {isa = PBXBuildFile; fileRef = 75470CBB1A09895500563414 /* Mark_Bookmark_S.png */; };
+		75470D381A09895600563414 /* MenuBG_Iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = 75470CBC1A09895500563414 /* MenuBG_Iphone.png */; };
+		75470D391A09895600563414 /* MultiPage.png in Resources */ = {isa = PBXBuildFile; fileRef = 75470CBD1A09895600563414 /* MultiPage.png */; };
+		75470D3A1A09895600563414 /* MultiPage_S.png in Resources */ = {isa = PBXBuildFile; fileRef = 75470CBE1A09895600563414 /* MultiPage_S.png */; };
+		75470D3B1A09895600563414 /* PageCurl.png in Resources */ = {isa = PBXBuildFile; fileRef = 75470CBF1A09895600563414 /* PageCurl.png */; };
+		75470D3C1A09895600563414 /* PageScroll.png in Resources */ = {isa = PBXBuildFile; fileRef = 75470CC01A09895600563414 /* PageScroll.png */; };
+		75470D3D1A09895600563414 /* Printer.png in Resources */ = {isa = PBXBuildFile; fileRef = 75470CC11A09895600563414 /* Printer.png */; };
+		75470D3E1A09895600563414 /* Search_Page.png in Resources */ = {isa = PBXBuildFile; fileRef = 75470CC21A09895600563414 /* Search_Page.png */; };
+		75470D3F1A09895600563414 /* Search_Word.png in Resources */ = {isa = PBXBuildFile; fileRef = 75470CC31A09895600563414 /* Search_Word.png */; };
+		75470D401A09895600563414 /* Seeting_Selected_Black.png in Resources */ = {isa = PBXBuildFile; fileRef = 75470CC41A09895600563414 /* Seeting_Selected_Black.png */; };
+		75470D411A09895600563414 /* SelectedDone_Land_iPhone.png in Resources */ = {isa = PBXBuildFile; fileRef = 75470CC61A09895600563414 /* SelectedDone_Land_iPhone.png */; };
+		75470D421A09895600563414 /* SelectedDone_Port_iPhone.png in Resources */ = {isa = PBXBuildFile; fileRef = 75470CC71A09895600563414 /* SelectedDone_Port_iPhone.png */; };
+		75470D431A09895600563414 /* UnSelectedDone_Land_iPhone.png in Resources */ = {isa = PBXBuildFile; fileRef = 75470CC81A09895600563414 /* UnSelectedDone_Land_iPhone.png */; };
+		75470D441A09895600563414 /* UnSelectedDone_Port_iPhone.png in Resources */ = {isa = PBXBuildFile; fileRef = 75470CC91A09895600563414 /* UnSelectedDone_Port_iPhone.png */; };
+		75470D451A09895600563414 /* CGPDFDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 75470CCE1A09895600563414 /* CGPDFDocument.m */; };
+		75470D461A09895600563414 /* INDAPVContentPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 75470CD01A09895600563414 /* INDAPVContentPage.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		75470D471A09895600563414 /* INDAPVContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 75470CD21A09895600563414 /* INDAPVContentView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		75470D481A09895600563414 /* INDAPVDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 75470CD41A09895600563414 /* INDAPVDocument.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		75470D491A09895600563414 /* INDAPVMainPagebar.m in Sources */ = {isa = PBXBuildFile; fileRef = 75470CD61A09895600563414 /* INDAPVMainPagebar.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		75470D4A1A09895600563414 /* INDAPVMainToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 75470CD81A09895600563414 /* INDAPVMainToolbar.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		75470D4B1A09895600563414 /* INDAPVPreview.m in Sources */ = {isa = PBXBuildFile; fileRef = 75470CDA1A09895600563414 /* INDAPVPreview.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		75470D4C1A09895600563414 /* INDAPVPreviewCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 75470CDC1A09895600563414 /* INDAPVPreviewCache.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		75470D4D1A09895600563414 /* INDAPVPreviewFetch.m in Sources */ = {isa = PBXBuildFile; fileRef = 75470CDE1A09895600563414 /* INDAPVPreviewFetch.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		75470D4E1A09895600563414 /* INDAPVPreviewQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 75470CE01A09895600563414 /* INDAPVPreviewQueue.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		75470D4F1A09895600563414 /* INDAPVPreviewRender.m in Sources */ = {isa = PBXBuildFile; fileRef = 75470CE21A09895600563414 /* INDAPVPreviewRender.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		75470D501A09895600563414 /* INDAPVPreviewRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 75470CE41A09895600563414 /* INDAPVPreviewRequest.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		75470D511A09895600563414 /* INDAPVPreviews.m in Sources */ = {isa = PBXBuildFile; fileRef = 75470CE61A09895600563414 /* INDAPVPreviews.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		75470D521A09895600563414 /* INDAPVPreviewsMainToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 75470CE81A09895600563414 /* INDAPVPreviewsMainToolbar.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		75470D531A09895600563414 /* INDAPVPreviewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75470CEA1A09895600563414 /* INDAPVPreviewsViewController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		75470D541A09895600563414 /* INDAPVTileView.m in Sources */ = {isa = PBXBuildFile; fileRef = 75470CEC1A09895600563414 /* INDAPVTileView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		75470D551A09895600563414 /* INDAPVToolbarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 75470CEE1A09895600563414 /* INDAPVToolbarView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		75470D561A09895600563414 /* INDAPVViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75470CF01A09895600563414 /* INDAPVViewController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		75470D571A09895600563414 /* INDAPVSideMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 75470CF31A09895600563414 /* INDAPVSideMenu.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		75470D581A09895600563414 /* NavigationControllerIOS6.m in Sources */ = {isa = PBXBuildFile; fileRef = 75470CF61A09895600563414 /* NavigationControllerIOS6.m */; };
+		75470D591A09895600563414 /* INDAPVCMap.m in Sources */ = {isa = PBXBuildFile; fileRef = 75470CF91A09895600563414 /* INDAPVCMap.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		75470D5A1A09895600563414 /* INDAPVCompositeFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 75470CFB1A09895600563414 /* INDAPVCompositeFont.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		75470D5B1A09895600563414 /* INDAPVFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 75470CFD1A09895600563414 /* INDAPVFont.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		75470D5C1A09895600563414 /* INDAPVFontCollection.m in Sources */ = {isa = PBXBuildFile; fileRef = 75470CFF1A09895600563414 /* INDAPVFontCollection.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		75470D5D1A09895600563414 /* INDAPVFontDescriptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 75470D011A09895600563414 /* INDAPVFontDescriptor.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		75470D5E1A09895600563414 /* INDAPVFType0Font.m in Sources */ = {isa = PBXBuildFile; fileRef = 75470D031A09895600563414 /* INDAPVFType0Font.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		75470D5F1A09895600563414 /* INDAPVFType1Font.m in Sources */ = {isa = PBXBuildFile; fileRef = 75470D051A09895600563414 /* INDAPVFType1Font.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		75470D601A09895600563414 /* INDAPVFType3Font.m in Sources */ = {isa = PBXBuildFile; fileRef = 75470D071A09895600563414 /* INDAPVFType3Font.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		75470D611A09895600563414 /* INDAPVRenderingState.m in Sources */ = {isa = PBXBuildFile; fileRef = 75470D091A09895600563414 /* INDAPVRenderingState.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		75470D621A09895600563414 /* INDAPVScanner.m in Sources */ = {isa = PBXBuildFile; fileRef = 75470D0B1A09895600563414 /* INDAPVScanner.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		75470D631A09895600563414 /* INDAPVSelection.m in Sources */ = {isa = PBXBuildFile; fileRef = 75470D0D1A09895600563414 /* INDAPVSelection.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		75470D641A09895600563414 /* INDAPVSimpleFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 75470D0F1A09895600563414 /* INDAPVSimpleFont.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		75470D651A09895600563414 /* INDAPVStringDetector.m in Sources */ = {isa = PBXBuildFile; fileRef = 75470D111A09895600563414 /* INDAPVStringDetector.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		75470D661A09895600563414 /* INDAPVTrueTypeFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 75470D131A09895600563414 /* INDAPVTrueTypeFont.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		75470D671A09895600563414 /* INDAPVType0Font.m in Sources */ = {isa = PBXBuildFile; fileRef = 75470D151A09895600563414 /* INDAPVType0Font.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		75470D681A09895600563414 /* INDAPVType1Font.m in Sources */ = {isa = PBXBuildFile; fileRef = 75470D171A09895600563414 /* INDAPVType1Font.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		75470D691A09895600563414 /* INDAPVType2Font.m in Sources */ = {isa = PBXBuildFile; fileRef = 75470D191A09895600563414 /* INDAPVType2Font.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		75470D6A1A09895600563414 /* SearchingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 75470D1B1A09895600563414 /* SearchingView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		75470D6B1A09895600563414 /* SearchingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 75470D1C1A09895600563414 /* SearchingView.xib */; };
+		75470D6C1A09895600563414 /* SearchPopVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 75470D1D1A09895600563414 /* SearchPopVC.xib */; };
+		75470D6D1A09895600563414 /* INDAPVSearcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 75470D201A09895600563414 /* INDAPVSearcher.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		75470D6E1A09895600563414 /* PopoverBackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = 75470D221A09895600563414 /* PopoverBackgroundView.m */; };
+		75470D6F1A09895600563414 /* iPhone Development.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 75470D241A09895600563414 /* iPhone Development.pdf */; };
+		75470D711A09A97C00563414 /* message-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 75470D701A09A97C00563414 /* message-50.png */; };
+		75470D731A09A98800563414 /* back-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 75470D721A09A98800563414 /* back-50.png */; };
+		75470D751A09A99B00563414 /* export-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 75470D741A09A99B00563414 /* export-50.png */; };
+		75470D771A09A9BA00563414 /* settings-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 75470D761A09A9BA00563414 /* settings-50.png */; };
+		75470D791A09B35F00563414 /* more-48.png in Resources */ = {isa = PBXBuildFile; fileRef = 75470D781A09B35F00563414 /* more-48.png */; };
+		75470D7B1A0A0C1600563414 /* checkmark-48.png in Resources */ = {isa = PBXBuildFile; fileRef = 75470D7A1A0A0C1600563414 /* checkmark-48.png */; };
+		75470D7D1A0A0C2200563414 /* tails-48.png in Resources */ = {isa = PBXBuildFile; fileRef = 75470D7C1A0A0C2200563414 /* tails-48.png */; };
+		75470D7F1A0A0C3400563414 /* bookmark-48.png in Resources */ = {isa = PBXBuildFile; fileRef = 75470D7E1A0A0C3400563414 /* bookmark-48.png */; };
+		75470D811A0A0D2E00563414 /* categorize-48.png in Resources */ = {isa = PBXBuildFile; fileRef = 75470D801A0A0D2E00563414 /* categorize-48.png */; };
 		758BDA7219FBA510000EBC90 /* ATCAnimatedTransitioning.m in Sources */ = {isa = PBXBuildFile; fileRef = 758BDA6719FBA510000EBC90 /* ATCAnimatedTransitioning.m */; };
 		758BDA7319FBA510000EBC90 /* ATCAnimatedTransitioningBounce.m in Sources */ = {isa = PBXBuildFile; fileRef = 758BDA6919FBA510000EBC90 /* ATCAnimatedTransitioningBounce.m */; };
 		758BDA7419FBA510000EBC90 /* ATCAnimatedTransitioningFade.m in Sources */ = {isa = PBXBuildFile; fileRef = 758BDA6B19FBA510000EBC90 /* ATCAnimatedTransitioningFade.m */; };
@@ -421,48 +484,131 @@
 		7524A47819E98A27006607C1 /* Share icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Share icon.png"; sourceTree = "<group>"; };
 		7524A47A19E9A682006607C1 /* Launch Screen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "Launch Screen.xib"; sourceTree = "<group>"; };
 		7524A47C19EA5FD1006607C1 /* external-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "external-50.png"; sourceTree = "<group>"; };
-		75470B8E1A07E0D400563414 /* CIDFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CIDFont.h; sourceTree = "<group>"; };
-		75470B8F1A07E0D400563414 /* CIDFont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CIDFont.m; sourceTree = "<group>"; };
-		75470B901A07E0D400563414 /* CIDType0Font.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CIDType0Font.h; sourceTree = "<group>"; };
-		75470B911A07E0D400563414 /* CIDType0Font.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CIDType0Font.m; sourceTree = "<group>"; };
-		75470B921A07E0D400563414 /* CIDType2Font.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CIDType2Font.h; sourceTree = "<group>"; };
-		75470B931A07E0D400563414 /* CIDType2Font.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CIDType2Font.m; sourceTree = "<group>"; };
-		75470B941A07E0D400563414 /* CMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMap.h; sourceTree = "<group>"; };
-		75470B951A07E0D400563414 /* CMap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMap.m; sourceTree = "<group>"; };
-		75470B961A07E0D400563414 /* CompositeFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CompositeFont.h; sourceTree = "<group>"; };
-		75470B971A07E0D400563414 /* CompositeFont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CompositeFont.m; sourceTree = "<group>"; };
-		75470B9A1A07E0D400563414 /* Font.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Font.h; sourceTree = "<group>"; };
-		75470B9B1A07E0D400563414 /* Font.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Font.m; sourceTree = "<group>"; };
-		75470B9C1A07E0D400563414 /* FontCollection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FontCollection.h; sourceTree = "<group>"; };
-		75470B9D1A07E0D400563414 /* FontCollection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FontCollection.m; sourceTree = "<group>"; };
-		75470B9E1A07E0D400563414 /* FontDescriptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FontDescriptor.h; sourceTree = "<group>"; };
-		75470B9F1A07E0D400563414 /* FontDescriptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FontDescriptor.m; sourceTree = "<group>"; };
-		75470BA01A07E0D400563414 /* FontFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FontFile.h; sourceTree = "<group>"; };
-		75470BA11A07E0D400563414 /* FontFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FontFile.m; sourceTree = "<group>"; };
-		75470BA21A07E0D400563414 /* MMType1Font.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMType1Font.h; sourceTree = "<group>"; };
-		75470BA31A07E0D400563414 /* MMType1Font.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMType1Font.m; sourceTree = "<group>"; };
-		75470BAC1A07E0D400563414 /* pdfScannerCallbacks.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = pdfScannerCallbacks.mm; sourceTree = "<group>"; };
-		75470BAD1A07E0D400563414 /* RenderingState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RenderingState.h; sourceTree = "<group>"; };
-		75470BAE1A07E0D400563414 /* RenderingState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RenderingState.m; sourceTree = "<group>"; };
-		75470BAF1A07E0D400563414 /* RenderingStateStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RenderingStateStack.h; sourceTree = "<group>"; };
-		75470BB01A07E0D400563414 /* RenderingStateStack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RenderingStateStack.m; sourceTree = "<group>"; };
-		75470BB11A07E0D400563414 /* Scanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Scanner.h; sourceTree = "<group>"; };
-		75470BB21A07E0D400563414 /* Scanner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Scanner.m; sourceTree = "<group>"; };
-		75470BB31A07E0D400563414 /* Selection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Selection.h; sourceTree = "<group>"; };
-		75470BB41A07E0D400563414 /* Selection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Selection.m; sourceTree = "<group>"; };
-		75470BB51A07E0D400563414 /* SimpleFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleFont.h; sourceTree = "<group>"; };
-		75470BB61A07E0D400563414 /* SimpleFont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleFont.m; sourceTree = "<group>"; };
-		75470BB71A07E0D400563414 /* StringDetector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StringDetector.h; sourceTree = "<group>"; };
-		75470BB81A07E0D400563414 /* StringDetector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StringDetector.m; sourceTree = "<group>"; };
-		75470BB91A07E0D400563414 /* StringDetectorDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StringDetectorDelegate.h; sourceTree = "<group>"; };
-		75470BBA1A07E0D400563414 /* TrueTypeFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrueTypeFont.h; sourceTree = "<group>"; };
-		75470BBB1A07E0D400563414 /* TrueTypeFont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrueTypeFont.m; sourceTree = "<group>"; };
-		75470BBC1A07E0D400563414 /* Type0Font.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Type0Font.h; sourceTree = "<group>"; };
-		75470BBD1A07E0D400563414 /* Type0Font.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Type0Font.m; sourceTree = "<group>"; };
-		75470BBE1A07E0D400563414 /* Type1Font.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Type1Font.h; sourceTree = "<group>"; };
-		75470BBF1A07E0D400563414 /* Type1Font.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Type1Font.m; sourceTree = "<group>"; };
-		75470BC01A07E0D400563414 /* Type3Font.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Type3Font.h; sourceTree = "<group>"; };
-		75470BC11A07E0D400563414 /* Type3Font.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Type3Font.m; sourceTree = "<group>"; };
+		75470CA91A09895500563414 /* Back_Selected_Black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Back_Selected_Black.png; sourceTree = "<group>"; };
+		75470CAA1A09895500563414 /* BookCover_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BookCover_2.png; sourceTree = "<group>"; };
+		75470CAB1A09895500563414 /* Bookmark_Gray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Bookmark_Gray.png; sourceTree = "<group>"; };
+		75470CAC1A09895500563414 /* Bookmark_Gray_S.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Bookmark_Gray_S.png; sourceTree = "<group>"; };
+		75470CAD1A09895500563414 /* Brightness.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Brightness.png; sourceTree = "<group>"; };
+		75470CAE1A09895500563414 /* Camera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Camera.png; sourceTree = "<group>"; };
+		75470CAF1A09895500563414 /* Color_BlackTransparent.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Color_BlackTransparent.png; sourceTree = "<group>"; };
+		75470CB01A09895500563414 /* Color_Blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Color_Blue.png; sourceTree = "<group>"; };
+		75470CB11A09895500563414 /* Color_Green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Color_Green.png; sourceTree = "<group>"; };
+		75470CB21A09895500563414 /* Color_Orange.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Color_Orange.png; sourceTree = "<group>"; };
+		75470CB31A09895500563414 /* Color_Pink.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Color_Pink.png; sourceTree = "<group>"; };
+		75470CB41A09895500563414 /* Color_Purple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Color_Purple.png; sourceTree = "<group>"; };
+		75470CB51A09895500563414 /* Color_Red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Color_Red.png; sourceTree = "<group>"; };
+		75470CB61A09895500563414 /* Color_SkyBlue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Color_SkyBlue.png; sourceTree = "<group>"; };
+		75470CB71A09895500563414 /* Color_White.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Color_White.png; sourceTree = "<group>"; };
+		75470CB81A09895500563414 /* Color_Yellow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Color_Yellow.png; sourceTree = "<group>"; };
+		75470CB91A09895500563414 /* Done_PGreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Done_PGreen.png; sourceTree = "<group>"; };
+		75470CBA1A09895500563414 /* Mark_Bookmark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Mark_Bookmark.png; sourceTree = "<group>"; };
+		75470CBB1A09895500563414 /* Mark_Bookmark_S.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Mark_Bookmark_S.png; sourceTree = "<group>"; };
+		75470CBC1A09895500563414 /* MenuBG_Iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MenuBG_Iphone.png; sourceTree = "<group>"; };
+		75470CBD1A09895600563414 /* MultiPage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MultiPage.png; sourceTree = "<group>"; };
+		75470CBE1A09895600563414 /* MultiPage_S.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MultiPage_S.png; sourceTree = "<group>"; };
+		75470CBF1A09895600563414 /* PageCurl.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PageCurl.png; sourceTree = "<group>"; };
+		75470CC01A09895600563414 /* PageScroll.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PageScroll.png; sourceTree = "<group>"; };
+		75470CC11A09895600563414 /* Printer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Printer.png; sourceTree = "<group>"; };
+		75470CC21A09895600563414 /* Search_Page.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Search_Page.png; sourceTree = "<group>"; };
+		75470CC31A09895600563414 /* Search_Word.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Search_Word.png; sourceTree = "<group>"; };
+		75470CC41A09895600563414 /* Seeting_Selected_Black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Seeting_Selected_Black.png; sourceTree = "<group>"; };
+		75470CC61A09895600563414 /* SelectedDone_Land_iPhone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SelectedDone_Land_iPhone.png; sourceTree = "<group>"; };
+		75470CC71A09895600563414 /* SelectedDone_Port_iPhone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SelectedDone_Port_iPhone.png; sourceTree = "<group>"; };
+		75470CC81A09895600563414 /* UnSelectedDone_Land_iPhone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UnSelectedDone_Land_iPhone.png; sourceTree = "<group>"; };
+		75470CC91A09895600563414 /* UnSelectedDone_Port_iPhone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UnSelectedDone_Port_iPhone.png; sourceTree = "<group>"; };
+		75470CCB1A09895600563414 /* Constant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constant.h; sourceTree = "<group>"; };
+		75470CCD1A09895600563414 /* CGPDFDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGPDFDocument.h; sourceTree = "<group>"; };
+		75470CCE1A09895600563414 /* CGPDFDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGPDFDocument.m; sourceTree = "<group>"; };
+		75470CCF1A09895600563414 /* INDAPVContentPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INDAPVContentPage.h; sourceTree = "<group>"; };
+		75470CD01A09895600563414 /* INDAPVContentPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = INDAPVContentPage.m; sourceTree = "<group>"; };
+		75470CD11A09895600563414 /* INDAPVContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INDAPVContentView.h; sourceTree = "<group>"; };
+		75470CD21A09895600563414 /* INDAPVContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = INDAPVContentView.m; sourceTree = "<group>"; };
+		75470CD31A09895600563414 /* INDAPVDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INDAPVDocument.h; sourceTree = "<group>"; };
+		75470CD41A09895600563414 /* INDAPVDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = INDAPVDocument.m; sourceTree = "<group>"; };
+		75470CD51A09895600563414 /* INDAPVMainPagebar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INDAPVMainPagebar.h; sourceTree = "<group>"; };
+		75470CD61A09895600563414 /* INDAPVMainPagebar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = INDAPVMainPagebar.m; sourceTree = "<group>"; };
+		75470CD71A09895600563414 /* INDAPVMainToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INDAPVMainToolbar.h; sourceTree = "<group>"; };
+		75470CD81A09895600563414 /* INDAPVMainToolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = INDAPVMainToolbar.m; sourceTree = "<group>"; };
+		75470CD91A09895600563414 /* INDAPVPreview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INDAPVPreview.h; sourceTree = "<group>"; };
+		75470CDA1A09895600563414 /* INDAPVPreview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = INDAPVPreview.m; sourceTree = "<group>"; };
+		75470CDB1A09895600563414 /* INDAPVPreviewCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INDAPVPreviewCache.h; sourceTree = "<group>"; };
+		75470CDC1A09895600563414 /* INDAPVPreviewCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = INDAPVPreviewCache.m; sourceTree = "<group>"; };
+		75470CDD1A09895600563414 /* INDAPVPreviewFetch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INDAPVPreviewFetch.h; sourceTree = "<group>"; };
+		75470CDE1A09895600563414 /* INDAPVPreviewFetch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = INDAPVPreviewFetch.m; sourceTree = "<group>"; };
+		75470CDF1A09895600563414 /* INDAPVPreviewQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INDAPVPreviewQueue.h; sourceTree = "<group>"; };
+		75470CE01A09895600563414 /* INDAPVPreviewQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = INDAPVPreviewQueue.m; sourceTree = "<group>"; };
+		75470CE11A09895600563414 /* INDAPVPreviewRender.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INDAPVPreviewRender.h; sourceTree = "<group>"; };
+		75470CE21A09895600563414 /* INDAPVPreviewRender.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = INDAPVPreviewRender.m; sourceTree = "<group>"; };
+		75470CE31A09895600563414 /* INDAPVPreviewRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INDAPVPreviewRequest.h; sourceTree = "<group>"; };
+		75470CE41A09895600563414 /* INDAPVPreviewRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = INDAPVPreviewRequest.m; sourceTree = "<group>"; };
+		75470CE51A09895600563414 /* INDAPVPreviews.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INDAPVPreviews.h; sourceTree = "<group>"; };
+		75470CE61A09895600563414 /* INDAPVPreviews.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = INDAPVPreviews.m; sourceTree = "<group>"; };
+		75470CE71A09895600563414 /* INDAPVPreviewsMainToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INDAPVPreviewsMainToolbar.h; sourceTree = "<group>"; };
+		75470CE81A09895600563414 /* INDAPVPreviewsMainToolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = INDAPVPreviewsMainToolbar.m; sourceTree = "<group>"; };
+		75470CE91A09895600563414 /* INDAPVPreviewsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INDAPVPreviewsViewController.h; sourceTree = "<group>"; };
+		75470CEA1A09895600563414 /* INDAPVPreviewsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = INDAPVPreviewsViewController.m; sourceTree = "<group>"; };
+		75470CEB1A09895600563414 /* INDAPVTileView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INDAPVTileView.h; sourceTree = "<group>"; };
+		75470CEC1A09895600563414 /* INDAPVTileView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = INDAPVTileView.m; sourceTree = "<group>"; };
+		75470CED1A09895600563414 /* INDAPVToolbarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INDAPVToolbarView.h; sourceTree = "<group>"; };
+		75470CEE1A09895600563414 /* INDAPVToolbarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = INDAPVToolbarView.m; sourceTree = "<group>"; };
+		75470CEF1A09895600563414 /* INDAPVViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INDAPVViewController.h; sourceTree = "<group>"; };
+		75470CF01A09895600563414 /* INDAPVViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = INDAPVViewController.m; sourceTree = "<group>"; };
+		75470CF21A09895600563414 /* INDAPVSideMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INDAPVSideMenu.h; sourceTree = "<group>"; };
+		75470CF31A09895600563414 /* INDAPVSideMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = INDAPVSideMenu.m; sourceTree = "<group>"; };
+		75470CF51A09895600563414 /* NavigationControllerIOS6.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationControllerIOS6.h; sourceTree = "<group>"; };
+		75470CF61A09895600563414 /* NavigationControllerIOS6.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationControllerIOS6.m; sourceTree = "<group>"; };
+		75470CF81A09895600563414 /* INDAPVCMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INDAPVCMap.h; sourceTree = "<group>"; };
+		75470CF91A09895600563414 /* INDAPVCMap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = INDAPVCMap.m; sourceTree = "<group>"; };
+		75470CFA1A09895600563414 /* INDAPVCompositeFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INDAPVCompositeFont.h; sourceTree = "<group>"; };
+		75470CFB1A09895600563414 /* INDAPVCompositeFont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = INDAPVCompositeFont.m; sourceTree = "<group>"; };
+		75470CFC1A09895600563414 /* INDAPVFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INDAPVFont.h; sourceTree = "<group>"; };
+		75470CFD1A09895600563414 /* INDAPVFont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = INDAPVFont.m; sourceTree = "<group>"; };
+		75470CFE1A09895600563414 /* INDAPVFontCollection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INDAPVFontCollection.h; sourceTree = "<group>"; };
+		75470CFF1A09895600563414 /* INDAPVFontCollection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = INDAPVFontCollection.m; sourceTree = "<group>"; };
+		75470D001A09895600563414 /* INDAPVFontDescriptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INDAPVFontDescriptor.h; sourceTree = "<group>"; };
+		75470D011A09895600563414 /* INDAPVFontDescriptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = INDAPVFontDescriptor.m; sourceTree = "<group>"; };
+		75470D021A09895600563414 /* INDAPVFType0Font.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INDAPVFType0Font.h; sourceTree = "<group>"; };
+		75470D031A09895600563414 /* INDAPVFType0Font.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = INDAPVFType0Font.m; sourceTree = "<group>"; };
+		75470D041A09895600563414 /* INDAPVFType1Font.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INDAPVFType1Font.h; sourceTree = "<group>"; };
+		75470D051A09895600563414 /* INDAPVFType1Font.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = INDAPVFType1Font.m; sourceTree = "<group>"; };
+		75470D061A09895600563414 /* INDAPVFType3Font.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INDAPVFType3Font.h; sourceTree = "<group>"; };
+		75470D071A09895600563414 /* INDAPVFType3Font.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = INDAPVFType3Font.m; sourceTree = "<group>"; };
+		75470D081A09895600563414 /* INDAPVRenderingState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INDAPVRenderingState.h; sourceTree = "<group>"; };
+		75470D091A09895600563414 /* INDAPVRenderingState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = INDAPVRenderingState.m; sourceTree = "<group>"; };
+		75470D0A1A09895600563414 /* INDAPVScanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INDAPVScanner.h; sourceTree = "<group>"; };
+		75470D0B1A09895600563414 /* INDAPVScanner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = INDAPVScanner.m; sourceTree = "<group>"; };
+		75470D0C1A09895600563414 /* INDAPVSelection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INDAPVSelection.h; sourceTree = "<group>"; };
+		75470D0D1A09895600563414 /* INDAPVSelection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = INDAPVSelection.m; sourceTree = "<group>"; };
+		75470D0E1A09895600563414 /* INDAPVSimpleFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INDAPVSimpleFont.h; sourceTree = "<group>"; };
+		75470D0F1A09895600563414 /* INDAPVSimpleFont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = INDAPVSimpleFont.m; sourceTree = "<group>"; };
+		75470D101A09895600563414 /* INDAPVStringDetector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INDAPVStringDetector.h; sourceTree = "<group>"; };
+		75470D111A09895600563414 /* INDAPVStringDetector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = INDAPVStringDetector.m; sourceTree = "<group>"; };
+		75470D121A09895600563414 /* INDAPVTrueTypeFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INDAPVTrueTypeFont.h; sourceTree = "<group>"; };
+		75470D131A09895600563414 /* INDAPVTrueTypeFont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = INDAPVTrueTypeFont.m; sourceTree = "<group>"; };
+		75470D141A09895600563414 /* INDAPVType0Font.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INDAPVType0Font.h; sourceTree = "<group>"; };
+		75470D151A09895600563414 /* INDAPVType0Font.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = INDAPVType0Font.m; sourceTree = "<group>"; };
+		75470D161A09895600563414 /* INDAPVType1Font.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INDAPVType1Font.h; sourceTree = "<group>"; };
+		75470D171A09895600563414 /* INDAPVType1Font.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = INDAPVType1Font.m; sourceTree = "<group>"; };
+		75470D181A09895600563414 /* INDAPVType2Font.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INDAPVType2Font.h; sourceTree = "<group>"; };
+		75470D191A09895600563414 /* INDAPVType2Font.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = INDAPVType2Font.m; sourceTree = "<group>"; };
+		75470D1A1A09895600563414 /* SearchingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchingView.h; sourceTree = "<group>"; };
+		75470D1B1A09895600563414 /* SearchingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchingView.m; sourceTree = "<group>"; };
+		75470D1C1A09895600563414 /* SearchingView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SearchingView.xib; sourceTree = "<group>"; };
+		75470D1D1A09895600563414 /* SearchPopVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SearchPopVC.xib; sourceTree = "<group>"; };
+		75470D1F1A09895600563414 /* INDAPVSearcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INDAPVSearcher.h; sourceTree = "<group>"; };
+		75470D201A09895600563414 /* INDAPVSearcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = INDAPVSearcher.m; sourceTree = "<group>"; };
+		75470D211A09895600563414 /* PopoverBackgroundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopoverBackgroundView.h; sourceTree = "<group>"; };
+		75470D221A09895600563414 /* PopoverBackgroundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopoverBackgroundView.m; sourceTree = "<group>"; };
+		75470D241A09895600563414 /* iPhone Development.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "iPhone Development.pdf"; sourceTree = "<group>"; };
+		75470D701A09A97C00563414 /* message-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "message-50.png"; sourceTree = "<group>"; };
+		75470D721A09A98800563414 /* back-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back-50.png"; sourceTree = "<group>"; };
+		75470D741A09A99B00563414 /* export-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "export-50.png"; sourceTree = "<group>"; };
+		75470D761A09A9BA00563414 /* settings-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "settings-50.png"; sourceTree = "<group>"; };
+		75470D781A09B35F00563414 /* more-48.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "more-48.png"; sourceTree = "<group>"; };
+		75470D7A1A0A0C1600563414 /* checkmark-48.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "checkmark-48.png"; sourceTree = "<group>"; };
+		75470D7C1A0A0C2200563414 /* tails-48.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tails-48.png"; sourceTree = "<group>"; };
+		75470D7E1A0A0C3400563414 /* bookmark-48.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bookmark-48.png"; sourceTree = "<group>"; };
+		75470D801A0A0D2E00563414 /* categorize-48.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "categorize-48.png"; sourceTree = "<group>"; };
 		758BDA6619FBA510000EBC90 /* ATCAnimatedTransitioning.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATCAnimatedTransitioning.h; sourceTree = "<group>"; };
 		758BDA6719FBA510000EBC90 /* ATCAnimatedTransitioning.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATCAnimatedTransitioning.m; sourceTree = "<group>"; };
 		758BDA6819FBA510000EBC90 /* ATCAnimatedTransitioningBounce.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATCAnimatedTransitioningBounce.h; sourceTree = "<group>"; };
@@ -592,8 +738,6 @@
 		75E3858E19EFCC94006C60FF /* xml.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = xml.c; sourceTree = "<group>"; };
 		75E385CE19EFCD60006C60FF /* PDFManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDFManager.h; sourceTree = "<group>"; };
 		75E385CF19EFCD60006C60FF /* PDFManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDFManager.m; sourceTree = "<group>"; };
-		75E385D419EFD6AF006C60FF /* CustomNavViewController+PdfViewer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "CustomNavViewController+PdfViewer.h"; path = "../CustomNavViewController+PdfViewer.h"; sourceTree = "<group>"; };
-		75E385D519EFD6AF006C60FF /* CustomNavViewController+PdfViewer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "CustomNavViewController+PdfViewer.m"; path = "../CustomNavViewController+PdfViewer.m"; sourceTree = "<group>"; };
 		75E385D719F1B236006C60FF /* test_tube-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "test_tube-50.png"; sourceTree = "<group>"; };
 		7CAC350343F154591C6F5495 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		7D373D752B0FB1A9A6FBF070 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
@@ -903,53 +1047,207 @@
 			name = Files;
 			sourceTree = "<group>";
 		};
-		75470B8D1A07E04500563414 /* PDF */ = {
+		75470CA61A09895500563414 /* INDAPVAllFiles */ = {
 			isa = PBXGroup;
 			children = (
-				75470B8E1A07E0D400563414 /* CIDFont.h */,
-				75470B8F1A07E0D400563414 /* CIDFont.m */,
-				75470B901A07E0D400563414 /* CIDType0Font.h */,
-				75470B911A07E0D400563414 /* CIDType0Font.m */,
-				75470B921A07E0D400563414 /* CIDType2Font.h */,
-				75470B931A07E0D400563414 /* CIDType2Font.m */,
-				75470B941A07E0D400563414 /* CMap.h */,
-				75470B951A07E0D400563414 /* CMap.m */,
-				75470B961A07E0D400563414 /* CompositeFont.h */,
-				75470B971A07E0D400563414 /* CompositeFont.m */,
-				75470B9A1A07E0D400563414 /* Font.h */,
-				75470B9B1A07E0D400563414 /* Font.m */,
-				75470B9C1A07E0D400563414 /* FontCollection.h */,
-				75470B9D1A07E0D400563414 /* FontCollection.m */,
-				75470B9E1A07E0D400563414 /* FontDescriptor.h */,
-				75470B9F1A07E0D400563414 /* FontDescriptor.m */,
-				75470BA01A07E0D400563414 /* FontFile.h */,
-				75470BA11A07E0D400563414 /* FontFile.m */,
-				75470BA21A07E0D400563414 /* MMType1Font.h */,
-				75470BA31A07E0D400563414 /* MMType1Font.m */,
-				75470BAC1A07E0D400563414 /* pdfScannerCallbacks.mm */,
-				75470BAD1A07E0D400563414 /* RenderingState.h */,
-				75470BAE1A07E0D400563414 /* RenderingState.m */,
-				75470BAF1A07E0D400563414 /* RenderingStateStack.h */,
-				75470BB01A07E0D400563414 /* RenderingStateStack.m */,
-				75470BB11A07E0D400563414 /* Scanner.h */,
-				75470BB21A07E0D400563414 /* Scanner.m */,
-				75470BB31A07E0D400563414 /* Selection.h */,
-				75470BB41A07E0D400563414 /* Selection.m */,
-				75470BB51A07E0D400563414 /* SimpleFont.h */,
-				75470BB61A07E0D400563414 /* SimpleFont.m */,
-				75470BB71A07E0D400563414 /* StringDetector.h */,
-				75470BB81A07E0D400563414 /* StringDetector.m */,
-				75470BB91A07E0D400563414 /* StringDetectorDelegate.h */,
-				75470BBA1A07E0D400563414 /* TrueTypeFont.h */,
-				75470BBB1A07E0D400563414 /* TrueTypeFont.m */,
-				75470BBC1A07E0D400563414 /* Type0Font.h */,
-				75470BBD1A07E0D400563414 /* Type0Font.m */,
-				75470BBE1A07E0D400563414 /* Type1Font.h */,
-				75470BBF1A07E0D400563414 /* Type1Font.m */,
-				75470BC01A07E0D400563414 /* Type3Font.h */,
-				75470BC11A07E0D400563414 /* Type3Font.m */,
+				75470CA71A09895500563414 /* Images */,
+				75470CCA1A09895600563414 /* Library */,
+				75470D231A09895600563414 /* PDFFiles */,
 			);
-			name = PDF;
+			path = INDAPVAllFiles;
+			sourceTree = "<group>";
+		};
+		75470CA71A09895500563414 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				75470CA81A09895500563414 /* Flat Images */,
+				75470CC51A09895600563414 /* KeyBoard */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		75470CA81A09895500563414 /* Flat Images */ = {
+			isa = PBXGroup;
+			children = (
+				75470CA91A09895500563414 /* Back_Selected_Black.png */,
+				75470CAA1A09895500563414 /* BookCover_2.png */,
+				75470CAB1A09895500563414 /* Bookmark_Gray.png */,
+				75470CAC1A09895500563414 /* Bookmark_Gray_S.png */,
+				75470CAD1A09895500563414 /* Brightness.png */,
+				75470CAE1A09895500563414 /* Camera.png */,
+				75470CAF1A09895500563414 /* Color_BlackTransparent.png */,
+				75470CB01A09895500563414 /* Color_Blue.png */,
+				75470CB11A09895500563414 /* Color_Green.png */,
+				75470CB21A09895500563414 /* Color_Orange.png */,
+				75470CB31A09895500563414 /* Color_Pink.png */,
+				75470CB41A09895500563414 /* Color_Purple.png */,
+				75470CB51A09895500563414 /* Color_Red.png */,
+				75470CB61A09895500563414 /* Color_SkyBlue.png */,
+				75470CB71A09895500563414 /* Color_White.png */,
+				75470CB81A09895500563414 /* Color_Yellow.png */,
+				75470CB91A09895500563414 /* Done_PGreen.png */,
+				75470CBA1A09895500563414 /* Mark_Bookmark.png */,
+				75470CBB1A09895500563414 /* Mark_Bookmark_S.png */,
+				75470CBC1A09895500563414 /* MenuBG_Iphone.png */,
+				75470CBD1A09895600563414 /* MultiPage.png */,
+				75470CBE1A09895600563414 /* MultiPage_S.png */,
+				75470CBF1A09895600563414 /* PageCurl.png */,
+				75470CC01A09895600563414 /* PageScroll.png */,
+				75470CC11A09895600563414 /* Printer.png */,
+				75470CC21A09895600563414 /* Search_Page.png */,
+				75470CC31A09895600563414 /* Search_Word.png */,
+				75470CC41A09895600563414 /* Seeting_Selected_Black.png */,
+			);
+			path = "Flat Images";
+			sourceTree = "<group>";
+		};
+		75470CC51A09895600563414 /* KeyBoard */ = {
+			isa = PBXGroup;
+			children = (
+				75470CC61A09895600563414 /* SelectedDone_Land_iPhone.png */,
+				75470CC71A09895600563414 /* SelectedDone_Port_iPhone.png */,
+				75470CC81A09895600563414 /* UnSelectedDone_Land_iPhone.png */,
+				75470CC91A09895600563414 /* UnSelectedDone_Port_iPhone.png */,
+			);
+			path = KeyBoard;
+			sourceTree = "<group>";
+		};
+		75470CCA1A09895600563414 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				75470CCB1A09895600563414 /* Constant.h */,
+				75470CCC1A09895600563414 /* INDAPVClasses */,
+				75470CF11A09895600563414 /* INDAPVSideMenu */,
+				75470CF41A09895600563414 /* NavigationController */,
+				75470CF71A09895600563414 /* PDF Search Classes */,
+				75470D1E1A09895600563414 /* Search */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		75470CCC1A09895600563414 /* INDAPVClasses */ = {
+			isa = PBXGroup;
+			children = (
+				75470CCD1A09895600563414 /* CGPDFDocument.h */,
+				75470CCE1A09895600563414 /* CGPDFDocument.m */,
+				75470CCF1A09895600563414 /* INDAPVContentPage.h */,
+				75470CD01A09895600563414 /* INDAPVContentPage.m */,
+				75470CD11A09895600563414 /* INDAPVContentView.h */,
+				75470CD21A09895600563414 /* INDAPVContentView.m */,
+				75470CD31A09895600563414 /* INDAPVDocument.h */,
+				75470CD41A09895600563414 /* INDAPVDocument.m */,
+				75470CD51A09895600563414 /* INDAPVMainPagebar.h */,
+				75470CD61A09895600563414 /* INDAPVMainPagebar.m */,
+				75470CD71A09895600563414 /* INDAPVMainToolbar.h */,
+				75470CD81A09895600563414 /* INDAPVMainToolbar.m */,
+				75470CD91A09895600563414 /* INDAPVPreview.h */,
+				75470CDA1A09895600563414 /* INDAPVPreview.m */,
+				75470CDB1A09895600563414 /* INDAPVPreviewCache.h */,
+				75470CDC1A09895600563414 /* INDAPVPreviewCache.m */,
+				75470CDD1A09895600563414 /* INDAPVPreviewFetch.h */,
+				75470CDE1A09895600563414 /* INDAPVPreviewFetch.m */,
+				75470CDF1A09895600563414 /* INDAPVPreviewQueue.h */,
+				75470CE01A09895600563414 /* INDAPVPreviewQueue.m */,
+				75470CE11A09895600563414 /* INDAPVPreviewRender.h */,
+				75470CE21A09895600563414 /* INDAPVPreviewRender.m */,
+				75470CE31A09895600563414 /* INDAPVPreviewRequest.h */,
+				75470CE41A09895600563414 /* INDAPVPreviewRequest.m */,
+				75470CE51A09895600563414 /* INDAPVPreviews.h */,
+				75470CE61A09895600563414 /* INDAPVPreviews.m */,
+				75470CE71A09895600563414 /* INDAPVPreviewsMainToolbar.h */,
+				75470CE81A09895600563414 /* INDAPVPreviewsMainToolbar.m */,
+				75470CE91A09895600563414 /* INDAPVPreviewsViewController.h */,
+				75470CEA1A09895600563414 /* INDAPVPreviewsViewController.m */,
+				75470CEB1A09895600563414 /* INDAPVTileView.h */,
+				75470CEC1A09895600563414 /* INDAPVTileView.m */,
+				75470CED1A09895600563414 /* INDAPVToolbarView.h */,
+				75470CEE1A09895600563414 /* INDAPVToolbarView.m */,
+				75470CEF1A09895600563414 /* INDAPVViewController.h */,
+				75470CF01A09895600563414 /* INDAPVViewController.m */,
+			);
+			path = INDAPVClasses;
+			sourceTree = "<group>";
+		};
+		75470CF11A09895600563414 /* INDAPVSideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				75470CF21A09895600563414 /* INDAPVSideMenu.h */,
+				75470CF31A09895600563414 /* INDAPVSideMenu.m */,
+			);
+			path = INDAPVSideMenu;
+			sourceTree = "<group>";
+		};
+		75470CF41A09895600563414 /* NavigationController */ = {
+			isa = PBXGroup;
+			children = (
+				75470CF51A09895600563414 /* NavigationControllerIOS6.h */,
+				75470CF61A09895600563414 /* NavigationControllerIOS6.m */,
+			);
+			path = NavigationController;
+			sourceTree = "<group>";
+		};
+		75470CF71A09895600563414 /* PDF Search Classes */ = {
+			isa = PBXGroup;
+			children = (
+				75470CF81A09895600563414 /* INDAPVCMap.h */,
+				75470CF91A09895600563414 /* INDAPVCMap.m */,
+				75470CFA1A09895600563414 /* INDAPVCompositeFont.h */,
+				75470CFB1A09895600563414 /* INDAPVCompositeFont.m */,
+				75470CFC1A09895600563414 /* INDAPVFont.h */,
+				75470CFD1A09895600563414 /* INDAPVFont.m */,
+				75470CFE1A09895600563414 /* INDAPVFontCollection.h */,
+				75470CFF1A09895600563414 /* INDAPVFontCollection.m */,
+				75470D001A09895600563414 /* INDAPVFontDescriptor.h */,
+				75470D011A09895600563414 /* INDAPVFontDescriptor.m */,
+				75470D021A09895600563414 /* INDAPVFType0Font.h */,
+				75470D031A09895600563414 /* INDAPVFType0Font.m */,
+				75470D041A09895600563414 /* INDAPVFType1Font.h */,
+				75470D051A09895600563414 /* INDAPVFType1Font.m */,
+				75470D061A09895600563414 /* INDAPVFType3Font.h */,
+				75470D071A09895600563414 /* INDAPVFType3Font.m */,
+				75470D081A09895600563414 /* INDAPVRenderingState.h */,
+				75470D091A09895600563414 /* INDAPVRenderingState.m */,
+				75470D0A1A09895600563414 /* INDAPVScanner.h */,
+				75470D0B1A09895600563414 /* INDAPVScanner.m */,
+				75470D0C1A09895600563414 /* INDAPVSelection.h */,
+				75470D0D1A09895600563414 /* INDAPVSelection.m */,
+				75470D0E1A09895600563414 /* INDAPVSimpleFont.h */,
+				75470D0F1A09895600563414 /* INDAPVSimpleFont.m */,
+				75470D101A09895600563414 /* INDAPVStringDetector.h */,
+				75470D111A09895600563414 /* INDAPVStringDetector.m */,
+				75470D121A09895600563414 /* INDAPVTrueTypeFont.h */,
+				75470D131A09895600563414 /* INDAPVTrueTypeFont.m */,
+				75470D141A09895600563414 /* INDAPVType0Font.h */,
+				75470D151A09895600563414 /* INDAPVType0Font.m */,
+				75470D161A09895600563414 /* INDAPVType1Font.h */,
+				75470D171A09895600563414 /* INDAPVType1Font.m */,
+				75470D181A09895600563414 /* INDAPVType2Font.h */,
+				75470D191A09895600563414 /* INDAPVType2Font.m */,
+				75470D1A1A09895600563414 /* SearchingView.h */,
+				75470D1B1A09895600563414 /* SearchingView.m */,
+				75470D1C1A09895600563414 /* SearchingView.xib */,
+				75470D1D1A09895600563414 /* SearchPopVC.xib */,
+			);
+			path = "PDF Search Classes";
+			sourceTree = "<group>";
+		};
+		75470D1E1A09895600563414 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				75470D1F1A09895600563414 /* INDAPVSearcher.h */,
+				75470D201A09895600563414 /* INDAPVSearcher.m */,
+				75470D211A09895600563414 /* PopoverBackgroundView.h */,
+				75470D221A09895600563414 /* PopoverBackgroundView.m */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		75470D231A09895600563414 /* PDFFiles */ = {
+			isa = PBXGroup;
+			children = (
+				75470D241A09895600563414 /* iPhone Development.pdf */,
+			);
+			path = PDFFiles;
 			sourceTree = "<group>";
 		};
 		758BDA6219FBA4A5000EBC90 /* Transition Gallery */ = {
@@ -1241,8 +1539,7 @@
 		75E3851819EFCC68006C60FF /* PdfManager */ = {
 			isa = PBXGroup;
 			children = (
-				75E385D419EFD6AF006C60FF /* CustomNavViewController+PdfViewer.h */,
-				75E385D519EFD6AF006C60FF /* CustomNavViewController+PdfViewer.m */,
+				75470CA61A09895500563414 /* INDAPVAllFiles */,
 				75E3851919EFCC94006C60FF /* OCPDFGen */,
 				75E385CE19EFCD60006C60FF /* PDFManager.h */,
 				75E385CF19EFCD60006C60FF /* PDFManager.m */,
@@ -1344,6 +1641,15 @@
 				758BDA7A19FBB734000EBC90 /* homeg-50.png */,
 				758BDA8619FBC1F1000EBC90 /* cancel-32.png */,
 				75C50B8619FCF3960011698B /* erase-48.png */,
+				75470D701A09A97C00563414 /* message-50.png */,
+				75470D741A09A99B00563414 /* export-50.png */,
+				75470D721A09A98800563414 /* back-50.png */,
+				75470D761A09A9BA00563414 /* settings-50.png */,
+				75470D781A09B35F00563414 /* more-48.png */,
+				75470D7A1A0A0C1600563414 /* checkmark-48.png */,
+				75470D7C1A0A0C2200563414 /* tails-48.png */,
+				75470D7E1A0A0C3400563414 /* bookmark-48.png */,
+				75470D801A0A0D2E00563414 /* categorize-48.png */,
 				75E3851819EFCC68006C60FF /* PdfManager */,
 				7506807319EB136000EA0040 /* UIView+Framing.h */,
 				7506807419EB136000EA0040 /* UIView+Framing.m */,
@@ -1556,7 +1862,6 @@
 		C3080E5A17FE8875008AE8CC /* Utils */ = {
 			isa = PBXGroup;
 			children = (
-				75470B8D1A07E04500563414 /* PDF */,
 				75103A8719FD997600BD458D /* AnalyticsManager.h */,
 				75103A8819FD997600BD458D /* AnalyticsManager.m */,
 				758BDA6219FBA4A5000EBC90 /* Transition Gallery */,
@@ -1871,6 +2176,7 @@
 				758BDA7B19FBB734000EBC90 /* homeg-50.png in Resources */,
 				FCB847DE19FE90880047D902 /* Uro-génital - Urétrites.pdf in Resources */,
 				75CE28D919F394AC002FF80F /* Neuro3.pdf in Resources */,
+				75470D3B1A09895600563414 /* PageCurl.png in Resources */,
 				FCF6C3FD1A0641D400500E60 /* PDS-vacutainer.pdf in Resources */,
 				FCB847D119FE90880047D902 /* Ostéoarticulaire - Douleur mono ou pauciarticulaire.pdf in Resources */,
 				C3080EDC17FED422008AE8CC /* add_news3.png in Resources */,
@@ -1880,6 +2186,8 @@
 				C3080F0117FEEDF8008AE8CC /* invite_fb_cursor.png in Resources */,
 				75CE28EA19F394AC002FF80F /* Secondary survey.pdf in Resources */,
 				75CE28D719F394AC002FF80F /* Neuro1.pdf in Resources */,
+				75470D321A09895600563414 /* Color_SkyBlue.png in Resources */,
+				75470D2D1A09895600563414 /* Color_Green.png in Resources */,
 				75C50B8519FAF6330011698B /* more_then-50.png in Resources */,
 				75CE290519F41AD9002FF80F /* filter_filled.png in Resources */,
 				75932D9719F2437A00D24223 /* checkmark-32.png in Resources */,
@@ -1889,26 +2197,34 @@
 				FCB847D519FE90880047D902 /* Prévention - Vaccination.pdf in Resources */,
 				FCB847D919FE90880047D902 /* Uro-génital - Colique néphrétique.pdf in Resources */,
 				FCB847C519FE90880047D902 /* Immuno-allergologique - Rhinite allergique.pdf in Resources */,
+				75470D251A09895600563414 /* Back_Selected_Black.png in Resources */,
 				7506808319EC661000EA0040 /* Minus_black.png in Resources */,
 				FCB847B819FE90880047D902 /* Cardiologie - Hypertension artérielle.pdf in Resources */,
 				C3080EB317FEC341008AE8CC /* setting_cell_checkmark@2x.png in Resources */,
+				75470D7B1A0A0C1600563414 /* checkmark-48.png in Resources */,
 				C3080DFC17FE86B8008AE8CC /* Images.xcassets in Resources */,
 				C3080E7417FE9B79008AE8CC /* menu_color_selected.png in Resources */,
+				75470D3D1A09895600563414 /* Printer.png in Resources */,
 				C3080E5917FE8827008AE8CC /* menu_vbar@2x.png in Resources */,
+				75470D261A09895600563414 /* BookCover_2.png in Resources */,
 				75CE28DE19F394AC002FF80F /* Injection IM et IV.pdf in Resources */,
 				75E385D819F1B236006C60FF /* test_tube-50.png in Resources */,
 				C3080E5017FE8827008AE8CC /* menu_cell_separator.png in Resources */,
 				FCB847C919FE90880047D902 /* Neurologique - Céphalées.pdf in Resources */,
 				75932D9319F1B41F00D24223 /* note-48.png in Resources */,
 				75CE28F319F3AC96002FF80F /* pdf.png in Resources */,
+				75470D301A09895600563414 /* Color_Purple.png in Resources */,
 				C3080E4C17FE8827008AE8CC /* menu_cell_icon_favor.png in Resources */,
 				75E3859019EFCC94006C60FF /* blocktags in Resources */,
 				C3080F0817FEEDF8008AE8CC /* invite_tw_cursor@2x.png in Resources */,
 				C3080E4F17FE8827008AE8CC /* menu_cell_icon_pager@2x.png in Resources */,
 				75C50B8719FCF3960011698B /* erase-48.png in Resources */,
+				75470D791A09B35F00563414 /* more-48.png in Resources */,
 				758BDA7919FBB664000EBC90 /* home-50.png in Resources */,
 				C3080E5217FE8827008AE8CC /* menu_example1.png in Resources */,
 				FCB847DC19FE90880047D902 /* Uro-génital - Lithiase urinaire.pdf in Resources */,
+				75470D2E1A09895600563414 /* Color_Orange.png in Resources */,
+				75470D811A0A0D2E00563414 /* categorize-48.png in Resources */,
 				C3080F0A17FEEDF8008AE8CC /* invite_twitter@2x.png in Resources */,
 				758BDA8519FBBEDB000EBC90 /* searchB-50.png in Resources */,
 				C3080EB617FEC341008AE8CC /* setting_cell_order.png in Resources */,
@@ -1919,8 +2235,10 @@
 				759EAFBB19F7AD06008348F7 /* play-50.png in Resources */,
 				75CE28D519F394AC002FF80F /* Loco2.pdf in Resources */,
 				FCB847DB19FE90880047D902 /* Uro-génital - Infections urinaires.pdf in Resources */,
+				75470D751A09A99B00563414 /* export-50.png in Resources */,
 				75103A8319FD635100BD458D /* Pied.pdf in Resources */,
 				75CE28E619F394AC002FF80F /* Depression.pdf in Resources */,
+				75470D7F1A0A0C3400563414 /* bookmark-48.png in Resources */,
 				75CE28CB19F394AC002FF80F /* Coude.pdf in Resources */,
 				FCB847BD19FE90880047D902 /* Dermatologie - Acnée- verrues-mycoses.pdf in Resources */,
 				C3080F0917FEEDF8008AE8CC /* invite_twitter.png in Resources */,
@@ -1934,10 +2252,13 @@
 				FCB847C619FE90880047D902 /* Immuno-allergologique - Urticaire et angio-oedème.pdf in Resources */,
 				FCB847B919FE90880047D902 /* Cardiovasculaire - IC chronique.pdf in Resources */,
 				C3080DEE17FE86B8008AE8CC /* InfoPlist.strings in Resources */,
+				75470D3F1A09895600563414 /* Search_Word.png in Resources */,
+				75470D421A09895600563414 /* SelectedDone_Port_iPhone.png in Resources */,
 				C3080F0717FEEDF8008AE8CC /* invite_tw_cursor.png in Resources */,
 				75D869A619F905EE00F53AF1 /* filter_filled-50.png in Resources */,
 				FCB847B719FE90880047D902 /* Cardiologie - Fibrilation auriculaire.pdf in Resources */,
 				75E385BB19EFCC94006C60FF /* InfoPlist.strings in Resources */,
+				75470D331A09895600563414 /* Color_White.png in Resources */,
 				75CE28EB19F394AC002FF80F /* Forum vaccins.pdf in Resources */,
 				C3080E5317FE8827008AE8CC /* menu_example1@2x.png in Resources */,
 				75CE28C619F394AC002FF80F /* Cahier TP Cardio.pdf in Resources */,
@@ -1951,6 +2272,9 @@
 				7506807A19EB245200EA0040 /* Arrow up.png in Resources */,
 				75E385CB19EFCC94006C60FF /* test.html in Resources */,
 				75CE28E319F394AC002FF80F /* Système ostéo-articulaire.pdf in Resources */,
+				75470D281A09895600563414 /* Bookmark_Gray_S.png in Resources */,
+				75470D381A09895600563414 /* MenuBG_Iphone.png in Resources */,
+				75470D361A09895600563414 /* Mark_Bookmark.png in Resources */,
 				FCF6C3EB1A06366B00500E60 /* Coude.pdf in Resources */,
 				C3080EDB17FED422008AE8CC /* add_news2@2x.png in Resources */,
 				FCF6C40B1A06594A00500E60 /* Plan-de-vaccination-2014.pdf in Resources */,
@@ -1965,13 +2289,17 @@
 				75CE28F119F3AB82002FF80F /* Semiologie3.pdf in Resources */,
 				75CE28DC19F394AC002FF80F /* Uro.pdf in Resources */,
 				7506808619EDC4E600EA0040 /* Phonepad.png in Resources */,
+				75470D3A1A09895600563414 /* MultiPage_S.png in Resources */,
 				758BDA7D19FBB7CD000EBC90 /* home_filled-50.png in Resources */,
 				75CE290119F41882002FF80F /* filter.png in Resources */,
 				75CE28E119F394AC002FF80F /* Pansement.pdf in Resources */,
 				7523CCC719F25F1F00914EAF /* lungs-50.png in Resources */,
 				C3080EE017FED422008AE8CC /* add_recommend1.png in Resources */,
 				7524A47B19E9A682006607C1 /* Launch Screen.xib in Resources */,
+				75470D401A09895600563414 /* Seeting_Selected_Black.png in Resources */,
 				75C9232519EA94810005CA31 /* check-on.png in Resources */,
+				75470D351A09895600563414 /* Done_PGreen.png in Resources */,
+				75470D411A09895600563414 /* SelectedDone_Land_iPhone.png in Resources */,
 				FCF6C3DF1A0632FD00500E60 /* Troubles psychotiques.pdf in Resources */,
 				C3080E5717FE8827008AE8CC /* menu_setting@2x.png in Resources */,
 				75D869AD19F9077900F53AF1 /* menu-50.png in Resources */,
@@ -1987,6 +2315,7 @@
 				C3080EDA17FED422008AE8CC /* add_news2.png in Resources */,
 				C3080E7917FE9E5B008AE8CC /* menu_icon_plus@2x.png in Resources */,
 				FCF6C3ED1A06372600500E60 /* Bassin.pdf in Resources */,
+				75470D6B1A09895600563414 /* SearchingView.xib in Resources */,
 				75CE28F719F3B513002FF80F /* checklist-50.png in Resources */,
 				C3080E8C17FEA685008AE8CC /* feed_comment_bg@2x.png in Resources */,
 				75CE28F919F3B6D9002FF80F /* switch_on-48.png in Resources */,
@@ -1996,6 +2325,7 @@
 				C3080E8217FEA622008AE8CC /* navbar_menu.png in Resources */,
 				FCB847C819FE90880047D902 /* Métabolique - Diabète type 2.pdf in Resources */,
 				758BDA8719FBC1F1000EBC90 /* cancel-32.png in Resources */,
+				75470D6F1A09895600563414 /* iPhone Development.pdf in Resources */,
 				7524A47D19EA5FD1006607C1 /* external-50.png in Resources */,
 				75CE28D319F394AC002FF80F /* Digestif2.pdf in Resources */,
 				75103A8519FD635100BD458D /* Main.pdf in Resources */,
@@ -2003,7 +2333,10 @@
 				C3080EB517FEC341008AE8CC /* setting_cell_indicator@2x.png in Resources */,
 				75CE28F519F3B486002FF80F /* checklist-32.png in Resources */,
 				FCF6C4061A0643EC00500E60 /* BLS.pdf in Resources */,
+				75470D771A09A9BA00563414 /* settings-50.png in Resources */,
+				75470D371A09895600563414 /* Mark_Bookmark_S.png in Resources */,
 				FCB847D319FE90880047D902 /* Pharmacologique - Douleur aigue.pdf in Resources */,
+				75470D711A09A97C00563414 /* message-50.png in Resources */,
 				C3080E5517FE8827008AE8CC /* menu_layout_pen@2x.png in Resources */,
 				75CE28DB19F394AC002FF80F /* Urgences.pdf in Resources */,
 				7524A47919E98A27006607C1 /* Share icon.png in Resources */,
@@ -2020,7 +2353,9 @@
 				C3080EB217FEC341008AE8CC /* setting_cell_checkmark.png in Resources */,
 				C3080F0B17FEEDF8008AE8CC /* invite_vbar.png in Resources */,
 				FCB847BC19FE90880047D902 /* Communication - Approches de la consultation.pdf in Resources */,
+				75470D271A09895600563414 /* Bookmark_Gray.png in Resources */,
 				758BDA8119FBB88B000EBC90 /* info-50.png in Resources */,
+				75470D731A09A98800563414 /* back-50.png in Resources */,
 				FCB847BA19FE90880047D902 /* Cardiovasculaire - Syncope.pdf in Resources */,
 				FCB847BE19FE90880047D902 /* Fibrillation auriculaire 2013.pdf in Resources */,
 				7524A47719E964E5006607C1 /* default.png in Resources */,
@@ -2031,6 +2366,7 @@
 				75CE28C719F394AC002FF80F /* Cahier TP Digestif.pdf in Resources */,
 				C3080E7017FE9397008AE8CC /* strings.plist in Resources */,
 				FCF6C3E11A0633A900500E60 /* Cahier TP.pdf in Resources */,
+				75470D3E1A09895600563414 /* Search_Page.png in Resources */,
 				C3080ED917FED422008AE8CC /* add_news1@2x.png in Resources */,
 				75CE28DA19F394AC002FF80F /* Respiratoire.pdf in Resources */,
 				FCB847C419FE90880047D902 /* Hématologie - Déficit B12.pdf in Resources */,
@@ -2039,6 +2375,7 @@
 				75CE290719F42EC3002FF80F /* medecine50.jpg in Resources */,
 				75CE28D119F394AC002FF80F /* Cardio.pdf in Resources */,
 				C3080F0417FEEDF8008AE8CC /* invite_plus@2x.png in Resources */,
+				75470D431A09895600563414 /* UnSelectedDone_Land_iPhone.png in Resources */,
 				C3080EA917FEC08D008AE8CC /* search_close@2x.png in Resources */,
 				FCB847C319FE90880047D902 /* Hématologie - Anémie.pdf in Resources */,
 				FCF6C3E91A06365300500E60 /* Genou.pdf in Resources */,
@@ -2049,13 +2386,18 @@
 				C3080E5117FE8827008AE8CC /* menu_cell_separator@2x.png in Resources */,
 				75CE28F019F3AB82002FF80F /* Semiologie1.pdf in Resources */,
 				C3080F0C17FEEDF8008AE8CC /* invite_vbar@2x.png in Resources */,
+				75470D2A1A09895600563414 /* Camera.png in Resources */,
 				C3080E8017FEA622008AE8CC /* navbar_downarrow.png in Resources */,
 				75CE28D219F394AC002FF80F /* Digestif1.pdf in Resources */,
+				75470D2B1A09895600563414 /* Color_BlackTransparent.png in Resources */,
 				C3080F0017FEEDF8008AE8CC /* invite_fb@2x.png in Resources */,
 				C3080EE117FED422008AE8CC /* add_recommend1@2x.png in Resources */,
 				C3080E4D17FE8827008AE8CC /* menu_cell_icon_favor@2x.png in Resources */,
 				C3080E7517FE9B79008AE8CC /* menu_color_selected@2x.png in Resources */,
 				FCF6C3F91A06412F00500E60 /* Autopiqueur.pdf in Resources */,
+				75470D6C1A09895600563414 /* SearchPopVC.xib in Resources */,
+				75470D2F1A09895600563414 /* Color_Pink.png in Resources */,
+				75470D311A09895600563414 /* Color_Red.png in Resources */,
 				7506807219EAFB7900EA0040 /* QuestionsHeader.xib in Resources */,
 				7506807B19EB245200EA0040 /* Mail envelope.png in Resources */,
 				7506808219EC661000EA0040 /* Plus_black.png in Resources */,
@@ -2066,14 +2408,18 @@
 				FCB847C119FE90880047D902 /* Gastro-intestinal - Dyspepsie.pdf in Resources */,
 				75CE28E719F394AC002FF80F /* Semiologie generale.pdf in Resources */,
 				C3080DF717FE86B8008AE8CC /* Main.storyboard in Resources */,
+				75470D291A09895600563414 /* Brightness.png in Resources */,
 				FCB847CB19FE90880047D902 /* Ophtalmologique - Oeil rouge.pdf in Resources */,
+				75470D2C1A09895600563414 /* Color_Blue.png in Resources */,
 				75C9231F19EA90DF0005CA31 /* entree.plist in Resources */,
+				75470D441A09895600563414 /* UnSelectedDone_Port_iPhone.png in Resources */,
 				FCF6C3FB1A06417B00500E60 /* Peridurale.pdf in Resources */,
 				C3080EDE17FED422008AE8CC /* add_news4.png in Resources */,
 				7524A45419E8932C006607C1 /* Katz-AVQ.pdf in Resources */,
 				7506807719EB1DDE00EA0040 /* checkmark_icon48.png in Resources */,
 				C3080EB417FEC341008AE8CC /* setting_cell_indicator.png in Resources */,
 				75CE28CA19F394AC002FF80F /* Cahier TP genitaux.pdf in Resources */,
+				75470D7D1A0A0C2200563414 /* tails-48.png in Resources */,
 				FCF6C4011A06421F00500E60 /* Sondage-vesical.pdf in Resources */,
 				C3080E5417FE8827008AE8CC /* menu_layout_pen.png in Resources */,
 				C3080EA817FEC08D008AE8CC /* search_close.png in Resources */,
@@ -2095,8 +2441,11 @@
 				C36FBE55181D59A3007AE52A /* feed_option_bg.png in Resources */,
 				FCB847CE19FE90880047D902 /* ORL-Pneumo - IVRS.pdf in Resources */,
 				75D869AB19F9073400F53AF1 /* checkmark-50.png in Resources */,
+				75470D341A09895600563414 /* Color_Yellow.png in Resources */,
+				75470D391A09895600563414 /* MultiPage.png in Resources */,
 				FCB847BB19FE90880047D902 /* Cardiovasculaire - Thrombose veineuse.pdf in Resources */,
 				C3080E8517FEA622008AE8CC /* navbar_search@2x.png in Resources */,
+				75470D3C1A09895600563414 /* PageScroll.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2150,98 +2499,117 @@
 			files = (
 				C3080E4A17FE8827008AE8CC /* SuperView.m in Sources */,
 				751771AD19F7A4C3009BF487 /* YouTubeVideoFile.m in Sources */,
+				75470D451A09895600563414 /* CGPDFDocument.m in Sources */,
 				75E385BA19EFCC94006C60FF /* emmatch.c in Sources */,
 				7524A44E19E890BE006607C1 /* FileCell.m in Sources */,
 				75C9232F19EA9E340005CA31 /* AdmissionQuestion.m in Sources */,
-				75470BCA1A07E0D400563414 /* FontDescriptor.m in Sources */,
 				C3080EEC17FEE3D1008AE8CC /* AddHeaderView.m in Sources */,
 				7506807519EB136000EA0040 /* UIView+Framing.m in Sources */,
-				75470BD61A07E0D400563414 /* SimpleFont.m in Sources */,
-				75470BDB1A07E0D400563414 /* Type3Font.m in Sources */,
+				75470D6D1A09895600563414 /* INDAPVSearcher.m in Sources */,
+				75470D501A09895600563414 /* INDAPVPreviewRequest.m in Sources */,
+				75470D591A09895600563414 /* INDAPVCMap.m in Sources */,
+				75470D681A09895600563414 /* INDAPVType1Font.m in Sources */,
 				7506808919EDC6A700EA0040 /* LabValueCell.m in Sources */,
 				758BDA7619FBA510000EBC90 /* ATCAnimatedTransitioningSquish.m in Sources */,
+				75470D561A09895600563414 /* INDAPVViewController.m in Sources */,
+				75470D611A09895600563414 /* INDAPVRenderingState.m in Sources */,
 				7524A44B19E89099006607C1 /* FileListViewController.m in Sources */,
-				75470BC81A07E0D400563414 /* Font.m in Sources */,
 				C3080EE917FED5C3008AE8CC /* AddContentCell.m in Sources */,
+				75470D4A1A09895600563414 /* INDAPVMainToolbar.m in Sources */,
 				75E385BD19EFCC94006C60FF /* generate.c in Sources */,
 				C3080E4217FE8827008AE8CC /* CustomNavViewController.m in Sources */,
 				758BDA7519FBA510000EBC90 /* ATCAnimatedTransitioningFloat.m in Sources */,
 				C3080E9017FEA696008AE8CC /* FeedViewController.m in Sources */,
+				75470D541A09895600563414 /* INDAPVTileView.m in Sources */,
+				75470D621A09895600563414 /* INDAPVScanner.m in Sources */,
 				C3080E6717FE8B35008AE8CC /* UIView+More.m in Sources */,
 				75E385C619EFCC94006C60FF /* OCPDFGenerator.m in Sources */,
 				C3080EA117FEBDCF008AE8CC /* SearchViewController.m in Sources */,
 				C3080DF417FE86B8008AE8CC /* AppDelegate.m in Sources */,
-				75470BD81A07E0D400563414 /* TrueTypeFont.m in Sources */,
+				75470D5D1A09895600563414 /* INDAPVFontDescriptor.m in Sources */,
 				C3080E9C17FEB750008AE8CC /* UICustomNavigationController.m in Sources */,
 				75E385CA19EFCC94006C60FF /* tags.c in Sources */,
 				C3F3D7C518024E1A0064E1DD /* FeedItemData.m in Sources */,
-				75470BD41A07E0D400563414 /* Scanner.m in Sources */,
+				75470D5E1A09895600563414 /* INDAPVFType0Font.m in Sources */,
+				75470D631A09895600563414 /* INDAPVSelection.m in Sources */,
 				7524A45C19E8959B006607C1 /* UIHelper.m in Sources */,
+				75470D671A09895600563414 /* INDAPVType0Font.m in Sources */,
 				C3080DF017FE86B8008AE8CC /* main.m in Sources */,
 				7506809119EDC6F600EA0040 /* LabValue.m in Sources */,
-				75470BDA1A07E0D400563414 /* Type1Font.m in Sources */,
 				751771A819F79D10009BF487 /* HTTVideoTableViewCell.m in Sources */,
+				75470D461A09895600563414 /* INDAPVContentPage.m in Sources */,
 				75E385C819EFCC94006C60FF /* resource.c in Sources */,
 				75E385C919EFCC94006C60FF /* setup.c in Sources */,
 				75E385BF19EFCC94006C60FF /* html5.c in Sources */,
 				C3080EBA17FEC349008AE8CC /* SettingViewController.m in Sources */,
 				75E385BE19EFCC94006C60FF /* GHMarkdownParser.m in Sources */,
 				75C50B8319FAF5080011698B /* SystemsViewController.m in Sources */,
+				75470D511A09895600563414 /* INDAPVPreviews.m in Sources */,
 				7506808C19EDC6BC00EA0040 /* LabValuesViewController.m in Sources */,
 				75E385CD19EFCC94006C60FF /* xml.c in Sources */,
-				75470BC91A07E0D400563414 /* FontCollection.m in Sources */,
 				C3080F0F17FEEE0C008AE8CC /* InviteViewController.m in Sources */,
-				75470BC21A07E0D400563414 /* CIDFont.m in Sources */,
-				75470BD11A07E0D400563414 /* pdfScannerCallbacks.mm in Sources */,
 				75E3858F19EFCC94006C60FF /* amalloc.c in Sources */,
 				75DF4A8D19F78E7C000F2F90 /* HTTVideoViewController.m in Sources */,
-				75470BC51A07E0D400563414 /* CMap.m in Sources */,
-				75470BD51A07E0D400563414 /* Selection.m in Sources */,
+				75470D4E1A09895600563414 /* INDAPVPreviewQueue.m in Sources */,
 				C36FBE52181D58A0007AE52A /* FeedListMenuView.m in Sources */,
+				75470D581A09895600563414 /* NavigationControllerIOS6.m in Sources */,
+				75470D4B1A09895600563414 /* INDAPVPreview.m in Sources */,
 				75C9232819EA99690005CA31 /* QuestionCell.m in Sources */,
-				75470BD71A07E0D400563414 /* StringDetector.m in Sources */,
-				75470BD91A07E0D400563414 /* Type0Font.m in Sources */,
+				75470D5C1A09895600563414 /* INDAPVFontCollection.m in Sources */,
+				75470D4C1A09895600563414 /* INDAPVPreviewCache.m in Sources */,
+				75470D651A09895600563414 /* INDAPVStringDetector.m in Sources */,
+				75470D4F1A09895600563414 /* INDAPVPreviewRender.m in Sources */,
 				758BDA7419FBA510000EBC90 /* ATCAnimatedTransitioningFade.m in Sources */,
-				75470BC31A07E0D400563414 /* CIDType0Font.m in Sources */,
 				758BDA7219FBA510000EBC90 /* ATCAnimatedTransitioning.m in Sources */,
 				758BDA7719FBA510000EBC90 /* ATCTransitioningDelegate.m in Sources */,
 				75103A8919FD997600BD458D /* AnalyticsManager.m in Sources */,
+				75470D551A09895600563414 /* INDAPVToolbarView.m in Sources */,
 				C3080E6E17FE8DC4008AE8CC /* MenuItemCell.m in Sources */,
 				C3080F1517FEF047008AE8CC /* InviteItemData.m in Sources */,
 				C3080EE617FED430008AE8CC /* AddViewController.m in Sources */,
 				C3080E9317FEAA0E008AE8CC /* FeedItemView.m in Sources */,
 				75E385C219EFCC94006C60FF /* mkdio.c in Sources */,
 				C3080EC317FEC64C008AE8CC /* SettingOptionCell.m in Sources */,
+				75470D5A1A09895600563414 /* INDAPVCompositeFont.m in Sources */,
 				75E385C719EFCC94006C60FF /* OCViewController.m in Sources */,
 				758BDA7319FBA510000EBC90 /* ATCAnimatedTransitioningBounce.m in Sources */,
+				75470D4D1A09895600563414 /* INDAPVPreviewFetch.m in Sources */,
+				75470D6A1A09895600563414 /* SearchingView.m in Sources */,
 				C3080E5E17FE8875008AE8CC /* UIImageView+More.m in Sources */,
+				75470D661A09895600563414 /* INDAPVTrueTypeFont.m in Sources */,
 				C3080F1217FEF000008AE8CC /* InviteCell.m in Sources */,
 				7524A46019E89632006607C1 /* HTTFile.m in Sources */,
+				75470D571A09895600563414 /* INDAPVSideMenu.m in Sources */,
 				75E385D019EFCD60006C60FF /* PDFManager.m in Sources */,
 				75E385C319EFCC94006C60FF /* NSString+GHMarkdownParser.m in Sources */,
 				75C9232B19EA9A160005CA31 /* AdmissionViewController.m in Sources */,
 				C3080E4917FE8827008AE8CC /* SuperTableCell.m in Sources */,
 				C3080EC017FEC63F008AE8CC /* SettingPersonCell.m in Sources */,
 				C3080EC917FECE1C008AE8CC /* NewsItemData.m in Sources */,
-				75470BCB1A07E0D400563414 /* FontFile.m in Sources */,
 				75C9231D19EA90100005CA31 /* HTTListTableViewCell.m in Sources */,
-				75470BD21A07E0D400563414 /* RenderingState.m in Sources */,
 				75E3859119EFCC94006C60FF /* Csio.c in Sources */,
-				75470BD31A07E0D400563414 /* RenderingStateStack.m in Sources */,
+				75470D491A09895600563414 /* INDAPVMainPagebar.m in Sources */,
+				75470D5F1A09895600563414 /* INDAPVFType1Font.m in Sources */,
 				C3080E4B17FE8827008AE8CC /* SuperViewController.m in Sources */,
 				C3080E6417FE89F5008AE8CC /* MenuColorSelectView.m in Sources */,
+				75470D521A09895600563414 /* INDAPVPreviewsMainToolbar.m in Sources */,
+				75470D601A09895600563414 /* INDAPVFType3Font.m in Sources */,
 				C3080E9917FEB2A5008AE8CC /* FeedItemLargeCell.m in Sources */,
-				75470BC61A07E0D400563414 /* CompositeFont.m in Sources */,
 				75DF4A8A19F78DA6000F2F90 /* HTTVideoCell.m in Sources */,
+				75470D641A09895600563414 /* INDAPVSimpleFont.m in Sources */,
 				7524A46319E896D9006607C1 /* AppData.m in Sources */,
-				75470BCC1A07E0D400563414 /* MMType1Font.m in Sources */,
+				75470D481A09895600563414 /* INDAPVDocument.m in Sources */,
+				75470D531A09895600563414 /* INDAPVPreviewsViewController.m in Sources */,
 				75E385C119EFCC94006C60FF /* markdown.c in Sources */,
 				C3080EBD17FEC5C5008AE8CC /* SettingHeaderView.m in Sources */,
 				C3080E4117FE8827008AE8CC /* CustomNavigationBarView.m in Sources */,
 				C3080E6117FE89A0008AE8CC /* MenuViewController.m in Sources */,
 				C3080E9617FEACEA008AE8CC /* FeedItemSmallCell.m in Sources */,
-				75470BC41A07E0D400563414 /* CIDType2Font.m in Sources */,
+				75470D6E1A09895600563414 /* PopoverBackgroundView.m in Sources */,
+				75470D691A09895600563414 /* INDAPVType2Font.m in Sources */,
 				7506807019EAFB2D00EA0040 /* QuestionsHeader.m in Sources */,
+				75470D5B1A09895600563414 /* INDAPVFont.m in Sources */,
+				75470D471A09895600563414 /* INDAPVContentView.m in Sources */,
 				C3080EC617FEC659008AE8CC /* SettingCell.m in Sources */,
 				75E385CC19EFCC94006C60FF /* test2.md in Sources */,
 			);
