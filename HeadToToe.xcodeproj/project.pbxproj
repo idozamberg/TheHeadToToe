@@ -137,6 +137,8 @@
 		75470D7D1A0A0C2200563414 /* tails-48.png in Resources */ = {isa = PBXBuildFile; fileRef = 75470D7C1A0A0C2200563414 /* tails-48.png */; };
 		75470D7F1A0A0C3400563414 /* bookmark-48.png in Resources */ = {isa = PBXBuildFile; fileRef = 75470D7E1A0A0C3400563414 /* bookmark-48.png */; };
 		75470D811A0A0D2E00563414 /* categorize-48.png in Resources */ = {isa = PBXBuildFile; fileRef = 75470D801A0A0D2E00563414 /* categorize-48.png */; };
+		756124E91A0B81B30096E2B8 /* SearchOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 756124E81A0B81B30096E2B8 /* SearchOperation.m */; };
+		756124EC1A0D1D2F0096E2B8 /* Carnet bleu des urgences pédiatriques 2010.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 756124EB1A0D1D2F0096E2B8 /* Carnet bleu des urgences pédiatriques 2010.pdf */; };
 		758BDA7219FBA510000EBC90 /* ATCAnimatedTransitioning.m in Sources */ = {isa = PBXBuildFile; fileRef = 758BDA6719FBA510000EBC90 /* ATCAnimatedTransitioning.m */; };
 		758BDA7319FBA510000EBC90 /* ATCAnimatedTransitioningBounce.m in Sources */ = {isa = PBXBuildFile; fileRef = 758BDA6919FBA510000EBC90 /* ATCAnimatedTransitioningBounce.m */; };
 		758BDA7419FBA510000EBC90 /* ATCAnimatedTransitioningFade.m in Sources */ = {isa = PBXBuildFile; fileRef = 758BDA6B19FBA510000EBC90 /* ATCAnimatedTransitioningFade.m */; };
@@ -609,6 +611,9 @@
 		75470D7C1A0A0C2200563414 /* tails-48.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tails-48.png"; sourceTree = "<group>"; };
 		75470D7E1A0A0C3400563414 /* bookmark-48.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bookmark-48.png"; sourceTree = "<group>"; };
 		75470D801A0A0D2E00563414 /* categorize-48.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "categorize-48.png"; sourceTree = "<group>"; };
+		756124E71A0B81B30096E2B8 /* SearchOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SearchOperation.h; path = NewsFeeder/INDAPVAllFiles/SearchOperation.h; sourceTree = "<group>"; };
+		756124E81A0B81B30096E2B8 /* SearchOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SearchOperation.m; path = NewsFeeder/INDAPVAllFiles/SearchOperation.m; sourceTree = "<group>"; };
+		756124EB1A0D1D2F0096E2B8 /* Carnet bleu des urgences pédiatriques 2010.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Carnet bleu des urgences pédiatriques 2010.pdf"; path = "../Carnet bleu des urgences pédiatriques 2010.pdf"; sourceTree = "<group>"; };
 		758BDA6619FBA510000EBC90 /* ATCAnimatedTransitioning.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATCAnimatedTransitioning.h; sourceTree = "<group>"; };
 		758BDA6719FBA510000EBC90 /* ATCAnimatedTransitioning.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATCAnimatedTransitioning.m; sourceTree = "<group>"; };
 		758BDA6819FBA510000EBC90 /* ATCAnimatedTransitioningBounce.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATCAnimatedTransitioningBounce.h; sourceTree = "<group>"; };
@@ -1250,6 +1255,45 @@
 			path = PDFFiles;
 			sourceTree = "<group>";
 		};
+		756124EA1A0CB6D50096E2B8 /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+				758BDA8419FBBEDB000EBC90 /* searchB-50.png */,
+				758BDA7E19FBB856000EBC90 /* info-48.png */,
+				758BDA8019FBB88B000EBC90 /* info-50.png */,
+				758BDA8219FBBC28000EBC90 /* cancel-48.png */,
+				758BDA7819FBB664000EBC90 /* home-50.png */,
+				758BDA7C19FBB7CD000EBC90 /* home_filled-50.png */,
+				75C50B8419FAF6330011698B /* more_then-50.png */,
+				75D869AC19F9077900F53AF1 /* menu-50.png */,
+				75D869AA19F9073400F53AF1 /* checkmark-50.png */,
+				75D869A419F905EE00F53AF1 /* filter_filled-50.png */,
+				75D869A819F9067C00F53AF1 /* search-50.png */,
+				75D869A519F905EE00F53AF1 /* filter-50.png */,
+				758BDA7A19FBB734000EBC90 /* homeg-50.png */,
+				758BDA8619FBC1F1000EBC90 /* cancel-32.png */,
+				75C50B8619FCF3960011698B /* erase-48.png */,
+				75470D701A09A97C00563414 /* message-50.png */,
+				75470D741A09A99B00563414 /* export-50.png */,
+				75470D721A09A98800563414 /* back-50.png */,
+				75470D761A09A9BA00563414 /* settings-50.png */,
+				75470D781A09B35F00563414 /* more-48.png */,
+				75470D7A1A0A0C1600563414 /* checkmark-48.png */,
+				75470D7C1A0A0C2200563414 /* tails-48.png */,
+				75470D7E1A0A0C3400563414 /* bookmark-48.png */,
+				75470D801A0A0D2E00563414 /* categorize-48.png */,
+			);
+			name = Icons;
+			sourceTree = "<group>";
+		};
+		756124ED1A0D1D430096E2B8 /* Pediatrie */ = {
+			isa = PBXGroup;
+			children = (
+				756124EB1A0D1D2F0096E2B8 /* Carnet bleu des urgences pédiatriques 2010.pdf */,
+			);
+			name = Pediatrie;
+			sourceTree = "<group>";
+		};
 		758BDA6219FBA4A5000EBC90 /* Transition Gallery */ = {
 			isa = PBXGroup;
 			children = (
@@ -1315,6 +1359,7 @@
 		75CE288A19F394AC002FF80F /* UDREM */ = {
 			isa = PBXGroup;
 			children = (
+				756124ED1A0D1D430096E2B8 /* Pediatrie */,
 				FCB8478E19FE90880047D902 /* Médecine interne */,
 				75CE288B19F394AC002FF80F /* Anatomie */,
 				75CE289C19F394AC002FF80F /* Cardiovasculaire */,
@@ -1588,6 +1633,8 @@
 		C3080DD717FE86B8008AE8CC = {
 			isa = PBXGroup;
 			children = (
+				756124E71A0B81B30096E2B8 /* SearchOperation.h */,
+				756124E81A0B81B30096E2B8 /* SearchOperation.m */,
 				75E3851519EF1CF2006C60FF /* libxml2.dylib */,
 				C3080DE917FE86B8008AE8CC /* NewsFeeder */,
 				C3080E0817FE86B8008AE8CC /* NewsFeederTests */,
@@ -1626,30 +1673,7 @@
 		C3080DE917FE86B8008AE8CC /* NewsFeeder */ = {
 			isa = PBXGroup;
 			children = (
-				758BDA8419FBBEDB000EBC90 /* searchB-50.png */,
-				758BDA7E19FBB856000EBC90 /* info-48.png */,
-				758BDA8019FBB88B000EBC90 /* info-50.png */,
-				758BDA8219FBBC28000EBC90 /* cancel-48.png */,
-				758BDA7819FBB664000EBC90 /* home-50.png */,
-				758BDA7C19FBB7CD000EBC90 /* home_filled-50.png */,
-				75C50B8419FAF6330011698B /* more_then-50.png */,
-				75D869AC19F9077900F53AF1 /* menu-50.png */,
-				75D869AA19F9073400F53AF1 /* checkmark-50.png */,
-				75D869A419F905EE00F53AF1 /* filter_filled-50.png */,
-				75D869A819F9067C00F53AF1 /* search-50.png */,
-				75D869A519F905EE00F53AF1 /* filter-50.png */,
-				758BDA7A19FBB734000EBC90 /* homeg-50.png */,
-				758BDA8619FBC1F1000EBC90 /* cancel-32.png */,
-				75C50B8619FCF3960011698B /* erase-48.png */,
-				75470D701A09A97C00563414 /* message-50.png */,
-				75470D741A09A99B00563414 /* export-50.png */,
-				75470D721A09A98800563414 /* back-50.png */,
-				75470D761A09A9BA00563414 /* settings-50.png */,
-				75470D781A09B35F00563414 /* more-48.png */,
-				75470D7A1A0A0C1600563414 /* checkmark-48.png */,
-				75470D7C1A0A0C2200563414 /* tails-48.png */,
-				75470D7E1A0A0C3400563414 /* bookmark-48.png */,
-				75470D801A0A0D2E00563414 /* categorize-48.png */,
+				756124EA1A0CB6D50096E2B8 /* Icons */,
 				75E3851819EFCC68006C60FF /* PdfManager */,
 				7506807319EB136000EA0040 /* UIView+Framing.h */,
 				7506807419EB136000EA0040 /* UIView+Framing.m */,
@@ -2408,6 +2432,7 @@
 				FCB847C119FE90880047D902 /* Gastro-intestinal - Dyspepsie.pdf in Resources */,
 				75CE28E719F394AC002FF80F /* Semiologie generale.pdf in Resources */,
 				C3080DF717FE86B8008AE8CC /* Main.storyboard in Resources */,
+				756124EC1A0D1D2F0096E2B8 /* Carnet bleu des urgences pédiatriques 2010.pdf in Resources */,
 				75470D291A09895600563414 /* Brightness.png in Resources */,
 				FCB847CB19FE90880047D902 /* Ophtalmologique - Oeil rouge.pdf in Resources */,
 				75470D2C1A09895600563414 /* Color_Blue.png in Resources */,
@@ -2560,6 +2585,7 @@
 				75470D651A09895600563414 /* INDAPVStringDetector.m in Sources */,
 				75470D4F1A09895600563414 /* INDAPVPreviewRender.m in Sources */,
 				758BDA7419FBA510000EBC90 /* ATCAnimatedTransitioningFade.m in Sources */,
+				756124E91A0B81B30096E2B8 /* SearchOperation.m in Sources */,
 				758BDA7219FBA510000EBC90 /* ATCAnimatedTransitioning.m in Sources */,
 				758BDA7719FBA510000EBC90 /* ATCTransitioningDelegate.m in Sources */,
 				75103A8919FD997600BD458D /* AnalyticsManager.m in Sources */,

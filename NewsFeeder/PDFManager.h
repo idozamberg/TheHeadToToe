@@ -8,6 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import "AppData.h"
+#import "INDAPVScanner.h"
 
 @interface PDFManager : NSObject
 
@@ -16,6 +17,8 @@
 
 
 @property (nonatomic,strong) NSDictionary* documentsUrls;
+@property (nonatomic,strong) INDAPVScanner* scanner;
+
 
 - (NSString*) createStringFromDictionaryForPdf : (NSMutableDictionary*) dict andShouldFilter : (BOOL) shouldFilter;
 - (NSString*) createPdfFromDictionary : (NSMutableDictionary*) dict andShouldFilter : (BOOL) shouldFilter;

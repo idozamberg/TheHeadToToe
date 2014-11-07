@@ -10,7 +10,7 @@
 
 @implementation AdmissionQuestion
 
-@synthesize text,comment,wasChecked;
+@synthesize text,comment,wasChecked,nonCheckedText,checkedText;
 
 - (id)copyWithZone:(NSZone *)zone
 {

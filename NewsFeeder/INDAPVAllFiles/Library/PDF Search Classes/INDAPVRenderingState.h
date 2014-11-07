@@ -66,6 +66,8 @@
 	NSMutableArray *stack;
 }
 
++ (RenderingStateStack *)stack;
+
 /* Push a rendering state to the stack */
 - (void)pushRenderingState:(INDAPVRenderingState *)state;
 

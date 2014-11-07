@@ -11,5 +11,7 @@
 @interface UIHelper : NSObject
 
 + (NSMutableDictionary*) dictionaryFromPlistWithName : (NSString*) plistName;
++ (NSArray*) seprateStringsWithString : (NSString*) stringToSeparate;
+
 
 @end

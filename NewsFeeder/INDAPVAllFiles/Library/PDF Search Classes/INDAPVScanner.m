@@ -77,6 +77,11 @@ void cm(CGPDFScannerRef scanner, void *info);
 	return self;
 }
 
++ (INDAPVScanner *)aScanner
+{
+    return [[[INDAPVScanner alloc] init] autorelease];
+}
+
 - (id)initWithContentsOfFile:(NSString *)path
 {
 	if ((self = [super init]))
@@ -267,6 +272,28 @@ void didScanSpace(float value, INDAPVScanner *scanner)
 		}
         [scanner.stringDetector reset];
     }
+}
+
+
+- (NSArray *)select:(NSString *)word ForPage : (CGPDFPageRef) pdfPage {
+
+    INDAPVStringDetector* detector =  [[INDAPVStringDetector alloc] initWithKeyword:self.keyword];
+    detector.delegate = self;
+    [self.selections removeAllObjects];
+    
+    CGPDFOperatorTableRef theOperatorTable = [self operatorTable];
+    CGPDFContentStreamRef contentStream = CGPDFContentStreamCreateWithPage(pdfPage);
+    CGPDFScannerRef scanner = CGPDFScannerCreate(contentStream, theOperatorTable, self);
+    CGPDFScannerScan(scanner);
+    
+    CGPDFScannerRelease(scanner);
+    CGPDFContentStreamRelease(contentStream);
+    CGPDFOperatorTableRelease(operatorTable);
+    
+    detector.delegate= Nil;
+    detector= Nil;
+        
+    return self.selections;
 }
 
 /* Called any time the scanner scans a string */
@@ -520,6 +547,8 @@ void cm(CGPDFScannerRef scanner, void *info)
 	CGPDFDocumentRelease(pdfDocument); pdfDocument = nil;
 	[super dealloc];
 }
+
+
 
 @synthesize documentURL, keyword, stringDetector, fontCollection, renderingStateStack, currentSelection, selections, rawTextContent;
 @end

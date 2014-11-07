@@ -47,6 +47,10 @@
 /* Start scanning a particular page */
 - (void)scanPage:(CGPDFPageRef)page;
 
++ (INDAPVScanner *)aScanner;
+
+- (NSArray *)select:(NSString *)word ForPage : (CGPDFPageRef) pdfPage;
+
 @property (nonatomic, retain) NSMutableArray *selections;
 @property (nonatomic, retain) RenderingStateStack *renderingStateStack;
 @property (nonatomic, retain) INDAPVFontCollection *fontCollection;

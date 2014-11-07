@@ -113,9 +113,24 @@ static AppData* shareData;
                 {
                     for (NSString* currentQuestion in currentQuestionArray)
                     {
+                        NSArray* texts = [UIHelper seprateStringsWithString:currentQuestion];
+                        
                         // Setting new question
                         AdmissionQuestion* newQuestion = [AdmissionQuestion new];
-                        newQuestion.text               = currentQuestion;
+                        newQuestion.text               = [texts objectAtIndex:0];
+                        
+                        // Setting text for when question is not checked
+                        if (texts.count > 1)
+                        {
+                            newQuestion.nonCheckedText = [texts objectAtIndex:1];
+                        }
+                        
+                        // Setting text for when question is checked
+                        if (texts.count > 2)
+                        {
+                            newQuestion.checkedText = [texts objectAtIndex:2];
+                        }
+                        
                         newQuestion.comment = @"";
                         newQuestion.wasChecked = NO;
                     

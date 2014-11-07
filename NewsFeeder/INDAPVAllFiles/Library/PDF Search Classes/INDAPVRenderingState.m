@@ -112,6 +112,10 @@
 
 @implementation RenderingStateStack
 
++ (RenderingStateStack *)stack {
+    return [[[RenderingStateStack alloc] init] autorelease];
+}
+
 /* Initialize with root rendering state */
 - (id)init
 {

@@ -75,8 +75,16 @@
         NSScanner *scanner = [NSScanner scannerWithString:[parts objectAtIndex:0]];
         [scanner scanHexInt:&from];
         
-        scanner = [NSScanner scannerWithString:[parts objectAtIndex:1]];
-        [scanner scanHexInt:&to];
+        if (parts.count > 1)
+        {
+            scanner = [NSScanner scannerWithString:[parts objectAtIndex:1]];
+            [scanner scanHexInt:&to];
+        }
+        else
+        {
+            scanner = [NSScanner scannerWithString:@""];
+            [scanner scanHexInt:&to];
+        }
         
         NSNumber *fromNumber = [NSNumber numberWithInt:from];
         NSNumber *toNumber = [NSNumber numberWithInt:to];

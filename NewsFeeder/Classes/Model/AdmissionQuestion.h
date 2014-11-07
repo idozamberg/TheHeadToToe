@@ -11,6 +11,8 @@
 @interface AdmissionQuestion : NSObject <NSCopying>
 
 @property (nonatomic,strong) NSString* text;
+@property (nonatomic,strong) NSString* nonCheckedText;
+@property (nonatomic,strong) NSString* checkedText;
 @property (nonatomic)        BOOL      wasChecked;
 @property (nonatomic,strong) NSString* comment;
 

@@ -12,9 +12,16 @@
 //#import "Scanner.h"
 #import "HTTFile.h"
 #import "INDAPVDocument.h"
+#import "INDAPVScanner.h"
+#import "CGPDFDocument.h"
+
+
 
 @implementation PDFManager
+{
+}
 @synthesize documentsUrls = _documentsUrls;
+@synthesize scanner;
 
 static PDFManager* sharePDF;
 
@@ -36,6 +43,7 @@ static PDFManager* sharePDF;
     if (self)
     {
         //[self loadDocumentsUrl];
+        scanner = [[INDAPVScanner alloc] init];
     }
     
     return self;
@@ -98,13 +106,30 @@ static PDFManager* sharePDF;
                             if (currentQuestion.wasChecked)
                             {
                                 NSString* comment = currentQuestion.comment ? currentQuestion.comment : @"";
-                                pdfString = [pdfString stringByAppendingString:[NSString stringWithFormat:@"          %@:",currentQuestion.text]];
-                                pdfString = [pdfString stringByAppendingString:[NSString stringWithFormat:@" Oui - %@",comment]];
+                              
+                                if (!currentQuestion.checkedText)
+                                {
+                                    pdfString = [pdfString stringByAppendingString:[NSString stringWithFormat:@"          %@:",currentQuestion.text]];
+                                    pdfString = [pdfString stringByAppendingString:[NSString stringWithFormat:@" Oui - %@",comment]];
+                                }
+                                else
+                                {
+                                    pdfString = [pdfString stringByAppendingString:[NSString stringWithFormat:@"          %@ : %@",currentQuestion.text,currentQuestion.checkedText]];
+                                    pdfString = [pdfString stringByAppendingString:[NSString stringWithFormat:@" - %@",comment]];
+                                }
                             }
                             else
                             {
-                                // Setting up string to write
-                                pdfString = [pdfString stringByAppendingString:[NSString stringWithFormat:@"          Pas de %@",currentQuestion.text]];
+                                if (!currentQuestion.nonCheckedText)
+                                {
+                                    // Setting up string to write
+                                    pdfString = [pdfString stringByAppendingString:[NSString stringWithFormat:@"          Pas de %@",currentQuestion.text]];
+                                }
+                                else
+                                {
+                                    // Setting up string to write
+                                    pdfString = [pdfString stringByAppendingString:[NSString stringWithFormat:@"          %@ %@",currentQuestion.text,currentQuestion.nonCheckedText]];
+                                }
                             }
                             
                             // New line
@@ -183,7 +208,7 @@ static PDFManager* sharePDF;
     _documentsUrls = [[NSDictionary alloc] initWithDictionary:urls];
 }
 
-/*
+
 
 
 - (NSMutableArray*) findStringInPdfLibrary : (NSString*) searchPhrase
@@ -224,6 +249,7 @@ static PDFManager* sharePDF;
     return filePath;
 }
 
+
 - (BOOL) hasStringInFileWithName :(NSURL*) fileUrl andString : (NSString*) searchString
 {
     CGPDFDocumentRef document;
@@ -239,13 +265,16 @@ static PDFManager* sharePDF;
     {
         // Scan current page
         CGPDFPageRef page = CGPDFDocumentGetPage(document, pageNumber);
-        Scanner *scanner = [Scanner scannerWithPage:page];
+        INDAPVScanner *theScanner = [INDAPVScanner aScanner];
+        
+        [theScanner setKeyword:searchString];//keyWord
+        [theScanner scanPage:page];
         
         // Getting results
-        NSArray *selections = [scanner select:searchString];
+      //  NSArray *selections = [scanner select:searchString ForPage:page];
         
         // Check if we have results
-        if (selections.count > 0)
+        if ([theScanner selections].count > 0)
         {
             return YES;
         }
@@ -254,6 +283,6 @@ static PDFManager* sharePDF;
     return NO;
 }
 
-*/
+
 
 @end

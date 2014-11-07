@@ -58,6 +58,8 @@
 		<string>Pharmacologie</string>
 		<key>CELL_ROW11</key>
 		<string>Urgences</string>
+		<key>CELL_ROW12</key>
+		<string>Pediatrie</string>
 	</dict>
 	<key>SCREEN_SEARCH</key>
 	<dict>

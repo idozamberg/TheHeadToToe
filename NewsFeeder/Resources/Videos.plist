@@ -151,6 +151,24 @@
 			<key>Description</key>
 			<string>Examen cérébelleux OSCE</string>
 		</dict>
+		<dict>
+			<key>Name</key>
+			<string>wgWOmuB1VFY</string>
+			<key>Description</key>
+			<string>Test de Dix Hallpike</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>hiP7ifVxb0Q</string>
+			<key>Description</key>
+			<string>Manœuvre de Semont</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>jBzID5nVQjk</string>
+			<key>Description</key>
+			<string>Manœuvre de Epley</string>
+		</dict>
 	</array>
 	<key>Compétences médicales</key>
 	<array>

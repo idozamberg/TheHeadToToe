@@ -15,6 +15,8 @@
 @interface SearchViewController ()
 {
    // ReaderViewController* readerViewController;
+    UIActivityIndicatorView* activity ;
+    NSOperationQueue *myQueue;
 }
 
 @end
@@ -48,6 +50,9 @@
 	// Do any additional setup after loading the view.
     
     [self insertNavBarWithScreenName:SCREEN_SEARCH];
+    
+    myQueue = [[NSOperationQueue alloc] init];
+    myQueue.name = @"Search Queue";
 }
 
 - (void) viewWillAppear:(BOOL)animated
@@ -91,6 +96,12 @@
 
 - (void) filterArrayByText :(NSString*) text
 {
+    
+    [activity stopAnimating];
+    [activity removeFromSuperview];
+   // [myQueue cancelAllOperations];
+    [self cancelMyOperationsInMainQueue];
+
 
     filteredArray = [NSMutableArray new];
     
@@ -109,16 +120,75 @@
     filteredArrayVideos = (NSMutableArray*)[[_dataSourceArray objectAtIndex:2] filteredArrayUsingPredicate:filePredicate];
     filteredArrayLab = (NSMutableArray*)[[_dataSourceArray objectAtIndex:1] filteredArrayUsingPredicate:labPredicate];
     
-    /*
-    // Scanning pdf files
-    NSMutableArray* scanResults = [[PDFManager sharedInstance] findStringInPdfLibrary:text];
-    // Adding result from files scanner
-    [filteredArrayFiles addObjectsFromArray:scanResults];*/
-    
+//    
+//    if (text.length > 3)
+//    {
+//        [activity stopAnimating];
+//        [activity removeFromSuperview];
+//        activity = [[UIActivityIndicatorView alloc] initWithActivityIndicatorStyle:UIActivityIndicatorViewStyleWhite];
+//        
+//        [activity setYPosition:self.navBarView.lblTitle.frame.origin.y];
+//        [activity setXPosition:self.view.frame.size.width - 30];
+//        [activity startAnimating];
+//        [self.navBarView addSubview:activity];
+//        
+//        // Canceling all operations
+//        //[myQueue cancelAllOperations];
+//        [self cancelMyOperationsInMainQueue];
+//        
+//        // Creating operation
+//        //SearchOperation* operation = [[SearchOperation alloc] initWithSearchString:text];
+//        //operation.delegate = self;
+//        //[myQueue addOperation:operation];
+//        
+//        // Searching
+//        [myQueue addOperationWithBlock: ^ {
+//            
+//            // Scanning pdf files
+//            NSMutableArray* scanResults = [[PDFManager sharedInstance] findStringInPdfLibrary:text];
+//            // Adding result from files scanner
+//            [filteredArrayFiles addObjectsFromArray:scanResults];
+//            
+//            // Update UI on the main thread.
+//            [[NSOperationQueue mainQueue] addOperationWithBlock: ^ {
+//                [self.tblList reloadData];
+//                [activity stopAnimating];
+//
+//            }];
+//            
+//        }];
+//        
+//       /* dispatch_queue_t myQueue = dispatch_queue_create("My Queue",NULL);
+//        dispatch_async(myQueue, ^{
+//            // Perform long running process
+//            // Scanning pdf files
+//            NSMutableArray* scanResults = [[PDFManager sharedInstance] findStringInPdfLibrary:text];
+//            // Adding result from files scanner
+//            [filteredArrayFiles addObjectsFromArray:scanResults];
+//            dispatch_async(dispatch_get_main_queue(), ^{
+//                // Update the UI
+//                
+//            [self.tblList reloadData];
+//                
+//                
+//            });
+//        });*/
+//        
+//        
+//    }
+//    
     [filteredArray addObject:filteredArrayFiles];
     [filteredArray addObject:filteredArrayLab];
     [filteredArray addObject:filteredArrayVideos];
 
+}
+
+-(void)cancelMyOperationsInMainQueue {
+    for (NSOperation* o in [myQueue operations]) {
+        if ([o isKindOfClass:[SearchOperation class]]) {
+            [o cancel];
+        }
+    }
 }
 - (void)didReceiveMemoryWarning
 {
@@ -364,6 +434,15 @@
 - (void) didClickNavBarRightButton
 {
     //[readerViewController pushActionBar];
+}
+
+#pragma mark search protocol
+- (void) searchDidFinishedWithArray : (NSMutableArray*) array
+{
+    [filteredArrayFiles addObjectsFromArray:array];
+    [self.tblList reloadData];
+    [activity stopAnimating];
+
 }
 
 

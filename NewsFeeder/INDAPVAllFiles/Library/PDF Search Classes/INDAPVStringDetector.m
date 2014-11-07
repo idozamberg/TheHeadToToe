@@ -20,6 +20,12 @@
 
 @implementation INDAPVStringDetector
 
++ (INDAPVStringDetector *)detectorWithKeyword:(NSString *)keyword delegate:(id<StringDetectorDelegate>)delegate {
+    INDAPVStringDetector *detector = [[INDAPVStringDetector alloc] initWithKeyword:keyword];
+    detector.delegate = delegate;
+    return [detector autorelease];
+}
+
 /* Initialize with a key string */
 - (id)initWithKeyword:(NSString *)str
 {

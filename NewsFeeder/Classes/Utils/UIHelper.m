@@ -21,4 +21,11 @@
     return data;
 }
 
++ (NSArray*) seprateStringsWithString : (NSString*) stringToSeparate
+{
+    NSArray* strings = [stringToSeparate componentsSeparatedByString:@","];
+    
+    return strings;
+}
+
 @end

@@ -48,6 +48,8 @@
 	id<StringDetectorDelegate> delegate;
 }
 
++ (INDAPVStringDetector *)detectorWithKeyword:(NSString *)keyword delegate:(id<StringDetectorDelegate>)delegate;
+
 /* Initialize with a given needle */
 - (id)initWithKeyword:(NSString *)needle;
 

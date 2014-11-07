@@ -13,12 +13,13 @@
 #import "LabValueCell.h"
 #import "LabValue.h"
 #import "YouTubeVideoFile.h"
+#import "SearchOperation.h"
 
 #define FILES_SECTION 0
 #define LAB_SECTION 1
 #define VIDEOS_SECTION 2
 
-@interface SearchViewController : CustomNavViewController <UITableViewDataSource,UITableViewDelegate>
+@interface SearchViewController : CustomNavViewController <UITableViewDataSource,UITableViewDelegate,searchProtocol>
 {
     IBOutlet UIView * viewSearchbar;
     IBOutlet UITextField * txtfldKeyword;

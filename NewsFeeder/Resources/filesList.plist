@@ -590,5 +590,14 @@
 			<string>Anatomie - Organes Genitaux</string>
 		</dict>
 	</array>
+	<key>Pediatrie</key>
+	<array>
+		<dict>
+			<key>Name</key>
+			<string>Carnet bleu des urgences pédiatriques 2010.pdf</string>
+			<key>Description</key>
+			<string>Carnet bleu - Urgences pediatriques</string>
+		</dict>
+	</array>
 </dict>
 </plist>
