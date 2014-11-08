@@ -176,14 +176,17 @@
     if (indexPath.section == SECTION_AG)
     {
         currentDictionary = [self.dataSource objectForKey:@"Anamnèse Generale"];
+        cell.part = @"Anamnèse Generale";
     }
     else if (indexPath.section == SECTION_APS)
     {
         currentDictionary = [self.dataSource objectForKey:@"Anamnèse par sytème"];
+        cell.part = @"Anamnèse par sytème";
     }
     else
     {
         currentDictionary = [self.dataSource objectForKey:@"Examen Physique"];
+        cell.part = @"Examen Physique";
     }
     
     // Setting cell

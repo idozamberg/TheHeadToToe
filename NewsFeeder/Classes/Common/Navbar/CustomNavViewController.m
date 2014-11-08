@@ -151,7 +151,7 @@
     {
         [self.navBarView.lblTitle setText:[gAppDelegate getStringInScreen:SCREEN_VIDEOS
                                                                     strID:STR_NAVTITLE]];
-        [self.navBarView.rightButton setHidden:YES];
+        [self.navBarView.rightButton setHidden:NO];
         
     }
     else if ([dicName isEqualToString:SCREEN_ADMISSION])

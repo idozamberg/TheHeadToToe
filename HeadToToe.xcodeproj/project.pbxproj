@@ -139,6 +139,7 @@
 		75470D811A0A0D2E00563414 /* categorize-48.png in Resources */ = {isa = PBXBuildFile; fileRef = 75470D801A0A0D2E00563414 /* categorize-48.png */; };
 		756124E91A0B81B30096E2B8 /* SearchOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 756124E81A0B81B30096E2B8 /* SearchOperation.m */; };
 		756124EC1A0D1D2F0096E2B8 /* Carnet bleu des urgences pédiatriques 2010.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 756124EB1A0D1D2F0096E2B8 /* Carnet bleu des urgences pédiatriques 2010.pdf */; };
+		756124EF1A0D2C650096E2B8 /* video_camera-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 756124EE1A0D2C650096E2B8 /* video_camera-50.png */; };
 		758BDA7219FBA510000EBC90 /* ATCAnimatedTransitioning.m in Sources */ = {isa = PBXBuildFile; fileRef = 758BDA6719FBA510000EBC90 /* ATCAnimatedTransitioning.m */; };
 		758BDA7319FBA510000EBC90 /* ATCAnimatedTransitioningBounce.m in Sources */ = {isa = PBXBuildFile; fileRef = 758BDA6919FBA510000EBC90 /* ATCAnimatedTransitioningBounce.m */; };
 		758BDA7419FBA510000EBC90 /* ATCAnimatedTransitioningFade.m in Sources */ = {isa = PBXBuildFile; fileRef = 758BDA6B19FBA510000EBC90 /* ATCAnimatedTransitioningFade.m */; };
@@ -614,6 +615,7 @@
 		756124E71A0B81B30096E2B8 /* SearchOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SearchOperation.h; path = NewsFeeder/INDAPVAllFiles/SearchOperation.h; sourceTree = "<group>"; };
 		756124E81A0B81B30096E2B8 /* SearchOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SearchOperation.m; path = NewsFeeder/INDAPVAllFiles/SearchOperation.m; sourceTree = "<group>"; };
 		756124EB1A0D1D2F0096E2B8 /* Carnet bleu des urgences pédiatriques 2010.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Carnet bleu des urgences pédiatriques 2010.pdf"; path = "../Carnet bleu des urgences pédiatriques 2010.pdf"; sourceTree = "<group>"; };
+		756124EE1A0D2C650096E2B8 /* video_camera-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "video_camera-50.png"; sourceTree = "<group>"; };
 		758BDA6619FBA510000EBC90 /* ATCAnimatedTransitioning.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATCAnimatedTransitioning.h; sourceTree = "<group>"; };
 		758BDA6719FBA510000EBC90 /* ATCAnimatedTransitioning.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATCAnimatedTransitioning.m; sourceTree = "<group>"; };
 		758BDA6819FBA510000EBC90 /* ATCAnimatedTransitioningBounce.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATCAnimatedTransitioningBounce.h; sourceTree = "<group>"; };
@@ -1258,6 +1260,7 @@
 		756124EA1A0CB6D50096E2B8 /* Icons */ = {
 			isa = PBXGroup;
 			children = (
+				756124EE1A0D2C650096E2B8 /* video_camera-50.png */,
 				758BDA8419FBBEDB000EBC90 /* searchB-50.png */,
 				758BDA7E19FBB856000EBC90 /* info-48.png */,
 				758BDA8019FBB88B000EBC90 /* info-50.png */,
@@ -2379,6 +2382,7 @@
 				FCB847BC19FE90880047D902 /* Communication - Approches de la consultation.pdf in Resources */,
 				75470D271A09895600563414 /* Bookmark_Gray.png in Resources */,
 				758BDA8119FBB88B000EBC90 /* info-50.png in Resources */,
+				756124EF1A0D2C650096E2B8 /* video_camera-50.png in Resources */,
 				75470D731A09A98800563414 /* back-50.png in Resources */,
 				FCB847BA19FE90880047D902 /* Cardiovasculaire - Syncope.pdf in Resources */,
 				FCB847BE19FE90880047D902 /* Fibrillation auriculaire 2013.pdf in Resources */,

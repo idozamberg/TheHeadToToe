@@ -1665,9 +1665,20 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" id="n8o-XY-i14">
+                                <rect key="frame" x="286" y="10" width="25" height="25"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="video_camera-50.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="videoClicked:" destination="65I-oJ-07p" eventType="touchUpInside" id="IzY-TZ-evw"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <connections>
+                            <outlet property="btnVideoPage" destination="n8o-XY-i14" id="0qa-jd-YPj"/>
                             <outlet property="imgIcon" destination="fBi-ty-uxn" id="BNw-o1-mrY"/>
                             <outlet property="lblTitle" destination="iZq-i9-qW6" id="UAG-Qf-8y0"/>
                         </connections>
@@ -1720,6 +1731,7 @@
         <image name="setting_cell_indicator.png" width="8" height="13"/>
         <image name="switch_on-48.png" width="48" height="48"/>
         <image name="test_tube-50.png" width="50" height="50"/>
+        <image name="video_camera-50.png" width="50" height="50"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>

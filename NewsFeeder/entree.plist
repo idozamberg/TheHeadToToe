@@ -6,40 +6,40 @@
 	<dict>
 		<key>Antécédents personnels</key>
 		<array>
-			<string>Maladies</string>
-			<string>Interventions chirurgicales</string>
+			<string>Maladies, Pas d&apos;autres maladies</string>
+			<string>Interventions chirurgicales, Pas d&apos;interventions chirurgicales</string>
 			<string>Traumatismes</string>
-			<string>Hospitalisations</string>
-			<string>ATCD psychiatriques</string>
-			<string>Autres ATCD</string>
+			<string>Hospitalisations, Pas d&apos;hospitalisations jusqu&apos;à présent</string>
+			<string>ATCD psychiatriques, Pas d&apos;ATCD psychiatriques</string>
+			<string>Autres ATCD, Pas d&apos;autres ATCD</string>
 		</array>
 		<key>Anamnèse actuelle</key>
 		<array>
-			<string>Que-est que vous améne aujourdhui ?,,</string>
+			<string>Que-est que vous amène aujourdhui ?, Non renseigné, Le patient consulte pour</string>
 		</array>
 		<key>Anamnèse psychosociale</key>
 		<array>
-			<string>Transferts</string>
-			<string>Marche</string>
-			<string>AVQ/AVI</string>
-			<string>Aide à domicile</string>
+			<string>Transferts, Non renseigné, </string>
+			<string>Marche, Non renseignée</string>
+			<string>AVQ/AVI, Non renseigné</string>
+			<string>Aide à domicile, Non renseigné</string>
 		</array>
 		<key>Habitudes</key>
 		<array>
 			<string>Tabac</string>
 			<string>Alcool</string>
 			<string>Drogues</string>
-			<string>Alimentation</string>
-			<string>Exercice</string>
-			<string>Allergies</string>
+			<string>Alimentation, Non renseignée, </string>
+			<string>Exercice, Non renseigné</string>
+			<string>Allergies, Pas d&apos;allergies, </string>
 		</array>
 		<key>FRCV</key>
 		<array>
-			<string>HTA</string>
+			<string>HTA, Pas d&apos;HTA</string>
 			<string>Tabac</string>
 			<string>Diabète</string>
 			<string>Hypercholestérolémie</string>
-			<string>ATCD Familiale </string>
+			<string>ATCD Familiaux</string>
 		</array>
 	</dict>
 	<key>Anamnèse par sytème</key>
@@ -51,13 +51,13 @@
 			<string>Sudations nocturnes</string>
 			<string>Perte d&apos;appétit</string>
 			<string>Perte de poids</string>
-			<string>Asthénie</string>
+			<string>Asthénie, Pas d&apos;Asthénie</string>
 			<string>Troubles du sommeil</string>
 		</array>
 		<key>Peau</key>
 		<array>
-			<string>Eruptions cutanées</string>
-			<string>Hématomes</string>
+			<string>Eruptions cutanées, Pas d&apos;éruption cutanées</string>
+			<string>Hématomes, Pas d&apos;hématomes</string>
 			<string>Lésions</string>
 		</array>
 		<key>Cardiovasculaire</key>
@@ -75,11 +75,11 @@
 		<key>Respiratoire</key>
 		<array>
 			<string>Toux</string>
-			<string>Expectorations</string>
+			<string>Expectorations, Pas d&apos;expectorations</string>
 			<string>Dyspnée</string>
 			<string>Douleurs thoraciques</string>
 			<string>Douleurs respiro-dépendantes</string>
-			<string>Hémoptysie</string>
+			<string>Hémoptysie, Pas d&apos;hémoptysie</string>
 			<string>Respiration sifflante</string>
 		</array>
 		<key>Digestif</key>
@@ -113,11 +113,11 @@
 		<key>Gynécologique</key>
 		<array>
 			<string>Grossesse</string>
-			<string>Durée des menstruations</string>
+			<string>Durée des menstruations,,</string>
 			<string>Périodicité</string>
 			<string>Dysménorrhée</string>
 			<string>Ménorrhagie</string>
-			<string>Date des dernières règles</string>
+			<string>Date des dernières règles, non renseigné,</string>
 			<string>Dyspareunie</string>
 			<string>Pertes vaginales</string>
 			<string>Ménarches</string>
@@ -132,7 +132,7 @@
 			<string>Convulsions</string>
 			<string>Perte de connaissance</string>
 			<string>Syncope</string>
-			<string>Acuité visuelle</string>
+			<string>Acuité visuelle, Pas de troubles visuels,</string>
 			<string>Perte d&apos;audition, acouphènes</string>
 			<string>Paresthésies</string>
 			<string>Perte de mémoire</string>
@@ -145,7 +145,7 @@
 			<string>Douleurs articulaires</string>
 			<string>Tuméfaction</string>
 			<string>Raideur (muscles, articulations, dos)</string>
-			<string>Capacité de se laver, s&apos;habiller sans difficulté</string>
+			<string>Capacité de se laver s&apos;habiller sans difficulté</string>
 			<string>Capable de monter et descendre les escaliers</string>
 		</array>
 	</dict>

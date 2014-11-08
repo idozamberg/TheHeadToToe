@@ -9,8 +9,8 @@
 #import "HTTListTableViewCell.h"
 #import "QuestionCell.h"
 #import "AdmissionQuestion.h"
-
-
+#import "SuperViewController.h"
+#import "HTTVideoViewController.h"
 
 
 @implementation HTTListTableViewCell
@@ -78,7 +78,6 @@
     NSArray* category =
     [[_questionList allValues] objectAtIndex:indexPath.section];
     
-    
     // Getting current question
     AdmissionQuestion* currentQuestion = [category objectAtIndex:indexPath.row];
     
@@ -121,6 +120,20 @@
         [headerView.imgIcon setImage:[UIImage imageNamed:@"Minus_black"]];
     }
     
+    headerView.btnVideoPage.hidden = YES;
+    
+    // Check if we should show the video part
+    if ([self.part isEqualToString:@"Examen Physique"])
+    {
+        // Getting files list
+        NSMutableArray* files = [[AppData sharedInstance].youTubeFilesList objectForKey:[[_questionList allKeys] objectAtIndex:section]];
+        
+        // If there are videos
+        if (files.count > 0)
+        {
+            headerView.btnVideoPage.hidden = NO;
+        }
+    }
     
     return headerView;
 }
@@ -176,6 +189,33 @@
                                                         object:self
                                                       userInfo:dict];
     
+}
+
+- (void) videoButtonClickedWithSection:(NSInteger)section
+{
+    // Setting parameters
+    [AnalyticsManager sharedInstance].flurryParameters = [NSDictionary dictionaryWithObjectsAndKeys:@"Home",@"Father View", nil];
+    
+    // Sending analytics
+    [AnalyticsManager sharedInstance].sendToFlurry = YES;
+    [[AnalyticsManager sharedInstance] sendEventWithName:@"Videos view showed" Category:@"Views" Label:@"Home"];
+    
+    // Creating view controller
+    SuperViewController* vcList = [[HTTVideoViewController alloc] viewFromStoryboard];
+    
+    // Setting view mode
+    vcList.currentViewMode = viewModeInNavigation;
+    
+    // Getting files list
+    NSMutableArray* files = [[AppData sharedInstance].youTubeFilesList objectForKey:[[_questionList allKeys] objectAtIndex:section]];
+    
+    // Setting system name
+    ((HTTVideoViewController*)vcList).system = [[_questionList allKeys] objectAtIndex:section];
+    
+    // Setting file's list
+    [((HTTVideoViewController*)vcList) setFilesList:files];
+    
+    [[AppData sharedInstance].currNavigationController pushViewController:vcList animated:YES];
 }
 
 @end

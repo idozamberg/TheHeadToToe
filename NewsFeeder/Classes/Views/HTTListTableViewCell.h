@@ -14,5 +14,6 @@
 @property (weak, nonatomic) IBOutlet UITableView *tblQuestions;
 @property (strong,nonatomic) NSMutableDictionary* questionList;
 @property (strong,nonatomic) NSMutableArray* rowsForSection;
+@property (strong,nonatomic) NSString* part;
 
 @end

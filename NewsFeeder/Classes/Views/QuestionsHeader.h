@@ -12,6 +12,7 @@
 @protocol headerDelegate <NSObject>
 
 - (void) moreButtonClickedWithSection : (NSInteger) section;
+- (void) videoButtonClickedWithSection : (NSInteger) section;
 
 @end
 
@@ -24,5 +25,7 @@
 
 - (void) setTitle:(NSString *)title;
 - (IBAction)moreClicked:(id)sender;
+- (IBAction)videoClicked:(id)sender;
+@property (weak, nonatomic) IBOutlet UIButton *btnVideoPage;
 
 @end

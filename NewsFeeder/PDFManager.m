@@ -107,6 +107,7 @@ static PDFManager* sharePDF;
                             {
                                 NSString* comment = currentQuestion.comment ? currentQuestion.comment : @"";
                               
+                                // Empty checked text ?
                                 if (!currentQuestion.checkedText)
                                 {
                                     pdfString = [pdfString stringByAppendingString:[NSString stringWithFormat:@"          %@:",currentQuestion.text]];
@@ -115,7 +116,7 @@ static PDFManager* sharePDF;
                                 else
                                 {
                                     pdfString = [pdfString stringByAppendingString:[NSString stringWithFormat:@"          %@ : %@",currentQuestion.text,currentQuestion.checkedText]];
-                                    pdfString = [pdfString stringByAppendingString:[NSString stringWithFormat:@" - %@",comment]];
+                                    pdfString = [pdfString stringByAppendingString:[NSString stringWithFormat:@" %@",comment]];
                                 }
                             }
                             else

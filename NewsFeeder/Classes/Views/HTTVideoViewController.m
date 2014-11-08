@@ -9,7 +9,7 @@
 #import "HTTVideoViewController.h"
 #import "HTTVideoTableViewCell.h"
 #import "YouTubeVideoFile.h"
-
+#import "SearchViewController.H"
 
 @interface HTTVideoViewController ()
 
@@ -103,6 +103,33 @@
 {
     return 268;
 }
+
+
+- (void) didClickNavBarRightButton
+{
+    
+    // Getting first view controller
+    UIViewController* viewController = [[self.navigationController viewControllers] objectAtIndex:0];
+    
+    // Disabling animation transition
+    self.navigationController.delegate = Nil;
+    
+    // Setting parameters
+    [AnalyticsManager sharedInstance].flurryParameters = [NSDictionary dictionaryWithObjectsAndKeys:@"FilesListView",@"Father View", nil];
+    
+    // Sending analytics
+    [AnalyticsManager sharedInstance].sendToFlurry = YES;
+    [[AnalyticsManager sharedInstance] sendEventWithName:@"Search view showed" Category:@"Views" Label:@"FilesListView"];
+    
+    // Showing search screen
+    SearchViewController * searchController = (SearchViewController *)[[SearchViewController alloc] viewFromStoryboard];
+    searchController.dataSourceArray = [[AppData sharedInstance] flattenedSearchArray];
+    
+    // Setting navigation mode and showing screen
+    searchController.currentViewMode = viewModeInNavigation;
+    [self.navigationController pushViewController:searchController animated:YES];
+}
+
 
 /*
 #pragma mark - Navigation

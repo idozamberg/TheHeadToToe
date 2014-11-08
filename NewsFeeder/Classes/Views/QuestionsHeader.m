@@ -37,4 +37,12 @@
     }
 }
 
+- (IBAction)videoClicked:(id)sender {
+    
+    if ([self.delegate respondsToSelector:@selector(videoButtonClickedWithSection:)])
+    {
+        [self.delegate videoButtonClickedWithSection:self.tag];
+    }
+}
+
 @end
