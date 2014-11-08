@@ -140,7 +140,7 @@
 			<string>Anxiété</string>
 			<string>Dépression</string>
 		</array>
-		<key>Musculo-squelettique</key>
+		<key>Ostéoarticulaire</key>
 		<array>
 			<string>Douleurs articulaires</string>
 			<string>Tuméfaction</string>
@@ -216,8 +216,10 @@
 			<string>ROT</string>
 			<string>Mingazzini</string>
 			<string>Trouble de la parole </string>
+			<string>Clonus</string>
+			<string>Asterixis</string>
 		</array>
-		<key>Musculo-squelettique</key>
+		<key>Ostéoarticulaire</key>
 		<array>
 			<string>Scoliose</string>
 			<string>Déformation</string>

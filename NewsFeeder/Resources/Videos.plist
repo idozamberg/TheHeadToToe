@@ -119,7 +119,7 @@
 			<string>Examen vasculaire OSCE</string>
 		</dict>
 	</array>
-	<key>Neurologie</key>
+	<key>Neurologique</key>
 	<array>
 		<dict>
 			<key>Name</key>
@@ -153,6 +153,24 @@
 		</dict>
 		<dict>
 			<key>Name</key>
+			<string>4hOSkmDYAR4</string>
+			<key>Description</key>
+			<string>Test de Romberg</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>rN-R7-hh5x4</string>
+			<key>Description</key>
+			<string>Signe de Brudzinski</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Evx48zcKFDA</string>
+			<key>Description</key>
+			<string>Signe de Kering</string>
+		</dict>
+		<dict>
+			<key>Name</key>
 			<string>wgWOmuB1VFY</string>
 			<key>Description</key>
 			<string>Test de Dix Hallpike</string>
@@ -168,6 +186,18 @@
 			<string>jBzID5nVQjk</string>
 			<key>Description</key>
 			<string>Manœuvre de Epley</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>sEnp2ss8VoA</string>
+			<key>Description</key>
+			<string>Asterixis</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>UX75k8s5QUE</string>
+			<key>Description</key>
+			<string>Clonus Test</string>
 		</dict>
 	</array>
 	<key>Compétences médicales</key>
