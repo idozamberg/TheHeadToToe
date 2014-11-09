@@ -289,4 +289,24 @@ static AppData* shareData;
     return flatArray;
 }
 
+- (HTTFile*) videoIdentifierForTest : (NSString*) test
+{
+    // Getting flat array
+    NSMutableArray* allVideos;//[self flattenedVideosArray];
+    
+    // Creating predicate for files and videos
+    NSPredicate *filePredicate =
+    [NSPredicate predicateWithFormat:@"(SELF.name contains[cd] %@) OR (SELF.fileDescription contains[cd] %@) OR (SELF.system contains[cd] %@)" ,test,test,test];
+    
+    // Flitering array
+    allVideos = ((NSMutableArray*)[[self flattenedVideosArray] filteredArrayUsingPredicate:filePredicate]);
+    
+    if (allVideos.count > 0)
+    {
+        return [allVideos objectAtIndex:0];
+    }
+    
+    return Nil;
+}
+
 @end

@@ -494,7 +494,7 @@
                                                     <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
                                                 </view>
                                                 <view contentMode="scaleToFill" id="pnO-Sn-IK9">
-                                                    <rect key="frame" x="-2.5" y="262" width="3030" height="13"/>
+                                                    <rect key="frame" x="-2.5" y="262" width="3330" height="13"/>
                                                     <autoresizingMask key="autoresizingMask" widthSizable="YES"/>
                                                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 </view>
@@ -1012,7 +1012,7 @@
                                                                         </connections>
                                                                     </button>
                                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="f5Y-Vi-GHK">
-                                                                        <rect key="frame" x="280" y="12" width="20" height="25"/>
+                                                                        <rect key="frame" x="286" y="12" width="20" height="25"/>
                                                                         <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
                                                                         <state key="normal" title="Button" image="note-48.png">
                                                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -1021,12 +1021,23 @@
                                                                             <action selector="commentClicked:" destination="AIC-bF-uPj" eventType="touchUpInside" id="DKb-nT-4kG"/>
                                                                         </connections>
                                                                     </button>
+                                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="xc9-rh-jIs">
+                                                                        <rect key="frame" x="250" y="12" width="25" height="25"/>
+                                                                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
+                                                                        <state key="normal" title="Button" image="video_camera-50-white.png">
+                                                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                                        </state>
+                                                                        <connections>
+                                                                            <action selector="videoClicked:" destination="AIC-bF-uPj" eventType="touchUpInside" id="FSi-Se-g3p"/>
+                                                                        </connections>
+                                                                    </button>
                                                                 </subviews>
-                                                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                                                <color key="backgroundColor" red="0.82577948270000001" green="0.82464148849999996" blue="0.84451941289999999" alpha="1" colorSpace="calibratedRGB"/>
                                                             </tableViewCellContentView>
                                                             <connections>
                                                                 <outlet property="btnCheck" destination="SmO-zG-1if" id="sV0-qL-pW3"/>
                                                                 <outlet property="btnComment" destination="f5Y-Vi-GHK" id="pc0-QW-MxB"/>
+                                                                <outlet property="btnVideo" destination="xc9-rh-jIs" id="mL1-Mw-ylT"/>
                                                                 <outlet property="imgCheck" destination="b43-3k-9z6" id="zUV-DF-yJb"/>
                                                                 <outlet property="lblQuestion" destination="Gaa-Or-1Uy" id="yLx-Qp-REy"/>
                                                             </connections>
@@ -1731,6 +1742,7 @@
         <image name="setting_cell_indicator.png" width="8" height="13"/>
         <image name="switch_on-48.png" width="48" height="48"/>
         <image name="test_tube-50.png" width="50" height="50"/>
+        <image name="video_camera-50-white.png" width="50" height="50"/>
         <image name="video_camera-50.png" width="50" height="50"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">

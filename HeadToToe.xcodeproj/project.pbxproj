@@ -53,6 +53,7 @@
 		7524A47919E98A27006607C1 /* Share icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 7524A47819E98A27006607C1 /* Share icon.png */; };
 		7524A47B19E9A682006607C1 /* Launch Screen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7524A47A19E9A682006607C1 /* Launch Screen.xib */; };
 		7524A47D19EA5FD1006607C1 /* external-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 7524A47C19EA5FD1006607C1 /* external-50.png */; };
+		7537832C1A0F5F0100B716B8 /* video_camera-50-white.png in Resources */ = {isa = PBXBuildFile; fileRef = 7537832B1A0F5F0100B716B8 /* video_camera-50-white.png */; };
 		75470D251A09895600563414 /* Back_Selected_Black.png in Resources */ = {isa = PBXBuildFile; fileRef = 75470CA91A09895500563414 /* Back_Selected_Black.png */; };
 		75470D261A09895600563414 /* BookCover_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 75470CAA1A09895500563414 /* BookCover_2.png */; };
 		75470D271A09895600563414 /* Bookmark_Gray.png in Resources */ = {isa = PBXBuildFile; fileRef = 75470CAB1A09895500563414 /* Bookmark_Gray.png */; };
@@ -487,6 +488,7 @@
 		7524A47819E98A27006607C1 /* Share icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Share icon.png"; sourceTree = "<group>"; };
 		7524A47A19E9A682006607C1 /* Launch Screen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "Launch Screen.xib"; sourceTree = "<group>"; };
 		7524A47C19EA5FD1006607C1 /* external-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "external-50.png"; sourceTree = "<group>"; };
+		7537832B1A0F5F0100B716B8 /* video_camera-50-white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "video_camera-50-white.png"; sourceTree = "<group>"; };
 		75470CA91A09895500563414 /* Back_Selected_Black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Back_Selected_Black.png; sourceTree = "<group>"; };
 		75470CAA1A09895500563414 /* BookCover_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BookCover_2.png; sourceTree = "<group>"; };
 		75470CAB1A09895500563414 /* Bookmark_Gray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Bookmark_Gray.png; sourceTree = "<group>"; };
@@ -1260,6 +1262,7 @@
 		756124EA1A0CB6D50096E2B8 /* Icons */ = {
 			isa = PBXGroup;
 			children = (
+				7537832B1A0F5F0100B716B8 /* video_camera-50-white.png */,
 				756124EE1A0D2C650096E2B8 /* video_camera-50.png */,
 				758BDA8419FBBEDB000EBC90 /* searchB-50.png */,
 				758BDA7E19FBB856000EBC90 /* info-48.png */,
@@ -2385,6 +2388,7 @@
 				756124EF1A0D2C650096E2B8 /* video_camera-50.png in Resources */,
 				75470D731A09A98800563414 /* back-50.png in Resources */,
 				FCB847BA19FE90880047D902 /* Cardiovasculaire - Syncope.pdf in Resources */,
+				7537832C1A0F5F0100B716B8 /* video_camera-50-white.png in Resources */,
 				FCB847BE19FE90880047D902 /* Fibrillation auriculaire 2013.pdf in Resources */,
 				7524A47719E964E5006607C1 /* default.png in Resources */,
 				FCF6C4071A0643EC00500E60 /* Primary survey.pdf in Resources */,

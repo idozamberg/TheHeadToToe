@@ -84,13 +84,22 @@
 {
     XCDYouTubeVideo *video = notification.userInfo[XCDYouTubeVideoUserInfoKey];
     //self.lblTitle.text = video.title;
+  
+    // Creating queue
+    NSOperationQueue* myQueue = [NSOperationQueue new];
     
-    NSURL *thumbnailURL = video.mediumThumbnailURL ?: video.smallThumbnailURL;
-    [NSURLConnection sendAsynchronousRequest:[NSURLRequest requestWithURL:thumbnailURL] queue:[NSOperationQueue mainQueue] completionHandler:^(NSURLResponse *response, NSData *data, NSError *error) {
+    // Loading image asynchronously
+    [myQueue addOperationWithBlock: ^ {
         
-        [self.imgThumb performSelectorInBackground:@selector(setImage:) withObject:[UIImage imageWithData:data]];
-                                                                                                               
-       // self.imgThumb.image =
+            // Loading image
+            NSURL *thumbnailURL = video.mediumThumbnailURL ?: video.smallThumbnailURL;
+            [NSURLConnection sendAsynchronousRequest:[NSURLRequest requestWithURL:thumbnailURL] queue:[NSOperationQueue mainQueue] completionHandler:^(NSURLResponse *response, NSData *data, NSError *error) {
+                        // Update UI on the main thread.
+                        [[NSOperationQueue mainQueue] addOperationWithBlock: ^ {
+                            [self.imgThumb setImage:[UIImage imageWithData:data]];
+                        }];
+                        
+                    }];
        
     }];
 }

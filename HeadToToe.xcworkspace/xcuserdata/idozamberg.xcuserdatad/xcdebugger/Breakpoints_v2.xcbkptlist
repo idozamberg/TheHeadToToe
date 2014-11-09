@@ -1414,11 +1414,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NewsFeeder/HTTVideoTableViewCell.m"
-            timestampString = "436781631.070863"
+            timestampString = "437149835.735507"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "97"
-            endingLineNumber = "97"
+            startingLineNumber = "111"
+            endingLineNumber = "111"
             landmarkName = "-moviePlayerPlaybackDidFinish:"
             landmarkType = "5">
          </BreakpointContent>

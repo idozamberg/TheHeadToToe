@@ -206,15 +206,18 @@
 			<string>Hallucinations</string>
 			<string>Délire</string>
 			<string>Trouble de l&apos;humeur</string>
-			<string>Examen de NC</string>
+			<string>Nerfs crâniens</string>
 			<string>Pupilles Isocore</string>
 			<string>Pupilles Isoréactive</string>
 			<string>Signes méningisme</string>
+			<string>Signe de Kering</string>
+			<string>Signe de Brudzinski</string>
 			<string>Force</string>
 			<string>Sesibilité</string>
 			<string>Coordination</string>
 			<string>ROT</string>
 			<string>Mingazzini</string>
+			<string>Romberg</string>
 			<string>Trouble de la parole </string>
 			<string>Clonus</string>
 			<string>Asterixis</string>

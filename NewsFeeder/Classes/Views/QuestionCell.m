@@ -11,8 +11,13 @@
 #import "AppData.h"
 
 @implementation QuestionCell
+{
+    HTTFile* questionVideo;
+    XCDYouTubeVideoPlayerViewController* videoPlayerViewController;
+}
 
 @synthesize isChecked = _isChecked;
+@synthesize cellModel = _cellModel;
 
 - (void)awakeFromNib {
     // Initialization code
@@ -20,7 +25,27 @@
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(takeTextDown) name:@"ViewTapped" object:Nil];
     
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(takeTextDown) name:@"ViewTappedFromInside" object:Nil];
+    
+}
 
+- (void) setCellModel:(AdmissionQuestion *)cellModel
+{
+    _cellModel = cellModel;
+    
+    // Getting video
+    questionVideo = [[AppData sharedInstance] videoIdentifierForTest:self.cellModel.text];
+    
+    // If we have a video set it up
+    if (questionVideo)
+    {
+        // Initiating video player
+        videoPlayerViewController = [[XCDYouTubeVideoPlayerViewController alloc] initWithVideoIdentifier:questionVideo.name];
+        
+        // Setting notifications
+        NSNotificationCenter *defaultCenter = [NSNotificationCenter defaultCenter];
+     //   [defaultCenter addObserver:self selector:@selector(videoPlayerViewControllerDidReceiveVideo:) name:XCDYouTubeVideoPlayerViewControllerDidReceiveVideoNotification object:videoPlayerViewController];
+        [defaultCenter addObserver:self selector:@selector(moviePlayerPlaybackDidFinish:) name:MPMoviePlayerPlaybackDidFinishNotification object:videoPlayerViewController.moviePlayer];
+    }
 }
 
 - (void) takeTextDown
@@ -48,6 +73,15 @@
     }
     
     self.btnComment.hidden = !_isChecked;
+    
+    if (questionVideo)
+    {
+        self.btnVideo.hidden = !_isChecked;
+    }
+    else
+    {
+        self.btnVideo.hidden = YES;
+    }
 }
 
 - (IBAction)commentClicked:(id)sender {
@@ -64,12 +98,20 @@
 }
 
 
+- (IBAction)videoClicked:(id)sender {
+    
+    [[AppData sharedInstance].currNavigationController presentMoviePlayerViewControllerAnimated:videoPlayerViewController];
+    
+    [videoPlayerViewController.moviePlayer play];
+}
+
 - (IBAction)checkClicked:(id)sender {
     
     if (self.cellModel.wasChecked)
     {
         self.cellModel.wasChecked = NO;
         self.imgCheck.image = [UIImage imageNamed:@"check-off"];
+        self.btnVideo.hidden = YES;
     }
     else
     {
@@ -82,11 +124,20 @@
         // Sending analytics
         [AnalyticsManager sharedInstance].sendToFlurry = YES;
         [[AnalyticsManager sharedInstance] sendEventWithName:@"Question check" Category:@"Questions" Label:self.cellModel.text];
+        
     }
 
     // Hiding/Showing comment
     self.btnComment.hidden = !self.cellModel.wasChecked;
     
+    if (questionVideo)
+    {
+        self.btnVideo.hidden = !self.cellModel.wasChecked;
+    }
+    else
+    {
+        self.btnVideo.hidden = YES;
+    }
     // Notifiying view was clicked
     [[NSNotificationCenter defaultCenter] postNotificationName:@"ViewTappedFromInside" object:Nil];
 }
@@ -104,5 +155,17 @@
     }
     
     self.cellModel.comment = text;
+}
+
+
+- (void) moviePlayerPlaybackDidFinish:(NSNotification *)notification
+{
+    NSError *error = notification.userInfo[XCDMoviePlayerPlaybackDidFinishErrorUserInfoKey];
+    
+    if (error)
+    {
+        //UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:NSLocalizedString(@"Error", nil) message:error.localizedDescription delegate:nil cancelButtonTitle:NSLocalizedString(@"OK", nil) otherButtonTitles:nil];
+        // [alertView show];
+    }
 }
 @end

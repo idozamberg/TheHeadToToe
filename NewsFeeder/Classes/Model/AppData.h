@@ -9,6 +9,7 @@
 #import <Foundation/Foundation.h>
 #import "UIHelper.h"
 #import "UICustomNavigationController.h"
+#import "HTTFile.h"
 
 typedef enum
 {
@@ -44,5 +45,7 @@ typedef enum
 - (NSMutableArray*) flattenedLabArray;
 - (NSMutableArray*) flattenedSearchArray;
 - (NSMutableDictionary*) clearQuestions;
+- (HTTFile*) videoIdentifierForTest : (NSString*) test;
+
 
 @end
