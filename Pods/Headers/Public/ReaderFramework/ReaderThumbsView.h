@@ -1,1 +1,0 @@
-../../../ReaderFramework/ReaderFramework/src/Supporting/ReaderThumbsView.h

@@ -9,7 +9,6 @@
 #import "PDFManager.h"
 #import "AdmissionQuestion.h"
 #import "OCPDFGenerator.h"
-//#import "Scanner.h"
 #import "HTTFile.h"
 #import "INDAPVDocument.h"
 #import "INDAPVScanner.h"
@@ -100,8 +99,7 @@ static PDFManager* sharePDF;
                         
                         // Going through all qeustions sections
                         for (AdmissionQuestion* currentQuestion in currentQuestionsArray)
-                        {
-                            
+                        {                            
                             // Checking if cell was checked or not
                             if (currentQuestion.wasChecked)
                             {

@@ -205,23 +205,23 @@
 		</array>
 		<key>Neurologique</key>
 		<array>
-			<string>Orienté dans l&apos;espace, Désorienté dans l&apos;espace</string>
-			<string>Orienté dans le temps, Désorienté dans le temps</string>
+			<string>Orienté dans l&apos;espace</string>
+			<string>Orienté dans le temps</string>
 			<string>Hallucinations, Pas d&apos;hallucinations</string>
 			<string>Délire</string>
 			<string>Trouble de l&apos;humeur</string>
-			<string>Nerfs crâniens sp, Examen des nerfs crânien</string>
+			<string>Nerfs crâniens, Examen des nerfs crânien</string>
 			<string>Pupilles Isocore, Anisocorie</string>
 			<string>Pupilles Isoréactive, Pupilles non-isoréactives</string>
-			<string>Signes méningisme présents, Pas de signes de méningisme</string>
-			<string>Signe de Kernig positif, Signe de Kernig négatif</string>
-			<string>Signe de Brudzinski positif, Signe de Brudzinski négatif</string>
-			<string>Force normale, Diminution de la force</string>
-			<string>Sensibilité normale, Diminution de la sensibilité</string>
+			<string>Signes méningisme, Pas de signes de méningisme</string>
+			<string>Signe de Kernig, Signe de Kernig négatif</string>
+			<string>Signe de Brudzinski, Signe de Brudzinski négatif</string>
+			<string>Force</string>
+			<string>Sensibilité</string>
 			<string>Diadococinésie, Adiadococinésie</string>
-			<string>ROT normovifs et symétriques, ROT pathologiques</string>
-			<string>Mingazzini tenu, Mingazzini non tenu</string>
-			<string>Romberg positif, Romberg négatif</string>
+			<string>ROT, </string>
+			<string>Mingazzini, Mingazzini tenu , Mingazzini non tenu</string>
+			<string>Romberg, Romberg négatif</string>
 			<string>Trouble de la parole </string>
 			<string>Clonus</string>
 			<string>Asterixis, Pas d&apos;asterixis</string>
