@@ -27,7 +27,7 @@
 		<key>Habitudes</key>
 		<array>
 			<string>Tabac</string>
-			<string>Alcool</string>
+			<string>Alcool, Pas de consommation d&apos;alcool</string>
 			<string>Drogues</string>
 			<string>Alimentation, Non renseignée, </string>
 			<string>Exercice, Non renseigné</string>
@@ -38,8 +38,8 @@
 			<string>HTA, Pas d&apos;HTA</string>
 			<string>Tabac</string>
 			<string>Diabète</string>
-			<string>Hypercholestérolémie</string>
-			<string>ATCD Familiaux</string>
+			<string>Hypercholestérolémie, Pas d&apos;hypercholestérolémie</string>
+			<string>ATCD Familiaux, Pas d&apos;ATCD familiaux</string>
 		</array>
 	</dict>
 	<key>Anamnèse par sytème</key>
@@ -64,10 +64,10 @@
 		<array>
 			<string>Douleurs thoraciques</string>
 			<string>Dyspnée d&apos;effort</string>
-			<string>Orthopnée</string>
+			<string>Orthopnée, Pas d&apos;orthopnée</string>
 			<string>Dyspnée paroxystique nocturne</string>
 			<string>Nycturie</string>
-			<string>Oedèmes des MI</string>
+			<string>Oedèmes des MI, Pas d&apos;oedèmes des MI</string>
 			<string>Palpitations</string>
 			<string>Syncope</string>
 			<string>Claudication intermittente</string>
@@ -84,44 +84,44 @@
 		</array>
 		<key>Digestif</key>
 		<array>
-			<string>Transit normal</string>
+			<string>Transit normal, Transit perturbé</string>
 			<string>Diarrhées</string>
 			<string>Melena</string>
 			<string>Douleurs abdominales</string>
 			<string>Nausées</string>
 			<string>Vomissements</string>
-			<string>Appétit</string>
+			<string>Perte d&apos;appétit,</string>
 			<string>Dyspepsie</string>
 			<string>Pyrosis</string>
 			<string>Régurgitations</string>
-			<string>Ictère/prurit</string>
+			<string>Ictère/prurit, Pas d&apos;ictère/prurit</string>
 		</array>
 		<key>Uro-génital</key>
 		<array>
 			<string>Dysurie</string>
-			<string>Algurie/Brûlure</string>
+			<string>Algurie/Brûlure, Pas d&apos;algurie/brûlure</string>
 			<string>Nycturie</string>
 			<string>Polyurie</string>
-			<string>Oligurie</string>
+			<string>Oligurie, Pas d&apos;oligurie</string>
 			<string>Pollakiurie</string>
-			<string>Hématurie</string>
-			<string>Incontinence urinaire</string>
-			<string>Urgence mictionnelle</string>
+			<string>Hématurie, Pas d&apos;hématurie</string>
+			<string>Incontinence urinaire, Pas d&apos;incontinence urinaire</string>
+			<string>Urgence mictionnelle, Pas d&apos;urgence</string>
 			<string>Prostatisme</string>
 			<string>Trouble de l&apos;érection</string>
 		</array>
 		<key>Gynécologique</key>
 		<array>
-			<string>Grossesse</string>
-			<string>Durée des menstruations,,</string>
-			<string>Périodicité</string>
+			<string>Grossesse, Pas d&apos;ATCD de grossesse</string>
+			<string>Durée des menstruations,Non renseignée,</string>
+			<string>Périodicité des menstruations, Non renseignée</string>
 			<string>Dysménorrhée</string>
 			<string>Ménorrhagie</string>
-			<string>Date des dernières règles, non renseigné,</string>
+			<string>Date des dernières règles, Non renseignée,</string>
 			<string>Dyspareunie</string>
 			<string>Pertes vaginales</string>
-			<string>Ménarches</string>
-			<string>Ménopause</string>
+			<string>Ménarche, Non renseignée, </string>
+			<string>Ménopause, Non ménopausée</string>
 		</array>
 		<key>Neurologique</key>
 		<array>
@@ -137,100 +137,104 @@
 			<string>Paresthésies</string>
 			<string>Perte de mémoire</string>
 			<string>Changement de personnalité</string>
-			<string>Anxiété</string>
+			<string>Anxiété, Pas d&apos;anxiété</string>
 			<string>Dépression</string>
 		</array>
 		<key>Ostéoarticulaire</key>
 		<array>
 			<string>Douleurs articulaires</string>
 			<string>Tuméfaction</string>
-			<string>Raideur (muscles, articulations, dos)</string>
-			<string>Capacité de se laver s&apos;habiller sans difficulté</string>
-			<string>Capable de monter et descendre les escaliers</string>
+			<string>Raideur</string>
+			<string>Capacité de se laver et s&apos;habiller, Incapacité de se laver et s&apos;habiller</string>
+			<string>Capacité de monter et descendre les escaliers, Incapacité de monter et descendre les escaliers</string>
 		</array>
 	</dict>
 	<key>Examen Physique</key>
 	<dict>
 		<key>Général</key>
 		<array>
-			<string>TA</string>
-			<string>Pouls</string>
-			<string>T°</string>
-			<string>Poids</string>
-			<string>Saturation O2%</string>
-			<string>Asthénie</string>
+			<string>TA, Non renseignée</string>
+			<string>Pouls, Non renseigné</string>
+			<string>T°, Non renseignée</string>
+			<string>Poids, Non renseigné</string>
+			<string>Saturation O2%, Non renseignée</string>
+			<string>Asthénie, Pas d&apos;asthénie</string>
 			<string>Cyanose</string>
-			<string>Ictère</string>
+			<string>Ictère, Pas d&apos;ictère</string>
 		</array>
 		<key>Cardiovasculaire</key>
 		<array>
-			<string>B1-B2 bien frappé</string>
+			<string>B1-B2 bien frappé, B1-B2 anormal</string>
 			<string>Souffle Cardiaque</string>
-			<string>TJ</string>
-			<string>RHJ</string>
+			<string>Turgescence jugulaire</string>
+			<string>Reflux hepato-jugulaire</string>
 			<string>Souffle Carotidien</string>
-			<string>Oedèmes des MI</string>
+			<string>Oedèmes des MI, Pas d&apos;oedèmes des MI</string>
+			<string>Pouls Radial</string>
+			<string>Pouls Fémoral</string>
+			<string>Pouls Poplité</string>
+			<string>Pouls Tibial postérieur</string>
 			<string>Pouls Pédieux</string>
 		</array>
 		<key>Respiratoire</key>
 		<array>
 			<string>MVS</string>
 			<string>Râles crepitants</string>
-			<string>Sifflement </string>
-			<string>Hypoventilation</string>
-			<string>Matité à la percussion</string>
+			<string>Stridor</string>
+			<string>Hypoventilation, Pas de foyer d&apos;hypoventilation</string>
+			<string>Matité à la percussion, Percussion normale</string>
 		</array>
 		<key>Digestif</key>
 		<array>
 			<string>Bruits Fréquence Normale</string>
 			<string>Bruits Tonalité Normale</string>
-			<string>ASI</string>
-			<string>HSM</string>
+			<string>ASI, Abdomen pathologique</string>
+			<string>HSM, Pas d&apos;HSM</string>
 			<string>Détente</string>
 			<string>Défense</string>
-			<string>Signe de Murphy</string>
+			<string>Signe de Murphy, Signe de Murphy négatif</string>
 			<string>Douleur au McBurney</string>
 			<string>Pyrosis</string>
 			<string>Régurgitations</string>
-			<string>Ictère/prurit</string>
+			<string>Ictère/prurit, Pas d&apos;ictère, prurit</string>
 		</array>
 		<key>Uro-génital</key>
 		<array>
-			<string>LRSI</string>
-			<string>Globe</string>
+			<string>LRSI, Percussion des loges douloureuse</string>
+			<string>Globe urinaire</string>
 		</array>
 		<key>Neurologique</key>
 		<array>
-			<string>Orienté dans l&apos;espace</string>
-			<string>Orienté dans le temps</string>
-			<string>Hallucinations</string>
+			<string>Orienté dans l&apos;espace, Désorienté dans l&apos;espace</string>
+			<string>Orienté dans le temps, Désorienté dans le temps</string>
+			<string>Hallucinations, Pas d&apos;hallucinations</string>
 			<string>Délire</string>
 			<string>Trouble de l&apos;humeur</string>
-			<string>Nerfs crâniens</string>
-			<string>Pupilles Isocore</string>
-			<string>Pupilles Isoréactive</string>
-			<string>Signes méningisme</string>
-			<string>Signe de Kering</string>
-			<string>Signe de Brudzinski</string>
-			<string>Force</string>
-			<string>Sesibilité</string>
-			<string>Coordination</string>
-			<string>ROT</string>
-			<string>Mingazzini</string>
-			<string>Romberg</string>
+			<string>Nerfs crâniens sp, Examen des nerfs crânien</string>
+			<string>Pupilles Isocore, Anisocorie</string>
+			<string>Pupilles Isoréactive, Pupilles non-isoréactives</string>
+			<string>Signes méningisme présents, Pas de signes de méningisme</string>
+			<string>Signe de Kernig positif, Signe de Kernig négatif</string>
+			<string>Signe de Brudzinski positif, Signe de Brudzinski négatif</string>
+			<string>Force normale, Diminution de la force</string>
+			<string>Sensibilité normale, Diminution de la sensibilité</string>
+			<string>Diadococinésie, Adiadococinésie</string>
+			<string>ROT normovifs et symétriques, ROT pathologiques</string>
+			<string>Mingazzini tenu, Mingazzini non tenu</string>
+			<string>Romberg positif, Romberg négatif</string>
 			<string>Trouble de la parole </string>
 			<string>Clonus</string>
-			<string>Asterixis</string>
+			<string>Asterixis, Pas d&apos;asterixis</string>
 		</array>
 		<key>Ostéoarticulaire</key>
 		<array>
 			<string>Scoliose</string>
 			<string>Déformation</string>
 			<string>Douleurs articulaires</string>
-			<string>Douleur percussion rachis</string>
+			<string>Douleur à la percussion du rachis</string>
 			<string>Douleur à la mobilisation</string>
 			<string>Tuméfaction</string>
-			<string>Chaleur</string>
+			<string>Chaleur d&apos;une articulation</string>
 		</array>
 	</dict>
 </dict>
