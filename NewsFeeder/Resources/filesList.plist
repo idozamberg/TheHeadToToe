@@ -264,6 +264,12 @@
 		</dict>
 		<dict>
 			<key>Name</key>
+			<string>MMS.pdf</string>
+			<key>Description</key>
+			<string>Mini Mental State Examination</string>
+		</dict>
+		<dict>
+			<key>Name</key>
 			<string>Anxiete.pdf</string>
 			<key>Description</key>
 			<string>Cours sur l&apos;anxiété</string>

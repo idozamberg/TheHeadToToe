@@ -19,7 +19,7 @@
 #define LAB_SECTION 1
 #define VIDEOS_SECTION 2
 
-@interface SearchViewController : CustomNavViewController <UITableViewDataSource,UITableViewDelegate,searchProtocol>
+@interface SearchViewController : CustomNavViewController <videoCellProtocol,UITableViewDataSource,UITableViewDelegate,searchProtocol>
 {
     IBOutlet UIView * viewSearchbar;
     IBOutlet UITextField * txtfldKeyword;

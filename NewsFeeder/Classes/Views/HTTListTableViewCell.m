@@ -105,7 +105,7 @@
 {
     QuestionsHeader * headerView = nil;
     
-    headerView =    [SuperView viewFromStoryboard:@"QuestionHeaderSimple"];//(QuestionsHeader *)[[QuestionsHeader alloc] viewFromStoryboard];
+    headerView =    [SuperView viewFromStoryboard:@"QuestionHeaderSimple"];
     [headerView setTitle:[[_questionList allKeys] objectAtIndex:section]];
     headerView.tag = section;
     headerView.delegate = self;

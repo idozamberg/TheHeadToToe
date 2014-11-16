@@ -8,7 +8,7 @@
 
 #import "CustomNavViewController.h"
 
-@interface SystemsViewController : CustomNavViewController <UINavigationControllerDelegate>
+@interface SystemsViewController : CustomNavViewController <UINavigationControllerDelegate,UITableViewDataSource,UITableViewDelegate>
 @property (weak, nonatomic) IBOutlet UITableView *tblSystem;
 
 @end

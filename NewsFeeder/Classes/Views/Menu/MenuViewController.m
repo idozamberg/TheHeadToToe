@@ -42,13 +42,15 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
     
+    [self.view.window setRootViewController:self];
+    
     currentSystem = @"";
     
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(slideSideMenu) name:@"LeftSideBarButtonClicked" object:Nil];
     
     currentMenuMode = menuModeMain;
     
-    // Setting current view
+    // Setting current navigation controller
     currentController = (SuperViewController *)[[UICustomNavigationController alloc] initWithRootViewController:[[SystemsViewController alloc] viewFromStoryboard]];
     [AppData sharedInstance].currNavigationController = (UICustomNavigationController*)currentController;
     
@@ -56,7 +58,6 @@
     frm.origin.x = 0;
     [currentController.view setFrame:frm];
     [self.view addSubview:currentController.view];
-    
     
     [imgvwPhoto setRoundedCornersWithRadius:22
                                 borderWidth:0
@@ -75,6 +76,11 @@
 }
 
 - (IBAction)searchClicked:(id)sender {
+    
+    if (currentController) {
+        [currentController.view removeFromSuperview];
+        currentController = nil;
+    }
     
     // Setting parameters
     [AnalyticsManager sharedInstance].flurryParameters = [NSDictionary dictionaryWithObjectsAndKeys:@"Menu",@"Father View", nil];
@@ -109,6 +115,11 @@
     }
     else if ([sender isEqual:btnAdd]) {
         
+        if (currentController) {
+            [currentController.view removeFromSuperview];
+            currentController = nil;
+        }
+        
         // Setting parameters
         [AnalyticsManager sharedInstance].flurryParameters = [NSDictionary dictionaryWithObjectsAndKeys:@"Admission",@"View Name", nil];
         
@@ -123,6 +134,11 @@
     }
     else if ([sender isEqual:self.btnLabo])
     {
+        if (currentController) {
+            [currentController.view removeFromSuperview];
+            currentController = nil;
+        }
+        
         // Setting parameters
         [AnalyticsManager sharedInstance].flurryParameters = [NSDictionary dictionaryWithObjectsAndKeys:@"Laboratoire",@"View Name", nil];
         
@@ -423,6 +439,11 @@
 }
 - (IBAction)homeClicked:(id)sender {
 
+    if (currentController) {
+        [currentController.view removeFromSuperview];
+        currentController = nil;
+    }
+    
     currentController = (SuperViewController *)[[UICustomNavigationController alloc] initWithRootViewController:[[SystemsViewController alloc] viewFromStoryboard]];
     [AppData sharedInstance].currNavigationController = (UICustomNavigationController*)currentController;
     

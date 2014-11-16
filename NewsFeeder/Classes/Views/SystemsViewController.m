@@ -36,9 +36,20 @@
     // Do any additional setup after loading the view.
 }
 
+- (void) viewWillDisappear:(BOOL)animated
+{
+    [super viewWillDisappear:animated];
+    
+    self.tblSystem.delegate = Nil;
+    self.tblSystem.dataSource = Nil;
+}
+
 - (void) viewWillAppear:(BOOL)animated
 {
     [super viewWillAppear:animated];
+    
+    self.tblSystem.delegate = self;
+    self.tblSystem.dataSource = self;
     
     if (currentMenuMode == menuModeMain)
     {

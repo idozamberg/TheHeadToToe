@@ -109,7 +109,7 @@ static PDFManager* sharePDF;
                                 if (!currentQuestion.checkedText)
                                 {
                                     pdfString = [pdfString stringByAppendingString:[NSString stringWithFormat:@"          %@:",currentQuestion.text]];
-                                    pdfString = [pdfString stringByAppendingString:[NSString stringWithFormat:@" Oui - %@",comment]];
+                                    pdfString = [pdfString stringByAppendingString:[NSString stringWithFormat:@" %@",comment]];
                                 }
                                 else
                                 {
@@ -127,7 +127,10 @@ static PDFManager* sharePDF;
                                 else
                                 {
                                     // Setting up string to write
-                                    pdfString = [pdfString stringByAppendingString:[NSString stringWithFormat:@"          %@ %@",currentQuestion.text,currentQuestion.nonCheckedText]];
+                                //    pdfString = [pdfString stringByAppendingString:[NSString stringWithFormat:@"          %@: %@",currentQuestion.text,currentQuestion.nonCheckedText]];
+                                    
+                                    // Setting up string to write
+                                    pdfString = [pdfString stringByAppendingString:[NSString stringWithFormat:@"         %@",currentQuestion.nonCheckedText]];
                                 }
                             }
                             

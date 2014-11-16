@@ -19,7 +19,7 @@
 @interface QuestionsHeader : SuperView
 @property (weak, nonatomic) IBOutlet UILabel *lblTitle;
 @property (weak, nonatomic) IBOutlet UIButton *btnMore;
-@property (weak, nonatomic) id <headerDelegate> delegate;
+@property (assign, nonatomic) id <headerDelegate> delegate;
 @property (nonatomic)       BOOL isMore;
 @property (weak, nonatomic) IBOutlet UIImageView *imgIcon;
 

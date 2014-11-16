@@ -54,6 +54,7 @@
 		7524A47B19E9A682006607C1 /* Launch Screen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7524A47A19E9A682006607C1 /* Launch Screen.xib */; };
 		7524A47D19EA5FD1006607C1 /* external-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 7524A47C19EA5FD1006607C1 /* external-50.png */; };
 		7537832C1A0F5F0100B716B8 /* video_camera-50-white.png in Resources */ = {isa = PBXBuildFile; fileRef = 7537832B1A0F5F0100B716B8 /* video_camera-50-white.png */; };
+		7537832E1A11314400B716B8 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 7537832D1A11314400B716B8 /* logo.png */; };
 		75470D251A09895600563414 /* Back_Selected_Black.png in Resources */ = {isa = PBXBuildFile; fileRef = 75470CA91A09895500563414 /* Back_Selected_Black.png */; };
 		75470D261A09895600563414 /* BookCover_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 75470CAA1A09895500563414 /* BookCover_2.png */; };
 		75470D271A09895600563414 /* Bookmark_Gray.png in Resources */ = {isa = PBXBuildFile; fileRef = 75470CAB1A09895500563414 /* Bookmark_Gray.png */; };
@@ -194,7 +195,7 @@
 		75CE28E119F394AC002FF80F /* Pansement.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 75CE28B419F394AC002FF80F /* Pansement.pdf */; };
 		75CE28E219F394AC002FF80F /* Transfusion sanguine.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 75CE28B519F394AC002FF80F /* Transfusion sanguine.pdf */; };
 		75CE28E319F394AC002FF80F /* Système ostéo-articulaire.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 75CE28B719F394AC002FF80F /* Système ostéo-articulaire.pdf */; };
-		75CE28E419F394AC002FF80F /* Polycopié de pharmacologie 2014.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 75CE28B919F394AC002FF80F /* Polycopié de pharmacologie 2014.pdf */; };
+		75CE28E419F394AC002FF80F /* Polycopié de pharmacologieold 2014.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 75CE28B919F394AC002FF80F /* Polycopié de pharmacologieold 2014.pdf */; };
 		75CE28E519F394AC002FF80F /* Anxiete.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 75CE28BB19F394AC002FF80F /* Anxiete.pdf */; };
 		75CE28E619F394AC002FF80F /* Depression.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 75CE28BC19F394AC002FF80F /* Depression.pdf */; };
 		75CE28E719F394AC002FF80F /* Semiologie generale.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 75CE28BD19F394AC002FF80F /* Semiologie generale.pdf */; };
@@ -214,6 +215,10 @@
 		75CE290119F41882002FF80F /* filter.png in Resources */ = {isa = PBXBuildFile; fileRef = 75CE290019F41882002FF80F /* filter.png */; };
 		75CE290519F41AD9002FF80F /* filter_filled.png in Resources */ = {isa = PBXBuildFile; fileRef = 75CE290419F41AD9002FF80F /* filter_filled.png */; };
 		75CE290719F42EC3002FF80F /* medecine50.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 75CE290619F42EC3002FF80F /* medecine50.jpg */; };
+		75D3C93C1A17A293003D5B57 /* eraser-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 75D3C93B1A17A293003D5B57 /* eraser-50.png */; };
+		75D3C93E1A17B64B003D5B57 /* MMS.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 75D3C93D1A17B64B003D5B57 /* MMS.pdf */; };
+		75D3C9401A17B852003D5B57 /* Polycopié de pharmacologie 2014.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 75D3C93F1A17B852003D5B57 /* Polycopié de pharmacologie 2014.pdf */; };
+		75D3C9421A18C796003D5B57 /* memo.png in Resources */ = {isa = PBXBuildFile; fileRef = 75D3C9411A18C796003D5B57 /* memo.png */; };
 		75D869A319F8F6E300F53AF1 /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75D869A219F8F6E300F53AF1 /* AVKit.framework */; };
 		75D869A619F905EE00F53AF1 /* filter_filled-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 75D869A419F905EE00F53AF1 /* filter_filled-50.png */; };
 		75D869A719F905EE00F53AF1 /* filter-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 75D869A519F905EE00F53AF1 /* filter-50.png */; };
@@ -489,6 +494,7 @@
 		7524A47A19E9A682006607C1 /* Launch Screen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "Launch Screen.xib"; sourceTree = "<group>"; };
 		7524A47C19EA5FD1006607C1 /* external-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "external-50.png"; sourceTree = "<group>"; };
 		7537832B1A0F5F0100B716B8 /* video_camera-50-white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "video_camera-50-white.png"; sourceTree = "<group>"; };
+		7537832D1A11314400B716B8 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
 		75470CA91A09895500563414 /* Back_Selected_Black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Back_Selected_Black.png; sourceTree = "<group>"; };
 		75470CAA1A09895500563414 /* BookCover_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BookCover_2.png; sourceTree = "<group>"; };
 		75470CAB1A09895500563414 /* Bookmark_Gray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Bookmark_Gray.png; sourceTree = "<group>"; };
@@ -682,7 +688,7 @@
 		75CE28B419F394AC002FF80F /* Pansement.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Pansement.pdf; sourceTree = "<group>"; };
 		75CE28B519F394AC002FF80F /* Transfusion sanguine.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Transfusion sanguine.pdf"; sourceTree = "<group>"; };
 		75CE28B719F394AC002FF80F /* Système ostéo-articulaire.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Système ostéo-articulaire.pdf"; sourceTree = "<group>"; };
-		75CE28B919F394AC002FF80F /* Polycopié de pharmacologie 2014.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Polycopié de pharmacologie 2014.pdf"; sourceTree = "<group>"; };
+		75CE28B919F394AC002FF80F /* Polycopié de pharmacologieold 2014.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Polycopié de pharmacologieold 2014.pdf"; sourceTree = "<group>"; };
 		75CE28BB19F394AC002FF80F /* Anxiete.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Anxiete.pdf; sourceTree = "<group>"; };
 		75CE28BC19F394AC002FF80F /* Depression.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Depression.pdf; sourceTree = "<group>"; };
 		75CE28BD19F394AC002FF80F /* Semiologie generale.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Semiologie generale.pdf"; sourceTree = "<group>"; };
@@ -702,6 +708,10 @@
 		75CE290019F41882002FF80F /* filter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = filter.png; sourceTree = "<group>"; };
 		75CE290419F41AD9002FF80F /* filter_filled.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = filter_filled.png; sourceTree = "<group>"; };
 		75CE290619F42EC3002FF80F /* medecine50.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = medecine50.jpg; sourceTree = "<group>"; };
+		75D3C93B1A17A293003D5B57 /* eraser-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "eraser-50.png"; sourceTree = "<group>"; };
+		75D3C93D1A17B64B003D5B57 /* MMS.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = MMS.pdf; sourceTree = "<group>"; };
+		75D3C93F1A17B852003D5B57 /* Polycopié de pharmacologie 2014.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Polycopié de pharmacologie 2014.pdf"; sourceTree = "<group>"; };
+		75D3C9411A18C796003D5B57 /* memo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = memo.png; sourceTree = "<group>"; };
 		75D869A219F8F6E300F53AF1 /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
 		75D869A419F905EE00F53AF1 /* filter_filled-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "filter_filled-50.png"; sourceTree = "<group>"; };
 		75D869A519F905EE00F53AF1 /* filter-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "filter-50.png"; sourceTree = "<group>"; };
@@ -1262,6 +1272,8 @@
 		756124EA1A0CB6D50096E2B8 /* Icons */ = {
 			isa = PBXGroup;
 			children = (
+				75D3C9411A18C796003D5B57 /* memo.png */,
+				7537832D1A11314400B716B8 /* logo.png */,
 				7537832B1A0F5F0100B716B8 /* video_camera-50-white.png */,
 				756124EE1A0D2C650096E2B8 /* video_camera-50.png */,
 				758BDA8419FBBEDB000EBC90 /* searchB-50.png */,
@@ -1279,6 +1291,7 @@
 				758BDA7A19FBB734000EBC90 /* homeg-50.png */,
 				758BDA8619FBC1F1000EBC90 /* cancel-32.png */,
 				75C50B8619FCF3960011698B /* erase-48.png */,
+				75D3C93B1A17A293003D5B57 /* eraser-50.png */,
 				75470D701A09A97C00563414 /* message-50.png */,
 				75470D741A09A99B00563414 /* export-50.png */,
 				75470D721A09A98800563414 /* back-50.png */,
@@ -1529,7 +1542,8 @@
 		75CE28B819F394AC002FF80F /* Pharmacologie */ = {
 			isa = PBXGroup;
 			children = (
-				75CE28B919F394AC002FF80F /* Polycopié de pharmacologie 2014.pdf */,
+				75D3C93F1A17B852003D5B57 /* Polycopié de pharmacologie 2014.pdf */,
+				75CE28B919F394AC002FF80F /* Polycopié de pharmacologieold 2014.pdf */,
 			);
 			path = Pharmacologie;
 			sourceTree = "<group>";
@@ -1537,6 +1551,7 @@
 		75CE28BA19F394AC002FF80F /* Psychiatrie */ = {
 			isa = PBXGroup;
 			children = (
+				75D3C93D1A17B64B003D5B57 /* MMS.pdf */,
 				75CE28BB19F394AC002FF80F /* Anxiete.pdf */,
 				75CE28BC19F394AC002FF80F /* Depression.pdf */,
 				FCF6C3DE1A0632FD00500E60 /* Troubles psychotiques.pdf */,
@@ -2254,6 +2269,7 @@
 				C3080E5217FE8827008AE8CC /* menu_example1.png in Resources */,
 				FCB847DC19FE90880047D902 /* Uro-génital - Lithiase urinaire.pdf in Resources */,
 				75470D2E1A09895600563414 /* Color_Orange.png in Resources */,
+				75D3C93E1A17B64B003D5B57 /* MMS.pdf in Resources */,
 				75470D811A0A0D2E00563414 /* categorize-48.png in Resources */,
 				C3080F0A17FEEDF8008AE8CC /* invite_twitter@2x.png in Resources */,
 				758BDA8519FBBEDB000EBC90 /* searchB-50.png in Resources */,
@@ -2273,7 +2289,7 @@
 				FCB847BD19FE90880047D902 /* Dermatologie - Acnée- verrues-mycoses.pdf in Resources */,
 				C3080F0917FEEDF8008AE8CC /* invite_twitter.png in Resources */,
 				FCB847CC19FE90880047D902 /* ORL-Pneumo - Asthme.pdf in Resources */,
-				75CE28E419F394AC002FF80F /* Polycopié de pharmacologie 2014.pdf in Resources */,
+				75CE28E419F394AC002FF80F /* Polycopié de pharmacologieold 2014.pdf in Resources */,
 				75CE28C919F394AC002FF80F /* vascularisationSNC2013.pdf in Resources */,
 				75103A8619FD635100BD458D /* Epaule.pdf in Resources */,
 				FCB847C719FE90880047D902 /* Infectieux - Fièvre au retour de voyage.pdf in Resources */,
@@ -2326,8 +2342,10 @@
 				7523CCC719F25F1F00914EAF /* lungs-50.png in Resources */,
 				C3080EE017FED422008AE8CC /* add_recommend1.png in Resources */,
 				7524A47B19E9A682006607C1 /* Launch Screen.xib in Resources */,
+				75D3C9401A17B852003D5B57 /* Polycopié de pharmacologie 2014.pdf in Resources */,
 				75470D401A09895600563414 /* Seeting_Selected_Black.png in Resources */,
 				75C9232519EA94810005CA31 /* check-on.png in Resources */,
+				75D3C9421A18C796003D5B57 /* memo.png in Resources */,
 				75470D351A09895600563414 /* Done_PGreen.png in Resources */,
 				75470D411A09895600563414 /* SelectedDone_Land_iPhone.png in Resources */,
 				FCF6C3DF1A0632FD00500E60 /* Troubles psychotiques.pdf in Resources */,
@@ -2354,6 +2372,7 @@
 				75103A7F19FD635100BD458D /* Myologie dos.pdf in Resources */,
 				C3080E8217FEA622008AE8CC /* navbar_menu.png in Resources */,
 				FCB847C819FE90880047D902 /* Métabolique - Diabète type 2.pdf in Resources */,
+				7537832E1A11314400B716B8 /* logo.png in Resources */,
 				758BDA8719FBC1F1000EBC90 /* cancel-32.png in Resources */,
 				75470D6F1A09895600563414 /* iPhone Development.pdf in Resources */,
 				7524A47D19EA5FD1006607C1 /* external-50.png in Resources */,
@@ -2455,6 +2474,7 @@
 				75470D7D1A0A0C2200563414 /* tails-48.png in Resources */,
 				FCF6C4011A06421F00500E60 /* Sondage-vesical.pdf in Resources */,
 				C3080E5417FE8827008AE8CC /* menu_layout_pen.png in Resources */,
+				75D3C93C1A17A293003D5B57 /* eraser-50.png in Resources */,
 				C3080EA817FEC08D008AE8CC /* search_close.png in Resources */,
 				C3080E8317FEA622008AE8CC /* navbar_menu@2x.png in Resources */,
 				C3080F0617FEEDF8008AE8CC /* invite_refresh@2x.png in Resources */,

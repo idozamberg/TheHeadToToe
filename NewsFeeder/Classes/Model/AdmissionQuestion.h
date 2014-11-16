@@ -15,5 +15,5 @@
 @property (nonatomic,strong) NSString* checkedText;
 @property (nonatomic)        BOOL      wasChecked;
 @property (nonatomic,strong) NSString* comment;
-
+@property (nonatomic,strong) NSString* questionSection;
 @end

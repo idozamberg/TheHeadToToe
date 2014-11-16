@@ -10,6 +10,11 @@
 #import "XCDYouTubeVideoPlayerViewController.h"
 #import "YouTubeVideoFile.h"
 
+@protocol videoCellProtocol <NSObject>
+
+- (void) playClickedInVideoCellWithVideoPlayer : (XCDYouTubeVideoPlayerViewController*) youtubeController;
+
+@end
 
 @interface HTTVideoTableViewCell : UITableViewCell
 
@@ -19,6 +24,7 @@
 @property (weak, nonatomic) IBOutlet UIView *vwFrame;
 @property (weak, nonatomic) IBOutlet UIImageView *imgThumb;
 @property (strong,nonatomic) YouTubeVideoFile* cellModel;
+@property (assign, nonatomic) id <videoCellProtocol> delegate;
 
 - (void) loadMovieWithIdetifier : (NSString*) identifier;
 - (void) loadThumbnailWithIdentifier  : (NSString*) identifier;

@@ -15,22 +15,22 @@
 		</array>
 		<key>Anamnèse actuelle</key>
 		<array>
-			<string>Que-est que vous amène aujourdhui ?, Non renseigné, Le patient consulte pour</string>
+			<string>Qu&apos;est-ce qui vous amène aujourdhui ?, , Le patient consulte pour</string>
 		</array>
 		<key>Anamnèse psychosociale</key>
 		<array>
-			<string>Transferts, Non renseigné, </string>
-			<string>Marche, Non renseignée</string>
-			<string>AVQ/AVI, Non renseigné</string>
-			<string>Aide à domicile, Non renseigné</string>
+			<string>Transferts, Transferts possibiles, </string>
+			<string>Marche, Pas de trouble de la marche</string>
+			<string>AVQ/AVI, AVQ/AVI SP</string>
+			<string>Aide à domicile, Pas d&apos;aide à domicile</string>
 		</array>
 		<key>Habitudes</key>
 		<array>
 			<string>Tabac</string>
 			<string>Alcool, Pas de consommation d&apos;alcool</string>
 			<string>Drogues</string>
-			<string>Alimentation, Non renseignée, </string>
-			<string>Exercice, Non renseigné</string>
+			<string>Alimentation, Alimentation conservée, </string>
+			<string>Exercice, Exercice : non renseigné</string>
 			<string>Allergies, Pas d&apos;allergies, </string>
 		</array>
 		<key>FRCV</key>
@@ -106,21 +106,21 @@
 			<string>Pollakiurie</string>
 			<string>Hématurie, Pas d&apos;hématurie</string>
 			<string>Incontinence urinaire, Pas d&apos;incontinence urinaire</string>
-			<string>Urgence mictionnelle, Pas d&apos;urgence</string>
+			<string>Urgence mictionnelle, Pas d&apos;urgence mictionelle</string>
 			<string>Prostatisme</string>
 			<string>Trouble de l&apos;érection</string>
 		</array>
 		<key>Gynécologique</key>
 		<array>
 			<string>Grossesse, Pas d&apos;ATCD de grossesse</string>
-			<string>Durée des menstruations,Non renseignée,</string>
-			<string>Périodicité des menstruations, Non renseignée</string>
+			<string>Durée des menstruations,Durée des menstruations sp,</string>
+			<string>Périodicité des menstruations, Périodicité des menstruations sp</string>
 			<string>Dysménorrhée</string>
 			<string>Ménorrhagie</string>
-			<string>Date des dernières règles, Non renseignée,</string>
+			<string>Date des dernières règles, Date des dernières règles non renseignée,</string>
 			<string>Dyspareunie</string>
 			<string>Pertes vaginales</string>
-			<string>Ménarche, Non renseignée, </string>
+			<string>Ménarche, pas de trouble de la ménarche, </string>
 			<string>Ménopause, Non ménopausée</string>
 		</array>
 		<key>Neurologique</key>
@@ -133,7 +133,7 @@
 			<string>Perte de connaissance</string>
 			<string>Syncope</string>
 			<string>Acuité visuelle, Pas de troubles visuels,</string>
-			<string>Perte d&apos;audition, acouphènes</string>
+			<string>Audition, Pas de trouble de l&apos;audition</string>
 			<string>Paresthésies</string>
 			<string>Perte de mémoire</string>
 			<string>Changement de personnalité</string>
@@ -145,50 +145,48 @@
 			<string>Douleurs articulaires</string>
 			<string>Tuméfaction</string>
 			<string>Raideur</string>
-			<string>Capacité de se laver et s&apos;habiller, Incapacité de se laver et s&apos;habiller</string>
-			<string>Capacité de monter et descendre les escaliers, Incapacité de monter et descendre les escaliers</string>
 		</array>
 	</dict>
 	<key>Examen Physique</key>
 	<dict>
 		<key>Général</key>
 		<array>
-			<string>TA, Non renseignée</string>
-			<string>Pouls, Non renseigné</string>
-			<string>T°, Non renseignée</string>
-			<string>Poids, Non renseigné</string>
-			<string>Saturation O2%, Non renseignée</string>
+			<string>TA, Normotendu</string>
+			<string>Pouls, Normocarde</string>
+			<string>T°, Afébrile</string>
+			<string>Poids, Poids non renseigné</string>
+			<string>Saturation O2%, Pas de desaturations</string>
 			<string>Asthénie, Pas d&apos;asthénie</string>
 			<string>Cyanose</string>
 			<string>Ictère, Pas d&apos;ictère</string>
 		</array>
 		<key>Cardiovasculaire</key>
 		<array>
-			<string>B1-B2 bien frappé, B1-B2 anormal</string>
+			<string>Auscultation Cardiaque,B1-B2 bien frappé</string>
 			<string>Souffle Cardiaque</string>
 			<string>Turgescence jugulaire</string>
 			<string>Reflux hepato-jugulaire</string>
 			<string>Souffle Carotidien</string>
 			<string>Oedèmes des MI, Pas d&apos;oedèmes des MI</string>
-			<string>Pouls Radial</string>
-			<string>Pouls Fémoral</string>
-			<string>Pouls Poplité</string>
-			<string>Pouls Tibial postérieur</string>
-			<string>Pouls Pédieux</string>
+			<string>Pouls Radial, Pouls Radial Present</string>
+			<string>Pouls Fémoral, Pouls Fémoral present</string>
+			<string>Pouls Poplité, Pouls Poplité present</string>
+			<string>Pouls Tibial postérieur, Pouls tibial postérieur present</string>
+			<string>Pouls Pédieux, Pouls pédieux present</string>
 		</array>
 		<key>Respiratoire</key>
 		<array>
-			<string>MVS</string>
-			<string>Râles crepitants</string>
+			<string>Auscultation Respiratoire, MVS</string>
+			<string>Bruits Sur Rajoutés</string>
 			<string>Stridor</string>
 			<string>Hypoventilation, Pas de foyer d&apos;hypoventilation</string>
-			<string>Matité à la percussion, Percussion normale</string>
+			<string>Percussion, Percussion normale</string>
 		</array>
 		<key>Digestif</key>
 		<array>
-			<string>Bruits Fréquence Normale</string>
-			<string>Bruits Tonalité Normale</string>
-			<string>ASI, Abdomen pathologique</string>
+			<string>Bruits - Fréquence, Bruits de fréquence normale</string>
+			<string>Bruits - Tonalité, Bruits de tonalité normale</string>
+			<string>Palpation Abdominale - ASI</string>
 			<string>HSM, Pas d&apos;HSM</string>
 			<string>Détente</string>
 			<string>Défense</string>
@@ -196,30 +194,29 @@
 			<string>Douleur au McBurney</string>
 			<string>Pyrosis</string>
 			<string>Régurgitations</string>
-			<string>Ictère/prurit, Pas d&apos;ictère, prurit</string>
+			<string>Ictère/prurit, Pas d&apos;ictère ni de prurit</string>
 		</array>
 		<key>Uro-génital</key>
 		<array>
-			<string>LRSI, Percussion des loges douloureuse</string>
+			<string>Percussion des loges rénals, LRSI</string>
 			<string>Globe urinaire</string>
 		</array>
 		<key>Neurologique</key>
 		<array>
-			<string>Orienté dans l&apos;espace</string>
-			<string>Orienté dans le temps</string>
+			<string>Orienté dans l&apos;espace, Non orienté dans l&apos;espace</string>
+			<string>Orienté dans le temps, Non orienté dans le temps</string>
 			<string>Hallucinations, Pas d&apos;hallucinations</string>
 			<string>Délire</string>
 			<string>Trouble de l&apos;humeur</string>
-			<string>Nerfs crâniens, Examen des nerfs crânien</string>
-			<string>Pupilles Isocore, Anisocorie</string>
-			<string>Pupilles Isoréactive, Pupilles non-isoréactives</string>
+			<string>Nerfs crâniens, Examen des nerfs crânien SP</string>
+			<string>Pupilles , Pupilles ISO-ISO</string>
 			<string>Signes méningisme, Pas de signes de méningisme</string>
 			<string>Signe de Kernig, Signe de Kernig négatif</string>
 			<string>Signe de Brudzinski, Signe de Brudzinski négatif</string>
 			<string>Force</string>
 			<string>Sensibilité</string>
-			<string>Diadococinésie, Adiadococinésie</string>
-			<string>ROT, </string>
+			<string>Diadococinésie, Diadococinésie SP</string>
+			<string>ROT, ROT normovifs</string>
 			<string>Mingazzini, Mingazzini tenu , Mingazzini non tenu</string>
 			<string>Romberg, Romberg négatif</string>
 			<string>Trouble de la parole </string>

@@ -14,9 +14,15 @@
 @implementation HTTVideoTableViewCell
 
 @synthesize cellModel;
+@synthesize videoPlayerViewController = _videoPlayerViewController;
 
 - (void)awakeFromNib {
     // Initialization code
+    NSNotificationCenter *defaultCenter = [NSNotificationCenter defaultCenter];
+    
+    [defaultCenter removeObserver:self name:XCDYouTubeVideoPlayerViewControllerDidReceiveVideoNotification object:_videoPlayerViewController];
+    [defaultCenter removeObserver:self name:MPMoviePlayerPlaybackDidFinishNotification object:_videoPlayerViewController];
+   
 }
 
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated {
@@ -63,8 +69,8 @@
     
     // Setting notifications
     NSNotificationCenter *defaultCenter = [NSNotificationCenter defaultCenter];
-    [defaultCenter addObserver:self selector:@selector(videoPlayerViewControllerDidReceiveVideo:) name:XCDYouTubeVideoPlayerViewControllerDidReceiveVideoNotification object:self.videoPlayerViewController];
-    [defaultCenter addObserver:self selector:@selector(moviePlayerPlaybackDidFinish:) name:MPMoviePlayerPlaybackDidFinishNotification object:self.videoPlayerViewController.moviePlayer];
+    [defaultCenter addObserver:self selector:@selector(videoPlayerViewControllerDidReceiveVideo:) name:XCDYouTubeVideoPlayerViewControllerDidReceiveVideoNotification object:_videoPlayerViewController];
+    [defaultCenter addObserver:self selector:@selector(moviePlayerPlaybackDidFinish:) name:MPMoviePlayerPlaybackDidFinishNotification object:_videoPlayerViewController.moviePlayer];
 }
 
 - (void) playMovie
@@ -72,10 +78,43 @@
     self.imgThumb.hidden = YES;
     self.btnPlay.hidden = YES;
     
-  //  [self.videoPlayerViewController presentInView:self.vwFrame];
-   [[AppData sharedInstance].currNavigationController presentMoviePlayerViewControllerAnimated:_videoPlayerViewController];
+    // Sending delegate
+//    if ([self.delegate respondsToSelector:@selector(playClickedInVideoCellWithVideoPlayer:)])
+//    {
+//        [self.delegate playClickedInVideoCellWithVideoPlayer:_videoPlayerViewController];
+//    }
+//    else
+//    {
+//        [_videoPlayerViewController.moviePlayer play];
+//        
+//        [[AppDa  ta sharedInstance].currNavigationController presentMoviePlayerViewControllerAnimated:_videoPlayerViewController];
+//    }
+    [_videoPlayerViewController.moviePlayer play];
+    
+    [[AppData sharedInstance].currNavigationController presentMoviePlayerViewControllerAnimated:_videoPlayerViewController];
+    
+    /*else
+    {
+        [_videoPlayerViewController.moviePlayer play];
+        //[_videoPlayerViewController presentInView:currentController.view];
+        
+        [[AppData sharedInstance].currNavigationController presentMoviePlayerViewControllerAnimated:_videoPlayerViewController];
+    }
+    */
+    
+  
+   // [self.window.rootViewController.navigationController presentMoviePlayerViewControllerAnimated:_videoPlayerViewController];
+ 
+    /*
+    */
+    
+  //  [_videoPlayerViewController.moviePlayer play];
+  //  [_videoPlayerViewController presentInView:self.vwFrame];
+    
+//    [self.window.rootViewController presentMoviePlayerViewControllerAnimated:_videoPlayerViewController];
+    
+  //  [[AppData sharedInstance].currNavigationController presentMoviePlayerViewControllerAnimated:_videoPlayerViewController];
 
-    [self.videoPlayerViewController.moviePlayer play];
 }
 
 #pragma mark - Notifications

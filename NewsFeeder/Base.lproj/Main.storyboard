@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="14B17" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="vXZ-lx-hvc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="14B23" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="vXZ-lx-hvc">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
@@ -494,7 +494,7 @@
                                                     <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
                                                 </view>
                                                 <view contentMode="scaleToFill" id="pnO-Sn-IK9">
-                                                    <rect key="frame" x="-2.5" y="262" width="3330" height="13"/>
+                                                    <rect key="frame" x="-2.5" y="262" width="3630" height="13"/>
                                                     <autoresizingMask key="autoresizingMask" widthSizable="YES"/>
                                                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 </view>
@@ -1012,9 +1012,9 @@
                                                                         </connections>
                                                                     </button>
                                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="f5Y-Vi-GHK">
-                                                                        <rect key="frame" x="286" y="12" width="20" height="25"/>
+                                                                        <rect key="frame" x="286" y="11" width="22" height="26"/>
                                                                         <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
-                                                                        <state key="normal" title="Button" image="note-48.png">
+                                                                        <state key="normal" title="Button" image="memo.png">
                                                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                                                         </state>
                                                                         <connections>
@@ -1372,7 +1372,7 @@
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="nVX-te-hCj">
                                 <rect key="frame" x="61" y="33" width="199" height="24"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
-                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="20"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -1391,7 +1391,7 @@
                                 <rect key="frame" x="223" y="33" width="24" height="24"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" image="erase-48.png">
+                                <state key="normal" image="eraser-50.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -1431,7 +1431,7 @@
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Invite Friends" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="3bK-yB-yyG">
                                         <rect key="frame" x="20" y="26" width="216" height="27"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                        <fontDescription key="fontDescription" name="GujaratiSangamMN" family="Gujarati Sangam MN" pointSize="18"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="ULH-Xh-05J">
@@ -1708,7 +1708,7 @@
         <image name="Minus_black.png" width="60" height="60"/>
         <image name="check-off.png" width="29" height="28"/>
         <image name="checklist-50.png" width="50" height="50"/>
-        <image name="erase-48.png" width="48" height="48"/>
+        <image name="eraser-50.png" width="50" height="50"/>
         <image name="feed_comment_bg.png" width="320" height="53"/>
         <image name="feed_example1.png" width="322" height="332"/>
         <image name="feed_option_bg.png" width="320" height="244"/>
@@ -1723,6 +1723,7 @@
         <image name="invite_vbar.png" width="10" height="568"/>
         <image name="lungs-50.png" width="50" height="50"/>
         <image name="medecine50.jpg" width="581" height="278"/>
+        <image name="memo.png" width="48" height="48"/>
         <image name="menu-50.png" width="50" height="50"/>
         <image name="menu_cell_separator.png" width="312" height="1"/>
         <image name="menu_color_selected.png" width="23" height="23"/>
@@ -1733,7 +1734,6 @@
         <image name="more_then-50.png" width="50" height="50"/>
         <image name="navbar_downarrow.png" width="9" height="5"/>
         <image name="navbar_uparrow.png" width="9" height="5"/>
-        <image name="note-48.png" width="48" height="48"/>
         <image name="pdf.png" width="128" height="128"/>
         <image name="play-50.png" width="50" height="50"/>
         <image name="search-50.png" width="50" height="50"/>

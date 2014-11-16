@@ -82,6 +82,8 @@
     {
         self.btnVideo.hidden = YES;
     }
+    
+  
 }
 
 - (IBAction)commentClicked:(id)sender {
@@ -138,6 +140,16 @@
     {
         self.btnVideo.hidden = YES;
     }
+    
+    // Showing input text for anamnes actuelle
+    if (self.cellModel.wasChecked)
+    {
+        if ([self.cellModel.questionSection isEqualToString:@"Anamnèse actuelle"])
+        {
+            [self commentClicked:self];
+        }
+    }
+    
     // Notifiying view was clicked
     [[NSNotificationCenter defaultCenter] postNotificationName:@"ViewTappedFromInside" object:Nil];
 }

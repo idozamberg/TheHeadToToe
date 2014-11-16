@@ -7,7 +7,6 @@
 //
 
 #import "HTTVideoViewController.h"
-#import "HTTVideoTableViewCell.h"
 #import "YouTubeVideoFile.h"
 #import "SearchViewController.H"
 
@@ -17,6 +16,7 @@
 
 @implementation HTTVideoViewController
 @synthesize filesList = _filesList,system = _system;
+@synthesize tblVideos = _tblVideos;
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -25,6 +25,22 @@
     // Setting navigation
     [self insertNavBarWithScreenName:SCREEN_VIDEOS];
     [self.tblVideos reloadData];
+}
+
+- (void) viewWillAppear:(BOOL)animated
+{
+    [super viewWillAppear:animated];
+    
+    self.tblVideos.delegate = self;
+    self.tblVideos.dataSource = self;
+}
+
+- (void) viewWillDisappear:(BOOL)animated
+{
+    [super viewWillDisappear:animated];
+    
+    self.tblVideos.delegate = Nil;
+    self.tblVideos.dataSource = Nil;
 }
 
 - (void)didReceiveMemoryWarning {
@@ -79,6 +95,7 @@
         cell.lblTitle.text = @"";
         cell.lblDescription.text = @"";
         cell.imgThumb.image = Nil;
+        cell.delegate = Nil;
     }
    
     // Setting cell's properties
@@ -86,6 +103,7 @@
     cell.lblTitle.text = [NSString stringWithFormat:@"System %@",_system];
     cell.lblDescription.text = currFile.fileDescription;
     cell.cellModel = currFile;
+    cell.delegate = self;
     
     return cell;
 }
@@ -140,6 +158,13 @@
     // Pass the selected object to the new view controller.
 }
 */
+
+- (void) playClickedInVideoCellWithVideoPlayer : (XCDYouTubeVideoPlayerViewController*) youtubeController
+{
+    [youtubeController.moviePlayer play];
+    
+    [self.view.window.rootViewController presentMoviePlayerViewControllerAnimated:youtubeController];
+}
 
 - (BOOL) shouldAutorotate
 {

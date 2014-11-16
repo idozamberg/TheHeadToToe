@@ -117,6 +117,9 @@ static AppData* shareData;
                         
                         // Setting new question
                         AdmissionQuestion* newQuestion = [AdmissionQuestion new];
+                        
+                        // Setting question section
+                        newQuestion.questionSection    = currentArrayKey;
                         newQuestion.text               = [texts objectAtIndex:0];
                         
                         // Setting text for when question is not checked

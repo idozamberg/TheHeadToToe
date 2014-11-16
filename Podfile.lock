@@ -13,7 +13,7 @@ PODS:
   - FlurrySDK (5.4.0):
     - FlurrySDK/FlurrySDK
   - FlurrySDK/FlurrySDK (5.4.0)
-  - XCDYouTubeKit (2.0.2)
+  - XCDYouTubeKit (2.0.3)
   - YIPopupTextView (1.1.1)
 
 DEPENDENCIES:
@@ -26,7 +26,7 @@ SPEC CHECKSUMS:
   DTCoreText: 1fc0aadfa238d14c6cc56035af4e2b76b958e3b1
   DTFoundation: 360bc65ab44f588611f47324b8cfb0f18e04b263
   FlurrySDK: bed9e5598353f867508d164795a451e3ada92cb6
-  XCDYouTubeKit: 65d5f5b9fe4e731327ab61ecc253b8e70e5d5a4d
+  XCDYouTubeKit: 840728453f0a22f54e4488ebeb8ee955a30c274c
   YIPopupTextView: 608b1f61349a1838e6c11e773fdd4c5104db6b37
 
 COCOAPODS: 0.34.2

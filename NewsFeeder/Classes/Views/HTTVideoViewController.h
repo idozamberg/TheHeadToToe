@@ -8,10 +8,10 @@
 
 #import "CustomNavViewController.h"
 #import "XCDYouTubeVideoPlayerViewController.h"
+#import "HTTVideoTableViewCell.h"
 
-@interface HTTVideoViewController : CustomNavViewController
+@interface HTTVideoViewController : CustomNavViewController <videoCellProtocol,UITableViewDelegate,UITableViewDataSource>
 @property (weak, nonatomic) IBOutlet UITableView *tblVideos;
-
 @property (nonatomic,strong) NSMutableArray* filesList;
 @property (nonatomic,strong) NSString*       system;
 @property (weak, nonatomic) IBOutlet UIButton *btnPlay;

@@ -336,6 +336,7 @@
         HTTVideoTableViewCell* cell = nil;
         YouTubeVideoFile* currentFile = [currentArray objectAtIndex:indexPath.row];
         
+        
         cell = [tableView dequeueReusableCellWithIdentifier:@"VideoCell"];
         
         if ( cell == nil )
@@ -348,6 +349,7 @@
             cell.lblTitle.text = @"";
             cell.lblDescription.text = @"";
             cell.imgThumb.image = Nil;
+            cell.delegate = self;
         }
        
         // Setting cell's properties
@@ -443,6 +445,14 @@
     [self.tblList reloadData];
     [activity stopAnimating];
 
+}
+
+- (void) playClickedInVideoCellWithVideoPlayer : (XCDYouTubeVideoPlayerViewController*) youtubeController
+{
+    [self.view.window.rootViewController presentMoviePlayerViewControllerAnimated:youtubeController];
+    
+    //[self.navigationController pushViewController:youtubeController animated:YES];
+    [youtubeController.moviePlayer play];
 }
 
 
