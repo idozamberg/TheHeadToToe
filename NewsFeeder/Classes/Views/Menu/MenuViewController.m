@@ -42,6 +42,8 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
     
+    [self showSplashWithDuration:2];
+    
     [self.view.window setRootViewController:self];
     
     currentSystem = @"";
@@ -448,5 +450,31 @@
     [AppData sharedInstance].currNavigationController = (UICustomNavigationController*)currentController;
     
     [self showCurrentController];
+}
+
+- (void)showSplashWithDuration:(CGFloat)duration
+{
+    // add splash screen subview ...
+    
+    UIImage *image          = [UIImage imageNamed:@"bigsplash.png"];
+    UIImageView *splash     = [[UIImageView alloc] initWithImage:image];
+    splash.frame            = self.view.window.bounds;
+    splash.autoresizingMask = UIViewAutoresizingNone;
+    [self.view.window addSubview:splash];
+    
+    
+    // block thread, so splash will be displayed for duration ...
+    
+    CGFloat fade_duration = (duration >= 0.5f) ? 0.5f : 0.0f;
+    [NSThread sleepForTimeInterval:duration - fade_duration];
+    
+    
+    // animate fade out and remove splash from superview ...
+    
+    [UIView animateWithDuration:fade_duration animations:^ {
+        splash.alpha = 0.0f;
+    } completion:^ (BOOL finished) {
+        [splash removeFromSuperview];
+    }];
 }
 @end

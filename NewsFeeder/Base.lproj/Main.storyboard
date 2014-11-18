@@ -494,7 +494,7 @@
                                                     <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
                                                 </view>
                                                 <view contentMode="scaleToFill" id="pnO-Sn-IK9">
-                                                    <rect key="frame" x="-2.5" y="262" width="3630" height="13"/>
+                                                    <rect key="frame" x="-2.5" y="262" width="4230" height="13"/>
                                                     <autoresizingMask key="autoresizingMask" widthSizable="YES"/>
                                                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 </view>
@@ -955,6 +955,26 @@
             </objects>
             <point key="canvasLocation" x="665" y="-672"/>
         </scene>
+        <!--Custom Nav View Controller-->
+        <scene sceneID="psU-tX-i88">
+            <objects>
+                <viewController storyboardIdentifier="SplashViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Nlg-1g-Nkp" customClass="CustomNavViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="kg7-1M-Clo">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bigsplash.png" id="514-24-fgw">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xA9-KH-3bG" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-201" y="-49"/>
+        </scene>
         <!--Admission View Controller-->
         <scene sceneID="35U-Lb-Pf5">
             <objects>
@@ -1372,7 +1392,7 @@
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="nVX-te-hCj">
                                 <rect key="frame" x="61" y="33" width="199" height="24"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="20"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -1706,6 +1726,7 @@
     <resources>
         <image name="Minus.png" width="60" height="60"/>
         <image name="Minus_black.png" width="60" height="60"/>
+        <image name="bigsplash.png" width="640" height="1136"/>
         <image name="check-off.png" width="29" height="28"/>
         <image name="checklist-50.png" width="50" height="50"/>
         <image name="eraser-50.png" width="50" height="50"/>

@@ -53,6 +53,8 @@
 		7524A47919E98A27006607C1 /* Share icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 7524A47819E98A27006607C1 /* Share icon.png */; };
 		7524A47B19E9A682006607C1 /* Launch Screen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7524A47A19E9A682006607C1 /* Launch Screen.xib */; };
 		7524A47D19EA5FD1006607C1 /* external-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 7524A47C19EA5FD1006607C1 /* external-50.png */; };
+		752E3B6F1A1B383A003573E0 /* bigsplash.png in Resources */ = {isa = PBXBuildFile; fileRef = 752E3B6E1A1B383A003573E0 /* bigsplash.png */; };
+		752E3B721A1B38F3003573E0 /* SplashViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 752E3B711A1B38F3003573E0 /* SplashViewController.m */; };
 		7537832C1A0F5F0100B716B8 /* video_camera-50-white.png in Resources */ = {isa = PBXBuildFile; fileRef = 7537832B1A0F5F0100B716B8 /* video_camera-50-white.png */; };
 		7537832E1A11314400B716B8 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 7537832D1A11314400B716B8 /* logo.png */; };
 		75470D251A09895600563414 /* Back_Selected_Black.png in Resources */ = {isa = PBXBuildFile; fileRef = 75470CA91A09895500563414 /* Back_Selected_Black.png */; };
@@ -493,6 +495,9 @@
 		7524A47819E98A27006607C1 /* Share icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Share icon.png"; sourceTree = "<group>"; };
 		7524A47A19E9A682006607C1 /* Launch Screen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "Launch Screen.xib"; sourceTree = "<group>"; };
 		7524A47C19EA5FD1006607C1 /* external-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "external-50.png"; sourceTree = "<group>"; };
+		752E3B6E1A1B383A003573E0 /* bigsplash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bigsplash.png; sourceTree = "<group>"; };
+		752E3B701A1B38F3003573E0 /* SplashViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SplashViewController.h; sourceTree = "<group>"; };
+		752E3B711A1B38F3003573E0 /* SplashViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SplashViewController.m; sourceTree = "<group>"; };
 		7537832B1A0F5F0100B716B8 /* video_camera-50-white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "video_camera-50-white.png"; sourceTree = "<group>"; };
 		7537832D1A11314400B716B8 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
 		75470CA91A09895500563414 /* Back_Selected_Black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Back_Selected_Black.png; sourceTree = "<group>"; };
@@ -1272,6 +1277,7 @@
 		756124EA1A0CB6D50096E2B8 /* Icons */ = {
 			isa = PBXGroup;
 			children = (
+				752E3B6E1A1B383A003573E0 /* bigsplash.png */,
 				75D3C9411A18C796003D5B57 /* memo.png */,
 				7537832D1A11314400B716B8 /* logo.png */,
 				7537832B1A0F5F0100B716B8 /* video_camera-50-white.png */,
@@ -1337,6 +1343,8 @@
 			children = (
 				75C50B8119FAF5080011698B /* SystemsViewController.h */,
 				75C50B8219FAF5080011698B /* SystemsViewController.m */,
+				752E3B701A1B38F3003573E0 /* SplashViewController.h */,
+				752E3B711A1B38F3003573E0 /* SplashViewController.m */,
 			);
 			name = Main;
 			sourceTree = "<group>";
@@ -2250,6 +2258,7 @@
 				C3080DFC17FE86B8008AE8CC /* Images.xcassets in Resources */,
 				C3080E7417FE9B79008AE8CC /* menu_color_selected.png in Resources */,
 				75470D3D1A09895600563414 /* Printer.png in Resources */,
+				752E3B6F1A1B383A003573E0 /* bigsplash.png in Resources */,
 				C3080E5917FE8827008AE8CC /* menu_vbar@2x.png in Resources */,
 				75470D261A09895600563414 /* BookCover_2.png in Resources */,
 				75CE28DE19F394AC002FF80F /* Injection IM et IV.pdf in Resources */,
@@ -2618,6 +2627,7 @@
 				758BDA7719FBA510000EBC90 /* ATCTransitioningDelegate.m in Sources */,
 				75103A8919FD997600BD458D /* AnalyticsManager.m in Sources */,
 				75470D551A09895600563414 /* INDAPVToolbarView.m in Sources */,
+				752E3B721A1B38F3003573E0 /* SplashViewController.m in Sources */,
 				C3080E6E17FE8DC4008AE8CC /* MenuItemCell.m in Sources */,
 				C3080F1517FEF047008AE8CC /* InviteItemData.m in Sources */,
 				C3080EE617FED430008AE8CC /* AddViewController.m in Sources */,
@@ -2800,7 +2810,7 @@
 			baseConfigurationReference = 7CAC350343F154591C6F5495 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-1";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -2823,7 +2833,7 @@
 			baseConfigurationReference = 7D373D752B0FB1A9A6FBF070 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-1";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
