@@ -11,6 +11,7 @@
 #import "AdmissionQuestion.h"
 #import "SuperViewController.h"
 #import "HTTVideoViewController.h"
+#import "UIView+Framing.h"
 
 
 @implementation HTTListTableViewCell
@@ -62,6 +63,14 @@
     [_tblQuestions reloadData];
 }
 
+- (void) setQuestionList:(NSMutableDictionary *)questionList WithHeight : (NSInteger) height
+{
+    _questionList = questionList;
+    
+    [_tblQuestions setHeight:height];
+    [_tblQuestions reloadData];
+}
+
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {
     return ([_questionList allKeys].count);
@@ -97,7 +106,6 @@
     [cell setIsChecked:currentQuestion.wasChecked];
     cell.tag = indexPath.section;
     
-    
     return cell;
 }
 
@@ -105,7 +113,7 @@
 {
     QuestionsHeader * headerView = nil;
     
-    headerView =    [SuperView viewFromStoryboard:@"QuestionHeaderSimple"];
+    headerView =  [SuperView viewFromStoryboard:@"QuestionHeaderSimple"];
     [headerView setTitle:[[_questionList allKeys] objectAtIndex:section]];
     headerView.tag = section;
     headerView.delegate = self;
@@ -173,13 +181,18 @@
     
     // Reloading table
     [rowsForSection replaceObjectAtIndex:section withObject:[NSNumber numberWithInteger:rows]];
-    [self.tblQuestions reloadSections:[NSIndexSet indexSetWithIndex:section] withRowAnimation:UITableViewRowAnimationFade];
-  //  [self.tblQuestions reloadData];
+    
+    [self.tblQuestions beginUpdates];
+    [self.tblQuestions reloadSections:[NSIndexSet indexSetWithIndex:section] withRowAnimation:UITableViewRowAnimationNone];
+    [self.tblQuestions endUpdates];
+
+    
     if (rows > 0)
     {
         [self.tblQuestions scrollToRowAtIndexPath:[NSIndexPath indexPathForRow:0 inSection:section]
                                    atScrollPosition:UITableViewScrollPositionTop animated:YES];
     }
+
     
     NSDictionary* dict = [NSDictionary dictionaryWithObject:
                           [NSNumber numberWithInteger:self.tag]

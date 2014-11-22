@@ -22,7 +22,14 @@
     
     [defaultCenter removeObserver:self name:XCDYouTubeVideoPlayerViewControllerDidReceiveVideoNotification object:_videoPlayerViewController];
     [defaultCenter removeObserver:self name:MPMoviePlayerPlaybackDidFinishNotification object:_videoPlayerViewController];
+    
    
+}
+
+- (void) layoutSubviews
+{
+    [self.vwFrame setCenter:CGPointMake(self.frame.size.width / 2, self.frame.size.height / 2)];
+
 }
 
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated {
@@ -61,7 +68,7 @@
 
 - (void) loadThumbnailWithIdentifier  : (NSString*) identifier
 {
-    [self.vwFrame.subviews makeObjectsPerformSelector:@selector(removeFromSuperview)];
+   // [self.vwFrame.subviews makeObjectsPerformSelector:@selector(removeFromSuperview)];
     self.imgThumb.image = Nil;
     
     // Initiating video player

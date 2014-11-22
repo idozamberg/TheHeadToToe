@@ -16,4 +16,7 @@
 @property (strong,nonatomic) NSMutableArray* rowsForSection;
 @property (strong,nonatomic) NSString* part;
 
+- (void) setQuestionList:(NSMutableDictionary *)questionList WithHeight : (NSInteger) height;
+
+
 @end

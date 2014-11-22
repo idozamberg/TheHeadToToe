@@ -92,7 +92,6 @@
     // Define navigation bar
     [self insertNavBarWithScreenName:SCREEN_ADMISSION];
 
-    
     UITapGestureRecognizer *tgr = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(viewTapped:)];
     tgr.delegate = self;
     [self.tblAdmission addGestureRecognizer:tgr]; // or [self.view addGestureRecognizer:tgr];
@@ -100,6 +99,13 @@
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(heightChangedEvent:) name:@"PlusClickedInInnerTable" object:Nil];
     
 
+}
+
+- (void) viewWillAppear:(BOOL)animated
+{
+    [super viewWillAppear:animated];
+    
+   //  [self.tblAdmission setHeight:self.view.frame.size.height - self.navBarView.frame.size.height];
 }
 
 - (void)viewTapped:(UITapGestureRecognizer *)tgr
@@ -148,6 +154,7 @@
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
+    NSLog(@"sECTION : %i ,PROUT : %i",section,[[rowsForSection objectAtIndex:section] integerValue]);
     return [[rowsForSection objectAtIndex:section] integerValue];
 }
 
@@ -208,12 +215,16 @@
     }
     
     // Setting question list for cell
-    [cell setQuestionList:currentDictionary];
+  //  [cell setQuestionList:currentDictionary];
+    [cell setQuestionList:currentDictionary WithHeight:[self calculateCellSizeForSection:currentDictionary andSection:indexPath.section]];
     
     // Setting tag for cell
     cell.tag = indexPath.section;
     
-    [cell.tblQuestions setHeight:[self calculateCellSizeForSection:currentDictionary andSection:indexPath.section]];
+    [cell.tblQuestions reloadData];
+    
+    //[cell.tblQuestions setHeight:[self calculateCellSizeForSection:currentDictionary andSection:indexPath.section]];
+    
     
     return cell;
 }
@@ -253,7 +264,7 @@
         totalHeight += [self calculateCellSizeForSection:currentDictionary andSection:sectionCounter];
     }
     
-   // [self.tblAdmission setHeight:totalHeight];
+    //[self.tblAdmission setHeight:totalHeight];
 }
 
 
@@ -289,6 +300,8 @@
         // Adding header size
         cellSize += HEADER_HEIGHT;
     }
+    
+    NSLog(@"HEIGHT : %i", cellSize);
     
     return cellSize;
 }
@@ -342,6 +355,7 @@
 {
     NSMutableDictionary* currentDictionary;
     
+    // Getting currect dictionary
     if (indexPath.section == SECTION_AG)
     {
         currentDictionary = [self.dataSource objectForKey:@"Anamnèse Generale"];
@@ -358,6 +372,25 @@
     return [self calculateCellSizeForSection:currentDictionary andSection:indexPath.section];
 }
 
+- (CGFloat)tableView:(UITableView *)tableView estimatedHeightForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    NSMutableDictionary* currentDictionary;
+    
+    if (indexPath.section == SECTION_AG)
+    {
+        currentDictionary = [self.dataSource objectForKey:@"Anamnèse Generale"];
+    }
+    else if (indexPath.section == SECTION_APS)
+    {
+        currentDictionary = [self.dataSource objectForKey:@"Anamnèse par sytème"];
+    }
+    else
+    {
+        currentDictionary = [self.dataSource objectForKey:@"Examen Physique"];
+    }
+    
+    return [self calculateCellSizeForSection:currentDictionary andSection:indexPath.section];
+}
 
 - (void) moreButtonClickedWithSection:(NSInteger)section
 {
@@ -366,6 +399,15 @@
     if ([[rowsForSection objectAtIndex:section] integerValue] == 0)
     {
         rows = 1;
+        
+        // Closing other part of the app
+        for (NSInteger currSection = 0; currSection < rowsForSection.count ; currSection++)
+        {
+            if (currSection != section)
+            {
+                //[rowsForSection replaceObjectAtIndex:currSection withObject:[NSNumber numberWithInteger:0]];
+            }
+        }
     }
     else
     {
@@ -375,7 +417,14 @@
     // Reloading table
     [rowsForSection replaceObjectAtIndex:section withObject:[NSNumber numberWithInteger:rows]];
     currentSectionToReload = section;
+    
+ //   [self.tblAdmission reloadData];
+    //
+    [self.tblAdmission beginUpdates];
     [self.tblAdmission reloadSections:[NSIndexSet indexSetWithIndex:section] withRowAnimation:UITableViewRowAnimationNone];
+    [self.tblAdmission endUpdates];
+
+   // [self.tblAdmission reloadSections:[NSIndexSet indexSetWithIndexesInRange:NSMakeRange(0, 3)] withRowAnimation:UITableViewRowAnimationNone];
     //[self calculateAndSetTableHeight];
 }
 
@@ -383,9 +432,10 @@
 - (void)heightChangedEvent:(NSNotification *)notification {
     NSInteger section = [[[notification userInfo] valueForKey:@"section"] integerValue];
     
+    // Reloading table view
+    [self.tblAdmission beginUpdates];
     [self.tblAdmission reloadSections:[NSIndexSet indexSetWithIndex:section] withRowAnimation:UITableViewRowAnimationNone];
-    [self calculateAndSetTableHeight];
-
+    [self.tblAdmission endUpdates];
 }
 
 - (void) didClickNavBarMiddleButton

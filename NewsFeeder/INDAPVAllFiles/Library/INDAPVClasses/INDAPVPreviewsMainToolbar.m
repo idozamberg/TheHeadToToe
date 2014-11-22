@@ -229,8 +229,8 @@
         }
         else
         {
-            btnMultiPage.frame = CGRectMake(276 - BUTTON_WIDTH_HEIGHT_IPHONE - 10, BUTTON_Y+appDelObj.intIOS7, BUTTON_WIDTH_HEIGHT_IPHONE, BUTTON_WIDTH_HEIGHT_IPHONE);
-            btnBookmark.frame = CGRectMake(276, BUTTON_Y+appDelObj.intIOS7, BUTTON_WIDTH_HEIGHT_IPHONE, 25);
+            btnMultiPage.frame = CGRectMake(self.bounds.size.width - 44 - BUTTON_WIDTH_HEIGHT_IPHONE - 10, BUTTON_Y+appDelObj.intIOS7, BUTTON_WIDTH_HEIGHT_IPHONE, BUTTON_WIDTH_HEIGHT_IPHONE);
+            btnBookmark.frame = CGRectMake(self.bounds.size.width - 44, BUTTON_Y+appDelObj.intIOS7, BUTTON_WIDTH_HEIGHT_IPHONE, 25);
             titleLabel.frame = CGRectMake(50, appDelObj.intIOS7, 175, 40);
             titleLabel.textAlignment = UITextAlignmentCenter;
         }

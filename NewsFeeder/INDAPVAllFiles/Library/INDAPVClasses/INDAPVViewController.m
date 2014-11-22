@@ -2163,7 +2163,7 @@
         }
         else if([appDelObj.strOrientation isEqualToString:@"Portrait"]||[appDelObj.strOrientation isEqualToString:@"PortraitUpsideDown"])
         {
-            viewMenuBtns.frame = CGRectMake(192, 45+appDelObj.intIOS7, 125, 215);
+            viewMenuBtns.frame = CGRectMake(self.view.frame.size.width - 125, 45+appDelObj.intIOS7, 125, 215);
         }
     }
 }
