@@ -26,10 +26,10 @@
 #define TITLE_HEIGHT 28.0f
 
 //Y
-#define BUTTON_Y 4.0f
-#define DONE_BUTTON_WIDTH 52.0f
-#define SHOW_CONTROL_WIDTH 52.0f
-#define BUTTON_HEIGHT 52.0f
+#define BUTTON_Y 9.0f
+#define DONE_BUTTON_WIDTH 24.0f
+#define SHOW_CONTROL_WIDTH 24.0f
+#define BUTTON_HEIGHT 24.0f
 //End
 
 
@@ -78,6 +78,7 @@
         [btnMultiPage addTarget:self action:@selector(showControlTapped:) forControlEvents:UIControlEventTouchUpInside];
 		[btnMultiPage setBackgroundImage:[UIImage imageNamed:@"categorize-48.png"] forState:UIControlStateNormal];
         btnMultiPage.autoresizingMask = UIViewAutoresizingNone;
+        
 		[self addSubview:btnMultiPage];
         
         btnBookmark = [UIButton buttonWithType:UIButtonTypeCustom];
@@ -209,8 +210,8 @@
     {
         if(isIpad())
         {
-            btnMultiPage.frame = CGRectMake(902, BUTTON_Y+appDelObj.intIOS7, SHOW_CONTROL_WIDTH, BUTTON_HEIGHT);
-            btnBookmark.frame = CGRectMake(962, BUTTON_Y+appDelObj.intIOS7, SHOW_CONTROL_WIDTH, BUTTON_HEIGHT);
+            btnMultiPage.frame = CGRectMake(self.frame.size.width - 74, BUTTON_Y+appDelObj.intIOS7, SHOW_CONTROL_WIDTH, BUTTON_HEIGHT);
+            btnBookmark.frame = CGRectMake(self.frame.size.width - 50, BUTTON_Y+appDelObj.intIOS7, SHOW_CONTROL_WIDTH, BUTTON_HEIGHT);
         }
         else
         {
@@ -224,8 +225,8 @@
     {
         if(isIpad())
         {
-            btnMultiPage.frame = CGRectMake(646, BUTTON_Y+appDelObj.intIOS7, SHOW_CONTROL_WIDTH, BUTTON_HEIGHT);
-            btnBookmark.frame = CGRectMake(706, BUTTON_Y+appDelObj.intIOS7, SHOW_CONTROL_WIDTH, BUTTON_HEIGHT);
+            btnMultiPage.frame = CGRectMake(self.frame.size.width - 88, BUTTON_Y+appDelObj.intIOS7, SHOW_CONTROL_WIDTH, BUTTON_HEIGHT);
+            btnBookmark.frame = CGRectMake(self.frame.size.width - 50, BUTTON_Y+appDelObj.intIOS7, SHOW_CONTROL_WIDTH, BUTTON_HEIGHT);
         }
         else
         {

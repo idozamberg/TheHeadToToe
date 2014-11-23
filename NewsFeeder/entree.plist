@@ -6,16 +6,16 @@
 	<dict>
 		<key>Antécédents personnels</key>
 		<array>
-			<string>Maladies, Pas d&apos;autres maladies</string>
-			<string>Interventions chirurgicales, Pas d&apos;interventions chirurgicales</string>
-			<string>Traumatismes</string>
-			<string>Hospitalisations, Pas d&apos;hospitalisations jusqu&apos;à présent</string>
-			<string>ATCD psychiatriques, Pas d&apos;ATCD psychiatriques</string>
-			<string>Autres ATCD, Pas d&apos;autres ATCD</string>
+			<string>Maladies, Pas d&apos;autres maladies, Oui</string>
+			<string>Interventions chirurgicales, Pas d&apos;interventions chirurgicales, Oui</string>
+			<string>Traumatismes,,Oui</string>
+			<string>Hospitalisations, Pas d&apos;hospitalisations jusqu&apos;à présent, Oui</string>
+			<string>ATCD psychiatriques, Pas d&apos;ATCD psychiatriques, Oui</string>
+			<string>Autres ATCD, Pas d&apos;autres ATCD, Oui</string>
 		</array>
 		<key>Anamnèse actuelle</key>
 		<array>
-			<string>Qu&apos;est-ce qui vous amène aujourdhui ?, ,</string>
+			<string>Qu&apos;est-ce qui vous amène aujourdhui ?, Non Renseigné,</string>
 		</array>
 		<key>Anamnèse psychosociale</key>
 		<array>
@@ -26,33 +26,33 @@
 		</array>
 		<key>Habitudes</key>
 		<array>
-			<string>Tabac</string>
-			<string>Alcool, Pas de consommation d&apos;alcool</string>
-			<string>Drogues</string>
+			<string>Tabac,,Oui</string>
+			<string>Alcool, Pas de consommation d&apos;alcool, Oui</string>
+			<string>Drogues, ,Oui</string>
 			<string>Alimentation, Alimentation conservée, </string>
 			<string>Exercice, Exercice : non renseigné</string>
-			<string>Allergies, Pas d&apos;allergies, </string>
+			<string>Allergies, Pas d&apos;allergies, Oui</string>
 		</array>
 		<key>FRCV</key>
 		<array>
-			<string>HTA, Pas d&apos;HTA</string>
-			<string>Tabac</string>
-			<string>Diabète</string>
-			<string>Hypercholestérolémie, Pas d&apos;hypercholestérolémie</string>
-			<string>ATCD Familiaux, Pas d&apos;ATCD familiaux</string>
+			<string>HTA, Pas d&apos;HTA, Oui</string>
+			<string>Tabac, ,Oui</string>
+			<string>Diabète, ,Oui</string>
+			<string>Hypercholestérolémie, Pas d&apos;hypercholestérolémie, Oui</string>
+			<string>ATCD Familiaux, Pas d&apos;ATCD familiaux, Oui</string>
 		</array>
 	</dict>
 	<key>Anamnèse par sytème</key>
 	<dict>
 		<key>Général</key>
 		<array>
-			<string>Fièvre</string>
-			<string>Frissons</string>
-			<string>Sudations nocturnes</string>
-			<string>Perte d&apos;appétit</string>
-			<string>Perte de poids</string>
-			<string>Asthénie, Pas d&apos;Asthénie</string>
-			<string>Troubles du sommeil</string>
+			<string>Fièvre, ,Oui</string>
+			<string>Frissons ,,Oui</string>
+			<string>Sudations nocturnes, ,Oui</string>
+			<string>Perte d&apos;appétit,,Oui</string>
+			<string>Perte de poids,, Oui</string>
+			<string>Asthénie, Pas d&apos;Asthénie, Oui</string>
+			<string>Troubles du sommeil, ,Oui</string>
 		</array>
 		<key>Peau</key>
 		<array>
@@ -84,7 +84,7 @@
 		</array>
 		<key>Digestif</key>
 		<array>
-			<string>Transit normal, Transit perturbé</string>
+			<string>Transit, Transit normal, Transit perturbé</string>
 			<string>Diarrhées</string>
 			<string>Melena</string>
 			<string>Douleurs abdominales</string>
@@ -203,35 +203,35 @@
 		</array>
 		<key>Neurologique</key>
 		<array>
-			<string>Orienté dans l&apos;espace, Non orienté dans l&apos;espace</string>
-			<string>Orienté dans le temps, Non orienté dans le temps</string>
-			<string>Hallucinations, Pas d&apos;hallucinations</string>
-			<string>Délire</string>
-			<string>Trouble de l&apos;humeur</string>
+			<string>Orientation dans l&apos;espace, Orienté dans l&apos;espace,Non orienté dans l&apos;espace</string>
+			<string>Orientation dans le temps, Orienté dans le temps,Non orienté dans le temps</string>
+			<string>Hallucinations, Pas d&apos;hallucinations, Oui</string>
+			<string>Délire,,Oui</string>
+			<string>Trouble de l&apos;humeur,,Oui</string>
 			<string>Nerfs crâniens, Examen des nerfs crânien SP</string>
 			<string>Pupilles , Pupilles ISO-ISO</string>
-			<string>Signes méningisme, Pas de signes de méningisme</string>
-			<string>Signe de Kernig, Signe de Kernig négatif</string>
-			<string>Signe de Brudzinski, Signe de Brudzinski négatif</string>
-			<string>Force</string>
-			<string>Sensibilité</string>
+			<string>Signes méningisme, Pas de signes de méningisme,Oui</string>
+			<string>Signe de Kernig, Signe de Kernig négatif, Signe de Kernig positif</string>
+			<string>Signe de Brudzinski, Signe de Brudzinski négatif, Signe de Brudzinski positif</string>
+			<string>Force, Force conservée aux 4 membres, </string>
+			<string>Sensibilité, Sensibilité conservée aux 4 memebres,</string>
 			<string>Diadococinésie, Diadococinésie SP</string>
 			<string>ROT, ROT normovifs</string>
 			<string>Mingazzini, Mingazzini tenu , Mingazzini non tenu</string>
-			<string>Romberg, Romberg négatif</string>
-			<string>Trouble de la parole </string>
-			<string>Clonus</string>
-			<string>Asterixis, Pas d&apos;asterixis</string>
+			<string>Romberg, Romberg négatif, Romberg Positif</string>
+			<string>Trouble de la parole,,Oui</string>
+			<string>Clonus,,Oui</string>
+			<string>Asterixis, Pas d&apos;asterixis, Oui</string>
 		</array>
 		<key>Ostéoarticulaire</key>
 		<array>
-			<string>Scoliose</string>
-			<string>Déformation</string>
-			<string>Douleurs articulaires</string>
-			<string>Douleur à la percussion du rachis</string>
-			<string>Douleur à la mobilisation</string>
-			<string>Tuméfaction</string>
-			<string>Chaleur d&apos;une articulation</string>
+			<string>Scoliose,,Oui</string>
+			<string>Déformation,,Oui</string>
+			<string>Douleurs articulaires,, Oui</string>
+			<string>Douleur à la percussion du rachis,, Oui</string>
+			<string>Douleur à la mobilisation,, Oui</string>
+			<string>Tuméfaction,,Oui</string>
+			<string>Chaleur d&apos;une articulation,,Oui</string>
 		</array>
 	</dict>
 </dict>

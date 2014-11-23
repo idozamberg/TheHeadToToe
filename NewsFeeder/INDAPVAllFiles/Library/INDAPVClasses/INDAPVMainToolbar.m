@@ -334,8 +334,10 @@
         if(isIpad())
         {
             aFrameDone=CGRectMake(BUTTON_X, BUTTON_Y+appDelObj.intIOS7, BUTTON_WIDTH_HEIGHT, BUTTON_WIDTH_HEIGHT);
-            aFrameSetting=CGRectMake(706, BUTTON_Y+appDelObj.intIOS7, BUTTON_WIDTH_HEIGHT, BUTTON_WIDTH_HEIGHT);
+            aFrameSetting=CGRectMake(self.bounds.size.width - 50, BUTTON_Y+appDelObj.intIOS7, BUTTON_WIDTH_HEIGHT, BUTTON_WIDTH_HEIGHT);
             aFrameMark=CGRectMake(600, BUTTON_Y+appDelObj.intIOS7, 100, 80);
+            aFrameMail=CGRectMake(self.bounds.size.width - 60 - BUTTON_WIDTH_HEIGHT_IPHONE - 10, BUTTON_Y+appDelObj.intIOS7, BUTTON_WIDTH_HEIGHT_IPHONE, BUTTON_WIDTH_HEIGHT_IPHONE);
+            aFrameExport=CGRectMake(BUTTON_X_IPHONE + BUTTON_WIDTH_HEIGHT_IPHONE + 10, BUTTON_Y+appDelObj.intIOS7, BUTTON_WIDTH_HEIGHT_IPHONE, BUTTON_WIDTH_HEIGHT_IPHONE);
         }
         else
         {

@@ -14,7 +14,31 @@
 
 - (SuperViewController *) viewFromStoryboard
 {
-    return [SuperViewController viewFromStoryboard:NSStringFromClass([self class])];
+    NSString* vcStoryBoardId = NSStringFromClass([self class]);
+    SuperViewController* ipadVc;
+    
+    // Checking if it's an ipad
+    if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPad)
+    {
+        // Setting up story board id
+        NSString* ipadVcId = [vcStoryBoardId stringByAppendingString:@"Ipad"];
+        
+        @try {
+            // Trying to get the view controller from storyboard
+            ipadVc = [SuperViewController viewFromStoryboard:ipadVcId];
+        }
+        @catch (NSException *exception) {
+            // Falling for a normal view
+            ipadVc = [SuperViewController viewFromStoryboard:vcStoryBoardId];
+        }
+        @finally {
+            
+        }
+        
+        return ipadVc;
+    }
+    
+    return [SuperViewController viewFromStoryboard:vcStoryBoardId];
 }
 
 + (SuperViewController *) viewFromStoryboard:(NSString *)storyboardID
@@ -35,7 +59,8 @@
 
 - (void) viewWillAppear:(BOOL)animated
 {
-    ;
+    self.navigationController.interactivePopGestureRecognizer.delegate = self;
+    self.navigationController.interactivePopGestureRecognizer.enabled = YES;
 }
 
 - (void)didReceiveMemoryWarning {

@@ -14,7 +14,7 @@
 #import "AnalyticsManager.h"
 
 
-@interface SuperViewController : UIViewController<UIAlertViewDelegate> {
+@interface SuperViewController : UIViewController<UIAlertViewDelegate,UIGestureRecognizerDelegate> {
     ;
 }
 

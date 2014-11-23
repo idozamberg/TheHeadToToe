@@ -156,6 +156,8 @@
     }
     else if ([sender isEqual:self.btnSystems]) {
         
+        
+       // [self homeClicked:self];
         if (currentMenuMode == menuModeMain)
         {
             currentMenuMode = menuModeClosed;

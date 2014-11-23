@@ -61,6 +61,7 @@
       "idiom" : "ipad",
       "extent" : "full-screen",
       "minimum-system-version" : "7.0",
+      "filename" : "Default-Portrait@2x.png",
       "scale" : "2x"
     },
     {
@@ -101,6 +102,7 @@
       "orientation" : "portrait",
       "idiom" : "ipad",
       "extent" : "full-screen",
+      "filename" : "Default-Portrait.png",
       "scale" : "1x"
     },
     {

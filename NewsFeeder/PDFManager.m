@@ -113,13 +113,22 @@ static PDFManager* sharePDF;
                                 }
                                 else
                                 {
-                                    pdfString = [pdfString stringByAppendingString:[NSString stringWithFormat:@"          %@ : %@",currentQuestion.text,currentQuestion.checkedText]];
-                                    pdfString = [pdfString stringByAppendingString:[NSString stringWithFormat:@" %@",comment]];
+                                    // If we have comment show it
+                                    if (![comment isEqualToString:@""])
+                                    {
+                                        pdfString = [pdfString stringByAppendingString:[NSString stringWithFormat:@"          %@ : %@",currentQuestion.text,comment]];
+                                      //  pdfString = [pdfString stringByAppendingString:[NSString stringWithFormat:@" %@",comment]];
+                                    }
+                                    // No comment? Go to default
+                                    else
+                                    {
+                                        pdfString = [pdfString stringByAppendingString:[NSString stringWithFormat:@"          %@ : %@",currentQuestion.text,currentQuestion.checkedText]];
+                                    }
                                 }
                             }
                             else
                             {
-                                if (!currentQuestion.nonCheckedText)
+                                if (!currentQuestion.nonCheckedText || [currentQuestion.nonCheckedText isEqualToString:@""] || [currentQuestion.nonCheckedText isEqualToString:@" "])
                                 {
                                     // Setting up string to write
                                     pdfString = [pdfString stringByAppendingString:[NSString stringWithFormat:@"          Pas de %@",currentQuestion.text]];
