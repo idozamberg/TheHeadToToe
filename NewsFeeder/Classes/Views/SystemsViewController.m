@@ -18,16 +18,12 @@
 @end
 
 @implementation SystemsViewController
-{
-    menuMode currentMenuMode;
-    NSString* currentSystem;
-
-}
+@synthesize currentMenuMode, currentSystem;
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    currentMenuMode = menuModeMain;
+    //currentMenuMode = menuModeMain;
     
     // Insert Navigation Bar
     [self insertNavBarWithScreenName:SCREEN_HTT];
@@ -51,7 +47,7 @@
     self.tblSystem.delegate = self;
     self.tblSystem.dataSource = self;
     
-    if (currentMenuMode == menuModeMain)
+    if (currentMenuMode == menuModeMain || self.currentViewMode == viewModeStandAlone)
     {
         // Changing left button
         [self.navBarView.leftButton setImage:[UIImage imageNamed:@"menu-50"]
@@ -62,6 +58,13 @@
         // Changing left button
         [self.navBarView.leftButton setImage:[UIImage imageNamed:@"navbar_back"]
                                     forState:UIControlStateNormal];
+        
+    }
+    
+    // Setting title if needed
+    if (currentMenuMode == menuModeSubMenu)
+    {
+        [self.navBarView.lblTitle setText:currentSystem];
     }
     
     self.navigationController.delegate = Nil;
@@ -90,15 +93,17 @@
 
 - (void) didClickNavBarLeftButton
 {
-    if (currentMenuMode == menuModeSubMenu)
+    if (currentMenuMode == menuModeSubMenu && !self.currentViewMode == viewModeStandAlone)
     {
         // Reloading table
-        currentMenuMode = menuModeMain;
+        /*currentMenuMode = menuModeMain;
         [_tblSystem reloadData];
         
         // Changing left button
         [self.navBarView.leftButton setImage:[UIImage imageNamed:@"menu-50.png"]
-                                    forState:UIControlStateNormal];
+                                    forState:UIControlStateNormal];*/
+        
+        [self.navigationController popViewControllerAnimated:YES];
     }
     else
     {
@@ -243,18 +248,20 @@
     else
     {
         // Setting up sub menu mode
-        currentMenuMode = menuModeSubMenu;
+        //currentMenuMode = menuModeSubMenu;
         NSString* title = [gAppDelegate getStringInScreen:SCREEN_MENU
                                                     strID:[NSString stringWithFormat:@"CELL_ROW%li", indexPath.row] ];
+        
+        [[FlowManager sharedInstance] showDataVCForSystem:title];
 
         // Saving current system
-        currentSystem = title;
+       // currentSystem = title;
         
         // Changing left button
-        [self.navBarView.leftButton setImage:[UIImage imageNamed:@"navbar_back"]
-                                    forState:UIControlStateNormal];
+       // [self.navBarView.leftButton setImage:[UIImage imageNamed:@"navbar_back"]
+                          //          forState:UIControlStateNormal];
         
-        [tableView reloadSections:[NSIndexSet indexSetWithIndex:0] withRowAnimation:UITableViewRowAnimationFade];
+       // [tableView reloadSections:[NSIndexSet indexSetWithIndex:0] withRowAnimation:UITableViewRowAnimationFade];
         
         // Setting parameters
         [AnalyticsManager sharedInstance].flurryParameters = [NSDictionary dictionaryWithObjectsAndKeys:currentSystem,@"System Name", nil];

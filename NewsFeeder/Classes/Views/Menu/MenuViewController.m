@@ -52,8 +52,11 @@
     
     currentMenuMode = menuModeMain;
     
+    SystemsViewController* vcSystems = (SystemsViewController*)[[SystemsViewController alloc] viewFromStoryboard];
+    vcSystems.currentMenuMode = menuModeMain;
+    
     // Setting current navigation controller
-    currentController = (SuperViewController *)[[UICustomNavigationController alloc] initWithRootViewController:[[SystemsViewController alloc] viewFromStoryboard]];
+    currentController = (SuperViewController *)[[UICustomNavigationController alloc] initWithRootViewController:vcSystems];
     [AppData sharedInstance].currNavigationController = (UICustomNavigationController*)currentController;
     
     CGRect frm = self.view.frame;
@@ -157,8 +160,8 @@
     else if ([sender isEqual:self.btnSystems]) {
         
         
-       // [self homeClicked:self];
-        if (currentMenuMode == menuModeMain)
+        [self homeClicked:self];
+       /* if (currentMenuMode == menuModeMain)
         {
             currentMenuMode = menuModeClosed;
             [tblMenu reloadSections:[NSIndexSet indexSetWithIndex:0] withRowAnimation:UITableViewRowAnimationFade];
@@ -177,7 +180,7 @@
             [tblMenu reloadSections:[NSIndexSet indexSetWithIndex:0] withRowAnimation:UITableViewRowAnimationFade];
             
 
-        }
+        }*/
     }
 }
 
@@ -334,23 +337,23 @@
     }
     else
     {
-        // Setting up sub menu mode
-        currentMenuMode = menuModeSubMenu;
+        // Retrivieng system
         NSString* title = [gAppDelegate getStringInScreen:SCREEN_MENU
                                                     strID:[NSString stringWithFormat:@"CELL_ROW%li", indexPath.row] ];
         
-         // Setting image background
-        [self.imgSystemsIcon setImage:[UIImage imageNamed:@"navbar_back.png"]];
-        // [self.btnSystems setImage: forState:UIControlStateNormal];
-         self.lblSystemsHeader.text = title;
-
-        // Saving current system
-        currentSystem = title;
+        // Creating systems view
+        SystemsViewController* vcSystems = (SystemsViewController*)[[SystemsViewController alloc] viewFromStoryboard];
+        vcSystems.currentSystem = title;
+        vcSystems.currentMenuMode = menuModeSubMenu;
+        vcSystems.currentViewMode = viewModeStandAlone;
+        [vcSystems.tblSystem reloadData];
         
-        [UIView commitAnimations];
-
-        [tableView reloadSections:[NSIndexSet indexSetWithIndex:0] withRowAnimation:UITableViewRowAnimationFade];
+        // Setting navigation controller
+        currentController = (SuperViewController *)[[UICustomNavigationController alloc] initWithRootViewController:vcSystems];
+        [AppData sharedInstance].currNavigationController = (UICustomNavigationController*)currentController;
         
+        [self showCurrentController];
+     
         // Setting parameters
         [AnalyticsManager sharedInstance].flurryParameters = [NSDictionary dictionaryWithObjectsAndKeys:currentSystem,@"System Name", nil];
         

@@ -10,5 +10,7 @@
 
 @interface SystemsViewController : CustomNavViewController <UINavigationControllerDelegate,UITableViewDataSource,UITableViewDelegate>
 @property (weak, nonatomic) IBOutlet UITableView *tblSystem;
+@property (nonatomic) menuMode currentMenuMode;
+@property (nonatomic,strong) NSString* currentSystem;
 
 @end

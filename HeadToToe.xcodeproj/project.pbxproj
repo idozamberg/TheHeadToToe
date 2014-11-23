@@ -22,6 +22,7 @@
 		7506808C19EDC6BC00EA0040 /* LabValuesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7506808B19EDC6BC00EA0040 /* LabValuesViewController.m */; };
 		7506808E19EDC6C600EA0040 /* Labo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7506808D19EDC6C600EA0040 /* Labo.plist */; };
 		7506809119EDC6F600EA0040 /* LabValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 7506809019EDC6F600EA0040 /* LabValue.m */; };
+		7508EEAA1A222FF500EF38D8 /* FlowManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7508EEA91A222FF500EF38D8 /* FlowManager.m */; };
 		75103A7E19FD635100BD458D /* Main-innervation.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 75103A7519FD635100BD458D /* Main-innervation.pdf */; };
 		75103A7F19FD635100BD458D /* Myologie dos.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 75103A7619FD635100BD458D /* Myologie dos.pdf */; };
 		75103A8019FD635100BD458D /* Myologie MI.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 75103A7719FD635100BD458D /* Myologie MI.pdf */; };
@@ -456,6 +457,8 @@
 		7506808D19EDC6C600EA0040 /* Labo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Labo.plist; path = ../Labo.plist; sourceTree = "<group>"; };
 		7506808F19EDC6F600EA0040 /* LabValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LabValue.h; sourceTree = "<group>"; };
 		7506809019EDC6F600EA0040 /* LabValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LabValue.m; sourceTree = "<group>"; };
+		7508EEA81A222FF500EF38D8 /* FlowManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FlowManager.h; path = Managers/FlowManager.h; sourceTree = "<group>"; };
+		7508EEA91A222FF500EF38D8 /* FlowManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FlowManager.m; path = Managers/FlowManager.m; sourceTree = "<group>"; };
 		75103A7519FD635100BD458D /* Main-innervation.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Main-innervation.pdf"; path = "../Main-innervation.pdf"; sourceTree = "<group>"; };
 		75103A7619FD635100BD458D /* Myologie dos.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Myologie dos.pdf"; path = "../Myologie dos.pdf"; sourceTree = "<group>"; };
 		75103A7719FD635100BD458D /* Myologie MI.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Myologie MI.pdf"; path = "../Myologie MI.pdf"; sourceTree = "<group>"; };
@@ -1016,6 +1019,15 @@
 				7506809019EDC6F600EA0040 /* LabValue.m */,
 			);
 			name = Laboratory;
+			sourceTree = "<group>";
+		};
+		7508EEA71A222FDA00EF38D8 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				7508EEA81A222FF500EF38D8 /* FlowManager.h */,
+				7508EEA91A222FF500EF38D8 /* FlowManager.m */,
+			);
+			name = Managers;
 			sourceTree = "<group>";
 		};
 		7524A44819E89040006607C1 /* Files */ = {
@@ -1702,6 +1714,7 @@
 		C3080DE917FE86B8008AE8CC /* NewsFeeder */ = {
 			isa = PBXGroup;
 			children = (
+				7508EEA71A222FDA00EF38D8 /* Managers */,
 				756124EA1A0CB6D50096E2B8 /* Icons */,
 				75E3851819EFCC68006C60FF /* PdfManager */,
 				7506807319EB136000EA0040 /* UIView+Framing.h */,
@@ -2572,6 +2585,7 @@
 				75470D591A09895600563414 /* INDAPVCMap.m in Sources */,
 				75470D681A09895600563414 /* INDAPVType1Font.m in Sources */,
 				7506808919EDC6A700EA0040 /* LabValueCell.m in Sources */,
+				7508EEAA1A222FF500EF38D8 /* FlowManager.m in Sources */,
 				758BDA7619FBA510000EBC90 /* ATCAnimatedTransitioningSquish.m in Sources */,
 				75470D561A09895600563414 /* INDAPVViewController.m in Sources */,
 				75470D611A09895600563414 /* INDAPVRenderingState.m in Sources */,

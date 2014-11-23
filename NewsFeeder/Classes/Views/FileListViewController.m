@@ -71,7 +71,7 @@
 {
     if (self.currentViewMode == viewModeInNavigation)
     {
-        [self.navigationController popToRootViewControllerAnimated:YES];
+        [self.navigationController popViewControllerAnimated:YES];
     }
     else
     {

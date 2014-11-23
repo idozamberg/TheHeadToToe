@@ -888,7 +888,7 @@
     [[INDAPVPreviewCache sharedInstance] removeAllObjects]; // Empty the thumb cache
     if (printInteraction != nil) [printInteraction dismissAnimated:NO]; // Dismiss
     
-    [self.navigationController popToRootViewControllerAnimated:YES];
+    [self.navigationController popViewControllerAnimated:YES];
     
     //Or
     

@@ -12,6 +12,7 @@
 #import "Global.h"
 #import "AppData.h"
 #import "AnalyticsManager.h"
+#import "FlowManager.h"
 
 
 @interface SuperViewController : UIViewController<UIAlertViewDelegate,UIGestureRecognizerDelegate> {
