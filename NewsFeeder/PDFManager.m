@@ -109,7 +109,16 @@ static PDFManager* sharePDF;
                                 if (!currentQuestion.checkedText)
                                 {
                                     pdfString = [pdfString stringByAppendingString:[NSString stringWithFormat:@"          %@:",currentQuestion.text]];
-                                    pdfString = [pdfString stringByAppendingString:[NSString stringWithFormat:@" %@",comment]];
+                                    
+                                    // If we have a comment
+                                    if (comment && ![comment isEqualToString:@""])
+                                    {
+                                        pdfString = [pdfString stringByAppendingString:[NSString stringWithFormat:@" %@",comment]];
+                                    }
+                                    else
+                                    {
+                                        pdfString = [pdfString stringByAppendingString:[NSString stringWithFormat:@" Oui"]];
+                                    }
                                 }
                                 else
                                 {
