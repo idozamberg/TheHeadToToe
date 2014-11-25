@@ -95,11 +95,15 @@ static PDFManager* sharePDF;
                     // Filter non checked questions
                     if ([self doesHaveCheckedQuestions:currentQuestionsArray] || !shouldFilter)
                     {
-                        pdfString = [pdfString stringByAppendingString:[NSString stringWithFormat:@"     %@ \n",bodyPart]];
+                        pdfString = [pdfString stringByAppendingString:[NSString stringWithFormat:@"\t%@ \n",bodyPart]];
                         
                         // Going through all qeustions sections
                         for (AdmissionQuestion* currentQuestion in currentQuestionsArray)
-                        {                            
+                        {
+                            
+                            // Moving text by a tab
+                            pdfString = [pdfString stringByAppendingString:[NSString stringWithFormat:@"\t\t"]];
+                            
                             // Checking if cell was checked or not
                             if (currentQuestion.wasChecked)
                             {
@@ -108,7 +112,7 @@ static PDFManager* sharePDF;
                                 // Empty checked text ?
                                 if (!currentQuestion.checkedText)
                                 {
-                                    pdfString = [pdfString stringByAppendingString:[NSString stringWithFormat:@"          %@:",currentQuestion.text]];
+                                    pdfString = [pdfString stringByAppendingString:[NSString stringWithFormat:@"%@:",currentQuestion.text]];
                                     
                                     // If we have a comment
                                     if (comment && ![comment isEqualToString:@""])
@@ -125,13 +129,13 @@ static PDFManager* sharePDF;
                                     // If we have comment show it
                                     if (![comment isEqualToString:@""])
                                     {
-                                        pdfString = [pdfString stringByAppendingString:[NSString stringWithFormat:@"          %@ : %@",currentQuestion.text,comment]];
+                                        pdfString = [pdfString stringByAppendingString:[NSString stringWithFormat:@"%@ : %@",currentQuestion.text,comment]];
                                       //  pdfString = [pdfString stringByAppendingString:[NSString stringWithFormat:@" %@",comment]];
                                     }
                                     // No comment? Go to default
                                     else
                                     {
-                                        pdfString = [pdfString stringByAppendingString:[NSString stringWithFormat:@"          %@ : %@",currentQuestion.text,currentQuestion.checkedText]];
+                                        pdfString = [pdfString stringByAppendingString:[NSString stringWithFormat:@"%@ : %@",currentQuestion.text,currentQuestion.checkedText]];
                                     }
                                 }
                             }
@@ -140,7 +144,7 @@ static PDFManager* sharePDF;
                                 if (!currentQuestion.nonCheckedText || [currentQuestion.nonCheckedText isEqualToString:@""] || [currentQuestion.nonCheckedText isEqualToString:@" "])
                                 {
                                     // Setting up string to write
-                                    pdfString = [pdfString stringByAppendingString:[NSString stringWithFormat:@"          Pas de %@",currentQuestion.text]];
+                                    pdfString = [pdfString stringByAppendingString:[NSString stringWithFormat:@"Pas de %@",currentQuestion.text]];
                                 }
                                 else
                                 {
@@ -148,7 +152,7 @@ static PDFManager* sharePDF;
                                 //    pdfString = [pdfString stringByAppendingString:[NSString stringWithFormat:@"          %@: %@",currentQuestion.text,currentQuestion.nonCheckedText]];
                                     
                                     // Setting up string to write
-                                    pdfString = [pdfString stringByAppendingString:[NSString stringWithFormat:@"         %@",currentQuestion.nonCheckedText]];
+                                    pdfString = [pdfString stringByAppendingString:[NSString stringWithFormat:@"%@",currentQuestion.nonCheckedText]];
                                 }
                             }
                             

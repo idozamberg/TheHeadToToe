@@ -19,7 +19,7 @@
 #endif
 
 #define TEXTVIEW_INSETS     (IS_IPAD ? UIEdgeInsetsMake(30, 30, 30, 30) : UIEdgeInsetsMake(15, 15, 15, 15))
-#define TEXT_SIZE           (IS_IPAD ? 32 : 16)
+#define TEXT_SIZE           (IS_IPAD ? 22 : 16)
 #define COUNT_SIZE          (IS_IPAD ? 32 : 16)
 #define COUNT_MARGIN        (IS_IPAD ? 20 : 10)
 #define CLOSE_IMAGE_WIDTH   (IS_IPAD ? 60 : 30)
@@ -394,10 +394,11 @@ typedef enum {
         frame = view.bounds;
     }
     
-    CGRect rect = CGRectMake((frame.size.width - 260) / 2, 40, 260, 350);
+    CGRect rect = CGRectMake(30, 40, targetView.frame.size.width-60, 350);
     
     _backgroundView.alpha = 0;
     _backgroundView.frame = rect;
+    _backgroundView.center = CGPointMake(_backgroundView.center.x, _backgroundView.center.y);
     _backgroundView.backgroundColor = [UIColor clearColor];
     [targetView addSubview:_backgroundView];
     

@@ -60,7 +60,7 @@
         }
         else if (sectionCounter == SECTION_APS)
         {
-            currentDictionary = [self.dataSource objectForKey:@"Anamnèse par sytème"];
+            currentDictionary = [self.dataSource objectForKey:@"Anamnèse par système"];
         }
         else
         {
@@ -187,8 +187,8 @@
     }
     else if (indexPath.section == SECTION_APS)
     {
-        currentDictionary = [self.dataSource objectForKey:@"Anamnèse par sytème"];
-        cell.part = @"Anamnèse par sytème";
+        currentDictionary = [self.dataSource objectForKey:@"Anamnèse par système"];
+        cell.part = @"Anamnèse par système";
     }
     else
     {
@@ -253,7 +253,7 @@
         }
         else if (sectionCounter == SECTION_APS)
         {
-            currentDictionary = [self.dataSource objectForKey:@"Anamnèse par sytème"];
+            currentDictionary = [self.dataSource objectForKey:@"Anamnèse par système"];
         }
         else
         {
@@ -316,7 +316,7 @@
     }
     else if (section == SECTION_APS)
     {
-        title = @"Anamnèse par sytème";
+        title = @"Anamnèse par système";
     }
     else
     {
@@ -362,7 +362,7 @@
     }
     else if (indexPath.section == SECTION_APS)
     {
-        currentDictionary = [self.dataSource objectForKey:@"Anamnèse par sytème"];
+        currentDictionary = [self.dataSource objectForKey:@"Anamnèse par système"];
     }
     else
     {
@@ -382,7 +382,7 @@
     }
     else if (indexPath.section == SECTION_APS)
     {
-        currentDictionary = [self.dataSource objectForKey:@"Anamnèse par sytème"];
+        currentDictionary = [self.dataSource objectForKey:@"Anamnèse par système"];
     }
     else
     {

@@ -32,6 +32,7 @@
 			<string>Alimentation, Alimentation conservée, </string>
 			<string>Exercice, Exercice : non renseigné</string>
 			<string>Allergies, Pas d&apos;allergies, Oui</string>
+			<string>Médicaments</string>
 		</array>
 		<key>FRCV</key>
 		<array>
@@ -42,7 +43,7 @@
 			<string>ATCD Familiaux, Pas d&apos;ATCD familiaux, Oui</string>
 		</array>
 	</dict>
-	<key>Anamnèse par sytème</key>
+	<key>Anamnèse par système</key>
 	<dict>
 		<key>Général</key>
 		<array>
