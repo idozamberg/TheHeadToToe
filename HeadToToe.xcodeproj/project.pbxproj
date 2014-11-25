@@ -164,6 +164,10 @@
 		75932D9719F2437A00D24223 /* checkmark-32.png in Resources */ = {isa = PBXBuildFile; fileRef = 75932D9619F2437A00D24223 /* checkmark-32.png */; };
 		759EAFBB19F7AD06008348F7 /* play-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 759EAFBA19F7AD06008348F7 /* play-50.png */; };
 		759EAFC019F8EB06008348F7 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 759EAFBF19F8EB06008348F7 /* AVFoundation.framework */; };
+		75AB216B1A24B70F007829C7 /* minisplashbig.png in Resources */ = {isa = PBXBuildFile; fileRef = 75AB216A1A24B70F007829C7 /* minisplashbig.png */; };
+		75AB216E1A24BAEC007829C7 /* HTTFavoriteFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 75AB216D1A24BAEC007829C7 /* HTTFavoriteFile.m */; };
+		75AB21701A24C6B2007829C7 /* star-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 75AB216F1A24C6B2007829C7 /* star-50.png */; };
+		75AB21721A24C800007829C7 /* star-50-black.png in Resources */ = {isa = PBXBuildFile; fileRef = 75AB21711A24C800007829C7 /* star-50-black.png */; };
 		75C50B8319FAF5080011698B /* SystemsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75C50B8219FAF5080011698B /* SystemsViewController.m */; };
 		75C50B8519FAF6330011698B /* more_then-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 75C50B8419FAF6330011698B /* more_then-50.png */; };
 		75C50B8719FCF3960011698B /* erase-48.png in Resources */ = {isa = PBXBuildFile; fileRef = 75C50B8619FCF3960011698B /* erase-48.png */; };
@@ -657,6 +661,11 @@
 		75932D9619F2437A00D24223 /* checkmark-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "checkmark-32.png"; sourceTree = "<group>"; };
 		759EAFBA19F7AD06008348F7 /* play-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "play-50.png"; sourceTree = "<group>"; };
 		759EAFBF19F8EB06008348F7 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		75AB216A1A24B70F007829C7 /* minisplashbig.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = minisplashbig.png; sourceTree = "<group>"; };
+		75AB216C1A24BAEC007829C7 /* HTTFavoriteFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HTTFavoriteFile.h; path = Classes/HTTFavoriteFile.h; sourceTree = "<group>"; };
+		75AB216D1A24BAEC007829C7 /* HTTFavoriteFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HTTFavoriteFile.m; path = Classes/HTTFavoriteFile.m; sourceTree = "<group>"; };
+		75AB216F1A24C6B2007829C7 /* star-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "star-50.png"; sourceTree = "<group>"; };
+		75AB21711A24C800007829C7 /* star-50-black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "star-50-black.png"; sourceTree = "<group>"; };
 		75C50B8119FAF5080011698B /* SystemsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SystemsViewController.h; sourceTree = "<group>"; };
 		75C50B8219FAF5080011698B /* SystemsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SystemsViewController.m; sourceTree = "<group>"; };
 		75C50B8419FAF6330011698B /* more_then-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "more_then-50.png"; sourceTree = "<group>"; };
@@ -1289,6 +1298,9 @@
 		756124EA1A0CB6D50096E2B8 /* Icons */ = {
 			isa = PBXGroup;
 			children = (
+				75AB21711A24C800007829C7 /* star-50-black.png */,
+				75AB216F1A24C6B2007829C7 /* star-50.png */,
+				75AB216A1A24B70F007829C7 /* minisplashbig.png */,
 				752E3B6E1A1B383A003573E0 /* bigsplash.png */,
 				75D3C9411A18C796003D5B57 /* memo.png */,
 				7537832D1A11314400B716B8 /* logo.png */,
@@ -1714,6 +1726,8 @@
 		C3080DE917FE86B8008AE8CC /* NewsFeeder */ = {
 			isa = PBXGroup;
 			children = (
+				75AB216C1A24BAEC007829C7 /* HTTFavoriteFile.h */,
+				75AB216D1A24BAEC007829C7 /* HTTFavoriteFile.m */,
 				7508EEA71A222FDA00EF38D8 /* Managers */,
 				756124EA1A0CB6D50096E2B8 /* Icons */,
 				75E3851819EFCC68006C60FF /* PdfManager */,
@@ -2241,6 +2255,7 @@
 				7506807F19EB300100EA0040 /* Minus.png in Resources */,
 				758BDA7B19FBB734000EBC90 /* homeg-50.png in Resources */,
 				FCB847DE19FE90880047D902 /* Uro-génital - Urétrites.pdf in Resources */,
+				75AB216B1A24B70F007829C7 /* minisplashbig.png in Resources */,
 				75CE28D919F394AC002FF80F /* Neuro3.pdf in Resources */,
 				75470D3B1A09895600563414 /* PageCurl.png in Resources */,
 				FCF6C3FD1A0641D400500E60 /* PDS-vacutainer.pdf in Resources */,
@@ -2324,6 +2339,7 @@
 				75470D421A09895600563414 /* SelectedDone_Port_iPhone.png in Resources */,
 				C3080F0717FEEDF8008AE8CC /* invite_tw_cursor.png in Resources */,
 				75D869A619F905EE00F53AF1 /* filter_filled-50.png in Resources */,
+				75AB21721A24C800007829C7 /* star-50-black.png in Resources */,
 				FCB847B719FE90880047D902 /* Cardiologie - Fibrilation auriculaire.pdf in Resources */,
 				75E385BB19EFCC94006C60FF /* InfoPlist.strings in Resources */,
 				75470D331A09895600563414 /* Color_White.png in Resources */,
@@ -2346,6 +2362,7 @@
 				FCF6C3EB1A06366B00500E60 /* Coude.pdf in Resources */,
 				C3080EDB17FED422008AE8CC /* add_news2@2x.png in Resources */,
 				FCF6C40B1A06594A00500E60 /* Plan-de-vaccination-2014.pdf in Resources */,
+				75AB21701A24C6B2007829C7 /* star-50.png in Resources */,
 				75E385C519EFCC94006C60FF /* OCPDFGen-Info.plist in Resources */,
 				7524A45519E8932C006607C1 /* CCDC - Cahier.pdf in Resources */,
 				75CE28E219F394AC002FF80F /* Transfusion sanguine.pdf in Resources */,
@@ -2676,6 +2693,7 @@
 				75DF4A8A19F78DA6000F2F90 /* HTTVideoCell.m in Sources */,
 				75470D641A09895600563414 /* INDAPVSimpleFont.m in Sources */,
 				7524A46319E896D9006607C1 /* AppData.m in Sources */,
+				75AB216E1A24BAEC007829C7 /* HTTFavoriteFile.m in Sources */,
 				75470D481A09895600563414 /* INDAPVDocument.m in Sources */,
 				75470D531A09895600563414 /* INDAPVPreviewsViewController.m in Sources */,
 				75E385C119EFCC94006C60FF /* markdown.c in Sources */,

@@ -11,9 +11,11 @@
 #import "AdmissionQuestion.h"
 #import "LabValue.h"
 #import "YouTubeVideoFile.h"
+#import "HTTFavoriteFile.h"
 
 @implementation AppData
 @synthesize questionsList = _questionsList,currNavigationController,youTubeFilesList = _youTubeFilesList;
+@synthesize favoriteFilesList = _favoriteFilesList;
 
 static AppData* shareData;
 
@@ -50,6 +52,7 @@ static AppData* shareData;
     [self loadQuestions];
     [self loadLabValues];
     [self loadYouTubeFileList];
+    [self loadFavoriteList];
 }
 
 - (void) loadFilesList
@@ -310,6 +313,74 @@ static AppData* shareData;
     }
     
     return Nil;
+}
+
+ - (void) saveFavoriteList
+{
+    // Saving favorite list
+    NSUserDefaults *userDefaults = [NSUserDefaults standardUserDefaults];
+    NSData *data = [NSKeyedArchiver archivedDataWithRootObject:self.favoriteFilesList];
+    [userDefaults setObject:data forKey:@"favoriteList"];
+    [userDefaults synchronize];
+}
+
+- (void) loadFavoriteList
+{
+    // Retrieving favorite list
+    NSUserDefaults *userDefaults = [NSUserDefaults standardUserDefaults];
+    NSData *data = [userDefaults objectForKey:@"favoriteList"];
+    self.favoriteFilesList = [NSKeyedUnarchiver unarchiveObjectWithData:data];
+    [userDefaults synchronize];
+    
+    // If list is empty
+    if (!self.favoriteFilesList)
+    {
+        self.favoriteFilesList = [NSMutableArray new];
+    }
+    else
+    {
+        [self sortFavoritesArray];
+    }
+    
+}
+
+- (void) sortFavoritesArray
+{
+    // Sorting array by number of times opened
+    NSSortDescriptor *sortDescriptor;
+    sortDescriptor = [[NSSortDescriptor alloc] initWithKey:@"numberOfTimesFileWasOpened"
+                                                 ascending:NO];
+    NSArray *sortDescriptors = [NSArray arrayWithObject:sortDescriptor];
+    [self.favoriteFilesList sortUsingDescriptors:sortDescriptors];
+}
+
+- (void) addFileToFavorites : (HTTFile*) file
+{
+    BOOL doesExist = NO;
+    
+    // If file exist change number of times
+    for (HTTFavoriteFile* currFile in self.favoriteFilesList)
+    {
+        // Check if file exist
+        if ([currFile.name isEqualToString:file.name])
+        {
+            doesExist = YES;
+            // Adding one
+            NSNumber* newNumber = [NSNumber numberWithInteger:([currFile.numberOfTimesFileWasOpened integerValue] + 1)];
+            currFile.numberOfTimesFileWasOpened = newNumber;
+        }
+    }
+
+    if (!doesExist)
+    {
+        // Adding new file
+        HTTFavoriteFile* favorite = [[HTTFavoriteFile alloc] initWithFile:file];
+        [self.favoriteFilesList addObject:favorite];
+    }
+    
+    // Saving changes
+    [self saveFavoriteList];
+    [self sortFavoritesArray];
 }
 
 @end

@@ -41,6 +41,7 @@
 - (void) moveToMainView;
 
 -(void)ShowPDFReaderWithName : (NSString*) name;
+-(void)ShowPDFReaderWithFile : (HTTFile*) file;
 
 
 @end

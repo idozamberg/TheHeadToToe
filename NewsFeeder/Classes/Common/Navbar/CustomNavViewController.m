@@ -216,45 +216,15 @@
     [UIView commitAnimations];
 }
 
-/*-(void)ShowPDFReaderWithName : (NSString*) name
+-(void)ShowPDFReaderWithFile : (HTTFile*) file
 {
-    // Setting up file name
-    NSString *phrase = nil; // Document password (for unlocking most encrypted PDF files)
-    NSFileManager *fileManager = [NSFileManager new];
-    NSURL *pathURL = [fileManager URLForDirectory:NSDocumentDirectory inDomain:NSUserDomainMask appropriateForURL:nil create:YES error:NULL];
+    // Adding file to favorites
+    [[AppData sharedInstance] addFileToFavorites:file];
     
-    NSString *documentsPath = [pathURL path];
-    NSArray *fileList = [fileManager contentsOfDirectoryAtPath:documentsPath error:NULL];
-    NSString *fileName = [fileList firstObject]; // Presume that the first file is a PDF
-    NSString *filePath = [documentsPath stringByAppendingPathComponent:name];
-    
-    // Configuring screen
-    ReaderDocument *document = [ReaderDocument withDocumentFilePath:filePath password:phrase];
-    readerController = [[ReaderViewController alloc] initWithReaderDocument:document];
-    CustomNavigationBarView* navigation = [CustomNavigationBarView viewFromStoryboard];
-    
-    [navigation setFrame:CGRectMake( 0, 0, 320, 50 )];
-    [navigation setBackgroundColor:gThemeColor];
-    [navigation showRightButton:YES];
-    [navigation.lblTitle setText:@""];
-    [navigation.leftButton setImage:[UIImage imageNamed:@"navbar_back"]
-                           forState:UIControlStateNormal];
-    
-    [navigation.rightButton setImage:[UIImage imageNamed:@"Arrow up"]
-                            forState:UIControlStateNormal];
-    
-    
-    navigation.delegate = self;
-    
-    [readerController.view addSubview:navigation];
-    
-    isShowingPdfView = YES;
-    
-    //[self.navigationController presentViewController:readerViewController animated:YES completion:Nil];
-    
-    [self.navigationController pushViewController:readerController animated:YES];
-    
-}*/
+    // Showing file
+    [self ShowPDFReaderWithName:file.name];
+}
+
 
 -(void)ShowPDFReaderWithName : (NSString*) name
 {
@@ -279,7 +249,6 @@
     [self.navigationController pushViewController:readerController animated:YES];*/
     [self openPdf:filePath];
 }
-
 
 
 - (BOOL) shouldAutorotate

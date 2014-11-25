@@ -10,4 +10,26 @@
 
 @implementation HTTFile
 
+- (void)encodeWithCoder:(NSCoder *)aCoder
+{
+    // Encoding objects
+    [aCoder encodeObject:self.system forKey:@"system"];
+    [aCoder encodeObject:self.fileDescription forKey:@"fileDescription"];
+    [aCoder encodeObject:self.name forKey:@"name"];
+}
+
+- (id)initWithCoder:(NSCoder *)aDecoder
+{
+    self = [super init];
+    
+    if (self)
+    {
+        self.name            = [aDecoder decodeObjectForKey:@"name"];
+        self.fileDescription = [aDecoder decodeObjectForKey:@"fileDescription"];
+        self.system          = [aDecoder decodeObjectForKey:@"system"];
+    }
+    
+    return self;
+}
+
 @end

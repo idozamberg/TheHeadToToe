@@ -35,6 +35,8 @@ typedef enum
 @property (strong,nonatomic) NSMutableDictionary* questionsList;
 @property (strong,nonatomic) NSMutableDictionary* labValues;
 @property (strong,nonatomic) NSMutableDictionary* youTubeFilesList;
+@property (strong,nonatomic) NSMutableArray* favoriteFilesList;
+
 
 @property (strong,nonatomic) UICustomNavigationController* currNavigationController;
 
@@ -46,6 +48,9 @@ typedef enum
 - (NSMutableArray*) flattenedSearchArray;
 - (NSMutableDictionary*) clearQuestions;
 - (HTTFile*) videoIdentifierForTest : (NSString*) test;
+- (void) saveFavoriteList;
+- (void) loadFavoriteList;
+- (void) addFileToFavorites : (HTTFile*) file;
 
 
 @end

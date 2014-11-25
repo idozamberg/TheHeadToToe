@@ -8,7 +8,8 @@
 
 #import <Foundation/Foundation.h>
 
-@interface HTTFile : NSObject
+
+@interface HTTFile : NSObject <NSCoding>
 
 @property (nonatomic,strong) NSString* name;
 @property (nonatomic,strong) NSString* fileDescription;

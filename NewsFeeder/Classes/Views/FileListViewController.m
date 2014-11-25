@@ -150,7 +150,7 @@
     [[AnalyticsManager sharedInstance] sendEventWithName:@"PDF File opended" Category:@"Files" Label:[NSString stringWithFormat:@"%@ - %@",currentFile.system,currentFile.name]];
     
     // Showing file
-    [self ShowPDFReaderWithName:currentFile.name];
+    [self ShowPDFReaderWithFile:currentFile];
     
 }
 

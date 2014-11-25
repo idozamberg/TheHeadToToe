@@ -18,6 +18,7 @@
 #import "HTTVideoViewController.h"
 #import "SystemsViewController.h"
 #import "SearchViewController.h"
+#import "HTTFavoriteFile.h"
 
 @interface MenuViewController ()
 
@@ -72,6 +73,13 @@
     
     viewBottom.delegate = self;
     [viewBottom setTitle:@"Layout" color:THEME_COLOR_TYPE_RED];
+}
+
+- (void) viewWillAppear:(BOOL)animated
+{
+    [super viewWillAppear:animated];
+    
+    [tblMenu reloadData];
 }
 
 - (void)didReceiveMemoryWarning
@@ -196,19 +204,18 @@
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    if (currentMenuMode == menuModeMain)
+    if ([AppData sharedInstance].favoriteFilesList.count >= 10)
     {
-        return [gAppDelegate getAllNumberOfSystems];
-    }
-    else if (currentMenuMode == menuModeSubMenu)
-    {
-        return 2;
+        return  10;
     }
     else
     {
-        return 0;
+        return [AppData sharedInstance].favoriteFilesList.count;
     }
+    
+    
 }
+
 
 
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
@@ -230,30 +237,10 @@
         [cell setSelectionStyle:UITableViewCellSelectionStyleBlue];
     }
     
-    if (currentMenuMode == menuModeMain)
-    {
-        // Setting cell content
-        [cell setCellContentWith:cellRow];
-    }
-    else
-    {
-        if (indexPath.row == 0)
-        {
-            // Getting files list
-            NSMutableArray* files = [[AppData sharedInstance].filesList objectForKey:currentSystem];
-            
-            // Setting cell name and number of entities
-            [cell setCellContentWithLabel:[NSString stringWithFormat: @"Documents (%li)",files.count] andImageName:@"menu_cell_icon_pager"];
-        }
-        else
-        {
-            // Getting files list
-            NSMutableArray* files = [[AppData sharedInstance].youTubeFilesList objectForKey:currentSystem];
-            
-            // Setting cell name and number of entities
-            [cell setCellContentWithLabel:[NSString stringWithFormat: @"Videos (%li)",files.count]andImageName:@"menu_cell_icon_pager"];
-        }
-    }
+    HTTFavoriteFile* favorite = [[AppData sharedInstance].favoriteFilesList objectAtIndex:indexPath.row];
+    
+    // Setting cell name
+    [cell setCellContentWithLabel:favorite.name  andImageName:@"star-50-black.png"];
     
     return cell;
 }
@@ -267,101 +254,20 @@
     NSInteger cellRow = [indexPath row];
     
     if (currentController) {
-        [currentController.view removeFromSuperview];
-        currentController = nil;
+        //[currentController.view removeFromSuperview];
+        //currentController = nil;
     }
     
-    
-    // Submenu  handeling
-    if (currentMenuMode == menuModeSubMenu)
-    {
-        if (indexPath.row == 0)
-        {
-            // Setting parameters
-            [AnalyticsManager sharedInstance].flurryParameters = [NSDictionary dictionaryWithObjectsAndKeys:@"Menu",@"Father View", nil];
-            
-            
-            // Sending analytics
-            [AnalyticsManager sharedInstance].sendToFlurry = YES;
-            [[AnalyticsManager sharedInstance] sendEventWithName:@"Files view showed" Category:@"Views" Label:@"Menu"];
-            
-            // Creating view controller
-            SuperViewController* vcList = [[FileListViewController alloc] viewFromStoryboard];
-            
-            // Setting standalone mode
-            ((FileListViewController*)vcList).currentViewMode = viewModeStandAlone;
-            
-            // Setting current ciew controller
-            currentController = (SuperViewController *)[[UICustomNavigationController alloc] initWithRootViewController:vcList];
-            
-            
-            // Getting files list
-            NSMutableArray* files = [[AppData sharedInstance].filesList objectForKey:currentSystem];
-            
-            // Setting file's list
-            [((FileListViewController*)vcList) setFilesList:files];
-            
-            [self showCurrentController];
-        }
-        else
-        {
-            // Setting parameters
-            [AnalyticsManager sharedInstance].flurryParameters = [NSDictionary dictionaryWithObjectsAndKeys:@"Menu",@"Father View", nil];
-            
-            // Sending analytics
-            [AnalyticsManager sharedInstance].sendToFlurry = YES;
-            [[AnalyticsManager sharedInstance] sendEventWithName:@"Videos view showed" Category:@"Views" Label:@"Menu"];
+    HTTFavoriteFile* favorite = [[AppData sharedInstance].favoriteFilesList objectAtIndex:indexPath.row];
 
-            
-            // Creating view controller
-            SuperViewController* vcList = [[HTTVideoViewController alloc] viewFromStoryboard];
-            
-            // Setting standalone mode
-            ((FileListViewController*)vcList).currentViewMode = viewModeStandAlone;
-            
-            // Setting current ciew controller
-            currentController = (SuperViewController *)[[UICustomNavigationController alloc] initWithRootViewController:vcList];
-            
-            // Getting files list
-            NSMutableArray* files = [[AppData sharedInstance].youTubeFilesList objectForKey:currentSystem];
-            
-            // Setting system name
-            ((HTTVideoViewController*)vcList).system = currentSystem;
-         
-            // Setting file's list
-            [((HTTVideoViewController*)vcList) setFilesList:files];
-            
-            [self showCurrentController];
-        }
-
-    }
-    else
-    {
-        // Retrivieng system
-        NSString* title = [gAppDelegate getStringInScreen:SCREEN_MENU
-                                                    strID:[NSString stringWithFormat:@"CELL_ROW%li", indexPath.row] ];
-        
-        // Creating systems view
-        SystemsViewController* vcSystems = (SystemsViewController*)[[SystemsViewController alloc] viewFromStoryboard];
-        vcSystems.currentSystem = title;
-        vcSystems.currentMenuMode = menuModeSubMenu;
-        vcSystems.currentViewMode = viewModeStandAlone;
-        [vcSystems.tblSystem reloadData];
-        
-        // Setting navigation controller
-        currentController = (SuperViewController *)[[UICustomNavigationController alloc] initWithRootViewController:vcSystems];
-        [AppData sharedInstance].currNavigationController = (UICustomNavigationController*)currentController;
-        
-        [self showCurrentController];
-     
-        // Setting parameters
-        [AnalyticsManager sharedInstance].flurryParameters = [NSDictionary dictionaryWithObjectsAndKeys:currentSystem,@"System Name", nil];
-        
-        // Sending analytics
-        [AnalyticsManager sharedInstance].sendToFlurry = YES;
-        [[AnalyticsManager sharedInstance] sendEventWithName:@"System chosen" Category:@"Systems" Label:currentSystem];
-    }
+    [self homeClicked:self];
     
+    CustomNavViewController* currentNav = (CustomNavViewController*)[((UICustomNavigationController*)currentController).viewControllers objectAtIndex:0];
+    [currentNav ShowPDFReaderWithFile:favorite];
+    
+ //  [self ShowPDFReaderWithFile:favorite];
+ 
+   // [AppData sharedInstance].currNavigationController show;
 }
 
 
@@ -421,6 +327,8 @@
         
         [UIView commitAnimations];
     }
+    
+    [tblMenu reloadData];
 }
 
 
@@ -461,7 +369,7 @@
 {
     // add splash screen subview ...
     
-    UIImage *image          = [UIImage imageNamed:@"bigsplash.png"];
+    UIImage *image          = [UIImage imageNamed:@"minisplashbig.png"];
     UIImageView *splash     = [[UIImageView alloc] initWithImage:image];
     splash.frame            = self.view.window.bounds;
     splash.autoresizingMask = UIViewAutoresizingNone;

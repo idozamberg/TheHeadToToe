@@ -8,10 +8,10 @@
 
 #import "SuperViewController.h"
 #import "MenuColorSelectView.h"
+#import "CustomNavViewController.h"
 
 
-
-@interface MenuViewController : SuperViewController<MenuColorSelectViewDelegate> {
+@interface MenuViewController : CustomNavViewController<MenuColorSelectViewDelegate> {
     IBOutlet UIView * viewTop;
     IBOutlet UIImageView * imgvwPhoto;
     IBOutlet UILabel * lblName;

@@ -7,6 +7,7 @@
 //
 
 #import "MenuItemCell.h"
+#import "UIView+Framing.h"
 
 @implementation MenuItemCell
 
@@ -51,6 +52,9 @@
 {
     [lblTitle setText:text];
     [imgvwPhoto setImage:[UIImage imageNamed:name]];
+    [imgvwPhoto setContentMode:UIViewContentModeScaleAspectFit];
+  //  [imgvwPhoto setHeight:25];
+    //[imgvwPhoto setWidth:25];
 }
 
 @end
