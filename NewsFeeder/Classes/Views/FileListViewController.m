@@ -28,6 +28,7 @@
 @synthesize tblFileList = _tblFileList;
 @synthesize filesList   = _filesList;
 @synthesize currentViewMode = _currentViewMode;
+@synthesize listType = _listType;
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -51,7 +52,12 @@
     [super viewWillAppear:animated];
     
     self.navigationController.delegate = Nil;
-
+    
+    // Setting title
+    if (_listType == fileListTypeFavorites)
+    {
+        self.navBarView.lblTitle.text = @"DOCUMENTS FAVORIS";
+    }
 }
 
 
@@ -125,12 +131,23 @@
     
     if ( cell == nil )
     {
+        // Creating cell
         cell = [[FileCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"FileCell"];
     }
 
     // Setting cell's properties
     cell.lblFileName.text        = currentFile.name;
     cell.lblFileDescription.text = currentFile.fileDescription;
+    
+    // Showing star image or hidding it
+    if (_listType == fileListTypeFavorites)
+    {
+        [cell.imgStar setHidden:NO];
+    }
+    else
+    {
+        [cell.imgStar setHidden:YES];
+    }
     
     return cell;
 }
@@ -159,6 +176,10 @@
     return 71;
 }
 
+- (CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section
+{
+    return 0;
+}
 
 
 

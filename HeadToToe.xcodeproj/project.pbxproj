@@ -145,6 +145,7 @@
 		756124E91A0B81B30096E2B8 /* SearchOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 756124E81A0B81B30096E2B8 /* SearchOperation.m */; };
 		756124EC1A0D1D2F0096E2B8 /* Carnet bleu des urgences pédiatriques 2010.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 756124EB1A0D1D2F0096E2B8 /* Carnet bleu des urgences pédiatriques 2010.pdf */; };
 		756124EF1A0D2C650096E2B8 /* video_camera-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 756124EE1A0D2C650096E2B8 /* video_camera-50.png */; };
+		757710931A263ECC005BF4AB /* minisplashbig.png in Resources */ = {isa = PBXBuildFile; fileRef = 757710921A263ECC005BF4AB /* minisplashbig.png */; };
 		758BDA7219FBA510000EBC90 /* ATCAnimatedTransitioning.m in Sources */ = {isa = PBXBuildFile; fileRef = 758BDA6719FBA510000EBC90 /* ATCAnimatedTransitioning.m */; };
 		758BDA7319FBA510000EBC90 /* ATCAnimatedTransitioningBounce.m in Sources */ = {isa = PBXBuildFile; fileRef = 758BDA6919FBA510000EBC90 /* ATCAnimatedTransitioningBounce.m */; };
 		758BDA7419FBA510000EBC90 /* ATCAnimatedTransitioningFade.m in Sources */ = {isa = PBXBuildFile; fileRef = 758BDA6B19FBA510000EBC90 /* ATCAnimatedTransitioningFade.m */; };
@@ -164,7 +165,7 @@
 		75932D9719F2437A00D24223 /* checkmark-32.png in Resources */ = {isa = PBXBuildFile; fileRef = 75932D9619F2437A00D24223 /* checkmark-32.png */; };
 		759EAFBB19F7AD06008348F7 /* play-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 759EAFBA19F7AD06008348F7 /* play-50.png */; };
 		759EAFC019F8EB06008348F7 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 759EAFBF19F8EB06008348F7 /* AVFoundation.framework */; };
-		75AB216B1A24B70F007829C7 /* minisplashbig.png in Resources */ = {isa = PBXBuildFile; fileRef = 75AB216A1A24B70F007829C7 /* minisplashbig.png */; };
+		75AB216B1A24B70F007829C7 /* minisplas2hbig.png in Resources */ = {isa = PBXBuildFile; fileRef = 75AB216A1A24B70F007829C7 /* minisplas2hbig.png */; };
 		75AB216E1A24BAEC007829C7 /* HTTFavoriteFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 75AB216D1A24BAEC007829C7 /* HTTFavoriteFile.m */; };
 		75AB21701A24C6B2007829C7 /* star-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 75AB216F1A24C6B2007829C7 /* star-50.png */; };
 		75AB21721A24C800007829C7 /* star-50-black.png in Resources */ = {isa = PBXBuildFile; fileRef = 75AB21711A24C800007829C7 /* star-50-black.png */; };
@@ -636,6 +637,7 @@
 		756124E81A0B81B30096E2B8 /* SearchOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SearchOperation.m; path = NewsFeeder/INDAPVAllFiles/SearchOperation.m; sourceTree = "<group>"; };
 		756124EB1A0D1D2F0096E2B8 /* Carnet bleu des urgences pédiatriques 2010.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Carnet bleu des urgences pédiatriques 2010.pdf"; path = "../Carnet bleu des urgences pédiatriques 2010.pdf"; sourceTree = "<group>"; };
 		756124EE1A0D2C650096E2B8 /* video_camera-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "video_camera-50.png"; sourceTree = "<group>"; };
+		757710921A263ECC005BF4AB /* minisplashbig.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = minisplashbig.png; sourceTree = "<group>"; };
 		758BDA6619FBA510000EBC90 /* ATCAnimatedTransitioning.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATCAnimatedTransitioning.h; sourceTree = "<group>"; };
 		758BDA6719FBA510000EBC90 /* ATCAnimatedTransitioning.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATCAnimatedTransitioning.m; sourceTree = "<group>"; };
 		758BDA6819FBA510000EBC90 /* ATCAnimatedTransitioningBounce.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATCAnimatedTransitioningBounce.h; sourceTree = "<group>"; };
@@ -661,7 +663,7 @@
 		75932D9619F2437A00D24223 /* checkmark-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "checkmark-32.png"; sourceTree = "<group>"; };
 		759EAFBA19F7AD06008348F7 /* play-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "play-50.png"; sourceTree = "<group>"; };
 		759EAFBF19F8EB06008348F7 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
-		75AB216A1A24B70F007829C7 /* minisplashbig.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = minisplashbig.png; sourceTree = "<group>"; };
+		75AB216A1A24B70F007829C7 /* minisplas2hbig.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = minisplas2hbig.png; sourceTree = "<group>"; };
 		75AB216C1A24BAEC007829C7 /* HTTFavoriteFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HTTFavoriteFile.h; path = Classes/HTTFavoriteFile.h; sourceTree = "<group>"; };
 		75AB216D1A24BAEC007829C7 /* HTTFavoriteFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HTTFavoriteFile.m; path = Classes/HTTFavoriteFile.m; sourceTree = "<group>"; };
 		75AB216F1A24C6B2007829C7 /* star-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "star-50.png"; sourceTree = "<group>"; };
@@ -1300,7 +1302,8 @@
 			children = (
 				75AB21711A24C800007829C7 /* star-50-black.png */,
 				75AB216F1A24C6B2007829C7 /* star-50.png */,
-				75AB216A1A24B70F007829C7 /* minisplashbig.png */,
+				757710921A263ECC005BF4AB /* minisplashbig.png */,
+				75AB216A1A24B70F007829C7 /* minisplas2hbig.png */,
 				752E3B6E1A1B383A003573E0 /* bigsplash.png */,
 				75D3C9411A18C796003D5B57 /* memo.png */,
 				7537832D1A11314400B716B8 /* logo.png */,
@@ -2255,7 +2258,7 @@
 				7506807F19EB300100EA0040 /* Minus.png in Resources */,
 				758BDA7B19FBB734000EBC90 /* homeg-50.png in Resources */,
 				FCB847DE19FE90880047D902 /* Uro-génital - Urétrites.pdf in Resources */,
-				75AB216B1A24B70F007829C7 /* minisplashbig.png in Resources */,
+				75AB216B1A24B70F007829C7 /* minisplas2hbig.png in Resources */,
 				75CE28D919F394AC002FF80F /* Neuro3.pdf in Resources */,
 				75470D3B1A09895600563414 /* PageCurl.png in Resources */,
 				FCF6C3FD1A0641D400500E60 /* PDS-vacutainer.pdf in Resources */,
@@ -2350,6 +2353,7 @@
 				FCB847D219FE90880047D902 /* Ostéoarticulaire - Lombalgie aigue.pdf in Resources */,
 				75D869A919F9067C00F53AF1 /* search-50.png in Resources */,
 				FCB847CF19FE90880047D902 /* ORL-Pneumo - PAC.pdf in Resources */,
+				757710931A263ECC005BF4AB /* minisplashbig.png in Resources */,
 				FCB847D719FE90880047D902 /* Profil de patients - Patient alcoolique.pdf in Resources */,
 				FCB847D019FE90880047D902 /* ORL-Pneumo - Toux chronique.pdf in Resources */,
 				75CE28FD19F417B7002FF80F /* empty_filter-26.png in Resources */,

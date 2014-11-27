@@ -12,5 +12,6 @@
 @property (weak, nonatomic) IBOutlet UIImageView *imgIcon;
 @property (weak, nonatomic) IBOutlet UILabel *lblFileName;
 @property (weak, nonatomic) IBOutlet UILabel *lblFileDescription;
+@property (weak, nonatomic) IBOutlet UIImageView *imgStar;
 
 @end

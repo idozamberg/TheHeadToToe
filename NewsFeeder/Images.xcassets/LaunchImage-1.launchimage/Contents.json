@@ -31,7 +31,7 @@
       "idiom" : "iphone",
       "extent" : "full-screen",
       "minimum-system-version" : "7.0",
-      "filename" : "Default@2x-1.png",
+      "filename" : "Default@2x.png",
       "scale" : "2x"
     },
     {
@@ -84,7 +84,6 @@
       "orientation" : "portrait",
       "idiom" : "iphone",
       "extent" : "full-screen",
-      "filename" : "Default-Portrait@2x-2.png",
       "scale" : "2x"
     },
     {

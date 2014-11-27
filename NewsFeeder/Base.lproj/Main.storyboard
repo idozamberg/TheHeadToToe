@@ -251,7 +251,7 @@
                                 <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                             </view>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="48" sectionHeaderHeight="22" sectionFooterHeight="22" id="St5-3l-Rgh">
-                                <rect key="frame" x="0.0" y="232" width="254" height="333"/>
+                                <rect key="frame" x="0.0" y="280" width="254" height="285"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
@@ -297,6 +297,36 @@
                                 <rect key="frame" x="240" y="0.0" width="14" height="568"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <view contentMode="scaleToFill" id="pSk-ZK-gQJ">
+                                <rect key="frame" x="0.0" y="232" width="320" height="47"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="kNn-Hq-qZK">
+                                        <rect key="frame" x="9" y="1" width="310" height="46"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="20"/>
+                                        <state key="normal" title="  ">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="favoritesClicked:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="CyW-5y-qBv"/>
+                                        </connections>
+                                    </button>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="star-50.png" id="jZt-JE-v3l">
+                                        <rect key="frame" x="7" y="13" width="22" height="22"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Documents Favoris" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="ctu-zr-XS8">
+                                        <rect key="frame" x="37" y="11" width="277" height="24"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="20"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.039215686274509803" green="0.37647058823529411" blue="0.99607843137254903" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
@@ -317,6 +347,7 @@
                         <outlet property="viewHeader" destination="6IW-Dp-Wmg" id="KOa-WO-gAf"/>
                         <outlet property="viewTop" destination="HzK-Li-chS" id="oIh-qm-1HS"/>
                         <outlet property="vwDocumentsHeader" destination="V1e-Bv-E5E" id="1Zv-KV-k11"/>
+                        <outlet property="vwFavoris" destination="pSk-ZK-gQJ" id="Pek-15-LL3"/>
                         <outlet property="vwLabHeader" destination="VL9-SA-piX" id="nCE-u3-34t"/>
                     </connections>
                 </viewController>
@@ -1007,7 +1038,7 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="70" sectionHeaderHeight="22" sectionFooterHeight="22" id="8pt-nQ-MP3">
-                                <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                                <rect key="frame" x="0.0" y="45" width="320" height="504"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
@@ -1272,8 +1303,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="70" sectionHeaderHeight="22" sectionFooterHeight="22" id="I4N-cd-s1K">
-                                <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="71" sectionHeaderHeight="1" sectionFooterHeight="1" id="I4N-cd-s1K">
+                                <rect key="frame" x="0.0" y="45" width="320" height="504"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
@@ -1282,7 +1313,7 @@
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KfT-yH-QFO" id="6IP-VY-3Q3">
                                             <rect key="frame" x="0.0" y="0.0" width="320" height="71"/>
-                                            <autoresizingMask key="autoresizingMask"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <subviews>
                                                 <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="JTW-Bo-Egd">
                                                     <rect key="frame" x="83" y="18" width="212" height="21"/>
@@ -1304,10 +1335,15 @@
                                                     <rect key="frame" x="20" y="14" width="42" height="45"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 </imageView>
+                                                <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="star-50-black.png" id="X11-Er-qxR">
+                                                    <rect key="frame" x="292" y="9" width="20" height="20"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
                                             </subviews>
                                         </tableViewCellContentView>
                                         <connections>
                                             <outlet property="imgIcon" destination="J21-pj-AHz" id="nvD-Tb-ok3"/>
+                                            <outlet property="imgStar" destination="X11-Er-qxR" id="IBC-mV-Vjd"/>
                                             <outlet property="lblFileDescription" destination="9C2-Lw-5Ea" id="foY-WI-tMA"/>
                                             <outlet property="lblFileName" destination="JTW-Bo-Egd" id="8mQ-BX-3AR"/>
                                         </connections>
@@ -1329,7 +1365,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="p1j-at-sd2" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="246" y="-805"/>
+            <point key="canvasLocation" x="210" y="-901"/>
         </scene>
         <!--Lab Values View Controller-->
         <scene sceneID="Gpl-2o-5mf">
@@ -1365,7 +1401,7 @@
                                                     <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 </imageView>
                                                 <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="hQc-Ik-nlz">
-                                                    <rect key="frame" x="155.00000000937331" y="10" width="160" height="26"/>
+                                                    <rect key="frame" x="155.00000000937325" y="10" width="160" height="26"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="11"/>
                                                     <color key="textColor" red="0.10196079313755035" green="0.21176472306251526" blue="0.51372551918029785" alpha="1" colorSpace="deviceRGB"/>
@@ -1886,6 +1922,8 @@
         <image name="searchB-50.png" width="50" height="50"/>
         <image name="search_close.png" width="17" height="17"/>
         <image name="setting_cell_indicator.png" width="8" height="13"/>
+        <image name="star-50-black.png" width="50" height="50"/>
+        <image name="star-50.png" width="50" height="50"/>
         <image name="switch_on-48.png" width="48" height="48"/>
         <image name="test_tube-50.png" width="50" height="50"/>
         <image name="video_camera-50-white.png" width="50" height="50"/>

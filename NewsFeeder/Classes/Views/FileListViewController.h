@@ -10,6 +10,12 @@
 
 #import "CustomNavViewController.h"
 
+typedef enum
+{
+    fileListTypeNormal,
+    fileListTypeFavorites
+}
+fileListType;
 
 @interface FileListViewController : CustomNavViewController <UITableViewDataSource,UITableViewDelegate>
 
@@ -18,5 +24,6 @@
 
 // Properties
 @property (nonatomic,strong) NSMutableArray* filesList;
+@property (nonatomic)        fileListType listType;
 
 @end

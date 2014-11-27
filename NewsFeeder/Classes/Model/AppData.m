@@ -174,6 +174,13 @@ static AppData* shareData;
     return _questionsList;
 }
 
+- (NSArray*) getSortedKeysArrayForDictionary :(NSDictionary*) dict
+{
+     NSArray *arr =  [[dict allKeys] sortedArrayUsingSelector:@selector(localizedStandardCompare:)];
+    
+    return arr;
+}
+
 - (void) loadLabValues
 {
     self.labValues = [NSMutableDictionary new];

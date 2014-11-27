@@ -23,10 +23,11 @@
     IBOutlet UITableView * tblMenu;
     IBOutlet MenuColorSelectView * viewBottom;
     __weak IBOutlet UIView *vwLabHeader;
-    
+    __weak IBOutlet UIView *vwFavoris;
     SuperViewController * currentController;
     menuMode currentMenuMode;
 }
+- (IBAction)favoritesClicked:(id)sender;
 
 - (IBAction)homeClicked:(id)sender;
 @property (weak, nonatomic) IBOutlet UIButton *btnSystems;

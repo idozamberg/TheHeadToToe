@@ -342,6 +342,8 @@
     [viewHeader setBackgroundColor:gThemeColor];
     [vwDocumentsHeader setBackgroundColor:gThemeColor];
     [vwLabHeader setBackgroundColor:gThemeColor];
+    [vwFavoris setBackgroundColor:gThemeColor];
+    [self.view sendSubviewToBack:vwFavoris];
     
     if (currentController) {
         [currentController viewWillAppear:YES];
@@ -352,6 +354,44 @@
 {
     return NO;
 }
+
+- (IBAction)favoritesClicked:(id)sender {
+    
+    // Creating view controller
+    SuperViewController* vcList = [[FileListViewController alloc] viewFromStoryboard];
+    
+    // Setting view mode
+    vcList.currentViewMode = viewModeStandAlone;
+    ((FileListViewController*)vcList).listType = fileListTypeFavorites;
+    
+    NSInteger lentgh = 0;
+    
+    // Setting file list lentgh
+    if ([AppData sharedInstance].favoriteFilesList.count > 20)
+    {
+        lentgh = 20;
+    }
+    else
+    {
+        lentgh = [AppData sharedInstance].favoriteFilesList.count;
+    }
+    
+    // Getting current list
+    NSMutableArray* list = [AppData sharedInstance].favoriteFilesList;
+    
+    // Getting only needed files
+    NSMutableArray* favoriteList = (NSMutableArray*)[list subarrayWithRange:NSMakeRange(0, lentgh)];
+    
+    // Setting file's list
+    [((FileListViewController*)vcList) setFilesList:favoriteList];
+    
+    // Setting controller
+    currentController = (SuperViewController *)[[UICustomNavigationController alloc] initWithRootViewController:vcList];
+    
+    // Showing controller
+    [self showCurrentController];
+}
+
 - (IBAction)homeClicked:(id)sender {
 
     if (currentController) {
@@ -359,6 +399,7 @@
         currentController = nil;
     }
     
+    // Creating systems view controller
     currentController = (SuperViewController *)[[UICustomNavigationController alloc] initWithRootViewController:[[SystemsViewController alloc] viewFromStoryboard]];
     [AppData sharedInstance].currNavigationController = (UICustomNavigationController*)currentController;
     

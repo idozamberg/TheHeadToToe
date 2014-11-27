@@ -13,5 +13,5 @@
 
 + (FlowManager*) sharedInstance;
 - (void) showDataVCForSystem : (NSString*) system;
-
+- (void) showFavoriteFileListViewControllerWithFilelist : (NSMutableArray*) list;
 @end

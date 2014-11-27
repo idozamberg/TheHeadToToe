@@ -38,4 +38,19 @@ static FlowManager* sharedManager;
     [[AppData sharedInstance].currNavigationController pushViewController:vcSystems animated:YES];
 }
 
+- (void) showFavoriteFileListViewControllerWithFilelist : (NSMutableArray*) list
+{
+    // Creating view controller
+    SuperViewController* vcList = [[FileListViewController alloc] viewFromStoryboard];
+    
+    // Setting view mode
+    vcList.currentViewMode = viewModeStandAlone;
+    
+    // Setting file's list
+    [((FileListViewController*)vcList) setFilesList:list];
+    
+    // Push vc
+    [[AppData sharedInstance].currNavigationController pushViewController:vcList animated:YES];
+}
+
 @end
