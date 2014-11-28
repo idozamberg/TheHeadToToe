@@ -2,16 +2,16 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>Anamnèse Generale</key>
+	<key>Anamnèse Générale</key>
 	<dict>
 		<key>Antécédents personnels</key>
 		<array>
-			<string>Maladies, Pas d&apos;autres maladies, Oui</string>
-			<string>Interventions chirurgicales, Pas d&apos;interventions chirurgicales, Oui</string>
+			<string>Maladies,Pas d&apos;autres maladies,Oui</string>
+			<string>Interventions chirurgicales,Pas d&apos;interventions chirurgicales,Oui</string>
 			<string>Traumatismes,,Oui</string>
-			<string>Hospitalisations, Pas d&apos;hospitalisations jusqu&apos;à présent, Oui</string>
-			<string>ATCD psychiatriques, Pas d&apos;ATCD psychiatriques, Oui</string>
-			<string>Autres ATCD, Pas d&apos;autres ATCD, Oui</string>
+			<string>Hospitalisations,Pas d&apos;hospitalisations jusqu&apos;à présent, Oui</string>
+			<string>ATCD psychiatriques,Pas d&apos;ATCD psychiatriques, Oui</string>
+			<string>Autres ATCD,Pas d&apos;autres ATCD, Oui</string>
 		</array>
 		<key>Anamnèse actuelle</key>
 		<array>

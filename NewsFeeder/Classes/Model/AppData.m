@@ -128,7 +128,8 @@ static AppData* shareData;
                         // Setting text for when question is not checked
                         if (texts.count > 1)
                         {
-                            newQuestion.nonCheckedText = [texts objectAtIndex:1];
+                            // Removing white space and setting non checked question
+                            newQuestion.nonCheckedText = [[texts objectAtIndex:1] stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceCharacterSet]];
                         }
                         
                         // Setting text for when question is checked
@@ -195,11 +196,19 @@ static AppData* shareData;
         
         NSMutableArray* currentValuesArray = [NSMutableArray new];
         
+        // Getting sorted keys array
+        NSArray* keysArray = [self getSortedKeysArrayForDictionary:currentTypeDict];
+        
         // Going through all values and creating a native object
-        for (NSString* currValue in [currentTypeDict allKeys])
+        for (NSString* currValue in keysArray)
         {
             LabValue* newValue = [LabValue new];
-            newValue.name  =currValue;
+            
+            // Removing number from key
+            NSArray* splitLabKey = [currValue componentsSeparatedByString:@"."];
+            
+            // Setting values
+            newValue.name  = [splitLabKey objectAtIndex:1];
             newValue.value = [currentTypeDict objectForKey:currValue];
             
             [currentValuesArray addObject:newValue];

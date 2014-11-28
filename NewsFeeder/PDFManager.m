@@ -153,6 +153,7 @@ static PDFManager* sharePDF;
                                     
                                     // Setting up string to write
                                     pdfString = [pdfString stringByAppendingString:[NSString stringWithFormat:@"%@",currentQuestion.nonCheckedText]];
+                                    
                                 }
                             }
                             

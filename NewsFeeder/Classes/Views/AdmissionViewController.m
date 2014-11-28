@@ -56,7 +56,7 @@
         
         if (sectionCounter == SECTION_AG)
         {
-            currentDictionary = [self.dataSource objectForKey:@"Anamnèse Generale"];
+            currentDictionary = [self.dataSource objectForKey:@"Anamnèse Générale"];
         }
         else if (sectionCounter == SECTION_APS)
         {
@@ -182,8 +182,8 @@
     
     if (indexPath.section == SECTION_AG)
     {
-        currentDictionary = [self.dataSource objectForKey:@"Anamnèse Generale"];
-        cell.part = @"Anamnèse Generale";
+        currentDictionary = [self.dataSource objectForKey:@"Anamnèse Générale"];
+        cell.part = @"Anamnèse Générale";
     }
     else if (indexPath.section == SECTION_APS)
     {
@@ -249,7 +249,7 @@
         
         if (sectionCounter == SECTION_AG)
         {
-            currentDictionary = [self.dataSource objectForKey:@"Anamnèse Generale"];
+            currentDictionary = [self.dataSource objectForKey:@"Anamnèse Générale"];
         }
         else if (sectionCounter == SECTION_APS)
         {
@@ -312,7 +312,7 @@
     
     if (section == SECTION_AG)
     {
-        title = @"Anamnèse Generale";
+        title = @"Anamnèse Générale";
     }
     else if (section == SECTION_APS)
     {
@@ -358,7 +358,7 @@
     // Getting currect dictionary
     if (indexPath.section == SECTION_AG)
     {
-        currentDictionary = [self.dataSource objectForKey:@"Anamnèse Generale"];
+        currentDictionary = [self.dataSource objectForKey:@"Anamnèse Générale"];
     }
     else if (indexPath.section == SECTION_APS)
     {
@@ -378,7 +378,7 @@
     
     if (indexPath.section == SECTION_AG)
     {
-        currentDictionary = [self.dataSource objectForKey:@"Anamnèse Generale"];
+        currentDictionary = [self.dataSource objectForKey:@"Anamnèse Générale"];
     }
     else if (indexPath.section == SECTION_APS)
     {
