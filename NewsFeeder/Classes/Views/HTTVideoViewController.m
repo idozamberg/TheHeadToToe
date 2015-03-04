@@ -100,7 +100,7 @@
    
     // Setting cell's properties
     [cell loadThumbnailWithIdentifier:currFile.name];
-    cell.lblTitle.text = [NSString stringWithFormat:@"System %@",_system];
+    cell.lblTitle.text = [NSString stringWithFormat:@"Système %@",_system];
     cell.lblDescription.text = currFile.fileDescription;
     cell.cellModel = currFile;
     cell.delegate = self;

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="vXZ-lx-hvc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14D72i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="vXZ-lx-hvc">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
     </dependencies>
     <scenes>
         <!--Menu View Controller-->
@@ -531,24 +531,24 @@
                                                                     <rect key="frame" x="0.0" y="0.0" width="275" height="156"/>
                                                                     <autoresizingMask key="autoresizingMask" widthSizable="YES"/>
                                                                 </imageView>
+                                                                <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="XvN-vp-SVF">
+                                                                    <rect key="frame" x="105" y="46" width="64" height="64"/>
+                                                                    <autoresizingMask key="autoresizingMask"/>
+                                                                    <state key="normal" backgroundImage="foundation_play-circle_simple-white_128x128.png">
+                                                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                                    </state>
+                                                                    <connections>
+                                                                        <action selector="playClick:" destination="DXH-PE-Qv6" eventType="touchUpInside" id="gnU-dT-ac5"/>
+                                                                    </connections>
+                                                                </button>
                                                             </subviews>
                                                             <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
                                                         </view>
-                                                        <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="XvN-vp-SVF">
-                                                            <rect key="frame" x="122" y="63" width="30" height="30"/>
-                                                            <autoresizingMask key="autoresizingMask"/>
-                                                            <state key="normal" backgroundImage="play-50.png">
-                                                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                                            </state>
-                                                            <connections>
-                                                                <action selector="playClick:" destination="DXH-PE-Qv6" eventType="touchUpInside" id="gnU-dT-ac5"/>
-                                                            </connections>
-                                                        </button>
                                                     </subviews>
                                                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                 </view>
                                                 <view contentMode="scaleToFill" id="dwr-Hh-0Ja">
-                                                    <rect key="frame" x="0.0" y="255" width="1200" height="13"/>
+                                                    <rect key="frame" x="0.0" y="255" width="1800" height="13"/>
                                                     <autoresizingMask key="autoresizingMask" widthSizable="YES"/>
                                                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 </view>
@@ -643,9 +643,9 @@
                                                                     <autoresizingMask key="autoresizingMask" widthSizable="YES"/>
                                                                 </imageView>
                                                                 <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="MOS-tK-10S">
-                                                                    <rect key="frame" x="209" y="92" width="30" height="30"/>
+                                                                    <rect key="frame" x="192" y="61" width="64" height="64"/>
                                                                     <autoresizingMask key="autoresizingMask"/>
-                                                                    <state key="normal" backgroundImage="play-50.png">
+                                                                    <state key="normal" backgroundImage="foundation_play-circle_simple-white_128x128.png">
                                                                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                                                     </state>
                                                                     <connections>
@@ -1398,7 +1398,7 @@
                                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 </imageView>
                                                 <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="hQc-Ik-nlz">
-                                                    <rect key="frame" x="155.00000000937328" y="10" width="160" height="26"/>
+                                                    <rect key="frame" x="155.00000000937331" y="10" width="160" height="26"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="11"/>
                                                     <color key="textColor" red="0.10196079313755035" green="0.21176472306251526" blue="0.51372551918029785" alpha="1" colorSpace="deviceRGB"/>
@@ -1896,6 +1896,7 @@
         <image name="feed_example1.png" width="322" height="332"/>
         <image name="feed_option_bg.png" width="320" height="244"/>
         <image name="filter-50.png" width="50" height="50"/>
+        <image name="foundation_play-circle_simple-white_128x128.png" width="128" height="128"/>
         <image name="home-50.png" width="50" height="50"/>
         <image name="info-50.png" width="50" height="50"/>
         <image name="invite_fb.png" width="128" height="50"/>

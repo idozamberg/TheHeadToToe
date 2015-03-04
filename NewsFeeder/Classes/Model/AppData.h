@@ -11,6 +11,10 @@
 #import "UICustomNavigationController.h"
 #import "HTTFile.h"
 
+#define SECTION_AG 0
+#define SECTION_APS 1
+#define SECTION_EX 2
+
 typedef enum
 {
     menuModeMain,

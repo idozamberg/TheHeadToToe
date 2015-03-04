@@ -15,9 +15,7 @@
 
 #define DEFAULT_CELL_SIZE 45
 #define HEADER_HEIGHT 45
-#define SECTION_AG 0
-#define SECTION_APS 1
-#define SECTION_EX 2
+
 
 @interface AdmissionViewController ()
 

@@ -74,16 +74,39 @@ static PDFManager* sharePDF;
 - (NSString*) createStringFromDictionaryForPdf : (NSMutableDictionary*) dict andShouldFilter : (BOOL) shouldFilter
 {
     NSString* pdfString = @"ADMISSION: \n";
+    NSInteger sectionCounter = 0;
     
     // Going through all categories
     for (NSString* part in [dict allKeys])
     {
-        // Setting title
-        pdfString = [pdfString stringByAppendingString:[NSString stringWithFormat:@"%@ \n",part]];
         
         // Getting current dictionary
-        NSMutableDictionary* currentExamPart = [dict objectForKey:part];
+        NSMutableDictionary* currentExamPart;
+        NSString* partTitle;
+    
+        // Checking for current part
+        if (sectionCounter == SECTION_AG)
+        {
+            currentExamPart = [dict objectForKey:@"Anamnèse Générale"];
+            partTitle = @"Anamnèse Générale";
+        }
+        else if (sectionCounter == SECTION_APS)
+        {
+            currentExamPart = [dict objectForKey:@"Anamnèse par système"];
+            partTitle = @"Anamnèse par système";
+
+        }
+        else
+        {
+            currentExamPart = [dict objectForKey:@"Examen Physique"];
+            partTitle = @"Examen Physique";
+
+        }
+
+        // Setting title
+        pdfString = [pdfString stringByAppendingString:[NSString stringWithFormat:@"%@ \n",partTitle]];
         
+        // Checking if section has selected entities
         if ([self doesHaveCheckedSections:currentExamPart] || !shouldFilter)
         {
                 // Setting part title
@@ -167,6 +190,8 @@ static PDFManager* sharePDF;
         
         // New line
         pdfString = [pdfString stringByAppendingString:[NSString stringWithFormat:@"\n"]];
+        
+        sectionCounter += 1;
 
     }
 
