@@ -6,39 +6,35 @@
 	<array>
 		<dict>
 			<key>Name</key>
-			<string>8rWjz8Xt-FI</string>
+			<string>http://batesvisualguide.com/MultimediaPlayer.aspx?multimediaid=6091254</string>
 			<key>Description</key>
-			<string>Introduction</string>
+			<string>Rappel Anatomie de Thorax et Paumons</string>
+			<key>Thumb</key>
+			<string>09_02_AnatomyReviewThoraxLungs_MP4 768Kbpst.png</string>
 		</dict>
 		<dict>
 			<key>Name</key>
-			<string>BUL_OXZyeKg</string>
+			<string>http://batesvisualguide.com/MultimediaPlayer.aspx?multimediaid=6091256</string>
 			<key>Description</key>
 			<string>Inspection</string>
+			<key>Thumb</key>
+			<string>09_03_BeginningExamination_MP4 768Kbpst.png</string>
 		</dict>
 		<dict>
 			<key>Name</key>
-			<string>w54K514x_I4</string>
+			<string>http://batesvisualguide.com/MultimediaPlayer.aspx?multimediaid=6091258</string>
 			<key>Description</key>
-			<string>Palpation</string>
+			<string>Palpation Thorax Posterieur</string>
+			<key>Thumb</key>
+			<string>09_04_ExaminingPosteriorThorax_MP4 768Kbpst.png</string>
 		</dict>
 		<dict>
 			<key>Name</key>
-			<string>Pvj_qTxThlo</string>
+			<string>http://batesvisualguide.com/MultimediaPlayer.aspx?multimediaid=6091260</string>
 			<key>Description</key>
-			<string>Percussion</string>
-		</dict>
-		<dict>
-			<key>Name</key>
-			<string>AEgdLq1EcLY</string>
-			<key>Description</key>
-			<string>Auscultation</string>
-		</dict>
-		<dict>
-			<key>Name</key>
-			<string>L19PVsD--KA</string>
-			<key>Description</key>
-			<string>Examen respiratoire OSCE</string>
+			<string>Palpation Thorax Anterieur</string>
+			<key>Thumb</key>
+			<string>09_05_ExaminingAnteriorThorax_MP4 768Kbpst.png</string>
 		</dict>
 	</array>
 	<key>Urgences</key>

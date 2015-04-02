@@ -10,6 +10,7 @@
 #import "XCDYouTubeVideo.h"
 #import "AppData.h"
 #import "AnalyticsManager.h"
+#import "WebVideoViewController.h"
 
 @implementation HTTVideoTableViewCell
 
@@ -23,12 +24,14 @@
     [defaultCenter removeObserver:self name:XCDYouTubeVideoPlayerViewControllerDidReceiveVideoNotification object:_videoPlayerViewController];
     [defaultCenter removeObserver:self name:MPMoviePlayerPlaybackDidFinishNotification object:_videoPlayerViewController];
     
-   
+    [self loadThumbnailWithIdentifier:@""];
+    
 }
 
 - (void) layoutSubviews
 {
     [self.vwFrame setCenter:CGPointMake(self.frame.size.width / 2, self.frame.size.height / 2)];
+    
 
 }
 
@@ -63,64 +66,55 @@
     [AnalyticsManager sharedInstance].sendToFlurry = YES;
     [[AnalyticsManager sharedInstance] sendEventWithName:@"Video was played" Category:@"Videos" Label:[NSString stringWithFormat:@"%@ - %@",cellModel.system,cellModel.fileDescription]];
     
-    [self playMovie];
+  
+    // Play file
+    [self showVideoWithUrlString:cellModel.name];
+    
+}
+
+- (void) showVideoWithUrlString : (NSString*) videoUrl
+{
+    // Creating web view controller
+    WebVideoViewController* webViewVC = [WebVideoViewController new];
+    
+    // calculating frame
+    CGRect frame = [[UIScreen mainScreen] applicationFrame];
+    frame.origin.y = 64;
+    
+    // Creating web view
+    WKWebViewConfiguration *theConfiguration = [[WKWebViewConfiguration alloc] init];
+    WKWebView *wkWebView = [[WKWebView alloc] initWithFrame:frame configuration:theConfiguration];
+    //webView.navigationDelegate = self;
+    
+    // Creating url nad request by string
+    NSURL *nsurl=[NSURL URLWithString:videoUrl];
+    NSURLRequest *nsrequest=[NSURLRequest requestWithURL:nsurl];
+    
+    // Setting delete
+    [wkWebView setNavigationDelegate:webViewVC];
+    
+    // Loading request
+    [wkWebView loadRequest:nsrequest];
+    
+    // Addind web view to VC
+    [webViewVC.view addSubview:wkWebView];
+    
+    // Showing video
+    [[AppData sharedInstance].currNavigationController pushViewController:webViewVC animated:YES];
+    
+    webViewVC.navBarView.lblTitle.text = cellModel.fileDescription;
 }
 
 - (void) loadThumbnailWithIdentifier  : (NSString*) identifier
 {
-   // [self.vwFrame.subviews makeObjectsPerformSelector:@selector(removeFromSuperview)];
-    self.imgThumb.image = Nil;
-    
-    // Initiating video player
-    self.videoPlayerViewController = [[XCDYouTubeVideoPlayerViewController alloc] initWithVideoIdentifier:identifier];
-    
-    // Setting notifications
-    NSNotificationCenter *defaultCenter = [NSNotificationCenter defaultCenter];
-    [defaultCenter addObserver:self selector:@selector(videoPlayerViewControllerDidReceiveVideo:) name:XCDYouTubeVideoPlayerViewControllerDidReceiveVideoNotification object:_videoPlayerViewController];
-    [defaultCenter addObserver:self selector:@selector(moviePlayerPlaybackDidFinish:) name:MPMoviePlayerPlaybackDidFinishNotification object:_videoPlayerViewController.moviePlayer];
+    self.imgThumb.hidden = NO;
+    self.imgThumb.image = [UIImage imageNamed:cellModel.thumb];
+    NSLog(@"%@",cellModel.thumb);
 }
 
 - (void) playMovie
 {
-    self.imgThumb.hidden = YES;
-    self.btnPlay.hidden = YES;
-    
-    // Sending delegate
-//    if ([self.delegate respondsToSelector:@selector(playClickedInVideoCellWithVideoPlayer:)])
-//    {
-//        [self.delegate playClickedInVideoCellWithVideoPlayer:_videoPlayerViewController];
-//    }
-//    else
-//    {
-//        [_videoPlayerViewController.moviePlayer play];
-//        
-//        [[AppDa  ta sharedInstance].currNavigationController presentMoviePlayerViewControllerAnimated:_videoPlayerViewController];
-//    }
-    [_videoPlayerViewController.moviePlayer play];
-    
-    [[AppData sharedInstance].currNavigationController presentMoviePlayerViewControllerAnimated:_videoPlayerViewController];
-    
-    /*else
-    {
-        [_videoPlayerViewController.moviePlayer play];
-        //[_videoPlayerViewController presentInView:currentController.view];
-        
-        [[AppData sharedInstance].currNavigationController presentMoviePlayerViewControllerAnimated:_videoPlayerViewController];
-    }
-    */
-    
-  
-   // [self.window.rootViewController.navigationController presentMoviePlayerViewControllerAnimated:_videoPlayerViewController];
- 
-    /*
-    */
-    
-  //  [_videoPlayerViewController.moviePlayer play];
-  //  [_videoPlayerViewController presentInView:self.vwFrame];
-    
-//    [self.window.rootViewController presentMoviePlayerViewControllerAnimated:_videoPlayerViewController];
-    
-  //  [[AppData sharedInstance].currNavigationController presentMoviePlayerViewControllerAnimated:_videoPlayerViewController];
+
 
 }
 

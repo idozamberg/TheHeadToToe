@@ -160,13 +160,22 @@
 		758BDA8319FBBC28000EBC90 /* cancel-48.png in Resources */ = {isa = PBXBuildFile; fileRef = 758BDA8219FBBC28000EBC90 /* cancel-48.png */; };
 		758BDA8519FBBEDB000EBC90 /* searchB-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 758BDA8419FBBEDB000EBC90 /* searchB-50.png */; };
 		758BDA8719FBC1F1000EBC90 /* cancel-32.png in Resources */ = {isa = PBXBuildFile; fileRef = 758BDA8619FBC1F1000EBC90 /* cancel-32.png */; };
+		7592B86E1ACC324500C87CF8 /* HTTFavoriteFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 7592B86D1ACC324500C87CF8 /* HTTFavoriteFile.m */; };
+		7592B8711ACC32F600C87CF8 /* WebVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7592B8701ACC32F600C87CF8 /* WebVideoViewController.m */; };
+		7592B8731ACC375100C87CF8 /* UNIGE_Medecine_logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7592B8721ACC375100C87CF8 /* UNIGE_Medecine_logo.jpg */; };
+		7592B8751ACC3A2400C87CF8 /* Play Filled-100.png in Resources */ = {isa = PBXBuildFile; fileRef = 7592B8741ACC3A2400C87CF8 /* Play Filled-100.png */; };
+		7592B8771ACC5D7500C87CF8 /* unige.png in Resources */ = {isa = PBXBuildFile; fileRef = 7592B8761ACC5D7500C87CF8 /* unige.png */; };
+		7592B8791ACC5E0800C87CF8 /* 01_01_HTTAdult_MP4 768Kbpst.png in Resources */ = {isa = PBXBuildFile; fileRef = 7592B8781ACC5E0800C87CF8 /* 01_01_HTTAdult_MP4 768Kbpst.png */; };
+		7592B87F1ACC91D200C87CF8 /* 09_05_ExaminingAnteriorThorax_MP4 768Kbpst.png in Resources */ = {isa = PBXBuildFile; fileRef = 7592B87B1ACC91D200C87CF8 /* 09_05_ExaminingAnteriorThorax_MP4 768Kbpst.png */; };
+		7592B8801ACC91D200C87CF8 /* 09_04_ExaminingPosteriorThorax_MP4 768Kbpst.png in Resources */ = {isa = PBXBuildFile; fileRef = 7592B87C1ACC91D200C87CF8 /* 09_04_ExaminingPosteriorThorax_MP4 768Kbpst.png */; };
+		7592B8811ACC91D200C87CF8 /* 09_03_BeginningExamination_MP4 768Kbpst.png in Resources */ = {isa = PBXBuildFile; fileRef = 7592B87D1ACC91D200C87CF8 /* 09_03_BeginningExamination_MP4 768Kbpst.png */; };
+		7592B8821ACC91D200C87CF8 /* 09_02_AnatomyReviewThoraxLungs_MP4 768Kbpst.png in Resources */ = {isa = PBXBuildFile; fileRef = 7592B87E1ACC91D200C87CF8 /* 09_02_AnatomyReviewThoraxLungs_MP4 768Kbpst.png */; };
 		75932D9319F1B41F00D24223 /* note-48.png in Resources */ = {isa = PBXBuildFile; fileRef = 75932D9219F1B41F00D24223 /* note-48.png */; };
 		75932D9519F2432B00D24223 /* ok-32.png in Resources */ = {isa = PBXBuildFile; fileRef = 75932D9419F2432B00D24223 /* ok-32.png */; };
 		75932D9719F2437A00D24223 /* checkmark-32.png in Resources */ = {isa = PBXBuildFile; fileRef = 75932D9619F2437A00D24223 /* checkmark-32.png */; };
 		759EAFBB19F7AD06008348F7 /* play-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 759EAFBA19F7AD06008348F7 /* play-50.png */; };
 		759EAFC019F8EB06008348F7 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 759EAFBF19F8EB06008348F7 /* AVFoundation.framework */; };
 		75AB216B1A24B70F007829C7 /* minisplas2hbig.png in Resources */ = {isa = PBXBuildFile; fileRef = 75AB216A1A24B70F007829C7 /* minisplas2hbig.png */; };
-		75AB216E1A24BAEC007829C7 /* HTTFavoriteFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 75AB216D1A24BAEC007829C7 /* HTTFavoriteFile.m */; };
 		75AB21701A24C6B2007829C7 /* star-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 75AB216F1A24C6B2007829C7 /* star-50.png */; };
 		75AB21721A24C800007829C7 /* star-50-black.png in Resources */ = {isa = PBXBuildFile; fileRef = 75AB21711A24C800007829C7 /* star-50-black.png */; };
 		75C50B8319FAF5080011698B /* SystemsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75C50B8219FAF5080011698B /* SystemsViewController.m */; };
@@ -259,6 +268,7 @@
 		75E385CD19EFCC94006C60FF /* xml.c in Sources */ = {isa = PBXBuildFile; fileRef = 75E3858E19EFCC94006C60FF /* xml.c */; };
 		75E385D019EFCD60006C60FF /* PDFManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 75E385CF19EFCD60006C60FF /* PDFManager.m */; };
 		75E385D819F1B236006C60FF /* test_tube-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 75E385D719F1B236006C60FF /* test_tube-50.png */; };
+		75F57E791ACC2B83008C649B /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75F57E781ACC2B83008C649B /* WebKit.framework */; };
 		75F5C2711A30A545004D6354 /* bfa_play_flat-circle-white-on-light-gray_64x64.png in Resources */ = {isa = PBXBuildFile; fileRef = 75F5C2701A30A545004D6354 /* bfa_play_flat-circle-white-on-light-gray_64x64.png */; };
 		75F5C2731A30A65B004D6354 /* foundation_play-circle_simple-white_64x64.png in Resources */ = {isa = PBXBuildFile; fileRef = 75F5C2721A30A65B004D6354 /* foundation_play-circle_simple-white_64x64.png */; };
 		75F5C2751A30A6FB004D6354 /* foundation_play-circle_simple-white_128x128.png in Resources */ = {isa = PBXBuildFile; fileRef = 75F5C2741A30A6FB004D6354 /* foundation_play-circle_simple-white_128x128.png */; };
@@ -661,14 +671,24 @@
 		758BDA8219FBBC28000EBC90 /* cancel-48.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cancel-48.png"; sourceTree = "<group>"; };
 		758BDA8419FBBEDB000EBC90 /* searchB-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "searchB-50.png"; sourceTree = "<group>"; };
 		758BDA8619FBC1F1000EBC90 /* cancel-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cancel-32.png"; sourceTree = "<group>"; };
+		7592B86C1ACC324500C87CF8 /* HTTFavoriteFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTFavoriteFile.h; sourceTree = "<group>"; };
+		7592B86D1ACC324500C87CF8 /* HTTFavoriteFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTTFavoriteFile.m; sourceTree = "<group>"; };
+		7592B86F1ACC32F600C87CF8 /* WebVideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebVideoViewController.h; sourceTree = "<group>"; };
+		7592B8701ACC32F600C87CF8 /* WebVideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebVideoViewController.m; sourceTree = "<group>"; };
+		7592B8721ACC375100C87CF8 /* UNIGE_Medecine_logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = UNIGE_Medecine_logo.jpg; sourceTree = "<group>"; };
+		7592B8741ACC3A2400C87CF8 /* Play Filled-100.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Play Filled-100.png"; sourceTree = "<group>"; };
+		7592B8761ACC5D7500C87CF8 /* unige.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = unige.png; sourceTree = "<group>"; };
+		7592B8781ACC5E0800C87CF8 /* 01_01_HTTAdult_MP4 768Kbpst.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "01_01_HTTAdult_MP4 768Kbpst.png"; sourceTree = "<group>"; };
+		7592B87B1ACC91D200C87CF8 /* 09_05_ExaminingAnteriorThorax_MP4 768Kbpst.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "09_05_ExaminingAnteriorThorax_MP4 768Kbpst.png"; sourceTree = "<group>"; };
+		7592B87C1ACC91D200C87CF8 /* 09_04_ExaminingPosteriorThorax_MP4 768Kbpst.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "09_04_ExaminingPosteriorThorax_MP4 768Kbpst.png"; sourceTree = "<group>"; };
+		7592B87D1ACC91D200C87CF8 /* 09_03_BeginningExamination_MP4 768Kbpst.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "09_03_BeginningExamination_MP4 768Kbpst.png"; sourceTree = "<group>"; };
+		7592B87E1ACC91D200C87CF8 /* 09_02_AnatomyReviewThoraxLungs_MP4 768Kbpst.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "09_02_AnatomyReviewThoraxLungs_MP4 768Kbpst.png"; sourceTree = "<group>"; };
 		75932D9219F1B41F00D24223 /* note-48.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "note-48.png"; sourceTree = "<group>"; };
 		75932D9419F2432B00D24223 /* ok-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ok-32.png"; sourceTree = "<group>"; };
 		75932D9619F2437A00D24223 /* checkmark-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "checkmark-32.png"; sourceTree = "<group>"; };
 		759EAFBA19F7AD06008348F7 /* play-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "play-50.png"; sourceTree = "<group>"; };
 		759EAFBF19F8EB06008348F7 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		75AB216A1A24B70F007829C7 /* minisplas2hbig.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = minisplas2hbig.png; sourceTree = "<group>"; };
-		75AB216C1A24BAEC007829C7 /* HTTFavoriteFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HTTFavoriteFile.h; path = Classes/HTTFavoriteFile.h; sourceTree = "<group>"; };
-		75AB216D1A24BAEC007829C7 /* HTTFavoriteFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HTTFavoriteFile.m; path = Classes/HTTFavoriteFile.m; sourceTree = "<group>"; };
 		75AB216F1A24C6B2007829C7 /* star-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "star-50.png"; sourceTree = "<group>"; };
 		75AB21711A24C800007829C7 /* star-50-black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "star-50-black.png"; sourceTree = "<group>"; };
 		75C50B8119FAF5080011698B /* SystemsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SystemsViewController.h; sourceTree = "<group>"; };
@@ -780,6 +800,7 @@
 		75E385CE19EFCD60006C60FF /* PDFManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDFManager.h; sourceTree = "<group>"; };
 		75E385CF19EFCD60006C60FF /* PDFManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDFManager.m; sourceTree = "<group>"; };
 		75E385D719F1B236006C60FF /* test_tube-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "test_tube-50.png"; sourceTree = "<group>"; };
+		75F57E781ACC2B83008C649B /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		75F5C2701A30A545004D6354 /* bfa_play_flat-circle-white-on-light-gray_64x64.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bfa_play_flat-circle-white-on-light-gray_64x64.png"; sourceTree = "<group>"; };
 		75F5C2721A30A65B004D6354 /* foundation_play-circle_simple-white_64x64.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "foundation_play-circle_simple-white_64x64.png"; sourceTree = "<group>"; };
 		75F5C2741A30A6FB004D6354 /* foundation_play-circle_simple-white_128x128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "foundation_play-circle_simple-white_128x128.png"; sourceTree = "<group>"; };
@@ -997,6 +1018,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75F57E791ACC2B83008C649B /* WebKit.framework in Frameworks */,
 				75D869A319F8F6E300F53AF1 /* AVKit.framework in Frameworks */,
 				759EAFC019F8EB06008348F7 /* AVFoundation.framework in Frameworks */,
 				751771A519F793D2009BF487 /* MediaPlayer.framework in Frameworks */,
@@ -1306,6 +1328,10 @@
 		756124EA1A0CB6D50096E2B8 /* Icons */ = {
 			isa = PBXGroup;
 			children = (
+				7592B87A1ACC91B400C87CF8 /* VideosThumbs */,
+				7592B8781ACC5E0800C87CF8 /* 01_01_HTTAdult_MP4 768Kbpst.png */,
+				7592B8761ACC5D7500C87CF8 /* unige.png */,
+				7592B8741ACC3A2400C87CF8 /* Play Filled-100.png */,
 				75F5C2741A30A6FB004D6354 /* foundation_play-circle_simple-white_128x128.png */,
 				75F5C2721A30A65B004D6354 /* foundation_play-circle_simple-white_64x64.png */,
 				75F5C2701A30A545004D6354 /* bfa_play_flat-circle-white-on-light-gray_64x64.png */,
@@ -1372,6 +1398,25 @@
 				758BDA7119FBA510000EBC90 /* ATCTransitioningDelegate.m */,
 			);
 			name = "Transition Gallery";
+			sourceTree = "<group>";
+		};
+		7592B87A1ACC91B400C87CF8 /* VideosThumbs */ = {
+			isa = PBXGroup;
+			children = (
+				7592B8831ACC91DA00C87CF8 /* Respiratoire */,
+			);
+			name = VideosThumbs;
+			sourceTree = "<group>";
+		};
+		7592B8831ACC91DA00C87CF8 /* Respiratoire */ = {
+			isa = PBXGroup;
+			children = (
+				7592B87B1ACC91D200C87CF8 /* 09_05_ExaminingAnteriorThorax_MP4 768Kbpst.png */,
+				7592B87C1ACC91D200C87CF8 /* 09_04_ExaminingPosteriorThorax_MP4 768Kbpst.png */,
+				7592B87D1ACC91D200C87CF8 /* 09_03_BeginningExamination_MP4 768Kbpst.png */,
+				7592B87E1ACC91D200C87CF8 /* 09_02_AnatomyReviewThoraxLungs_MP4 768Kbpst.png */,
+			);
+			name = Respiratoire;
 			sourceTree = "<group>";
 		};
 		75C50B8019FAF4DC0011698B /* Main */ = {
@@ -1721,6 +1766,7 @@
 		C3080DE217FE86B8008AE8CC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				75F57E781ACC2B83008C649B /* WebKit.framework */,
 				75D869A219F8F6E300F53AF1 /* AVKit.framework */,
 				759EAFBF19F8EB06008348F7 /* AVFoundation.framework */,
 				751771A419F793D2009BF487 /* MediaPlayer.framework */,
@@ -1738,8 +1784,7 @@
 		C3080DE917FE86B8008AE8CC /* NewsFeeder */ = {
 			isa = PBXGroup;
 			children = (
-				75AB216C1A24BAEC007829C7 /* HTTFavoriteFile.h */,
-				75AB216D1A24BAEC007829C7 /* HTTFavoriteFile.m */,
+				7592B8721ACC375100C87CF8 /* UNIGE_Medecine_logo.jpg */,
 				7508EEA71A222FDA00EF38D8 /* Managers */,
 				756124EA1A0CB6D50096E2B8 /* Icons */,
 				75E3851819EFCC68006C60FF /* PdfManager */,
@@ -1847,6 +1892,8 @@
 		C3080E2D17FE8827008AE8CC /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				7592B86C1ACC324500C87CF8 /* HTTFavoriteFile.h */,
+				7592B86D1ACC324500C87CF8 /* HTTFavoriteFile.m */,
 				75C9232C19EA9E180005CA31 /* Admission */,
 				7524A46119E896D9006607C1 /* AppData.h */,
 				7524A46219E896D9006607C1 /* AppData.m */,
@@ -1878,6 +1925,8 @@
 				7506806E19EAFB2D00EA0040 /* QuestionsHeader.h */,
 				7506806F19EAFB2D00EA0040 /* QuestionsHeader.m */,
 				7506807119EAFB7900EA0040 /* QuestionsHeader.xib */,
+				7592B86F1ACC32F600C87CF8 /* WebVideoViewController.h */,
+				7592B8701ACC32F600C87CF8 /* WebVideoViewController.m */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -2312,6 +2361,7 @@
 				75E3859019EFCC94006C60FF /* blocktags in Resources */,
 				C3080F0817FEEDF8008AE8CC /* invite_tw_cursor@2x.png in Resources */,
 				C3080E4F17FE8827008AE8CC /* menu_cell_icon_pager@2x.png in Resources */,
+				7592B8821ACC91D200C87CF8 /* 09_02_AnatomyReviewThoraxLungs_MP4 768Kbpst.png in Resources */,
 				75C50B8719FCF3960011698B /* erase-48.png in Resources */,
 				75470D791A09B35F00563414 /* more-48.png in Resources */,
 				758BDA7919FBB664000EBC90 /* home-50.png in Resources */,
@@ -2332,6 +2382,7 @@
 				75F5C2751A30A6FB004D6354 /* foundation_play-circle_simple-white_128x128.png in Resources */,
 				FCB847DB19FE90880047D902 /* Uro-génital - Infections urinaires.pdf in Resources */,
 				75470D751A09A99B00563414 /* export-50.png in Resources */,
+				7592B8771ACC5D7500C87CF8 /* unige.png in Resources */,
 				75103A8319FD635100BD458D /* Pied.pdf in Resources */,
 				75CE28E619F394AC002FF80F /* Depression.pdf in Resources */,
 				75470D7F1A0A0C3400563414 /* bookmark-48.png in Resources */,
@@ -2366,10 +2417,12 @@
 				757710931A263ECC005BF4AB /* minisplashbig.png in Resources */,
 				FCB847D719FE90880047D902 /* Profil de patients - Patient alcoolique.pdf in Resources */,
 				FCB847D019FE90880047D902 /* ORL-Pneumo - Toux chronique.pdf in Resources */,
+				7592B8811ACC91D200C87CF8 /* 09_03_BeginningExamination_MP4 768Kbpst.png in Resources */,
 				75CE28FD19F417B7002FF80F /* empty_filter-26.png in Resources */,
 				7506807A19EB245200EA0040 /* Arrow up.png in Resources */,
 				75E385CB19EFCC94006C60FF /* test.html in Resources */,
 				75CE28E319F394AC002FF80F /* Système ostéo-articulaire.pdf in Resources */,
+				7592B8801ACC91D200C87CF8 /* 09_04_ExaminingPosteriorThorax_MP4 768Kbpst.png in Resources */,
 				75470D281A09895600563414 /* Bookmark_Gray_S.png in Resources */,
 				75470D381A09895600563414 /* MenuBG_Iphone.png in Resources */,
 				75470D361A09895600563414 /* Mark_Bookmark.png in Resources */,
@@ -2408,6 +2461,7 @@
 				FCB847C219FE90880047D902 /* Gastro-intestinal - Elévation des tests hépatiques.pdf in Resources */,
 				C3080F0517FEEDF8008AE8CC /* invite_refresh.png in Resources */,
 				C3080F0217FEEDF8008AE8CC /* invite_fb_cursor@2x.png in Resources */,
+				7592B8731ACC375100C87CF8 /* UNIGE_Medecine_logo.jpg in Resources */,
 				C3080E5617FE8827008AE8CC /* menu_setting.png in Resources */,
 				758BDA7F19FBB856000EBC90 /* info-48.png in Resources */,
 				75CE28DF19F394AC002FF80F /* Injections.pdf in Resources */,
@@ -2429,6 +2483,8 @@
 				7537832E1A11314400B716B8 /* logo.png in Resources */,
 				758BDA8719FBC1F1000EBC90 /* cancel-32.png in Resources */,
 				75470D6F1A09895600563414 /* iPhone Development.pdf in Resources */,
+				7592B8791ACC5E0800C87CF8 /* 01_01_HTTAdult_MP4 768Kbpst.png in Resources */,
+				7592B87F1ACC91D200C87CF8 /* 09_05_ExaminingAnteriorThorax_MP4 768Kbpst.png in Resources */,
 				7524A47D19EA5FD1006607C1 /* external-50.png in Resources */,
 				75CE28D319F394AC002FF80F /* Digestif2.pdf in Resources */,
 				75103A8519FD635100BD458D /* Main.pdf in Resources */,
@@ -2513,6 +2569,7 @@
 				C3080EDD17FED422008AE8CC /* add_news3@2x.png in Resources */,
 				FCB847C119FE90880047D902 /* Gastro-intestinal - Dyspepsie.pdf in Resources */,
 				75CE28E719F394AC002FF80F /* Semiologie generale.pdf in Resources */,
+				7592B8751ACC3A2400C87CF8 /* Play Filled-100.png in Resources */,
 				C3080DF717FE86B8008AE8CC /* Main.storyboard in Resources */,
 				756124EC1A0D1D2F0096E2B8 /* Carnet bleu des urgences pédiatriques 2010.pdf in Resources */,
 				75470D291A09895600563414 /* Brightness.png in Resources */,
@@ -2609,6 +2666,7 @@
 				751771AD19F7A4C3009BF487 /* YouTubeVideoFile.m in Sources */,
 				75470D451A09895600563414 /* CGPDFDocument.m in Sources */,
 				75E385BA19EFCC94006C60FF /* emmatch.c in Sources */,
+				7592B86E1ACC324500C87CF8 /* HTTFavoriteFile.m in Sources */,
 				7524A44E19E890BE006607C1 /* FileCell.m in Sources */,
 				75C9232F19EA9E340005CA31 /* AdmissionQuestion.m in Sources */,
 				C3080EEC17FEE3D1008AE8CC /* AddHeaderView.m in Sources */,
@@ -2707,9 +2765,9 @@
 				75470D601A09895600563414 /* INDAPVFType3Font.m in Sources */,
 				C3080E9917FEB2A5008AE8CC /* FeedItemLargeCell.m in Sources */,
 				75DF4A8A19F78DA6000F2F90 /* HTTVideoCell.m in Sources */,
+				7592B8711ACC32F600C87CF8 /* WebVideoViewController.m in Sources */,
 				75470D641A09895600563414 /* INDAPVSimpleFont.m in Sources */,
 				7524A46319E896D9006607C1 /* AppData.m in Sources */,
-				75AB216E1A24BAEC007829C7 /* HTTFavoriteFile.m in Sources */,
 				75470D481A09895600563414 /* INDAPVDocument.m in Sources */,
 				75470D531A09895600563414 /* INDAPVPreviewsViewController.m in Sources */,
 				75E385C119EFCC94006C60FF /* markdown.c in Sources */,

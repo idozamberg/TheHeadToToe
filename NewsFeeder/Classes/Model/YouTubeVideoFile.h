@@ -13,5 +13,7 @@
 @property (nonatomic,strong) NSString* name;
 @property (nonatomic,strong) NSString* fileDescription;
 @property (nonatomic,strong) NSString* system;
+@property (nonatomic,strong) NSString* thumb;
+
 
 @end

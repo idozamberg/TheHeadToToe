@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "E0252133CC0692AB2678FBCE"
+               BlueprintIdentifier = "92FC75CA688A5D56272E92B2"
                BuildableName = "libPods-YIPopupTextView.a"
                BlueprintName = "Pods-YIPopupTextView"
                ReferencedContainer = "container:Pods.xcodeproj">

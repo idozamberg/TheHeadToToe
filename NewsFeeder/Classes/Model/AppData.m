@@ -239,6 +239,7 @@ static AppData* shareData;
                 YouTubeVideoFile* newFile = [YouTubeVideoFile new];
                 newFile.name = [currentFileDict valueForKey:@"Name"];
                 newFile.fileDescription = [currentFileDict valueForKey:@"Description"];
+                newFile.thumb = [currentFileDict valueForKey:@"Thumb"];
                 newFile.system = system;
                 
                 // if it's the first file

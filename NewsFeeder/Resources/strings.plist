@@ -81,5 +81,10 @@
 		<key>NAV_TITLE</key>
 		<string>Elements</string>
 	</dict>
+	<key>SCREEN_WEBVIDEO</key>
+	<dict>
+		<key>NAV_TITLE</key>
+		<string>VIDEO</string>
+	</dict>
 </dict>
 </plist>

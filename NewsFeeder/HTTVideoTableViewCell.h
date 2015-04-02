@@ -9,6 +9,7 @@
 #import <UIKit/UIKit.h>
 #import "XCDYouTubeVideoPlayerViewController.h"
 #import "YouTubeVideoFile.h"
+#import "WebKit/WebKit.h"
 
 @protocol videoCellProtocol <NSObject>
 

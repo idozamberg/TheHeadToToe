@@ -99,10 +99,10 @@
     }
    
     // Setting cell's properties
-    [cell loadThumbnailWithIdentifier:currFile.name];
     cell.lblTitle.text = [NSString stringWithFormat:@"Système %@",_system];
     cell.lblDescription.text = currFile.fileDescription;
     cell.cellModel = currFile;
+    [cell loadThumbnailWithIdentifier:currFile.name];
     cell.delegate = self;
     
     return cell;
@@ -162,6 +162,7 @@
 - (void) playClickedInVideoCellWithVideoPlayer : (XCDYouTubeVideoPlayerViewController*) youtubeController
 {
     [youtubeController.moviePlayer play];
+    
     
     [self.view.window.rootViewController presentMoviePlayerViewControllerAnimated:youtubeController];
 }

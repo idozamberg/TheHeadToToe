@@ -154,6 +154,13 @@
         [self.navBarView.rightButton setHidden:NO];
         
     }
+    else if ([dicName isEqualToString:SCREEN_WEBVIDEO])
+    {
+        [self.navBarView.lblTitle setText:[gAppDelegate getStringInScreen:SCREEN_WEBVIDEO
+                                                                    strID:STR_NAVTITLE]];
+        [self.navBarView.rightButton setHidden:YES];
+        
+    }
     else if ([dicName isEqualToString:SCREEN_ADMISSION])
     {
         [self.navBarView.lblTitle setText:[gAppDelegate getStringInScreen:SCREEN_ADMISSION
