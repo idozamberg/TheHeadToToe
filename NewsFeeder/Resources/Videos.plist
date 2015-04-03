@@ -37,6 +37,41 @@
 			<string>09_05_ExaminingAnteriorThorax_MP4 768Kbpst.png</string>
 		</dict>
 	</array>
+	<key>Dermatologie</key>
+	<array>
+		<dict>
+			<key>Name</key>
+			<string>http://batesvisualguide.com/MultimediaPlayer.aspx?multimediaid=6091054</string>
+			<key>Description</key>
+			<string>Examen Dermatologique Complete</string>
+			<key>Thumb</key>
+			<string>06_01_Skin_MP4 768Kbpst.png</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>http://batesvisualguide.com/MultimediaPlayer.aspx?multimediaid=6091210</string>
+			<key>Description</key>
+			<string>Rappel Anatomie</string>
+			<key>Thumb</key>
+			<string>06_03_AnatomyReview_MP4 768Kbpst.png</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>http://batesvisualguide.com/MultimediaPlayer.aspx?multimediaid=6091212</string>
+			<key>Description</key>
+			<string>Examen de la peau</string>
+			<key>Thumb</key>
+			<string>06_04_ExamingTheSkin_MP4 768Kbpst.png</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>http://batesvisualguide.com/MultimediaPlayer.aspx?multimediaid=6091214</string>
+			<key>Description</key>
+			<string>Examen des Téguments</string>
+			<key>Thumb</key>
+			<string>06_05_ExaminingHairNails_MP4 768Kbpst.png</string>
+		</dict>
+	</array>
 	<key>Urgences</key>
 	<array>
 		<dict>
