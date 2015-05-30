@@ -164,7 +164,7 @@ static PDFManager* sharePDF;
                             }
                             else
                             {
-                                if (!currentQuestion.nonCheckedText || [currentQuestion.nonCheckedText isEqualToString:@""] || [currentQuestion.nonCheckedText isEqualToString:@" "])
+                                /*if (!currentQuestion.nonCheckedText || [currentQuestion.nonCheckedText isEqualToString:@""] || [currentQuestion.nonCheckedText isEqualToString:@" "])
                                 {
                                     // Setting up string to write
                                     pdfString = [pdfString stringByAppendingString:[NSString stringWithFormat:@"Pas de %@",currentQuestion.text]];
@@ -177,7 +177,7 @@ static PDFManager* sharePDF;
                                     // Setting up string to write
                                     pdfString = [pdfString stringByAppendingString:[NSString stringWithFormat:@"%@",currentQuestion.nonCheckedText]];
                                     
-                                }
+                                }*/
                             }
                             
                             // New line

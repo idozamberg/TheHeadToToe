@@ -24,6 +24,7 @@
     IBOutlet MenuColorSelectView * viewBottom;
     __weak IBOutlet UIView *vwLabHeader;
     __weak IBOutlet UIView *vwFavoris;
+    __weak IBOutlet UIView *vwFeedback;
     SuperViewController * currentController;
     menuMode currentMenuMode;
 }
@@ -32,10 +33,12 @@
 - (IBAction)homeClicked:(id)sender;
 @property (weak, nonatomic) IBOutlet UIButton *btnSystems;
 @property (weak, nonatomic) IBOutlet UIButton *btnLabo;
+@property (weak, nonatomic) IBOutlet UIButton *btnFeedback;
 @property (weak, nonatomic) IBOutlet UILabel *lblSystemsHeader;
 @property (weak, nonatomic) IBOutlet UIImageView *imgSystemsIcon;
 - (IBAction)searchClicked:(id)sender;
 
 - (IBAction) button_click:(id)sender;
+- (IBAction)feedback_clicked:(id)sender;
 
 @end

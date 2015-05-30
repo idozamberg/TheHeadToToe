@@ -34,6 +34,8 @@
     // Do any additional setup after loading the view.
     
     isInFilterMode = NO;
+    
+    // Setting data source
     self.dataSource = [AppData sharedInstance].questionsList
                                              ;
     
@@ -102,6 +104,12 @@
 - (void) viewWillAppear:(BOOL)animated
 {
     [super viewWillAppear:animated];
+    
+    isInFilterMode = NO;
+    // Setting automatic filter mode
+    [self didClickNavBarMiddleButton];
+    
+    [self.navBarView.middleButton setEnabled:NO];
     
    //  [self.tblAdmission setHeight:self.view.frame.size.height - self.navBarView.frame.size.height];
 }

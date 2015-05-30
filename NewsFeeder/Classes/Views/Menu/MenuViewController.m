@@ -19,6 +19,7 @@
 #import "SystemsViewController.h"
 #import "SearchViewController.h"
 #import "HTTFavoriteFile.h"
+#import "FeedBackViewController.h"
 
 @interface MenuViewController ()
 
@@ -190,6 +191,18 @@
 
         }*/
     }
+    else if ([sender isEqual:self.btnFeedback])
+    {
+        
+        
+    }
+}
+
+- (IBAction)feedback_clicked:(id)sender {
+    
+    // Sowing labo screen
+    currentController = (SuperViewController *)[[UICustomNavigationController alloc] initWithRootViewController:[[FeedBackViewController alloc] viewFromStoryboard]];
+    [self showCurrentController];
 }
 
 
@@ -342,8 +355,11 @@
     [viewHeader setBackgroundColor:gThemeColor];
     [vwDocumentsHeader setBackgroundColor:gThemeColor];
     [vwLabHeader setBackgroundColor:gThemeColor];
-    [vwFavoris setBackgroundColor:gThemeColor];
+    [vwFavoris   setBackgroundColor:gThemeColor];
+    [vwFeedback setBackgroundColor:gThemeColor];
     [self.view sendSubviewToBack:vwFavoris];
+    [self.view sendSubviewToBack:vwFeedback];
+
     
     if (currentController) {
         [currentController viewWillAppear:YES];

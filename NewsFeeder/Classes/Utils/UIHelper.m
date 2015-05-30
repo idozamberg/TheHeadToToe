@@ -28,4 +28,24 @@
     return strings;
 }
 
++ (void) showAlertWithTitle:(NSString *)title
+                    message:(NSString *)message
+                   receiver:(id)receiver
+          cancelButtonTitle:(NSString *)cancelButtonTitle
+               otherButtons:(NSArray *)titles
+{
+    UIAlertView * alertview = [[UIAlertView alloc] initWithTitle:title
+                                                         message:message
+                                                        delegate:receiver
+                                               cancelButtonTitle:cancelButtonTitle
+                                               otherButtonTitles:nil];
+    if (titles) {
+        for (int i = 0; i < [titles count]; i++) {
+            [alertview addButtonWithTitle:[titles objectAtIndex:i]];
+        }
+    }
+    
+    [alertview show];
+}
+
 @end

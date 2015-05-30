@@ -13,5 +13,9 @@
 + (NSMutableDictionary*) dictionaryFromPlistWithName : (NSString*) plistName;
 + (NSArray*) seprateStringsWithString : (NSString*) stringToSeparate;
 
-
++ (void) showAlertWithTitle:(NSString *)title
+                    message:(NSString *)message
+                   receiver:(id)receiver
+          cancelButtonTitle:(NSString *)cancelButtonTitle
+               otherButtons:(NSArray *)titles;
 @end

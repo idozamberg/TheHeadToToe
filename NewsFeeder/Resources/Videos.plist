@@ -6,6 +6,14 @@
 	<array>
 		<dict>
 			<key>Name</key>
+			<string>http://batesvisualguide.com/MultimediaPlayer.aspx?multimediaid=6091058</string>
+			<key>Description</key>
+			<string>Examen Respiratoire Complet</string>
+			<key>Thumb</key>
+			<string>09_01_ThoraxLungs_MP4 768Kbpst.png</string>
+		</dict>
+		<dict>
+			<key>Name</key>
 			<string>http://batesvisualguide.com/MultimediaPlayer.aspx?multimediaid=6091254</string>
 			<key>Description</key>
 			<string>Rappel Anatomie de Thorax et Paumons</string>
@@ -72,169 +80,119 @@
 			<string>06_05_ExaminingHairNails_MP4 768Kbpst.png</string>
 		</dict>
 	</array>
-	<key>Urgences</key>
+	<key>ORL</key>
 	<array>
 		<dict>
 			<key>Name</key>
-			<string>hLuC0T7RsKI</string>
+			<string>http://batesvisualguide.com/MultimediaPlayer.aspx?multimediaid=6091054</string>
 			<key>Description</key>
-			<string>Examen d&apos;un patient traumatisé</string>
+			<string>Examen Complet Tête, Yeux, Oreilles</string>
+			<key>Thumb</key>
+			<string>Bates07_HeadEarsEyest</string>
 		</dict>
 		<dict>
 			<key>Name</key>
-			<string>n5DUC1Lit08</string>
+			<string>http://batesvisualguide.com/MultimediaPlayer.aspx?multimediaid=6091220</string>
 			<key>Description</key>
-			<string>Dysfonction multisystémique</string>
+			<string>Rappel Anatomie Tête</string>
+			<key>Thumb</key>
+			<string>07_02_AnatomyReviewHead.png</string>
 		</dict>
 		<dict>
 			<key>Name</key>
-			<string>PzyTXXQp2j8</string>
+			<string>http://batesvisualguide.com/MultimediaPlayer.aspx?multimediaid=6091222</string>
 			<key>Description</key>
-			<string>Dysfonction multisystémique 2</string>
+			<string>Examen de la tête</string>
+			<key>Thumb</key>
+			<string>07_03_ExaminingHead.png</string>
 		</dict>
 		<dict>
 			<key>Name</key>
-			<string>hHHy1mc7sqY</string>
+			<string>http://batesvisualguide.com/MultimediaPlayer.aspx?multimediaid=6091224</string>
 			<key>Description</key>
-			<string>Pose d&apos;un collier cervical</string>
-		</dict>
-	</array>
-	<key>Cardiovasculaire</key>
-	<array>
-		<dict>
-			<key>Name</key>
-			<string>Hrzlky-Nt1I</string>
-			<key>Description</key>
-			<string>Inspection</string>
+			<string>Rappel Anatomie Yeux</string>
+			<key>Thumb</key>
+			<string>07_06_AnatomyReviewEyes.png</string>
 		</dict>
 		<dict>
 			<key>Name</key>
-			<string>9z48vDNuiPE</string>
+			<string>http://batesvisualguide.com/MultimediaPlayer.aspx?multimediaid=6091226</string>
 			<key>Description</key>
-			<string>Palpation et percussion</string>
+			<string>Examen des Yeux</string>
+			<key>Thumb</key>
+			<string>07_05_ExaminingEyes.png</string>
 		</dict>
 		<dict>
 			<key>Name</key>
-			<string>SFfRhP8nu8w</string>
+			<string>http://batesvisualguide.com/MultimediaPlayer.aspx?multimediaid=6091228</string>
 			<key>Description</key>
-			<string>Auscultation normale</string>
+			<string>Rappel Anatomie Oreilles</string>
+			<key>Thumb</key>
+			<string>07_06_AnatomyReviewEars.png</string>
 		</dict>
 		<dict>
 			<key>Name</key>
-			<string>FTsOl5-X7-k</string>
+			<string>http://batesvisualguide.com/MultimediaPlayer.aspx?multimediaid=6091230</string>
 			<key>Description</key>
-			<string>Auscultation pathologique</string>
+			<string>Examen des Oreilles</string>
+			<key>Thumb</key>
+			<string>07_07_ExaminingEars.png</string>
 		</dict>
 		<dict>
 			<key>Name</key>
-			<string>Hjk01LmNujM</string>
+			<string>http://batesvisualguide.com/MultimediaPlayer.aspx?multimediaid=6091056</string>
 			<key>Description</key>
-			<string>Auscultation pathologique 2</string>
+			<string>Examen Complet - Nez, Bouch et Cou</string>
+			<key>Thumb</key>
+			<string>08_01_NoseMouthNeck</string>
 		</dict>
 		<dict>
 			<key>Name</key>
-			<string>mEAUiLYpdIA</string>
+			<string>http://batesvisualguide.com/MultimediaPlayer.aspx?multimediaid=6091236</string>
 			<key>Description</key>
-			<string>Souffles Cardiaques</string>
+			<string>Rappel Anatomie Nez</string>
+			<key>Thumb</key>
+			<string>08_02_AnatomyReviewNose.png</string>
 		</dict>
 		<dict>
 			<key>Name</key>
-			<string>SJ3UwKkLyy0</string>
+			<string>http://batesvisualguide.com/MultimediaPlayer.aspx?multimediaid=6091240</string>
 			<key>Description</key>
-			<string>Examen cardiovasculaire OSCE</string>
+			<string>Examen du Nez</string>
+			<key>Thumb</key>
+			<string>07_07_ExaminingNose.png</string>
 		</dict>
 		<dict>
 			<key>Name</key>
-			<string>5HlQfw5PWUM</string>
+			<string>http://batesvisualguide.com/MultimediaPlayer.aspx?multimediaid=6091242</string>
 			<key>Description</key>
-			<string>Reflux Hépato-Jugulaire</string>
+			<string>Rappel Antomie Bouche</string>
+			<key>Thumb</key>
+			<string>08_05_AnatomyReviewMouth.png</string>
 		</dict>
 		<dict>
 			<key>Name</key>
-			<string>KoNts7ArgkM</string>
+			<string>http://batesvisualguide.com/MultimediaPlayer.aspx?multimediaid=6091244</string>
 			<key>Description</key>
-			<string>Examen vasculaire OSCE</string>
-		</dict>
-	</array>
-	<key>Neurologique</key>
-	<array>
-		<dict>
-			<key>Name</key>
-			<string>PcZuTEwHSrw</string>
-			<key>Description</key>
-			<string>Examen moteur - 1 </string>
+			<string>Examen de la Bouche</string>
+			<key>Thumb</key>
+			<string>08_06_ExaminingMouth.png</string>
 		</dict>
 		<dict>
 			<key>Name</key>
-			<string>arwGZ44C7xM</string>
+			<string>http://batesvisualguide.com/MultimediaPlayer.aspx?multimediaid=6091246</string>
 			<key>Description</key>
-			<string>Nerfs crâniens OSCE</string>
+			<string>Rappel Anatomie Cou</string>
+			<key>Thumb</key>
+			<string>08_07_AnatomyReviewNeck.png</string>
 		</dict>
 		<dict>
 			<key>Name</key>
-			<string>Jz_sE4A0nWA</string>
+			<string>http://batesvisualguide.com/MultimediaPlayer.aspx?multimediaid=6091248</string>
 			<key>Description</key>
-			<string>Examen neuro des MI OSCE</string>
-		</dict>
-		<dict>
-			<key>Name</key>
-			<string>S7H1pqRlVqc</string>
-			<key>Description</key>
-			<string>Examen neuro des MS OSCE</string>
-		</dict>
-		<dict>
-			<key>Name</key>
-			<string>erfHBi-ybQ0</string>
-			<key>Description</key>
-			<string>Examen cérébelleux OSCE</string>
-		</dict>
-		<dict>
-			<key>Name</key>
-			<string>4hOSkmDYAR4</string>
-			<key>Description</key>
-			<string>Test de Romberg</string>
-		</dict>
-		<dict>
-			<key>Name</key>
-			<string>rN-R7-hh5x4</string>
-			<key>Description</key>
-			<string>Signe de Brudzinski</string>
-		</dict>
-		<dict>
-			<key>Name</key>
-			<string>Evx48zcKFDA</string>
-			<key>Description</key>
-			<string>Signe de Kernig</string>
-		</dict>
-		<dict>
-			<key>Name</key>
-			<string>wgWOmuB1VFY</string>
-			<key>Description</key>
-			<string>Test de Dix Hallpike</string>
-		</dict>
-		<dict>
-			<key>Name</key>
-			<string>hiP7ifVxb0Q</string>
-			<key>Description</key>
-			<string>Manœuvre de Semont</string>
-		</dict>
-		<dict>
-			<key>Name</key>
-			<string>jBzID5nVQjk</string>
-			<key>Description</key>
-			<string>Manœuvre de Epley</string>
-		</dict>
-		<dict>
-			<key>Name</key>
-			<string>sEnp2ss8VoA</string>
-			<key>Description</key>
-			<string>Asterixis</string>
-		</dict>
-		<dict>
-			<key>Name</key>
-			<string>UX75k8s5QUE</string>
-			<key>Description</key>
-			<string>Clonus Test</string>
+			<string>Examen du Cou</string>
+			<key>Thumb</key>
+			<string>08_08_ExaminingNeck.png</string>
 		</dict>
 	</array>
 	<key>Compétences médicales</key>
@@ -276,121 +234,1013 @@
 			<string>Tête-pied 6</string>
 		</dict>
 	</array>
+	<key>Cardiovasculaire</key>
+	<array>
+		<dict>
+			<key>Name</key>
+			<string>http://batesvisualguide.com/MultimediaPlayer.aspx?multimediaid=6091060</string>
+			<key>Description</key>
+			<string>Examen Complet Cardiaque</string>
+			<key>Thumb</key>
+			<string>10_01_CardiovascularSystem_MP4 768Kbps_001t.png</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>http://batesvisualguide.com/MultimediaPlayer.aspx?multimediaid=6091268</string>
+			<key>Description</key>
+			<string>Rappel Anatomie Vasculaire du Cou</string>
+			<key>Thumb</key>
+			<string>Anat cou.png</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>http://batesvisualguide.com/MultimediaPlayer.aspx?multimediaid=6091270</string>
+			<key>Description</key>
+			<string>Estimation Pression Jugulaire Veineuse</string>
+			<key>Thumb</key>
+			<string>Estimation PJ.png</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>http://batesvisualguide.com/MultimediaPlayer.aspx?multimediaid=6091272</string>
+			<key>Description</key>
+			<string>Pouls carotidien</string>
+			<key>Thumb</key>
+			<string>Pouls carotidien.png</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>http://batesvisualguide.com/MultimediaPlayer.aspx?multimediaid=6091274</string>
+			<key>Description</key>
+			<string>Rappel d&apos;Anatomie Cardiaque</string>
+			<key>Thumb</key>
+			<string>Anatomie coeur review.png</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>http://batesvisualguide.com/MultimediaPlayer.aspx?multimediaid=6091276</string>
+			<key>Description</key>
+			<string>Examination du coeur</string>
+			<key>Thumb</key>
+			<string>examination du coeur.png</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>http://batesvisualguide.com/MultimediaPlayer.aspx?multimediaid=6091278</string>
+			<key>Description</key>
+			<string>Bruits cardiaques</string>
+			<key>Thumb</key>
+			<string>bruits du coeur.png</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>http://batesvisualguide.com/MultimediaPlayer.aspx?multimediaid=6091280</string>
+			<key>Description</key>
+			<string>Auscultation des bruits cardiaques</string>
+			<key>Thumb</key>
+			<string>auscultation cardiaque.png</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>http://batesvisualguide.com/MultimediaPlayer.aspx?multimediaid=6091282</string>
+			<key>Description</key>
+			<string>Evalutation des Souffles Cardiaques</string>
+			<key>Thumb</key>
+			<string>grades des souffles.png</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>http://batesvisualguide.com/MultimediaPlayer.aspx?multimediaid=6091062</string>
+			<key>Description</key>
+			<string>Examen Complet Vasculaire</string>
+			<key>Thumb</key>
+			<string>11_01_Examen vasculaire complet.png</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>http://batesvisualguide.com/MultimediaPlayer.aspx?multimediaid=6091288</string>
+			<key>Description</key>
+			<string>Rappel Anatomie Vasculaire</string>
+			<key>Thumb</key>
+			<string>11_02_AnatomyReviewt.png</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>http://batesvisualguide.com/MultimediaPlayer.aspx?multimediaid=6091292</string>
+			<key>Description</key>
+			<string>Examen Vasculaire des Bras</string>
+			<key>Thumb</key>
+			<string>11_04_ExaminingArmst.png</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>http://batesvisualguide.com/MultimediaPlayer.aspx?multimediaid=6091294</string>
+			<key>Description</key>
+			<string>Examen Vasculaire de l&apos;Abdomen</string>
+			<key>Thumb</key>
+			<string>11_05_ExaminingAbdoment.png</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>http://batesvisualguide.com/MultimediaPlayer.aspx?multimediaid=6091296</string>
+			<key>Description</key>
+			<string>Examen Vasculaire des Jambes</string>
+			<key>Thumb</key>
+			<string>11_06_ExaminingLegst.png</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>http://batesvisualguide.com/MultimediaPlayer.aspx?multimediaid=6091298</string>
+			<key>Description</key>
+			<string>Evaluation d&apos;une insuffisance artérielle</string>
+			<key>Thumb</key>
+			<string>11_07_AssessingArterialInsufficiencyt.png</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>http://batesvisualguide.com/MultimediaPlayer.aspx?multimediaid=6091300</string>
+			<key>Description</key>
+			<string>Evaluation d&apos;une insuffisance veineuse</string>
+			<key>Thumb</key>
+			<string>11_08_AssessingVenousInsuffiencyt.png</string>
+		</dict>
+	</array>
 	<key>Digestif</key>
 	<array>
 		<dict>
 			<key>Name</key>
-			<string>ux607iZi8-k</string>
+			<string>http://batesvisualguide.com/MultimediaPlayer.aspx?multimediaid=6091066</string>
 			<key>Description</key>
-			<string>Examen digestif complet Bates</string>
+			<string>Examen Complet Digestif</string>
+			<key>Thumb</key>
+			<string>Examen complet digestif.png</string>
 		</dict>
 		<dict>
 			<key>Name</key>
-			<string>w0KoH1pn2qY</string>
+			<string>http://batesvisualguide.com/MultimediaPlayer.aspx?multimediaid=6091322</string>
 			<key>Description</key>
-			<string>Inspection</string>
+			<string>Rappel Anatomie de l&apos;abdomen</string>
+			<key>Thumb</key>
+			<string>13_03_AnatomyReviewAbdomen_MP4 768Kbpst.png</string>
 		</dict>
 		<dict>
 			<key>Name</key>
-			<string>ZoXbHvFhbi0</string>
+			<string>http://batesvisualguide.com/MultimediaPlayer.aspx?multimediaid=6091324</string>
 			<key>Description</key>
-			<string>Auscultation</string>
+			<string>Examen de l&apos;abdomen</string>
+			<key>Thumb</key>
+			<string>13_04_ExaminingAbdomen_MP4 768Kbpst.png</string>
 		</dict>
 		<dict>
 			<key>Name</key>
-			<string>SttVJb4FhGg</string>
+			<string>http://batesvisualguide.com/MultimediaPlayer.aspx?multimediaid=6091326</string>
 			<key>Description</key>
-			<string>Percussion</string>
+			<string>Examen du Foie</string>
+			<key>Thumb</key>
+			<string>13_05_ExaminingLiver_MP4 768Kbpst.png</string>
 		</dict>
 		<dict>
 			<key>Name</key>
-			<string>FZymEb1Nmb4</string>
+			<string>http://batesvisualguide.com/MultimediaPlayer.aspx?multimediaid=6091328</string>
 			<key>Description</key>
-			<string>Palpation</string>
+			<string>Examen de la Rate</string>
+			<key>Thumb</key>
+			<string>13_06_ExaminingSpleen_MP4 768Kbpst.png</string>
 		</dict>
 		<dict>
 			<key>Name</key>
-			<string>W8uI15AbH7s</string>
+			<string>http://batesvisualguide.com/MultimediaPlayer.aspx?multimediaid=6091330</string>
 			<key>Description</key>
-			<string>Palpation du Foie</string>
+			<string>Examen des Reins</string>
+			<key>Thumb</key>
+			<string>13_07_ExaminingKidneys_MP4 768Kbpst.png</string>
 		</dict>
 		<dict>
 			<key>Name</key>
-			<string>fH9H7dX9cRI</string>
+			<string>http://batesvisualguide.com/MultimediaPlayer.aspx?multimediaid=6091332</string>
 			<key>Description</key>
-			<string>Palpation de la Rate</string>
-		</dict>
-		<dict>
-			<key>Name</key>
-			<string>Jo11Ev0u-Zk</string>
-			<key>Description</key>
-			<string>Palpation - Aorte et LR</string>
-		</dict>
-		<dict>
-			<key>Name</key>
-			<string>QO8r_xqamyc</string>
-			<key>Description</key>
-			<string>Examen digestif OSCE</string>
+			<string>Techniques spéciales</string>
+			<key>Thumb</key>
+			<string>13_08_SpecialTechniques_MP4 768Kbpst.png</string>
 		</dict>
 	</array>
 	<key>Ostéoarticulaire</key>
 	<array>
 		<dict>
 			<key>Name</key>
-			<string>x_ryfIlqR0k</string>
+			<string>http://batesvisualguide.com/MultimediaPlayer.aspx?multimediaid=6091070</string>
 			<key>Description</key>
-			<string>Examen de l&apos;épaule OSCE</string>
+			<string>Examen Complet Ostéoarticulaire</string>
+			<key>Thumb</key>
+			<string>16_01_Examen complet osteoarticulaire.png</string>
 		</dict>
 		<dict>
 			<key>Name</key>
-			<string>urA0CkfCG4g</string>
+			<string>http://batesvisualguide.com/MultimediaPlayer.aspx?multimediaid=6091356</string>
 			<key>Description</key>
-			<string>Examen de la colonne vertébrale OSCE</string>
+			<string>Anatomie de la mandibule</string>
+			<key>Thumb</key>
+			<string>16_02_AnatomyReviewMandible_MP4 768Kbpst.png</string>
 		</dict>
 		<dict>
 			<key>Name</key>
-			<string>pT1ZHVbpsuw</string>
+			<string>http://batesvisualguide.com/MultimediaPlayer.aspx?multimediaid=6091358</string>
 			<key>Description</key>
-			<string>Examen du genou OSCE</string>
+			<string>Examen de la mandibule</string>
+			<key>Thumb</key>
+			<string>16_03_ExaminingMandible_MP4 768Kbpst.png</string>
 		</dict>
 		<dict>
 			<key>Name</key>
-			<string>xKNBfIxRlCs</string>
+			<string>http://batesvisualguide.com/MultimediaPlayer.aspx?multimediaid=6091360</string>
 			<key>Description</key>
-			<string>Examen des mains OSCE</string>
+			<string>Rappel Anatomie Epaule</string>
+			<key>Thumb</key>
+			<string>16_04_AnatomyReviewShoulders_MP4 768Kbpst.png</string>
 		</dict>
 		<dict>
 			<key>Name</key>
-			<string>g8-dMuzWal4</string>
+			<string>http://batesvisualguide.com/MultimediaPlayer.aspx?multimediaid=6091362</string>
 			<key>Description</key>
-			<string>Recherche de déformation</string>
+			<string>Examen de l&apos;Epaule</string>
+			<key>Thumb</key>
+			<string>16_05_ExaminingShoulders_MP4 768Kbpst.png</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>http://batesvisualguide.com/MultimediaPlayer.aspx?multimediaid=6091364</string>
+			<key>Description</key>
+			<string>Rappel Anatomie du Coude</string>
+			<key>Thumb</key>
+			<string>16_06_AnatomyReviewElbows_MP4 768Kbpst.png</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>http://batesvisualguide.com/MultimediaPlayer.aspx?multimediaid=6091366</string>
+			<key>Description</key>
+			<string>Examen du coude</string>
+			<key>Thumb</key>
+			<string>16_07_ExaminingElbows_MP4 768Kbpst.png</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>http://batesvisualguide.com/MultimediaPlayer.aspx?multimediaid=6091368</string>
+			<key>Description</key>
+			<string>Rappel Anatomie Poignet et Main</string>
+			<key>Thumb</key>
+			<string>16_08_AnatomyReviewWristsHands_MP4 768Kbpst.png</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>http://batesvisualguide.com/MultimediaPlayer.aspx?multimediaid=6091370</string>
+			<key>Description</key>
+			<string>Examen Poignet et Main</string>
+			<key>Thumb</key>
+			<string>16_09_ExaminingWristsHands_MP4 768Kbpst.png</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>http://batesvisualguide.com/MultimediaPlayer.aspx?multimediaid=6091372</string>
+			<key>Description</key>
+			<string>Rappel Anatomie Rachis</string>
+			<key>Thumb</key>
+			<string>16_10_AnatomyReviewSpine_MP4 768Kbpst.png</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>http://batesvisualguide.com/MultimediaPlayer.aspx?multimediaid=6091374</string>
+			<key>Description</key>
+			<string>Examen du Rachis</string>
+			<key>Thumb</key>
+			<string>16_11_ExaminingSpine_MP4 768Kbpst.png</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>http://batesvisualguide.com/MultimediaPlayer.aspx?multimediaid=6091376</string>
+			<key>Description</key>
+			<string>Anatomie du Bassin et Hanche</string>
+			<key>Thumb</key>
+			<string>16_12_AnatomyReviewHips_MP4 768Kbpst.png</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>http://batesvisualguide.com/MultimediaPlayer.aspx?multimediaid=6091378</string>
+			<key>Description</key>
+			<string>Examen de la Hanche</string>
+			<key>Thumb</key>
+			<string>16_13_ExaminingHips_MP4 768Kbpst.png</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>http://batesvisualguide.com/MultimediaPlayer.aspx?multimediaid=6091380</string>
+			<key>Description</key>
+			<string>Rappel Anatomie Genou</string>
+			<key>Thumb</key>
+			<string>16_14_AnatomyReviewKnees_MP4 768Kbpst.png</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>http://batesvisualguide.com/MultimediaPlayer.aspx?multimediaid=6091382</string>
+			<key>Description</key>
+			<string>Examen du Genou</string>
+			<key>Thumb</key>
+			<string>16_15_ExaminingKnees_MP4 768Kbpst.png</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>http://batesvisualguide.com/MultimediaPlayer.aspx?multimediaid=6091384</string>
+			<key>Description</key>
+			<string>Rappel Anatomie Cheville et Pied</string>
+			<key>Thumb</key>
+			<string>16_16_AnatomyReviewAnklesFeet_MP4 768Kbpst.png</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>http://batesvisualguide.com/MultimediaPlayer.aspx?multimediaid=6091386</string>
+			<key>Description</key>
+			<string>Examen Cheville et Pied</string>
+			<key>Thumb</key>
+			<string>16_17_ExaminingAnklesFeet_MP4 768Kbpst.png</string>
 		</dict>
 	</array>
-	<key>Gestes Techniques</key>
+	<key>Neurologique</key>
 	<array>
 		<dict>
 			<key>Name</key>
-			<string>e58lLJ-2gBI</string>
+			<string>http://batesvisualguide.com/MultimediaPlayer.aspx?multimediaid=6091072</string>
 			<key>Description</key>
-			<string>Prise de sang</string>
+			<string>Examen Complet Nerf Crâniens et Système Moteur</string>
+			<key>Thumb</key>
+			<string>17_01_Complet Nerveux NC moteur.png</string>
 		</dict>
 		<dict>
 			<key>Name</key>
-			<string>zC-7y-VR7ZM</string>
+			<string>http://batesvisualguide.com/MultimediaPlayer.aspx?multimediaid=6091394</string>
 			<key>Description</key>
-			<string>Gazométrie</string>
+			<string>Rappel Anatomie des Nerfs Crâniens</string>
+			<key>Thumb</key>
+			<string>17_03_AnatomyReviewCNI-XII_MP4 768Kbpst.png</string>
 		</dict>
 		<dict>
 			<key>Name</key>
-			<string>h8DlRtqgh8c</string>
+			<string>http://batesvisualguide.com/MultimediaPlayer.aspx?multimediaid=6091396</string>
 			<key>Description</key>
-			<string>Voie veineuse périphérique</string>
+			<string>Examen des Nerfs Crâniens</string>
+			<key>Thumb</key>
+			<string>17_04_ExaminingCNI-XII_MP4 768Kbpst.png</string>
 		</dict>
 		<dict>
 			<key>Name</key>
-			<string>k1jvywxyBt0</string>
+			<string>http://batesvisualguide.com/MultimediaPlayer.aspx?multimediaid=6091398</string>
 			<key>Description</key>
-			<string>Injections IM et SC</string>
+			<string>Examen du Système Moteur</string>
+			<key>Thumb</key>
+			<string>17_05_ExaminingMotorSystem_MP4 768Kbpst.png</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>http://batesvisualguide.com/MultimediaPlayer.aspx?multimediaid=6091400</string>
+			<key>Description</key>
+			<string>Examen de la coordination</string>
+			<key>Thumb</key>
+			<string>17_06_AssessmentOfCoordination_MP4 768Kbpst.png</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>http://batesvisualguide.com/MultimediaPlayer.aspx?multimediaid=6091074</string>
+			<key>Description</key>
+			<string>Examen Complet du Système Sensitif et Réflexes</string>
+			<key>Thumb</key>
+			<string>18_01_Complet sensitif et réflexe.png</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>http://batesvisualguide.com/MultimediaPlayer.aspx?multimediaid=6091406</string>
+			<key>Description</key>
+			<string>Rappel Anatomie Système Sensoriel</string>
+			<key>Thumb</key>
+			<string>18_02_AnatomyReviewSensorySystem_MP4 768Kbpst.png</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>http://batesvisualguide.com/MultimediaPlayer.aspx?multimediaid=6091408</string>
+			<key>Description</key>
+			<string>Examen du Système Sensoriel</string>
+			<key>Thumb</key>
+			<string>18_03_ExaminingSensorySystem_MP4 768Kbpst.png</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>http://batesvisualguide.com/MultimediaPlayer.aspx?multimediaid=6091410</string>
+			<key>Description</key>
+			<string>Rappel Anatomie des Réflexes</string>
+			<key>Thumb</key>
+			<string>18_04_AnatomyReviewReflexes_MP4 768Kbpst.png</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>http://batesvisualguide.com/MultimediaPlayer.aspx?multimediaid=6091412</string>
+			<key>Description</key>
+			<string>Examen des Réflexes</string>
+			<key>Thumb</key>
+			<string>18_05_AssessmentOfReflexes_MP4 768Kbpst.png</string>
+		</dict>
+	</array>
+	<key>Tête-pied</key>
+	<array>
+		<dict>
+			<key>Name</key>
+			<string>http://batesvisualguide.com/MultimediaPlayer.aspx?multimediaid=6017038</string>
+			<key>Description</key>
+			<string>Examen Complet Tête-Pied</string>
+			<key>Thumb</key>
+			<string>01_01_HTTAdult_MP4 768Kbpst.png</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>http://batesvisualguide.com/MultimediaPlayer.aspx?multimediaid=6091080</string>
+			<key>Description</key>
+			<string>Signes vitaux</string>
+			<key>Thumb</key>
+			<string>01_03_GeneralSurveyVitalSigns_MP4 768Kbpst.png</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>http://batesvisualguide.com/MultimediaPlayer.aspx?multimediaid=6091082</string>
+			<key>Description</key>
+			<string>Peau</string>
+			<key>Thumb</key>
+			<string>01_04_TheSkin_MP4 768Kbpst.png</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>http://batesvisualguide.com/MultimediaPlayer.aspx?multimediaid=6091084</string>
+			<key>Description</key>
+			<string>ORL</string>
+			<key>Thumb</key>
+			<string>01_05_HEENT_MP4 768Kbpst.png</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>http://batesvisualguide.com/MultimediaPlayer.aspx?multimediaid=6091086</string>
+			<key>Description</key>
+			<string>Nerfs crâniens</string>
+			<key>Thumb</key>
+			<string>01_06_NervousSystemCranialNerves_MP4 768Kbpst.png</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>http://batesvisualguide.com/MultimediaPlayer.aspx?multimediaid=6091088</string>
+			<key>Description</key>
+			<string>Cou</string>
+			<key>Thumb</key>
+			<string>01_07_TheNeck_MP4 768Kbpst.png</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>http://batesvisualguide.com/MultimediaPlayer.aspx?multimediaid=6091090</string>
+			<key>Description</key>
+			<string>Dos, thorax postérieur et poumons</string>
+			<key>Thumb</key>
+			<string>01_08_BackPosteriorThoraxLungs_MP4 768Kbpst.png</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>http://batesvisualguide.com/MultimediaPlayer.aspx?multimediaid=6091092</string>
+			<key>Description</key>
+			<string>Extrémités Supérieures</string>
+			<key>Thumb</key>
+			<string>01_09_UpperExtremities_MP4 768Kbpst.png</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>http://batesvisualguide.com/MultimediaPlayer.aspx?multimediaid=6091094</string>
+			<key>Description</key>
+			<string>Poitrine</string>
+			<key>Thumb</key>
+			<string>01_10_Breasts_MP4 768Kbpst.png</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>http://batesvisualguide.com/MultimediaPlayer.aspx?multimediaid=6091096</string>
+			<key>Description</key>
+			<string>Thorax antérieur et poumons</string>
+			<key>Thumb</key>
+			<string>01_11_AnteriorThoraxLungs_MP4 768Kbpst.png</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>http://batesvisualguide.com/MultimediaPlayer.aspx?multimediaid=6091098</string>
+			<key>Description</key>
+			<string>Cardiovasculaire</string>
+			<key>Thumb</key>
+			<string>01_12_CardiovascularSystem_MP4 768Kbpst</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>http://batesvisualguide.com/MultimediaPlayer.aspx?multimediaid=6091100</string>
+			<key>Description</key>
+			<string>Abdomen</string>
+			<key>Thumb</key>
+			<string>01_13_Abdomen_MP4 768Kbpst.png</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>http://batesvisualguide.com/MultimediaPlayer.aspx?multimediaid=6091102</string>
+			<key>Description</key>
+			<string>Système vasculaire périphérique</string>
+			<key>Thumb</key>
+			<string>01_14_PeripheralVascularSystem_MP4 768Kbpst.png</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>http://batesvisualguide.com/MultimediaPlayer.aspx?multimediaid=6091104</string>
+			<key>Description</key>
+			<string>Extrémités inférieures</string>
+			<key>Thumb</key>
+			<string>01_15_LowerExtremities_MP4 768Kbpst.png</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>http://batesvisualguide.com/MultimediaPlayer.aspx?multimediaid=6091106</string>
+			<key>Description</key>
+			<string>Système neurologique</string>
+			<key>Thumb</key>
+			<string>01_16_NervousSystem_MP4 768Kbpst.png</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>http://batesvisualguide.com/MultimediaPlayer.aspx?multimediaid=6091108</string>
+			<key>Description</key>
+			<string>Système genito-rectal</string>
+			<key>Thumb</key>
+			<string>01_17_GenitalRectal_MP4 768Kbpst.png</string>
+		</dict>
+	</array>
+	<key>Néonatologie</key>
+	<array>
+		<dict>
+			<key>Name</key>
+			<string>http://batesvisualguide.com/MultimediaPlayer.aspx?multimediaid=6091048</string>
+			<key>Description</key>
+			<string>Examen complet Néonatologie</string>
+			<key>Thumb</key>
+			<string>02_01_HTTInfant_MP4 768Kbpst.png</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>http://batesvisualguide.com/MultimediaPlayer.aspx?multimediaid=6091116</string>
+			<key>Description</key>
+			<string>Anamnèse Générale et Croissance</string>
+			<key>Thumb</key>
+			<string>02_02_GeneralSurveySomaticGrowth_MP4 768Kbpst.png</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>http://batesvisualguide.com/MultimediaPlayer.aspx?multimediaid=6091116</string>
+			<key>Description</key>
+			<string>Anamnèse Générale et Croissance</string>
+			<key>Thumb</key>
+			<string>02_02_GeneralSurveySomaticGrowth_MP4 768Kbpst.png</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>http://batesvisualguide.com/MultimediaPlayer.aspx?multimediaid=6091118</string>
+			<key>Description</key>
+			<string>Signes vitaux</string>
+			<key>Thumb</key>
+			<string>02_03_VitalSigns_MP4 768Kbpst.png</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>http://batesvisualguide.com/MultimediaPlayer.aspx?multimediaid=6091120</string>
+			<key>Description</key>
+			<string>Peau</string>
+			<key>Thumb</key>
+			<string>02_04_Skin_MP4 768Kbpst.png</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>http://batesvisualguide.com/MultimediaPlayer.aspx?multimediaid=6091122</string>
+			<key>Description</key>
+			<string>Tête et Face</string>
+			<key>Thumb</key>
+			<string>02_05_HeadFace_MP4 768Kbpst.png</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>http://batesvisualguide.com/MultimediaPlayer.aspx?multimediaid=6091124</string>
+			<key>Description</key>
+			<string>Yeux</string>
+			<key>Thumb</key>
+			<string>02_06_Eyes_MP4 768Kbpst.png</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>http://batesvisualguide.com/MultimediaPlayer.aspx?multimediaid=6091126</string>
+			<key>Description</key>
+			<string>Oreilles et Nez</string>
+			<key>Thumb</key>
+			<string>02_07_EarsNose_MP4 768Kbpst.png</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>http://batesvisualguide.com/MultimediaPlayer.aspx?multimediaid=6091128</string>
+			<key>Description</key>
+			<string>Bouche et Pharynx</string>
+			<key>Thumb</key>
+			<string>02_08_MouthPharynx_MP4 768Kbpst.png</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>http://batesvisualguide.com/MultimediaPlayer.aspx?multimediaid=6091130</string>
+			<key>Description</key>
+			<string>Thorax et Poumons</string>
+			<key>Thumb</key>
+			<string>02_09_ThoraxLungs_MP4 768Kbpst.png</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>http://batesvisualguide.com/MultimediaPlayer.aspx?multimediaid=6091132</string>
+			<key>Description</key>
+			<string>Coeur</string>
+			<key>Thumb</key>
+			<string>02_10_Heart_MP4 768Kbpst.png</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>http://batesvisualguide.com/MultimediaPlayer.aspx?multimediaid=6091134</string>
+			<key>Description</key>
+			<string>Poitrine et Abdomen</string>
+			<key>Thumb</key>
+			<string>02_11_BreastsAbdomen_MP4 768Kbpst.png</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>http://batesvisualguide.com/MultimediaPlayer.aspx?multimediaid=6091136</string>
+			<key>Description</key>
+			<string>Organes génitaux et Rectum</string>
+			<key>Thumb</key>
+			<string>02_12_GenitaliaRectum_MP4 768Kbpst.png</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>http://batesvisualguide.com/MultimediaPlayer.aspx?multimediaid=6091138</string>
+			<key>Description</key>
+			<string>Ostéoarticulaire</string>
+			<key>Thumb</key>
+			<string>02_13_MusculoskeletalSystem_MP4 768Kbpst.png</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>http://batesvisualguide.com/MultimediaPlayer.aspx?multimediaid=6091140</string>
+			<key>Description</key>
+			<string>Système Nerveux</string>
+			<key>Thumb</key>
+			<string>02_14_NervousSystem_MP4 768Kbpst.png</string>
+		</dict>
+	</array>
+	<key>Génito-Rectal Homme</key>
+	<array>
+		<dict>
+			<key>Name</key>
+			<string>http://batesvisualguide.com/MultimediaPlayer.aspx?multimediaid=6091068</string>
+			<key>Description</key>
+			<string>Examen Complet Génito-rectal</string>
+			<key>Thumb</key>
+			<string>14_01_MaleGenitalia_MP4 768Kbpst.png</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>http://batesvisualguide.com/MultimediaPlayer.aspx?multimediaid=6091340</string>
+			<key>Description</key>
+			<string>Rappel Anatomie Génitale et Hernies</string>
+			<key>Thumb</key>
+			<string>14_03_AnatomyReviewGenitaliaHernias_MP4 768Kbpst.png</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>http://batesvisualguide.com/MultimediaPlayer.aspx?multimediaid=6091342</string>
+			<key>Description</key>
+			<string>Examen des Organes Génitaux</string>
+			<key>Thumb</key>
+			<string>14_04_ExaminingMaleGenitalia_MP4 768Kbpst.png</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>http://batesvisualguide.com/MultimediaPlayer.aspx?multimediaid=6091344</string>
+			<key>Description</key>
+			<string>Examen des Hernies</string>
+			<key>Thumb</key>
+			<string>14_05_AssessingForHernias_MP4 768Kbpst.png</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>http://batesvisualguide.com/MultimediaPlayer.aspx?multimediaid=6091346</string>
+			<key>Description</key>
+			<string>Rappel Anatomie du Rectum</string>
+			<key>Thumb</key>
+			<string>14_06_AnatomyReviewRectum_MP4 768Kbpst.png</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>http://batesvisualguide.com/MultimediaPlayer.aspx?multimediaid=6091348</string>
+			<key>Description</key>
+			<string>Anamnèse Rectum, Prostate et Vessie</string>
+			<key>Thumb</key>
+			<string>14_07_HealthHistoryRectumProstateBladder_MP4 768Kbpst.png</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>http://batesvisualguide.com/MultimediaPlayer.aspx?multimediaid=6091350</string>
+			<key>Description</key>
+			<string>Examen de l&apos;anus, rectum, prostate</string>
+			<key>Thumb</key>
+			<string>14_08_ExaminingAnusRectumProstate_MP4 768Kbpst.png</string>
+		</dict>
+	</array>
+	<key>Genito-Rectal Femme</key>
+	<array>
+		<dict>
+			<key>Name</key>
+			<string>http://batesvisualguide.com/MultimediaPlayer.aspx?multimediaid=6017041</string>
+			<key>Description</key>
+			<string>Examen Complet Génito-rectal</string>
+			<key>Thumb</key>
+			<string>Bates15_Introt.png</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>http://batesvisualguide.com/MultimediaPlayer.aspx?multimediaid=6017048</string>
+			<key>Description</key>
+			<string>Rappel Anatomie OGE</string>
+			<key>Thumb</key>
+			<string>Bates15_AnatRev_ExtFemaleGent.png</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>http://batesvisualguide.com/MultimediaPlayer.aspx?multimediaid=6017050</string>
+			<key>Description</key>
+			<string>Examen des OGE</string>
+			<key>Thumb</key>
+			<string>Bates15_ExamExtFemaleGent.png</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>http://batesvisualguide.com/MultimediaPlayer.aspx?multimediaid=6017052</string>
+			<key>Description</key>
+			<string>Rappel Anatomie OGI</string>
+			<key>Thumb</key>
+			<string>Bates15_AnatRev_IntFemaleGent.png</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>http://batesvisualguide.com/MultimediaPlayer.aspx?multimediaid=6017054</string>
+			<key>Description</key>
+			<string>Examen des OGI</string>
+			<key>Thumb</key>
+			<string>Bates15_ExamIntFemaleGent.png</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>http://batesvisualguide.com/MultimediaPlayer.aspx?multimediaid=6017056</string>
+			<key>Description</key>
+			<string>Examen Recto-vaginal</string>
+			<key>Thumb</key>
+			<string>Bates15_RectoExamt.png</string>
+		</dict>
+	</array>
+	<key>Seins et région axilaire</key>
+	<array>
+		<dict>
+			<key>Name</key>
+			<string>http://batesvisualguide.com/MultimediaPlayer.aspx?multimediaid=6091064</string>
+			<key>Description</key>
+			<string>Examen Complet des Seins et Région Axilaire</string>
+			<key>Thumb</key>
+			<string>12_01_Introt.png</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>http://batesvisualguide.com/MultimediaPlayer.aspx?multimediaid=6091306</string>
+			<key>Description</key>
+			<string>Anatomie Seins et Région Axilaire</string>
+			<key>Thumb</key>
+			<string>12_02_AnatomyReviewt.png</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>http://batesvisualguide.com/MultimediaPlayer.aspx?multimediaid=6091310</string>
+			<key>Description</key>
+			<string>Examen de la Poitrine chez la femme</string>
+			<key>Thumb</key>
+			<string>12_04_ExamingFemaleBreastst.png</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>http://batesvisualguide.com/MultimediaPlayer.aspx?multimediaid=6091312</string>
+			<key>Description</key>
+			<string>Examen de la Poitrine chez l&apos;homme</string>
+			<key>Thumb</key>
+			<string>12_05_ExamingMaleBreastst.png</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>http://batesvisualguide.com/MultimediaPlayer.aspx?multimediaid=6091314</string>
+			<key>Description</key>
+			<string>Examen de la région axilaire</string>
+			<key>Thumb</key>
+			<string>12_06_ExaminingAxillaet.png</string>
+		</dict>
+	</array>
+	<key>Pédiatrie</key>
+	<array>
+		<dict>
+			<key>Name</key>
+			<string>http://batesvisualguide.com/MultimediaPlayer.aspx?multimediaid=6091050</string>
+			<key>Description</key>
+			<string>Examen Complet Pédiatrique</string>
+			<key>Thumb</key>
+			<string>03_01_ApproachToChild_MP4 768Kbpst.png</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>http://batesvisualguide.com/MultimediaPlayer.aspx?multimediaid=6091146</string>
+			<key>Description</key>
+			<string>Anamnèse Générale et Croissance</string>
+			<key>Thumb</key>
+			<string>03_02_GeneralSurveySomaticGrowth_MP4 768Kbpst.png</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>http://batesvisualguide.com/MultimediaPlayer.aspx?multimediaid=6091148</string>
+			<key>Description</key>
+			<string>Signes Vitaux</string>
+			<key>Thumb</key>
+			<string>03_03_VitalSigns_MP4 768Kbpst.png</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>http://batesvisualguide.com/MultimediaPlayer.aspx?multimediaid=6091150</string>
+			<key>Description</key>
+			<string>Peau</string>
+			<key>Thumb</key>
+			<string>03_04_Skin_MP4 768Kbpst.png</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>http://batesvisualguide.com/MultimediaPlayer.aspx?multimediaid=6091152</string>
+			<key>Description</key>
+			<string>Tête et Face</string>
+			<key>Thumb</key>
+			<string>03_05_HeadFace_MP4 768Kbpst.png</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>http://batesvisualguide.com/MultimediaPlayer.aspx?multimediaid=6091154</string>
+			<key>Description</key>
+			<string>Yeux</string>
+			<key>Thumb</key>
+			<string>03_06_Eyes_MP4 768Kbpst.png</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>http://batesvisualguide.com/MultimediaPlayer.aspx?multimediaid=6091156</string>
+			<key>Description</key>
+			<string>Oreilles et Nez</string>
+			<key>Thumb</key>
+			<string>03_07_EarsNose_MP4 768Kbpst.png</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>http://batesvisualguide.com/MultimediaPlayer.aspx?multimediaid=6091158</string>
+			<key>Description</key>
+			<string>Bouche et Pharynx</string>
+			<key>Thumb</key>
+			<string>03_08_MouthPharynx_MP4 768Kbpst.png</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>http://batesvisualguide.com/MultimediaPlayer.aspx?multimediaid=6091160</string>
+			<key>Description</key>
+			<string>Thorax et Poumons</string>
+			<key>Thumb</key>
+			<string>03_09_ThoraxLungs_MP4 768Kbpst.png</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>http://batesvisualguide.com/MultimediaPlayer.aspx?multimediaid=6091162</string>
+			<key>Description</key>
+			<string>Poitrine et Abdomen</string>
+			<key>Thumb</key>
+			<string>03_10_BreastsAbdomen_MP4 768Kbpst.png</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>http://batesvisualguide.com/MultimediaPlayer.aspx?multimediaid=6091164</string>
+			<key>Description</key>
+			<string>Organes génitaux garçon</string>
+			<key>Thumb</key>
+			<string>03_11_MaleChildGenitalia_MP4 768Kbpst.png</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>http://batesvisualguide.com/MultimediaPlayer.aspx?multimediaid=6091166</string>
+			<key>Description</key>
+			<string>Organes génitaux fille</string>
+			<key>Thumb</key>
+			<string>03_12_FemaleChildGenitalia_MP4 768Kbpst.png</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>http://batesvisualguide.com/MultimediaPlayer.aspx?multimediaid=6091168</string>
+			<key>Description</key>
+			<string>Ostéoarticulaire</string>
+			<key>Thumb</key>
+			<string>03_13_MusculoskeletalSystem_MP4 768Kbpst.png</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>http://batesvisualguide.com/MultimediaPlayer.aspx?multimediaid=6091170</string>
+			<key>Description</key>
+			<string>Système nerveux</string>
+			<key>Thumb</key>
+			<string>03_14_NervousSystem_MP4 768Kbpst.png</string>
+		</dict>
+	</array>
+	<key>Gériatrie</key>
+	<array>
+		<dict>
+			<key>Name</key>
+			<string>http://batesvisualguide.com/MultimediaPlayer.aspx?multimediaid=6017039</string>
+			<key>Description</key>
+			<string>Examen Complet Gériatrique</string>
+			<key>Thumb</key>
+			<string>04_01_HTTOlderAdult_MP4 768Kbpst.png</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>http://batesvisualguide.com/MultimediaPlayer.aspx?multimediaid=6091176</string>
+			<key>Description</key>
+			<string>Approche du Patient et Techniques d&apos;Entretien</string>
+			<key>Thumb</key>
+			<string>04_02_ApproachToPatient_MP4 768Kbpst.png</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>http://batesvisualguide.com/MultimediaPlayer.aspx?multimediaid=6091178</string>
+			<key>Description</key>
+			<string>Antécédents</string>
+			<key>Thumb</key>
+			<string>04_03_HealthHistory_MP4 768Kbpst.png</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>http://batesvisualguide.com/MultimediaPlayer.aspx?multimediaid=6091180</string>
+			<key>Description</key>
+			<string>Anamnèse générale</string>
+			<key>Thumb</key>
+			<string>04_04_GeneralSurvey_MP4 768Kbpst.png</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>http://batesvisualguide.com/MultimediaPlayer.aspx?multimediaid=6091182</string>
+			<key>Description</key>
+			<string>Peau, Yeux, ORL</string>
+			<key>Thumb</key>
+			<string>04_05_SkinHEENT_MP4 768Kbpst.png</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>http://batesvisualguide.com/MultimediaPlayer.aspx?multimediaid=6091184</string>
+			<key>Description</key>
+			<string>Système cardiorespiratoire</string>
+			<key>Thumb</key>
+			<string>04_06_ThoraxLungsCardiovacular_MP4 768Kbpst.png</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>http://batesvisualguide.com/MultimediaPlayer.aspx?multimediaid=6091186</string>
+			<key>Description</key>
+			<string>Poitrine, abdomen, vasculaire</string>
+			<key>Thumb</key>
+			<string>04_07_BreastsAbdomenPeripheralVascular_MP4 768Kbpst.png</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>http://batesvisualguide.com/MultimediaPlayer.aspx?multimediaid=6091188</string>
+			<key>Description</key>
+			<string>Génitorectal</string>
+			<key>Thumb</key>
+			<string>04_08_GenitalRectal_MP4 768Kbpst.png</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>http://batesvisualguide.com/MultimediaPlayer.aspx?multimediaid=6091190</string>
+			<key>Description</key>
+			<string>Ostéoarticulaire et Nerveux</string>
+			<key>Thumb</key>
+			<string>04_09_MusculoskeletalAndNervous_MP4 768Kbpst.png</string>
 		</dict>
 	</array>
 </dict>

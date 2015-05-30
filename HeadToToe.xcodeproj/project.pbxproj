@@ -232,10 +232,65 @@
 		75CE290119F41882002FF80F /* filter.png in Resources */ = {isa = PBXBuildFile; fileRef = 75CE290019F41882002FF80F /* filter.png */; };
 		75CE290519F41AD9002FF80F /* filter_filled.png in Resources */ = {isa = PBXBuildFile; fileRef = 75CE290419F41AD9002FF80F /* filter_filled.png */; };
 		75CE290719F42EC3002FF80F /* medecine50.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 75CE290619F42EC3002FF80F /* medecine50.jpg */; };
+		75D08C461B13B1980018B6FC /* FeedBackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D08C451B13B1980018B6FC /* FeedBackViewController.m */; };
 		75D3C93C1A17A293003D5B57 /* eraser-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 75D3C93B1A17A293003D5B57 /* eraser-50.png */; };
 		75D3C93E1A17B64B003D5B57 /* MMS.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 75D3C93D1A17B64B003D5B57 /* MMS.pdf */; };
-		75D3C9401A17B852003D5B57 /* Polycopié de pharmacologie 2014.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 75D3C93F1A17B852003D5B57 /* Polycopié de pharmacologie 2014.pdf */; };
 		75D3C9421A18C796003D5B57 /* memo.png in Resources */ = {isa = PBXBuildFile; fileRef = 75D3C9411A18C796003D5B57 /* memo.png */; };
+		75D6F2F71ADBE66100B7191F /* Bates15_AnatRev_ExtFemaleGent.png in Resources */ = {isa = PBXBuildFile; fileRef = 75D6F2BB1ADBE66100B7191F /* Bates15_AnatRev_ExtFemaleGent.png */; };
+		75D6F2F81ADBE66100B7191F /* Bates15_AnatRev_IntFemaleGent.png in Resources */ = {isa = PBXBuildFile; fileRef = 75D6F2BC1ADBE66100B7191F /* Bates15_AnatRev_IntFemaleGent.png */; };
+		75D6F2F91ADBE66100B7191F /* Bates15_ExamExtFemaleGent.png in Resources */ = {isa = PBXBuildFile; fileRef = 75D6F2BD1ADBE66100B7191F /* Bates15_ExamExtFemaleGent.png */; };
+		75D6F2FA1ADBE66100B7191F /* Bates15_ExamIntFemaleGent.png in Resources */ = {isa = PBXBuildFile; fileRef = 75D6F2BE1ADBE66100B7191F /* Bates15_ExamIntFemaleGent.png */; };
+		75D6F2FB1ADBE66100B7191F /* Bates15_Introt.png in Resources */ = {isa = PBXBuildFile; fileRef = 75D6F2BF1ADBE66100B7191F /* Bates15_Introt.png */; };
+		75D6F2FC1ADBE66100B7191F /* Bates15_RectoExamt.png in Resources */ = {isa = PBXBuildFile; fileRef = 75D6F2C01ADBE66100B7191F /* Bates15_RectoExamt.png */; };
+		75D6F2FD1ADBE66100B7191F /* 14_01_MaleGenitalia_MP4 768Kbpst.png in Resources */ = {isa = PBXBuildFile; fileRef = 75D6F2C21ADBE66100B7191F /* 14_01_MaleGenitalia_MP4 768Kbpst.png */; };
+		75D6F2FE1ADBE66100B7191F /* 14_03_AnatomyReviewGenitaliaHernias_MP4 768Kbpst.png in Resources */ = {isa = PBXBuildFile; fileRef = 75D6F2C31ADBE66100B7191F /* 14_03_AnatomyReviewGenitaliaHernias_MP4 768Kbpst.png */; };
+		75D6F2FF1ADBE66100B7191F /* 14_04_ExaminingMaleGenitalia_MP4 768Kbpst.png in Resources */ = {isa = PBXBuildFile; fileRef = 75D6F2C41ADBE66100B7191F /* 14_04_ExaminingMaleGenitalia_MP4 768Kbpst.png */; };
+		75D6F3001ADBE66100B7191F /* 14_05_AssessingForHernias_MP4 768Kbpst.png in Resources */ = {isa = PBXBuildFile; fileRef = 75D6F2C51ADBE66100B7191F /* 14_05_AssessingForHernias_MP4 768Kbpst.png */; };
+		75D6F3011ADBE66100B7191F /* 14_06_AnatomyReviewRectum_MP4 768Kbpst.png in Resources */ = {isa = PBXBuildFile; fileRef = 75D6F2C61ADBE66100B7191F /* 14_06_AnatomyReviewRectum_MP4 768Kbpst.png */; };
+		75D6F3021ADBE66100B7191F /* 14_07_HealthHistoryRectumProstateBladder_MP4 768Kbpst.png in Resources */ = {isa = PBXBuildFile; fileRef = 75D6F2C71ADBE66100B7191F /* 14_07_HealthHistoryRectumProstateBladder_MP4 768Kbpst.png */; };
+		75D6F3031ADBE66100B7191F /* 14_08_ExaminingAnusRectumProstate_MP4 768Kbpst.png in Resources */ = {isa = PBXBuildFile; fileRef = 75D6F2C81ADBE66100B7191F /* 14_08_ExaminingAnusRectumProstate_MP4 768Kbpst.png */; };
+		75D6F3041ADBE66100B7191F /* 04_01_HTTOlderAdult_MP4 768Kbpst.png in Resources */ = {isa = PBXBuildFile; fileRef = 75D6F2CA1ADBE66100B7191F /* 04_01_HTTOlderAdult_MP4 768Kbpst.png */; };
+		75D6F3051ADBE66100B7191F /* 04_02_ApproachToPatient_MP4 768Kbpst.png in Resources */ = {isa = PBXBuildFile; fileRef = 75D6F2CB1ADBE66100B7191F /* 04_02_ApproachToPatient_MP4 768Kbpst.png */; };
+		75D6F3061ADBE66100B7191F /* 04_03_HealthHistory_MP4 768Kbpst.png in Resources */ = {isa = PBXBuildFile; fileRef = 75D6F2CC1ADBE66100B7191F /* 04_03_HealthHistory_MP4 768Kbpst.png */; };
+		75D6F3071ADBE66100B7191F /* 04_04_GeneralSurvey_MP4 768Kbpst.png in Resources */ = {isa = PBXBuildFile; fileRef = 75D6F2CD1ADBE66100B7191F /* 04_04_GeneralSurvey_MP4 768Kbpst.png */; };
+		75D6F3081ADBE66100B7191F /* 04_05_SkinHEENT_MP4 768Kbpst.png in Resources */ = {isa = PBXBuildFile; fileRef = 75D6F2CE1ADBE66100B7191F /* 04_05_SkinHEENT_MP4 768Kbpst.png */; };
+		75D6F3091ADBE66100B7191F /* 04_06_ThoraxLungsCardiovacular_MP4 768Kbpst.png in Resources */ = {isa = PBXBuildFile; fileRef = 75D6F2CF1ADBE66100B7191F /* 04_06_ThoraxLungsCardiovacular_MP4 768Kbpst.png */; };
+		75D6F30A1ADBE66100B7191F /* 04_07_BreastsAbdomenPeripheralVascular_MP4 768Kbpst.png in Resources */ = {isa = PBXBuildFile; fileRef = 75D6F2D01ADBE66100B7191F /* 04_07_BreastsAbdomenPeripheralVascular_MP4 768Kbpst.png */; };
+		75D6F30B1ADBE66100B7191F /* 04_08_GenitalRectal_MP4 768Kbpst.png in Resources */ = {isa = PBXBuildFile; fileRef = 75D6F2D11ADBE66100B7191F /* 04_08_GenitalRectal_MP4 768Kbpst.png */; };
+		75D6F30C1ADBE66100B7191F /* 04_09_MusculoskeletalAndNervous_MP4 768Kbpst.png in Resources */ = {isa = PBXBuildFile; fileRef = 75D6F2D21ADBE66100B7191F /* 04_09_MusculoskeletalAndNervous_MP4 768Kbpst.png */; };
+		75D6F30D1ADBE66100B7191F /* 02_01_HTTInfant_MP4 768Kbpst.png in Resources */ = {isa = PBXBuildFile; fileRef = 75D6F2D41ADBE66100B7191F /* 02_01_HTTInfant_MP4 768Kbpst.png */; };
+		75D6F30E1ADBE66100B7191F /* 02_02_GeneralSurveySomaticGrowth_MP4 768Kbpst.png in Resources */ = {isa = PBXBuildFile; fileRef = 75D6F2D51ADBE66100B7191F /* 02_02_GeneralSurveySomaticGrowth_MP4 768Kbpst.png */; };
+		75D6F30F1ADBE66100B7191F /* 02_03_VitalSigns_MP4 768Kbpst.png in Resources */ = {isa = PBXBuildFile; fileRef = 75D6F2D61ADBE66100B7191F /* 02_03_VitalSigns_MP4 768Kbpst.png */; };
+		75D6F3101ADBE66100B7191F /* 02_04_Skin_MP4 768Kbpst.png in Resources */ = {isa = PBXBuildFile; fileRef = 75D6F2D71ADBE66100B7191F /* 02_04_Skin_MP4 768Kbpst.png */; };
+		75D6F3111ADBE66100B7191F /* 02_05_HeadFace_MP4 768Kbpst.png in Resources */ = {isa = PBXBuildFile; fileRef = 75D6F2D81ADBE66100B7191F /* 02_05_HeadFace_MP4 768Kbpst.png */; };
+		75D6F3121ADBE66100B7191F /* 02_06_Eyes_MP4 768Kbpst.png in Resources */ = {isa = PBXBuildFile; fileRef = 75D6F2D91ADBE66100B7191F /* 02_06_Eyes_MP4 768Kbpst.png */; };
+		75D6F3131ADBE66100B7191F /* 02_07_EarsNose_MP4 768Kbpst.png in Resources */ = {isa = PBXBuildFile; fileRef = 75D6F2DA1ADBE66100B7191F /* 02_07_EarsNose_MP4 768Kbpst.png */; };
+		75D6F3141ADBE66100B7191F /* 02_08_MouthPharynx_MP4 768Kbpst.png in Resources */ = {isa = PBXBuildFile; fileRef = 75D6F2DB1ADBE66100B7191F /* 02_08_MouthPharynx_MP4 768Kbpst.png */; };
+		75D6F3151ADBE66100B7191F /* 02_09_ThoraxLungs_MP4 768Kbpst.png in Resources */ = {isa = PBXBuildFile; fileRef = 75D6F2DC1ADBE66100B7191F /* 02_09_ThoraxLungs_MP4 768Kbpst.png */; };
+		75D6F3161ADBE66100B7191F /* 02_10_Heart_MP4 768Kbpst.png in Resources */ = {isa = PBXBuildFile; fileRef = 75D6F2DD1ADBE66100B7191F /* 02_10_Heart_MP4 768Kbpst.png */; };
+		75D6F3171ADBE66100B7191F /* 02_11_BreastsAbdomen_MP4 768Kbpst.png in Resources */ = {isa = PBXBuildFile; fileRef = 75D6F2DE1ADBE66100B7191F /* 02_11_BreastsAbdomen_MP4 768Kbpst.png */; };
+		75D6F3181ADBE66100B7191F /* 02_12_GenitaliaRectum_MP4 768Kbpst.png in Resources */ = {isa = PBXBuildFile; fileRef = 75D6F2DF1ADBE66100B7191F /* 02_12_GenitaliaRectum_MP4 768Kbpst.png */; };
+		75D6F3191ADBE66100B7191F /* 02_13_MusculoskeletalSystem_MP4 768Kbpst.png in Resources */ = {isa = PBXBuildFile; fileRef = 75D6F2E01ADBE66100B7191F /* 02_13_MusculoskeletalSystem_MP4 768Kbpst.png */; };
+		75D6F31A1ADBE66100B7191F /* 02_14_NervousSystem_MP4 768Kbpst.png in Resources */ = {isa = PBXBuildFile; fileRef = 75D6F2E11ADBE66100B7191F /* 02_14_NervousSystem_MP4 768Kbpst.png */; };
+		75D6F31B1ADBE66100B7191F /* 03_01_ApproachToChild_MP4 768Kbpst.png in Resources */ = {isa = PBXBuildFile; fileRef = 75D6F2E31ADBE66100B7191F /* 03_01_ApproachToChild_MP4 768Kbpst.png */; };
+		75D6F31C1ADBE66100B7191F /* 03_02_GeneralSurveySomaticGrowth_MP4 768Kbpst.png in Resources */ = {isa = PBXBuildFile; fileRef = 75D6F2E41ADBE66100B7191F /* 03_02_GeneralSurveySomaticGrowth_MP4 768Kbpst.png */; };
+		75D6F31D1ADBE66100B7191F /* 03_03_VitalSigns_MP4 768Kbpst.png in Resources */ = {isa = PBXBuildFile; fileRef = 75D6F2E51ADBE66100B7191F /* 03_03_VitalSigns_MP4 768Kbpst.png */; };
+		75D6F31E1ADBE66100B7191F /* 03_04_Skin_MP4 768Kbpst.png in Resources */ = {isa = PBXBuildFile; fileRef = 75D6F2E61ADBE66100B7191F /* 03_04_Skin_MP4 768Kbpst.png */; };
+		75D6F31F1ADBE66100B7191F /* 03_05_HeadFace_MP4 768Kbpst.png in Resources */ = {isa = PBXBuildFile; fileRef = 75D6F2E71ADBE66100B7191F /* 03_05_HeadFace_MP4 768Kbpst.png */; };
+		75D6F3201ADBE66100B7191F /* 03_06_Eyes_MP4 768Kbpst.png in Resources */ = {isa = PBXBuildFile; fileRef = 75D6F2E81ADBE66100B7191F /* 03_06_Eyes_MP4 768Kbpst.png */; };
+		75D6F3211ADBE66100B7191F /* 03_07_EarsNose_MP4 768Kbpst.png in Resources */ = {isa = PBXBuildFile; fileRef = 75D6F2E91ADBE66100B7191F /* 03_07_EarsNose_MP4 768Kbpst.png */; };
+		75D6F3221ADBE66100B7191F /* 03_08_MouthPharynx_MP4 768Kbpst.png in Resources */ = {isa = PBXBuildFile; fileRef = 75D6F2EA1ADBE66100B7191F /* 03_08_MouthPharynx_MP4 768Kbpst.png */; };
+		75D6F3231ADBE66100B7191F /* 03_09_ThoraxLungs_MP4 768Kbpst.png in Resources */ = {isa = PBXBuildFile; fileRef = 75D6F2EB1ADBE66100B7191F /* 03_09_ThoraxLungs_MP4 768Kbpst.png */; };
+		75D6F3241ADBE66100B7191F /* 03_10_BreastsAbdomen_MP4 768Kbpst.png in Resources */ = {isa = PBXBuildFile; fileRef = 75D6F2EC1ADBE66100B7191F /* 03_10_BreastsAbdomen_MP4 768Kbpst.png */; };
+		75D6F3251ADBE66100B7191F /* 03_11_MaleChildGenitalia_MP4 768Kbpst.png in Resources */ = {isa = PBXBuildFile; fileRef = 75D6F2ED1ADBE66100B7191F /* 03_11_MaleChildGenitalia_MP4 768Kbpst.png */; };
+		75D6F3261ADBE66100B7191F /* 03_12_FemaleChildGenitalia_MP4 768Kbpst.png in Resources */ = {isa = PBXBuildFile; fileRef = 75D6F2EE1ADBE66100B7191F /* 03_12_FemaleChildGenitalia_MP4 768Kbpst.png */; };
+		75D6F3271ADBE66100B7191F /* 03_13_MusculoskeletalSystem_MP4 768Kbpst.png in Resources */ = {isa = PBXBuildFile; fileRef = 75D6F2EF1ADBE66100B7191F /* 03_13_MusculoskeletalSystem_MP4 768Kbpst.png */; };
+		75D6F3281ADBE66100B7191F /* 03_14_NervousSystem_MP4 768Kbpst.png in Resources */ = {isa = PBXBuildFile; fileRef = 75D6F2F01ADBE66100B7191F /* 03_14_NervousSystem_MP4 768Kbpst.png */; };
+		75D6F3291ADBE66100B7191F /* 12_01_Introt.png in Resources */ = {isa = PBXBuildFile; fileRef = 75D6F2F21ADBE66100B7191F /* 12_01_Introt.png */; };
+		75D6F32A1ADBE66100B7191F /* 12_02_AnatomyReviewt.png in Resources */ = {isa = PBXBuildFile; fileRef = 75D6F2F31ADBE66100B7191F /* 12_02_AnatomyReviewt.png */; };
+		75D6F32B1ADBE66100B7191F /* 12_04_ExamingFemaleBreastst.png in Resources */ = {isa = PBXBuildFile; fileRef = 75D6F2F41ADBE66100B7191F /* 12_04_ExamingFemaleBreastst.png */; };
+		75D6F32C1ADBE66100B7191F /* 12_05_ExamingMaleBreastst.png in Resources */ = {isa = PBXBuildFile; fileRef = 75D6F2F51ADBE66100B7191F /* 12_05_ExamingMaleBreastst.png */; };
+		75D6F32D1ADBE66100B7191F /* 12_06_ExaminingAxillaet.png in Resources */ = {isa = PBXBuildFile; fileRef = 75D6F2F61ADBE66100B7191F /* 12_06_ExaminingAxillaet.png */; };
 		75D869A319F8F6E300F53AF1 /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75D869A219F8F6E300F53AF1 /* AVKit.framework */; };
 		75D869A619F905EE00F53AF1 /* filter_filled-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 75D869A419F905EE00F53AF1 /* filter_filled-50.png */; };
 		75D869A719F905EE00F53AF1 /* filter-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 75D869A519F905EE00F53AF1 /* filter-50.png */; };
@@ -273,6 +328,90 @@
 		75F590011ACE97AA00398BE8 /* 06_04_ExamingTheSkin_MP4 768Kbpst.png in Resources */ = {isa = PBXBuildFile; fileRef = 75F58FFE1ACE97AA00398BE8 /* 06_04_ExamingTheSkin_MP4 768Kbpst.png */; };
 		75F590021ACE97AA00398BE8 /* 06_05_ExaminingHairNails_MP4 768Kbpst.png in Resources */ = {isa = PBXBuildFile; fileRef = 75F58FFF1ACE97AA00398BE8 /* 06_05_ExaminingHairNails_MP4 768Kbpst.png */; };
 		75F590041ACE9ABA00398BE8 /* 06_01_Skin_MP4 768Kbpst.png in Resources */ = {isa = PBXBuildFile; fileRef = 75F590031ACE9ABA00398BE8 /* 06_01_Skin_MP4 768Kbpst.png */; };
+		75F590061ACEA01D00398BE8 /* Polycopié de pharmacologie 2014.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 75F590051ACEA01D00398BE8 /* Polycopié de pharmacologie 2014.pdf */; };
+		75F590181ACEA0D000398BE8 /* 07_01_HeadEyesEars.png in Resources */ = {isa = PBXBuildFile; fileRef = 75F590081ACEA0D000398BE8 /* 07_01_HeadEyesEars.png */; };
+		75F590191ACEA0D000398BE8 /* 07_02_AnatomyReviewHead.png in Resources */ = {isa = PBXBuildFile; fileRef = 75F590091ACEA0D000398BE8 /* 07_02_AnatomyReviewHead.png */; };
+		75F5901A1ACEA0D000398BE8 /* 07_03_ExaminingHead.png in Resources */ = {isa = PBXBuildFile; fileRef = 75F5900A1ACEA0D000398BE8 /* 07_03_ExaminingHead.png */; };
+		75F5901B1ACEA0D000398BE8 /* 07_04_AnatomyReviewEyes.png in Resources */ = {isa = PBXBuildFile; fileRef = 75F5900B1ACEA0D000398BE8 /* 07_04_AnatomyReviewEyes.png */; };
+		75F5901C1ACEA0D000398BE8 /* 07_05_ExaminingEyes.png in Resources */ = {isa = PBXBuildFile; fileRef = 75F5900C1ACEA0D000398BE8 /* 07_05_ExaminingEyes.png */; };
+		75F5901D1ACEA0D000398BE8 /* 07_06_AnatomyReviewEars.png in Resources */ = {isa = PBXBuildFile; fileRef = 75F5900D1ACEA0D000398BE8 /* 07_06_AnatomyReviewEars.png */; };
+		75F5901E1ACEA0D000398BE8 /* 07_07_ExaminingEars.png in Resources */ = {isa = PBXBuildFile; fileRef = 75F5900E1ACEA0D000398BE8 /* 07_07_ExaminingEars.png */; };
+		75F5901F1ACEA0D000398BE8 /* 08_01_NoseMouthNeck.png in Resources */ = {isa = PBXBuildFile; fileRef = 75F5900F1ACEA0D000398BE8 /* 08_01_NoseMouthNeck.png */; };
+		75F590201ACEA0D000398BE8 /* 08_02_AnatomyReviewNose.png in Resources */ = {isa = PBXBuildFile; fileRef = 75F590101ACEA0D000398BE8 /* 08_02_AnatomyReviewNose.png */; };
+		75F590211ACEA0D000398BE8 /* 08_03_HealthHistory.png in Resources */ = {isa = PBXBuildFile; fileRef = 75F590111ACEA0D000398BE8 /* 08_03_HealthHistory.png */; };
+		75F590221ACEA0D000398BE8 /* 08_04_ExaminingNose.png in Resources */ = {isa = PBXBuildFile; fileRef = 75F590121ACEA0D000398BE8 /* 08_04_ExaminingNose.png */; };
+		75F590231ACEA0D000398BE8 /* 08_05_AnatomyReviewMouth.png in Resources */ = {isa = PBXBuildFile; fileRef = 75F590131ACEA0D000398BE8 /* 08_05_AnatomyReviewMouth.png */; };
+		75F590241ACEA0D000398BE8 /* 08_06_ExaminingMouth.png in Resources */ = {isa = PBXBuildFile; fileRef = 75F590141ACEA0D000398BE8 /* 08_06_ExaminingMouth.png */; };
+		75F590251ACEA0D000398BE8 /* 08_07_AnatomyReviewNeck.png in Resources */ = {isa = PBXBuildFile; fileRef = 75F590151ACEA0D000398BE8 /* 08_07_AnatomyReviewNeck.png */; };
+		75F590261ACEA0D000398BE8 /* 08_08_ExaminingNeck.png in Resources */ = {isa = PBXBuildFile; fileRef = 75F590161ACEA0D000398BE8 /* 08_08_ExaminingNeck.png */; };
+		75F590271ACEA0D000398BE8 /* Bates07_HeadEarsEyest.png in Resources */ = {isa = PBXBuildFile; fileRef = 75F590171ACEA0D000398BE8 /* Bates07_HeadEarsEyest.png */; };
+		75F5906F1ACEB66700398BE8 /* 10_01_CardiovascularSystem_MP4 768Kbps_001t.png in Resources */ = {isa = PBXBuildFile; fileRef = 75F590291ACEB66700398BE8 /* 10_01_CardiovascularSystem_MP4 768Kbps_001t.png */; };
+		75F590701ACEB66700398BE8 /* 11_01_Examen vasculaire complet.png in Resources */ = {isa = PBXBuildFile; fileRef = 75F5902A1ACEB66700398BE8 /* 11_01_Examen vasculaire complet.png */; };
+		75F590711ACEB66700398BE8 /* 11_02_AnatomyReviewt.png in Resources */ = {isa = PBXBuildFile; fileRef = 75F5902B1ACEB66700398BE8 /* 11_02_AnatomyReviewt.png */; };
+		75F590721ACEB66700398BE8 /* 11_04_ExaminingArmst.png in Resources */ = {isa = PBXBuildFile; fileRef = 75F5902C1ACEB66700398BE8 /* 11_04_ExaminingArmst.png */; };
+		75F590731ACEB66700398BE8 /* 11_05_ExaminingAbdoment.png in Resources */ = {isa = PBXBuildFile; fileRef = 75F5902D1ACEB66700398BE8 /* 11_05_ExaminingAbdoment.png */; };
+		75F590741ACEB66700398BE8 /* 11_06_ExaminingLegst.png in Resources */ = {isa = PBXBuildFile; fileRef = 75F5902E1ACEB66700398BE8 /* 11_06_ExaminingLegst.png */; };
+		75F590751ACEB66700398BE8 /* 11_07_AssessingArterialInsufficiencyt.png in Resources */ = {isa = PBXBuildFile; fileRef = 75F5902F1ACEB66700398BE8 /* 11_07_AssessingArterialInsufficiencyt.png */; };
+		75F590761ACEB66700398BE8 /* 11_08_AssessingVenousInsuffiencyt.png in Resources */ = {isa = PBXBuildFile; fileRef = 75F590301ACEB66700398BE8 /* 11_08_AssessingVenousInsuffiencyt.png */; };
+		75F590771ACEB66700398BE8 /* Anat cou.png in Resources */ = {isa = PBXBuildFile; fileRef = 75F590311ACEB66700398BE8 /* Anat cou.png */; };
+		75F590781ACEB66700398BE8 /* Anatomie coeur review.png in Resources */ = {isa = PBXBuildFile; fileRef = 75F590321ACEB66700398BE8 /* Anatomie coeur review.png */; };
+		75F590791ACEB66700398BE8 /* auscultation cardiaque.png in Resources */ = {isa = PBXBuildFile; fileRef = 75F590331ACEB66700398BE8 /* auscultation cardiaque.png */; };
+		75F5907A1ACEB66700398BE8 /* bruits du coeur.png in Resources */ = {isa = PBXBuildFile; fileRef = 75F590341ACEB66700398BE8 /* bruits du coeur.png */; };
+		75F5907B1ACEB66700398BE8 /* Estimation PJ.png in Resources */ = {isa = PBXBuildFile; fileRef = 75F590351ACEB66700398BE8 /* Estimation PJ.png */; };
+		75F5907C1ACEB66700398BE8 /* examination du coeur.png in Resources */ = {isa = PBXBuildFile; fileRef = 75F590361ACEB66700398BE8 /* examination du coeur.png */; };
+		75F5907D1ACEB66700398BE8 /* grades des souffles.png in Resources */ = {isa = PBXBuildFile; fileRef = 75F590371ACEB66700398BE8 /* grades des souffles.png */; };
+		75F5907E1ACEB66700398BE8 /* Pouls carotidien.png in Resources */ = {isa = PBXBuildFile; fileRef = 75F590381ACEB66700398BE8 /* Pouls carotidien.png */; };
+		75F5907F1ACEB66700398BE8 /* 13_03_AnatomyReviewAbdomen_MP4 768Kbpst.png in Resources */ = {isa = PBXBuildFile; fileRef = 75F5903A1ACEB66700398BE8 /* 13_03_AnatomyReviewAbdomen_MP4 768Kbpst.png */; };
+		75F590801ACEB66700398BE8 /* 13_04_ExaminingAbdomen_MP4 768Kbpst.png in Resources */ = {isa = PBXBuildFile; fileRef = 75F5903B1ACEB66700398BE8 /* 13_04_ExaminingAbdomen_MP4 768Kbpst.png */; };
+		75F590811ACEB66700398BE8 /* 13_05_ExaminingLiver_MP4 768Kbpst.png in Resources */ = {isa = PBXBuildFile; fileRef = 75F5903C1ACEB66700398BE8 /* 13_05_ExaminingLiver_MP4 768Kbpst.png */; };
+		75F590821ACEB66700398BE8 /* 13_06_ExaminingSpleen_MP4 768Kbpst.png in Resources */ = {isa = PBXBuildFile; fileRef = 75F5903D1ACEB66700398BE8 /* 13_06_ExaminingSpleen_MP4 768Kbpst.png */; };
+		75F590831ACEB66700398BE8 /* 13_07_ExaminingKidneys_MP4 768Kbpst.png in Resources */ = {isa = PBXBuildFile; fileRef = 75F5903E1ACEB66700398BE8 /* 13_07_ExaminingKidneys_MP4 768Kbpst.png */; };
+		75F590841ACEB66700398BE8 /* 13_08_SpecialTechniques_MP4 768Kbpst.png in Resources */ = {isa = PBXBuildFile; fileRef = 75F5903F1ACEB66700398BE8 /* 13_08_SpecialTechniques_MP4 768Kbpst.png */; };
+		75F590851ACEB66700398BE8 /* Examen complet digestif.png in Resources */ = {isa = PBXBuildFile; fileRef = 75F590401ACEB66700398BE8 /* Examen complet digestif.png */; };
+		75F590861ACEB66700398BE8 /* 17_01_Complet Nerveux NC moteur.png in Resources */ = {isa = PBXBuildFile; fileRef = 75F590421ACEB66700398BE8 /* 17_01_Complet Nerveux NC moteur.png */; };
+		75F590871ACEB66700398BE8 /* 17_03_AnatomyReviewCNI-XII_MP4 768Kbpst.png in Resources */ = {isa = PBXBuildFile; fileRef = 75F590431ACEB66700398BE8 /* 17_03_AnatomyReviewCNI-XII_MP4 768Kbpst.png */; };
+		75F590881ACEB66700398BE8 /* 17_04_ExaminingCNI-XII_MP4 768Kbpst.png in Resources */ = {isa = PBXBuildFile; fileRef = 75F590441ACEB66700398BE8 /* 17_04_ExaminingCNI-XII_MP4 768Kbpst.png */; };
+		75F590891ACEB66700398BE8 /* 17_05_ExaminingMotorSystem_MP4 768Kbpst.png in Resources */ = {isa = PBXBuildFile; fileRef = 75F590451ACEB66700398BE8 /* 17_05_ExaminingMotorSystem_MP4 768Kbpst.png */; };
+		75F5908A1ACEB66700398BE8 /* 17_06_AssessmentOfCoordination_MP4 768Kbpst.png in Resources */ = {isa = PBXBuildFile; fileRef = 75F590461ACEB66700398BE8 /* 17_06_AssessmentOfCoordination_MP4 768Kbpst.png */; };
+		75F5908B1ACEB66700398BE8 /* 18_01_Complet sensitif et réflexe.png in Resources */ = {isa = PBXBuildFile; fileRef = 75F590471ACEB66700398BE8 /* 18_01_Complet sensitif et réflexe.png */; };
+		75F5908C1ACEB66700398BE8 /* 18_02_AnatomyReviewSensorySystem_MP4 768Kbpst.png in Resources */ = {isa = PBXBuildFile; fileRef = 75F590481ACEB66700398BE8 /* 18_02_AnatomyReviewSensorySystem_MP4 768Kbpst.png */; };
+		75F5908D1ACEB66700398BE8 /* 18_03_ExaminingSensorySystem_MP4 768Kbpst.png in Resources */ = {isa = PBXBuildFile; fileRef = 75F590491ACEB66700398BE8 /* 18_03_ExaminingSensorySystem_MP4 768Kbpst.png */; };
+		75F5908E1ACEB66700398BE8 /* 18_04_AnatomyReviewReflexes_MP4 768Kbpst.png in Resources */ = {isa = PBXBuildFile; fileRef = 75F5904A1ACEB66700398BE8 /* 18_04_AnatomyReviewReflexes_MP4 768Kbpst.png */; };
+		75F5908F1ACEB66700398BE8 /* 18_05_AssessmentOfReflexes_MP4 768Kbpst.png in Resources */ = {isa = PBXBuildFile; fileRef = 75F5904B1ACEB66700398BE8 /* 18_05_AssessmentOfReflexes_MP4 768Kbpst.png */; };
+		75F590901ACEB66700398BE8 /* 16_01_Examen complet osteoarticulaire.png in Resources */ = {isa = PBXBuildFile; fileRef = 75F5904D1ACEB66700398BE8 /* 16_01_Examen complet osteoarticulaire.png */; };
+		75F590911ACEB66700398BE8 /* 16_02_AnatomyReviewMandible_MP4 768Kbpst.png in Resources */ = {isa = PBXBuildFile; fileRef = 75F5904E1ACEB66700398BE8 /* 16_02_AnatomyReviewMandible_MP4 768Kbpst.png */; };
+		75F590921ACEB66700398BE8 /* 16_03_ExaminingMandible_MP4 768Kbpst.png in Resources */ = {isa = PBXBuildFile; fileRef = 75F5904F1ACEB66700398BE8 /* 16_03_ExaminingMandible_MP4 768Kbpst.png */; };
+		75F590931ACEB66700398BE8 /* 16_04_AnatomyReviewShoulders_MP4 768Kbpst.png in Resources */ = {isa = PBXBuildFile; fileRef = 75F590501ACEB66700398BE8 /* 16_04_AnatomyReviewShoulders_MP4 768Kbpst.png */; };
+		75F590941ACEB66700398BE8 /* 16_05_ExaminingShoulders_MP4 768Kbpst.png in Resources */ = {isa = PBXBuildFile; fileRef = 75F590511ACEB66700398BE8 /* 16_05_ExaminingShoulders_MP4 768Kbpst.png */; };
+		75F590951ACEB66700398BE8 /* 16_06_AnatomyReviewElbows_MP4 768Kbpst.png in Resources */ = {isa = PBXBuildFile; fileRef = 75F590521ACEB66700398BE8 /* 16_06_AnatomyReviewElbows_MP4 768Kbpst.png */; };
+		75F590961ACEB66700398BE8 /* 16_07_ExaminingElbows_MP4 768Kbpst.png in Resources */ = {isa = PBXBuildFile; fileRef = 75F590531ACEB66700398BE8 /* 16_07_ExaminingElbows_MP4 768Kbpst.png */; };
+		75F590971ACEB66700398BE8 /* 16_08_AnatomyReviewWristsHands_MP4 768Kbpst.png in Resources */ = {isa = PBXBuildFile; fileRef = 75F590541ACEB66700398BE8 /* 16_08_AnatomyReviewWristsHands_MP4 768Kbpst.png */; };
+		75F590981ACEB66700398BE8 /* 16_09_ExaminingWristsHands_MP4 768Kbpst.png in Resources */ = {isa = PBXBuildFile; fileRef = 75F590551ACEB66700398BE8 /* 16_09_ExaminingWristsHands_MP4 768Kbpst.png */; };
+		75F590991ACEB66700398BE8 /* 16_10_AnatomyReviewSpine_MP4 768Kbpst.png in Resources */ = {isa = PBXBuildFile; fileRef = 75F590561ACEB66700398BE8 /* 16_10_AnatomyReviewSpine_MP4 768Kbpst.png */; };
+		75F5909A1ACEB66700398BE8 /* 16_11_ExaminingSpine_MP4 768Kbpst.png in Resources */ = {isa = PBXBuildFile; fileRef = 75F590571ACEB66700398BE8 /* 16_11_ExaminingSpine_MP4 768Kbpst.png */; };
+		75F5909B1ACEB66700398BE8 /* 16_12_AnatomyReviewHips_MP4 768Kbpst.png in Resources */ = {isa = PBXBuildFile; fileRef = 75F590581ACEB66700398BE8 /* 16_12_AnatomyReviewHips_MP4 768Kbpst.png */; };
+		75F5909C1ACEB66700398BE8 /* 16_13_ExaminingHips_MP4 768Kbpst.png in Resources */ = {isa = PBXBuildFile; fileRef = 75F590591ACEB66700398BE8 /* 16_13_ExaminingHips_MP4 768Kbpst.png */; };
+		75F5909D1ACEB66700398BE8 /* 16_14_AnatomyReviewKnees_MP4 768Kbpst.png in Resources */ = {isa = PBXBuildFile; fileRef = 75F5905A1ACEB66700398BE8 /* 16_14_AnatomyReviewKnees_MP4 768Kbpst.png */; };
+		75F5909E1ACEB66700398BE8 /* 16_15_ExaminingKnees_MP4 768Kbpst.png in Resources */ = {isa = PBXBuildFile; fileRef = 75F5905B1ACEB66700398BE8 /* 16_15_ExaminingKnees_MP4 768Kbpst.png */; };
+		75F5909F1ACEB66700398BE8 /* 16_16_AnatomyReviewAnklesFeet_MP4 768Kbpst.png in Resources */ = {isa = PBXBuildFile; fileRef = 75F5905C1ACEB66700398BE8 /* 16_16_AnatomyReviewAnklesFeet_MP4 768Kbpst.png */; };
+		75F590A01ACEB66700398BE8 /* 16_17_ExaminingAnklesFeet_MP4 768Kbpst.png in Resources */ = {isa = PBXBuildFile; fileRef = 75F5905D1ACEB66700398BE8 /* 16_17_ExaminingAnklesFeet_MP4 768Kbpst.png */; };
+		75F590A11ACEB66700398BE8 /* 01_01_HTTAdult_MP4 768Kbpst.png in Resources */ = {isa = PBXBuildFile; fileRef = 75F5905F1ACEB66700398BE8 /* 01_01_HTTAdult_MP4 768Kbpst.png */; };
+		75F590A21ACEB66700398BE8 /* 01_03_GeneralSurveyVitalSigns_MP4 768Kbpst.png in Resources */ = {isa = PBXBuildFile; fileRef = 75F590601ACEB66700398BE8 /* 01_03_GeneralSurveyVitalSigns_MP4 768Kbpst.png */; };
+		75F590A31ACEB66700398BE8 /* 01_04_TheSkin_MP4 768Kbpst.png in Resources */ = {isa = PBXBuildFile; fileRef = 75F590611ACEB66700398BE8 /* 01_04_TheSkin_MP4 768Kbpst.png */; };
+		75F590A41ACEB66700398BE8 /* 01_05_HEENT_MP4 768Kbpst.png in Resources */ = {isa = PBXBuildFile; fileRef = 75F590621ACEB66700398BE8 /* 01_05_HEENT_MP4 768Kbpst.png */; };
+		75F590A51ACEB66700398BE8 /* 01_06_NervousSystemCranialNerves_MP4 768Kbpst.png in Resources */ = {isa = PBXBuildFile; fileRef = 75F590631ACEB66700398BE8 /* 01_06_NervousSystemCranialNerves_MP4 768Kbpst.png */; };
+		75F590A61ACEB66700398BE8 /* 01_07_TheNeck_MP4 768Kbpst.png in Resources */ = {isa = PBXBuildFile; fileRef = 75F590641ACEB66700398BE8 /* 01_07_TheNeck_MP4 768Kbpst.png */; };
+		75F590A71ACEB66700398BE8 /* 01_08_BackPosteriorThoraxLungs_MP4 768Kbpst.png in Resources */ = {isa = PBXBuildFile; fileRef = 75F590651ACEB66700398BE8 /* 01_08_BackPosteriorThoraxLungs_MP4 768Kbpst.png */; };
+		75F590A81ACEB66700398BE8 /* 01_09_UpperExtremities_MP4 768Kbpst.png in Resources */ = {isa = PBXBuildFile; fileRef = 75F590661ACEB66700398BE8 /* 01_09_UpperExtremities_MP4 768Kbpst.png */; };
+		75F590A91ACEB66700398BE8 /* 01_10_Breasts_MP4 768Kbpst.png in Resources */ = {isa = PBXBuildFile; fileRef = 75F590671ACEB66700398BE8 /* 01_10_Breasts_MP4 768Kbpst.png */; };
+		75F590AA1ACEB66700398BE8 /* 01_11_AnteriorThoraxLungs_MP4 768Kbpst.png in Resources */ = {isa = PBXBuildFile; fileRef = 75F590681ACEB66700398BE8 /* 01_11_AnteriorThoraxLungs_MP4 768Kbpst.png */; };
+		75F590AB1ACEB66700398BE8 /* 01_12_CardiovascularSystem_MP4 768Kbpst.png in Resources */ = {isa = PBXBuildFile; fileRef = 75F590691ACEB66700398BE8 /* 01_12_CardiovascularSystem_MP4 768Kbpst.png */; };
+		75F590AC1ACEB66700398BE8 /* 01_13_Abdomen_MP4 768Kbpst.png in Resources */ = {isa = PBXBuildFile; fileRef = 75F5906A1ACEB66700398BE8 /* 01_13_Abdomen_MP4 768Kbpst.png */; };
+		75F590AD1ACEB66700398BE8 /* 01_14_PeripheralVascularSystem_MP4 768Kbpst.png in Resources */ = {isa = PBXBuildFile; fileRef = 75F5906B1ACEB66700398BE8 /* 01_14_PeripheralVascularSystem_MP4 768Kbpst.png */; };
+		75F590AE1ACEB66700398BE8 /* 01_15_LowerExtremities_MP4 768Kbpst.png in Resources */ = {isa = PBXBuildFile; fileRef = 75F5906C1ACEB66700398BE8 /* 01_15_LowerExtremities_MP4 768Kbpst.png */; };
+		75F590AF1ACEB66700398BE8 /* 01_16_NervousSystem_MP4 768Kbpst.png in Resources */ = {isa = PBXBuildFile; fileRef = 75F5906D1ACEB66700398BE8 /* 01_16_NervousSystem_MP4 768Kbpst.png */; };
+		75F590B01ACEB66700398BE8 /* 01_17_GenitalRectal_MP4 768Kbpst.png in Resources */ = {isa = PBXBuildFile; fileRef = 75F5906E1ACEB66700398BE8 /* 01_17_GenitalRectal_MP4 768Kbpst.png */; };
+		75F590B21ACEBD2B00398BE8 /* 09_01_ThoraxLungs_MP4 768Kbpst.png in Resources */ = {isa = PBXBuildFile; fileRef = 75F590B11ACEBD2B00398BE8 /* 09_01_ThoraxLungs_MP4 768Kbpst.png */; };
 		75F5C2711A30A545004D6354 /* bfa_play_flat-circle-white-on-light-gray_64x64.png in Resources */ = {isa = PBXBuildFile; fileRef = 75F5C2701A30A545004D6354 /* bfa_play_flat-circle-white-on-light-gray_64x64.png */; };
 		75F5C2731A30A65B004D6354 /* foundation_play-circle_simple-white_64x64.png in Resources */ = {isa = PBXBuildFile; fileRef = 75F5C2721A30A65B004D6354 /* foundation_play-circle_simple-white_64x64.png */; };
 		75F5C2751A30A6FB004D6354 /* foundation_play-circle_simple-white_128x128.png in Resources */ = {isa = PBXBuildFile; fileRef = 75F5C2741A30A6FB004D6354 /* foundation_play-circle_simple-white_128x128.png */; };
@@ -754,10 +893,66 @@
 		75CE290019F41882002FF80F /* filter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = filter.png; sourceTree = "<group>"; };
 		75CE290419F41AD9002FF80F /* filter_filled.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = filter_filled.png; sourceTree = "<group>"; };
 		75CE290619F42EC3002FF80F /* medecine50.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = medecine50.jpg; sourceTree = "<group>"; };
+		75D08C441B13B1980018B6FC /* FeedBackViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeedBackViewController.h; sourceTree = "<group>"; };
+		75D08C451B13B1980018B6FC /* FeedBackViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeedBackViewController.m; sourceTree = "<group>"; };
 		75D3C93B1A17A293003D5B57 /* eraser-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "eraser-50.png"; sourceTree = "<group>"; };
 		75D3C93D1A17B64B003D5B57 /* MMS.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = MMS.pdf; sourceTree = "<group>"; };
-		75D3C93F1A17B852003D5B57 /* Polycopié de pharmacologie 2014.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Polycopié de pharmacologie 2014.pdf"; sourceTree = "<group>"; };
 		75D3C9411A18C796003D5B57 /* memo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = memo.png; sourceTree = "<group>"; };
+		75D6F2BB1ADBE66100B7191F /* Bates15_AnatRev_ExtFemaleGent.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Bates15_AnatRev_ExtFemaleGent.png; sourceTree = "<group>"; };
+		75D6F2BC1ADBE66100B7191F /* Bates15_AnatRev_IntFemaleGent.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Bates15_AnatRev_IntFemaleGent.png; sourceTree = "<group>"; };
+		75D6F2BD1ADBE66100B7191F /* Bates15_ExamExtFemaleGent.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Bates15_ExamExtFemaleGent.png; sourceTree = "<group>"; };
+		75D6F2BE1ADBE66100B7191F /* Bates15_ExamIntFemaleGent.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Bates15_ExamIntFemaleGent.png; sourceTree = "<group>"; };
+		75D6F2BF1ADBE66100B7191F /* Bates15_Introt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Bates15_Introt.png; sourceTree = "<group>"; };
+		75D6F2C01ADBE66100B7191F /* Bates15_RectoExamt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Bates15_RectoExamt.png; sourceTree = "<group>"; };
+		75D6F2C21ADBE66100B7191F /* 14_01_MaleGenitalia_MP4 768Kbpst.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "14_01_MaleGenitalia_MP4 768Kbpst.png"; sourceTree = "<group>"; };
+		75D6F2C31ADBE66100B7191F /* 14_03_AnatomyReviewGenitaliaHernias_MP4 768Kbpst.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "14_03_AnatomyReviewGenitaliaHernias_MP4 768Kbpst.png"; sourceTree = "<group>"; };
+		75D6F2C41ADBE66100B7191F /* 14_04_ExaminingMaleGenitalia_MP4 768Kbpst.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "14_04_ExaminingMaleGenitalia_MP4 768Kbpst.png"; sourceTree = "<group>"; };
+		75D6F2C51ADBE66100B7191F /* 14_05_AssessingForHernias_MP4 768Kbpst.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "14_05_AssessingForHernias_MP4 768Kbpst.png"; sourceTree = "<group>"; };
+		75D6F2C61ADBE66100B7191F /* 14_06_AnatomyReviewRectum_MP4 768Kbpst.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "14_06_AnatomyReviewRectum_MP4 768Kbpst.png"; sourceTree = "<group>"; };
+		75D6F2C71ADBE66100B7191F /* 14_07_HealthHistoryRectumProstateBladder_MP4 768Kbpst.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "14_07_HealthHistoryRectumProstateBladder_MP4 768Kbpst.png"; sourceTree = "<group>"; };
+		75D6F2C81ADBE66100B7191F /* 14_08_ExaminingAnusRectumProstate_MP4 768Kbpst.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "14_08_ExaminingAnusRectumProstate_MP4 768Kbpst.png"; sourceTree = "<group>"; };
+		75D6F2CA1ADBE66100B7191F /* 04_01_HTTOlderAdult_MP4 768Kbpst.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "04_01_HTTOlderAdult_MP4 768Kbpst.png"; sourceTree = "<group>"; };
+		75D6F2CB1ADBE66100B7191F /* 04_02_ApproachToPatient_MP4 768Kbpst.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "04_02_ApproachToPatient_MP4 768Kbpst.png"; sourceTree = "<group>"; };
+		75D6F2CC1ADBE66100B7191F /* 04_03_HealthHistory_MP4 768Kbpst.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "04_03_HealthHistory_MP4 768Kbpst.png"; sourceTree = "<group>"; };
+		75D6F2CD1ADBE66100B7191F /* 04_04_GeneralSurvey_MP4 768Kbpst.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "04_04_GeneralSurvey_MP4 768Kbpst.png"; sourceTree = "<group>"; };
+		75D6F2CE1ADBE66100B7191F /* 04_05_SkinHEENT_MP4 768Kbpst.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "04_05_SkinHEENT_MP4 768Kbpst.png"; sourceTree = "<group>"; };
+		75D6F2CF1ADBE66100B7191F /* 04_06_ThoraxLungsCardiovacular_MP4 768Kbpst.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "04_06_ThoraxLungsCardiovacular_MP4 768Kbpst.png"; sourceTree = "<group>"; };
+		75D6F2D01ADBE66100B7191F /* 04_07_BreastsAbdomenPeripheralVascular_MP4 768Kbpst.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "04_07_BreastsAbdomenPeripheralVascular_MP4 768Kbpst.png"; sourceTree = "<group>"; };
+		75D6F2D11ADBE66100B7191F /* 04_08_GenitalRectal_MP4 768Kbpst.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "04_08_GenitalRectal_MP4 768Kbpst.png"; sourceTree = "<group>"; };
+		75D6F2D21ADBE66100B7191F /* 04_09_MusculoskeletalAndNervous_MP4 768Kbpst.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "04_09_MusculoskeletalAndNervous_MP4 768Kbpst.png"; sourceTree = "<group>"; };
+		75D6F2D41ADBE66100B7191F /* 02_01_HTTInfant_MP4 768Kbpst.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "02_01_HTTInfant_MP4 768Kbpst.png"; sourceTree = "<group>"; };
+		75D6F2D51ADBE66100B7191F /* 02_02_GeneralSurveySomaticGrowth_MP4 768Kbpst.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "02_02_GeneralSurveySomaticGrowth_MP4 768Kbpst.png"; sourceTree = "<group>"; };
+		75D6F2D61ADBE66100B7191F /* 02_03_VitalSigns_MP4 768Kbpst.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "02_03_VitalSigns_MP4 768Kbpst.png"; sourceTree = "<group>"; };
+		75D6F2D71ADBE66100B7191F /* 02_04_Skin_MP4 768Kbpst.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "02_04_Skin_MP4 768Kbpst.png"; sourceTree = "<group>"; };
+		75D6F2D81ADBE66100B7191F /* 02_05_HeadFace_MP4 768Kbpst.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "02_05_HeadFace_MP4 768Kbpst.png"; sourceTree = "<group>"; };
+		75D6F2D91ADBE66100B7191F /* 02_06_Eyes_MP4 768Kbpst.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "02_06_Eyes_MP4 768Kbpst.png"; sourceTree = "<group>"; };
+		75D6F2DA1ADBE66100B7191F /* 02_07_EarsNose_MP4 768Kbpst.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "02_07_EarsNose_MP4 768Kbpst.png"; sourceTree = "<group>"; };
+		75D6F2DB1ADBE66100B7191F /* 02_08_MouthPharynx_MP4 768Kbpst.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "02_08_MouthPharynx_MP4 768Kbpst.png"; sourceTree = "<group>"; };
+		75D6F2DC1ADBE66100B7191F /* 02_09_ThoraxLungs_MP4 768Kbpst.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "02_09_ThoraxLungs_MP4 768Kbpst.png"; sourceTree = "<group>"; };
+		75D6F2DD1ADBE66100B7191F /* 02_10_Heart_MP4 768Kbpst.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "02_10_Heart_MP4 768Kbpst.png"; sourceTree = "<group>"; };
+		75D6F2DE1ADBE66100B7191F /* 02_11_BreastsAbdomen_MP4 768Kbpst.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "02_11_BreastsAbdomen_MP4 768Kbpst.png"; sourceTree = "<group>"; };
+		75D6F2DF1ADBE66100B7191F /* 02_12_GenitaliaRectum_MP4 768Kbpst.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "02_12_GenitaliaRectum_MP4 768Kbpst.png"; sourceTree = "<group>"; };
+		75D6F2E01ADBE66100B7191F /* 02_13_MusculoskeletalSystem_MP4 768Kbpst.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "02_13_MusculoskeletalSystem_MP4 768Kbpst.png"; sourceTree = "<group>"; };
+		75D6F2E11ADBE66100B7191F /* 02_14_NervousSystem_MP4 768Kbpst.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "02_14_NervousSystem_MP4 768Kbpst.png"; sourceTree = "<group>"; };
+		75D6F2E31ADBE66100B7191F /* 03_01_ApproachToChild_MP4 768Kbpst.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "03_01_ApproachToChild_MP4 768Kbpst.png"; sourceTree = "<group>"; };
+		75D6F2E41ADBE66100B7191F /* 03_02_GeneralSurveySomaticGrowth_MP4 768Kbpst.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "03_02_GeneralSurveySomaticGrowth_MP4 768Kbpst.png"; sourceTree = "<group>"; };
+		75D6F2E51ADBE66100B7191F /* 03_03_VitalSigns_MP4 768Kbpst.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "03_03_VitalSigns_MP4 768Kbpst.png"; sourceTree = "<group>"; };
+		75D6F2E61ADBE66100B7191F /* 03_04_Skin_MP4 768Kbpst.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "03_04_Skin_MP4 768Kbpst.png"; sourceTree = "<group>"; };
+		75D6F2E71ADBE66100B7191F /* 03_05_HeadFace_MP4 768Kbpst.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "03_05_HeadFace_MP4 768Kbpst.png"; sourceTree = "<group>"; };
+		75D6F2E81ADBE66100B7191F /* 03_06_Eyes_MP4 768Kbpst.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "03_06_Eyes_MP4 768Kbpst.png"; sourceTree = "<group>"; };
+		75D6F2E91ADBE66100B7191F /* 03_07_EarsNose_MP4 768Kbpst.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "03_07_EarsNose_MP4 768Kbpst.png"; sourceTree = "<group>"; };
+		75D6F2EA1ADBE66100B7191F /* 03_08_MouthPharynx_MP4 768Kbpst.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "03_08_MouthPharynx_MP4 768Kbpst.png"; sourceTree = "<group>"; };
+		75D6F2EB1ADBE66100B7191F /* 03_09_ThoraxLungs_MP4 768Kbpst.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "03_09_ThoraxLungs_MP4 768Kbpst.png"; sourceTree = "<group>"; };
+		75D6F2EC1ADBE66100B7191F /* 03_10_BreastsAbdomen_MP4 768Kbpst.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "03_10_BreastsAbdomen_MP4 768Kbpst.png"; sourceTree = "<group>"; };
+		75D6F2ED1ADBE66100B7191F /* 03_11_MaleChildGenitalia_MP4 768Kbpst.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "03_11_MaleChildGenitalia_MP4 768Kbpst.png"; sourceTree = "<group>"; };
+		75D6F2EE1ADBE66100B7191F /* 03_12_FemaleChildGenitalia_MP4 768Kbpst.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "03_12_FemaleChildGenitalia_MP4 768Kbpst.png"; sourceTree = "<group>"; };
+		75D6F2EF1ADBE66100B7191F /* 03_13_MusculoskeletalSystem_MP4 768Kbpst.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "03_13_MusculoskeletalSystem_MP4 768Kbpst.png"; sourceTree = "<group>"; };
+		75D6F2F01ADBE66100B7191F /* 03_14_NervousSystem_MP4 768Kbpst.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "03_14_NervousSystem_MP4 768Kbpst.png"; sourceTree = "<group>"; };
+		75D6F2F21ADBE66100B7191F /* 12_01_Introt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 12_01_Introt.png; sourceTree = "<group>"; };
+		75D6F2F31ADBE66100B7191F /* 12_02_AnatomyReviewt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 12_02_AnatomyReviewt.png; sourceTree = "<group>"; };
+		75D6F2F41ADBE66100B7191F /* 12_04_ExamingFemaleBreastst.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 12_04_ExamingFemaleBreastst.png; sourceTree = "<group>"; };
+		75D6F2F51ADBE66100B7191F /* 12_05_ExamingMaleBreastst.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 12_05_ExamingMaleBreastst.png; sourceTree = "<group>"; };
+		75D6F2F61ADBE66100B7191F /* 12_06_ExaminingAxillaet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 12_06_ExaminingAxillaet.png; sourceTree = "<group>"; };
 		75D869A219F8F6E300F53AF1 /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
 		75D869A419F905EE00F53AF1 /* filter_filled-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "filter_filled-50.png"; sourceTree = "<group>"; };
 		75D869A519F905EE00F53AF1 /* filter-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "filter-50.png"; sourceTree = "<group>"; };
@@ -809,6 +1004,90 @@
 		75F58FFE1ACE97AA00398BE8 /* 06_04_ExamingTheSkin_MP4 768Kbpst.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "06_04_ExamingTheSkin_MP4 768Kbpst.png"; sourceTree = "<group>"; };
 		75F58FFF1ACE97AA00398BE8 /* 06_05_ExaminingHairNails_MP4 768Kbpst.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "06_05_ExaminingHairNails_MP4 768Kbpst.png"; sourceTree = "<group>"; };
 		75F590031ACE9ABA00398BE8 /* 06_01_Skin_MP4 768Kbpst.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "06_01_Skin_MP4 768Kbpst.png"; sourceTree = "<group>"; };
+		75F590051ACEA01D00398BE8 /* Polycopié de pharmacologie 2014.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Polycopié de pharmacologie 2014.pdf"; sourceTree = "<group>"; };
+		75F590081ACEA0D000398BE8 /* 07_01_HeadEyesEars.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 07_01_HeadEyesEars.png; sourceTree = "<group>"; };
+		75F590091ACEA0D000398BE8 /* 07_02_AnatomyReviewHead.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 07_02_AnatomyReviewHead.png; sourceTree = "<group>"; };
+		75F5900A1ACEA0D000398BE8 /* 07_03_ExaminingHead.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 07_03_ExaminingHead.png; sourceTree = "<group>"; };
+		75F5900B1ACEA0D000398BE8 /* 07_04_AnatomyReviewEyes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 07_04_AnatomyReviewEyes.png; sourceTree = "<group>"; };
+		75F5900C1ACEA0D000398BE8 /* 07_05_ExaminingEyes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 07_05_ExaminingEyes.png; sourceTree = "<group>"; };
+		75F5900D1ACEA0D000398BE8 /* 07_06_AnatomyReviewEars.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 07_06_AnatomyReviewEars.png; sourceTree = "<group>"; };
+		75F5900E1ACEA0D000398BE8 /* 07_07_ExaminingEars.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 07_07_ExaminingEars.png; sourceTree = "<group>"; };
+		75F5900F1ACEA0D000398BE8 /* 08_01_NoseMouthNeck.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 08_01_NoseMouthNeck.png; sourceTree = "<group>"; };
+		75F590101ACEA0D000398BE8 /* 08_02_AnatomyReviewNose.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 08_02_AnatomyReviewNose.png; sourceTree = "<group>"; };
+		75F590111ACEA0D000398BE8 /* 08_03_HealthHistory.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 08_03_HealthHistory.png; sourceTree = "<group>"; };
+		75F590121ACEA0D000398BE8 /* 08_04_ExaminingNose.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 08_04_ExaminingNose.png; sourceTree = "<group>"; };
+		75F590131ACEA0D000398BE8 /* 08_05_AnatomyReviewMouth.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 08_05_AnatomyReviewMouth.png; sourceTree = "<group>"; };
+		75F590141ACEA0D000398BE8 /* 08_06_ExaminingMouth.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 08_06_ExaminingMouth.png; sourceTree = "<group>"; };
+		75F590151ACEA0D000398BE8 /* 08_07_AnatomyReviewNeck.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 08_07_AnatomyReviewNeck.png; sourceTree = "<group>"; };
+		75F590161ACEA0D000398BE8 /* 08_08_ExaminingNeck.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 08_08_ExaminingNeck.png; sourceTree = "<group>"; };
+		75F590171ACEA0D000398BE8 /* Bates07_HeadEarsEyest.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Bates07_HeadEarsEyest.png; sourceTree = "<group>"; };
+		75F590291ACEB66700398BE8 /* 10_01_CardiovascularSystem_MP4 768Kbps_001t.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "10_01_CardiovascularSystem_MP4 768Kbps_001t.png"; sourceTree = "<group>"; };
+		75F5902A1ACEB66700398BE8 /* 11_01_Examen vasculaire complet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "11_01_Examen vasculaire complet.png"; sourceTree = "<group>"; };
+		75F5902B1ACEB66700398BE8 /* 11_02_AnatomyReviewt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 11_02_AnatomyReviewt.png; sourceTree = "<group>"; };
+		75F5902C1ACEB66700398BE8 /* 11_04_ExaminingArmst.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 11_04_ExaminingArmst.png; sourceTree = "<group>"; };
+		75F5902D1ACEB66700398BE8 /* 11_05_ExaminingAbdoment.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 11_05_ExaminingAbdoment.png; sourceTree = "<group>"; };
+		75F5902E1ACEB66700398BE8 /* 11_06_ExaminingLegst.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 11_06_ExaminingLegst.png; sourceTree = "<group>"; };
+		75F5902F1ACEB66700398BE8 /* 11_07_AssessingArterialInsufficiencyt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 11_07_AssessingArterialInsufficiencyt.png; sourceTree = "<group>"; };
+		75F590301ACEB66700398BE8 /* 11_08_AssessingVenousInsuffiencyt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 11_08_AssessingVenousInsuffiencyt.png; sourceTree = "<group>"; };
+		75F590311ACEB66700398BE8 /* Anat cou.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Anat cou.png"; sourceTree = "<group>"; };
+		75F590321ACEB66700398BE8 /* Anatomie coeur review.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Anatomie coeur review.png"; sourceTree = "<group>"; };
+		75F590331ACEB66700398BE8 /* auscultation cardiaque.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "auscultation cardiaque.png"; sourceTree = "<group>"; };
+		75F590341ACEB66700398BE8 /* bruits du coeur.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bruits du coeur.png"; sourceTree = "<group>"; };
+		75F590351ACEB66700398BE8 /* Estimation PJ.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Estimation PJ.png"; sourceTree = "<group>"; };
+		75F590361ACEB66700398BE8 /* examination du coeur.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "examination du coeur.png"; sourceTree = "<group>"; };
+		75F590371ACEB66700398BE8 /* grades des souffles.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "grades des souffles.png"; sourceTree = "<group>"; };
+		75F590381ACEB66700398BE8 /* Pouls carotidien.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pouls carotidien.png"; sourceTree = "<group>"; };
+		75F5903A1ACEB66700398BE8 /* 13_03_AnatomyReviewAbdomen_MP4 768Kbpst.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "13_03_AnatomyReviewAbdomen_MP4 768Kbpst.png"; sourceTree = "<group>"; };
+		75F5903B1ACEB66700398BE8 /* 13_04_ExaminingAbdomen_MP4 768Kbpst.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "13_04_ExaminingAbdomen_MP4 768Kbpst.png"; sourceTree = "<group>"; };
+		75F5903C1ACEB66700398BE8 /* 13_05_ExaminingLiver_MP4 768Kbpst.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "13_05_ExaminingLiver_MP4 768Kbpst.png"; sourceTree = "<group>"; };
+		75F5903D1ACEB66700398BE8 /* 13_06_ExaminingSpleen_MP4 768Kbpst.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "13_06_ExaminingSpleen_MP4 768Kbpst.png"; sourceTree = "<group>"; };
+		75F5903E1ACEB66700398BE8 /* 13_07_ExaminingKidneys_MP4 768Kbpst.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "13_07_ExaminingKidneys_MP4 768Kbpst.png"; sourceTree = "<group>"; };
+		75F5903F1ACEB66700398BE8 /* 13_08_SpecialTechniques_MP4 768Kbpst.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "13_08_SpecialTechniques_MP4 768Kbpst.png"; sourceTree = "<group>"; };
+		75F590401ACEB66700398BE8 /* Examen complet digestif.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Examen complet digestif.png"; sourceTree = "<group>"; };
+		75F590421ACEB66700398BE8 /* 17_01_Complet Nerveux NC moteur.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "17_01_Complet Nerveux NC moteur.png"; sourceTree = "<group>"; };
+		75F590431ACEB66700398BE8 /* 17_03_AnatomyReviewCNI-XII_MP4 768Kbpst.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "17_03_AnatomyReviewCNI-XII_MP4 768Kbpst.png"; sourceTree = "<group>"; };
+		75F590441ACEB66700398BE8 /* 17_04_ExaminingCNI-XII_MP4 768Kbpst.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "17_04_ExaminingCNI-XII_MP4 768Kbpst.png"; sourceTree = "<group>"; };
+		75F590451ACEB66700398BE8 /* 17_05_ExaminingMotorSystem_MP4 768Kbpst.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "17_05_ExaminingMotorSystem_MP4 768Kbpst.png"; sourceTree = "<group>"; };
+		75F590461ACEB66700398BE8 /* 17_06_AssessmentOfCoordination_MP4 768Kbpst.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "17_06_AssessmentOfCoordination_MP4 768Kbpst.png"; sourceTree = "<group>"; };
+		75F590471ACEB66700398BE8 /* 18_01_Complet sensitif et réflexe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "18_01_Complet sensitif et réflexe.png"; sourceTree = "<group>"; };
+		75F590481ACEB66700398BE8 /* 18_02_AnatomyReviewSensorySystem_MP4 768Kbpst.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "18_02_AnatomyReviewSensorySystem_MP4 768Kbpst.png"; sourceTree = "<group>"; };
+		75F590491ACEB66700398BE8 /* 18_03_ExaminingSensorySystem_MP4 768Kbpst.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "18_03_ExaminingSensorySystem_MP4 768Kbpst.png"; sourceTree = "<group>"; };
+		75F5904A1ACEB66700398BE8 /* 18_04_AnatomyReviewReflexes_MP4 768Kbpst.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "18_04_AnatomyReviewReflexes_MP4 768Kbpst.png"; sourceTree = "<group>"; };
+		75F5904B1ACEB66700398BE8 /* 18_05_AssessmentOfReflexes_MP4 768Kbpst.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "18_05_AssessmentOfReflexes_MP4 768Kbpst.png"; sourceTree = "<group>"; };
+		75F5904D1ACEB66700398BE8 /* 16_01_Examen complet osteoarticulaire.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "16_01_Examen complet osteoarticulaire.png"; sourceTree = "<group>"; };
+		75F5904E1ACEB66700398BE8 /* 16_02_AnatomyReviewMandible_MP4 768Kbpst.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "16_02_AnatomyReviewMandible_MP4 768Kbpst.png"; sourceTree = "<group>"; };
+		75F5904F1ACEB66700398BE8 /* 16_03_ExaminingMandible_MP4 768Kbpst.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "16_03_ExaminingMandible_MP4 768Kbpst.png"; sourceTree = "<group>"; };
+		75F590501ACEB66700398BE8 /* 16_04_AnatomyReviewShoulders_MP4 768Kbpst.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "16_04_AnatomyReviewShoulders_MP4 768Kbpst.png"; sourceTree = "<group>"; };
+		75F590511ACEB66700398BE8 /* 16_05_ExaminingShoulders_MP4 768Kbpst.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "16_05_ExaminingShoulders_MP4 768Kbpst.png"; sourceTree = "<group>"; };
+		75F590521ACEB66700398BE8 /* 16_06_AnatomyReviewElbows_MP4 768Kbpst.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "16_06_AnatomyReviewElbows_MP4 768Kbpst.png"; sourceTree = "<group>"; };
+		75F590531ACEB66700398BE8 /* 16_07_ExaminingElbows_MP4 768Kbpst.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "16_07_ExaminingElbows_MP4 768Kbpst.png"; sourceTree = "<group>"; };
+		75F590541ACEB66700398BE8 /* 16_08_AnatomyReviewWristsHands_MP4 768Kbpst.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "16_08_AnatomyReviewWristsHands_MP4 768Kbpst.png"; sourceTree = "<group>"; };
+		75F590551ACEB66700398BE8 /* 16_09_ExaminingWristsHands_MP4 768Kbpst.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "16_09_ExaminingWristsHands_MP4 768Kbpst.png"; sourceTree = "<group>"; };
+		75F590561ACEB66700398BE8 /* 16_10_AnatomyReviewSpine_MP4 768Kbpst.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "16_10_AnatomyReviewSpine_MP4 768Kbpst.png"; sourceTree = "<group>"; };
+		75F590571ACEB66700398BE8 /* 16_11_ExaminingSpine_MP4 768Kbpst.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "16_11_ExaminingSpine_MP4 768Kbpst.png"; sourceTree = "<group>"; };
+		75F590581ACEB66700398BE8 /* 16_12_AnatomyReviewHips_MP4 768Kbpst.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "16_12_AnatomyReviewHips_MP4 768Kbpst.png"; sourceTree = "<group>"; };
+		75F590591ACEB66700398BE8 /* 16_13_ExaminingHips_MP4 768Kbpst.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "16_13_ExaminingHips_MP4 768Kbpst.png"; sourceTree = "<group>"; };
+		75F5905A1ACEB66700398BE8 /* 16_14_AnatomyReviewKnees_MP4 768Kbpst.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "16_14_AnatomyReviewKnees_MP4 768Kbpst.png"; sourceTree = "<group>"; };
+		75F5905B1ACEB66700398BE8 /* 16_15_ExaminingKnees_MP4 768Kbpst.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "16_15_ExaminingKnees_MP4 768Kbpst.png"; sourceTree = "<group>"; };
+		75F5905C1ACEB66700398BE8 /* 16_16_AnatomyReviewAnklesFeet_MP4 768Kbpst.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "16_16_AnatomyReviewAnklesFeet_MP4 768Kbpst.png"; sourceTree = "<group>"; };
+		75F5905D1ACEB66700398BE8 /* 16_17_ExaminingAnklesFeet_MP4 768Kbpst.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "16_17_ExaminingAnklesFeet_MP4 768Kbpst.png"; sourceTree = "<group>"; };
+		75F5905F1ACEB66700398BE8 /* 01_01_HTTAdult_MP4 768Kbpst.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "01_01_HTTAdult_MP4 768Kbpst.png"; sourceTree = "<group>"; };
+		75F590601ACEB66700398BE8 /* 01_03_GeneralSurveyVitalSigns_MP4 768Kbpst.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "01_03_GeneralSurveyVitalSigns_MP4 768Kbpst.png"; sourceTree = "<group>"; };
+		75F590611ACEB66700398BE8 /* 01_04_TheSkin_MP4 768Kbpst.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "01_04_TheSkin_MP4 768Kbpst.png"; sourceTree = "<group>"; };
+		75F590621ACEB66700398BE8 /* 01_05_HEENT_MP4 768Kbpst.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "01_05_HEENT_MP4 768Kbpst.png"; sourceTree = "<group>"; };
+		75F590631ACEB66700398BE8 /* 01_06_NervousSystemCranialNerves_MP4 768Kbpst.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "01_06_NervousSystemCranialNerves_MP4 768Kbpst.png"; sourceTree = "<group>"; };
+		75F590641ACEB66700398BE8 /* 01_07_TheNeck_MP4 768Kbpst.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "01_07_TheNeck_MP4 768Kbpst.png"; sourceTree = "<group>"; };
+		75F590651ACEB66700398BE8 /* 01_08_BackPosteriorThoraxLungs_MP4 768Kbpst.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "01_08_BackPosteriorThoraxLungs_MP4 768Kbpst.png"; sourceTree = "<group>"; };
+		75F590661ACEB66700398BE8 /* 01_09_UpperExtremities_MP4 768Kbpst.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "01_09_UpperExtremities_MP4 768Kbpst.png"; sourceTree = "<group>"; };
+		75F590671ACEB66700398BE8 /* 01_10_Breasts_MP4 768Kbpst.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "01_10_Breasts_MP4 768Kbpst.png"; sourceTree = "<group>"; };
+		75F590681ACEB66700398BE8 /* 01_11_AnteriorThoraxLungs_MP4 768Kbpst.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "01_11_AnteriorThoraxLungs_MP4 768Kbpst.png"; sourceTree = "<group>"; };
+		75F590691ACEB66700398BE8 /* 01_12_CardiovascularSystem_MP4 768Kbpst.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "01_12_CardiovascularSystem_MP4 768Kbpst.png"; sourceTree = "<group>"; };
+		75F5906A1ACEB66700398BE8 /* 01_13_Abdomen_MP4 768Kbpst.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "01_13_Abdomen_MP4 768Kbpst.png"; sourceTree = "<group>"; };
+		75F5906B1ACEB66700398BE8 /* 01_14_PeripheralVascularSystem_MP4 768Kbpst.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "01_14_PeripheralVascularSystem_MP4 768Kbpst.png"; sourceTree = "<group>"; };
+		75F5906C1ACEB66700398BE8 /* 01_15_LowerExtremities_MP4 768Kbpst.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "01_15_LowerExtremities_MP4 768Kbpst.png"; sourceTree = "<group>"; };
+		75F5906D1ACEB66700398BE8 /* 01_16_NervousSystem_MP4 768Kbpst.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "01_16_NervousSystem_MP4 768Kbpst.png"; sourceTree = "<group>"; };
+		75F5906E1ACEB66700398BE8 /* 01_17_GenitalRectal_MP4 768Kbpst.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "01_17_GenitalRectal_MP4 768Kbpst.png"; sourceTree = "<group>"; };
+		75F590B11ACEBD2B00398BE8 /* 09_01_ThoraxLungs_MP4 768Kbpst.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "09_01_ThoraxLungs_MP4 768Kbpst.png"; sourceTree = "<group>"; };
 		75F5C2701A30A545004D6354 /* bfa_play_flat-circle-white-on-light-gray_64x64.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bfa_play_flat-circle-white-on-light-gray_64x64.png"; sourceTree = "<group>"; };
 		75F5C2721A30A65B004D6354 /* foundation_play-circle_simple-white_64x64.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "foundation_play-circle_simple-white_64x64.png"; sourceTree = "<group>"; };
 		75F5C2741A30A6FB004D6354 /* foundation_play-circle_simple-white_128x128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "foundation_play-circle_simple-white_128x128.png"; sourceTree = "<group>"; };
@@ -1411,6 +1690,18 @@
 		7592B87A1ACC91B400C87CF8 /* VideosThumbs */ = {
 			isa = PBXGroup;
 			children = (
+				75D6F2BA1ADBE66100B7191F /* Genitorectal femme */,
+				75D6F2C11ADBE66100B7191F /* Genitorectal homme */,
+				75D6F2C91ADBE66100B7191F /* Gériatrie */,
+				75D6F2D31ADBE66100B7191F /* Néonatologie */,
+				75D6F2E21ADBE66100B7191F /* Pédiatrie */,
+				75D6F2F11ADBE66100B7191F /* Seins et région axilaire */,
+				75F590281ACEB66700398BE8 /* Cardiovasculaire */,
+				75F590391ACEB66700398BE8 /* Digestif */,
+				75F590411ACEB66700398BE8 /* Neurologique */,
+				75F5904C1ACEB66700398BE8 /* Ostéoarticulaire */,
+				75F5905E1ACEB66700398BE8 /* Tête-pied */,
+				75F590071ACEA0D000398BE8 /* ORL */,
 				75F58FFC1ACE97AA00398BE8 /* Dermatologie */,
 				7592B8831ACC91DA00C87CF8 /* Respiratoire */,
 			);
@@ -1420,6 +1711,7 @@
 		7592B8831ACC91DA00C87CF8 /* Respiratoire */ = {
 			isa = PBXGroup;
 			children = (
+				75F590B11ACEBD2B00398BE8 /* 09_01_ThoraxLungs_MP4 768Kbpst.png */,
 				7592B87B1ACC91D200C87CF8 /* 09_05_ExaminingAnteriorThorax_MP4 768Kbpst.png */,
 				7592B87C1ACC91D200C87CF8 /* 09_04_ExaminingPosteriorThorax_MP4 768Kbpst.png */,
 				7592B87D1ACC91D200C87CF8 /* 09_03_BeginningExamination_MP4 768Kbpst.png */,
@@ -1640,7 +1932,7 @@
 		75CE28B819F394AC002FF80F /* Pharmacologie */ = {
 			isa = PBXGroup;
 			children = (
-				75D3C93F1A17B852003D5B57 /* Polycopié de pharmacologie 2014.pdf */,
+				75F590051ACEA01D00398BE8 /* Polycopié de pharmacologie 2014.pdf */,
 				75CE28B919F394AC002FF80F /* Polycopié de pharmacologieold 2014.pdf */,
 			);
 			path = Pharmacologie;
@@ -1684,6 +1976,103 @@
 				75CE28C519F394AC002FF80F /* Forum vaccins.pdf */,
 			);
 			path = Vaccinologie;
+			sourceTree = "<group>";
+		};
+		75D6F2BA1ADBE66100B7191F /* Genitorectal femme */ = {
+			isa = PBXGroup;
+			children = (
+				75D6F2BB1ADBE66100B7191F /* Bates15_AnatRev_ExtFemaleGent.png */,
+				75D6F2BC1ADBE66100B7191F /* Bates15_AnatRev_IntFemaleGent.png */,
+				75D6F2BD1ADBE66100B7191F /* Bates15_ExamExtFemaleGent.png */,
+				75D6F2BE1ADBE66100B7191F /* Bates15_ExamIntFemaleGent.png */,
+				75D6F2BF1ADBE66100B7191F /* Bates15_Introt.png */,
+				75D6F2C01ADBE66100B7191F /* Bates15_RectoExamt.png */,
+			);
+			path = "Genitorectal femme";
+			sourceTree = "<group>";
+		};
+		75D6F2C11ADBE66100B7191F /* Genitorectal homme */ = {
+			isa = PBXGroup;
+			children = (
+				75D6F2C21ADBE66100B7191F /* 14_01_MaleGenitalia_MP4 768Kbpst.png */,
+				75D6F2C31ADBE66100B7191F /* 14_03_AnatomyReviewGenitaliaHernias_MP4 768Kbpst.png */,
+				75D6F2C41ADBE66100B7191F /* 14_04_ExaminingMaleGenitalia_MP4 768Kbpst.png */,
+				75D6F2C51ADBE66100B7191F /* 14_05_AssessingForHernias_MP4 768Kbpst.png */,
+				75D6F2C61ADBE66100B7191F /* 14_06_AnatomyReviewRectum_MP4 768Kbpst.png */,
+				75D6F2C71ADBE66100B7191F /* 14_07_HealthHistoryRectumProstateBladder_MP4 768Kbpst.png */,
+				75D6F2C81ADBE66100B7191F /* 14_08_ExaminingAnusRectumProstate_MP4 768Kbpst.png */,
+			);
+			path = "Genitorectal homme";
+			sourceTree = "<group>";
+		};
+		75D6F2C91ADBE66100B7191F /* Gériatrie */ = {
+			isa = PBXGroup;
+			children = (
+				75D6F2CA1ADBE66100B7191F /* 04_01_HTTOlderAdult_MP4 768Kbpst.png */,
+				75D6F2CB1ADBE66100B7191F /* 04_02_ApproachToPatient_MP4 768Kbpst.png */,
+				75D6F2CC1ADBE66100B7191F /* 04_03_HealthHistory_MP4 768Kbpst.png */,
+				75D6F2CD1ADBE66100B7191F /* 04_04_GeneralSurvey_MP4 768Kbpst.png */,
+				75D6F2CE1ADBE66100B7191F /* 04_05_SkinHEENT_MP4 768Kbpst.png */,
+				75D6F2CF1ADBE66100B7191F /* 04_06_ThoraxLungsCardiovacular_MP4 768Kbpst.png */,
+				75D6F2D01ADBE66100B7191F /* 04_07_BreastsAbdomenPeripheralVascular_MP4 768Kbpst.png */,
+				75D6F2D11ADBE66100B7191F /* 04_08_GenitalRectal_MP4 768Kbpst.png */,
+				75D6F2D21ADBE66100B7191F /* 04_09_MusculoskeletalAndNervous_MP4 768Kbpst.png */,
+			);
+			path = "Gériatrie";
+			sourceTree = "<group>";
+		};
+		75D6F2D31ADBE66100B7191F /* Néonatologie */ = {
+			isa = PBXGroup;
+			children = (
+				75D6F2D41ADBE66100B7191F /* 02_01_HTTInfant_MP4 768Kbpst.png */,
+				75D6F2D51ADBE66100B7191F /* 02_02_GeneralSurveySomaticGrowth_MP4 768Kbpst.png */,
+				75D6F2D61ADBE66100B7191F /* 02_03_VitalSigns_MP4 768Kbpst.png */,
+				75D6F2D71ADBE66100B7191F /* 02_04_Skin_MP4 768Kbpst.png */,
+				75D6F2D81ADBE66100B7191F /* 02_05_HeadFace_MP4 768Kbpst.png */,
+				75D6F2D91ADBE66100B7191F /* 02_06_Eyes_MP4 768Kbpst.png */,
+				75D6F2DA1ADBE66100B7191F /* 02_07_EarsNose_MP4 768Kbpst.png */,
+				75D6F2DB1ADBE66100B7191F /* 02_08_MouthPharynx_MP4 768Kbpst.png */,
+				75D6F2DC1ADBE66100B7191F /* 02_09_ThoraxLungs_MP4 768Kbpst.png */,
+				75D6F2DD1ADBE66100B7191F /* 02_10_Heart_MP4 768Kbpst.png */,
+				75D6F2DE1ADBE66100B7191F /* 02_11_BreastsAbdomen_MP4 768Kbpst.png */,
+				75D6F2DF1ADBE66100B7191F /* 02_12_GenitaliaRectum_MP4 768Kbpst.png */,
+				75D6F2E01ADBE66100B7191F /* 02_13_MusculoskeletalSystem_MP4 768Kbpst.png */,
+				75D6F2E11ADBE66100B7191F /* 02_14_NervousSystem_MP4 768Kbpst.png */,
+			);
+			path = "Néonatologie";
+			sourceTree = "<group>";
+		};
+		75D6F2E21ADBE66100B7191F /* Pédiatrie */ = {
+			isa = PBXGroup;
+			children = (
+				75D6F2E31ADBE66100B7191F /* 03_01_ApproachToChild_MP4 768Kbpst.png */,
+				75D6F2E41ADBE66100B7191F /* 03_02_GeneralSurveySomaticGrowth_MP4 768Kbpst.png */,
+				75D6F2E51ADBE66100B7191F /* 03_03_VitalSigns_MP4 768Kbpst.png */,
+				75D6F2E61ADBE66100B7191F /* 03_04_Skin_MP4 768Kbpst.png */,
+				75D6F2E71ADBE66100B7191F /* 03_05_HeadFace_MP4 768Kbpst.png */,
+				75D6F2E81ADBE66100B7191F /* 03_06_Eyes_MP4 768Kbpst.png */,
+				75D6F2E91ADBE66100B7191F /* 03_07_EarsNose_MP4 768Kbpst.png */,
+				75D6F2EA1ADBE66100B7191F /* 03_08_MouthPharynx_MP4 768Kbpst.png */,
+				75D6F2EB1ADBE66100B7191F /* 03_09_ThoraxLungs_MP4 768Kbpst.png */,
+				75D6F2EC1ADBE66100B7191F /* 03_10_BreastsAbdomen_MP4 768Kbpst.png */,
+				75D6F2ED1ADBE66100B7191F /* 03_11_MaleChildGenitalia_MP4 768Kbpst.png */,
+				75D6F2EE1ADBE66100B7191F /* 03_12_FemaleChildGenitalia_MP4 768Kbpst.png */,
+				75D6F2EF1ADBE66100B7191F /* 03_13_MusculoskeletalSystem_MP4 768Kbpst.png */,
+				75D6F2F01ADBE66100B7191F /* 03_14_NervousSystem_MP4 768Kbpst.png */,
+			);
+			path = "Pédiatrie";
+			sourceTree = "<group>";
+		};
+		75D6F2F11ADBE66100B7191F /* Seins et région axilaire */ = {
+			isa = PBXGroup;
+			children = (
+				75D6F2F21ADBE66100B7191F /* 12_01_Introt.png */,
+				75D6F2F31ADBE66100B7191F /* 12_02_AnatomyReviewt.png */,
+				75D6F2F41ADBE66100B7191F /* 12_04_ExamingFemaleBreastst.png */,
+				75D6F2F51ADBE66100B7191F /* 12_05_ExamingMaleBreastst.png */,
+				75D6F2F61ADBE66100B7191F /* 12_06_ExaminingAxillaet.png */,
+			);
+			path = "Seins et région axilaire";
 			sourceTree = "<group>";
 		};
 		75DF4A8719F78D89000F2F90 /* Video */ = {
@@ -1761,6 +2150,130 @@
 			path = DERMATO;
 			sourceTree = "<group>";
 		};
+		75F590071ACEA0D000398BE8 /* ORL */ = {
+			isa = PBXGroup;
+			children = (
+				75F590081ACEA0D000398BE8 /* 07_01_HeadEyesEars.png */,
+				75F590091ACEA0D000398BE8 /* 07_02_AnatomyReviewHead.png */,
+				75F5900A1ACEA0D000398BE8 /* 07_03_ExaminingHead.png */,
+				75F5900B1ACEA0D000398BE8 /* 07_04_AnatomyReviewEyes.png */,
+				75F5900C1ACEA0D000398BE8 /* 07_05_ExaminingEyes.png */,
+				75F5900D1ACEA0D000398BE8 /* 07_06_AnatomyReviewEars.png */,
+				75F5900E1ACEA0D000398BE8 /* 07_07_ExaminingEars.png */,
+				75F5900F1ACEA0D000398BE8 /* 08_01_NoseMouthNeck.png */,
+				75F590101ACEA0D000398BE8 /* 08_02_AnatomyReviewNose.png */,
+				75F590111ACEA0D000398BE8 /* 08_03_HealthHistory.png */,
+				75F590121ACEA0D000398BE8 /* 08_04_ExaminingNose.png */,
+				75F590131ACEA0D000398BE8 /* 08_05_AnatomyReviewMouth.png */,
+				75F590141ACEA0D000398BE8 /* 08_06_ExaminingMouth.png */,
+				75F590151ACEA0D000398BE8 /* 08_07_AnatomyReviewNeck.png */,
+				75F590161ACEA0D000398BE8 /* 08_08_ExaminingNeck.png */,
+				75F590171ACEA0D000398BE8 /* Bates07_HeadEarsEyest.png */,
+			);
+			path = ORL;
+			sourceTree = "<group>";
+		};
+		75F590281ACEB66700398BE8 /* Cardiovasculaire */ = {
+			isa = PBXGroup;
+			children = (
+				75F590291ACEB66700398BE8 /* 10_01_CardiovascularSystem_MP4 768Kbps_001t.png */,
+				75F5902A1ACEB66700398BE8 /* 11_01_Examen vasculaire complet.png */,
+				75F5902B1ACEB66700398BE8 /* 11_02_AnatomyReviewt.png */,
+				75F5902C1ACEB66700398BE8 /* 11_04_ExaminingArmst.png */,
+				75F5902D1ACEB66700398BE8 /* 11_05_ExaminingAbdoment.png */,
+				75F5902E1ACEB66700398BE8 /* 11_06_ExaminingLegst.png */,
+				75F5902F1ACEB66700398BE8 /* 11_07_AssessingArterialInsufficiencyt.png */,
+				75F590301ACEB66700398BE8 /* 11_08_AssessingVenousInsuffiencyt.png */,
+				75F590311ACEB66700398BE8 /* Anat cou.png */,
+				75F590321ACEB66700398BE8 /* Anatomie coeur review.png */,
+				75F590331ACEB66700398BE8 /* auscultation cardiaque.png */,
+				75F590341ACEB66700398BE8 /* bruits du coeur.png */,
+				75F590351ACEB66700398BE8 /* Estimation PJ.png */,
+				75F590361ACEB66700398BE8 /* examination du coeur.png */,
+				75F590371ACEB66700398BE8 /* grades des souffles.png */,
+				75F590381ACEB66700398BE8 /* Pouls carotidien.png */,
+			);
+			path = Cardiovasculaire;
+			sourceTree = "<group>";
+		};
+		75F590391ACEB66700398BE8 /* Digestif */ = {
+			isa = PBXGroup;
+			children = (
+				75F5903A1ACEB66700398BE8 /* 13_03_AnatomyReviewAbdomen_MP4 768Kbpst.png */,
+				75F5903B1ACEB66700398BE8 /* 13_04_ExaminingAbdomen_MP4 768Kbpst.png */,
+				75F5903C1ACEB66700398BE8 /* 13_05_ExaminingLiver_MP4 768Kbpst.png */,
+				75F5903D1ACEB66700398BE8 /* 13_06_ExaminingSpleen_MP4 768Kbpst.png */,
+				75F5903E1ACEB66700398BE8 /* 13_07_ExaminingKidneys_MP4 768Kbpst.png */,
+				75F5903F1ACEB66700398BE8 /* 13_08_SpecialTechniques_MP4 768Kbpst.png */,
+				75F590401ACEB66700398BE8 /* Examen complet digestif.png */,
+			);
+			path = Digestif;
+			sourceTree = "<group>";
+		};
+		75F590411ACEB66700398BE8 /* Neurologique */ = {
+			isa = PBXGroup;
+			children = (
+				75F590421ACEB66700398BE8 /* 17_01_Complet Nerveux NC moteur.png */,
+				75F590431ACEB66700398BE8 /* 17_03_AnatomyReviewCNI-XII_MP4 768Kbpst.png */,
+				75F590441ACEB66700398BE8 /* 17_04_ExaminingCNI-XII_MP4 768Kbpst.png */,
+				75F590451ACEB66700398BE8 /* 17_05_ExaminingMotorSystem_MP4 768Kbpst.png */,
+				75F590461ACEB66700398BE8 /* 17_06_AssessmentOfCoordination_MP4 768Kbpst.png */,
+				75F590471ACEB66700398BE8 /* 18_01_Complet sensitif et réflexe.png */,
+				75F590481ACEB66700398BE8 /* 18_02_AnatomyReviewSensorySystem_MP4 768Kbpst.png */,
+				75F590491ACEB66700398BE8 /* 18_03_ExaminingSensorySystem_MP4 768Kbpst.png */,
+				75F5904A1ACEB66700398BE8 /* 18_04_AnatomyReviewReflexes_MP4 768Kbpst.png */,
+				75F5904B1ACEB66700398BE8 /* 18_05_AssessmentOfReflexes_MP4 768Kbpst.png */,
+			);
+			path = Neurologique;
+			sourceTree = "<group>";
+		};
+		75F5904C1ACEB66700398BE8 /* Ostéoarticulaire */ = {
+			isa = PBXGroup;
+			children = (
+				75F5904D1ACEB66700398BE8 /* 16_01_Examen complet osteoarticulaire.png */,
+				75F5904E1ACEB66700398BE8 /* 16_02_AnatomyReviewMandible_MP4 768Kbpst.png */,
+				75F5904F1ACEB66700398BE8 /* 16_03_ExaminingMandible_MP4 768Kbpst.png */,
+				75F590501ACEB66700398BE8 /* 16_04_AnatomyReviewShoulders_MP4 768Kbpst.png */,
+				75F590511ACEB66700398BE8 /* 16_05_ExaminingShoulders_MP4 768Kbpst.png */,
+				75F590521ACEB66700398BE8 /* 16_06_AnatomyReviewElbows_MP4 768Kbpst.png */,
+				75F590531ACEB66700398BE8 /* 16_07_ExaminingElbows_MP4 768Kbpst.png */,
+				75F590541ACEB66700398BE8 /* 16_08_AnatomyReviewWristsHands_MP4 768Kbpst.png */,
+				75F590551ACEB66700398BE8 /* 16_09_ExaminingWristsHands_MP4 768Kbpst.png */,
+				75F590561ACEB66700398BE8 /* 16_10_AnatomyReviewSpine_MP4 768Kbpst.png */,
+				75F590571ACEB66700398BE8 /* 16_11_ExaminingSpine_MP4 768Kbpst.png */,
+				75F590581ACEB66700398BE8 /* 16_12_AnatomyReviewHips_MP4 768Kbpst.png */,
+				75F590591ACEB66700398BE8 /* 16_13_ExaminingHips_MP4 768Kbpst.png */,
+				75F5905A1ACEB66700398BE8 /* 16_14_AnatomyReviewKnees_MP4 768Kbpst.png */,
+				75F5905B1ACEB66700398BE8 /* 16_15_ExaminingKnees_MP4 768Kbpst.png */,
+				75F5905C1ACEB66700398BE8 /* 16_16_AnatomyReviewAnklesFeet_MP4 768Kbpst.png */,
+				75F5905D1ACEB66700398BE8 /* 16_17_ExaminingAnklesFeet_MP4 768Kbpst.png */,
+			);
+			path = "Ostéoarticulaire";
+			sourceTree = "<group>";
+		};
+		75F5905E1ACEB66700398BE8 /* Tête-pied */ = {
+			isa = PBXGroup;
+			children = (
+				75F5905F1ACEB66700398BE8 /* 01_01_HTTAdult_MP4 768Kbpst.png */,
+				75F590601ACEB66700398BE8 /* 01_03_GeneralSurveyVitalSigns_MP4 768Kbpst.png */,
+				75F590611ACEB66700398BE8 /* 01_04_TheSkin_MP4 768Kbpst.png */,
+				75F590621ACEB66700398BE8 /* 01_05_HEENT_MP4 768Kbpst.png */,
+				75F590631ACEB66700398BE8 /* 01_06_NervousSystemCranialNerves_MP4 768Kbpst.png */,
+				75F590641ACEB66700398BE8 /* 01_07_TheNeck_MP4 768Kbpst.png */,
+				75F590651ACEB66700398BE8 /* 01_08_BackPosteriorThoraxLungs_MP4 768Kbpst.png */,
+				75F590661ACEB66700398BE8 /* 01_09_UpperExtremities_MP4 768Kbpst.png */,
+				75F590671ACEB66700398BE8 /* 01_10_Breasts_MP4 768Kbpst.png */,
+				75F590681ACEB66700398BE8 /* 01_11_AnteriorThoraxLungs_MP4 768Kbpst.png */,
+				75F590691ACEB66700398BE8 /* 01_12_CardiovascularSystem_MP4 768Kbpst.png */,
+				75F5906A1ACEB66700398BE8 /* 01_13_Abdomen_MP4 768Kbpst.png */,
+				75F5906B1ACEB66700398BE8 /* 01_14_PeripheralVascularSystem_MP4 768Kbpst.png */,
+				75F5906C1ACEB66700398BE8 /* 01_15_LowerExtremities_MP4 768Kbpst.png */,
+				75F5906D1ACEB66700398BE8 /* 01_16_NervousSystem_MP4 768Kbpst.png */,
+				75F5906E1ACEB66700398BE8 /* 01_17_GenitalRectal_MP4 768Kbpst.png */,
+			);
+			path = "Tête-pied";
+			sourceTree = "<group>";
+		};
 		C3080DD717FE86B8008AE8CC = {
 			isa = PBXGroup;
 			children = (
@@ -1816,6 +2329,8 @@
 				C3080DF217FE86B8008AE8CC /* AppDelegate.h */,
 				C3080DF317FE86B8008AE8CC /* AppDelegate.m */,
 				C3080DF517FE86B8008AE8CC /* Main.storyboard */,
+				75D08C441B13B1980018B6FC /* FeedBackViewController.h */,
+				75D08C451B13B1980018B6FC /* FeedBackViewController.m */,
 				C3080DFB17FE86B8008AE8CC /* Images.xcassets */,
 				C3080DEA17FE86B8008AE8CC /* Supporting Files */,
 			);
@@ -2334,51 +2849,74 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75F590741ACEB66700398BE8 /* 11_06_ExaminingLegst.png in Resources */,
+				75D6F30A1ADBE66100B7191F /* 04_07_BreastsAbdomenPeripheralVascular_MP4 768Kbpst.png in Resources */,
 				7506807F19EB300100EA0040 /* Minus.png in Resources */,
 				758BDA7B19FBB734000EBC90 /* homeg-50.png in Resources */,
+				75F590191ACEA0D000398BE8 /* 07_02_AnatomyReviewHead.png in Resources */,
+				75F590841ACEB66700398BE8 /* 13_08_SpecialTechniques_MP4 768Kbpst.png in Resources */,
 				FCB847DE19FE90880047D902 /* Uro-génital - Urétrites.pdf in Resources */,
 				75AB216B1A24B70F007829C7 /* minisplas2hbig.png in Resources */,
 				75CE28D919F394AC002FF80F /* Neuro3.pdf in Resources */,
 				75470D3B1A09895600563414 /* PageCurl.png in Resources */,
 				FCF6C3FD1A0641D400500E60 /* PDS-vacutainer.pdf in Resources */,
+				75F590971ACEB66700398BE8 /* 16_08_AnatomyReviewWristsHands_MP4 768Kbpst.png in Resources */,
 				FCB847D119FE90880047D902 /* Ostéoarticulaire - Douleur mono ou pauciarticulaire.pdf in Resources */,
 				C3080EDC17FED422008AE8CC /* add_news3.png in Resources */,
+				75F590961ACEB66700398BE8 /* 16_07_ExaminingElbows_MP4 768Kbpst.png in Resources */,
 				C36FBE59181D5CCF007AE52A /* navbar_uparrow.png in Resources */,
 				FCB847D819FE90880047D902 /* Psychiatrique - Dépression.pdf in Resources */,
 				75CE28C819F394AC002FF80F /* Cahier TP Lymph.pdf in Resources */,
 				75F590011ACE97AA00398BE8 /* 06_04_ExamingTheSkin_MP4 768Kbpst.png in Resources */,
+				75D6F32C1ADBE66100B7191F /* 12_05_ExamingMaleBreastst.png in Resources */,
 				C3080F0117FEEDF8008AE8CC /* invite_fb_cursor.png in Resources */,
 				75CE28EA19F394AC002FF80F /* Secondary survey.pdf in Resources */,
 				75CE28D719F394AC002FF80F /* Neuro1.pdf in Resources */,
 				75470D321A09895600563414 /* Color_SkyBlue.png in Resources */,
+				75F590B01ACEB66700398BE8 /* 01_17_GenitalRectal_MP4 768Kbpst.png in Resources */,
 				75470D2D1A09895600563414 /* Color_Green.png in Resources */,
+				75D6F3061ADBE66100B7191F /* 04_03_HealthHistory_MP4 768Kbpst.png in Resources */,
 				75C50B8519FAF6330011698B /* more_then-50.png in Resources */,
 				75CE290519F41AD9002FF80F /* filter_filled.png in Resources */,
 				75932D9719F2437A00D24223 /* checkmark-32.png in Resources */,
 				C3080E8D17FEA685008AE8CC /* feed_example1.png in Resources */,
 				C3080EE317FED422008AE8CC /* add_recommend2@2x.png in Resources */,
+				75F590761ACEB66700398BE8 /* 11_08_AssessingVenousInsuffiencyt.png in Resources */,
 				FCB847DA19FE90880047D902 /* Uro-génital - Hématurie microscopique.pdf in Resources */,
+				75F590731ACEB66700398BE8 /* 11_05_ExaminingAbdoment.png in Resources */,
+				75D6F30D1ADBE66100B7191F /* 02_01_HTTInfant_MP4 768Kbpst.png in Resources */,
+				75F5908B1ACEB66700398BE8 /* 18_01_Complet sensitif et réflexe.png in Resources */,
 				FCB847D519FE90880047D902 /* Prévention - Vaccination.pdf in Resources */,
 				FCB847D919FE90880047D902 /* Uro-génital - Colique néphrétique.pdf in Resources */,
 				FCB847C519FE90880047D902 /* Immuno-allergologique - Rhinite allergique.pdf in Resources */,
 				75470D251A09895600563414 /* Back_Selected_Black.png in Resources */,
 				7506808319EC661000EA0040 /* Minus_black.png in Resources */,
+				75D6F3111ADBE66100B7191F /* 02_05_HeadFace_MP4 768Kbpst.png in Resources */,
 				FCB847B819FE90880047D902 /* Cardiologie - Hypertension artérielle.pdf in Resources */,
 				C3080EB317FEC341008AE8CC /* setting_cell_checkmark@2x.png in Resources */,
 				75470D7B1A0A0C1600563414 /* checkmark-48.png in Resources */,
 				C3080DFC17FE86B8008AE8CC /* Images.xcassets in Resources */,
+				75D6F3151ADBE66100B7191F /* 02_09_ThoraxLungs_MP4 768Kbpst.png in Resources */,
 				C3080E7417FE9B79008AE8CC /* menu_color_selected.png in Resources */,
 				75470D3D1A09895600563414 /* Printer.png in Resources */,
 				752E3B6F1A1B383A003573E0 /* bigsplash.png in Resources */,
 				C3080E5917FE8827008AE8CC /* menu_vbar@2x.png in Resources */,
+				75F590181ACEA0D000398BE8 /* 07_01_HeadEyesEars.png in Resources */,
 				75470D261A09895600563414 /* BookCover_2.png in Resources */,
 				75CE28DE19F394AC002FF80F /* Injection IM et IV.pdf in Resources */,
+				75D6F2FD1ADBE66100B7191F /* 14_01_MaleGenitalia_MP4 768Kbpst.png in Resources */,
+				75F5907E1ACEB66700398BE8 /* Pouls carotidien.png in Resources */,
+				75F5909C1ACEB66700398BE8 /* 16_13_ExaminingHips_MP4 768Kbpst.png in Resources */,
 				75E385D819F1B236006C60FF /* test_tube-50.png in Resources */,
 				C3080E5017FE8827008AE8CC /* menu_cell_separator.png in Resources */,
+				75D6F32A1ADBE66100B7191F /* 12_02_AnatomyReviewt.png in Resources */,
+				75F590B21ACEBD2B00398BE8 /* 09_01_ThoraxLungs_MP4 768Kbpst.png in Resources */,
 				FCB847C919FE90880047D902 /* Neurologique - Céphalées.pdf in Resources */,
 				75932D9319F1B41F00D24223 /* note-48.png in Resources */,
+				75F5907F1ACEB66700398BE8 /* 13_03_AnatomyReviewAbdomen_MP4 768Kbpst.png in Resources */,
 				75CE28F319F3AC96002FF80F /* pdf.png in Resources */,
 				75470D301A09895600563414 /* Color_Purple.png in Resources */,
+				75D6F31E1ADBE66100B7191F /* 03_04_Skin_MP4 768Kbpst.png in Resources */,
 				C3080E4C17FE8827008AE8CC /* menu_cell_icon_favor.png in Resources */,
 				75E3859019EFCC94006C60FF /* blocktags in Resources */,
 				C3080F0817FEEDF8008AE8CC /* invite_tw_cursor@2x.png in Resources */,
@@ -2394,14 +2932,17 @@
 				75470D811A0A0D2E00563414 /* categorize-48.png in Resources */,
 				C3080F0A17FEEDF8008AE8CC /* invite_twitter@2x.png in Resources */,
 				758BDA8519FBBEDB000EBC90 /* searchB-50.png in Resources */,
+				75F590AE1ACEB66700398BE8 /* 01_15_LowerExtremities_MP4 768Kbpst.png in Resources */,
 				C3080EB617FEC341008AE8CC /* setting_cell_order.png in Resources */,
 				C3080E8B17FEA685008AE8CC /* feed_comment_bg.png in Resources */,
 				FCB847D419FE90880047D902 /* Prévention - Dépistage.pdf in Resources */,
 				75D869A719F905EE00F53AF1 /* filter-50.png in Resources */,
+				75F590821ACEB66700398BE8 /* 13_06_ExaminingSpleen_MP4 768Kbpst.png in Resources */,
 				75103A8219FD635100BD458D /* Rachis.pdf in Resources */,
 				759EAFBB19F7AD06008348F7 /* play-50.png in Resources */,
 				75CE28D519F394AC002FF80F /* Loco2.pdf in Resources */,
 				75F5C2751A30A6FB004D6354 /* foundation_play-circle_simple-white_128x128.png in Resources */,
+				75F590221ACEA0D000398BE8 /* 08_04_ExaminingNose.png in Resources */,
 				FCB847DB19FE90880047D902 /* Uro-génital - Infections urinaires.pdf in Resources */,
 				75470D751A09A99B00563414 /* export-50.png in Resources */,
 				7592B8771ACC5D7500C87CF8 /* unige.png in Resources */,
@@ -2412,26 +2953,40 @@
 				FCB847BD19FE90880047D902 /* Dermatologie - Acnée- verrues-mycoses.pdf in Resources */,
 				C3080F0917FEEDF8008AE8CC /* invite_twitter.png in Resources */,
 				FCB847CC19FE90880047D902 /* ORL-Pneumo - Asthme.pdf in Resources */,
+				75F5901F1ACEA0D000398BE8 /* 08_01_NoseMouthNeck.png in Resources */,
 				75CE28E419F394AC002FF80F /* Polycopié de pharmacologieold 2014.pdf in Resources */,
 				75CE28C919F394AC002FF80F /* vascularisationSNC2013.pdf in Resources */,
 				75103A8619FD635100BD458D /* Epaule.pdf in Resources */,
 				FCB847C719FE90880047D902 /* Infectieux - Fièvre au retour de voyage.pdf in Resources */,
 				75103A8019FD635100BD458D /* Myologie MI.pdf in Resources */,
+				75F590871ACEB66700398BE8 /* 17_03_AnatomyReviewCNI-XII_MP4 768Kbpst.png in Resources */,
 				C3080EFE17FEEDF8008AE8CC /* invite_example1.png in Resources */,
+				75F590701ACEB66700398BE8 /* 11_01_Examen vasculaire complet.png in Resources */,
+				75D6F3231ADBE66100B7191F /* 03_09_ThoraxLungs_MP4 768Kbpst.png in Resources */,
+				75F590A01ACEB66700398BE8 /* 16_17_ExaminingAnklesFeet_MP4 768Kbpst.png in Resources */,
 				FCB847C619FE90880047D902 /* Immuno-allergologique - Urticaire et angio-oedème.pdf in Resources */,
 				FCB847B919FE90880047D902 /* Cardiovasculaire - IC chronique.pdf in Resources */,
+				75F590831ACEB66700398BE8 /* 13_07_ExaminingKidneys_MP4 768Kbpst.png in Resources */,
+				75D6F3191ADBE66100B7191F /* 02_13_MusculoskeletalSystem_MP4 768Kbpst.png in Resources */,
 				C3080DEE17FE86B8008AE8CC /* InfoPlist.strings in Resources */,
 				75470D3F1A09895600563414 /* Search_Word.png in Resources */,
 				75470D421A09895600563414 /* SelectedDone_Port_iPhone.png in Resources */,
 				C3080F0717FEEDF8008AE8CC /* invite_tw_cursor.png in Resources */,
+				75D6F31D1ADBE66100B7191F /* 03_03_VitalSigns_MP4 768Kbpst.png in Resources */,
+				75F590861ACEB66700398BE8 /* 17_01_Complet Nerveux NC moteur.png in Resources */,
 				75D869A619F905EE00F53AF1 /* filter_filled-50.png in Resources */,
 				75AB21721A24C800007829C7 /* star-50-black.png in Resources */,
+				75F590271ACEA0D000398BE8 /* Bates07_HeadEarsEyest.png in Resources */,
 				FCB847B719FE90880047D902 /* Cardiologie - Fibrilation auriculaire.pdf in Resources */,
 				75E385BB19EFCC94006C60FF /* InfoPlist.strings in Resources */,
+				75D6F31B1ADBE66100B7191F /* 03_01_ApproachToChild_MP4 768Kbpst.png in Resources */,
 				75470D331A09895600563414 /* Color_White.png in Resources */,
+				75D6F2F71ADBE66100B7191F /* Bates15_AnatRev_ExtFemaleGent.png in Resources */,
 				75CE28EB19F394AC002FF80F /* Forum vaccins.pdf in Resources */,
+				75F5901C1ACEA0D000398BE8 /* 07_05_ExaminingEyes.png in Resources */,
 				C3080E5317FE8827008AE8CC /* menu_example1@2x.png in Resources */,
 				75CE28C619F394AC002FF80F /* Cahier TP Cardio.pdf in Resources */,
+				75D6F3281ADBE66100B7191F /* 03_14_NervousSystem_MP4 768Kbpst.png in Resources */,
 				FCB847CA19FE90880047D902 /* Neurologique - Vertiges.pdf in Resources */,
 				FCB847D219FE90880047D902 /* Ostéoarticulaire - Lombalgie aigue.pdf in Resources */,
 				75D869A919F9067C00F53AF1 /* search-50.png in Resources */,
@@ -2440,50 +2995,73 @@
 				FCB847D719FE90880047D902 /* Profil de patients - Patient alcoolique.pdf in Resources */,
 				FCB847D019FE90880047D902 /* ORL-Pneumo - Toux chronique.pdf in Resources */,
 				7592B8811ACC91D200C87CF8 /* 09_03_BeginningExamination_MP4 768Kbpst.png in Resources */,
+				75D6F30F1ADBE66100B7191F /* 02_03_VitalSigns_MP4 768Kbpst.png in Resources */,
 				75CE28FD19F417B7002FF80F /* empty_filter-26.png in Resources */,
 				7506807A19EB245200EA0040 /* Arrow up.png in Resources */,
+				75D6F3121ADBE66100B7191F /* 02_06_Eyes_MP4 768Kbpst.png in Resources */,
 				75E385CB19EFCC94006C60FF /* test.html in Resources */,
+				75D6F3211ADBE66100B7191F /* 03_07_EarsNose_MP4 768Kbpst.png in Resources */,
 				75CE28E319F394AC002FF80F /* Système ostéo-articulaire.pdf in Resources */,
 				7592B8801ACC91D200C87CF8 /* 09_04_ExaminingPosteriorThorax_MP4 768Kbpst.png in Resources */,
+				75F590911ACEB66700398BE8 /* 16_02_AnatomyReviewMandible_MP4 768Kbpst.png in Resources */,
 				75470D281A09895600563414 /* Bookmark_Gray_S.png in Resources */,
 				75470D381A09895600563414 /* MenuBG_Iphone.png in Resources */,
 				75470D361A09895600563414 /* Mark_Bookmark.png in Resources */,
 				FCF6C3EB1A06366B00500E60 /* Coude.pdf in Resources */,
+				75F590801ACEB66700398BE8 /* 13_04_ExaminingAbdomen_MP4 768Kbpst.png in Resources */,
+				75F5908E1ACEB66700398BE8 /* 18_04_AnatomyReviewReflexes_MP4 768Kbpst.png in Resources */,
 				C3080EDB17FED422008AE8CC /* add_news2@2x.png in Resources */,
+				75F590931ACEB66700398BE8 /* 16_04_AnatomyReviewShoulders_MP4 768Kbpst.png in Resources */,
 				FCF6C40B1A06594A00500E60 /* Plan-de-vaccination-2014.pdf in Resources */,
 				75AB21701A24C6B2007829C7 /* star-50.png in Resources */,
 				75E385C519EFCC94006C60FF /* OCPDFGen-Info.plist in Resources */,
 				7524A45519E8932C006607C1 /* CCDC - Cahier.pdf in Resources */,
 				75CE28E219F394AC002FF80F /* Transfusion sanguine.pdf in Resources */,
+				75F590231ACEA0D000398BE8 /* 08_05_AnatomyReviewMouth.png in Resources */,
+				75D6F32D1ADBE66100B7191F /* 12_06_ExaminingAxillaet.png in Resources */,
 				C3080E8417FEA622008AE8CC /* navbar_search.png in Resources */,
+				75D6F3041ADBE66100B7191F /* 04_01_HTTOlderAdult_MP4 768Kbpst.png in Resources */,
 				FCB847CD19FE90880047D902 /* ORL-Pneumo - BPCO.pdf in Resources */,
 				C3080F0317FEEDF8008AE8CC /* invite_plus.png in Resources */,
 				C3080EA417FEBE55008AE8CC /* navbar_back.png in Resources */,
 				C3080E5817FE8827008AE8CC /* menu_vbar.png in Resources */,
 				75CE28F119F3AB82002FF80F /* Semiologie3.pdf in Resources */,
+				75F590791ACEB66700398BE8 /* auscultation cardiaque.png in Resources */,
+				75F590211ACEA0D000398BE8 /* 08_03_HealthHistory.png in Resources */,
 				75CE28DC19F394AC002FF80F /* Uro.pdf in Resources */,
+				75D6F3001ADBE66100B7191F /* 14_05_AssessingForHernias_MP4 768Kbpst.png in Resources */,
+				75F5901B1ACEA0D000398BE8 /* 07_04_AnatomyReviewEyes.png in Resources */,
 				7506808619EDC4E600EA0040 /* Phonepad.png in Resources */,
 				75470D3A1A09895600563414 /* MultiPage_S.png in Resources */,
+				75D6F32B1ADBE66100B7191F /* 12_04_ExamingFemaleBreastst.png in Resources */,
 				758BDA7D19FBB7CD000EBC90 /* home_filled-50.png in Resources */,
 				75CE290119F41882002FF80F /* filter.png in Resources */,
 				75CE28E119F394AC002FF80F /* Pansement.pdf in Resources */,
 				7523CCC719F25F1F00914EAF /* lungs-50.png in Resources */,
 				C3080EE017FED422008AE8CC /* add_recommend1.png in Resources */,
 				7524A47B19E9A682006607C1 /* Launch Screen.xib in Resources */,
-				75D3C9401A17B852003D5B57 /* Polycopié de pharmacologie 2014.pdf in Resources */,
 				75470D401A09895600563414 /* Seeting_Selected_Black.png in Resources */,
+				75F5907C1ACEB66700398BE8 /* examination du coeur.png in Resources */,
 				75C9232519EA94810005CA31 /* check-on.png in Resources */,
 				75D3C9421A18C796003D5B57 /* memo.png in Resources */,
 				75470D351A09895600563414 /* Done_PGreen.png in Resources */,
 				75470D411A09895600563414 /* SelectedDone_Land_iPhone.png in Resources */,
+				75D6F2FA1ADBE66100B7191F /* Bates15_ExamIntFemaleGent.png in Resources */,
+				75F590A41ACEB66700398BE8 /* 01_05_HEENT_MP4 768Kbpst.png in Resources */,
+				75D6F2FF1ADBE66100B7191F /* 14_04_ExaminingMaleGenitalia_MP4 768Kbpst.png in Resources */,
+				75F590891ACEB66700398BE8 /* 17_05_ExaminingMotorSystem_MP4 768Kbpst.png in Resources */,
+				75F5906F1ACEB66700398BE8 /* 10_01_CardiovascularSystem_MP4 768Kbps_001t.png in Resources */,
 				FCF6C3DF1A0632FD00500E60 /* Troubles psychotiques.pdf in Resources */,
 				C3080E5717FE8827008AE8CC /* menu_setting@2x.png in Resources */,
 				75D869AD19F9077900F53AF1 /* menu-50.png in Resources */,
+				75F590991ACEB66700398BE8 /* 16_10_AnatomyReviewSpine_MP4 768Kbpst.png in Resources */,
 				75CE28E519F394AC002FF80F /* Anxiete.pdf in Resources */,
 				FCB847C219FE90880047D902 /* Gastro-intestinal - Elévation des tests hépatiques.pdf in Resources */,
 				C3080F0517FEEDF8008AE8CC /* invite_refresh.png in Resources */,
+				75F590771ACEB66700398BE8 /* Anat cou.png in Resources */,
 				C3080F0217FEEDF8008AE8CC /* invite_fb_cursor@2x.png in Resources */,
 				7592B8731ACC375100C87CF8 /* UNIGE_Medecine_logo.jpg in Resources */,
+				75D6F3171ADBE66100B7191F /* 02_11_BreastsAbdomen_MP4 768Kbpst.png in Resources */,
 				C3080E5617FE8827008AE8CC /* menu_setting.png in Resources */,
 				758BDA7F19FBB856000EBC90 /* info-48.png in Resources */,
 				75CE28DF19F394AC002FF80F /* Injections.pdf in Resources */,
@@ -2491,54 +3069,83 @@
 				C3080EA517FEBE55008AE8CC /* navbar_back@2x.png in Resources */,
 				C3080EDA17FED422008AE8CC /* add_news2.png in Resources */,
 				C3080E7917FE9E5B008AE8CC /* menu_icon_plus@2x.png in Resources */,
+				75D6F30B1ADBE66100B7191F /* 04_08_GenitalRectal_MP4 768Kbpst.png in Resources */,
 				FCF6C3ED1A06372600500E60 /* Bassin.pdf in Resources */,
+				75F590881ACEB66700398BE8 /* 17_04_ExaminingCNI-XII_MP4 768Kbpst.png in Resources */,
+				75D6F31C1ADBE66100B7191F /* 03_02_GeneralSurveySomaticGrowth_MP4 768Kbpst.png in Resources */,
+				75D6F3221ADBE66100B7191F /* 03_08_MouthPharynx_MP4 768Kbpst.png in Resources */,
+				75F590941ACEB66700398BE8 /* 16_05_ExaminingShoulders_MP4 768Kbpst.png in Resources */,
 				75470D6B1A09895600563414 /* SearchingView.xib in Resources */,
 				75CE28F719F3B513002FF80F /* checklist-50.png in Resources */,
 				C3080E8C17FEA685008AE8CC /* feed_comment_bg@2x.png in Resources */,
 				75F5C2731A30A65B004D6354 /* foundation_play-circle_simple-white_64x64.png in Resources */,
 				75CE28F919F3B6D9002FF80F /* switch_on-48.png in Resources */,
+				75F5909F1ACEB66700398BE8 /* 16_16_AnatomyReviewAnklesFeet_MP4 768Kbpst.png in Resources */,
 				C3080EB717FEC341008AE8CC /* setting_cell_order@2x.png in Resources */,
+				75F590A61ACEB66700398BE8 /* 01_07_TheNeck_MP4 768Kbpst.png in Resources */,
 				75CE28E819F394AC002FF80F /* Sémiologie.pdf in Resources */,
 				75103A7F19FD635100BD458D /* Myologie dos.pdf in Resources */,
 				C3080E8217FEA622008AE8CC /* navbar_menu.png in Resources */,
+				75F590AA1ACEB66700398BE8 /* 01_11_AnteriorThoraxLungs_MP4 768Kbpst.png in Resources */,
 				FCB847C819FE90880047D902 /* Métabolique - Diabète type 2.pdf in Resources */,
 				7537832E1A11314400B716B8 /* logo.png in Resources */,
 				758BDA8719FBC1F1000EBC90 /* cancel-32.png in Resources */,
 				75470D6F1A09895600563414 /* iPhone Development.pdf in Resources */,
 				7592B8791ACC5E0800C87CF8 /* 01_01_HTTAdult_MP4 768Kbpst.png in Resources */,
+				75F590261ACEA0D000398BE8 /* 08_08_ExaminingNeck.png in Resources */,
+				75F590241ACEA0D000398BE8 /* 08_06_ExaminingMouth.png in Resources */,
 				7592B87F1ACC91D200C87CF8 /* 09_05_ExaminingAnteriorThorax_MP4 768Kbpst.png in Resources */,
 				7524A47D19EA5FD1006607C1 /* external-50.png in Resources */,
+				75F5907B1ACEB66700398BE8 /* Estimation PJ.png in Resources */,
 				75CE28D319F394AC002FF80F /* Digestif2.pdf in Resources */,
 				75103A8519FD635100BD458D /* Main.pdf in Resources */,
 				FCB847C019FE90880047D902 /* Gastro-intestinal - Douleur abdo chronique et intestin irritiable.pdf in Resources */,
+				75D6F3161ADBE66100B7191F /* 02_10_Heart_MP4 768Kbpst.png in Resources */,
 				C3080EB517FEC341008AE8CC /* setting_cell_indicator@2x.png in Resources */,
 				75CE28F519F3B486002FF80F /* checklist-32.png in Resources */,
+				75F590251ACEA0D000398BE8 /* 08_07_AnatomyReviewNeck.png in Resources */,
+				75F5908A1ACEB66700398BE8 /* 17_06_AssessmentOfCoordination_MP4 768Kbpst.png in Resources */,
 				FCF6C4061A0643EC00500E60 /* BLS.pdf in Resources */,
+				75F5901D1ACEA0D000398BE8 /* 07_06_AnatomyReviewEars.png in Resources */,
 				75470D771A09A9BA00563414 /* settings-50.png in Resources */,
 				75470D371A09895600563414 /* Mark_Bookmark_S.png in Resources */,
 				75F590021ACE97AA00398BE8 /* 06_05_ExaminingHairNails_MP4 768Kbpst.png in Resources */,
+				75D6F3051ADBE66100B7191F /* 04_02_ApproachToPatient_MP4 768Kbpst.png in Resources */,
 				FCB847D319FE90880047D902 /* Pharmacologique - Douleur aigue.pdf in Resources */,
 				75470D711A09A97C00563414 /* message-50.png in Resources */,
+				75F5909D1ACEB66700398BE8 /* 16_14_AnatomyReviewKnees_MP4 768Kbpst.png in Resources */,
 				C3080E5517FE8827008AE8CC /* menu_layout_pen@2x.png in Resources */,
+				75F5909B1ACEB66700398BE8 /* 16_12_AnatomyReviewHips_MP4 768Kbpst.png in Resources */,
+				75D6F2FC1ADBE66100B7191F /* Bates15_RectoExamt.png in Resources */,
 				75CE28DB19F394AC002FF80F /* Urgences.pdf in Resources */,
 				7524A47919E98A27006607C1 /* Share icon.png in Resources */,
 				75103A8419FD635100BD458D /* Hanche.pdf in Resources */,
+				75D6F3141ADBE66100B7191F /* 02_08_MouthPharynx_MP4 768Kbpst.png in Resources */,
+				75F5909E1ACEB66700398BE8 /* 16_15_ExaminingKnees_MP4 768Kbpst.png in Resources */,
+				75D6F3291ADBE66100B7191F /* 12_01_Introt.png in Resources */,
 				FCB847D619FE90880047D902 /* Profil de patients - Evaluations gériatrique.pdf in Resources */,
 				C3080E4E17FE8827008AE8CC /* menu_cell_icon_pager.png in Resources */,
 				75103A8119FD635100BD458D /* Myologie MS.pdf in Resources */,
 				7524A45119E8920F006607C1 /* pdfIcon.png in Resources */,
+				75F590A11ACEB66700398BE8 /* 01_01_HTTAdult_MP4 768Kbpst.png in Resources */,
 				C3080EDF17FED422008AE8CC /* add_news4@2x.png in Resources */,
 				FCF6C3E71A06361C00500E60 /* Consultation.pdf in Resources */,
+				75D6F3181ADBE66100B7191F /* 02_12_GenitaliaRectum_MP4 768Kbpst.png in Resources */,
 				75CE28D419F394AC002FF80F /* Loco1.pdf in Resources */,
+				75D6F3131ADBE66100B7191F /* 02_07_EarsNose_MP4 768Kbpst.png in Resources */,
+				75F5908C1ACEB66700398BE8 /* 18_02_AnatomyReviewSensorySystem_MP4 768Kbpst.png in Resources */,
 				FCB847BF19FE90880047D902 /* Gastro-intestinal - Diarrhée aigues.pdf in Resources */,
 				C3080ED817FED422008AE8CC /* add_news1.png in Resources */,
 				C3080EB217FEC341008AE8CC /* setting_cell_checkmark.png in Resources */,
 				C3080F0B17FEEDF8008AE8CC /* invite_vbar.png in Resources */,
 				FCB847BC19FE90880047D902 /* Communication - Approches de la consultation.pdf in Resources */,
 				75470D271A09895600563414 /* Bookmark_Gray.png in Resources */,
+				75D6F2FE1ADBE66100B7191F /* 14_03_AnatomyReviewGenitaliaHernias_MP4 768Kbpst.png in Resources */,
+				75D6F3091ADBE66100B7191F /* 04_06_ThoraxLungsCardiovacular_MP4 768Kbpst.png in Resources */,
 				758BDA8119FBB88B000EBC90 /* info-50.png in Resources */,
 				756124EF1A0D2C650096E2B8 /* video_camera-50.png in Resources */,
 				75470D731A09A98800563414 /* back-50.png in Resources */,
+				75F590A71ACEB66700398BE8 /* 01_08_BackPosteriorThoraxLungs_MP4 768Kbpst.png in Resources */,
 				FCB847BA19FE90880047D902 /* Cardiovasculaire - Syncope.pdf in Resources */,
 				7537832C1A0F5F0100B716B8 /* video_camera-50-white.png in Resources */,
 				FCB847BE19FE90880047D902 /* Fibrillation auriculaire 2013.pdf in Resources */,
@@ -2549,92 +3156,138 @@
 				FCF6C4031A06423C00500E60 /* VVP.pdf in Resources */,
 				75CE28C719F394AC002FF80F /* Cahier TP Digestif.pdf in Resources */,
 				C3080E7017FE9397008AE8CC /* strings.plist in Resources */,
+				75D6F3271ADBE66100B7191F /* 03_13_MusculoskeletalSystem_MP4 768Kbpst.png in Resources */,
 				FCF6C3E11A0633A900500E60 /* Cahier TP.pdf in Resources */,
 				75470D3E1A09895600563414 /* Search_Page.png in Resources */,
+				75F590201ACEA0D000398BE8 /* 08_02_AnatomyReviewNose.png in Resources */,
 				C3080ED917FED422008AE8CC /* add_news1@2x.png in Resources */,
 				75CE28DA19F394AC002FF80F /* Respiratoire.pdf in Resources */,
 				FCB847C419FE90880047D902 /* Hématologie - Déficit B12.pdf in Resources */,
 				7506808E19EDC6C600EA0040 /* Labo.plist in Resources */,
 				FCB847DD19FE90880047D902 /* Uro-génital - Recommandations IST.pdf in Resources */,
+				75D6F30E1ADBE66100B7191F /* 02_02_GeneralSurveySomaticGrowth_MP4 768Kbpst.png in Resources */,
 				75CE290719F42EC3002FF80F /* medecine50.jpg in Resources */,
 				75CE28D119F394AC002FF80F /* Cardio.pdf in Resources */,
 				C3080F0417FEEDF8008AE8CC /* invite_plus@2x.png in Resources */,
 				75470D431A09895600563414 /* UnSelectedDone_Land_iPhone.png in Resources */,
+				75D6F3021ADBE66100B7191F /* 14_07_HealthHistoryRectumProstateBladder_MP4 768Kbpst.png in Resources */,
 				C3080EA917FEC08D008AE8CC /* search_close@2x.png in Resources */,
+				75F5907D1ACEB66700398BE8 /* grades des souffles.png in Resources */,
 				FCB847C319FE90880047D902 /* Hématologie - Anémie.pdf in Resources */,
+				75D6F3101ADBE66100B7191F /* 02_04_Skin_MP4 768Kbpst.png in Resources */,
 				FCF6C3E91A06365300500E60 /* Genou.pdf in Resources */,
+				75F590981ACEB66700398BE8 /* 16_09_ExaminingWristsHands_MP4 768Kbpst.png in Resources */,
 				C3080EFF17FEEDF8008AE8CC /* invite_fb.png in Resources */,
+				75F590A91ACEB66700398BE8 /* 01_10_Breasts_MP4 768Kbpst.png in Resources */,
 				75CE28ED19F3995D002FF80F /* pdf-50.png in Resources */,
 				C3080EE217FED422008AE8CC /* add_recommend2.png in Resources */,
 				75CE28FF19F417C1002FF80F /* filled_filter-26.png in Resources */,
 				C3080E5117FE8827008AE8CC /* menu_cell_separator@2x.png in Resources */,
+				75D6F3241ADBE66100B7191F /* 03_10_BreastsAbdomen_MP4 768Kbpst.png in Resources */,
 				75CE28F019F3AB82002FF80F /* Semiologie1.pdf in Resources */,
+				75D6F3251ADBE66100B7191F /* 03_11_MaleChildGenitalia_MP4 768Kbpst.png in Resources */,
 				C3080F0C17FEEDF8008AE8CC /* invite_vbar@2x.png in Resources */,
 				75470D2A1A09895600563414 /* Camera.png in Resources */,
 				C3080E8017FEA622008AE8CC /* navbar_downarrow.png in Resources */,
 				75CE28D219F394AC002FF80F /* Digestif1.pdf in Resources */,
+				75F5909A1ACEB66700398BE8 /* 16_11_ExaminingSpine_MP4 768Kbpst.png in Resources */,
+				75D6F2F91ADBE66100B7191F /* Bates15_ExamExtFemaleGent.png in Resources */,
+				75F590781ACEB66700398BE8 /* Anatomie coeur review.png in Resources */,
+				75F590AB1ACEB66700398BE8 /* 01_12_CardiovascularSystem_MP4 768Kbpst.png in Resources */,
+				75F590061ACEA01D00398BE8 /* Polycopié de pharmacologie 2014.pdf in Resources */,
 				75470D2B1A09895600563414 /* Color_BlackTransparent.png in Resources */,
 				C3080F0017FEEDF8008AE8CC /* invite_fb@2x.png in Resources */,
+				75F590A51ACEB66700398BE8 /* 01_06_NervousSystemCranialNerves_MP4 768Kbpst.png in Resources */,
 				C3080EE117FED422008AE8CC /* add_recommend1@2x.png in Resources */,
 				C3080E4D17FE8827008AE8CC /* menu_cell_icon_favor@2x.png in Resources */,
 				C3080E7517FE9B79008AE8CC /* menu_color_selected@2x.png in Resources */,
 				FCF6C3F91A06412F00500E60 /* Autopiqueur.pdf in Resources */,
 				75470D6C1A09895600563414 /* SearchPopVC.xib in Resources */,
+				75F5907A1ACEB66700398BE8 /* bruits du coeur.png in Resources */,
+				75F5908D1ACEB66700398BE8 /* 18_03_ExaminingSensorySystem_MP4 768Kbpst.png in Resources */,
 				75470D2F1A09895600563414 /* Color_Pink.png in Resources */,
 				75470D311A09895600563414 /* Color_Red.png in Resources */,
 				7506807219EAFB7900EA0040 /* QuestionsHeader.xib in Resources */,
 				7506807B19EB245200EA0040 /* Mail envelope.png in Resources */,
 				7506808219EC661000EA0040 /* Plus_black.png in Resources */,
+				75F590811ACEB66700398BE8 /* 13_05_ExaminingLiver_MP4 768Kbpst.png in Resources */,
 				75F5C2711A30A545004D6354 /* bfa_play_flat-circle-white-on-light-gray_64x64.png in Resources */,
 				C36FBE5A181D5CCF007AE52A /* navbar_uparrow@2x.png in Resources */,
 				C36FBE56181D59A3007AE52A /* feed_option_bg@2x.png in Resources */,
+				75F5908F1ACEB66700398BE8 /* 18_05_AssessmentOfReflexes_MP4 768Kbpst.png in Resources */,
+				75F590711ACEB66700398BE8 /* 11_02_AnatomyReviewt.png in Resources */,
 				7506807D19EB295B00EA0040 /* Plus.png in Resources */,
 				C3080EDD17FED422008AE8CC /* add_news3@2x.png in Resources */,
 				FCB847C119FE90880047D902 /* Gastro-intestinal - Dyspepsie.pdf in Resources */,
+				75F590AC1ACEB66700398BE8 /* 01_13_Abdomen_MP4 768Kbpst.png in Resources */,
+				75F590A21ACEB66700398BE8 /* 01_03_GeneralSurveyVitalSigns_MP4 768Kbpst.png in Resources */,
 				75CE28E719F394AC002FF80F /* Semiologie generale.pdf in Resources */,
+				75F590A81ACEB66700398BE8 /* 01_09_UpperExtremities_MP4 768Kbpst.png in Resources */,
+				75D6F3081ADBE66100B7191F /* 04_05_SkinHEENT_MP4 768Kbpst.png in Resources */,
 				7592B8751ACC3A2400C87CF8 /* Play Filled-100.png in Resources */,
 				C3080DF717FE86B8008AE8CC /* Main.storyboard in Resources */,
 				756124EC1A0D1D2F0096E2B8 /* Carnet bleu des urgences pédiatriques 2010.pdf in Resources */,
 				75470D291A09895600563414 /* Brightness.png in Resources */,
 				FCB847CB19FE90880047D902 /* Ophtalmologique - Oeil rouge.pdf in Resources */,
+				75D6F3261ADBE66100B7191F /* 03_12_FemaleChildGenitalia_MP4 768Kbpst.png in Resources */,
+				75F590A31ACEB66700398BE8 /* 01_04_TheSkin_MP4 768Kbpst.png in Resources */,
 				75F590001ACE97AA00398BE8 /* 06_03_AnatomyReview_MP4 768Kbpst.png in Resources */,
+				75D6F31F1ADBE66100B7191F /* 03_05_HeadFace_MP4 768Kbpst.png in Resources */,
 				75470D2C1A09895600563414 /* Color_Blue.png in Resources */,
 				75C9231F19EA90DF0005CA31 /* entree.plist in Resources */,
 				75470D441A09895600563414 /* UnSelectedDone_Port_iPhone.png in Resources */,
 				FCF6C3FB1A06417B00500E60 /* Peridurale.pdf in Resources */,
+				75F590751ACEB66700398BE8 /* 11_07_AssessingArterialInsufficiencyt.png in Resources */,
 				C3080EDE17FED422008AE8CC /* add_news4.png in Resources */,
+				75F590AD1ACEB66700398BE8 /* 01_14_PeripheralVascularSystem_MP4 768Kbpst.png in Resources */,
 				7524A45419E8932C006607C1 /* Katz-AVQ.pdf in Resources */,
 				7506807719EB1DDE00EA0040 /* checkmark_icon48.png in Resources */,
 				C3080EB417FEC341008AE8CC /* setting_cell_indicator.png in Resources */,
 				75CE28CA19F394AC002FF80F /* Cahier TP genitaux.pdf in Resources */,
+				75D6F2FB1ADBE66100B7191F /* Bates15_Introt.png in Resources */,
 				75470D7D1A0A0C2200563414 /* tails-48.png in Resources */,
 				FCF6C4011A06421F00500E60 /* Sondage-vesical.pdf in Resources */,
+				75F590AF1ACEB66700398BE8 /* 01_16_NervousSystem_MP4 768Kbpst.png in Resources */,
+				75F5901A1ACEA0D000398BE8 /* 07_03_ExaminingHead.png in Resources */,
 				C3080E5417FE8827008AE8CC /* menu_layout_pen.png in Resources */,
 				75D3C93C1A17A293003D5B57 /* eraser-50.png in Resources */,
 				C3080EA817FEC08D008AE8CC /* search_close.png in Resources */,
 				C3080E8317FEA622008AE8CC /* navbar_menu@2x.png in Resources */,
 				C3080F0617FEEDF8008AE8CC /* invite_refresh@2x.png in Resources */,
 				751771AA19F7A36F009BF487 /* Videos.plist in Resources */,
+				75D6F2F81ADBE66100B7191F /* Bates15_AnatRev_IntFemaleGent.png in Resources */,
+				75F590951ACEB66700398BE8 /* 16_06_AnatomyReviewElbows_MP4 768Kbpst.png in Resources */,
 				75103A7E19FD635100BD458D /* Main-innervation.pdf in Resources */,
+				75F590721ACEB66700398BE8 /* 11_04_ExaminingArmst.png in Resources */,
 				75CE28CC19F394AC002FF80F /* Genou.pdf in Resources */,
 				75CE28D619F394AC002FF80F /* Loco3.pdf in Resources */,
 				7524A45919E89360006607C1 /* filesList.plist in Resources */,
+				75D6F3011ADBE66100B7191F /* 14_06_AnatomyReviewRectum_MP4 768Kbpst.png in Resources */,
 				758BDA8319FBBC28000EBC90 /* cancel-48.png in Resources */,
+				75D6F31A1ADBE66100B7191F /* 02_14_NervousSystem_MP4 768Kbpst.png in Resources */,
+				75D6F3071ADBE66100B7191F /* 04_04_GeneralSurvey_MP4 768Kbpst.png in Resources */,
+				75D6F3201ADBE66100B7191F /* 03_06_Eyes_MP4 768Kbpst.png in Resources */,
+				75F590921ACEB66700398BE8 /* 16_03_ExaminingMandible_MP4 768Kbpst.png in Resources */,
+				75D6F3031ADBE66100B7191F /* 14_08_ExaminingAnusRectumProstate_MP4 768Kbpst.png in Resources */,
 				75932D9519F2432B00D24223 /* ok-32.png in Resources */,
 				FCF6C3F51A06375600500E60 /* Rachis2.pdf in Resources */,
 				75CE28D819F394AC002FF80F /* Neuro2.pdf in Resources */,
 				75CE28FB19F3B783002FF80F /* switch_off-48.png in Resources */,
+				75F5901E1ACEA0D000398BE8 /* 07_07_ExaminingEars.png in Resources */,
 				7524A47519E9501D006607C1 /* unige_logo.gif in Resources */,
+				75F590901ACEB66700398BE8 /* 16_01_Examen complet osteoarticulaire.png in Resources */,
 				FCF6C4091A0643F100500E60 /* Spine.pdf in Resources */,
 				C3080E7817FE9E5B008AE8CC /* menu_icon_plus.png in Resources */,
 				C36FBE55181D59A3007AE52A /* feed_option_bg.png in Resources */,
 				FCB847CE19FE90880047D902 /* ORL-Pneumo - IVRS.pdf in Resources */,
 				75D869AB19F9073400F53AF1 /* checkmark-50.png in Resources */,
 				75470D341A09895600563414 /* Color_Yellow.png in Resources */,
+				75F590851ACEB66700398BE8 /* Examen complet digestif.png in Resources */,
 				75F590041ACE9ABA00398BE8 /* 06_01_Skin_MP4 768Kbpst.png in Resources */,
 				75470D391A09895600563414 /* MultiPage.png in Resources */,
 				FCB847BB19FE90880047D902 /* Cardiovasculaire - Thrombose veineuse.pdf in Resources */,
 				C3080E8517FEA622008AE8CC /* navbar_search@2x.png in Resources */,
+				75D6F30C1ADBE66100B7191F /* 04_09_MusculoskeletalAndNervous_MP4 768Kbpst.png in Resources */,
 				75470D3C1A09895600563414 /* PageScroll.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -2796,6 +3449,7 @@
 				75470D481A09895600563414 /* INDAPVDocument.m in Sources */,
 				75470D531A09895600563414 /* INDAPVPreviewsViewController.m in Sources */,
 				75E385C119EFCC94006C60FF /* markdown.c in Sources */,
+				75D08C461B13B1980018B6FC /* FeedBackViewController.m in Sources */,
 				C3080EBD17FEC5C5008AE8CC /* SettingHeaderView.m in Sources */,
 				C3080E4117FE8827008AE8CC /* CustomNavigationBarView.m in Sources */,
 				C3080E6117FE89A0008AE8CC /* MenuViewController.m in Sources */,

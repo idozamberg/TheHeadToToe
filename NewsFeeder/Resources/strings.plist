@@ -7,6 +7,11 @@
 		<key>NAV_TITLE</key>
 		<string>Head To Toe</string>
 	</dict>
+	<key>SCREEN_FEEDBACK</key>
+	<dict>
+		<key>NAV_TITLE</key>
+		<string>Feedback</string>
+	</dict>
 	<key>SCREEN_LABORATOIRE</key>
 	<dict>
 		<key>NAV_TITLE</key>
@@ -59,9 +64,23 @@
 		<key>CELL_ROW11</key>
 		<string>Urgences</string>
 		<key>CELL_ROW12</key>
-		<string>Pediatrie</string>
+		<string>Pédiatrie</string>
 		<key>CELL_ROW13</key>
 		<string>Dermatologie</string>
+		<key>CELL_ROW14</key>
+		<string>ORL</string>
+		<key>CELL_ROW15</key>
+		<string>Tête-pied</string>
+		<key>CELL_ROW16</key>
+		<string>Genito-Rectal Femme</string>
+		<key>CELL_ROW17</key>
+		<string>Génito-Rectal Homme</string>
+		<key>CELL_ROW18</key>
+		<string>Gériatrie</string>
+		<key>CELL_ROW19</key>
+		<string>Néonatologie</string>
+		<key>CELL_ROW20</key>
+		<string>Seins et région axilaire</string>
 	</dict>
 	<key>SCREEN_SEARCH</key>
 	<dict>

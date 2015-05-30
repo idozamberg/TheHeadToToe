@@ -128,6 +128,14 @@
                                                                     strID:STR_NAVTITLE]];
         [self.navBarView.rightButton setHidden:NO];
 	}
+    else if ([dicName isEqualToString:SCREEN_FEEDBACK]) {
+        
+        [self.navBarView.lblTitle setText:[gAppDelegate getStringInScreen:SCREEN_FEEDBACK
+                                                                    strID:STR_NAVTITLE]];
+        
+        
+        [self.navBarView.rightButton setHidden:YES];
+    }
     else if ([dicName isEqualToString:SCREEN_DOCUMENTS])
     {
             [self.navBarView.lblTitle setText:[gAppDelegate getStringInScreen:SCREEN_DOCUMENTS
