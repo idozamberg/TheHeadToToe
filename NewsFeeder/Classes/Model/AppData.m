@@ -106,11 +106,18 @@ static AppData* shareData;
         
         if ([[questions valueForKey:part] isKindOfClass:[NSDictionary class]])
         {
+            // Getting sorted keys array (NOT IMPORTANT!! )
+            NSArray* keysArray = [self getSortedKeysArrayForDictionary:[questions valueForKey:part]];
+            
             // Going through all qyestion
-            for (NSString* currentArrayKey in [[questions valueForKey:part] allKeys])
+            for (NSString* currentArrayKey in keysArray)
             {
                 // Getting current question  array
                 NSArray* currentQuestionArray = [[questions valueForKey:part] objectForKey:currentArrayKey];
+                
+                // Removing number from key
+               // NSArray* splitQuestionKey = [currentArrayKey componentsSeparatedByString:@"."];
+                NSString* systemName = currentArrayKey;//[splitQuestionKey objectAtIndex:1];
                 
                 if ([currentQuestionArray isKindOfClass:[NSArray class]])
                 {
@@ -122,7 +129,7 @@ static AppData* shareData;
                         AdmissionQuestion* newQuestion = [AdmissionQuestion new];
                         
                         // Setting question section
-                        newQuestion.questionSection    = currentArrayKey;
+                        newQuestion.questionSection    = systemName;
                         newQuestion.text               = [texts objectAtIndex:0];
                         
                         // Setting text for when question is not checked
@@ -142,15 +149,15 @@ static AppData* shareData;
                         newQuestion.wasChecked = NO;
                     
                         // if it's the first question
-                        if (![questionsDictionary objectForKey:currentArrayKey])
+                        if (![questionsDictionary objectForKey:systemName])
                         {
                             // Adding file while creating and array
-                            [questionsDictionary setObject:[NSMutableArray arrayWithObject:newQuestion] forKey:currentArrayKey];
+                            [questionsDictionary setObject:[NSMutableArray arrayWithObject:newQuestion] forKey:systemName];
                         }
                         else
                         {
                             // just add the file
-                            [[questionsDictionary objectForKey:currentArrayKey] addObject:newQuestion];
+                            [[questionsDictionary objectForKey:systemName] addObject:newQuestion];
                         }
                     }
                 }
@@ -158,7 +165,7 @@ static AppData* shareData;
                 {
                     
                     // Adding file while creating and array
-                    [questionsDictionary setObject:currentQuestionArray forKey:currentArrayKey];
+                    [questionsDictionary setObject:currentQuestionArray forKey:systemName];
                 }
             }
             

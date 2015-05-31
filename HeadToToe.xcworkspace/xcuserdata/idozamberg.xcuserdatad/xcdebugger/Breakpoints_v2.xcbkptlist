@@ -618,11 +618,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NewsFeeder/Classes/Model/AppData.m"
-            timestampString = "438861997.827844"
+            timestampString = "454752899.732551"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "166"
-            endingLineNumber = "166"
+            startingLineNumber = "173"
+            endingLineNumber = "173"
             landmarkName = "-loadQuestions"
             landmarkType = "5">
          </BreakpointContent>
@@ -634,11 +634,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NewsFeeder/Classes/Views/HTTListTableViewCell.m"
-            timestampString = "438366312.634521"
+            timestampString = "454755251.180397"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "63"
-            endingLineNumber = "63"
+            startingLineNumber = "74"
+            endingLineNumber = "74"
             landmarkName = "-setQuestionList:"
             landmarkType = "5">
          </BreakpointContent>
@@ -666,11 +666,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NewsFeeder/Classes/Views/HTTListTableViewCell.m"
-            timestampString = "438380520.66959"
+            timestampString = "454755341.181209"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "76"
-            endingLineNumber = "76"
+            startingLineNumber = "119"
+            endingLineNumber = "119"
             landmarkName = "-numberOfSectionsInTableView:"
             landmarkType = "5">
          </BreakpointContent>
@@ -682,11 +682,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NewsFeeder/Classes/Views/HTTListTableViewCell.m"
-            timestampString = "438366312.634521"
+            timestampString = "454755251.180397"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "38"
-            endingLineNumber = "38"
+            startingLineNumber = "49"
+            endingLineNumber = "49"
             landmarkName = "-tableView:numberOfRowsInSection:"
             landmarkType = "5">
          </BreakpointContent>
@@ -698,11 +698,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NewsFeeder/Classes/Views/AdmissionViewController.m"
-            timestampString = "454672233.772523"
+            timestampString = "454755892.773452"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "312"
-            endingLineNumber = "312"
+            startingLineNumber = "323"
+            endingLineNumber = "323"
             landmarkName = "-calculateCellSizeForSection:andSection:"
             landmarkType = "5">
          </BreakpointContent>
@@ -714,11 +714,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NewsFeeder/Classes/Views/HTTListTableViewCell.m"
-            timestampString = "438380520.66959"
+            timestampString = "454755341.181209"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "91"
-            endingLineNumber = "91"
+            startingLineNumber = "137"
+            endingLineNumber = "137"
             landmarkName = "-tableView:cellForRowAtIndexPath:"
             landmarkType = "5">
          </BreakpointContent>
@@ -730,11 +730,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NewsFeeder/Classes/Views/AdmissionViewController.m"
-            timestampString = "454672233.772523"
+            timestampString = "454755892.773452"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "378"
-            endingLineNumber = "378"
+            startingLineNumber = "389"
+            endingLineNumber = "389"
             landmarkName = "-tableView:heightForRowAtIndexPath:"
             landmarkType = "5">
          </BreakpointContent>
@@ -746,11 +746,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NewsFeeder/Classes/Views/AdmissionViewController.m"
-            timestampString = "454672233.772523"
+            timestampString = "454755892.773452"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "286"
-            endingLineNumber = "286"
+            startingLineNumber = "297"
+            endingLineNumber = "297"
             landmarkName = "-calculateCellSizeForSection:andSection:"
             landmarkType = "5">
          </BreakpointContent>
@@ -762,11 +762,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NewsFeeder/Classes/Views/AdmissionViewController.m"
-            timestampString = "454672233.772523"
+            timestampString = "454755892.773452"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "283"
-            endingLineNumber = "283"
+            startingLineNumber = "294"
+            endingLineNumber = "294"
             landmarkName = "-calculateCellSizeForSection:andSection:"
             landmarkType = "5">
          </BreakpointContent>
@@ -826,11 +826,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NewsFeeder/Classes/Views/AdmissionViewController.m"
-            timestampString = "454672233.772523"
+            timestampString = "454755892.773452"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "440"
-            endingLineNumber = "440"
+            startingLineNumber = "451"
+            endingLineNumber = "451"
             landmarkName = "-heightChangedEvent:"
             landmarkType = "5">
          </BreakpointContent>
@@ -842,11 +842,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NewsFeeder/Classes/Views/AdmissionViewController.m"
-            timestampString = "454672233.772523"
+            timestampString = "454755892.773452"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "438"
-            endingLineNumber = "438"
+            startingLineNumber = "449"
+            endingLineNumber = "449"
             landmarkName = "-heightChangedEvent:"
             landmarkType = "5">
          </BreakpointContent>
@@ -858,11 +858,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NewsFeeder/Classes/Views/AdmissionViewController.m"
-            timestampString = "454672233.772523"
+            timestampString = "454755892.773452"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "343"
-            endingLineNumber = "343"
+            startingLineNumber = "354"
+            endingLineNumber = "354"
             landmarkName = "-tableView:viewForHeaderInSection:"
             landmarkType = "5">
          </BreakpointContent>
@@ -874,11 +874,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NewsFeeder/Classes/Model/AppData.m"
-            timestampString = "438861997.827844"
+            timestampString = "454752899.732551"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "212"
-            endingLineNumber = "212"
+            startingLineNumber = "219"
+            endingLineNumber = "219"
             landmarkName = "-loadLabValues"
             landmarkType = "5">
          </BreakpointContent>
@@ -890,11 +890,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NewsFeeder/Classes/Model/AppData.m"
-            timestampString = "438861997.827844"
+            timestampString = "454752899.732551"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "177"
-            endingLineNumber = "177"
+            startingLineNumber = "184"
+            endingLineNumber = "184"
             landmarkName = "-getSortedKeysArrayForDictionary:"
             landmarkType = "5">
          </BreakpointContent>
@@ -954,11 +954,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NewsFeeder/PDFManager.m"
-            timestampString = "437241805.415946"
+            timestampString = "454756313.088331"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "75"
-            endingLineNumber = "75"
+            startingLineNumber = "84"
+            endingLineNumber = "84"
             landmarkName = "-createStringFromDictionaryForPdf:andShouldFilter:"
             landmarkType = "5">
          </BreakpointContent>
@@ -970,11 +970,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NewsFeeder/PDFManager.m"
-            timestampString = "438996933.197432"
+            timestampString = "454756313.088331"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "195"
-            endingLineNumber = "195"
+            startingLineNumber = "209"
+            endingLineNumber = "209"
             landmarkName = "-createStringFromDictionaryForPdf:andShouldFilter:"
             landmarkType = "5">
          </BreakpointContent>
@@ -986,11 +986,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NewsFeeder/PDFManager.m"
-            timestampString = "438996933.197432"
+            timestampString = "454756313.088331"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "199"
-            endingLineNumber = "199"
+            startingLineNumber = "213"
+            endingLineNumber = "213"
             landmarkName = "-createStringFromDictionaryForPdf:andShouldFilter:"
             landmarkType = "5">
          </BreakpointContent>
@@ -1018,11 +1018,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NewsFeeder/PDFManager.m"
-            timestampString = "437241805.415946"
+            timestampString = "454756313.088331"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "70"
-            endingLineNumber = "70"
+            startingLineNumber = "72"
+            endingLineNumber = "72"
             landmarkName = "-createPdfFromDictionary:andShouldFilter:"
             landmarkType = "5">
          </BreakpointContent>
@@ -1066,11 +1066,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NewsFeeder/Classes/Views/AdmissionViewController.m"
-            timestampString = "454672233.772523"
+            timestampString = "454755892.773452"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "291"
-            endingLineNumber = "291"
+            startingLineNumber = "302"
+            endingLineNumber = "302"
             landmarkName = "-calculateCellSizeForSection:andSection:"
             landmarkType = "5">
          </BreakpointContent>
@@ -1194,11 +1194,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NewsFeeder/Classes/Views/AdmissionViewController.m"
-            timestampString = "454672233.772523"
+            timestampString = "454755892.773452"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "403"
-            endingLineNumber = "403"
+            startingLineNumber = "414"
+            endingLineNumber = "414"
             landmarkName = "-moreButtonClickedWithSection:"
             landmarkType = "5">
          </BreakpointContent>
@@ -1242,11 +1242,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NewsFeeder/Classes/Views/AdmissionViewController.m"
-            timestampString = "454672233.772523"
+            timestampString = "454755892.773452"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "289"
-            endingLineNumber = "289"
+            startingLineNumber = "300"
+            endingLineNumber = "300"
             landmarkName = "-calculateCellSizeForSection:andSection:"
             landmarkType = "5">
          </BreakpointContent>
@@ -1546,11 +1546,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NewsFeeder/Classes/Model/AppData.m"
-            timestampString = "449614665.128049"
+            timestampString = "454752899.732551"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "287"
-            endingLineNumber = "287"
+            startingLineNumber = "294"
+            endingLineNumber = "294"
             landmarkName = "-flattenedVideosArray"
             landmarkType = "5">
          </BreakpointContent>
@@ -1562,11 +1562,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NewsFeeder/Classes/Model/AppData.m"
-            timestampString = "449614665.128049"
+            timestampString = "454752899.732551"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "295"
-            endingLineNumber = "295"
+            startingLineNumber = "302"
+            endingLineNumber = "302"
             landmarkName = "-flattenedLabArray"
             landmarkType = "5">
          </BreakpointContent>
@@ -1626,11 +1626,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NewsFeeder/PDFManager.m"
-            timestampString = "438996745.244566"
+            timestampString = "454756313.088331"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "79"
-            endingLineNumber = "79"
+            startingLineNumber = "88"
+            endingLineNumber = "88"
             landmarkName = "-createStringFromDictionaryForPdf:andShouldFilter:"
             landmarkType = "5">
          </BreakpointContent>
@@ -1690,11 +1690,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NewsFeeder/PDFManager.m"
-            timestampString = "438996933.197432"
+            timestampString = "454756313.088331"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "312"
-            endingLineNumber = "312"
+            startingLineNumber = "326"
+            endingLineNumber = "326"
             landmarkName = "-hasStringInFileWithName:andString:"
             landmarkType = "5">
          </BreakpointContent>
@@ -1962,11 +1962,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NewsFeeder/Classes/Common/Navbar/CustomNavViewController.m"
-            timestampString = "454281215.669855"
+            timestampString = "454751623.48507"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "317"
-            endingLineNumber = "317"
+            startingLineNumber = "325"
+            endingLineNumber = "325"
             landmarkName = "@implementation CustomNavViewController"
             landmarkType = "3">
          </BreakpointContent>
@@ -1978,11 +1978,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NewsFeeder/Classes/Common/Navbar/CustomNavViewController.m"
-            timestampString = "454281215.669855"
+            timestampString = "454751623.48507"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "332"
-            endingLineNumber = "332"
+            startingLineNumber = "340"
+            endingLineNumber = "340"
             landmarkName = "@implementation CustomNavViewController"
             landmarkType = "3">
          </BreakpointContent>
@@ -1994,11 +1994,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NewsFeeder/PDFManager.m"
-            timestampString = "438996933.197432"
+            timestampString = "454756313.088331"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "319"
-            endingLineNumber = "319"
+            startingLineNumber = "333"
+            endingLineNumber = "333"
             landmarkName = "-hasStringInFileWithName:andString:"
             landmarkType = "5">
          </BreakpointContent>
@@ -2010,11 +2010,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NewsFeeder/PDFManager.m"
-            timestampString = "438996933.197432"
+            timestampString = "454756313.088331"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "322"
-            endingLineNumber = "322"
+            startingLineNumber = "336"
+            endingLineNumber = "336"
             landmarkName = "-hasStringInFileWithName:andString:"
             landmarkType = "5">
          </BreakpointContent>
@@ -2026,11 +2026,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NewsFeeder/PDFManager.m"
-            timestampString = "438996933.197432"
+            timestampString = "454756313.088331"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "321"
-            endingLineNumber = "321"
+            startingLineNumber = "335"
+            endingLineNumber = "335"
             landmarkName = "-hasStringInFileWithName:andString:"
             landmarkType = "5">
          </BreakpointContent>
@@ -2042,11 +2042,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NewsFeeder/PDFManager.m"
-            timestampString = "438996933.197432"
+            timestampString = "454756313.088331"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "323"
-            endingLineNumber = "323"
+            startingLineNumber = "337"
+            endingLineNumber = "337"
             landmarkName = "-hasStringInFileWithName:andString:"
             landmarkType = "5">
          </BreakpointContent>
@@ -2058,11 +2058,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NewsFeeder/PDFManager.m"
-            timestampString = "438996933.197432"
+            timestampString = "454756313.088331"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "329"
-            endingLineNumber = "329"
+            startingLineNumber = "343"
+            endingLineNumber = "343"
             landmarkName = "-hasStringInFileWithName:andString:"
             landmarkType = "5">
          </BreakpointContent>
@@ -2074,11 +2074,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NewsFeeder/PDFManager.m"
-            timestampString = "438996933.197432"
+            timestampString = "454756313.088331"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "327"
-            endingLineNumber = "327"
+            startingLineNumber = "341"
+            endingLineNumber = "341"
             landmarkName = "-hasStringInFileWithName:andString:"
             landmarkType = "5">
          </BreakpointContent>
@@ -2394,11 +2394,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NewsFeeder/Classes/Views/AdmissionViewController.m"
-            timestampString = "454672233.772523"
+            timestampString = "454755892.773452"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "384"
-            endingLineNumber = "384"
+            startingLineNumber = "395"
+            endingLineNumber = "395"
             landmarkName = "-tableView:estimatedHeightForRowAtIndexPath:"
             landmarkType = "5">
          </BreakpointContent>
@@ -2410,11 +2410,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NewsFeeder/Classes/Views/HTTListTableViewCell.m"
-            timestampString = "438383443.892251"
+            timestampString = "454755341.181209"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "114"
-            endingLineNumber = "114"
+            startingLineNumber = "160"
+            endingLineNumber = "160"
             landmarkName = "-tableView:viewForHeaderInSection:"
             landmarkType = "5">
          </BreakpointContent>
@@ -2426,11 +2426,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NewsFeeder/Classes/Views/HTTListTableViewCell.m"
-            timestampString = "438383443.892251"
+            timestampString = "454755341.181209"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "156"
-            endingLineNumber = "156"
+            startingLineNumber = "202"
+            endingLineNumber = "202"
             landmarkName = "-tableView:heightForHeaderInSection:"
             landmarkType = "5">
          </BreakpointContent>
@@ -2442,11 +2442,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NewsFeeder/Classes/Views/HTTListTableViewCell.m"
-            timestampString = "438383443.892251"
+            timestampString = "454755341.181209"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "146"
-            endingLineNumber = "146"
+            startingLineNumber = "192"
+            endingLineNumber = "192"
             landmarkName = "-tableView:viewForHeaderInSection:"
             landmarkType = "5">
          </BreakpointContent>
@@ -2474,11 +2474,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NewsFeeder/Classes/Model/AppData.m"
-            timestampString = "438617003.885122"
+            timestampString = "454752899.732551"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "122"
-            endingLineNumber = "122"
+            startingLineNumber = "129"
+            endingLineNumber = "129"
             landmarkName = "-loadQuestions"
             landmarkType = "5">
          </BreakpointContent>
@@ -2490,11 +2490,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NewsFeeder/Classes/Model/AppData.m"
-            timestampString = "438617003.885122"
+            timestampString = "454752899.732551"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "121"
-            endingLineNumber = "121"
+            startingLineNumber = "128"
+            endingLineNumber = "128"
             landmarkName = "-loadQuestions"
             landmarkType = "5">
          </BreakpointContent>
@@ -2538,11 +2538,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NewsFeeder/PDFManager.m"
-            timestampString = "438996933.197432"
+            timestampString = "454756313.088331"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "136"
-            endingLineNumber = "136"
+            startingLineNumber = "152"
+            endingLineNumber = "152"
             landmarkName = "-createStringFromDictionaryForPdf:andShouldFilter:"
             landmarkType = "5">
          </BreakpointContent>
@@ -2570,11 +2570,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NewsFeeder/Classes/Model/AppData.m"
-            timestampString = "449614665.128049"
+            timestampString = "454752899.732551"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "400"
-            endingLineNumber = "400"
+            startingLineNumber = "407"
+            endingLineNumber = "407"
             landmarkName = "-addFileToFavorites:"
             landmarkType = "5">
          </BreakpointContent>
@@ -2586,11 +2586,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NewsFeeder/Classes/Model/AppData.m"
-            timestampString = "449614665.128049"
+            timestampString = "454752899.732551"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "398"
-            endingLineNumber = "398"
+            startingLineNumber = "405"
+            endingLineNumber = "405"
             landmarkName = "-addFileToFavorites:"
             landmarkType = "5">
          </BreakpointContent>
@@ -2618,11 +2618,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NewsFeeder/Classes/Common/Navbar/CustomNavViewController.m"
-            timestampString = "454281215.669855"
+            timestampString = "454751623.48507"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "165"
-            endingLineNumber = "165"
+            startingLineNumber = "173"
+            endingLineNumber = "173"
             landmarkName = "-setContentWithDicName:"
             landmarkType = "5">
          </BreakpointContent>
@@ -2634,11 +2634,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NewsFeeder/Classes/Common/Navbar/CustomNavViewController.m"
-            timestampString = "454281215.669855"
+            timestampString = "454751623.48507"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "167"
-            endingLineNumber = "167"
+            startingLineNumber = "175"
+            endingLineNumber = "175"
             landmarkName = "-setContentWithDicName:"
             landmarkType = "5">
          </BreakpointContent>
@@ -2688,6 +2688,134 @@
             startingLineNumber = "17"
             endingLineNumber = "17"
             landmarkName = "-viewFromStoryboard"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NewsFeeder/PDFManager.m"
+            timestampString = "454756313.088331"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "172"
+            endingLineNumber = "172"
+            landmarkName = "-createStringFromDictionaryForPdf:andShouldFilter:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NewsFeeder/Classes/Model/AppData.m"
+            timestampString = "454752899.732551"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "117"
+            endingLineNumber = "117"
+            landmarkName = "-loadQuestions"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NewsFeeder/Classes/Model/AppData.m"
+            timestampString = "454752899.732551"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "113"
+            endingLineNumber = "113"
+            landmarkName = "-loadQuestions"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NewsFeeder/Classes/Views/HTTListTableViewCell.m"
+            timestampString = "454755341.181209"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "113"
+            endingLineNumber = "113"
+            landmarkName = "-setQuestionList:WithHeight:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NewsFeeder/Classes/Views/HTTListTableViewCell.m"
+            timestampString = "454755341.181209"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "127"
+            endingLineNumber = "127"
+            landmarkName = "-tableView:cellForRowAtIndexPath:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NewsFeeder/Classes/Views/HTTListTableViewCell.m"
+            timestampString = "454755341.181209"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "217"
+            endingLineNumber = "217"
+            landmarkName = "-moreButtonClickedWithSection:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NewsFeeder/Classes/Views/HTTListTableViewCell.m"
+            timestampString = "454755341.181209"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "236"
+            endingLineNumber = "236"
+            landmarkName = "-moreButtonClickedWithSection:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NewsFeeder/Classes/Views/HTTListTableViewCell.m"
+            timestampString = "454755267.726606"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "87"
+            endingLineNumber = "87"
+            landmarkName = "-sortDictionaryKeys"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>

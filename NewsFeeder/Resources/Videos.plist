@@ -112,7 +112,7 @@
 			<key>Description</key>
 			<string>Rappel Anatomie Yeux</string>
 			<key>Thumb</key>
-			<string>07_06_AnatomyReviewEyes.png</string>
+			<string>07_04_AnatomyReviewEyes.png</string>
 		</dict>
 		<dict>
 			<key>Name</key>
@@ -193,45 +193,6 @@
 			<string>Examen du Cou</string>
 			<key>Thumb</key>
 			<string>08_08_ExaminingNeck.png</string>
-		</dict>
-	</array>
-	<key>Compétences médicales</key>
-	<array>
-		<dict>
-			<key>Name</key>
-			<string>jGf8NvqoTNs</string>
-			<key>Description</key>
-			<string>Tête-pied 1</string>
-		</dict>
-		<dict>
-			<key>Name</key>
-			<string>Ucor4aie6E4</string>
-			<key>Description</key>
-			<string>Tête-pied 2</string>
-		</dict>
-		<dict>
-			<key>Name</key>
-			<string>WOZzx5SmY8</string>
-			<key>Description</key>
-			<string>Tête-pied 3</string>
-		</dict>
-		<dict>
-			<key>Name</key>
-			<string>7KJ7o1lUyP8</string>
-			<key>Description</key>
-			<string>Tête-pied 4</string>
-		</dict>
-		<dict>
-			<key>Name</key>
-			<string>0es_6zWDMOQ</string>
-			<key>Description</key>
-			<string>Tête-pied 5</string>
-		</dict>
-		<dict>
-			<key>Name</key>
-			<string>rlWRaxmi39g</string>
-			<key>Description</key>
-			<string>Tête-pied 6</string>
 		</dict>
 	</array>
 	<key>Cardiovasculaire</key>

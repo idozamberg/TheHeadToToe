@@ -15,6 +15,10 @@
 
 
 @implementation HTTListTableViewCell
+{
+    NSMutableArray* sortedKeys;
+    NSMutableDictionary* sortedDictionary;
+}
 @synthesize rowsForSection;
 
 @synthesize questionList = _questionList;
@@ -35,12 +39,19 @@
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
     
-    if ([[[_questionList allValues] objectAtIndex:section] isKindOfClass:[NSArray class]])
+    // Getting correct key
+    NSString* key = [sortedKeys objectAtIndex:section];
+    
+    // Getting current category
+    NSArray* category =
+    [sortedDictionary objectForKey:key];
+    
+    if ([category isKindOfClass:[NSArray class]])
     {
         if ([[rowsForSection objectAtIndex:section] boolValue])
         {
-            NSArray* category =
-                [[_questionList allValues] objectAtIndex:section];
+            //NSArray* category =
+              //  [[_questionList allValues] objectAtIndex:section];
             
             return category.count;
         }
@@ -63,9 +74,41 @@
     [_tblQuestions reloadData];
 }
 
+- (NSArray*) getSortedKeysArrayForDictionary :(NSDictionary*) dict
+{
+    NSArray *arr =  [[dict allKeys] sortedArrayUsingSelector:@selector(localizedStandardCompare:)];
+    
+    return arr;
+}
+
+- (void) sortDictionaryKeys
+{
+    // Getting sorted keys
+    NSArray* keys = [self getSortedKeysArrayForDictionary:_questionList];
+    
+    sortedKeys = [NSMutableArray new];
+    sortedDictionary = [NSMutableDictionary new];
+    
+    // Going thourgh keys and splitting the number
+    for (NSString* currKey in keys)
+    {
+        // Removing number from key
+        NSArray* splitQuestionKey = [currKey componentsSeparatedByString:@"."];
+        NSString* splittedKey = [splitQuestionKey objectAtIndex:1];
+        
+        // Adding key to local array
+        [sortedKeys addObject:splittedKey];
+        
+        [sortedDictionary setObject:[_questionList objectForKey:currKey] forKey:splittedKey];
+    }
+}
+
 - (void) setQuestionList:(NSMutableDictionary *)questionList WithHeight : (NSInteger) height
 {
     _questionList = questionList;
+    
+    // Getting sorted keys array
+    [self sortDictionaryKeys];
     
     [_tblQuestions setHeight:height];
     [_tblQuestions reloadData];
@@ -83,9 +126,12 @@
 {
     QuestionCell* cell = nil;
     
+    // Getting correct key
+    NSString* key = [sortedKeys objectAtIndex:indexPath.section];
+    
     // Getting current category
     NSArray* category =
-    [[_questionList allValues] objectAtIndex:indexPath.section];
+    [sortedDictionary objectForKey:key];
     
     // Getting current question
     AdmissionQuestion* currentQuestion = [category objectAtIndex:indexPath.row];
@@ -114,7 +160,7 @@
     QuestionsHeader * headerView = nil;
     
     headerView =  [SuperView viewFromStoryboard:@"QuestionHeaderSimple"];
-    [headerView setTitle:[[_questionList allKeys] objectAtIndex:section]];
+    [headerView setTitle:[sortedKeys objectAtIndex:section]];
     headerView.tag = section;
     headerView.delegate = self;
     
@@ -134,7 +180,7 @@
     if ([self.part isEqualToString:@"Examen Physique"])
     {
         // Getting files list
-        NSMutableArray* files = [[AppData sharedInstance].youTubeFilesList objectForKey:[[_questionList allKeys] objectAtIndex:section]];
+        NSMutableArray* files = [[AppData sharedInstance].youTubeFilesList objectForKey:[sortedKeys objectAtIndex:section]];
         
         // If there are videos
         if (files.count > 0)
@@ -220,10 +266,10 @@
     vcList.currentViewMode = viewModeInNavigation;
     
     // Getting files list
-    NSMutableArray* files = [[AppData sharedInstance].youTubeFilesList objectForKey:[[_questionList allKeys] objectAtIndex:section]];
+    NSMutableArray* files = [[AppData sharedInstance].youTubeFilesList objectForKey:[sortedKeys objectAtIndex:section]];
     
     // Setting system name
-    ((HTTVideoViewController*)vcList).system = [[_questionList allKeys] objectAtIndex:section];
+    ((HTTVideoViewController*)vcList).system = [sortedKeys objectAtIndex:section];
     
     // Setting file's list
     [((HTTVideoViewController*)vcList) setFilesList:files];

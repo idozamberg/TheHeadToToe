@@ -408,6 +408,22 @@
     [self showCurrentController];
 }
 
+- (IBAction)aboutClicked:(id)sender {
+    
+    // Creating view controller
+    SuperViewController* vcList = [[AboutViewController alloc] viewFromStoryboard];
+    
+    // Setting view mode
+    vcList.currentViewMode = viewModeStandAlone;
+    
+    
+    // Setting controller
+    currentController = (SuperViewController *)[[UICustomNavigationController alloc] initWithRootViewController:vcList];
+    
+    // Showing controller
+    [self showCurrentController];
+}
+
 - (IBAction)homeClicked:(id)sender {
 
     if (currentController) {

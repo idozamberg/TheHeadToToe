@@ -9,6 +9,7 @@
 #import "SuperViewController.h"
 #import "MenuColorSelectView.h"
 #import "CustomNavViewController.h"
+#import "AboutViewController.h"
 
 
 @interface MenuViewController : CustomNavViewController<MenuColorSelectViewDelegate> {
@@ -29,6 +30,7 @@
     menuMode currentMenuMode;
 }
 - (IBAction)favoritesClicked:(id)sender;
+- (IBAction)aboutClicked:(id)sender;
 
 - (IBAction)homeClicked:(id)sender;
 @property (weak, nonatomic) IBOutlet UIButton *btnSystems;

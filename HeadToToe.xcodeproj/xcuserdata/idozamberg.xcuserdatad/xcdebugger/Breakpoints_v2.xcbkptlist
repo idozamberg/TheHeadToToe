@@ -138,11 +138,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NewsFeeder/Classes/Common/Navbar/CustomNavViewController.m"
-            timestampString = "454281215.669855"
+            timestampString = "454751623.48507"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "139"
-            endingLineNumber = "139"
+            startingLineNumber = "147"
+            endingLineNumber = "147"
             landmarkName = "-setContentWithDicName:"
             landmarkType = "5">
          </BreakpointContent>

@@ -12,6 +12,11 @@
 		<key>NAV_TITLE</key>
 		<string>Feedback</string>
 	</dict>
+	<key>SCREEN_ABOUT</key>
+	<dict>
+		<key>NAV_TITLE</key>
+		<string>About</string>
+	</dict>
 	<key>SCREEN_LABORATOIRE</key>
 	<dict>
 		<key>NAV_TITLE</key>

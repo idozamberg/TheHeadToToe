@@ -48,6 +48,8 @@ static PDFManager* sharePDF;
     return self;
 }
 
+
+
 - (NSString*) createPdfFromDictionary : (NSMutableDictionary*) dict andShouldFilter : (BOOL) shouldFilter
 {
     
@@ -69,6 +71,13 @@ static PDFManager* sharePDF;
     [fileManager copyItemAtPath:path toPath:targetPath error:NULL];
 
     return theFileName;
+}
+
+- (NSArray*) getSortedKeysArrayForDictionary :(NSDictionary*) dict
+{
+    NSArray *arr =  [[dict allKeys] sortedArrayUsingSelector:@selector(localizedStandardCompare:)];
+    
+    return arr;
 }
 
 - (NSString*) createStringFromDictionaryForPdf : (NSMutableDictionary*) dict andShouldFilter : (BOOL) shouldFilter
@@ -109,56 +118,60 @@ static PDFManager* sharePDF;
         // Checking if section has selected entities
         if ([self doesHaveCheckedSections:currentExamPart] || !shouldFilter)
         {
+                // Getting sroted keys
+                NSArray* allBodyParts = [self getSortedKeysArrayForDictionary:currentExamPart];
+            
                 // Setting part title
-                for (NSString* bodyPart in [currentExamPart allKeys])
+                for (NSString* bodyPart in allBodyParts)
                 {
                     // Getting current question array
                     NSMutableArray* currentQuestionsArray = [currentExamPart valueForKey:bodyPart];
                     
+                    // Removing number from key
+                    NSArray* splitBodyPartArray = [bodyPart componentsSeparatedByString:@"."];
+                    NSString* splittedBodyPart = [splitBodyPartArray objectAtIndex:1];
+                    
                     // Filter non checked questions
                     if ([self doesHaveCheckedQuestions:currentQuestionsArray] || !shouldFilter)
                     {
-                        pdfString = [pdfString stringByAppendingString:[NSString stringWithFormat:@"\t%@ \n",bodyPart]];
+                        pdfString = [pdfString stringByAppendingString:[NSString stringWithFormat:@"\t%@ ",splittedBodyPart]];
                         
                         // Going through all qeustions sections
                         for (AdmissionQuestion* currentQuestion in currentQuestionsArray)
                         {
                             
-                            // Moving text by a tab
-                            pdfString = [pdfString stringByAppendingString:[NSString stringWithFormat:@"\t\t"]];
-                            
                             // Checking if cell was checked or not
                             if (currentQuestion.wasChecked)
                             {
+                                // Moving text by a tab
+                                pdfString = [pdfString stringByAppendingString:[NSString stringWithFormat:@"\n\t\t"]];
+
                                 NSString* comment = currentQuestion.comment ? currentQuestion.comment : @"";
                               
                                 // Empty checked text ?
-                                if (!currentQuestion.checkedText)
+                                if (!currentQuestion.checkedText || [currentQuestion.checkedText isEqualToString:@""])
                                 {
-                                    pdfString = [pdfString stringByAppendingString:[NSString stringWithFormat:@"%@:",currentQuestion.text]];
+                                    pdfString = [pdfString stringByAppendingString:[NSString stringWithFormat:@"%@",currentQuestion.text]];
                                     
                                     // If we have a comment
                                     if (comment && ![comment isEqualToString:@""])
                                     {
-                                        pdfString = [pdfString stringByAppendingString:[NSString stringWithFormat:@" %@",comment]];
+                                        pdfString = [pdfString stringByAppendingString:[NSString stringWithFormat:@": %@",comment]];
                                     }
-                                    else
-                                    {
-                                        pdfString = [pdfString stringByAppendingString:[NSString stringWithFormat:@" Oui"]];
-                                    }
+                                    
                                 }
                                 else
                                 {
                                     // If we have comment show it
                                     if (![comment isEqualToString:@""])
                                     {
-                                        pdfString = [pdfString stringByAppendingString:[NSString stringWithFormat:@"%@ : %@",currentQuestion.text,comment]];
+                                        pdfString = [pdfString stringByAppendingString:[NSString stringWithFormat:@"%@ : %@ : %@",currentQuestion.text,currentQuestion.checkedText,comment]];
                                       //  pdfString = [pdfString stringByAppendingString:[NSString stringWithFormat:@" %@",comment]];
                                     }
-                                    // No comment? Go to default
+                                    // No comment ? no predefient text ? Go to default
                                     else
                                     {
-                                        pdfString = [pdfString stringByAppendingString:[NSString stringWithFormat:@"%@ : %@",currentQuestion.text,currentQuestion.checkedText]];
+                                        pdfString = [pdfString stringByAppendingString:[NSString stringWithFormat:@"%@ : %@",currentQuestion.text, currentQuestion.checkedText]];
                                     }
                                 }
                             }
@@ -179,11 +192,12 @@ static PDFManager* sharePDF;
                                     
                                 }*/
                             }
-                            
-                            // New line
-                            pdfString = [pdfString stringByAppendingString:[NSString stringWithFormat:@"\n"]];
-
+                        
+                            //pdfString = [pdfString stringByAppendingString:[NSString stringWithFormat:@"\n"]];
                         }
+                        
+                        pdfString = [pdfString stringByAppendingString:[NSString stringWithFormat:@"\n"]];
+
                     }
                 }
         }

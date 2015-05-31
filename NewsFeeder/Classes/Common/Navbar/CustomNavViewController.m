@@ -136,6 +136,14 @@
         
         [self.navBarView.rightButton setHidden:YES];
     }
+    else if ([dicName isEqualToString:SCREEN_ABOUT]) {
+        
+        [self.navBarView.lblTitle setText:[gAppDelegate getStringInScreen:SCREEN_ABOUT
+                                                                    strID:STR_NAVTITLE]];
+        
+        
+        [self.navBarView.rightButton setHidden:YES];
+    }
     else if ([dicName isEqualToString:SCREEN_DOCUMENTS])
     {
             [self.navBarView.lblTitle setText:[gAppDelegate getStringInScreen:SCREEN_DOCUMENTS

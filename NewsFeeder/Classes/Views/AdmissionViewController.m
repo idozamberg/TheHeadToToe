@@ -273,14 +273,25 @@
     //[self.tblAdmission setHeight:totalHeight];
 }
 
+- (NSArray*) getSortedKeysArrayForDictionary :(NSDictionary*) dict
+{
+    NSArray *arr =  [[dict allKeys] sortedArrayUsingSelector:@selector(localizedStandardCompare:)];
+    
+    return arr;
+}
+
+
 
 - (NSInteger) calculateCellSizeForSection : (NSMutableDictionary*) sectionDictionary andSection :(NSInteger) section
 {
     NSInteger cellSize = 0;
     NSInteger sectionCounter = 0;
     
+    // Getting sorted keys
+    NSArray* sortedKeys = [self getSortedKeysArrayForDictionary:sectionDictionary];
+    
     // Going through all seciontion
-    for (NSString* key in [sectionDictionary allKeys])
+    for (NSString* key in sortedKeys)
     {
         // If sections is open
         if (innerRowsForSection.count > section)
