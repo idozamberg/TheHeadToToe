@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Formule sanguine complète</key>
+	<dict>
+		<key>01.Erythrocytes</key>
+		<string>4,4 - 6.0 (H) 3.8-5.2 (F) T/L</string>
+		<key>02.Hématocrite</key>
+		<string>40-52 % (H), 37-47% (F)</string>
+		<key>03.Hémoglobine</key>
+		<string>140-180 (H), 120-160(F) g/l </string>
+		<key>04.MCV</key>
+		<string>80-94 </string>
+		<key>05.MCH</key>
+		<string>26-34 pg</string>
+		<key>06.MCHC</key>
+		<string>320-360 g/L</string>
+		<key>07.Leucocytes</key>
+		<string>4-11 G/L</string>
+		<key>08.Thrombocytes</key>
+		<string>150-350 G/L</string>
+	</dict>
+	<key>Chimie sanguine</key>
+	<dict>
+		<key>01.Albumine</key>
+		<string>4.0 - 6.0 g/dL</string>
+		<key>02.Phosphatase alcaline</key>
+		<string>0.5-2 µkat/L</string>
+		<key>03.ALAT</key>
+		<string>0.17-0.68 µkat/L</string>
+		<key>04.ASAT</key>
+		<string>0.17-0.51 µkat/L</string>
+		<key>05.Gamma-GT</key>
+		<string>0 - 30 U/L</string>
+		<key>06,0.Bilirubine Totale</key>
+		<string>5-21 µmol/L</string>
+		<key>06,1.Bilirubine Non Conjugée</key>
+		<string>3.4-12 µmol/L</string>
+		<key>06,2.Bilirubine Conjugée </key>
+		<string>≤ 7 µmol/L</string>
+		<key>07.Ferritine</key>
+		<string>20 - 300 ng/mL</string>
+		<key>08.Créatinine</key>
+		<string>50-110 µmol/L</string>
+		<key>09.BUN</key>
+		<string>2.9-8.2 mmol/L</string>
+		<key>10.Glycémie (à jeun)</key>
+		<string>3.3 - 6.1 mmol/L</string>
+		<key>11.Cholestérol total</key>
+		<string>≤ 5.18 mmol/L</string>
+		<key>12.Lactate</key>
+		<string>0.5 - 2.0 mmol/L</string>
+		<key>13.LDL</key>
+		<string>&lt; 160 mg/dL</string>
+		<key>14.HDL</key>
+		<string>30 - 70 mg/dL</string>
+	</dict>
+</dict>
+</plist>

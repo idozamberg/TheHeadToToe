@@ -16,6 +16,7 @@
 @implementation AppData
 @synthesize questionsList = _questionsList,currNavigationController,youTubeFilesList = _youTubeFilesList;
 @synthesize favoriteFilesList = _favoriteFilesList;
+@synthesize currentTab = _currentTab;
 
 static AppData* shareData;
 
@@ -25,6 +26,7 @@ static AppData* shareData;
     if (!shareData)
    {
        shareData = [AppData new];
+       
    }
     
     return shareData;
@@ -53,6 +55,8 @@ static AppData* shareData;
     [self loadLabValues];
     [self loadYouTubeFileList];
     [self loadFavoriteList];
+    
+    _currentTab = [NSNumber numberWithInteger:1];
 }
 
 - (void) loadFilesList

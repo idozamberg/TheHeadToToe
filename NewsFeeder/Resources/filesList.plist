@@ -253,6 +253,138 @@
 			<key>Description</key>
 			<string>Urgences d&apos;un trauma spinal</string>
 		</dict>
+		<dict>
+			<key>Name</key>
+			<string>23_BPCO_prise en charge_SU.pdf</string>
+			<key>Description</key>
+			<string>Prise en charge de BPCO au SU</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>35_Diabete_01_07_08.pdf</string>
+			<key>Description</key>
+			<string>Prise en charge d&apos;une décompensation diabétique</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>38_Embolie_pulmonaire_non_massive.pdf</string>
+			<key>Description</key>
+			<string>Prise en charge embolie pulmonaire non massive</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>44_Epilepsie.pdf</string>
+			<key>Description</key>
+			<string>Prise en charge épilepsie</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>50_Etat_confusionnel_aigu.pdf</string>
+			<key>Description</key>
+			<string>Prise en charge état confusionnel aigue</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>64_Insuffisance_cardiaque_itineraire_clinique.pdf</string>
+			<key>Description</key>
+			<string>Prise en charge d&apos;une IC</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>74_Suspicion_meningite_bacterienne.pdf</string>
+			<key>Description</key>
+			<string>Prise en charge meningite bacterienne</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>104_Sepsis_CAU.pdf</string>
+			<key>Description</key>
+			<string>Prise en charge sepsis</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>74_Suspicion_meningite_bacterienne.pdf</string>
+			<key>Description</key>
+			<string>Prise en charge meningite bacterienne</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Algorithmes_ACLS_20101.pdf</string>
+			<key>Description</key>
+			<string>ACLS - Algorithmes</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>AVC_AIT_2013.pdf</string>
+			<key>Description</key>
+			<string>Prise en charge AVC/AIT</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Colique_nephretique_algorithme.pdf</string>
+			<key>Description</key>
+			<string>Prise en charge colique néphritique</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Embolie_pulmonaire_massive_thrombolyse_08.08_.pdf</string>
+			<key>Description</key>
+			<string>Prise en charge EP massive</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Hematochezie_site_SU.pdf</string>
+			<key>Description</key>
+			<string>Prise en charge Hématochezie</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>PAC_OFFICIEL.pdf</string>
+			<key>Description</key>
+			<string>Prise en charge pneumonie acquise en communauté</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Colique_nephretique_algorithme.pdf</string>
+			<key>Description</key>
+			<string>Prise en charge colique néphritique</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Patients_brules_check_list.pdf</string>
+			<key>Description</key>
+			<string>Prise en charge brûlures</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Plaies,_soins_aux_urgences.pdf</string>
+			<key>Description</key>
+			<string>Prise en charge plaies</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Protocole_FA_2012_a.pdf</string>
+			<key>Description</key>
+			<string>Prise en charge fibrillation auriculaire</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Protocole_HSA__18.06_.2013_.pdf</string>
+			<key>Description</key>
+			<string>Prise en charge HSA</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>SCA_Guidelines.pdf</string>
+			<key>Description</key>
+			<string>Prise en charge SCA</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Syncope_10.01_.2012__.pdf</string>
+			<key>Description</key>
+			<string>Syncope</string>
+		</dict>
 	</array>
 	<key>Psychiatrie</key>
 	<array>

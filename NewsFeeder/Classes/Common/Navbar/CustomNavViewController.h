@@ -12,15 +12,17 @@
 #import "CustomNavigationBarView.h"
 //#import "ReaderViewController.h"
 #import "INDAPVViewController.h"
+#import "VMTabBar.h"
 
 
-@interface CustomNavViewController : SuperViewController<CustomNavBarViewDelegate,UINavigationControllerDelegate, INDAPVViewControllerDelegate> {
+@interface CustomNavViewController : SuperViewController<CustomNavBarViewDelegate,UINavigationControllerDelegate, INDAPVViewControllerDelegate,VMTabBarDelegate> {
 	CustomNavigationBarView * navBarView;
     
     NSString *navBGFile;
-
     BOOL boolPrinterShow;
 }
+
+-(void) addTabBar;
 
 -(void)ShowPrinter:(BOOL)aBool;
 
@@ -30,6 +32,8 @@
 @property (nonatomic)         BOOL isShowingPdfView;
 @property (nonatomic, strong) NSString *transitionClassName;
 @property (nonatomic, strong) id animator;
+@property (nonatomic, strong) VMTabBar *tabbar;
+
 
 
 

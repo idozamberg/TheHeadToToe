@@ -144,7 +144,7 @@
     // Showing input text for anamnes actuelle
     if (self.cellModel.wasChecked)
     {
-        if ([self.cellModel.questionSection isEqualToString:@"Anamnèse actuelle"])
+        if ([self.cellModel.questionSection isEqualToString:@"01.Anamnèse actuelle"])
         {
             [self commentClicked:self];
         }

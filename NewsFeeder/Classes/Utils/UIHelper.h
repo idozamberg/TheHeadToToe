@@ -18,4 +18,7 @@
                    receiver:(id)receiver
           cancelButtonTitle:(NSString *)cancelButtonTitle
                otherButtons:(NSArray *)titles;
+
++ (NSArray*) getSortedKeysArrayForDictionary :(NSDictionary*) dict;
+
 @end

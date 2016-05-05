@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>01.Formule sanguine complète</key>
+	<dict>
+		<key>01.Erythrocytes (H)</key>
+		<string>4,4-6.0 T/L</string>
+		<key>01.Erythrocytes (F)</key>
+		<string>3.8-5.2 T/L</string>
+		<key>02.Hématocrite (H)</key>
+		<string>40-52 %</string>
+		<key>02.Hématocrite (F)</key>
+		<string>37-47%</string>
+		<key>03.Hémoglobine (H)</key>
+		<string>140-180 g/l</string>
+		<key>03.Hémoglobine (F)</key>
+		<string>120-160 g/l </string>
+		<key>04.MCV</key>
+		<string>80-94 fL</string>
+		<key>05.MCH</key>
+		<string>26-34 pg</string>
+		<key>06.MCHC</key>
+		<string>320-360 g/L</string>
+		<key>07.Leucocytes</key>
+		<string>4-11 G/L</string>
+		<key>08.Thrombocytes</key>
+		<string>150-350 G/L</string>
+		<key>08.Réticulocytes</key>
+		<string>25-75 G/L</string>
+	</dict>
+	<key>02.Répartition sanguine</key>
+	<dict>
+		<key>01.Neutrophiles segmentés</key>
+		<string>33-75%</string>
+		<key>02.Neutrophiles non-segmentés</key>
+		<string>0-5%</string>
+		<key>03.Basophiles</key>
+		<string>0-2%</string>
+		<key>04.Eosinophiles</key>
+		<string>0-5%</string>
+		<key>05.Monocytes</key>
+		<string>0-9%</string>
+		<key>06.Lymphocytes</key>
+		<string>15-60%</string>
+	</dict>
+	<key>03.Crase</key>
+	<dict>
+		<key>01.TP</key>
+		<string>80-120%</string>
+		<key>02.PTT</key>
+		<string>25-32 s</string>
+		<key>03.Fibrinogène</key>
+		<string>2-4 g/L</string>
+		<key>04.VS (H)</key>
+		<string>2-5mm 1H</string>
+		<key>04.VS (F)</key>
+		<string>3-7mm 1H</string>
+		<key>04.Plaquettes</key>
+		<string>150-350 G/L</string>
+	</dict>
+	<key>04.Gazométrie</key>
+	<dict>
+		<key>01.pH</key>
+		<string>7.36-7.44</string>
+		<key>02.pCO2</key>
+		<string>4.8-5.8 kPA</string>
+		<key>03.pCO2</key>
+		<string>36-44 mmHg</string>
+		<key>04.pO2</key>
+		<string>11 kPa</string>
+		<key>05.pO2</key>
+		<string>80-90 mm Hg</string>
+		<key>06.HCO3-</key>
+		<string>22-26 mEq/L</string>
+		<key>07.Base excess</key>
+		<string>-2à+2 mEq/L</string>
+	</dict>
+	<key>05.Ionogramme sanguin</key>
+	<dict>
+		<key>01.Na</key>
+		<string>136-144 mmol/L</string>
+		<key>02.K</key>
+		<string>3.6-4.6 mmol/L</string>
+		<key>03.Cl</key>
+		<string>96-107 mmol/L</string>
+		<key>04.CO2 total</key>
+		<string>23-30 mmol/L</string>
+		<key>05.Anion Gap</key>
+		<string>8-12</string>
+		<key>06.Osmolalité</key>
+		<string>280-300 mosm/kg</string>
+		<key>07.Urée</key>
+		<string>21.-7.1 mmol/L</string>
+		<key>08.Créatinine (F)</key>
+		<string>50-110 umol/L</string>
+		<key>08.Créatinine (H)</key>
+		<string>60-120 umol/L</string>
+	</dict>
+	<key>06.Ionogramme urinaire</key>
+	<dict>
+		<key>01.Na</key>
+		<string>100-300 mmol</string>
+		<key>02.K</key>
+		<string>40-100 mmol</string>
+		<key>03.Cl</key>
+		<string>80-250 mmol</string>
+		<key>04.HCO3-</key>
+		<string>21-25 mmol</string>
+		<key>05.Calcium</key>
+		<string>1.25-7.5 mmol</string>
+		<key>06.Phosphate</key>
+		<string>16-45 mmol</string>
+		<key>07.Magnésium</key>
+		<string>2.5-8.2 mmol</string>
+		<key>08.pH</key>
+		<string>5.4-7.2</string>
+	</dict>
+	<key>07.Chimie sanguine</key>
+	<dict>
+		<key>01.Albumine</key>
+		<string>40 - 60 g/L</string>
+		<key>01.Protéines plasmatiques</key>
+		<string>65-80 g/l</string>
+		<key>02.Phosphatase alcaline</key>
+		<string>0.5-2 µkat/L</string>
+		<key>03.ALAT</key>
+		<string>9-42 Ul</string>
+		<key>04.ASAT</key>
+		<string>11-42 Ul</string>
+		<key>05.Gamma-GT</key>
+		<string>0 - 30 U/L</string>
+		<key>06,0.Bilirubine Totale</key>
+		<string>5-21 µmol/L</string>
+		<key>06,1.Bilirubine Non Conjugée</key>
+		<string>&lt; 17 umol/L</string>
+		<key>06,2.Bilirubine Conjugée </key>
+		<string>≤ 7 µmol/L</string>
+		<key>07.Ferritine</key>
+		<string>20 - 300 ng/mL</string>
+		<key>08.Créatinine (H)</key>
+		<string>60-120 umol/L</string>
+		<key>08.Créatinine (F)</key>
+		<string>50-100 umol/L</string>
+		<key>09.BUN</key>
+		<string>2.9-8.2 mmol/L</string>
+		<key>10.Glycémie (à jeun)</key>
+		<string>4.1 - 6.1 mmol/L</string>
+		<key>11.Cholestérol total</key>
+		<string>1.5-2.5 g/L</string>
+		<key>12.Lactate</key>
+		<string>0.55-2.2 mmol/L</string>
+		<key>13.LDL</key>
+		<string>&lt;1.6 g/L</string>
+		<key>14.HDL (H)</key>
+		<string>&gt; 0.45 g/L</string>
+		<key>14.HDL (F)</key>
+		<string>&gt; 0.55 g/L</string>
+		<key>15.Triglycérides</key>
+		<string>&gt; 0.55 g/L</string>
+	</dict>
+</dict>
+</plist>

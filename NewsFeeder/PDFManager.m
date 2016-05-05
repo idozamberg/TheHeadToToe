@@ -148,8 +148,10 @@ static PDFManager* sharePDF;
 
                                 NSString* comment = currentQuestion.comment ? currentQuestion.comment : @"";
                               
+                                NSString* trimmedText = [currentQuestion.checkedText stringByReplacingOccurrencesOfString:@" " withString:@""];
+                                
                                 // Empty checked text ?
-                                if (!currentQuestion.checkedText || [currentQuestion.checkedText isEqualToString:@""])
+                                if (!currentQuestion.checkedText || [trimmedText isEqualToString:@""])
                                 {
                                     pdfString = [pdfString stringByAppendingString:[NSString stringWithFormat:@"%@",currentQuestion.text]];
                                     

@@ -19,6 +19,7 @@
 @implementation LabValuesViewController
 {
     NSMutableDictionary* valueList;
+    NSArray* valueListKeys;
     NSMutableArray* rowsForSection;
 
 }
@@ -27,6 +28,10 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     valueList = [AppData sharedInstance].labValues;
+    
+    // Getting sorted keys
+    valueListKeys = [UIHelper getSortedKeysArrayForDictionary:[AppData sharedInstance].labValues];
+    
     [self.tblValues reloadData];
     
     // Setting navigation
@@ -41,7 +46,6 @@
     {
         [rowsForSection addObject:[NSNumber numberWithInt:0]];
     }
-
 }
 
 - (void)didReceiveMemoryWarning {
@@ -63,7 +67,11 @@
     
     if ([[rowsForSection objectAtIndex:section] boolValue])
     {
-        NSArray* examTypeArray = [[valueList allValues] objectAtIndex:section];
+        // Getting key
+        NSString* key = [valueListKeys objectAtIndex:section];
+        
+        // Returning value
+        NSArray* examTypeArray = [valueList objectForKey:key];
         
         return examTypeArray.count;
     }
@@ -77,7 +85,12 @@
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     LabValueCell * cell = nil;
-    LabValue* currentValue = [[[valueList allValues] objectAtIndex:indexPath.section] objectAtIndex:indexPath.row];
+    
+    // Getting current key
+    NSString* key = [valueListKeys objectAtIndex:indexPath.section];
+    
+    // Getting current lab value
+    LabValue* currentValue = [[valueList objectForKey:key] objectAtIndex:indexPath.row];
     
     cell = [tableView dequeueReusableCellWithIdentifier:@"LabValueCell"];
     
@@ -95,9 +108,11 @@
 
 - (UIView *)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section
 {
-    NSString* title;
+    NSString* title = [valueListKeys objectAtIndex:section];
     
-    title = [[valueList allKeys] objectAtIndex:section];
+    // Removing number from key
+    NSArray* splitLabKey = [title componentsSeparatedByString:@"."];
+    title = [splitLabKey objectAtIndex:1];
     
     // Setting header properties
     QuestionsHeader * headerView = nil;

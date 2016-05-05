@@ -10,11 +10,14 @@
 #import "ATCAnimatedTransitioning.h"
 #import "INDAPVDocument.h"
 #import "INDAPVViewController.h"
+#import "UIView+Framing.h"
+#import "MenuViewController.h"
+
 
 @implementation CustomNavViewController
 
 
-@synthesize navBarView,isShowingPdfView,animator,transitionClassName;
+@synthesize navBarView,isShowingPdfView,animator,transitionClassName,tabbar;
 
 
 
@@ -27,10 +30,69 @@
     
     isShowingPdfView = NO;
     
+    // Don't add for menu bar
+    if (![self isKindOfClass:[MenuViewController class]])
+    {
+        [self addTabBar];
+    }
+    
    // self.navigationController.delegate = self;
 }
 
+-(void) addTabBar
+{
+    // Delete tab bar
+    [tabbar removeFromSuperview];
+    tabbar = nil;
+    
+    tabbar = [[VMTabBar alloc] initWithFrame:self.view.frame];
+    
+    [tabbar setYPosition:self.view.frame.size.height - 64];
+    [tabbar setHeight:64];
+    
+    tabbar.backgroundColor = [UIColor redColor];
+    
+    // make view when show for click tabbar
+    NSMutableArray *arrColor = [NSMutableArray arrayWithObjects:
+                                 rgb(231, 76, 60),
+                                rgb(231, 76, 60),
+                               rgb(231, 76, 60),
+                                 rgb(231, 76, 60), rgb(231, 76, 60),nil];
+    NSMutableArray *arrView = [NSMutableArray array];
+    for (NSInteger i = 0; i<5; i++) {
+        UIView *vi = [[UIView alloc] init];
+        [vi setBackgroundColor:(UIColor*)[arrColor objectAtIndex:i]];
+        [arrView addObject:vi];
+        
+    }
+    [tabbar addListOfViewWhenClickTabbar:arrView];
+   
+    // add icon an for tab
+    [tabbar addListOfItemImage:[NSMutableArray arrayWithObjects:@"Add.png",@"Chest-100.png",@"TestTube-100.png",@"Star-100.png",@"icon_setting.png", nil]];
+    [tabbar addListOfItemText:[NSMutableArray arrayWithObjects:@"Admission",@"Systèmes",@"Laboratoire",@"Favoris",@"Plus"
+                               ,nil]];
+    [tabbar setDelegate:self];
+    
+    [tabbar iconTabBarWithNumber:5];
+    [tabbar selectTabBarValueWithTagForImage:[[AppData sharedInstance].currentTab integerValue]];
+    [tabbar changeColorTabbarWithColor:[UIColor whiteColor]];
+    [self.view addSubview:tabbar];
+}
 
+#pragma mark - Tabar delegate
+-(void)VMTabBar:(VMTabBar *)tabbar switchTabWithTag:(NSInteger)tag
+{
+    NSLog(@"tag click: %li",(long)tag);
+    
+    // Creating info dictionary with tag number
+    NSDictionary* userInfo = @{@"tabNumber": [NSNumber numberWithInteger:tag]};
+    
+    // Setting current tab
+    [AppData sharedInstance].currentTab = [NSNumber numberWithInteger:tag];
+    
+    // Sending notification
+    [[NSNotificationCenter defaultCenter] postNotificationName:@"TabButtonClicked" object:self userInfo:userInfo];
+}
 
 // Override to allow orientations other than the default portrait orientation.
 /*

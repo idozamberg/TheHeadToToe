@@ -39,8 +39,8 @@ typedef enum
 @property (strong,nonatomic) NSMutableDictionary* questionsList;
 @property (strong,nonatomic) NSMutableDictionary* labValues;
 @property (strong,nonatomic) NSMutableDictionary* youTubeFilesList;
-@property (strong,nonatomic) NSMutableArray* favoriteFilesList;
-
+@property (strong,nonatomic) NSMutableArray*      favoriteFilesList;
+@property (strong, nonatomic)NSNumber*            currentTab;
 
 @property (strong,nonatomic) UICustomNavigationController* currNavigationController;
 

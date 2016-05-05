@@ -33,17 +33,11 @@ static AnalyticsManager* theManager = nil;
     
     [Flurry setCrashReportingEnabled:YES];
     
-    // If it's production
-    // 2ZD3DGCZQKDSPYPZNSB3
-       //2ZD3DGCZQKDSPYPZNSB3
-    // Testing
-    //NXJWC6WPMXSDZ6YYRQ49
     // Replace YOUR_API_KEY with the api key in the downloaded package
     [Flurry startSession:@"GJFDRF24GDTF4ZBWZHHS"];
-    //
-    //PTRVWW6XGBKCHSTN78WM - ADHD
-    // 2ZD3DGCZQKDSPYPZNSB3 - PROD
-  
+
+    // GJFDRF24GDTF4ZBWZHHS - TEST
+    // NBPQY88ZJMBKNX7P2NMV - PROD
 }
 
 

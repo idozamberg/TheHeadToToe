@@ -48,4 +48,11 @@
     [alertview show];
 }
 
++ (NSArray*) getSortedKeysArrayForDictionary :(NSDictionary*) dict
+{
+    NSArray *arr =  [[dict allKeys] sortedArrayUsingSelector:@selector(localizedStandardCompare:)];
+    
+    return arr;
+}
+
 @end

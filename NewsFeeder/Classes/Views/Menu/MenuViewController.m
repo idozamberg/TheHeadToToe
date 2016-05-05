@@ -21,6 +21,13 @@
 #import "HTTFavoriteFile.h"
 #import "FeedBackViewController.h"
 
+#define ADDMISSION_TAB 1
+#define SYSTEMS_TAB 2
+#define LAB_TAB 3
+#define FAVORITES_TAB 4
+#define PLUS 5
+
+
 @interface MenuViewController ()
 
 @end
@@ -51,6 +58,7 @@
     currentSystem = @"";
     
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(slideSideMenu) name:@"LeftSideBarButtonClicked" object:Nil];
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(showTheView:) name:@"TabButtonClicked" object:Nil];
     
     currentMenuMode = menuModeMain;
     
@@ -74,6 +82,46 @@
     
     viewBottom.delegate = self;
     [viewBottom setTitle:@"Layout" color:THEME_COLOR_TYPE_RED];
+}
+
+- (void) showTheView:(NSNotification*)notification
+{
+    NSNumber* viewTag;
+    
+    // Getting the noification
+    if ([notification.name isEqualToString:@"TabButtonClicked"])
+    {
+        NSDictionary* userInfo = notification.userInfo;
+        viewTag = (NSNumber*)userInfo[@"tabNumber"];
+    }
+    
+    CustomNavViewController* currentNavVc;
+    
+    switch ([viewTag integerValue]) {
+        case ADDMISSION_TAB:
+            [self showAddmissionVC];
+            break;
+        case SYSTEMS_TAB:
+            [self homeClicked:self];
+            break;
+        case LAB_TAB:
+            [self showLabValuesVC];
+            break;
+        case FAVORITES_TAB:
+            [self favoritesClicked:self];
+            break;
+        case PLUS:
+            
+            // Getting currrent controller
+            currentNavVc = ((CustomNavViewController*)((UICustomNavigationController*)currentController).visibleViewController);
+            
+            // Showing left menu
+            [currentNavVc.navBarView navbarButton_Click:navBarView.leftButton];
+            break;
+        default:
+            break;
+    }
+
 }
 
 - (void) viewWillAppear:(BOOL)animated
@@ -116,6 +164,49 @@
     [self showCurrentController];
 }
 
+- (void) showAddmissionVC
+{
+    if (currentController) {
+        [currentController.view removeFromSuperview];
+        currentController = nil;
+    }
+    
+    // Setting parameters
+    [AnalyticsManager sharedInstance].flurryParameters = [NSDictionary dictionaryWithObjectsAndKeys:@"Admission",@"View Name", nil];
+    
+    // Sending analytics
+    [AnalyticsManager sharedInstance].sendToFlurry = YES;
+    [[AnalyticsManager sharedInstance] sendEventWithName:@"View selected from menu" Category:@"Views" Label:@"Admission"];
+    
+    // Showing admission
+    currentController = (SuperViewController *)[[UICustomNavigationController alloc] initWithRootViewController:[[AdmissionViewController alloc] viewFromStoryboard]];
+    [AppData sharedInstance].currNavigationController = (UICustomNavigationController*)currentController;
+    
+    [self showCurrentControllerNotAnimated];
+
+}
+
+- (void) showLabValuesVC
+{
+    if (currentController) {
+        [currentController.view removeFromSuperview];
+        currentController = nil;
+    }
+    
+    // Setting parameters
+    [AnalyticsManager sharedInstance].flurryParameters = [NSDictionary dictionaryWithObjectsAndKeys:@"Laboratoire",@"View Name", nil];
+    
+    
+    // Sending analytics
+    [AnalyticsManager sharedInstance].sendToFlurry = YES;
+    [[AnalyticsManager sharedInstance] sendEventWithName:@"View selected from menu" Category:@"Views" Label:@"Laboratoire"];
+    
+    // Sowing labo screen
+    currentController = (SuperViewController *)[[UICustomNavigationController alloc] initWithRootViewController:[[LabValuesViewController alloc] viewFromStoryboard]];
+    
+    [self showCurrentControllerNotAnimated];
+}
+
 - (IBAction) button_click:(id)sender
 {
     if ([sender isEqual:btnSetting]) {
@@ -129,67 +220,17 @@
     }
     else if ([sender isEqual:btnAdd]) {
         
-        if (currentController) {
-            [currentController.view removeFromSuperview];
-            currentController = nil;
-        }
-        
-        // Setting parameters
-        [AnalyticsManager sharedInstance].flurryParameters = [NSDictionary dictionaryWithObjectsAndKeys:@"Admission",@"View Name", nil];
-        
-        // Sending analytics
-        [AnalyticsManager sharedInstance].sendToFlurry = YES;
-        [[AnalyticsManager sharedInstance] sendEventWithName:@"View selected from menu" Category:@"Views" Label:@"Admission"];
-        
-        // Showing admission
-        currentController = (SuperViewController *)[[UICustomNavigationController alloc] initWithRootViewController:[[AdmissionViewController alloc] viewFromStoryboard]];
-        [AppData sharedInstance].currNavigationController = (UICustomNavigationController*)currentController;
-        [self showCurrentController];
+        [self showAddmissionVC];
     }
     else if ([sender isEqual:self.btnLabo])
     {
-        if (currentController) {
-            [currentController.view removeFromSuperview];
-            currentController = nil;
-        }
-        
-        // Setting parameters
-        [AnalyticsManager sharedInstance].flurryParameters = [NSDictionary dictionaryWithObjectsAndKeys:@"Laboratoire",@"View Name", nil];
-        
-        
-        // Sending analytics
-        [AnalyticsManager sharedInstance].sendToFlurry = YES;
-        [[AnalyticsManager sharedInstance] sendEventWithName:@"View selected from menu" Category:@"Views" Label:@"Laboratoire"];
-        
-        // Sowing labo screen
-        currentController = (SuperViewController *)[[UICustomNavigationController alloc] initWithRootViewController:[[LabValuesViewController alloc] viewFromStoryboard]];
-        [self showCurrentController];
-
+        [self showLabValuesVC];
     }
     else if ([sender isEqual:self.btnSystems]) {
         
-        
+         // Showing systems
         [self homeClicked:self];
-       /* if (currentMenuMode == menuModeMain)
-        {
-            currentMenuMode = menuModeClosed;
-            [tblMenu reloadSections:[NSIndexSet indexSetWithIndex:0] withRowAnimation:UITableViewRowAnimationFade];
-
-        }
-        else
-        {
-            // Setting up main mode
-            currentMenuMode = menuModeMain;
-            NSString* title = @"Systems";
-            
-            // Setting image background
-            [self.imgSystemsIcon setImage:[UIImage imageNamed:@"lungs-50.png"]];
-            self.lblSystemsHeader.text = title;
-            
-            [tblMenu reloadSections:[NSIndexSet indexSetWithIndex:0] withRowAnimation:UITableViewRowAnimationFade];
-            
-
-        }*/
+       
     }
     else if ([sender isEqual:self.btnFeedback])
     {
@@ -197,6 +238,7 @@
         
     }
 }
+
 
 - (IBAction)feedback_clicked:(id)sender {
     
@@ -283,6 +325,19 @@
    // [AppData sharedInstance].currNavigationController show;
 }
 
+- (void) showCurrentControllerNotAnimated
+{
+    if (currentController == nil) {
+        return;
+    }
+    
+    if ([currentController isKindOfClass:[UINavigationController class]]) {
+        [AppData sharedInstance].currNavigationController = (UICustomNavigationController*)currentController;
+    }
+    
+    [self.view addSubview:currentController.view];
+    
+}
 
 - (void) showCurrentController
 {
@@ -373,6 +428,12 @@
 
 - (IBAction)favoritesClicked:(id)sender {
     
+    if (currentController) {
+        [currentController.view removeFromSuperview];
+        currentController = nil;
+    }
+    
+    
     // Creating view controller
     SuperViewController* vcList = [[FileListViewController alloc] viewFromStoryboard];
     
@@ -405,7 +466,7 @@
     currentController = (SuperViewController *)[[UICustomNavigationController alloc] initWithRootViewController:vcList];
     
     // Showing controller
-    [self showCurrentController];
+    [self showCurrentControllerNotAnimated];
 }
 
 - (IBAction)aboutClicked:(id)sender {
@@ -435,7 +496,8 @@
     currentController = (SuperViewController *)[[UICustomNavigationController alloc] initWithRootViewController:[[SystemsViewController alloc] viewFromStoryboard]];
     [AppData sharedInstance].currNavigationController = (UICustomNavigationController*)currentController;
     
-    [self showCurrentController];
+  [self showCurrentControllerNotAnimated];
+
 }
 
 - (void)showSplashWithDuration:(CGFloat)duration

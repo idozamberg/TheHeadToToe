@@ -8,10 +8,12 @@
 
 #import <Foundation/Foundation.h>
 #import "AppData.h"
+#import "CustomNavigationBarView.h"
 
 @interface FlowManager : NSObject
 
 + (FlowManager*) sharedInstance;
 - (void) showDataVCForSystem : (NSString*) system;
 - (void) showFavoriteFileListViewControllerWithFilelist : (NSMutableArray*) list;
+- (void) showLabValuesViewController;
 @end

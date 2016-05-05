@@ -58,6 +58,14 @@
             }
         }
     }
+    else
+    {
+        if(self.delegate){
+            if ([self.delegate respondsToSelector:@selector(didClickNavBarLeftButton)]) {
+                [self.delegate didClickNavBarLeftButton];
+            }
+        }
+    }
     
 }
 

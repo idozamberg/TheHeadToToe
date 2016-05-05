@@ -9,6 +9,7 @@
 #import "FlowManager.h"
 #import "FileListViewController.h"
 #import "SystemsViewController.h"
+#import "LabValuesViewController.h"
 
 @implementation FlowManager
 
@@ -51,6 +52,13 @@ static FlowManager* sharedManager;
     
     // Push vc
     [[AppData sharedInstance].currNavigationController pushViewController:vcList animated:YES];
+}
+
+- (void) showLabValuesViewController
+{
+    LabValuesViewController* labVC = (LabValuesViewController*)[[LabValuesViewController alloc] viewFromStoryboard];
+    
+    [[AppData sharedInstance].currNavigationController pushViewController:labVC animated:YES];
 }
 
 @end

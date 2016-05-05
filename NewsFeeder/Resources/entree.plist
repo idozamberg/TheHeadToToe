@@ -12,9 +12,13 @@
 		<array>
 			<string>Maladies chroniques,Pas d&apos;autres maladies, </string>
 			<string>Hospitalisations,Pas d&apos;hospitalisations jusqu&apos;à présent,Oui </string>
+			<string>Jamais hospitalisé,Pas d&apos;hospitalisations jusqu&apos;à présent,Oui </string>
 			<string>Médicaments,Pas de médicaments, </string>
+			<string>Pas de médicaments,Pas de médicaments, </string>
 			<string>Allergies,Pas d&apos;allergies, Oui</string>
+			<string>Pas d&apos;allergies,Pas d&apos;allergies, Oui</string>
 			<string>ATCD chirurgicaux,Pas d&apos;interventions chirurgicales,Oui</string>
+			<string>Pas d&apos;ATCD chirurgicaux,Pas d&apos;interventions chirurgicales,Oui</string>
 			<string>Accidents/Traumatismes,,Oui</string>
 			<string>ATCD psychiatriques,Pas d&apos;ATCD psychiatriques, </string>
 			<string>Autres ATCD,Pas d&apos;autres ATCD, Oui</string>
@@ -27,14 +31,14 @@
 			<string>Troubles de la marche,,</string>
 			<string>AVQ OK,,</string>
 			<string>Perte d&apos;AVQ,,</string>
-			<string>AIVQ conservés</string>
+			<string>AIVQ conservés,,</string>
 			<string>Perte d&apos;AIVQ,,</string>
 			<string>Aide à domicile,,</string>
 			<string>Pas d&apos;aide à domicile,,</string>
 		</array>
 		<key>04.FRCV</key>
 		<array>
-			<string>Tabac,,UPA</string>
+			<string>Tabac,,</string>
 			<string>HTA, Pas d&apos;HTA,</string>
 			<string>Diabète,,Patient(e) diabétique</string>
 			<string>Hypercholestérolémie, Pas d&apos;hypercholestérolémie, Oui</string>
@@ -59,6 +63,7 @@
 			<string>Frissons,,</string>
 			<string>Perte de poids,,</string>
 			<string>Sudations nocturnes,,</string>
+			<string>Prise de poids,,</string>
 			<string>Perte d&apos;appétit,,</string>
 			<string>Asthénie, Pas d&apos;Asthénie,</string>
 			<string>Troubles du sommeil,,</string>
@@ -67,7 +72,10 @@
 		<array>
 			<string>Pas de plainte cardiaque,,</string>
 			<string>Pas de plainte vasculaire,,</string>
-			<string>Douleurs thoraciques,,</string>
+			<string>Douleurs rétrosternales,,</string>
+			<string>DRS exercice-dépendante,,</string>
+			<string>Douleurs en étau,,</string>
+			<string>Irradiation de la douleur,,</string>
 			<string>Palpitations,,</string>
 			<string>Syncope,,</string>
 			<string>Dyspnée d&apos;effort,,</string>
@@ -82,11 +90,14 @@
 			<string>Pas de plaintes respiratoires,,</string>
 			<string>Toux d&apos;apparition nouvelle,,</string>
 			<string>Toux chronique,,</string>
+			<string>Exacerbation d&apos;une toux chronique,,</string>
 			<string>Expectorations, Pas d&apos;expectorations,</string>
 			<string>Augmentation des expectorations,,</string>
 			<string>Expectorations purulentes,</string>
+			<string>Présence de 2/3 critères d&apos;Anthonissen,,</string>
 			<string>Dyspnée légère,,</string>
 			<string>Dyspnée sévère,,</string>
+			<string>Péjoration d&apos;une dyspnée chronique,,</string>
 			<string>Douleurs thoraciques,,</string>
 			<string>Douleurs respiro-dépendantes,,</string>
 			<string>Hémoptysie, Pas d&apos;hémoptysie,</string>
@@ -125,18 +136,18 @@
 		<array>
 			<string>Pas de plaintes digestives,,</string>
 			<string>Appétit conservé,,</string>
+			<string>Perte d&apos;appétit,,</string>
 			<string>Transit conservé,,</string>
+			<string>Douleurs abdominales,,</string>
 			<string>Nausées,,</string>
 			<string>Vomissements,,</string>
 			<string>Hématémèse,,</string>
-			<string>Douleurs abdominales,,</string>
 			<string>Diarrhées,,</string>
 			<string>Hématochézie</string>
-			<string>Perte d&apos;appétit,,</string>
 			<string>Constipation,,</string>
-			<string>Dyspepsie</string>
-			<string>Pyrosis</string>
-			<string>Ictère/prurit, Pas d&apos;ictère/prurit</string>
+			<string>Dyspepsie,,</string>
+			<string>Pyrosis,,</string>
+			<string>Ictère/prurit, Pas d&apos;ictère/prurit,,</string>
 		</array>
 		<key>06.Douleur</key>
 		<array>
@@ -158,8 +169,8 @@
 			<string>Hématurie, Pas d&apos;hématurie,</string>
 			<string>Pollakiurie,,</string>
 			<string>Oligurie, Pas d&apos;oligurie,</string>
-			<string>Polyurie</string>
-			<string>Nycturie</string>
+			<string>Polyurie,,</string>
+			<string>Nycturie,,</string>
 			<string>Incontinence urinaire, Pas d&apos;incontinence urinaire,</string>
 			<string>Urgence mictionnelle, Pas d&apos;urgence mictionelle,</string>
 			<string>Prostatisme,,</string>
@@ -202,7 +213,7 @@
 			<string>Atteinte monoarticulaire,,</string>
 			<string>Atteinte polyarticulaire,,</string>
 			<string>Type mécanique,,</string>
-			<string>Type Inflammatoire,,</string>
+			<string>Type inflammatoire,,</string>
 			<string>Tuméfaction,,</string>
 			<string>Dynamique du traumatisme,,</string>
 		</array>
@@ -211,11 +222,12 @@
 	<dict>
 		<key>01.Général</key>
 		<array>
-			<string>Bon état général,</string>
-			<string>Mauvais état général,</string>
+			<string>Bon état général,,</string>
+			<string>Baisse état général,,</string>
+			<string>Mauvais état général,,</string>
 			<string>TA, Normotendu,,</string>
 			<string>FC, Normocarde,,</string>
-			<string>Satu, Pas de desaturations,</string>
+			<string>Saturation, Pas de desaturations,</string>
 			<string>T°,,</string>
 			<string>Poids,,</string>
 		</array>
@@ -226,12 +238,14 @@
 			<string>Satu,,</string>
 			<string>B1-B2 bien frappé,,</string>
 			<string>Rythme régulier,,</string>
+			<string>Pouls périphériques palpables,,</string>
 			<string>Pas de souffle,,</string>
 			<string>Pas de cyanose,,</string>
 			<string>Cyanose centrale,,</string>
 			<string>Cyanose périphérique,,</string>
 			<string>B3 présent,,</string>
 			<string>B4 présent,,</string>
+			<string>Gallop,,</string>
 			<string>Rythme irrégulièrement irrégulier,,</string>
 			<string>Souffle systolique au foyer,,</string>
 			<string>Souffle diastolique au foyer,,</string>
@@ -242,22 +256,31 @@
 			<string>Pas de turgescence jugulaire,,</string>
 			<string>Reflux hepato-jugulaire positif,,</string>
 			<string>Reflux hepato-jugulaire normal,,</string>
-			<string>Oedèmes des MI remontant, Pas d&apos;oedèmes des MI,</string>
+			<string>Oedèmes des MI, Pas d&apos;oedèmes des MI,</string>
+			<string>Oedèmes des MI remontant aux chevilles, Pas d&apos;oedèmes des MI,</string>
+			<string>Oedèmes des MI remontant aux genoux, Pas d&apos;oedèmes des MI,</string>
 			<string>Pilosité des téguments normale,,</string>
 			<string>Absence de pilosité,,</string>
 			<string>Pouls Radial palpable, Pouls Radial Present,</string>
+			<string>Pouls Radial non-palpable, Pouls Radial Present,</string>
 			<string>Pouls Fémoral palpable, Pouls Fémoral present,</string>
+			<string>Pouls Fémoral non-palpable, Pouls Fémoral present,</string>
 			<string>Pouls Poplité palpable, Pouls Poplité present,</string>
+			<string>Pouls Poplité non-palpable, Pouls Poplité present,</string>
 			<string>Pouls Tibial postérieur palpable,,</string>
+			<string>Pouls Tibial postérieur non-palpable,,</string>
 			<string>Pouls Pédieux,,</string>
 			<string>TRC &gt;3 secondes,,</string>
 			<string>TRC normal,,</string>
 			<string>Marbrure,,</string>
-			<string>Paleur des téguments,,</string>
+			<string>Pâleur des téguments,,</string>
 		</array>
 		<key>03.Respiratoire</key>
 		<array>
 			<string>Eupnéique,,</string>
+			<string>Tachypnéique,,</string>
+			<string>Dyspnéique,,</string>
+			<string>En détresse respiratoire,,</string>
 			<string>Murmure vésiculaire symétrique,,</string>
 			<string>Pas de bruits surajoutés,,</string>
 			<string>Ampliation symétrique,,</string>
@@ -266,12 +289,17 @@
 			<string>Cyanose centrale,,</string>
 			<string>Cyanose périphérique,,</string>
 			<string>Stridor,,</string>
-			<string>Recrutement de la musculature accessoire,, Oui</string>
-			<string>Tirage,,Oui</string>
-			<string>Sibilances,</string>
+			<string>Recrutement de la musculature accessoire,,</string>
+			<string>Tirage sus-claviculaire,,</string>
+			<string>Tirage sus-sternal,,</string>
+			<string>Tirage sous-costal,,</string>
+			<string>Tirage intercostal,,</string>
+			<string>Battement des ailes du nez,,</string>
+			<string>Sibilances,,</string>
 			<string>Râles crépitants,,</string>
 			<string>Râles grossiers,,</string>
 			<string>Foyer d&apos;hypoventilation, Pas de foyer d&apos;hypoventilation</string>
+			<string>Souffle tubaire,,</string>
 			<string>Submatité,,</string>
 			<string>Matité,,</string>
 			<string>Ampliation thoracique asymétrique,,</string>
@@ -289,6 +317,8 @@
 			<string>Sensibilité normale aux 4 membres,,</string>
 			<string>Mingazzini tenu, Mingazzini tenu,</string>
 			<string>Mingazzini non-tenu, Mingazzini tenu,</string>
+			<string>Barré tenu,,</string>
+			<string>Barré non-tenu,,</string>
 			<string>ROT normovifs, ROT normovifs,</string>
 			<string>Asymétrie des ROT,,</string>
 			<string>ROT hypervif MS,,</string>
@@ -296,6 +326,12 @@
 			<string>ROT hypervif MI,,</string>
 			<string>ROT hypovif MI,,</string>
 			<string>Absence de ROT,,</string>
+			<string>Toucher-piquer distingué,,</string>
+			<string>Anomalie du toucher-piquer,,</string>
+			<string>Pallesthésie normale,,</string>
+			<string>Pallesthésie diminuée,,</string>
+			<string>Proprioception OK,,</string>
+			<string>Troubles de la proprioception,,</string>
 			<string>Hémiparésie G,,</string>
 			<string>Hémiparésie D,,</string>
 			<string>Tétraparésie,,</string>
@@ -307,23 +343,40 @@
 			<string>Brudzinski négatif,,</string>
 			<string>Hypertonie spastique,,</string>
 			<string>Lame de canif,,</string>
+			<string>Extension de la zone réflexogène,,</string>
+			<string>Signe de Hoffman positif,,</string>
+			<string>Réflexe abdomino-cutané asymétrique,,</string>
+			<string>Clonus,,</string>
+			<string>Réflexe cutané-plantaire en extension,,</string>
+			<string>Réflexe cutané-plantaire normal,,</string>
+			<string>Réflexe cutané-plantaire indifférent,,</string>
 			<string>Hypertonie plastique,,</string>
 			<string>Roue dentée,,</string>
+			<string>Tremblement de repos,,</string>
 			<string>Bradykinésie,,</string>
-			<string>Réflexe cutané-plantaire normal,,</string>
-			<string>Réflexe cutané-plantaire en extension,,</string>
-			<string>Extension de la zone réflexogène,,</string>
+			<string>Marche à petit pas,,</string>
+			<string>Perte du ballant du bras,,</string>
+			<string>Demi-tour décomposé,,</string>
 			<string>Romberg positif,,</string>
 			<string>Romberg négatif,,</string>
 			<string>Unterberger dévié à,,</string>
 			<string>Unterberger normal,</string>
 			<string>Diadococinésie conservée, Diadococinésie SP</string>
 			<string>Adiadococinésie,,</string>
-			<string>Stewart-Holmes Normale, SH pathlogique, Normal</string>
+			<string>Stewart-Holmes normal, SH pathlogique, Normal</string>
 			<string>Stewart-Holmes pathlogique,,</string>
-			<string>Clonus,,Oui</string>
+			<string>Tremblement d&apos;intention,,</string>
+			<string>Dysmétrie,,</string>
+			<string>Elargissement du polygone de sustentation,,</string>
+			<string>Marche sur les talons ok,</string>
+			<string>Marche sur les talons impossible,</string>
+			<string>Marche sur les pointes ok,</string>
+			<string>Marche sur les pointes impossible,</string>
+			<string>Marche en fauchant,,</string>
+			<string>Marche tabétique,,</string>
+			<string>Marche &quot;ébrieuse&quot;,,</string>
 			<string>Asterixis,,Oui</string>
-			<string>Pas d&apos;asterixis</string>
+			<string>Pas d&apos;asterixis,,</string>
 		</array>
 		<key>05.Digestif</key>
 		<array>
@@ -331,16 +384,24 @@
 			<string>Absence de bruit,,</string>
 			<string>Bruits métalliques,,</string>
 			<string>ASI,,</string>
+			<string>Abdomen ballonné,,</string>
 			<string>Pas de défense, ni de détente.</string>
 			<string>Pas d&apos;HSM,,</string>
+			<string>Orifices herniaires sp,,</string>
+			<string>Palpation d&apos;une masse herniaire,,</string>
 			<string>TR normal,,</string>
 			<string>Ascite,,</string>
 			<string>Défense,,</string>
 			<string>Détente,,</string>
+			<string>Ventre de bois,,</string>
 			<string>Signe de Murphy, Signe de Murphy négatif</string>
 			<string>Douleur au McBurney,,</string>
 			<string>Douleur à la palpation,,</string>
-			<string>Ictère/prurit, Pas d&apos;ictère ni de prurit,</string>
+			<string>Palpation d&apos;une masse pulsatile,,</string>
+			<string>Signe de Cullen,,</string>
+			<string>Signe de Grey-Turner,,</string>
+			<string>Ictère, Pas d&apos;ictère ni de prurit,</string>
+			<string>Traces de prurit,,</string>
 			<string>Angiome stellaire,,</string>
 			<string>Hématomes,,</string>
 			<string>Tête de méduse,,</string>
@@ -350,21 +411,34 @@
 			<string>HSM,,</string>
 			<string>Sang au TR,,</string>
 			<string>Palpation d&apos;une masse au TR,,</string>
+			<string>Palpation d&apos;un fécalome au TR,,</string>
 		</array>
 		<key>06.Uro-génital</key>
 		<array>
 			<string>Loges rénales souples et indolores,,</string>
 			<string>Percussion des loges douloureuses,,</string>
 			<string>Pas de globe urinaire,,</string>
+			<string>Pas d&apos;écoulement urétral,,</string>
+			<string>Pas d&apos;écoulement vaginal,,</string>
+			<string>Ecoulement purulent urétral,,</string>
 			<string>Globe urinaire,,</string>
 			<string>Toucher rectal normal,,</string>
 			<string>Sang au TR,</string>
 			<string>Masse au TR,</string>
+			<string>Prostate lisse et symétrique,,</string>
+			<string>Prostate agrandie,,</string>
+			<string>Prostate indurée,,</string>
+			<string>Prostate de consistance hétérogène,,</string>
+			<string>Toucher rectal douloureux,,</string>
+			<string>Toucher rectal douloureux,,</string>
 		</array>
 		<key>07.Ostéoarticulaire</key>
 		<array>
 			<string>Amplitude active normale,,</string>
 			<string>Amplitude passive normale,,</string>
+			<string>Limitation de l&apos;amplitude active,,</string>
+			<string>Limitation de l&apos;amplitude passive,,</string>
+			<string>Handicap fonctionnel,,</string>
 			<string>Pas de tuméfaction,,</string>
 			<string>Pas de chaleur,,</string>
 			<string>Pas de rougeur,,</string>
@@ -380,8 +454,16 @@
 			<string>Chaleur articulaire,,</string>
 			<string>Fausse-mobilité,,</string>
 			<string>Douleur à la percussion du rachis,,</string>
+			<string>Amyotrophie,,</string>
 			<string>Scoliose,,</string>
+			<string>Boiterie,,</string>
 			<string>Tuméfaction,,</string>
+			<string>Loges tendues,,</string>
+			<string>Douleur excessive,,</string>
+			<string>Absence de pouls,,</string>
+			<string>Paresthésies,,</string>
+			<string>Paralysie,,</string>
+			<string>Douleurs,,</string>
 		</array>
 	</dict>
 </dict>

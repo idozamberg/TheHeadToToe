@@ -10,12 +10,12 @@
 	<key>SCREEN_FEEDBACK</key>
 	<dict>
 		<key>NAV_TITLE</key>
-		<string>Feedback</string>
+		<string>FEEDBACK</string>
 	</dict>
 	<key>SCREEN_ABOUT</key>
 	<dict>
 		<key>NAV_TITLE</key>
-		<string>About</string>
+		<string>ABOUT</string>
 	</dict>
 	<key>SCREEN_LABORATOIRE</key>
 	<dict>

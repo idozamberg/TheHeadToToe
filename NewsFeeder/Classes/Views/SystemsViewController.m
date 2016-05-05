@@ -255,7 +255,7 @@
         [[FlowManager sharedInstance] showDataVCForSystem:title];
 
         // Saving current system
-       // currentSystem = title;
+        currentSystem = title;
         
         // Changing left button
        // [self.navBarView.leftButton setImage:[UIImage imageNamed:@"navbar_back"]

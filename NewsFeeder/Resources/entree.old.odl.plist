@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Anamnèse Générale</key>
+	<dict>
+		<key>01.Anamnèse actuelle</key>
+		<array>
+			<string>Qu&apos;est-ce qui vous amène aujourdhui ?, Non Renseigné, Le/La patient(e) consulte pour</string>
+		</array>
+		<key>02.Antécédents personnels</key>
+		<array>
+			<string>Maladies chroniques,Pas d&apos;autres maladies, </string>
+			<string>Hospitalisations,Pas d&apos;hospitalisations jusqu&apos;à présent,Oui </string>
+			<string>Médicaments,Pas de médicaments, </string>
+			<string>Allergies,Pas d&apos;allergies, Oui</string>
+			<string>ATCD chirurgicaux,Pas d&apos;interventions chirurgicales,Oui</string>
+			<string>Accidents/Traumatismes,,Oui</string>
+			<string>ATCD psychiatriques,Pas d&apos;ATCD psychiatriques, </string>
+			<string>Autres ATCD,Pas d&apos;autres ATCD, Oui</string>
+		</array>
+		<key>03.Anamnèse psychosociale</key>
+		<array>
+			<string>Transferts OK, Transferts possibiles, </string>
+			<string>Transferts difficiles,,</string>
+			<string>Marche OK, Pas de trouble de la marche,</string>
+			<string>Troubles de la marche,,</string>
+			<string>AVQ OK,,</string>
+			<string>Perte d&apos;AVQ,,</string>
+			<string>AIVQ conservés</string>
+			<string>Perte d&apos;AIVQ,,</string>
+			<string>Aide à domicile,,</string>
+			<string>Pas d&apos;aide à domicile,,</string>
+		</array>
+		<key>04.FRCV</key>
+		<array>
+			<string>Tabac,,UPA</string>
+			<string>HTA, Pas d&apos;HTA,</string>
+			<string>Diabète,,Patient(e) diabétique</string>
+			<string>Hypercholestérolémie, Pas d&apos;hypercholestérolémie, Oui</string>
+			<string>Dyslipidémie,,</string>
+			<string>Anamnèse familiale positive,,</string>
+		</array>
+		<key>05.Habitudes</key>
+		<array>
+			<string>Consommation d&apos;alcool modérée, Pas de consommation d&apos;alcool,</string>
+			<string>Consommation d&apos;alcool excessive,,</string>
+			<string>Alimentation, Alimentation conservée, </string>
+			<string>Exercice physique régulier, Exercice : non renseigné, </string>
+			<string>Sédentarité,,</string>
+			<string>Consommation de drogues,,Oui</string>
+		</array>
+	</dict>
+	<key>Anamnèse par système</key>
+	<dict>
+		<key>01.Général</key>
+		<array>
+			<string>Fièvre,,</string>
+			<string>Frissons,,</string>
+			<string>Perte de poids,,</string>
+			<string>Sudations nocturnes,,</string>
+			<string>Perte d&apos;appétit,,</string>
+			<string>Asthénie, Pas d&apos;Asthénie,</string>
+			<string>Troubles du sommeil,,</string>
+		</array>
+		<key>02.Cardiovasculaire</key>
+		<array>
+			<string>Pas de plainte cardiaque,,</string>
+			<string>Pas de plainte vasculaire,,</string>
+			<string>Douleurs thoraciques,,</string>
+			<string>Palpitations,,</string>
+			<string>Syncope,,</string>
+			<string>Dyspnée d&apos;effort,,</string>
+			<string>Orthopnée, Pas d&apos;orthopnée,</string>
+			<string>Dyspnée paroxystique nocturne,,</string>
+			<string>Nycturie,,</string>
+			<string>Oedèmes des MI, Pas d&apos;oedèmes des MI,</string>
+			<string>Claudication intermittente,,</string>
+		</array>
+		<key>03.Respiratoire</key>
+		<array>
+			<string>Pas de plaintes respiratoires,,</string>
+			<string>Toux d&apos;apparition nouvelle,,</string>
+			<string>Toux chronique,,</string>
+			<string>Expectorations, Pas d&apos;expectorations,</string>
+			<string>Augmentation des expectorations,,</string>
+			<string>Expectorations purulentes,</string>
+			<string>Dyspnée légère,,</string>
+			<string>Dyspnée sévère,,</string>
+			<string>Douleurs thoraciques,,</string>
+			<string>Douleurs respiro-dépendantes,,</string>
+			<string>Hémoptysie, Pas d&apos;hémoptysie,</string>
+		</array>
+		<key>04.Neurologique</key>
+		<array>
+			<string>Patient(e) orienté(e) et collaborant(e),,</string>
+			<string>Pas de plainte motrice,,</string>
+			<string>Pas de plainte sensitive,,</string>
+			<string>Pas de plainte des nerfs crâniens,,</string>
+			<string>Céphalées, Pas de céphalées, ,</string>
+			<string>Perte de connaissance,,</string>
+			<string>Parésie,,</string>
+			<string>Vomissements en jet,,</string>
+			<string>Hypoesthésie,,</string>
+			<string>Paresthésies/Dysesthésies</string>
+			<string>Syncope,,</string>
+			<string>Convulsions,,</string>
+			<string>Vertiges,,</string>
+			<string>Acuité visuelle normale, Pas de troubles visuels,</string>
+			<string>Baisse de l&apos;acuité visuelle,,</string>
+			<string>Audition normale, Pas de trouble de l&apos;audition,</string>
+			<string>Surdité,,</string>
+			<string>Port d&apos;un appareil auditif,,</string>
+			<string>Mémoire conservée,,</string>
+			<string>Déficits mnésiques,,</string>
+			<string>Confusion,,</string>
+			<string>Délire,,</string>
+			<string>Démence,,</string>
+			<string>Changement de personnalité,,</string>
+			<string>Anxiété, Pas d&apos;anxiété,</string>
+			<string>Dépression,,</string>
+			<string>Troubles du sommeil,,</string>
+		</array>
+		<key>05.Digestif</key>
+		<array>
+			<string>Pas de plaintes digestives,,</string>
+			<string>Appétit conservé,,</string>
+			<string>Transit conservé,,</string>
+			<string>Nausées,,</string>
+			<string>Vomissements,,</string>
+			<string>Hématémèse,,</string>
+			<string>Douleurs abdominales,,</string>
+			<string>Diarrhées,,</string>
+			<string>Hématochézie</string>
+			<string>Perte d&apos;appétit,,</string>
+			<string>Constipation,,</string>
+			<string>Dyspepsie</string>
+			<string>Pyrosis</string>
+			<string>Ictère/prurit, Pas d&apos;ictère/prurit</string>
+		</array>
+		<key>06.Douleur</key>
+		<array>
+			<string>Apparition,,</string>
+			<string>Localisation,,</string>
+			<string>Irradiation,,</string>
+			<string>Intensité,,</string>
+			<string>Caractère,,</string>
+			<string>Evolution,,</string>
+			<string>Facteurs aggravants,,</string>
+			<string>Facteurs soulageants,,</string>
+			<string>Symptômes associés,,</string>
+		</array>
+		<key>07.Uro-génital</key>
+		<array>
+			<string>Pas de plainte urogénitales,,</string>
+			<string>Dysurie,,</string>
+			<string>Algurie/Brûlure, Pas d&apos;algurie/brûlure,</string>
+			<string>Hématurie, Pas d&apos;hématurie,</string>
+			<string>Pollakiurie,,</string>
+			<string>Oligurie, Pas d&apos;oligurie,</string>
+			<string>Polyurie</string>
+			<string>Nycturie</string>
+			<string>Incontinence urinaire, Pas d&apos;incontinence urinaire,</string>
+			<string>Urgence mictionnelle, Pas d&apos;urgence mictionelle,</string>
+			<string>Prostatisme,,</string>
+			<string>Trouble de l&apos;érection,,</string>
+		</array>
+		<key>08.Peau</key>
+		<array>
+			<string>Pas de plainte dermatologique,,</string>
+			<string>Hématomes, Pas d&apos;hématomes,</string>
+			<string>Eruptions cutanées, Pas d&apos;éruption cutanées,</string>
+			<string>Erythème,Pas d&apos;érythème,</string>
+			<string>Lésions cutanées,,</string>
+			<string>Escarre,Pas d&apos;escarre,</string>
+		</array>
+		<key>09.Gynécologique</key>
+		<array>
+			<string>Pas de plaintes gynécologiques,,</string>
+			<string>Parité,,</string>
+			<string>Gestité,,</string>
+			<string>Grossesse, Pas d&apos;ATCD de grossesse</string>
+			<string>Date des dernières règles, Date des dernières règles non renseignée,</string>
+			<string>Durée des menstruations,Durée des menstruations sp,</string>
+			<string>Périodicité des menstruations, Périodicité sp,</string>
+			<string>Ménarche à, pas de trouble de la ménarche, </string>
+			<string>Ménopausée, Non ménopausée,</string>
+			<string>Dysménorrhée,,</string>
+			<string>Ménorrhagie,,</string>
+			<string>Pertes/écoulements vaginaux,,</string>
+			<string>Prurit génital,,</string>
+			<string>Dyspareunie,,</string>
+		</array>
+		<key>10.Ostéoarticulaire</key>
+		<array>
+			<string>Pas de plaintes ostéoarticulaire,,</string>
+			<string>Articulation touchée,,</string>
+			<string>Handicap fonctionnel,,</string>
+			<string>Douleurs articulaires,,</string>
+			<string>Douleurs au repos,,</string>
+			<string>Douleurs à la provocation,,</string>
+			<string>Atteinte monoarticulaire,,</string>
+			<string>Atteinte polyarticulaire,,</string>
+			<string>Type mécanique,,</string>
+			<string>Type Inflammatoire,,</string>
+			<string>Tuméfaction,,</string>
+			<string>Dynamique du traumatisme,,</string>
+		</array>
+	</dict>
+	<key>Examen Physique</key>
+	<dict>
+		<key>01.Général</key>
+		<array>
+			<string>Bon état général,</string>
+			<string>Mauvais état général,</string>
+			<string>TA, Normotendu,,</string>
+			<string>FC, Normocarde,,</string>
+			<string>Satu, Pas de desaturations,</string>
+			<string>T°,,</string>
+			<string>Poids,,</string>
+		</array>
+		<key>02.Cardiovasculaire</key>
+		<array>
+			<string>TA,,</string>
+			<string>FC,,</string>
+			<string>Satu,,</string>
+			<string>B1-B2 bien frappé,,</string>
+			<string>Rythme régulier,,</string>
+			<string>Pas de souffle,,</string>
+			<string>Pas de cyanose,,</string>
+			<string>Cyanose centrale,,</string>
+			<string>Cyanose périphérique,,</string>
+			<string>B3 présent,,</string>
+			<string>B4 présent,,</string>
+			<string>Rythme irrégulièrement irrégulier,,</string>
+			<string>Souffle systolique au foyer,,</string>
+			<string>Souffle diastolique au foyer,,</string>
+			<string>Irradiation du souffle en sus-sternal,,</string>
+			<string>Souffle carotidien,,</string>
+			<string>Choc de pointe déplacé à G,,</string>
+			<string>Turgescence jugulaire,,</string>
+			<string>Pas de turgescence jugulaire,,</string>
+			<string>Reflux hepato-jugulaire positif,,</string>
+			<string>Reflux hepato-jugulaire normal,,</string>
+			<string>Oedèmes des MI remontant, Pas d&apos;oedèmes des MI,</string>
+			<string>Pilosité des téguments normale,,</string>
+			<string>Absence de pilosité,,</string>
+			<string>Pouls Radial palpable, Pouls Radial Present,</string>
+			<string>Pouls Fémoral palpable, Pouls Fémoral present,</string>
+			<string>Pouls Poplité palpable, Pouls Poplité present,</string>
+			<string>Pouls Tibial postérieur palpable,,</string>
+			<string>Pouls Pédieux,,</string>
+			<string>TRC &gt;3 secondes,,</string>
+			<string>TRC normal,,</string>
+			<string>Marbrure,,</string>
+			<string>Paleur des téguments,,</string>
+		</array>
+		<key>03.Respiratoire</key>
+		<array>
+			<string>Eupnéique,,</string>
+			<string>Murmure vésiculaire symétrique,,</string>
+			<string>Pas de bruits surajoutés,,</string>
+			<string>Ampliation symétrique,,</string>
+			<string>Percussion normale,,</string>
+			<string>Transmission des vibrations normale,,</string>
+			<string>Cyanose centrale,,</string>
+			<string>Cyanose périphérique,,</string>
+			<string>Stridor,,</string>
+			<string>Recrutement de la musculature accessoire,, Oui</string>
+			<string>Tirage,,Oui</string>
+			<string>Sibilances,</string>
+			<string>Râles crépitants,,</string>
+			<string>Râles grossiers,,</string>
+			<string>Foyer d&apos;hypoventilation, Pas de foyer d&apos;hypoventilation</string>
+			<string>Submatité,,</string>
+			<string>Matité,,</string>
+			<string>Ampliation thoracique asymétrique,,</string>
+			<string>Diminution des vibrations vocales,,</string>
+			<string>Egophonie,,</string>
+		</array>
+		<key>04.Neurologique</key>
+		<array>
+			<string>Orienté aux 4 modes,,</string>
+			<string>Pupilles iso-iso,,</string>
+			<string>Pupille aréactive,</string>
+			<string>NC sp, Examen des nerfs crânien SP,</string>
+			<string>Tonus normal,,</string>
+			<string>Force conservée aux 4 membres,,</string>
+			<string>Sensibilité normale aux 4 membres,,</string>
+			<string>Mingazzini tenu, Mingazzini tenu,</string>
+			<string>Mingazzini non-tenu, Mingazzini tenu,</string>
+			<string>ROT normovifs, ROT normovifs,</string>
+			<string>Asymétrie des ROT,,</string>
+			<string>ROT hypervif MS,,</string>
+			<string>ROT hypovif MS,,</string>
+			<string>ROT hypervif MI,,</string>
+			<string>ROT hypovif MI,,</string>
+			<string>Absence de ROT,,</string>
+			<string>Hémiparésie G,,</string>
+			<string>Hémiparésie D,,</string>
+			<string>Tétraparésie,,</string>
+			<string>Trouble de la parole,,Oui</string>
+			<string>Signes de méningisme,,</string>
+			<string>Kernig positif, Signe de Kernig négatif,</string>
+			<string>Kernig négatif, Signe de Kernig négatif,</string>
+			<string>Brudzinski positif, Signe de Brudzinski négatif,</string>
+			<string>Brudzinski négatif,,</string>
+			<string>Hypertonie spastique,,</string>
+			<string>Lame de canif,,</string>
+			<string>Hypertonie plastique,,</string>
+			<string>Roue dentée,,</string>
+			<string>Bradykinésie,,</string>
+			<string>Réflexe cutané-plantaire normal,,</string>
+			<string>Réflexe cutané-plantaire en extension,,</string>
+			<string>Extension de la zone réflexogène,,</string>
+			<string>Romberg positif,,</string>
+			<string>Romberg négatif,,</string>
+			<string>Unterberger dévié à,,</string>
+			<string>Unterberger normal,</string>
+			<string>Diadococinésie conservée, Diadococinésie SP</string>
+			<string>Adiadococinésie,,</string>
+			<string>Stewart-Holmes Normale, SH pathlogique, Normal</string>
+			<string>Stewart-Holmes pathlogique,,</string>
+			<string>Clonus,,Oui</string>
+			<string>Asterixis,,Oui</string>
+			<string>Pas d&apos;asterixis</string>
+		</array>
+		<key>05.Digestif</key>
+		<array>
+			<string>Bruits digestifs normaux en fréquence et tonalité,,</string>
+			<string>Absence de bruit,,</string>
+			<string>Bruits métalliques,,</string>
+			<string>ASI,,</string>
+			<string>Pas de défense, ni de détente.</string>
+			<string>Pas d&apos;HSM,,</string>
+			<string>TR normal,,</string>
+			<string>Ascite,,</string>
+			<string>Défense,,</string>
+			<string>Détente,,</string>
+			<string>Signe de Murphy, Signe de Murphy négatif</string>
+			<string>Douleur au McBurney,,</string>
+			<string>Douleur à la palpation,,</string>
+			<string>Ictère/prurit, Pas d&apos;ictère ni de prurit,</string>
+			<string>Angiome stellaire,,</string>
+			<string>Hématomes,,</string>
+			<string>Tête de méduse,,</string>
+			<string>Hémorroides,,</string>
+			<string>Hépatomégalie, Pas d&apos;HSM,</string>
+			<string>Splénomégalie, Pas d&apos;HSM,</string>
+			<string>HSM,,</string>
+			<string>Sang au TR,,</string>
+			<string>Palpation d&apos;une masse au TR,,</string>
+		</array>
+		<key>06.Uro-génital</key>
+		<array>
+			<string>Loges rénales souples et indolores,,</string>
+			<string>Percussion des loges douloureuses,,</string>
+			<string>Pas de globe urinaire,,</string>
+			<string>Globe urinaire,,</string>
+			<string>Toucher rectal normal,,</string>
+			<string>Sang au TR,</string>
+			<string>Masse au TR,</string>
+		</array>
+		<key>07.Ostéoarticulaire</key>
+		<array>
+			<string>Amplitude active normale,,</string>
+			<string>Amplitude passive normale,,</string>
+			<string>Pas de tuméfaction,,</string>
+			<string>Pas de chaleur,,</string>
+			<string>Pas de rougeur,,</string>
+			<string>Pas de déformation,,</string>
+			<string>Pas de douleurs spontanées,,</string>
+			<string>Pas de douleurs à la mobilisation,,</string>
+			<string>Douleur à la mobilisation,,</string>
+			<string>Palpation douloureuse,,</string>
+			<string>Déformation,,</string>
+			<string>Tuméfaction,,</string>
+			<string>Rougeur,,</string>
+			<string>Douleur articulaire,, </string>
+			<string>Chaleur articulaire,,</string>
+			<string>Fausse-mobilité,,</string>
+			<string>Douleur à la percussion du rachis,,</string>
+			<string>Scoliose,,</string>
+			<string>Tuméfaction,,</string>
+		</array>
+	</dict>
+</dict>
+</plist>

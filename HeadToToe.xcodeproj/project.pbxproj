@@ -20,7 +20,7 @@
 		7506808619EDC4E600EA0040 /* Phonepad.png in Resources */ = {isa = PBXBuildFile; fileRef = 7506808519EDC4E600EA0040 /* Phonepad.png */; };
 		7506808919EDC6A700EA0040 /* LabValueCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7506808819EDC6A700EA0040 /* LabValueCell.m */; };
 		7506808C19EDC6BC00EA0040 /* LabValuesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7506808B19EDC6BC00EA0040 /* LabValuesViewController.m */; };
-		7506808E19EDC6C600EA0040 /* Labo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7506808D19EDC6C600EA0040 /* Labo.plist */; };
+		7506808E19EDC6C600EA0040 /* Labo.plist.old in Resources */ = {isa = PBXBuildFile; fileRef = 7506808D19EDC6C600EA0040 /* Labo.plist.old */; };
 		7506809119EDC6F600EA0040 /* LabValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 7506809019EDC6F600EA0040 /* LabValue.m */; };
 		7508EEAA1A222FF500EF38D8 /* FlowManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7508EEA91A222FF500EF38D8 /* FlowManager.m */; };
 		75103A7E19FD635100BD458D /* Main-innervation.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 75103A7519FD635100BD458D /* Main-innervation.pdf */; };
@@ -33,6 +33,11 @@
 		75103A8519FD635100BD458D /* Main.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 75103A7C19FD635100BD458D /* Main.pdf */; };
 		75103A8619FD635100BD458D /* Epaule.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 75103A7D19FD635100BD458D /* Epaule.pdf */; };
 		75103A8919FD997600BD458D /* AnalyticsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 75103A8819FD997600BD458D /* AnalyticsManager.m */; };
+		751768421B25E61C002525D3 /* System San Francisco Display Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7517683D1B25E61C002525D3 /* System San Francisco Display Bold.ttf */; };
+		751768431B25E61C002525D3 /* System San Francisco Display Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7517683E1B25E61C002525D3 /* System San Francisco Display Medium.ttf */; };
+		751768441B25E61C002525D3 /* System San Francisco Display Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7517683F1B25E61C002525D3 /* System San Francisco Display Regular.ttf */; };
+		751768451B25E61C002525D3 /* System San Francisco Display Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 751768401B25E61C002525D3 /* System San Francisco Display Thin.ttf */; };
+		751768461B25E61C002525D3 /* System San Francisco Display Ultralight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 751768411B25E61C002525D3 /* System San Francisco Display Ultralight.ttf */; };
 		751771A519F793D2009BF487 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 751771A419F793D2009BF487 /* MediaPlayer.framework */; };
 		751771A819F79D10009BF487 /* HTTVideoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 751771A719F79D10009BF487 /* HTTVideoTableViewCell.m */; };
 		751771AA19F7A36F009BF487 /* Videos.plist in Resources */ = {isa = PBXBuildFile; fileRef = 751771A919F7A36F009BF487 /* Videos.plist */; };
@@ -54,6 +59,23 @@
 		7524A47919E98A27006607C1 /* Share icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 7524A47819E98A27006607C1 /* Share icon.png */; };
 		7524A47B19E9A682006607C1 /* Launch Screen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7524A47A19E9A682006607C1 /* Launch Screen.xib */; };
 		7524A47D19EA5FD1006607C1 /* external-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 7524A47C19EA5FD1006607C1 /* external-50.png */; };
+		752B42141CC3D3B10025CDAC /* VMTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 752B42131CC3D3B10025CDAC /* VMTabBar.m */; };
+		752B42221CC3D4E30025CDAC /* icon_Expences.png in Resources */ = {isa = PBXBuildFile; fileRef = 752B42161CC3D4E30025CDAC /* icon_Expences.png */; };
+		752B42231CC3D4E30025CDAC /* icon_Expences@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 752B42171CC3D4E30025CDAC /* icon_Expences@2x.png */; };
+		752B42241CC3D4E30025CDAC /* icon_Expences@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 752B42181CC3D4E30025CDAC /* icon_Expences@3x.png */; };
+		752B42251CC3D4E30025CDAC /* icon_History.png in Resources */ = {isa = PBXBuildFile; fileRef = 752B42191CC3D4E30025CDAC /* icon_History.png */; };
+		752B42261CC3D4E30025CDAC /* icon_History@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 752B421A1CC3D4E30025CDAC /* icon_History@2x.png */; };
+		752B42271CC3D4E30025CDAC /* icon_History@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 752B421B1CC3D4E30025CDAC /* icon_History@3x.png */; };
+		752B42281CC3D4E30025CDAC /* icon_setting.png in Resources */ = {isa = PBXBuildFile; fileRef = 752B421C1CC3D4E30025CDAC /* icon_setting.png */; };
+		752B42291CC3D4E30025CDAC /* icon_setting@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 752B421D1CC3D4E30025CDAC /* icon_setting@2x.png */; };
+		752B422A1CC3D4E30025CDAC /* icon_setting@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 752B421E1CC3D4E30025CDAC /* icon_setting@3x.png */; };
+		752B422B1CC3D4E30025CDAC /* icon_Summary.png in Resources */ = {isa = PBXBuildFile; fileRef = 752B421F1CC3D4E30025CDAC /* icon_Summary.png */; };
+		752B422C1CC3D4E30025CDAC /* icon_Summary@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 752B42201CC3D4E30025CDAC /* icon_Summary@2x.png */; };
+		752B422D1CC3D4E30025CDAC /* icon_Summary@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 752B42211CC3D4E30025CDAC /* icon_Summary@3x.png */; };
+		752B42331CC4261F0025CDAC /* Add.png in Resources */ = {isa = PBXBuildFile; fileRef = 752B422F1CC4261F0025CDAC /* Add.png */; };
+		752B42341CC4261F0025CDAC /* Star-100.png in Resources */ = {isa = PBXBuildFile; fileRef = 752B42301CC4261F0025CDAC /* Star-100.png */; };
+		752B42351CC4261F0025CDAC /* TestTube-100.png in Resources */ = {isa = PBXBuildFile; fileRef = 752B42311CC4261F0025CDAC /* TestTube-100.png */; };
+		752B42361CC4261F0025CDAC /* Chest-100.png in Resources */ = {isa = PBXBuildFile; fileRef = 752B42321CC4261F0025CDAC /* Chest-100.png */; };
 		752E3B6F1A1B383A003573E0 /* bigsplash.png in Resources */ = {isa = PBXBuildFile; fileRef = 752E3B6E1A1B383A003573E0 /* bigsplash.png */; };
 		752E3B721A1B38F3003573E0 /* SplashViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 752E3B711A1B38F3003573E0 /* SplashViewController.m */; };
 		7537832C1A0F5F0100B716B8 /* video_camera-50-white.png in Resources */ = {isa = PBXBuildFile; fileRef = 7537832B1A0F5F0100B716B8 /* video_camera-50-white.png */; };
@@ -173,7 +195,7 @@
 		75932D9319F1B41F00D24223 /* note-48.png in Resources */ = {isa = PBXBuildFile; fileRef = 75932D9219F1B41F00D24223 /* note-48.png */; };
 		75932D9519F2432B00D24223 /* ok-32.png in Resources */ = {isa = PBXBuildFile; fileRef = 75932D9419F2432B00D24223 /* ok-32.png */; };
 		75932D9719F2437A00D24223 /* checkmark-32.png in Resources */ = {isa = PBXBuildFile; fileRef = 75932D9619F2437A00D24223 /* checkmark-32.png */; };
-		75938A161B1A182200AD028D /* entree.plist in Resources */ = {isa = PBXBuildFile; fileRef = 75938A151B1A182200AD028D /* entree.plist */; };
+		75938A161B1A182200AD028D /* entree.old.odl.plist in Resources */ = {isa = PBXBuildFile; fileRef = 75938A151B1A182200AD028D /* entree.old.odl.plist */; };
 		759EAFBB19F7AD06008348F7 /* play-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 759EAFBA19F7AD06008348F7 /* play-50.png */; };
 		759EAFC019F8EB06008348F7 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 759EAFBF19F8EB06008348F7 /* AVFoundation.framework */; };
 		75AB216B1A24B70F007829C7 /* minisplas2hbig.png in Resources */ = {isa = PBXBuildFile; fileRef = 75AB216A1A24B70F007829C7 /* minisplas2hbig.png */; };
@@ -208,7 +230,6 @@
 		75CE28DA19F394AC002FF80F /* Respiratoire.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 75CE28AC19F394AC002FF80F /* Respiratoire.pdf */; };
 		75CE28DB19F394AC002FF80F /* Urgences.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 75CE28AD19F394AC002FF80F /* Urgences.pdf */; };
 		75CE28DC19F394AC002FF80F /* Uro.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 75CE28AE19F394AC002FF80F /* Uro.pdf */; };
-		75CE28DE19F394AC002FF80F /* Injection IM et IV.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 75CE28B119F394AC002FF80F /* Injection IM et IV.pdf */; };
 		75CE28DF19F394AC002FF80F /* Injections.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 75CE28B219F394AC002FF80F /* Injections.pdf */; };
 		75CE28E119F394AC002FF80F /* Pansement.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 75CE28B419F394AC002FF80F /* Pansement.pdf */; };
 		75CE28E219F394AC002FF80F /* Transfusion sanguine.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 75CE28B519F394AC002FF80F /* Transfusion sanguine.pdf */; };
@@ -292,7 +313,7 @@
 		75D6F32B1ADBE66100B7191F /* 12_04_ExamingFemaleBreastst.png in Resources */ = {isa = PBXBuildFile; fileRef = 75D6F2F41ADBE66100B7191F /* 12_04_ExamingFemaleBreastst.png */; };
 		75D6F32C1ADBE66100B7191F /* 12_05_ExamingMaleBreastst.png in Resources */ = {isa = PBXBuildFile; fileRef = 75D6F2F51ADBE66100B7191F /* 12_05_ExamingMaleBreastst.png */; };
 		75D6F32D1ADBE66100B7191F /* 12_06_ExaminingAxillaet.png in Resources */ = {isa = PBXBuildFile; fileRef = 75D6F2F61ADBE66100B7191F /* 12_06_ExaminingAxillaet.png */; };
-		75D869A319F8F6E300F53AF1 /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75D869A219F8F6E300F53AF1 /* AVKit.framework */; };
+		75D869A319F8F6E300F53AF1 /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75D869A219F8F6E300F53AF1 /* AVKit.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		75D869A619F905EE00F53AF1 /* filter_filled-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 75D869A419F905EE00F53AF1 /* filter_filled-50.png */; };
 		75D869A719F905EE00F53AF1 /* filter-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 75D869A519F905EE00F53AF1 /* filter-50.png */; };
 		75D869A919F9067C00F53AF1 /* search-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 75D869A819F9067C00F53AF1 /* search-50.png */; };
@@ -327,6 +348,30 @@
 		75F51EFC1B1A4BB300F787EB /* Feedback-100.png in Resources */ = {isa = PBXBuildFile; fileRef = 75F51EFB1B1A4BB300F787EB /* Feedback-100.png */; };
 		75F51EFE1B1A65A400F787EB /* logoabout.png in Resources */ = {isa = PBXBuildFile; fileRef = 75F51EFD1B1A65A400F787EB /* logoabout.png */; };
 		75F51F011B1A6A4B00F787EB /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75F51F001B1A6A4B00F787EB /* AboutViewController.m */; };
+		75F51F1A1B1C47EF00F787EB /* 23_BPCO_prise en charge_SU.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 75F51F041B1C47EF00F787EB /* 23_BPCO_prise en charge_SU.pdf */; };
+		75F51F1B1B1C47EF00F787EB /* 35_Diabete_01_07_08.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 75F51F051B1C47EF00F787EB /* 35_Diabete_01_07_08.pdf */; };
+		75F51F1C1B1C47EF00F787EB /* 38_Embolie_pulmonaire_non_massive.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 75F51F061B1C47EF00F787EB /* 38_Embolie_pulmonaire_non_massive.pdf */; };
+		75F51F1D1B1C47EF00F787EB /* 44_Epilepsie.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 75F51F071B1C47EF00F787EB /* 44_Epilepsie.pdf */; };
+		75F51F1E1B1C47EF00F787EB /* 50_Etat_confusionnel_aigu.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 75F51F081B1C47EF00F787EB /* 50_Etat_confusionnel_aigu.pdf */; };
+		75F51F1F1B1C47EF00F787EB /* 64_Insuffisance_cardiaque_itineraire_clinique.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 75F51F091B1C47EF00F787EB /* 64_Insuffisance_cardiaque_itineraire_clinique.pdf */; };
+		75F51F201B1C47EF00F787EB /* 74_Suspicion_meningite_bacterienne.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 75F51F0A1B1C47EF00F787EB /* 74_Suspicion_meningite_bacterienne.pdf */; };
+		75F51F211B1C47EF00F787EB /* 104_Sepsis_CAU.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 75F51F0B1B1C47EF00F787EB /* 104_Sepsis_CAU.pdf */; };
+		75F51F221B1C47EF00F787EB /* Algorithmes_ACLS_20101.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 75F51F0C1B1C47EF00F787EB /* Algorithmes_ACLS_20101.pdf */; };
+		75F51F231B1C47EF00F787EB /* AVC_AIT_2013.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 75F51F0D1B1C47EF00F787EB /* AVC_AIT_2013.pdf */; };
+		75F51F241B1C47EF00F787EB /* Colique_nephretique_algorithme.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 75F51F0E1B1C47EF00F787EB /* Colique_nephretique_algorithme.pdf */; };
+		75F51F251B1C47EF00F787EB /* Embolie_pulmonaire_massive_thrombolyse_08.08_.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 75F51F0F1B1C47EF00F787EB /* Embolie_pulmonaire_massive_thrombolyse_08.08_.pdf */; };
+		75F51F261B1C47EF00F787EB /* Hematochezie_site_SU.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 75F51F101B1C47EF00F787EB /* Hematochezie_site_SU.pdf */; };
+		75F51F271B1C47EF00F787EB /* PAC_OFFICIEL.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 75F51F111B1C47EF00F787EB /* PAC_OFFICIEL.pdf */; };
+		75F51F281B1C47EF00F787EB /* Patients_brules_check_list.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 75F51F121B1C47EF00F787EB /* Patients_brules_check_list.pdf */; };
+		75F51F291B1C47EF00F787EB /* Plaies,_soins_aux_urgences.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 75F51F131B1C47EF00F787EB /* Plaies,_soins_aux_urgences.pdf */; };
+		75F51F2A1B1C47EF00F787EB /* Protocole_FA_2012_a.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 75F51F141B1C47EF00F787EB /* Protocole_FA_2012_a.pdf */; };
+		75F51F2B1B1C47EF00F787EB /* Protocole_HSA__18.06_.2013_.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 75F51F151B1C47EF00F787EB /* Protocole_HSA__18.06_.2013_.pdf */; };
+		75F51F2C1B1C47EF00F787EB /* SCA_Guidelines.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 75F51F161B1C47EF00F787EB /* SCA_Guidelines.pdf */; };
+		75F51F2D1B1C47EF00F787EB /* Syncope_10.01_.2012__.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 75F51F171B1C47EF00F787EB /* Syncope_10.01_.2012__.pdf */; };
+		75F51F2E1B1C47EF00F787EB /* TCC_20120816.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 75F51F181B1C47EF00F787EB /* TCC_20120816.pdf */; };
+		75F51F2F1B1C47EF00F787EB /* Tuberculose.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 75F51F191B1C47EF00F787EB /* Tuberculose.pdf */; };
+		75F51F311B1C523400F787EB /* Labo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 75F51F301B1C523400F787EB /* Labo.plist */; };
+		75F51F331B1C582300F787EB /* entree.plist in Resources */ = {isa = PBXBuildFile; fileRef = 75F51F321B1C582300F787EB /* entree.plist */; };
 		75F57E791ACC2B83008C649B /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75F57E781ACC2B83008C649B /* WebKit.framework */; };
 		75F590001ACE97AA00398BE8 /* 06_03_AnatomyReview_MP4 768Kbpst.png in Resources */ = {isa = PBXBuildFile; fileRef = 75F58FFD1ACE97AA00398BE8 /* 06_03_AnatomyReview_MP4 768Kbpst.png */; };
 		75F590011ACE97AA00398BE8 /* 06_04_ExamingTheSkin_MP4 768Kbpst.png in Resources */ = {isa = PBXBuildFile; fileRef = 75F58FFE1ACE97AA00398BE8 /* 06_04_ExamingTheSkin_MP4 768Kbpst.png */; };
@@ -619,7 +664,7 @@
 		7506808819EDC6A700EA0040 /* LabValueCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LabValueCell.m; sourceTree = "<group>"; };
 		7506808A19EDC6BC00EA0040 /* LabValuesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LabValuesViewController.h; sourceTree = "<group>"; };
 		7506808B19EDC6BC00EA0040 /* LabValuesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LabValuesViewController.m; sourceTree = "<group>"; };
-		7506808D19EDC6C600EA0040 /* Labo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Labo.plist; path = ../Labo.plist; sourceTree = "<group>"; };
+		7506808D19EDC6C600EA0040 /* Labo.plist.old */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Labo.plist.old; path = ../Labo.plist.old; sourceTree = "<group>"; };
 		7506808F19EDC6F600EA0040 /* LabValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LabValue.h; sourceTree = "<group>"; };
 		7506809019EDC6F600EA0040 /* LabValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LabValue.m; sourceTree = "<group>"; };
 		7508EEA81A222FF500EF38D8 /* FlowManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FlowManager.h; path = Managers/FlowManager.h; sourceTree = "<group>"; };
@@ -635,6 +680,11 @@
 		75103A7D19FD635100BD458D /* Epaule.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = Epaule.pdf; path = ../Epaule.pdf; sourceTree = "<group>"; };
 		75103A8719FD997600BD458D /* AnalyticsManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnalyticsManager.h; sourceTree = "<group>"; };
 		75103A8819FD997600BD458D /* AnalyticsManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnalyticsManager.m; sourceTree = "<group>"; };
+		7517683D1B25E61C002525D3 /* System San Francisco Display Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "System San Francisco Display Bold.ttf"; sourceTree = "<group>"; };
+		7517683E1B25E61C002525D3 /* System San Francisco Display Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "System San Francisco Display Medium.ttf"; sourceTree = "<group>"; };
+		7517683F1B25E61C002525D3 /* System San Francisco Display Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "System San Francisco Display Regular.ttf"; sourceTree = "<group>"; };
+		751768401B25E61C002525D3 /* System San Francisco Display Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "System San Francisco Display Thin.ttf"; sourceTree = "<group>"; };
+		751768411B25E61C002525D3 /* System San Francisco Display Ultralight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "System San Francisco Display Ultralight.ttf"; sourceTree = "<group>"; };
 		751771A419F793D2009BF487 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
 		751771A619F79D10009BF487 /* HTTVideoTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HTTVideoTableViewCell.h; path = ../../HTTVideoTableViewCell.h; sourceTree = "<group>"; };
 		751771A719F79D10009BF487 /* HTTVideoTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HTTVideoTableViewCell.m; path = ../../HTTVideoTableViewCell.m; sourceTree = "<group>"; };
@@ -663,6 +713,24 @@
 		7524A47819E98A27006607C1 /* Share icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Share icon.png"; sourceTree = "<group>"; };
 		7524A47A19E9A682006607C1 /* Launch Screen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "Launch Screen.xib"; sourceTree = "<group>"; };
 		7524A47C19EA5FD1006607C1 /* external-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "external-50.png"; sourceTree = "<group>"; };
+		752B42121CC3D3B10025CDAC /* VMTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VMTabBar.h; sourceTree = "<group>"; };
+		752B42131CC3D3B10025CDAC /* VMTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VMTabBar.m; sourceTree = "<group>"; };
+		752B42161CC3D4E30025CDAC /* icon_Expences.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_Expences.png; sourceTree = "<group>"; };
+		752B42171CC3D4E30025CDAC /* icon_Expences@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_Expences@2x.png"; sourceTree = "<group>"; };
+		752B42181CC3D4E30025CDAC /* icon_Expences@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_Expences@3x.png"; sourceTree = "<group>"; };
+		752B42191CC3D4E30025CDAC /* icon_History.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_History.png; sourceTree = "<group>"; };
+		752B421A1CC3D4E30025CDAC /* icon_History@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_History@2x.png"; sourceTree = "<group>"; };
+		752B421B1CC3D4E30025CDAC /* icon_History@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_History@3x.png"; sourceTree = "<group>"; };
+		752B421C1CC3D4E30025CDAC /* icon_setting.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_setting.png; sourceTree = "<group>"; };
+		752B421D1CC3D4E30025CDAC /* icon_setting@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_setting@2x.png"; sourceTree = "<group>"; };
+		752B421E1CC3D4E30025CDAC /* icon_setting@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_setting@3x.png"; sourceTree = "<group>"; };
+		752B421F1CC3D4E30025CDAC /* icon_Summary.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_Summary.png; sourceTree = "<group>"; };
+		752B42201CC3D4E30025CDAC /* icon_Summary@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_Summary@2x.png"; sourceTree = "<group>"; };
+		752B42211CC3D4E30025CDAC /* icon_Summary@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_Summary@3x.png"; sourceTree = "<group>"; };
+		752B422F1CC4261F0025CDAC /* Add.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Add.png; sourceTree = "<group>"; };
+		752B42301CC4261F0025CDAC /* Star-100.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Star-100.png"; sourceTree = "<group>"; };
+		752B42311CC4261F0025CDAC /* TestTube-100.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TestTube-100.png"; sourceTree = "<group>"; };
+		752B42321CC4261F0025CDAC /* Chest-100.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Chest-100.png"; sourceTree = "<group>"; };
 		752E3B6E1A1B383A003573E0 /* bigsplash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bigsplash.png; sourceTree = "<group>"; };
 		752E3B701A1B38F3003573E0 /* SplashViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SplashViewController.h; sourceTree = "<group>"; };
 		752E3B711A1B38F3003573E0 /* SplashViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SplashViewController.m; sourceTree = "<group>"; };
@@ -833,7 +901,7 @@
 		75932D9219F1B41F00D24223 /* note-48.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "note-48.png"; sourceTree = "<group>"; };
 		75932D9419F2432B00D24223 /* ok-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ok-32.png"; sourceTree = "<group>"; };
 		75932D9619F2437A00D24223 /* checkmark-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "checkmark-32.png"; sourceTree = "<group>"; };
-		75938A151B1A182200AD028D /* entree.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = entree.plist; sourceTree = "<group>"; };
+		75938A151B1A182200AD028D /* entree.old.odl.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = entree.old.odl.plist; sourceTree = "<group>"; };
 		759EAFBA19F7AD06008348F7 /* play-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "play-50.png"; sourceTree = "<group>"; };
 		759EAFBF19F8EB06008348F7 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		75AB216A1A24B70F007829C7 /* minisplas2hbig.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = minisplas2hbig.png; sourceTree = "<group>"; };
@@ -873,7 +941,6 @@
 		75CE28AC19F394AC002FF80F /* Respiratoire.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = Respiratoire.pdf; path = ../ECC/Respiratoire.pdf; sourceTree = "<group>"; };
 		75CE28AD19F394AC002FF80F /* Urgences.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Urgences.pdf; sourceTree = "<group>"; };
 		75CE28AE19F394AC002FF80F /* Uro.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Uro.pdf; sourceTree = "<group>"; };
-		75CE28B119F394AC002FF80F /* Injection IM et IV.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Injection IM et IV.pdf"; sourceTree = "<group>"; };
 		75CE28B219F394AC002FF80F /* Injections.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Injections.pdf; sourceTree = "<group>"; };
 		75CE28B419F394AC002FF80F /* Pansement.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Pansement.pdf; sourceTree = "<group>"; };
 		75CE28B519F394AC002FF80F /* Transfusion sanguine.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Transfusion sanguine.pdf"; sourceTree = "<group>"; };
@@ -1008,6 +1075,30 @@
 		75F51EFD1B1A65A400F787EB /* logoabout.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logoabout.png; sourceTree = "<group>"; };
 		75F51EFF1B1A6A4B00F787EB /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutViewController.h; sourceTree = "<group>"; };
 		75F51F001B1A6A4B00F787EB /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutViewController.m; sourceTree = "<group>"; };
+		75F51F041B1C47EF00F787EB /* 23_BPCO_prise en charge_SU.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "23_BPCO_prise en charge_SU.pdf"; sourceTree = "<group>"; };
+		75F51F051B1C47EF00F787EB /* 35_Diabete_01_07_08.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = 35_Diabete_01_07_08.pdf; sourceTree = "<group>"; };
+		75F51F061B1C47EF00F787EB /* 38_Embolie_pulmonaire_non_massive.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = 38_Embolie_pulmonaire_non_massive.pdf; sourceTree = "<group>"; };
+		75F51F071B1C47EF00F787EB /* 44_Epilepsie.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = 44_Epilepsie.pdf; sourceTree = "<group>"; };
+		75F51F081B1C47EF00F787EB /* 50_Etat_confusionnel_aigu.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = 50_Etat_confusionnel_aigu.pdf; sourceTree = "<group>"; };
+		75F51F091B1C47EF00F787EB /* 64_Insuffisance_cardiaque_itineraire_clinique.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = 64_Insuffisance_cardiaque_itineraire_clinique.pdf; sourceTree = "<group>"; };
+		75F51F0A1B1C47EF00F787EB /* 74_Suspicion_meningite_bacterienne.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = 74_Suspicion_meningite_bacterienne.pdf; sourceTree = "<group>"; };
+		75F51F0B1B1C47EF00F787EB /* 104_Sepsis_CAU.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = 104_Sepsis_CAU.pdf; sourceTree = "<group>"; };
+		75F51F0C1B1C47EF00F787EB /* Algorithmes_ACLS_20101.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Algorithmes_ACLS_20101.pdf; sourceTree = "<group>"; };
+		75F51F0D1B1C47EF00F787EB /* AVC_AIT_2013.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = AVC_AIT_2013.pdf; sourceTree = "<group>"; };
+		75F51F0E1B1C47EF00F787EB /* Colique_nephretique_algorithme.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Colique_nephretique_algorithme.pdf; sourceTree = "<group>"; };
+		75F51F0F1B1C47EF00F787EB /* Embolie_pulmonaire_massive_thrombolyse_08.08_.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Embolie_pulmonaire_massive_thrombolyse_08.08_.pdf; sourceTree = "<group>"; };
+		75F51F101B1C47EF00F787EB /* Hematochezie_site_SU.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Hematochezie_site_SU.pdf; sourceTree = "<group>"; };
+		75F51F111B1C47EF00F787EB /* PAC_OFFICIEL.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = PAC_OFFICIEL.pdf; sourceTree = "<group>"; };
+		75F51F121B1C47EF00F787EB /* Patients_brules_check_list.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Patients_brules_check_list.pdf; sourceTree = "<group>"; };
+		75F51F131B1C47EF00F787EB /* Plaies,_soins_aux_urgences.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Plaies,_soins_aux_urgences.pdf"; sourceTree = "<group>"; };
+		75F51F141B1C47EF00F787EB /* Protocole_FA_2012_a.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Protocole_FA_2012_a.pdf; sourceTree = "<group>"; };
+		75F51F151B1C47EF00F787EB /* Protocole_HSA__18.06_.2013_.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Protocole_HSA__18.06_.2013_.pdf; sourceTree = "<group>"; };
+		75F51F161B1C47EF00F787EB /* SCA_Guidelines.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = SCA_Guidelines.pdf; sourceTree = "<group>"; };
+		75F51F171B1C47EF00F787EB /* Syncope_10.01_.2012__.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Syncope_10.01_.2012__.pdf; sourceTree = "<group>"; };
+		75F51F181B1C47EF00F787EB /* TCC_20120816.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = TCC_20120816.pdf; sourceTree = "<group>"; };
+		75F51F191B1C47EF00F787EB /* Tuberculose.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Tuberculose.pdf; sourceTree = "<group>"; };
+		75F51F301B1C523400F787EB /* Labo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Labo.plist; sourceTree = "<group>"; };
+		75F51F321B1C582300F787EB /* entree.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = entree.plist; sourceTree = "<group>"; };
 		75F57E781ACC2B83008C649B /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		75F58FFD1ACE97AA00398BE8 /* 06_03_AnatomyReview_MP4 768Kbpst.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "06_03_AnatomyReview_MP4 768Kbpst.png"; sourceTree = "<group>"; };
 		75F58FFE1ACE97AA00398BE8 /* 06_04_ExamingTheSkin_MP4 768Kbpst.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "06_04_ExamingTheSkin_MP4 768Kbpst.png"; sourceTree = "<group>"; };
@@ -1391,9 +1482,11 @@
 				75CE288A19F394AC002FF80F /* UDREM */,
 				7524A45719E89338006607C1 /* CV */,
 				7524A45819E89360006607C1 /* filesList.plist */,
-				75938A151B1A182200AD028D /* entree.plist */,
+				75F51F301B1C523400F787EB /* Labo.plist */,
+				75F51F321B1C582300F787EB /* entree.plist */,
+				75938A151B1A182200AD028D /* entree.old.odl.plist */,
 				75C9231E19EA90DF0005CA31 /* entree.plist.old */,
-				7506808D19EDC6C600EA0040 /* Labo.plist */,
+				7506808D19EDC6C600EA0040 /* Labo.plist.old */,
 				751771A919F7A36F009BF487 /* Videos.plist */,
 			);
 			name = PDF;
@@ -1417,6 +1510,36 @@
 				751771AC19F7A4C3009BF487 /* YouTubeVideoFile.m */,
 			);
 			name = Files;
+			sourceTree = "<group>";
+		};
+		752B42151CC3D4550025CDAC /* images */ = {
+			isa = PBXGroup;
+			children = (
+				752B42161CC3D4E30025CDAC /* icon_Expences.png */,
+				752B42171CC3D4E30025CDAC /* icon_Expences@2x.png */,
+				752B42181CC3D4E30025CDAC /* icon_Expences@3x.png */,
+				752B42191CC3D4E30025CDAC /* icon_History.png */,
+				752B421A1CC3D4E30025CDAC /* icon_History@2x.png */,
+				752B421B1CC3D4E30025CDAC /* icon_History@3x.png */,
+				752B421C1CC3D4E30025CDAC /* icon_setting.png */,
+				752B421D1CC3D4E30025CDAC /* icon_setting@2x.png */,
+				752B421E1CC3D4E30025CDAC /* icon_setting@3x.png */,
+				752B421F1CC3D4E30025CDAC /* icon_Summary.png */,
+				752B42201CC3D4E30025CDAC /* icon_Summary@2x.png */,
+				752B42211CC3D4E30025CDAC /* icon_Summary@3x.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		752B422E1CC425F70025CDAC /* IconsForTabs */ = {
+			isa = PBXGroup;
+			children = (
+				752B422F1CC4261F0025CDAC /* Add.png */,
+				752B42301CC4261F0025CDAC /* Star-100.png */,
+				752B42311CC4261F0025CDAC /* TestTube-100.png */,
+				752B42321CC4261F0025CDAC /* Chest-100.png */,
+			);
+			name = IconsForTabs;
 			sourceTree = "<group>";
 		};
 		75470CA61A09895500563414 /* INDAPVAllFiles */ = {
@@ -1920,7 +2043,6 @@
 				FCF6C4021A06423C00500E60 /* VVP.pdf */,
 				FCF6C3FA1A06417B00500E60 /* Peridurale.pdf */,
 				FCF6C3F81A06412F00500E60 /* Autopiqueur.pdf */,
-				75CE28B119F394AC002FF80F /* Injection IM et IV.pdf */,
 				75CE28B219F394AC002FF80F /* Injections.pdf */,
 				FCF6C4001A06421F00500E60 /* Sondage-vesical.pdf */,
 				FCF6C3FC1A0641D400500E60 /* PDS-vacutainer.pdf */,
@@ -1974,6 +2096,28 @@
 		75CE28C219F394AC002FF80F /* Urgences */ = {
 			isa = PBXGroup;
 			children = (
+				75F51F041B1C47EF00F787EB /* 23_BPCO_prise en charge_SU.pdf */,
+				75F51F051B1C47EF00F787EB /* 35_Diabete_01_07_08.pdf */,
+				75F51F061B1C47EF00F787EB /* 38_Embolie_pulmonaire_non_massive.pdf */,
+				75F51F071B1C47EF00F787EB /* 44_Epilepsie.pdf */,
+				75F51F081B1C47EF00F787EB /* 50_Etat_confusionnel_aigu.pdf */,
+				75F51F091B1C47EF00F787EB /* 64_Insuffisance_cardiaque_itineraire_clinique.pdf */,
+				75F51F0A1B1C47EF00F787EB /* 74_Suspicion_meningite_bacterienne.pdf */,
+				75F51F0B1B1C47EF00F787EB /* 104_Sepsis_CAU.pdf */,
+				75F51F0C1B1C47EF00F787EB /* Algorithmes_ACLS_20101.pdf */,
+				75F51F0D1B1C47EF00F787EB /* AVC_AIT_2013.pdf */,
+				75F51F0E1B1C47EF00F787EB /* Colique_nephretique_algorithme.pdf */,
+				75F51F0F1B1C47EF00F787EB /* Embolie_pulmonaire_massive_thrombolyse_08.08_.pdf */,
+				75F51F101B1C47EF00F787EB /* Hematochezie_site_SU.pdf */,
+				75F51F111B1C47EF00F787EB /* PAC_OFFICIEL.pdf */,
+				75F51F121B1C47EF00F787EB /* Patients_brules_check_list.pdf */,
+				75F51F131B1C47EF00F787EB /* Plaies,_soins_aux_urgences.pdf */,
+				75F51F141B1C47EF00F787EB /* Protocole_FA_2012_a.pdf */,
+				75F51F151B1C47EF00F787EB /* Protocole_HSA__18.06_.2013_.pdf */,
+				75F51F161B1C47EF00F787EB /* SCA_Guidelines.pdf */,
+				75F51F171B1C47EF00F787EB /* Syncope_10.01_.2012__.pdf */,
+				75F51F181B1C47EF00F787EB /* TCC_20120816.pdf */,
+				75F51F191B1C47EF00F787EB /* Tuberculose.pdf */,
 				FCF6C4081A0643F100500E60 /* Spine.pdf */,
 				FCF6C4041A0643EC00500E60 /* BLS.pdf */,
 				FCF6C4051A0643EC00500E60 /* Primary survey.pdf */,
@@ -2330,6 +2474,10 @@
 		C3080DE917FE86B8008AE8CC /* NewsFeeder */ = {
 			isa = PBXGroup;
 			children = (
+				752B422E1CC425F70025CDAC /* IconsForTabs */,
+				752B42151CC3D4550025CDAC /* images */,
+				752B42121CC3D3B10025CDAC /* VMTabBar.h */,
+				752B42131CC3D3B10025CDAC /* VMTabBar.m */,
 				75F51EFF1B1A6A4B00F787EB /* AboutViewController.h */,
 				75F51F001B1A6A4B00F787EB /* AboutViewController.m */,
 				7592B8721ACC375100C87CF8 /* UNIGE_Medecine_logo.jpg */,
@@ -2525,6 +2673,11 @@
 		C3080E3F17FE8827008AE8CC /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				7517683D1B25E61C002525D3 /* System San Francisco Display Bold.ttf */,
+				7517683E1B25E61C002525D3 /* System San Francisco Display Medium.ttf */,
+				7517683F1B25E61C002525D3 /* System San Francisco Display Regular.ttf */,
+				751768401B25E61C002525D3 /* System San Francisco Display Thin.ttf */,
+				751768411B25E61C002525D3 /* System San Francisco Display Ultralight.ttf */,
 				7524A45619E89331006607C1 /* PDF */,
 				C3080E6F17FE9397008AE8CC /* strings.plist */,
 				C3080E4017FE8827008AE8CC /* Images */,
@@ -2832,7 +2985,7 @@
 				ORGANIZATIONNAME = "Cristian Ronaldo";
 				TargetAttributes = {
 					C3080DDF17FE86B8008AE8CC = {
-						DevelopmentTeam = X7SL522Y9M;
+						DevelopmentTeam = AP8R48QBS4;
 					};
 					C3080E0017FE86B8008AE8CC = {
 						TestTargetID = C3080DDF17FE86B8008AE8CC;
@@ -2871,6 +3024,7 @@
 				75F590841ACEB66700398BE8 /* 13_08_SpecialTechniques_MP4 768Kbpst.png in Resources */,
 				FCB847DE19FE90880047D902 /* Uro-génital - Urétrites.pdf in Resources */,
 				75AB216B1A24B70F007829C7 /* minisplas2hbig.png in Resources */,
+				75F51F1B1B1C47EF00F787EB /* 35_Diabete_01_07_08.pdf in Resources */,
 				75CE28D919F394AC002FF80F /* Neuro3.pdf in Resources */,
 				75470D3B1A09895600563414 /* PageCurl.png in Resources */,
 				FCF6C3FD1A0641D400500E60 /* PDS-vacutainer.pdf in Resources */,
@@ -2896,10 +3050,14 @@
 				C3080E8D17FEA685008AE8CC /* feed_example1.png in Resources */,
 				C3080EE317FED422008AE8CC /* add_recommend2@2x.png in Resources */,
 				75F590761ACEB66700398BE8 /* 11_08_AssessingVenousInsuffiencyt.png in Resources */,
+				75F51F211B1C47EF00F787EB /* 104_Sepsis_CAU.pdf in Resources */,
 				FCB847DA19FE90880047D902 /* Uro-génital - Hématurie microscopique.pdf in Resources */,
 				75F590731ACEB66700398BE8 /* 11_05_ExaminingAbdoment.png in Resources */,
+				75F51F2E1B1C47EF00F787EB /* TCC_20120816.pdf in Resources */,
+				75F51F2B1B1C47EF00F787EB /* Protocole_HSA__18.06_.2013_.pdf in Resources */,
 				75D6F30D1ADBE66100B7191F /* 02_01_HTTInfant_MP4 768Kbpst.png in Resources */,
 				75F5908B1ACEB66700398BE8 /* 18_01_Complet sensitif et réflexe.png in Resources */,
+				752B42331CC4261F0025CDAC /* Add.png in Resources */,
 				FCB847D519FE90880047D902 /* Prévention - Vaccination.pdf in Resources */,
 				FCB847D919FE90880047D902 /* Uro-génital - Colique néphrétique.pdf in Resources */,
 				FCB847C519FE90880047D902 /* Immuno-allergologique - Rhinite allergique.pdf in Resources */,
@@ -2912,13 +3070,13 @@
 				C3080DFC17FE86B8008AE8CC /* Images.xcassets in Resources */,
 				75D6F3151ADBE66100B7191F /* 02_09_ThoraxLungs_MP4 768Kbpst.png in Resources */,
 				75F51EFC1B1A4BB300F787EB /* Feedback-100.png in Resources */,
+				752B42281CC3D4E30025CDAC /* icon_setting.png in Resources */,
 				C3080E7417FE9B79008AE8CC /* menu_color_selected.png in Resources */,
 				75470D3D1A09895600563414 /* Printer.png in Resources */,
 				752E3B6F1A1B383A003573E0 /* bigsplash.png in Resources */,
 				C3080E5917FE8827008AE8CC /* menu_vbar@2x.png in Resources */,
 				75F590181ACEA0D000398BE8 /* 07_01_HeadEyesEars.png in Resources */,
 				75470D261A09895600563414 /* BookCover_2.png in Resources */,
-				75CE28DE19F394AC002FF80F /* Injection IM et IV.pdf in Resources */,
 				75D6F2FD1ADBE66100B7191F /* 14_01_MaleGenitalia_MP4 768Kbpst.png in Resources */,
 				75F5907E1ACEB66700398BE8 /* Pouls carotidien.png in Resources */,
 				75F5909C1ACEB66700398BE8 /* 16_13_ExaminingHips_MP4 768Kbpst.png in Resources */,
@@ -2926,8 +3084,10 @@
 				C3080E5017FE8827008AE8CC /* menu_cell_separator.png in Resources */,
 				75D6F32A1ADBE66100B7191F /* 12_02_AnatomyReviewt.png in Resources */,
 				75F590B21ACEBD2B00398BE8 /* 09_01_ThoraxLungs_MP4 768Kbpst.png in Resources */,
+				75F51F1C1B1C47EF00F787EB /* 38_Embolie_pulmonaire_non_massive.pdf in Resources */,
 				FCB847C919FE90880047D902 /* Neurologique - Céphalées.pdf in Resources */,
 				75932D9319F1B41F00D24223 /* note-48.png in Resources */,
+				75F51F2F1B1C47EF00F787EB /* Tuberculose.pdf in Resources */,
 				75F5907F1ACEB66700398BE8 /* 13_03_AnatomyReviewAbdomen_MP4 768Kbpst.png in Resources */,
 				75CE28F319F3AC96002FF80F /* pdf.png in Resources */,
 				75470D301A09895600563414 /* Color_Purple.png in Resources */,
@@ -2935,26 +3095,31 @@
 				C3080E4C17FE8827008AE8CC /* menu_cell_icon_favor.png in Resources */,
 				75E3859019EFCC94006C60FF /* blocktags in Resources */,
 				C3080F0817FEEDF8008AE8CC /* invite_tw_cursor@2x.png in Resources */,
+				75F51F1F1B1C47EF00F787EB /* 64_Insuffisance_cardiaque_itineraire_clinique.pdf in Resources */,
 				C3080E4F17FE8827008AE8CC /* menu_cell_icon_pager@2x.png in Resources */,
+				752B42241CC3D4E30025CDAC /* icon_Expences@3x.png in Resources */,
 				7592B8821ACC91D200C87CF8 /* 09_02_AnatomyReviewThoraxLungs_MP4 768Kbpst.png in Resources */,
 				75C50B8719FCF3960011698B /* erase-48.png in Resources */,
 				75470D791A09B35F00563414 /* more-48.png in Resources */,
 				758BDA7919FBB664000EBC90 /* home-50.png in Resources */,
 				C3080E5217FE8827008AE8CC /* menu_example1.png in Resources */,
+				75F51F2C1B1C47EF00F787EB /* SCA_Guidelines.pdf in Resources */,
 				FCB847DC19FE90880047D902 /* Uro-génital - Lithiase urinaire.pdf in Resources */,
 				75470D2E1A09895600563414 /* Color_Orange.png in Resources */,
 				75D3C93E1A17B64B003D5B57 /* MMS.pdf in Resources */,
 				75470D811A0A0D2E00563414 /* categorize-48.png in Resources */,
 				C3080F0A17FEEDF8008AE8CC /* invite_twitter@2x.png in Resources */,
 				758BDA8519FBBEDB000EBC90 /* searchB-50.png in Resources */,
+				75F51F271B1C47EF00F787EB /* PAC_OFFICIEL.pdf in Resources */,
 				75F590AE1ACEB66700398BE8 /* 01_15_LowerExtremities_MP4 768Kbpst.png in Resources */,
+				75F51F261B1C47EF00F787EB /* Hematochezie_site_SU.pdf in Resources */,
 				C3080EB617FEC341008AE8CC /* setting_cell_order.png in Resources */,
 				C3080E8B17FEA685008AE8CC /* feed_comment_bg.png in Resources */,
 				FCB847D419FE90880047D902 /* Prévention - Dépistage.pdf in Resources */,
 				75D869A719F905EE00F53AF1 /* filter-50.png in Resources */,
 				75F590821ACEB66700398BE8 /* 13_06_ExaminingSpleen_MP4 768Kbpst.png in Resources */,
 				75103A8219FD635100BD458D /* Rachis.pdf in Resources */,
-				75938A161B1A182200AD028D /* entree.plist in Resources */,
+				75938A161B1A182200AD028D /* entree.old.odl.plist in Resources */,
 				759EAFBB19F7AD06008348F7 /* play-50.png in Resources */,
 				75CE28D519F394AC002FF80F /* Loco2.pdf in Resources */,
 				75F5C2751A30A6FB004D6354 /* foundation_play-circle_simple-white_128x128.png in Resources */,
@@ -2964,6 +3129,7 @@
 				7592B8771ACC5D7500C87CF8 /* unige.png in Resources */,
 				75103A8319FD635100BD458D /* Pied.pdf in Resources */,
 				75CE28E619F394AC002FF80F /* Depression.pdf in Resources */,
+				751768441B25E61C002525D3 /* System San Francisco Display Regular.ttf in Resources */,
 				75470D7F1A0A0C3400563414 /* bookmark-48.png in Resources */,
 				75CE28CB19F394AC002FF80F /* Coude.pdf in Resources */,
 				FCB847BD19FE90880047D902 /* Dermatologie - Acnée- verrues-mycoses.pdf in Resources */,
@@ -2971,6 +3137,7 @@
 				FCB847CC19FE90880047D902 /* ORL-Pneumo - Asthme.pdf in Resources */,
 				75F5901F1ACEA0D000398BE8 /* 08_01_NoseMouthNeck.png in Resources */,
 				75CE28E419F394AC002FF80F /* Polycopié de pharmacologieold 2014.pdf in Resources */,
+				75F51F2D1B1C47EF00F787EB /* Syncope_10.01_.2012__.pdf in Resources */,
 				75CE28C919F394AC002FF80F /* vascularisationSNC2013.pdf in Resources */,
 				75103A8619FD635100BD458D /* Epaule.pdf in Resources */,
 				FCB847C719FE90880047D902 /* Infectieux - Fièvre au retour de voyage.pdf in Resources */,
@@ -2979,6 +3146,7 @@
 				C3080EFE17FEEDF8008AE8CC /* invite_example1.png in Resources */,
 				75F590701ACEB66700398BE8 /* 11_01_Examen vasculaire complet.png in Resources */,
 				75D6F3231ADBE66100B7191F /* 03_09_ThoraxLungs_MP4 768Kbpst.png in Resources */,
+				75F51F291B1C47EF00F787EB /* Plaies,_soins_aux_urgences.pdf in Resources */,
 				75F590A01ACEB66700398BE8 /* 16_17_ExaminingAnklesFeet_MP4 768Kbpst.png in Resources */,
 				FCB847C619FE90880047D902 /* Immuno-allergologique - Urticaire et angio-oedème.pdf in Resources */,
 				FCB847B919FE90880047D902 /* Cardiovasculaire - IC chronique.pdf in Resources */,
@@ -3012,6 +3180,7 @@
 				FCB847D019FE90880047D902 /* ORL-Pneumo - Toux chronique.pdf in Resources */,
 				7592B8811ACC91D200C87CF8 /* 09_03_BeginningExamination_MP4 768Kbpst.png in Resources */,
 				75D6F30F1ADBE66100B7191F /* 02_03_VitalSigns_MP4 768Kbpst.png in Resources */,
+				75F51F2A1B1C47EF00F787EB /* Protocole_FA_2012_a.pdf in Resources */,
 				75CE28FD19F417B7002FF80F /* empty_filter-26.png in Resources */,
 				7506807A19EB245200EA0040 /* Arrow up.png in Resources */,
 				75D6F3121ADBE66100B7191F /* 02_06_Eyes_MP4 768Kbpst.png in Resources */,
@@ -3027,6 +3196,7 @@
 				75F590801ACEB66700398BE8 /* 13_04_ExaminingAbdomen_MP4 768Kbpst.png in Resources */,
 				75F5908E1ACEB66700398BE8 /* 18_04_AnatomyReviewReflexes_MP4 768Kbpst.png in Resources */,
 				C3080EDB17FED422008AE8CC /* add_news2@2x.png in Resources */,
+				752B42251CC3D4E30025CDAC /* icon_History.png in Resources */,
 				75F590931ACEB66700398BE8 /* 16_04_AnatomyReviewShoulders_MP4 768Kbpst.png in Resources */,
 				FCF6C40B1A06594A00500E60 /* Plan-de-vaccination-2014.pdf in Resources */,
 				75AB21701A24C6B2007829C7 /* star-50.png in Resources */,
@@ -3041,6 +3211,7 @@
 				C3080F0317FEEDF8008AE8CC /* invite_plus.png in Resources */,
 				C3080EA417FEBE55008AE8CC /* navbar_back.png in Resources */,
 				C3080E5817FE8827008AE8CC /* menu_vbar.png in Resources */,
+				751768421B25E61C002525D3 /* System San Francisco Display Bold.ttf in Resources */,
 				75CE28F119F3AB82002FF80F /* Semiologie3.pdf in Resources */,
 				75F590791ACEB66700398BE8 /* auscultation cardiaque.png in Resources */,
 				75F590211ACEA0D000398BE8 /* 08_03_HealthHistory.png in Resources */,
@@ -3062,6 +3233,7 @@
 				75D3C9421A18C796003D5B57 /* memo.png in Resources */,
 				75470D351A09895600563414 /* Done_PGreen.png in Resources */,
 				75470D411A09895600563414 /* SelectedDone_Land_iPhone.png in Resources */,
+				752B422B1CC3D4E30025CDAC /* icon_Summary.png in Resources */,
 				75D6F2FA1ADBE66100B7191F /* Bates15_ExamIntFemaleGent.png in Resources */,
 				75F590A41ACEB66700398BE8 /* 01_05_HEENT_MP4 768Kbpst.png in Resources */,
 				75D6F2FF1ADBE66100B7191F /* 14_04_ExaminingMaleGenitalia_MP4 768Kbpst.png in Resources */,
@@ -3084,11 +3256,13 @@
 				75C9232419EA94810005CA31 /* check-off.png in Resources */,
 				C3080EA517FEBE55008AE8CC /* navbar_back@2x.png in Resources */,
 				C3080EDA17FED422008AE8CC /* add_news2.png in Resources */,
+				752B42341CC4261F0025CDAC /* Star-100.png in Resources */,
 				C3080E7917FE9E5B008AE8CC /* menu_icon_plus@2x.png in Resources */,
 				75D6F30B1ADBE66100B7191F /* 04_08_GenitalRectal_MP4 768Kbpst.png in Resources */,
 				FCF6C3ED1A06372600500E60 /* Bassin.pdf in Resources */,
 				75F590881ACEB66700398BE8 /* 17_04_ExaminingCNI-XII_MP4 768Kbpst.png in Resources */,
 				75D6F31C1ADBE66100B7191F /* 03_02_GeneralSurveySomaticGrowth_MP4 768Kbpst.png in Resources */,
+				75F51F1D1B1C47EF00F787EB /* 44_Epilepsie.pdf in Resources */,
 				75D6F3221ADBE66100B7191F /* 03_08_MouthPharynx_MP4 768Kbpst.png in Resources */,
 				75F590941ACEB66700398BE8 /* 16_05_ExaminingShoulders_MP4 768Kbpst.png in Resources */,
 				75470D6B1A09895600563414 /* SearchingView.xib in Resources */,
@@ -3096,14 +3270,18 @@
 				C3080E8C17FEA685008AE8CC /* feed_comment_bg@2x.png in Resources */,
 				75F5C2731A30A65B004D6354 /* foundation_play-circle_simple-white_64x64.png in Resources */,
 				75CE28F919F3B6D9002FF80F /* switch_on-48.png in Resources */,
+				75F51F221B1C47EF00F787EB /* Algorithmes_ACLS_20101.pdf in Resources */,
 				75F5909F1ACEB66700398BE8 /* 16_16_AnatomyReviewAnklesFeet_MP4 768Kbpst.png in Resources */,
 				C3080EB717FEC341008AE8CC /* setting_cell_order@2x.png in Resources */,
 				75F590A61ACEB66700398BE8 /* 01_07_TheNeck_MP4 768Kbpst.png in Resources */,
 				75CE28E819F394AC002FF80F /* Sémiologie.pdf in Resources */,
 				75103A7F19FD635100BD458D /* Myologie dos.pdf in Resources */,
 				C3080E8217FEA622008AE8CC /* navbar_menu.png in Resources */,
+				752B42271CC3D4E30025CDAC /* icon_History@3x.png in Resources */,
 				75F590AA1ACEB66700398BE8 /* 01_11_AnteriorThoraxLungs_MP4 768Kbpst.png in Resources */,
+				75F51F241B1C47EF00F787EB /* Colique_nephretique_algorithme.pdf in Resources */,
 				FCB847C819FE90880047D902 /* Métabolique - Diabète type 2.pdf in Resources */,
+				75F51F281B1C47EF00F787EB /* Patients_brules_check_list.pdf in Resources */,
 				7537832E1A11314400B716B8 /* logo.png in Resources */,
 				758BDA8719FBC1F1000EBC90 /* cancel-32.png in Resources */,
 				75470D6F1A09895600563414 /* iPhone Development.pdf in Resources */,
@@ -3114,7 +3292,9 @@
 				7524A47D19EA5FD1006607C1 /* external-50.png in Resources */,
 				75F5907B1ACEB66700398BE8 /* Estimation PJ.png in Resources */,
 				75CE28D319F394AC002FF80F /* Digestif2.pdf in Resources */,
+				75F51F331B1C582300F787EB /* entree.plist in Resources */,
 				75103A8519FD635100BD458D /* Main.pdf in Resources */,
+				75F51F231B1C47EF00F787EB /* AVC_AIT_2013.pdf in Resources */,
 				FCB847C019FE90880047D902 /* Gastro-intestinal - Douleur abdo chronique et intestin irritiable.pdf in Resources */,
 				75D6F3161ADBE66100B7191F /* 02_10_Heart_MP4 768Kbpst.png in Resources */,
 				C3080EB517FEC341008AE8CC /* setting_cell_indicator@2x.png in Resources */,
@@ -3130,6 +3310,7 @@
 				FCB847D319FE90880047D902 /* Pharmacologique - Douleur aigue.pdf in Resources */,
 				75470D711A09A97C00563414 /* message-50.png in Resources */,
 				75F5909D1ACEB66700398BE8 /* 16_14_AnatomyReviewKnees_MP4 768Kbpst.png in Resources */,
+				75F51F1E1B1C47EF00F787EB /* 50_Etat_confusionnel_aigu.pdf in Resources */,
 				C3080E5517FE8827008AE8CC /* menu_layout_pen@2x.png in Resources */,
 				75F5909B1ACEB66700398BE8 /* 16_12_AnatomyReviewHips_MP4 768Kbpst.png in Resources */,
 				75D6F2FC1ADBE66100B7191F /* Bates15_RectoExamt.png in Resources */,
@@ -3149,6 +3330,7 @@
 				75D6F3181ADBE66100B7191F /* 02_12_GenitaliaRectum_MP4 768Kbpst.png in Resources */,
 				75CE28D419F394AC002FF80F /* Loco1.pdf in Resources */,
 				75D6F3131ADBE66100B7191F /* 02_07_EarsNose_MP4 768Kbpst.png in Resources */,
+				751768461B25E61C002525D3 /* System San Francisco Display Ultralight.ttf in Resources */,
 				75F5908C1ACEB66700398BE8 /* 18_02_AnatomyReviewSensorySystem_MP4 768Kbpst.png in Resources */,
 				FCB847BF19FE90880047D902 /* Gastro-intestinal - Diarrhée aigues.pdf in Resources */,
 				C3080ED817FED422008AE8CC /* add_news1.png in Resources */,
@@ -3157,6 +3339,7 @@
 				FCB847BC19FE90880047D902 /* Communication - Approches de la consultation.pdf in Resources */,
 				75470D271A09895600563414 /* Bookmark_Gray.png in Resources */,
 				75D6F2FE1ADBE66100B7191F /* 14_03_AnatomyReviewGenitaliaHernias_MP4 768Kbpst.png in Resources */,
+				75F51F201B1C47EF00F787EB /* 74_Suspicion_meningite_bacterienne.pdf in Resources */,
 				75D6F3091ADBE66100B7191F /* 04_06_ThoraxLungsCardiovacular_MP4 768Kbpst.png in Resources */,
 				758BDA8119FBB88B000EBC90 /* info-50.png in Resources */,
 				756124EF1A0D2C650096E2B8 /* video_camera-50.png in Resources */,
@@ -3174,13 +3357,15 @@
 				C3080E7017FE9397008AE8CC /* strings.plist in Resources */,
 				75D6F3271ADBE66100B7191F /* 03_13_MusculoskeletalSystem_MP4 768Kbpst.png in Resources */,
 				FCF6C3E11A0633A900500E60 /* Cahier TP.pdf in Resources */,
+				752B42361CC4261F0025CDAC /* Chest-100.png in Resources */,
 				75470D3E1A09895600563414 /* Search_Page.png in Resources */,
 				75F590201ACEA0D000398BE8 /* 08_02_AnatomyReviewNose.png in Resources */,
 				C3080ED917FED422008AE8CC /* add_news1@2x.png in Resources */,
 				75CE28DA19F394AC002FF80F /* Respiratoire.pdf in Resources */,
 				FCB847C419FE90880047D902 /* Hématologie - Déficit B12.pdf in Resources */,
-				7506808E19EDC6C600EA0040 /* Labo.plist in Resources */,
+				7506808E19EDC6C600EA0040 /* Labo.plist.old in Resources */,
 				FCB847DD19FE90880047D902 /* Uro-génital - Recommandations IST.pdf in Resources */,
+				751768451B25E61C002525D3 /* System San Francisco Display Thin.ttf in Resources */,
 				75D6F30E1ADBE66100B7191F /* 02_02_GeneralSurveySomaticGrowth_MP4 768Kbpst.png in Resources */,
 				75CE290719F42EC3002FF80F /* medecine50.jpg in Resources */,
 				75CE28D119F394AC002FF80F /* Cardio.pdf in Resources */,
@@ -3191,11 +3376,13 @@
 				75F5907D1ACEB66700398BE8 /* grades des souffles.png in Resources */,
 				FCB847C319FE90880047D902 /* Hématologie - Anémie.pdf in Resources */,
 				75D6F3101ADBE66100B7191F /* 02_04_Skin_MP4 768Kbpst.png in Resources */,
+				752B422D1CC3D4E30025CDAC /* icon_Summary@3x.png in Resources */,
 				FCF6C3E91A06365300500E60 /* Genou.pdf in Resources */,
 				75F590981ACEB66700398BE8 /* 16_09_ExaminingWristsHands_MP4 768Kbpst.png in Resources */,
 				C3080EFF17FEEDF8008AE8CC /* invite_fb.png in Resources */,
 				75F590A91ACEB66700398BE8 /* 01_10_Breasts_MP4 768Kbpst.png in Resources */,
 				75CE28ED19F3995D002FF80F /* pdf-50.png in Resources */,
+				75F51F251B1C47EF00F787EB /* Embolie_pulmonaire_massive_thrombolyse_08.08_.pdf in Resources */,
 				C3080EE217FED422008AE8CC /* add_recommend2.png in Resources */,
 				75CE28FF19F417C1002FF80F /* filled_filter-26.png in Resources */,
 				C3080E5117FE8827008AE8CC /* menu_cell_separator@2x.png in Resources */,
@@ -3223,11 +3410,15 @@
 				75F5908D1ACEB66700398BE8 /* 18_03_ExaminingSensorySystem_MP4 768Kbpst.png in Resources */,
 				75470D2F1A09895600563414 /* Color_Pink.png in Resources */,
 				75470D311A09895600563414 /* Color_Red.png in Resources */,
+				75F51F1A1B1C47EF00F787EB /* 23_BPCO_prise en charge_SU.pdf in Resources */,
 				7506807219EAFB7900EA0040 /* QuestionsHeader.xib in Resources */,
 				7506807B19EB245200EA0040 /* Mail envelope.png in Resources */,
 				7506808219EC661000EA0040 /* Plus_black.png in Resources */,
 				75F590811ACEB66700398BE8 /* 13_05_ExaminingLiver_MP4 768Kbpst.png in Resources */,
 				75F5C2711A30A545004D6354 /* bfa_play_flat-circle-white-on-light-gray_64x64.png in Resources */,
+				752B42231CC3D4E30025CDAC /* icon_Expences@2x.png in Resources */,
+				752B42221CC3D4E30025CDAC /* icon_Expences.png in Resources */,
+				752B42291CC3D4E30025CDAC /* icon_setting@2x.png in Resources */,
 				C36FBE5A181D5CCF007AE52A /* navbar_uparrow@2x.png in Resources */,
 				C36FBE56181D59A3007AE52A /* feed_option_bg@2x.png in Resources */,
 				75F5908F1ACEB66700398BE8 /* 18_05_AssessmentOfReflexes_MP4 768Kbpst.png in Resources */,
@@ -3244,6 +3435,7 @@
 				C3080DF717FE86B8008AE8CC /* Main.storyboard in Resources */,
 				756124EC1A0D1D2F0096E2B8 /* Carnet bleu des urgences pédiatriques 2010.pdf in Resources */,
 				75470D291A09895600563414 /* Brightness.png in Resources */,
+				752B42351CC4261F0025CDAC /* TestTube-100.png in Resources */,
 				FCB847CB19FE90880047D902 /* Ophtalmologique - Oeil rouge.pdf in Resources */,
 				75D6F3261ADBE66100B7191F /* 03_12_FemaleChildGenitalia_MP4 768Kbpst.png in Resources */,
 				75F590A31ACEB66700398BE8 /* 01_04_TheSkin_MP4 768Kbpst.png in Resources */,
@@ -3257,6 +3449,7 @@
 				C3080EDE17FED422008AE8CC /* add_news4.png in Resources */,
 				75F590AD1ACEB66700398BE8 /* 01_14_PeripheralVascularSystem_MP4 768Kbpst.png in Resources */,
 				7524A45419E8932C006607C1 /* Katz-AVQ.pdf in Resources */,
+				751768431B25E61C002525D3 /* System San Francisco Display Medium.ttf in Resources */,
 				7506807719EB1DDE00EA0040 /* checkmark_icon48.png in Resources */,
 				C3080EB417FEC341008AE8CC /* setting_cell_indicator.png in Resources */,
 				75CE28CA19F394AC002FF80F /* Cahier TP genitaux.pdf in Resources */,
@@ -3268,6 +3461,7 @@
 				C3080E5417FE8827008AE8CC /* menu_layout_pen.png in Resources */,
 				75D3C93C1A17A293003D5B57 /* eraser-50.png in Resources */,
 				C3080EA817FEC08D008AE8CC /* search_close.png in Resources */,
+				752B422A1CC3D4E30025CDAC /* icon_setting@3x.png in Resources */,
 				C3080E8317FEA622008AE8CC /* navbar_menu@2x.png in Resources */,
 				C3080F0617FEEDF8008AE8CC /* invite_refresh@2x.png in Resources */,
 				751771AA19F7A36F009BF487 /* Videos.plist in Resources */,
@@ -3275,8 +3469,10 @@
 				75F590951ACEB66700398BE8 /* 16_06_AnatomyReviewElbows_MP4 768Kbpst.png in Resources */,
 				75103A7E19FD635100BD458D /* Main-innervation.pdf in Resources */,
 				75F590721ACEB66700398BE8 /* 11_04_ExaminingArmst.png in Resources */,
+				75F51F311B1C523400F787EB /* Labo.plist in Resources */,
 				75CE28CC19F394AC002FF80F /* Genou.pdf in Resources */,
 				75CE28D619F394AC002FF80F /* Loco3.pdf in Resources */,
+				752B42261CC3D4E30025CDAC /* icon_History@2x.png in Resources */,
 				7524A45919E89360006607C1 /* filesList.plist in Resources */,
 				75D6F3011ADBE66100B7191F /* 14_06_AnatomyReviewRectum_MP4 768Kbpst.png in Resources */,
 				758BDA8319FBBC28000EBC90 /* cancel-48.png in Resources */,
@@ -3303,6 +3499,7 @@
 				75F590041ACE9ABA00398BE8 /* 06_01_Skin_MP4 768Kbpst.png in Resources */,
 				75470D391A09895600563414 /* MultiPage.png in Resources */,
 				FCB847BB19FE90880047D902 /* Cardiovasculaire - Thrombose veineuse.pdf in Resources */,
+				752B422C1CC3D4E30025CDAC /* icon_Summary@2x.png in Resources */,
 				C3080E8517FEA622008AE8CC /* navbar_search@2x.png in Resources */,
 				75D6F30C1ADBE66100B7191F /* 04_09_MusculoskeletalAndNervous_MP4 768Kbpst.png in Resources */,
 				75470D3C1A09895600563414 /* PageScroll.png in Resources */,
@@ -3422,6 +3619,7 @@
 				75470D651A09895600563414 /* INDAPVStringDetector.m in Sources */,
 				75470D4F1A09895600563414 /* INDAPVPreviewRender.m in Sources */,
 				758BDA7419FBA510000EBC90 /* ATCAnimatedTransitioningFade.m in Sources */,
+				752B42141CC3D3B10025CDAC /* VMTabBar.m in Sources */,
 				756124E91A0B81B30096E2B8 /* SearchOperation.m in Sources */,
 				758BDA7219FBA510000EBC90 /* ATCAnimatedTransitioning.m in Sources */,
 				758BDA7719FBA510000EBC90 /* ATCTransitioningDelegate.m in Sources */,
@@ -3616,6 +3814,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-1";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "NewsFeeder/HeadToToe-Prefix.pch";
 				INFOPLIST_FILE = "NewsFeeder/HeadToToe-Info.plist";
@@ -3640,6 +3839,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-1";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "NewsFeeder/HeadToToe-Prefix.pch";
 				INFOPLIST_FILE = "NewsFeeder/HeadToToe-Info.plist";
